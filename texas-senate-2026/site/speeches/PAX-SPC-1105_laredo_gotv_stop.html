@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laredo（拉雷多）催票活动——PAX-SPC-1105 · Get-out-the-vote stop, Laredo — PAX-SPC-1105</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--muted:#6b6760;--line:#e3ded4;--accent:#8c2f1e;--accent2:#1f4e5f;--card:#fff;--en:#1c1b19;--zh:#243b4a}
+@media (prefers-color-scheme:dark){:root{--bg:#16171a;--fg:#e8e6e1;--muted:#a3a09a;--line:#2e3138;--accent:#e0796a;--accent2:#7fb3c4;--card:#1d1f24;--en:#e8e6e1;--zh:#a9c6d6}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.72 -apple-system,"Segoe UI","Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.6rem 1.1rem;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.01em;color:var(--fg)}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+nav.main{display:flex;gap:.15rem;flex-wrap:wrap;margin-left:auto}
+nav.main a{padding:.28rem .55rem;border-radius:6px;color:var(--muted);font-size:.9rem}
+nav.main a.on,nav.main a:hover{background:var(--line);color:var(--fg);text-decoration:none}
+.modes{display:flex;gap:.2rem;border:1px solid var(--line);border-radius:8px;padding:.15rem}
+.modes button{background:none;border:0;color:var(--muted);font:inherit;font-size:.8rem;padding:.2rem .45rem;border-radius:6px;cursor:pointer}
+.modes button.on{background:var(--accent);color:#fff}
+.layout{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr);gap:2rem;padding:1.6rem 1.1rem 4rem}
+aside.toc{position:sticky;top:4.2rem;align-self:start;max-height:calc(100vh - 5rem);overflow:auto;font-size:.86rem;border-left:2px solid var(--line);padding-left:.9rem}
+aside.toc h4{margin:.2rem 0 .6rem;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+aside.toc a{display:block;padding:.18rem 0;color:var(--muted);line-height:1.45}
+aside.toc a:hover{color:var(--fg)}
+aside.toc a.h3{padding-left:.7rem;font-size:.82rem;opacity:.85}
+main{min-width:0}
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.crumb a{color:var(--muted)}
+h1{font-size:1.85rem;line-height:1.3;margin:.2rem 0 .4rem}
+h1 .zh{display:block;font-size:1.15rem;color:var(--muted);font-weight:500;margin-top:.35rem}
+h2{font-size:1.28rem;margin:2.4rem 0 .7rem;padding-top:.6rem;border-top:1px solid var(--line)}
+h3{font-size:1.08rem;margin:1.7rem 0 .5rem}
+h4{font-size:1rem;margin:1.3rem 0 .4rem}
+p{margin:.55rem 0}
+code{background:var(--line);padding:.08em .32em;border-radius:4px;font-size:.86em;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem;overflow:auto}
+pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
+blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
+blockquote p{margin:.35rem 0}
+.table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
+tbody tr:hover{background:color-mix(in srgb,var(--line) 45%,transparent)}
+ul,ol{margin:.5rem 0 .7rem;padding-left:1.35rem}
+li{margin:.22rem 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin:.6rem 0;align-items:start}
+.pair .col{min-width:0}
+.pair .en{color:var(--en)}
+.pair .zh{color:var(--zh);border-left:2px solid var(--line);padding-left:1.1rem;font-size:.97em}
+body.mode-en .zh,body.mode-en .pair .zh{display:none}
+body.mode-en .pair{grid-template-columns:1fr}
+body.mode-zh .en,body.mode-zh .pair .en{display:none}
+body.mode-zh .pair{grid-template-columns:1fr}
+body.mode-zh li.en,body.mode-zh .blk.en{display:none}
+body.mode-en li.zh,body.mode-en .blk.zh{display:none}
+.blk.mix{display:block}
+.meta{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:.4rem 0 1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1rem;margin:1.2rem 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card h3{margin:.1rem 0 .45rem;font-size:1.02rem}
+.card p{margin:.2rem 0;color:var(--muted);font-size:.85rem;line-height:1.6}
+.card .n{font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1.1}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.8rem;margin:1.2rem 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem}
+.stat b{display:block;font-size:1.45rem;color:var(--accent);line-height:1.2}
+.stat span{font-size:.78rem;color:var(--muted)}
+.hero{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,transparent),color-mix(in srgb,var(--accent2) 12%,transparent));border:1px solid var(--line);border-radius:16px;padding:2rem 1.8rem;margin:0 0 1.6rem}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+.hero p{color:var(--muted);max-width:62ch}
+.search{position:relative;margin:1.2rem 0}
+.search input{width:100%;padding:.85rem 1rem;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+#results{margin-top:.8rem;display:grid;gap:.5rem}
+.hit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem}
+.hit .t{font-weight:600}
+.hit .s{font-size:.8rem;color:var(--muted);margin-top:.2rem}
+.hit mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
+.gal figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.gal img{width:100%;height:210px;object-fit:cover;display:block;background:var(--line)}
+.gal figcaption{padding:.55rem .65rem;font-size:.74rem;color:var(--muted);line-height:1.45}
+.gal figcaption b{color:var(--fg);font-weight:600;display:block;font-size:.8rem}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.4rem 1.1rem;color:var(--muted);font-size:.8rem}
+footer .in{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.src{font-family:ui-monospace,Consolas,monospace;font-size:.78em;padding:.02em .32em;border:1px solid var(--line);border-radius:4px;color:var(--accent2);white-space:nowrap;text-decoration:none}
+.src:hover{background:color-mix(in srgb,var(--accent2) 14%,transparent);text-decoration:none;border-color:var(--accent2)}
+a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
+.nolink{display:flex;flex-direction:column;justify-content:center;align-items:center;height:210px;padding:1rem;text-align:center;background:repeating-linear-gradient(45deg,var(--line) 0 6px,transparent 6px 12px);font-size:.8rem;color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem;margin:1rem 0 1.6rem}
+.shots a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card)}
+.shots img{width:100%;height:130px;object-fit:cover;display:block}
+.shots span{display:block;font-size:.68rem;color:var(--muted);padding:.25rem .35rem;line-height:1.35}
+.tag{display:inline-block;font-size:.72rem;padding:.1rem .45rem;border-radius:999px;background:var(--line);color:var(--muted);margin-right:.3rem}
+.warn{background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:10px;padding:.85rem 1rem;margin:1rem 0;font-size:.9rem}
+@media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
+@media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
+</style>
+</head><body>
+<header class="top"><div class="top-in">
+  <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="on" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  <aside class="toc"><h4>本页目录 / On this page</h4>
+<a class="" href="#1-speech-context-演讲背景">1. Speech context / 演讲背景</a>
+<a class="" href="#2-main-argument-主要论点">2. Main argument / 主要论点</a>
+<a class="" href="#3-speech-structure-演讲结构">3. Speech structure / 演讲结构</a>
+<a class="" href="#4-opening-and-closing-开场与结尾">4. Opening and closing / 开场与结尾</a>
+<a class="" href="#5-main-policy-positions-主要政策立场">5. Main policy positions / 主要政策立场</a>
+<a class="" href="#6-personal-stories-个人故事">6. Personal stories / 个人故事</a>
+<a class="" href="#7-repeated-slogans-反复出现的口号">7. Repeated slogans / 反复出现的口号</a>
+<a class="" href="#8-key-quotations-with-timestamps-关键引语与时间码">8. Key quotations with timestamps / 关键引语与时间码</a>
+<a class="" href="#9-audience-reactions-听众反应">9. Audience reactions / 听众反应</a>
+<a class="" href="#10-visual-presentation-视觉呈现">10. Visual presentation / 视觉呈现</a>
+<a class="" href="#sources-来源">Sources / 来源</a></aside>
+  <main>
+    <div class="crumb"><a href="../index.html">首页</a> › <a href="../speeches/index.html">演讲</a></div>
+    <h1>Get-out-the-vote stop, Laredo — PAX-SPC-1105<span class="zh">Laredo（拉雷多）催票活动——PAX-SPC-1105</span></h1>
+    <div class="meta"><span>状态：complete</span><span>更新：2026-11-10</span><span>编译：Agent D (speech)</span><span>源文件：<a href="../../03_speeches/key_speech_analysis/PAX-SPC-1105_laredo_gotv_stop.md">03_speeches/key_speech_analysis/PAX-SPC-1105_laredo_gotv_stop.md</a></span></div><div class="warn"><b>覆盖范围说明 / Coverage note.</b> Policy content of the ‘Texas Promise Plan’ and event logistics are well documented; almost no direct speech text survives, so quotation coverage is thin.</div><h1 id="pax-spc-1105-laredo-gotv-stop-palenque-grill-2026-10-23-lare">PAX-SPC-1105 — Laredo GOTV stop, Palenque Grill, 2026-10-23 / Laredo（拉雷多）催票活动，Palenque Grill，2026-10-23</h1>
+<div class="pair"><div class="col en"><p><strong>Type:</strong> tour_stop / gotv_event · <strong>Venue:</strong> Palenque Grill, San Bernardo Avenue at I-35, Laredo (South Texas) · <strong>Date:</strong> 2026-10-23 (Friday afternoon) · <strong>Transcript:</strong> not retrievable · <strong>Sources:</strong> <a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>, <a class="src" href="https://cmf.houstonchronicle.com/local/article/paxton-talarico-laredo-stops-texas-senate-race-22493551.php" target="_blank" rel="noopener" title="Laredo Morning Times / Houston Chronicle (Malena Charur)">SRC-0128</a></p></div><div class="col zh"><p><strong>类型：</strong> tour_stop（巡游站点）／gotv_event（催票活动） · <strong>地点：</strong> Palenque Grill，Laredo（拉雷多）San Bernardo Avenue 与 I-35 交汇处（南德州） · <strong>日期：</strong> 2026-10-23（星期五下午） · <strong>转录稿：</strong> 不可获取 · <strong>来源：</strong> <a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>、<a class="src" href="https://cmf.houstonchronicle.com/local/article/paxton-talarico-laredo-stops-texas-senate-race-22493551.php" target="_blank" rel="noopener" title="Laredo Morning Times / Houston Chronicle (Malena Charur)">SRC-0128</a></p></div></div>
+<h2 id="1-speech-context-演讲背景">1. Speech context / 演讲背景</h2>
+<div class="pair"><div class="col en"><p>Eleven days before Election Day, Paxton held a get-out-the-vote event at a Laredo restaurant on the same day-frame Talarico was touring the state; Talarico was due in Laredo two days later (<a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>, <a class="src" href="https://cmf.houstonchronicle.com/local/article/paxton-talarico-laredo-stops-texas-senate-race-22493551.php" target="_blank" rel="noopener" title="Laredo Morning Times / Houston Chronicle (Malena Charur)">SRC-0128</a>). KGNS describes the stop as "one of 12 on Paxton's Come and Take It Tour" — a count that conflicts with the campaign's own "more than 30 stops" framing reported by Dock Line; both are recorded in <code>_staging/D_gaps.md</code>.</p></div><div class="col zh"><p>距选举日十一天，Paxton 在 Laredo（拉雷多）一家餐厅举行催票活动，日期框架与 Talarico 的全州巡游相同；Talarico 两天后预定到访 Laredo（<a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>、<a class="src" href="https://cmf.houstonchronicle.com/local/article/paxton-talarico-laredo-stops-texas-senate-race-22493551.php" target="_blank" rel="noopener" title="Laredo Morning Times / Houston Chronicle (Malena Charur)">SRC-0128</a>）。KGNS 将该站描述为 "one of 12 on Paxton's Come and Take It Tour"（译：「Paxton『Come and Take It』巡游的 12 站之一」）——这一计数与 Dock Line 报道的竞选团队自称 "more than 30 stops"（译：「超过 30 站」）的说法相冲突；两者均记录于 <code>_staging/D_gaps.md</code>。</p></div></div>
+<div class="pair"><div class="col en"><p>Note also a date discrepancy: the Laredo Morning Times photo caption says Paxton addressed voters on Friday, Oct. 23; the Texas Tribune's 2026-10-31 piece captions a Laredo photo as Oct. 24. The archive uses 2026-10-23 (the local outlet with a same-day report).</p></div><div class="col zh"><p>另需注意一处日期矛盾：《Laredo Morning Times》的图片说明称 Paxton 于 10 月 23 日（Oct. 23）星期五向选民发表讲话；而《Texas Tribune》2026-10-31 的报道将一张 Laredo 照片标注为 10 月 24 日（Oct. 24）。本档案采用 2026-10-23（以当日报道的本地媒体为准）。</p></div></div>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Layer / 层次</th><th style="text-align:left">Content / 内容</th><th style="text-align:left">Evidence / 依据</th></tr></thead><tbody><tr><td style="text-align:left">Stated purpose / 声明的目的</td><td style="text-align:left">Get out the vote ahead of the election（译：在选举前催票）</td><td style="text-align:left"><a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a></td></tr><tr><td style="text-align:left">Observable function / 可观察的功能</td><td style="text-align:left">A restaurant stop in which he presented an "economic vision" — the "Protecting the Texas Promise Plan" — and contrasted himself with Talarico（译：在一处餐厅站，他提出「经济愿景」——即「守护德州承诺计划」——并将自己与 Talarico 作对比）</td><td style="text-align:left"><a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a></td></tr><tr><td style="text-align:left">Analyst interpretation / 分析者解读</td><td style="text-align:left">INTERPRETATION: the Laredo stop is the tour's clearest attempt at a positive economic message in a region where the GOP needs Latino votes; the "most radical Democrat" attack is used as the closing contrast rather than the substance.（译：解读：Laredo 一站是巡游中在共和党需要拉丁裔选票的地区对积极经济讯息最清晰的一次尝试；「最激进的民主党人」攻击被用作收尾对比，而非实质内容。）</td><td style="text-align:left">inferred（译：推断）</td></tr></tbody></table></div></div>
+<h2 id="2-main-argument-主要论点">2. Main argument / 主要论点</h2>
+<div class="pair"><div class="col en"><p>That the election is a choice between his "economic vision" and Talarico's radicalism. The substantive programme is the "Protecting the Texas Promise Plan": tax deductions for home down payments and out-of-pocket medical expenses, doubling the child tax credit, "healthy living deductions" (nutrition plans, GLP-1 medication, gym memberships), and making "Trump accounts" permanent (<a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>). The contrast section describes his opponent as the most radical Democrat ever to run for statewide office — the report's phrasing, so treat as <code>(paraphrase)</code>.</p></div><div class="col zh"><p>这场选举是在他的 "economic vision"（译：「经济愿景」）与 Talarico 的激进主义之间做选择。实质性方案即 "Protecting the Texas Promise Plan"（译：「守护德州承诺计划」）：购房首付与自付医疗费用的税收扣除、儿童税收抵免翻倍、"healthy living deductions"（译：「健康生活扣除」，包括营养计划、GLP-1 药物、健身房会员），以及使 "Trump accounts"（译：「Trump 账户」）永久化（<a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>）。对比部分将他的对手描述为有史以来竞选全州公职的最激进民主党人——此为报道的措辞，故按 <code>(paraphrase)</code>（转述）处理。</p></div></div>
+<h2 id="3-speech-structure-演讲结构">3. Speech structure / 演讲结构</h2>
+<div class="pair"><div class="col en"><p>Reconstructable beats: a plan presentation (a list of deductions and accounts); a contrast section on Talarico; a turnout ask. Order, length and exact wording are <code>⚠ unknown</code>.</p></div><div class="col zh"><p>可重建的段落：方案陈述（一系列扣除与账户）；针对 Talarico 的对比部分；催票请求。顺序、篇幅与确切措辞均 <code>⚠ unknown</code>（未查明）。</p></div></div>
+<h2 id="4-opening-and-closing-开场与结尾">4. Opening and closing / 开场与结尾</h2>
+<div class="pair"><div class="col en"><p><code>⚠ unknown</code> — no direct quotation from the speech's frame survives in retrieved sources.</p></div><div class="col zh"><p><code>⚠ unknown</code>（未查明）—— 检索来源中未留存关于该演讲框架的直接引语。</p></div></div>
+<h2 id="5-main-policy-positions-主要政策立场">5. Main policy positions / 主要政策立场</h2>
+<div class="blk zh"><ul><li class="en"><strong>Economy / taxes:</strong> home down-payment deduction; out-of-pocket medical expense deduction; doubling the child tax credit; "healthy living" deductions (nutrition, GLP-1, gym); making Trump accounts permanent.</li><li class="zh">中文：<strong>经济／税收：</strong> 购房首付扣除；自付医疗费用扣除；儿童税收抵免翻倍；"healthy living"（译：「健康生活」）扣除（营养、GLP-1、健身房）；使 Trump 账户永久化。</li><li class="en"><strong>Health care:</strong> framed as deduction-based relief rather than coverage expansion.</li><li class="zh">中文：<strong>医疗：</strong> 以扣除式减负为框架，而非扩大覆盖。</li><li class="en"><strong>Immigration / border:</strong> <code>⚠ unknown</code> from this stop, despite the border-region venue.</li><li class="zh">中文：<strong>移民／边境：</strong> 本站为 <code>⚠ unknown</code>（未查明），尽管场地属边境地区。</li><li class="en"><strong>Energy / courts:</strong> not documented here (they dominate Tyler and Houston).</li><li class="zh">中文：<strong>能源／法院：</strong> 此处无记录（这两项主导 Tyler 与 Houston）。</li></ul></div>
+<h2 id="6-personal-stories-个人故事">6. Personal stories / 个人故事</h2>
+<div class="pair"><div class="col en"><p><code>⚠ unknown</code>. The human material in the report comes from supporters: Marta Loera, a retired teacher ("I'm here to support him because I'm conservative, and he stands for my beliefs"), and Dolores Medrano, a retired educator who said the event re-energised her for sign-holding and phone calls (<a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>).</p></div><div class="col zh"><p><code>⚠ unknown</code>（未查明）。报道中的人情材料来自支持者：退休教师 Marta Loera（"I'm here to support him because I'm conservative, and he stands for my beliefs"（译：「我来支持他，因为我是保守派，而他代表我的信念。」）），以及退休教育工作者 Dolores Medrano，她说这场活动让她重新有精力去举牌和打电话（<a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a>）。</p></div></div>
+<h2 id="7-repeated-slogans-反复出现的口号">7. Repeated slogans / 反复出现的口号</h2>
+<div class="blk zh"><ul><li class="en"><strong>"Protecting the Texas Promise Plan"</strong> — the programme's branded name.</li><li class="zh">中文：<strong>"Protecting the Texas Promise Plan"（译：「守护德州承诺计划」）</strong> —— 该方案的品牌名称。</li><li class="en"><strong>"Come and Take It"</strong> — tour frame.</li><li class="zh">中文：<strong>"Come and Take It"（译：「有种来拿」）</strong> —— 巡游框架。</li><li class="en"><strong>"The most radical Democrat ever to run for statewide office"</strong> — the anti-Talarico formulation (as reported, <code>(paraphrase)</code>).</li><li class="zh">中文：<strong>"The most radical Democrat ever to run for statewide office"（译：「有史以来竞选全州公职的最激进民主党人」）</strong> —— 反 Talarico 的表述（依报道，<code>(paraphrase)</code>）。</li></ul></div>
+<h2 id="8-key-quotations-with-timestamps-关键引语与时间码">8. Key quotations with timestamps / 关键引语与时间码</h2>
+<div class="pair"><div class="col en"><p>No verbatim quotation from the Laredo speech itself was retrievable. The plan details above are the outlet's summary of what he presented, not his words — mark as <code>(paraphrase)</code>.</p></div><div class="col zh"><p>该 Laredo 演讲本身无逐字引语可获取。上述方案细节是该媒体对他所提内容的概述，而非他的原话——标记为 <code>(paraphrase)</code>（转述）。</p></div></div>
+<div class="pair"><div class="col en"><p>Supporters (verbatim, for audience context):</p></div><div class="col zh"><p>支持者（逐字引述，供受众语境参考）：</p></div></div>
+<div class="blk zh"><blockquote><p>"I'm here to support him because I'm conservative, and he stands for my beliefs." <code>[unknown]</code>（译：「我来支持他，因为我是保守派，而他代表我的信念。」）— Marta Loera, retired teacher.（Marta Loera，退休教师。）</p><p>"It gets us more energized... we're now ready to go out there and stand in the heat again with signs, and we're calling people to come out and vote... there's a lot at stake in Laredo." <code>[unknown]</code>（译：「这让我们更有干劲……我们现在准备好再次到外头、顶着热浪举牌，我们也在打电话请人们出来投票……Laredo 事关重大。」）— Dolores Medrano, retired educator.（Dolores Medrano，退休教育工作者。）</p></blockquote></div>
+<h2 id="9-audience-reactions-听众反应">9. Audience reactions / 听众反应</h2>
+<div class="pair"><div class="col en"><p>Documented descriptively: supporters said the event energised them for further campaigning; no crowd size given. "It gets us more energized" is the only reported audience response.</p></div><div class="col zh"><p>有描述性记录：支持者表示该活动令他们更有动力继续助选；未给出人群规模。"It gets us more energized"（译：「这让我们更有干劲」）是唯一被报道的听众反应。</p></div></div>
+<h2 id="10-visual-presentation-视觉呈现">10. Visual presentation / 视觉呈现</h2>
+<div class="pair"><div class="col en"><p><code>⚠ unknown</code> — restaurant venue; no photo caption describing staging or clothing was retrieved. Laredo Morning Times did publish a photo of the event (courtesy Jose De La Rosa / Paxton campaign) but the caption describes the venue and date only.</p></div><div class="col zh"><p><code>⚠ unknown</code>（未查明）—— 餐厅场地；未检索到描述舞台布置或服装的图片说明。《Laredo Morning Times》确实刊发了该活动的照片（由 Jose De La Rosa／Paxton 竞选团队提供），但说明文字仅描述场地与日期。</p></div></div>
+<h2 id="sources-来源">Sources / 来源</h2>
+<div class="blk en"><ul><li class="en"><a class="src" href="https://www.kgns.tv/2026/10/23/paxton-campaigns-laredo-ahead-midterm-elections/" target="_blank" rel="noopener" title="KGNS (Gray)">SRC-0009</a> — KGNS (Luis Enrique Vela), 2026-10-23.（KGNS，Luis Enrique Vela，2026-10-23。）</li><li class="en"><a class="src" href="https://cmf.houstonchronicle.com/local/article/paxton-talarico-laredo-stops-texas-senate-race-22493551.php" target="_blank" rel="noopener" title="Laredo Morning Times / Houston Chronicle (Malena Charur)">SRC-0128</a> — Laredo Morning Times / Houston Chronicle (Malena Charur), 2026-10-26.（《Laredo Morning Times》／《Houston Chronicle》，Malena Charur，2026-10-26。）</li></ul></div>
+    
+  </main>
+</div>
+<footer><div class="in">
+  <span>American Political Image Lab · 案例研究 001 · 生成于 2026-11-10 · 全部内容可离线阅读</span>
+  <span>所有事实均可溯源至 09_sources/sources.csv 的 SRC-#### 编号</span>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

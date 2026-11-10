@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>研究规范——案例研究 001（2026 年得克萨斯州联邦参议员选举） · Research Conventions — Case Study 001 (2026 Texas U.S. Senate)</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--muted:#6b6760;--line:#e3ded4;--accent:#8c2f1e;--accent2:#1f4e5f;--card:#fff;--en:#1c1b19;--zh:#243b4a}
+@media (prefers-color-scheme:dark){:root{--bg:#16171a;--fg:#e8e6e1;--muted:#a3a09a;--line:#2e3138;--accent:#e0796a;--accent2:#7fb3c4;--card:#1d1f24;--en:#e8e6e1;--zh:#a9c6d6}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.72 -apple-system,"Segoe UI","Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.6rem 1.1rem;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.01em;color:var(--fg)}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+nav.main{display:flex;gap:.15rem;flex-wrap:wrap;margin-left:auto}
+nav.main a{padding:.28rem .55rem;border-radius:6px;color:var(--muted);font-size:.9rem}
+nav.main a.on,nav.main a:hover{background:var(--line);color:var(--fg);text-decoration:none}
+.modes{display:flex;gap:.2rem;border:1px solid var(--line);border-radius:8px;padding:.15rem}
+.modes button{background:none;border:0;color:var(--muted);font:inherit;font-size:.8rem;padding:.2rem .45rem;border-radius:6px;cursor:pointer}
+.modes button.on{background:var(--accent);color:#fff}
+.layout{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr);gap:2rem;padding:1.6rem 1.1rem 4rem}
+aside.toc{position:sticky;top:4.2rem;align-self:start;max-height:calc(100vh - 5rem);overflow:auto;font-size:.86rem;border-left:2px solid var(--line);padding-left:.9rem}
+aside.toc h4{margin:.2rem 0 .6rem;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+aside.toc a{display:block;padding:.18rem 0;color:var(--muted);line-height:1.45}
+aside.toc a:hover{color:var(--fg)}
+aside.toc a.h3{padding-left:.7rem;font-size:.82rem;opacity:.85}
+main{min-width:0}
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.crumb a{color:var(--muted)}
+h1{font-size:1.85rem;line-height:1.3;margin:.2rem 0 .4rem}
+h1 .zh{display:block;font-size:1.15rem;color:var(--muted);font-weight:500;margin-top:.35rem}
+h2{font-size:1.28rem;margin:2.4rem 0 .7rem;padding-top:.6rem;border-top:1px solid var(--line)}
+h3{font-size:1.08rem;margin:1.7rem 0 .5rem}
+h4{font-size:1rem;margin:1.3rem 0 .4rem}
+p{margin:.55rem 0}
+code{background:var(--line);padding:.08em .32em;border-radius:4px;font-size:.86em;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem;overflow:auto}
+pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
+blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
+blockquote p{margin:.35rem 0}
+.table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
+tbody tr:hover{background:color-mix(in srgb,var(--line) 45%,transparent)}
+ul,ol{margin:.5rem 0 .7rem;padding-left:1.35rem}
+li{margin:.22rem 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin:.6rem 0;align-items:start}
+.pair .col{min-width:0}
+.pair .en{color:var(--en)}
+.pair .zh{color:var(--zh);border-left:2px solid var(--line);padding-left:1.1rem;font-size:.97em}
+body.mode-en .zh,body.mode-en .pair .zh{display:none}
+body.mode-en .pair{grid-template-columns:1fr}
+body.mode-zh .en,body.mode-zh .pair .en{display:none}
+body.mode-zh .pair{grid-template-columns:1fr}
+body.mode-zh li.en,body.mode-zh .blk.en{display:none}
+body.mode-en li.zh,body.mode-en .blk.zh{display:none}
+.blk.mix{display:block}
+.meta{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:.4rem 0 1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1rem;margin:1.2rem 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card h3{margin:.1rem 0 .45rem;font-size:1.02rem}
+.card p{margin:.2rem 0;color:var(--muted);font-size:.85rem;line-height:1.6}
+.card .n{font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1.1}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.8rem;margin:1.2rem 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem}
+.stat b{display:block;font-size:1.45rem;color:var(--accent);line-height:1.2}
+.stat span{font-size:.78rem;color:var(--muted)}
+.hero{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,transparent),color-mix(in srgb,var(--accent2) 12%,transparent));border:1px solid var(--line);border-radius:16px;padding:2rem 1.8rem;margin:0 0 1.6rem}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+.hero p{color:var(--muted);max-width:62ch}
+.search{position:relative;margin:1.2rem 0}
+.search input{width:100%;padding:.85rem 1rem;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+#results{margin-top:.8rem;display:grid;gap:.5rem}
+.hit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem}
+.hit .t{font-weight:600}
+.hit .s{font-size:.8rem;color:var(--muted);margin-top:.2rem}
+.hit mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
+.gal figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.gal img{width:100%;height:210px;object-fit:cover;display:block;background:var(--line)}
+.gal figcaption{padding:.55rem .65rem;font-size:.74rem;color:var(--muted);line-height:1.45}
+.gal figcaption b{color:var(--fg);font-weight:600;display:block;font-size:.8rem}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.4rem 1.1rem;color:var(--muted);font-size:.8rem}
+footer .in{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.src{font-family:ui-monospace,Consolas,monospace;font-size:.78em;padding:.02em .32em;border:1px solid var(--line);border-radius:4px;color:var(--accent2);white-space:nowrap;text-decoration:none}
+.src:hover{background:color-mix(in srgb,var(--accent2) 14%,transparent);text-decoration:none;border-color:var(--accent2)}
+a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
+.nolink{display:flex;flex-direction:column;justify-content:center;align-items:center;height:210px;padding:1rem;text-align:center;background:repeating-linear-gradient(45deg,var(--line) 0 6px,transparent 6px 12px);font-size:.8rem;color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem;margin:1rem 0 1.6rem}
+.shots a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card)}
+.shots img{width:100%;height:130px;object-fit:cover;display:block}
+.shots span{display:block;font-size:.68rem;color:var(--muted);padding:.25rem .35rem;line-height:1.35}
+.tag{display:inline-block;font-size:.72rem;padding:.1rem .45rem;border-radius:999px;background:var(--line);color:var(--muted);margin-right:.3rem}
+.warn{background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:10px;padding:.85rem 1rem;margin:1rem 0;font-size:.9rem}
+@media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
+@media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
+</style>
+</head><body>
+<header class="top"><div class="top-in">
+  <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="on" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  <aside class="toc"><h4>本页目录 / On this page</h4>
+<a class="" href="#0-non-negotiable-rules-0-不可谈判的规则">0. Non-negotiable rules / 0. 不可谈判的规则</a>
+<a class="" href="#1-identifier-schemes-zero-padded-stable-never-reused-1-标识符方案">1. Identifier schemes (zero-padded, stable, never reused) / 1. 标识符方案（零填充、稳定、永不复用）</a>
+<a class="" href="#2-controlled-vocabularies-use-exactly-these-strings-2-受控词表必须">2. Controlled vocabularies (use exactly these strings) / 2. 受控词表（必须使用这些确切字符串）</a>
+<a class="" href="#3-csv-schemas-use-these-headers-verbatim-3-csv-模式必须逐字使用这些表头">3. CSV schemas — use these headers verbatim / 3. CSV 模式——必须逐字使用这些表头</a>
+<a class="h3" href="#02campaignevents-campaigneventscsv-竞选活动表">`02_campaign_events/campaign_events.csv` / 竞选活动表</a>
+<a class="h3" href="#01candidates-talarico-careertimelinecsv-and-paxton-careertim">`01_candidates/talarico/career_timeline.csv` and `paxton/career_timeline.csv` / 两位候选人的职业时间线表</a>
+<a class="h3" href="#policypositionscsv-lead-merges-to-01candidates-politicalposi">`policy_positions.csv` (Lead merges to `01_candidates/&amp;lt;name&amp;gt;/political_positions.md`; canonical CSV at root of `01_candidates/`) / 政策立场表（由负责人合并至 `01_candidates/&amp;lt;name&amp;gt;/political_positions.md`；规范 CSV 位于 `01_candidates/` 根目录）</a>
+<a class="h3" href="#03speeches-speecharchivecsv-演讲档案表">`03_speeches/speech_archive.csv` / 演讲档案表</a>
+<a class="h3" href="#03speeches-speechvideoindexcsv-演讲视频索引表">`03_speeches/speech_video_index.csv` / 演讲视频索引表</a>
+<a class="h3" href="#05campaignmedia-advertisementscsv-广告表">`05_campaign_media/advertisements.csv` / 广告表</a>
+<a class="h3" href="#05campaignmedia-socialmediacsv-社交媒体表">`05_campaign_media/social_media.csv` / 社交媒体表</a>
+<a class="h3" href="#05campaignmedia-mediacoveragecsv-媒体报道表">`05_campaign_media/media_coverage.csv` / 媒体报道表</a>
+<a class="h3" href="#06campaignfinance-campaignfinancecsv-竞选财务表">`06_campaign_finance/campaign_finance.csv` / 竞选财务表</a>
+<a class="h3" href="#04visualarchive-imagearchivecsv-图像档案表">`04_visual_archive/image_archive.csv` / 图像档案表</a>
+<a class="h3" href="#07electoralcontext-electionresultscsv-选举结果表">`07_electoral_context/election_results.csv` / 选举结果表</a>
+<a class="h3" href="#07electoralcontext-countyresultscsv-县级结果表">`07_electoral_context/county_results.csv` / 县级结果表</a>
+<a class="h3" href="#07electoralcontext-pollingcsv-民调表">`07_electoral_context/polling.csv` / 民调表</a>
+<a class="h3" href="#09sources-sourcescsv-lead-owned-master-来源总表由负责人维护">`09_sources/sources.csv` (Lead-owned master) / 来源总表（由负责人维护）</a>
+<a class="" href="#4-markdown-deliverables-required-structure-4-markdown-交付物必需结">4. Markdown deliverables — required structure / 4. Markdown 交付物——必需结构</a>
+<a class="" href="#5-event-purpose-the-three-layer-rule-5-活动目的三层规则">5. Event purpose: the three-layer rule / 5. 活动目的：三层规则</a>
+<a class="" href="#6-verification-workflow-6-核实流程">6. Verification workflow / 6. 核实流程</a>
+<a class="" href="#7-staging-files-each-agents-isolated-write-scope-7-过渡文件每位分析员">7. Staging files (each agent's isolated write scope) / 7. 过渡文件（每位分析员隔离的写入范围）</a>
+<a class="" href="#8-coverage-parity-requirement-141-of-the-brief-8-覆盖对等要求任务书-1">8. Coverage-parity requirement (§14.1 of the brief) / 8. 覆盖对等要求（任务书 §14.1）</a></aside>
+  <main>
+    <div class="crumb"><a href="../index.html">首页</a> › <a href="../sources/index.html">来源与缺口</a></div>
+    <h1>Research Conventions — Case Study 001 (2026 Texas U.S. Senate)<span class="zh">研究规范——案例研究 001（2026 年得克萨斯州联邦参议员选举）</span></h1>
+    <div class="meta"><span>源文件：<a href="../../_research_conventions.md">_research_conventions.md</a></span></div><h1 id="research-conventions-case-study-001-2026-texas-us-senate-研究规">Research Conventions — Case Study 001 (2026 Texas U.S. Senate) / 研究规范——案例研究 001（2026 年得克萨斯州联邦参议员选举）</h1>
+<div class="blk zh"><p>中文前言：本文件以中英双语呈现，两个语言版本具有同等约束力。凡中文译文与英文原文在含义、范围或强度上出现任何分歧，一律以英文原文为准；中文译文不得被援引以削弱、扩大或替代英文规则。</p></div>
+<div class="pair"><div class="col en"><p><strong>This file is the integration contract. Every agent must follow it exactly so the Lead can merge datasets without rework.</strong></p></div><div class="col zh"><p><strong>本文件是整合契约。每位分析员都必须严格遵守，以便负责人（Lead）能够在不返工的情况下合并数据集。</strong></p></div></div>
+<div class="pair"><div class="col en"><p>Working root: <code>texas-senate-2026/</code>
+Reference date for "access date" fields: use the actual date you performed the search (ISO 8601).</p></div><div class="col zh"><p>工作根目录：<code>texas-senate-2026/</code>
+「访问日期」（access date）字段的参考日期：使用你实际执行检索当天的日期（ISO 8601）。</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="0-non-negotiable-rules-0-不可谈判的规则">0. Non-negotiable rules / 0. 不可谈判的规则</h2>
+<div class="blk zh"><ol><li class="zh"><strong>Never invent</strong> a date, venue, quotation, dollar figure, endorsement, photo URL or poll number. If it is not in a source you actually retrieved, it does not go in the archive. <strong>绝不虚构</strong>任何日期、场地、引语、金额、背书、照片 URL 或民调数字。若某项内容不在你实际检索到的来源中，它就不能进入本档案。</li><li class="zh"><strong>Unknown is a value.</strong> Use <code>unknown</code> (lowercase) in CSV cells and <code>⚠ unknown</code> in Markdown. Never leave a cell blank when a value is expected; never substitute a guess. <strong><code>unknown</code> 是一个取值。</strong> 在 CSV 单元格中使用 <code>unknown</code>（小写），在 Markdown 中使用 <code>⚠ unknown</code>。在应有取值时绝不将单元格留空；绝不以猜测替代。</li><li class="zh"><strong>Every row carries at least one source.</strong> The <code>source_urls</code> / <code>source_url</code> cell holds one or more <code>SRC-####</code> ids from <code>09_sources/sources.csv</code>, plus the raw URL for the most important one. Format: <code>SRC-0007|https://...</code>. <strong>每一行至少携带一个来源。</strong> <code>source_urls</code> / <code>source_url</code> 单元格存放一个或多个来自 <code>09_sources/sources.csv</code> 的 <code>SRC-####</code> 编号，并附上其中最重要一条的原始 URL。格式：<code>SRC-0007|https://...</code>。</li><li class="zh"><strong>Separate what was said from what an analyst infers.</strong> Stated purpose, observable function and analyst interpretation are three distinct columns/sections. <strong>把「所述」与「分析者所推断」区分开来。</strong> 陈述目的（stated purpose）、可观察功能（observable function）与分析者解读（analyst interpretation）是三个彼此独立的列／章节。</li><li class="zh"><strong>Announcement ≠ event.</strong> A press release announcing a rally is an <em>announcement</em> row (<code>event_status = announced</code>). Only mark <code>held</code> when there is evidence it took place. Verified cancellations go in with <code>event_status = cancelled</code> and the cancellation source. <strong>宣布不等于活动。</strong> 宣布一场集会的新闻稿是一行*宣布*记录（<code>event_status = announced</code>）。只有在有证据表明活动确实发生时，才标记为 <code>held</code>。经核实的取消以 <code>event_status = cancelled</code> 记录，并附上取消的来源。</li><li class="zh"><strong>Distinguish campaign-produced material from independent media.</strong> Ads/videos made by the campaign, by an outside PAC, or by a news outlet get different <code>sponsor_type</code> values. <strong>区分竞选团队制作的材料与独立媒体。</strong> 由竞选团队、外部政治行动委员会（outside PAC）或新闻机构制作的广告／视频，分别使用不同的 <code>sponsor_type</code> 取值。</li><li class="zh"><strong>Copyright:</strong> do <strong>not</strong> download copyrighted news photographs into the repo. Record metadata + source URL only. Download only assets that are public domain (e.g. official U.S. government / Texas Legislature portraits, federal works) or explicitly licensed. When in doubt: link, don't copy. <strong>版权：</strong> <strong>不要</strong>将受版权保护的新闻照片下载到仓库中。只记录元数据＋来源 URL。仅下载属于公有领域（例如美国政府／得克萨斯州议会的官方肖像、联邦作品）或已获明确许可的素材。存疑时：只链接，不复制。</li><li class="zh"><strong>No premature conclusions.</strong> Do not rank the candidates, score their branding, or declare a winner of the "communication contest". Descriptive observation only; strategic interpretation must be labelled as interpretation. <strong>不作过早结论。</strong> 不得为候选人排名、为其品牌打分，也不得宣布 "communication contest"（译：传播竞赛）的胜者。只作描述性观察；策略性解读必须标注为解读。</li><li class="zh">Do not write the blog post or video script. This is an evidence archive. 不要撰写博客文章或视频脚本。这是一份证据档案。</li></ol></div>
+<div class="blk mix"><hr></div>
+<h2 id="1-identifier-schemes-zero-padded-stable-never-reused-1-标识符方案">1. Identifier schemes (zero-padded, stable, never reused) / 1. 标识符方案（零填充、稳定、永不复用）</h2>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Entity / 实体</th><th style="text-align:left">Prefix / 前缀</th><th style="text-align:left">Example / 示例</th></tr></thead><tbody><tr><td style="text-align:left">Campaign event / 竞选活动</td><td style="text-align:left"><code>TAL-EVT-0001</code> / <code>PAX-EVT-0001</code></td><td style="text-align:left"><code>PAX-EVT-0042</code></td></tr><tr><td style="text-align:left">Joint / cross-candidate event (debate, joint appearance) / 联合／跨候选人活动（辩论、联合露面）</td><td style="text-align:left"><code>JNT-EVT-0001</code></td><td style="text-align:left"><code>JNT-EVT-0003</code></td></tr><tr><td style="text-align:left">Speech / interview / video appearance / 演讲／采访／视频露面</td><td style="text-align:left"><code>TAL-SPC-0001</code> / <code>PAX-SPC-0001</code></td><td style="text-align:left"><code>TAL-SPC-0011</code></td></tr><tr><td style="text-align:left">Advertisement / 广告</td><td style="text-align:left"><code>TAL-AD-0001</code> / <code>PAX-AD-0001</code> / <code>EXT-AD-0001</code>（外部团体）</td><td style="text-align:left"><code>PAX-AD-0007</code></td></tr><tr><td style="text-align:left">Image / 图像</td><td style="text-align:left"><code>TAL-IMG-0001</code> / <code>PAX-IMG-0001</code></td><td style="text-align:left"><code>TAL-IMG-0063</code></td></tr><tr><td style="text-align:left">Source / 来源</td><td style="text-align:left"><code>SRC-0001</code>（单一全局序列，由负责人维护）</td><td style="text-align:left"><code>SRC-0128</code></td></tr></tbody></table></div></div>
+<div class="pair"><div class="col en"><p>Agents may <strong>reserve blocks</strong> to avoid collisions: A <code>0001–0499</code>, B <code>0500–0799</code>, C <code>0800–1099</code>, D <code>1100–1399</code>, E <code>1400–1699</code>. Lead uses <code>1700+</code> and owns <code>SRC-*</code> allocation for integration rows.</p></div><div class="col zh"><p>分析员可以<strong>预留号段</strong>以避免冲突：A 为 <code>0001–0499</code>，B 为 <code>0500–0799</code>，C 为 <code>0800–1099</code>，D 为 <code>1100–1399</code>，E 为 <code>1400–1699</code>。负责人使用 <code>1700+</code>，并负责整合行中 <code>SRC-*</code> 的分配。</p></div></div>
+<div class="pair"><div class="col en"><p>Because the global <code>SRC-*</code> sequence is Lead-owned, agents should <strong>write their sources to their own staging file</strong> (see §7) using local ids, and the Lead will reconcile into <code>09_sources/sources.csv</code>. In the meantime, <code>source_urls</code> cells may carry raw URLs prefixed by a local tag, e.g. <code>SRC-0012|https://...</code>. Lead will rewrite these to <code>SRC-####</code> at integration.</p></div><div class="col zh"><p>由于全局 <code>SRC-*</code> 序列由负责人维护，分析员应<strong>将来源写入各自的过渡文件</strong>（见 §7），使用本地编号，再由负责人归并进 <code>09_sources/sources.csv</code>。在此期间，<code>source_urls</code> 单元格可携带以本地标签为前缀的原始 URL，例如 <code>SRC-0012|https://...</code>。负责人在整合时会将其改写为 <code>SRC-####</code>。</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="2-controlled-vocabularies-use-exactly-these-strings-2-受控词表必须">2. Controlled vocabularies (use exactly these strings) / 2. 受控词表（必须使用这些确切字符串）</h2>
+<div class="pair"><div class="col en"><p><strong>candidate_id:</strong> <code>TALARICO</code> | <code>PAXTON</code></p></div><div class="col zh"><p><strong>candidate_id（候选人 ID）：</strong> 该字段只接受 <code>TALARICO</code> 或 <code>PAXTON</code> 两个取值，须逐字照用，不得改写。</p></div></div>
+<div class="pair"><div class="col en"><p><strong>event_status:</strong> <code>held</code> | <code>cancelled</code> | <code>postponed</code> | <code>rescheduled</code> | <code>virtual</code> | <code>announced</code> (not yet confirmed as held) | <code>unverified</code> | <code>disputed</code></p></div><div class="col zh"><p><strong>event_status（活动状态）：</strong> 必须严格使用上述英文取值；其中 <code>announced</code> 指尚未确认已实际举行的活动，其余取值沿用英文原词，不得翻译。</p></div></div>
+<div class="pair"><div class="col en"><p><strong>campaign_phase:</strong> <code>pre_launch</code> | <code>launch</code> | <code>primary</code> | <code>runoff</code> | <code>general</code> | <code>early_voting</code> | <code>gotv</code> | <code>election_day</code> | <code>post_election</code></p></div><div class="col zh"><p><strong>campaign_phase（竞选阶段）：</strong> 必须严格使用上述英文取值，不得翻译或改写。</p></div></div>
+<div class="pair"><div class="col en"><p>Note: the GOP <code>runoff</code> phase applies to Paxton; Talarico's Democratic primary had no runoff phase — for Talarico use <code>primary</code> through the runoff calendar period, but record the phase label as <code>primary</code>.</p></div><div class="col zh"><p>注：共和党的 <code>runoff</code> 阶段适用于帕克斯顿；塔拉里科的民主党初选没有决选阶段——对塔拉里科而言，在决选对应的日历期间仍沿用 <code>primary</code>，但阶段标签记为 <code>primary</code>。</p></div></div>
+<div class="pair"><div class="col en"><p><strong>event_category:</strong> <code>launch</code> | <code>announcement</code> | <code>rally</code> | <code>town_hall</code> | <code>meet_and_greet</code> | <code>community_visit</code> | <code>small_business_visit</code> | <code>workplace_visit</code> | <code>university_visit</code> | <code>religious_appearance</code> | <code>labor_event</code> | <code>party_event</code> | <code>county_party_meeting</code> | <code>q_and_a</code> | <code>interview_tv</code> | <code>interview_radio</code> | <code>podcast</code> | <code>newspaper_interview</code> | <code>livestream</code> | <code>debate</code> | <code>debate_invitation</code> | <code>press_conference</code> | <code>video_release</code> | <code>tour_stop</code> | <code>tour_launch</code> | <code>tour_finale</code> | <code>fundraiser</code> | <code>endorsement_event</code> | <code>hq_opening</code> | <code>early_voting_event</code> | <code>gotv_event</code> | <code>surrogate_event</code> | <code>election_eve</code> | <code>watch_party</code> | <code>victory_speech</code> | <code>concession_speech</code> | <code>other</code></p></div><div class="col zh"><p><strong>event_category（活动类别）：</strong> 完整取值见上方英文行。写入 CSV 时必须逐字使用其中的英文字符串，不得翻译、改写或缩写；中文对照只出现在双语数据字典中。</p></div></div>
+<div class="pair"><div class="col en"><p><strong>verification_status:</strong> <code>verified</code> (≥1 independent Tier-2 source or official primary record) | <code>partially verified</code> (Tier-3/social only, or primary source only) | <code>unverified</code> (single weak claim) | <code>conflicting sources</code></p></div><div class="col zh"><p><strong>verification_status（核实状态）：</strong> <code>verified</code>（至少一个独立的 Tier-2 来源或官方一手记录） | <code>partially verified</code>（仅有 Tier-3／社交来源，或仅有一手来源） | <code>unverified</code>（单一薄弱说法） | <code>conflicting sources</code>（来源相互冲突）</p></div></div>
+<div class="pair"><div class="col en"><p><strong>source tier:</strong> <code>T1</code> primary/official | <code>T2</code> established independent media | <code>T3</code> supplementary (blogs, newsletters, public calendars, third-party social)</p></div><div class="col zh"><p><strong>source tier（来源层级）：</strong> <code>T1</code> 一手／官方 | <code>T2</code> 成熟的独立媒体 | <code>T3</code> 补充性来源（博客、通讯、公开日历、第三方社交内容）</p></div></div>
+<div class="pair"><div class="col en"><p><strong>source_type:</strong> <code>official_campaign</code> | <code>official_government</code> (SOS, FEC, legislature) | <code>candidate_social</code> | <code>news_article</code> | <code>news_video</code> | <code>transcript</code> | <code>op_ed</code> | <code>fact_check</code> | <code>poll</code> | <code>press_release</code> | <code>event_page</code> | <code>photo</code> | <code>podcast</code> | <code>other</code></p></div><div class="col zh"><p><strong>source_type（来源类型）：</strong> 必须严格使用上述英文取值；其中 <code>official_government</code> 指州务卿（SOS）、联邦选举委员会（FEC）、立法机构等官方来源。</p></div></div>
+<div class="pair"><div class="col en"><p><strong>sponsor_type (ads):</strong> <code>candidate_campaign</code> | <code>authorized_committee</code> | <code>outside_pac</code> | <code>party_committee</code> | <code>unknown</code></p></div><div class="col zh"><p><strong>sponsor_type（广告赞助方类型）：</strong> <code>candidate_campaign</code>（候选人竞选团队） | <code>authorized_committee</code>（授权委员会） | <code>outside_pac</code>（外部政治行动委员会） | <code>party_committee</code>（政党委员会） | <code>unknown</code>（未查明）</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="3-csv-schemas-use-these-headers-verbatim-3-csv-模式必须逐字使用这些表头">3. CSV schemas — use these headers verbatim / 3. CSV 模式——必须逐字使用这些表头</h2>
+<div class="pair"><div class="col en"><p>CSV rules: UTF-8, RFC-4180 quoting (quote any cell containing comma, quote or newline), <code>\n</code> line endings, header row required, no blank cells (use <code>unknown</code>).</p></div><div class="col zh"><p>CSV 规则：UTF-8 编码、RFC-4180 引号处理（凡单元格含逗号、引号或换行，均须加引号）、<code>\n</code> 换行、必须有表头行、不得有空单元格（用 <code>unknown</code> 填充）。</p></div></div>
+<h3 id="02campaignevents-campaigneventscsv-竞选活动表">`02_campaign_events/campaign_events.csv` / 竞选活动表</h3>
+<div class="blk en"><pre><code>event_id,candidate_id,event_date,event_time,event_title,event_category,city,venue,state_region,event_status,campaign_phase,stated_purpose,observable_function,analyst_interpretation,target_audience,main_messages,policy_issues,speech_summary,transcript_url,video_url,photo_urls,media_coverage,opponent_reference,visual_notes,source_urls,verification_status,analyst_notes</code></pre></div>
+<div class="blk zh"><ul><li class="en"><code>event_date</code> ISO <code>YYYY-MM-DD</code>; if only month known use <code>YYYY-MM</code> and say so in analyst_notes. If unknown use <code>unknown</code>.</li><li class="zh"><code>event_date</code> 使用 ISO <code>YYYY-MM-DD</code>；若只能确定月份，使用 <code>YYYY-MM</code> 并在 analyst_notes 中说明。若无法确定，使用 <code>unknown</code>。</li><li class="en"><code>event_time</code> local Texas time, 24h <code>HH:MM</code>, else <code>unknown</code>.</li><li class="zh"><code>event_time</code> 为得克萨斯州当地时间，24 小时制 <code>HH:MM</code>；否则 <code>unknown</code>。</li><li class="en"><code>opponent_reference</code>: <code>yes</code> | <code>no</code> | <code>unknown</code> — did the candidate mention the opponent?</li><li class="zh"><code>opponent_reference</code>：<code>yes</code> | <code>no</code> | <code>unknown</code>——候选人是否提及对手？</li><li class="en"><code>state_region</code>: one of <code>East Texas</code> | <code>North Texas</code> | <code>Central Texas</code> | <code>South Texas</code> | <code>West Texas</code> | <code>Gulf Coast</code> | <code>Panhandle</code> | <code>statewide</code> | <code>national</code> | <code>unknown</code></li><li class="zh"><code>state_region</code>：取值为以下之一：<code>East Texas</code> | <code>North Texas</code> | <code>Central Texas</code> | <code>South Texas</code> | <code>West Texas</code> | <code>Gulf Coast</code> | <code>Panhandle</code> | <code>statewide</code> | <code>national</code> | <code>unknown</code>（须逐字照用，不得翻译）。</li></ul></div>
+<h3 id="01candidates-talarico-careertimelinecsv-and-paxton-careertim">`01_candidates/talarico/career_timeline.csv` and `paxton/career_timeline.csv` / 两位候选人的职业时间线表</h3>
+<div class="blk en"><pre><code>entry_id,candidate_id,start_date,end_date,role_or_event,organization,location,description,source_urls,verification_status</code></pre></div>
+<h3 id="policypositionscsv-lead-merges-to-01candidates-politicalposi">`policy_positions.csv` (Lead merges to `01_candidates/&lt;name&gt;/political_positions.md`; canonical CSV at root of `01_candidates/`) / 政策立场表（由负责人合并至 `01_candidates/&lt;name&gt;/political_positions.md`；规范 CSV 位于 `01_candidates/` 根目录）</h3>
+<div class="blk en"><pre><code>position_id,candidate_id,issue,subissue,position_summary,candidate_statement,statement_date,context,source_urls,legislative_record,position_changed,change_notes,opponent_criticism,fact_check,verification_status</code></pre></div>
+<div class="pair"><div class="col en"><p><code>issue</code> must be one of: <code>Economy</code> | <code>Healthcare</code> | <code>Education</code> | <code>Immigration</code> | <code>Abortion</code> | <code>Gun policy</code> | <code>Energy</code> | <code>Religion</code> | <code>Labor</code> | <code>Democracy</code> | <code>Foreign policy</code> | <code>Other</code>.</p></div><div class="col zh"><p><code>issue</code> 必须为以下之一：<code>Economy</code> | <code>Healthcare</code> | <code>Education</code> | <code>Immigration</code> | <code>Abortion</code> | <code>Gun policy</code> | <code>Energy</code> | <code>Religion</code> | <code>Labor</code> | <code>Democracy</code> | <code>Foreign policy</code> | <code>Other</code>（须逐字照用，不得翻译或改写大小写）。</p></div></div>
+<h3 id="03speeches-speecharchivecsv-演讲档案表">`03_speeches/speech_archive.csv` / 演讲档案表</h3>
+<div class="blk en"><pre><code>speech_id,candidate_id,event_id,date,speech_title,speech_url,transcript_url,duration,main_topics,major_quotes,rhetorical_devices,opponent_references,personal_story_elements,policy_claims,source_urls,source,verification_status</code></pre></div>
+<div class="pair"><div class="col en"><p><code>major_quotes</code> — pipe-delimited <code>"quote" [hh:mm:ss]</code>. Only verbatim quotes you actually saw/heard in a retrieved source; otherwise paraphrase and mark <code>(paraphrase)</code>.</p></div><div class="col zh"><p><code>major_quotes</code>——以竖线分隔的 <code>"quote" [hh:mm:ss]</code>。只收录你在已检索来源中实际看到／听到的逐字引语；否则改写并标注 <code>(paraphrase)</code>（译：改写）。</p></div></div>
+<h3 id="03speeches-speechvideoindexcsv-演讲视频索引表">`03_speeches/speech_video_index.csv` / 演讲视频索引表</h3>
+<div class="blk en"><pre><code>video_id,candidate_id,video_url,date,duration,event_type,main_topics,relevant_timestamps,transcript_available,visual_observations,completeness,source_urls,verification_status</code></pre></div>
+<div class="pair"><div class="col en"><p><code>completeness</code>: <code>full</code> | <code>partial</code> | <code>clip</code> | <code>unknown</code></p></div><div class="col zh"><p><code>completeness</code>：<code>full</code> | <code>partial</code> | <code>clip</code> | <code>unknown</code>（完整／部分／片段／未查明；写入时须使用英文原词）。</p></div></div>
+<h3 id="05campaignmedia-advertisementscsv-广告表">`05_campaign_media/advertisements.csv` / 广告表</h3>
+<div class="blk en"><pre><code>ad_id,candidate_id,sponsor,sponsor_type,release_date,title,platform,length_seconds,issue_or_message,main_visual_elements,narration_soundtrack,candidate_appearance,main_claims,video_url,transcript_url,fact_check,media_coverage,source_urls,verification_status,notes</code></pre></div>
+<h3 id="05campaignmedia-socialmediacsv-社交媒体表">`05_campaign_media/social_media.csv` / 社交媒体表</h3>
+<div class="blk en"><pre><code>post_id,candidate_id,platform,account_handle,post_date,post_type,content_summary,media_included,engagement_notes,url,verification_status,notes</code></pre></div>
+<h3 id="05campaignmedia-mediacoveragecsv-媒体报道表">`05_campaign_media/media_coverage.csv` / 媒体报道表</h3>
+<div class="blk en"><pre><code>coverage_id,candidate_id,event_id,publication_date,outlet,author,title,url,source_tier,coverage_type,key_framing,notable_quotes,framing_of_candidate,mentions_opponent,reliability_notes</code></pre></div>
+<div class="pair"><div class="col en"><p><code>coverage_type</code>: <code>news_report</code> | <code>analysis</code> | <code>op_ed</code> | <code>fact_check</code> | <code>interview</code> | <code>live_blog</code> | <code>newsletter</code> | <code>news_video</code></p></div><div class="col zh"><p><code>coverage_type</code>：<code>news_report</code> | <code>analysis</code> | <code>op_ed</code> | <code>fact_check</code> | <code>interview</code> | <code>live_blog</code> | <code>newsletter</code> | <code>news_video</code>（须逐字照用英文原词）。</p></div></div>
+<h3 id="06campaignfinance-campaignfinancecsv-竞选财务表">`06_campaign_finance/campaign_finance.csv` / 竞选财务表</h3>
+<div class="blk en"><pre><code>finance_id,candidate_id,period,report_type,reporting_deadline,receipts,individual_contributions,pac_contributions,disbursements,cash_on_hand,debts_owed,source_urls,verification_status,notes</code></pre></div>
+<div class="pair"><div class="col en"><p>Dollar amounts: plain integers, no <code>$</code> or commas. <code>unknown</code> where not disclosed. Cite FEC filing or reputable reporting on the filing.</p></div><div class="col zh"><p>金额：使用纯整数，不带 <code>$</code> 符号、不加千位逗号。未披露的写 <code>unknown</code>。须引用 FEC 申报文件或对该申报的可靠报道。</p></div></div>
+<h3 id="04visualarchive-imagearchivecsv-图像档案表">`04_visual_archive/image_archive.csv` / 图像档案表</h3>
+<div class="blk en"><pre><code>image_id,candidate_id,image_date,event_id,event_category,source_name,source_url,original_image_url,photographer,copyright_status,license,local_filename,image_resolution,framing,camera_angle,image_quality,face_visibility,body_visibility,clothing_notes,notes,verification_status</code></pre></div>
+<div class="pair"><div class="col en"><p><code>copyright_status</code>: <code>public_domain</code> | <code>licensed</code> | <code>all_rights_reserved_link_only</code> | <code>unknown</code>. <code>local_filename</code> = <code>unknown</code> unless an actual permitted copy exists.</p></div><div class="col zh"><p><code>copyright_status</code>：<code>public_domain</code> | <code>licensed</code> | <code>all_rights_reserved_link_only</code> | <code>unknown</code>。除非确实存在获准保存的副本，否则 <code>local_filename</code> = <code>unknown</code>。</p></div></div>
+<h3 id="07electoralcontext-electionresultscsv-选举结果表">`07_electoral_context/election_results.csv` / 选举结果表</h3>
+<div class="blk en"><pre><code>race_id,race_name,election_date,candidate,party,votes,percentage,winner,source_urls,verification_status,notes</code></pre></div>
+<h3 id="07electoralcontext-countyresultscsv-县级结果表">`07_electoral_context/county_results.csv` / 县级结果表</h3>
+<div class="blk en"><pre><code>county_id,county,candidate_talarico_votes,candidate_paxton_votes,other_votes,talarico_pct,paxton_pct,total_votes,source_urls,verification_status</code></pre></div>
+<h3 id="07electoralcontext-pollingcsv-民调表">`07_electoral_context/polling.csv` / 民调表</h3>
+<div class="blk en"><pre><code>poll_id,pollster,sponsor,field_start,field_end,population,sample_size,margin_of_error,talarico_pct,paxton_pct,other_pct,undecided_pct,leader,margin,source_urls,verification_status,notes</code></pre></div>
+<h3 id="09sources-sourcescsv-lead-owned-master-来源总表由负责人维护">`09_sources/sources.csv` (Lead-owned master) / 来源总表（由负责人维护）</h3>
+<div class="blk en"><pre><code>source_id,url,title,publisher,publication_date,event_date,access_date,source_tier,source_type,relevant_quote_or_info,reliability_notes,used_by</code></pre></div>
+<div class="blk mix"><hr></div>
+<h2 id="4-markdown-deliverables-required-structure-4-markdown-交付物必需结">4. Markdown deliverables — required structure / 4. Markdown 交付物——必需结构</h2>
+<div class="blk en"><p>Every biography / analysis <code>.md</code> starts with YAML front matter:</p></div>
+<div class="blk en"><pre><code>---
+title:
+candidate_id:
+compiled_by:
+last_updated:
+status: draft | in_progress | complete
+coverage_note: &lt;one line on what is solid vs thin&gt;
+---</code></pre></div>
+<div class="pair"><div class="col en"><p>Then: sections with <code>##</code> headings, inline citations as <code>[SRC-####]</code> or raw markdown links, and a final <code>## Sources</code> list. Tables are encouraged for chronology.</p></div><div class="col zh"><p>每一份传记／分析类 <code>.md</code> 文件都以 YAML 前置元数据开头：</p></div></div>
+<div class="blk en"><pre><code>---
+title:
+candidate_id:
+compiled_by:
+last_updated:
+status: draft | in_progress | complete
+coverage_note: &lt;one line on what is solid vs thin&gt;
+---</code></pre></div>
+<div class="blk zh"><p>随后是：以 <code>##</code> 为层级的章节、以 <code>[SRC-####]</code> 或原始 Markdown 链接形式给出的行内引用，以及结尾的 <code>## Sources</code> 列表。时间线类内容建议使用表格。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="5-event-purpose-the-three-layer-rule-5-活动目的三层规则">5. Event purpose: the three-layer rule / 5. 活动目的：三层规则</h2>
+<div class="blk en"><p>For each event, fill <strong>all three</strong> and never blur them:</p></div>
+<div class="blk en"><ul><li class="en"><code>stated_purpose</code> — what the campaign/candidate <em>explicitly said</em> it was for (quote the press release/announcement or write <code>unknown</code>).</li><li class="en"><code>observable_function</code> — what the activity <em>actually was</em> (e.g. "45-minute stump speech to ~120 people in a union hall, then 10 minutes of press questions").</li><li class="en"><code>analyst_interpretation</code> — labelled inference, prefixed <code>INTERPRETATION:</code>.</li></ul></div>
+<div class="blk zh"><p>对每一项活动，<strong>三层都必须填写</strong>，且绝不可混淆：</p></div>
+<div class="blk zh"><ul><li class="zh"><code>stated_purpose</code>（陈述目的）——竞选团队／候选人*明确表示*该活动所为何事（引用新闻稿／公告，或写 <code>unknown</code>）。</li><li class="zh"><code>observable_function</code>（可观察功能）——该活动*实际是什么*（例如 "45-minute stump speech to ~120 people in a union hall, then 10 minutes of press questions"，译：在工会大厅向约 120 人作 45 分钟竞选演说，随后 10 分钟媒体提问）。</li><li class="zh"><code>analyst_interpretation</code>（分析者解读）——带标注的推断，以 <code>INTERPRETATION:</code> 为前缀。</li></ul></div>
+<div class="pair"><div class="col en"><p>In Markdown, use a three-row table instead:</p></div><div class="col zh"><p>在 Markdown 中，改用三行表格：</p></div></div>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Layer / 层级</th><th style="text-align:left">Content / 内容</th><th style="text-align:left">Evidence / 证据</th></tr></thead><tbody><tr><td style="text-align:left">Stated purpose / 陈述目的</td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Observable function / 可观察功能</td><td style="text-align:left"></td><td style="text-align:left"></td></tr><tr><td style="text-align:left">Analyst interpretation / 分析者解读</td><td style="text-align:left"></td><td style="text-align:left"></td></tr></tbody></table></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="6-verification-workflow-6-核实流程">6. Verification workflow / 6. 核实流程</h2>
+<div class="pair"><div class="col en"><p>For each important claim: find ≥1 Tier-1 or Tier-2 source. Where two sources conflict, record both and set <code>verification_status = conflicting sources</code>, then describe the conflict in <code>research_gaps.md</code> (agents append to their own staging gaps file; Lead merges).</p></div><div class="col zh"><p>对每一项重要主张：找到至少一个 Tier-1 或 Tier-2 来源。若两个来源相互冲突，两者都记录，并设置 <code>verification_status = conflicting sources</code>，然后在 <code>research_gaps.md</code> 中描述该冲突（分析员将内容追加到各自的过渡空缺文件，由负责人合并）。</p></div></div>
+<div class="blk en"><p>Known friction to expect and how to handle:</p></div>
+<div class="blk en"><ul><li class="en">Paywalled articles (NYT, WaPo): the search-result snippet and headline may be all you can retrieve. Record what the snippet supports, mark <code>partially verified</code>, and note the paywall in <code>reliability_notes</code>. Do not fabricate body text.</li><li class="en"><code>web_fetch</code> may fail or return nav junk. Retry once; if it still fails, rely on the search-result summary and mark accordingly.</li><li class="en">Social posts are frequently deleted or unretrievable → <code>unverified</code>, note "post not retrievable".</li></ul></div>
+<div class="blk zh"><p>可能遇到的已知摩擦及处理方式：</p></div>
+<div class="blk zh"><ul><li class="zh">付费墙文章（NYT、WaPo）：你可能只能取到搜索结果摘要与标题。记录摘要所能支持的内容，标记为 <code>partially verified</code>，并在 <code>reliability_notes</code> 中注明付费墙。不得编造正文内容。</li><li class="zh"><code>web_fetch</code> 可能失败或返回导航等垃圾内容。重试一次；若仍然失败，依据搜索结果摘要，并相应标注。</li><li class="zh">社交帖子经常被删除或无法检索 → 记为 <code>unverified</code>，并注明 "post not retrievable"（译：帖子无法检索）。</li></ul></div>
+<div class="blk mix"><hr></div>
+<h2 id="7-staging-files-each-agents-isolated-write-scope-7-过渡文件每位分析员">7. Staging files (each agent's isolated write scope) / 7. 过渡文件（每位分析员隔离的写入范围）</h2>
+<div class="pair"><div class="col en"><p>Each agent writes <em>only</em> its own files plus one staging file, to keep parallel writes disjoint:</p></div><div class="col zh"><p>每位分析员*只*写自己的文件外加一个过渡文件，以保持并行写入互不交叉：</p></div></div>
+<div class="blk zh"><ul><li class="zh"><strong>Agent A</strong> → <code>02_campaign_events/*</code>, staging: <code>_staging/A_sources.csv</code>, <code>_staging/A_gaps.md</code> <strong>A 号分析员</strong> → <code>02_campaign_events/*</code>，过渡文件：<code>_staging/A_sources.csv</code>、<code>_staging/A_gaps.md</code></li><li class="zh"><strong>Agent B</strong> → <code>01_candidates/**</code>, <code>01_candidates/policy_positions.csv</code>, staging: <code>_staging/B_sources.csv</code>, <code>_staging/B_gaps.md</code> <strong>B 号分析员</strong> → <code>01_candidates/**</code>、<code>01_candidates/policy_positions.csv</code>，过渡文件：<code>_staging/B_sources.csv</code>、<code>_staging/B_gaps.md</code></li><li class="zh"><strong>Agent C</strong> → <code>04_visual_archive/**</code>, staging: <code>_staging/C_sources.csv</code>, <code>_staging/C_gaps.md</code> <strong>C 号分析员</strong> → <code>04_visual_archive/**</code>，过渡文件：<code>_staging/C_sources.csv</code>、<code>_staging/C_gaps.md</code></li><li class="zh"><strong>Agent D</strong> → <code>03_speeches/**</code>, staging: <code>_staging/D_sources.csv</code>, <code>_staging/D_gaps.md</code> <strong>D 号分析员</strong> → <code>03_speeches/**</code>，过渡文件：<code>_staging/D_sources.csv</code>、<code>_staging/D_gaps.md</code></li><li class="zh"><strong>Agent E</strong> → <code>05_campaign_media/**</code>, <code>06_campaign_finance/**</code>, staging: <code>_staging/E_sources.csv</code>, <code>_staging/E_gaps.md</code> <strong>E 号分析员</strong> → <code>05_campaign_media/**</code>、<code>06_campaign_finance/**</code>，过渡文件：<code>_staging/E_sources.csv</code>、<code>_staging/E_gaps.md</code></li><li class="zh"><strong>Lead</strong> → <code>README.md</code>, <code>09_sources/sources.csv</code>, <code>07_electoral_context/**</code>, <code>08_comparative_analysis/**</code>, <code>research_gaps.md</code>, <code>_research_conventions.md</code> <strong>负责人（Lead）</strong> → <code>README.md</code>、<code>09_sources/sources.csv</code>、<code>07_electoral_context/**</code>、<code>08_comparative_analysis/**</code>、<code>research_gaps.md</code>、<code>_research_conventions.md</code></li></ul></div>
+<div class="pair"><div class="col en"><p>Never edit a file outside your scope. If you need a change elsewhere, message the Lead.</p></div><div class="col zh"><p>绝不编辑你负责范围之外的文件。若需要在别处改动，请联系负责人。</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="8-coverage-parity-requirement-141-of-the-brief-8-覆盖对等要求任务书-1">8. Coverage-parity requirement (§14.1 of the brief) / 8. 覆盖对等要求（任务书 §14.1）</h2>
+<div class="pair"><div class="col en"><p>Every agent must deliver <strong>comparable depth for both candidates</strong>. If Paxton coverage is thinner than Talarico (or vice versa), do not pad with speculation — instead record the asymmetry explicitly in your gaps file with the reason (e.g. "fewer independent event listings; campaign site offline"). Asymmetry is a finding, not a failure.</p></div><div class="col zh"><p>每位分析员都必须为两位候选人提供<strong>可比的深度</strong>。若帕克斯顿的覆盖比塔拉里科单薄（或相反），不得以推测填充——而应在你的空缺文件中明确记录这一不对称及其原因（例如 "fewer independent event listings; campaign site offline"，译：可独立核查的活动列表更少；竞选网站离线）。不对称是一项发现，而非失败。</p></div></div>
+    
+  </main>
+</div>
+<footer><div class="in">
+  <span>American Political Image Lab · 案例研究 001 · 生成于 2026-11-10 · 全部内容可离线阅读</span>
+  <span>所有事实均可溯源至 09_sources/sources.csv 的 SRC-#### 编号</span>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

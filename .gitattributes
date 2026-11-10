@@ -1,0 +1,12 @@
+# Keep the archive byte-stable across platforms: text stays LF, media stays binary.
+* text=auto eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary

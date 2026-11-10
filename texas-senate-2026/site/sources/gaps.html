@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>研究缺口 —— 案例研究 001（2026 年德州联邦参议员选举） · Research Gaps — Case Study 001 (2026 Texas U.S. Senate)</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--muted:#6b6760;--line:#e3ded4;--accent:#8c2f1e;--accent2:#1f4e5f;--card:#fff;--en:#1c1b19;--zh:#243b4a}
+@media (prefers-color-scheme:dark){:root{--bg:#16171a;--fg:#e8e6e1;--muted:#a3a09a;--line:#2e3138;--accent:#e0796a;--accent2:#7fb3c4;--card:#1d1f24;--en:#e8e6e1;--zh:#a9c6d6}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.72 -apple-system,"Segoe UI","Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.6rem 1.1rem;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.01em;color:var(--fg)}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+nav.main{display:flex;gap:.15rem;flex-wrap:wrap;margin-left:auto}
+nav.main a{padding:.28rem .55rem;border-radius:6px;color:var(--muted);font-size:.9rem}
+nav.main a.on,nav.main a:hover{background:var(--line);color:var(--fg);text-decoration:none}
+.modes{display:flex;gap:.2rem;border:1px solid var(--line);border-radius:8px;padding:.15rem}
+.modes button{background:none;border:0;color:var(--muted);font:inherit;font-size:.8rem;padding:.2rem .45rem;border-radius:6px;cursor:pointer}
+.modes button.on{background:var(--accent);color:#fff}
+.layout{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr);gap:2rem;padding:1.6rem 1.1rem 4rem}
+aside.toc{position:sticky;top:4.2rem;align-self:start;max-height:calc(100vh - 5rem);overflow:auto;font-size:.86rem;border-left:2px solid var(--line);padding-left:.9rem}
+aside.toc h4{margin:.2rem 0 .6rem;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+aside.toc a{display:block;padding:.18rem 0;color:var(--muted);line-height:1.45}
+aside.toc a:hover{color:var(--fg)}
+aside.toc a.h3{padding-left:.7rem;font-size:.82rem;opacity:.85}
+main{min-width:0}
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.crumb a{color:var(--muted)}
+h1{font-size:1.85rem;line-height:1.3;margin:.2rem 0 .4rem}
+h1 .zh{display:block;font-size:1.15rem;color:var(--muted);font-weight:500;margin-top:.35rem}
+h2{font-size:1.28rem;margin:2.4rem 0 .7rem;padding-top:.6rem;border-top:1px solid var(--line)}
+h3{font-size:1.08rem;margin:1.7rem 0 .5rem}
+h4{font-size:1rem;margin:1.3rem 0 .4rem}
+p{margin:.55rem 0}
+code{background:var(--line);padding:.08em .32em;border-radius:4px;font-size:.86em;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem;overflow:auto}
+pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
+blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
+blockquote p{margin:.35rem 0}
+.table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
+tbody tr:hover{background:color-mix(in srgb,var(--line) 45%,transparent)}
+ul,ol{margin:.5rem 0 .7rem;padding-left:1.35rem}
+li{margin:.22rem 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin:.6rem 0;align-items:start}
+.pair .col{min-width:0}
+.pair .en{color:var(--en)}
+.pair .zh{color:var(--zh);border-left:2px solid var(--line);padding-left:1.1rem;font-size:.97em}
+body.mode-en .zh,body.mode-en .pair .zh{display:none}
+body.mode-en .pair{grid-template-columns:1fr}
+body.mode-zh .en,body.mode-zh .pair .en{display:none}
+body.mode-zh .pair{grid-template-columns:1fr}
+body.mode-zh li.en,body.mode-zh .blk.en{display:none}
+body.mode-en li.zh,body.mode-en .blk.zh{display:none}
+.blk.mix{display:block}
+.meta{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:.4rem 0 1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1rem;margin:1.2rem 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card h3{margin:.1rem 0 .45rem;font-size:1.02rem}
+.card p{margin:.2rem 0;color:var(--muted);font-size:.85rem;line-height:1.6}
+.card .n{font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1.1}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.8rem;margin:1.2rem 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem}
+.stat b{display:block;font-size:1.45rem;color:var(--accent);line-height:1.2}
+.stat span{font-size:.78rem;color:var(--muted)}
+.hero{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,transparent),color-mix(in srgb,var(--accent2) 12%,transparent));border:1px solid var(--line);border-radius:16px;padding:2rem 1.8rem;margin:0 0 1.6rem}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+.hero p{color:var(--muted);max-width:62ch}
+.search{position:relative;margin:1.2rem 0}
+.search input{width:100%;padding:.85rem 1rem;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+#results{margin-top:.8rem;display:grid;gap:.5rem}
+.hit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem}
+.hit .t{font-weight:600}
+.hit .s{font-size:.8rem;color:var(--muted);margin-top:.2rem}
+.hit mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
+.gal figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.gal img{width:100%;height:210px;object-fit:cover;display:block;background:var(--line)}
+.gal figcaption{padding:.55rem .65rem;font-size:.74rem;color:var(--muted);line-height:1.45}
+.gal figcaption b{color:var(--fg);font-weight:600;display:block;font-size:.8rem}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.4rem 1.1rem;color:var(--muted);font-size:.8rem}
+footer .in{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.src{font-family:ui-monospace,Consolas,monospace;font-size:.78em;padding:.02em .32em;border:1px solid var(--line);border-radius:4px;color:var(--accent2);white-space:nowrap;text-decoration:none}
+.src:hover{background:color-mix(in srgb,var(--accent2) 14%,transparent);text-decoration:none;border-color:var(--accent2)}
+a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
+.nolink{display:flex;flex-direction:column;justify-content:center;align-items:center;height:210px;padding:1rem;text-align:center;background:repeating-linear-gradient(45deg,var(--line) 0 6px,transparent 6px 12px);font-size:.8rem;color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem;margin:1rem 0 1.6rem}
+.shots a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card)}
+.shots img{width:100%;height:130px;object-fit:cover;display:block}
+.shots span{display:block;font-size:.68rem;color:var(--muted);padding:.25rem .35rem;line-height:1.35}
+.tag{display:inline-block;font-size:.72rem;padding:.1rem .45rem;border-radius:999px;background:var(--line);color:var(--muted);margin-right:.3rem}
+.warn{background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:10px;padding:.85rem 1rem;margin:1rem 0;font-size:.9rem}
+@media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
+@media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
+</style>
+</head><body>
+<header class="top"><div class="top-in">
+  <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="on" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  <aside class="toc"><h4>本页目录 / On this page</h4>
+<a class="" href="#0-validation-status-of-the-archive-as-delivered-交付时的校验状态">0. Validation status of the archive as delivered / 交付时的校验状态</a>
+<a class="" href="#1-tool-and-access-constraints-that-shaped-the-whole-archive-">1. Tool and access constraints that shaped the whole archive / 影响整体档案的工具与访问限制</a>
+<a class="" href="#2-election-results-and-electoral-data-选举结果与选举数据">2. Election results and electoral data / 选举结果与选举数据</a>
+<a class="" href="#3-campaign-events-竞选活动">3. Campaign events / 竞选活动</a>
+<a class="" href="#4-campaign-organization-竞选组织">4. Campaign organization / 竞选组织</a>
+<a class="" href="#5-money-the-discrepancies-that-must-never-be-silently-merged">5. Money — the discrepancies that must never be silently merged / 资金：绝不可悄然合并的口径差异</a>
+<a class="" href="#6-media-and-quotations-媒体与引语">6. Media and quotations / 媒体与引语</a>
+<a class="" href="#7-images-and-visual-record-rewritten-after-the-visual-scope-">7. Images and visual record — rewritten after the visual scope was taken over / 影像与视觉记录（接手后重写）</a>
+<a class="" href="#8-policy-and-biography-source-asymmetry-政策与传记的来源不对称">8. Policy and biography source asymmetry / 政策与传记的来源不对称</a>
+<a class="" href="#9-source-integrity-notes-for-the-human-researcher-给人类研究者的来源完">9. Source-integrity notes for the human researcher / 给人类研究者的来源完整性提示</a>
+<a class="" href="#10-what-would-most-improve-this-archive-prioritised-最应优先补齐的事">10. What would most improve this archive (prioritised) / 最应优先补齐的事项</a>
+<a class="" href="#11-agent-level-gap-registers-preserved-for-granular-detail-代">11. Agent-level gap registers (preserved for granular detail) / 代理层面的缺口登记（保留细粒度信息）</a></aside>
+  <main>
+    <div class="crumb"><a href="../index.html">首页</a> › <a href="../sources/index.html">来源与缺口</a></div>
+    <h1>Research Gaps — Case Study 001 (2026 Texas U.S. Senate)<span class="zh">研究缺口 —— 案例研究 001（2026 年德州联邦参议员选举）</span></h1>
+    <div class="meta"><span>状态：complete</span><span>更新：2026-11-10</span><span>编译：Lead Research Agent (merged from all five agents' staging gap registers)</span><span>源文件：<a href="../../research_gaps.md">research_gaps.md</a></span></div><div class="warn"><b>覆盖范围说明 / Coverage note.</b> Consolidated register of what this archive could NOT establish, plus the tool/access constraints that caused each gap. Intended to be read alongside the datasets so the human researcher knows exactly where the evidence stops. Nothing here is a guess.</div><h1 id="research-gaps-研究缺口">Research Gaps / 研究缺口</h1>
+<div class="pair"><div class="col en"><p>§14 of the brief requires an explicit register of what could not be located, what is
+missing, what is uncertain and what conflicts. This file is that register, merged from
+the Lead's own findings and the five agents' staging registers
+(<code>_staging/A_gaps.md</code>, <code>B_gaps.md</code>, <code>D_gaps.md</code>, <code>E_gaps.md</code>; no <code>C_gaps.md</code> exists
+because Agent C produced no output and the Lead completed the visual scope — see §7).</p></div><div class="col zh"><p>任务书第 14 项要求开列一份明确清单，说明哪些材料未能找到、哪些缺失、哪些不确定、哪些彼此冲突。本文件即该清单，由主导研究者的发现与五条代理线索的阶段登记合并而成（<code>_staging/A_gaps.md</code>、<code>B_gaps.md</code>、<code>D_gaps.md</code>、<code>E_gaps.md</code>；<strong>不存在 <code>C_gaps.md</code></strong>，因为负责影像的代理 C 未产出任何结果，其范围由主导研究者接手完成——见第 7 节）。</p></div></div>
+<div class="pair"><div class="col en"><p><strong>Nothing here should be read as claiming the campaign was not documented where this
+file says "not retrieved."</strong> The distinction is between <em>absent from the record</em> and
+<em>absent from what our tools could reach</em>.</p></div><div class="col zh"><p><strong>本文件任何一处"未能检索到"都不等于"该竞选活动没有记录"。</strong> 必须区分两种情形：<em>记录中本就不存在</em>，与*我们的检索工具无法触及*。</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="0-validation-status-of-the-archive-as-delivered-交付时的校验状态">0. Validation status of the archive as delivered / 交付时的校验状态</h2>
+<div class="pair"><div class="col en"><p>All twelve datasets were checked programmatically (<code>_staging/_lead_validate.py</code>):
+exact header match against <code>_research_conventions.md</code>, per-row field counts, no blank
+cells, controlled-vocabulary conformance.</p></div><div class="col zh"><p>全部十二个数据集均已用脚本校验（<code>_staging/_lead_validate.py</code>）：表头与 <code>_research_conventions.md</code> 完全一致、逐行字段数正确、无空白单元格、受控词表取值合规。</p></div></div>
+<div class="blk en"><pre><code>[OK] campaign_events.csv 93 rows (TALARICO=49, PAXTON=44)
+[OK] policy_positions.csv 146 rows (80/66)
+[OK] speech_archive.csv 32 rows (18/14)
+[OK] speech_video_index.csv 31 rows (18/13)
+[OK] image_archive.csv 116 rows (18/98)
+[OK] advertisements.csv 23 rows (14/9)
+[OK] social_media.csv 12 rows
+[OK] media_coverage.csv 66 rows (38/28)
+[OK] campaign_finance.csv 69 rows (31/38)
+[OK] election_results.csv 12 rows
+[OK] county_results.csv 0 rows (header only — intentional / 有意留空)
+[OK] polling.csv 11 rows
+TOTAL hard failures: 0   soft warnings: 0
+硬性失败 0 项；软性警告 0 项</code></pre></div>
+<div class="pair"><div class="col en"><p>Defects found and fixed during integration, recorded here for transparency:
+<code>polling.csv</code> had 17 fields against a 16-field header (Lead's own file — rewritten);
+<code>advertisements.csv</code> and <code>social_media.csv</code> carried an unheadered 20th/12th <code>notes</code>
+field (contract amended to legalise the useful field, rows requoted);
+<code>media_coverage.csv</code> used <code>coverage_type=news_video</code> outside the vocabulary (vocabulary
+extended); <code>social_media.csv</code> had three rows with unquoted commas in <code>notes</code> (repaired);
+one Wikimedia file was a <strong>different Ken Paxton</strong> ("Lawton, OK", 1986) and was removed
+(<code>PAX-IMG-0801</code> retired — do not reuse).</p></div><div class="col zh"><p>整合过程中发现并修复的缺陷，一并记录以保持透明：<code>polling.csv</code> 出现 17 个字段而表头只有 16 个（属主导研究者自己的文件——已重写）；<code>advertisements.csv</code> 与 <code>social_media.csv</code> 带有未列入表头的第 20／12 个 <code>notes</code> 字段（通过修订契约将该有用字段合法化，并重写引号）；<code>media_coverage.csv</code> 使用了词表外的 <code>coverage_type=news_video</code>（已扩展词表）；<code>social_media.csv</code> 有三行因 <code>notes</code> 内逗号未加引号而错位（已修复）；维基共享资源中有一个文件是<strong>另一位同名肯·帕克斯顿</strong>（"Lawton, OK"，1986 年），已移除（<code>PAX-IMG-0801</code> 编号作废——不得复用）。</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="1-tool-and-access-constraints-that-shaped-the-whole-archive-">1. Tool and access constraints that shaped the whole archive / 影响整体档案的工具与访问限制</h2>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Constraint / 限制</th><th style="text-align:left">Effect / 后果</th><th style="text-align:left">Examples / 例证</th></tr></thead><tbody><tr><td style="text-align:left"><code>web_fetch</code> returns only the head of many JS-rendered pages / 对许多 JS 渲染页面只能取到开头</td><td style="text-align:left">Article bodies unreachable; only headline/snippet facts recorded / 正文不可达，只能记录标题与摘要级事实</td><td style="text-align:left">Texas Tribune, NYT, WSJ, NBC results, Houston Public Media</td></tr><tr><td style="text-align:left">HTTP 403 / bot-blocking / 403 与反爬拦截</td><td style="text-align:left">Whole sources unavailable / 整条来源不可用</td><td style="text-align:left">Axios, <code>docquery.fec.gov</code> filing PDFs, ABC27/Sinclair, one Hill article, AFP Fact Check, RealClearPolitics, Newsweek print, Fox News print (404)</td></tr><tr><td style="text-align:left">HTTP 402 / paywalls / 402 与付费墙</td><td style="text-align:left">Body text unreachable; snippets only / 正文不可达，仅有摘要</td><td style="text-align:left">NYT, Washington Post, WSJ, El Paso Times (one article)</td></tr><tr><td style="text-align:left">JavaScript-only election dashboards / 纯 JS 选举看板</td><td style="text-align:left">County/precinct results not extractable at all / 县级与选区结果完全无法提取</td><td style="text-align:left">Texas Tribune, NBC, Houston Public Media, Boston Globe, Houston Chronicle interactives</td></tr><tr><td style="text-align:left">No video playback or transcription / 无视频播放与转写能力</td><td style="text-align:left">Full-length transcripts impossible; quotations rest on printed reporting / 无法生成完整文字稿，引语只能依赖文字报道</td><td style="text-align:left">All candidate video; only one genuine transcript exists (MS NOW, AI-generated) / 全部候选人视频；仅有一份真实文字稿（MS NOW，AI 生成）</td></tr><tr><td style="text-align:left">No image input to the analyst model / 分析模型无图像输入</td><td style="text-align:left">Photographs could not be visually inspected by the research agent / 研究代理无法目视检查照片</td><td style="text-align:left">All 116 archive rows — see §7 / 全部 116 行，见第 7 节</td></tr><tr><td style="text-align:left">No CV library (cv2/mediapipe/dlib absent) / 无计算机视觉库</td><td style="text-align:left">Facial-landmark and body-proportion measurement not executable / 面部关键点与身体比例测量无法执行</td><td style="text-align:left">see §7 / 见第 7 节</td></tr><tr><td style="text-align:left">Translation-only sources / 仅二手翻译来源</td><td style="text-align:left">Quotations are translations of translations / 引语是"译文的译文"</td><td style="text-align:left">Crusoé (Brazilian outlet)</td></tr><tr><td style="text-align:left">Wikimedia API rate limiting (HTTP 429) / 维基接口限速</td><td style="text-align:left">Required throttled, batched requests to build the image archive / 须限速批量请求才能建成影像档案</td><td style="text-align:left">Commons enumeration</td></tr></tbody></table></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="2-election-results-and-electoral-data-选举结果与选举数据">2. Election results and electoral data / 选举结果与选举数据</h2>
+<div class="blk en"><ol><li class="en"><strong>County-level results — <code>county_results.csv</code> is intentionally EMPTY (header only).</strong> County and precinct tabulation was published through JavaScript-rendered interactives that the retrieval tool could not execute. The Wikipedia race article contains only county <em>maps</em> (SVG), not a county table. This remains the single largest data gap in the archive. A researcher with a browser, or the Texas Secretary of State county canvass returns, can close it directly.</li></ol></div>
+<div class="blk zh"><p><strong>县级结果——<code>county_results.csv</code> 有意为空（仅表头）。</strong> 县与选区级统计通过 JavaScript 渲染的交互页面发布，检索工具无法执行脚本；维基百科条目只有县级*地图*（SVG），没有县级数据表。这是本档案<strong>最大的单项数据缺口</strong>。有浏览器的研究者，或德州州务卿的县级选举认证回报，可直接补齐。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Certified totals — partially closed.</strong> Final figures were obtained from the certified-result aggregate in the Wikipedia race article via its raw wikitext: <strong>Talarico 5,447,069 (55.06%), Paxton 4,250,664 (42.97%)</strong>. These are recorded in <code>election_results.csv</code> as <code>partially verified</code> because the aggregator, not the official canvass, is the source. <strong>The Texas Secretary of State canvass has still not been read directly.</strong></li></ol></div>
+<div class="blk zh"><p><strong>认证总票数——部分补齐。</strong> 最终数字取自维基百科该选举条目的认证结果汇总（经原始 wikitext 抓取）：<strong>塔拉里科 5,447,069 票（55.06%）、帕克斯顿 4,250,664 票（42.97%）</strong>。因来源是汇总方而非官方认证，<code>election_results.csv</code> 将其标为 <code>partially verified</code>（部分核实）。<strong>德州州务卿的官方认证仍未直接读取。</strong></p></div>
+<div class="blk en"><ol><li class="en"><strong>Certification status.</strong> Whether the state canvass had been certified as of 2026-11-10 is unknown. The statutory procedure is documented (<a class="ext" href="https://www.sos.texas.gov/elections/forms/canvassing-and-post-election-procedures-10-19-23.pdf" target="_blank" rel="noopener">SOS canvassing guidance</a>) but no 2026 certification record was retrieved.</li></ol></div>
+<div class="blk zh"><p><strong>认证状态。</strong> 截至 2026-11-10 州级认证是否完成，未能查明。法定程序有据可查（<a class="ext" href="https://www.sos.texas.gov/elections/forms/canvassing-and-post-election-procedures-10-19-23.pdf" target="_blank" rel="noopener">州务卿认证指引</a>），但未检索到 2026 年的认证记录。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Minor-party / independent candidates.</strong> Not established. The two major-party percentages sum to 98.03%, implying ~2% went elsewhere or was undervoted, but this was not verified; <code>election_results.csv</code> carries an explicit <code>unverified</code> row.</li></ol></div>
+<div class="blk zh"><p><strong>小党与独立候选人。</strong> 未能确立。两大党得票率合计 98.03%，意味着约 2% 流向其他候选人或为废票，但未核实；<code>election_results.csv</code> 中有一条明确的 <code>unverified</code>（未核实）行。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Daily early-vote returns.</strong> Early voting began 2026-10-19 and "more than 7.7 million" Texans voted early, but no daily county-level series was retrieved.</li></ol></div>
+<div class="blk zh"><p><strong>提前投票逐日数据。</strong> 提前投票于 2026-10-19 开始，"超过 770 万"德州人提前投票，但未检索到县级逐日序列数据。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Democratic primary — final figure now known, earlier reporting differed.</strong> Final Talarico share <strong>52.4%</strong> (certified-result aggregate); an earlier count at 91% reporting had 53%. Crockett's 45.7% is from that same partial count and does not exactly complement 52.4%; treated as approximate.</li></ol></div>
+<div class="blk zh"><p><strong>民主党初选——最终数字已确立，早期报道不同。</strong> 塔拉里科最终得票率 <strong>52.4%</strong>（认证结果汇总）；此前计票 91% 时的报道为 53%。克罗克特的 45.7% 来自同一次部分计票，与 52.4% 并非严格互补；按近似值处理。</p></div>
+<div class="blk en"><ol><li class="en"><strong>GOP primary margin conflict — UNRESOLVED.</strong> News From The States (AP, 93% counted) reported Cornyn 41.9% / Paxton 40.8% (1.1-point lead). NY Post reported Cornyn "topped Paxton by 2.5 percentage points." Both recorded; certified margin unknown. Note the aggregate polling going into the primary had <em>Paxton</em> ahead by 3.5–6 points, so the first-round ordering was itself a polling miss.</li></ol></div>
+<div class="blk zh"><p><strong>共和党初选差距冲突——未解决。</strong> News From The States（美联社，计票 93%）报道科宁 41.9%、帕克斯顿 40.8%（领先 1.1 个百分点）。《纽约邮报》称科宁"以 2.5 个百分点领先帕克斯顿"（译）。两者均予记录；认证差距未查明。值得注意的是，初选前的汇总民调显示*帕克斯顿*领先 3.5–6 个百分点，因此首轮排序本身就是一次民调失准。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Runoff — final figure now known.</strong> <strong>63.8%, a margin of more than 25 points</strong> (certified-result aggregate), replacing the morning-after projection of "exceeding 60 percent." Vote totals were not retrieved.</li></ol></div>
+<div class="blk zh"><p><strong>决选——最终数字已确立。</strong> <strong>63.8%，领先超过 25 个百分点</strong>（认证结果汇总），取代了选后次日"超过 60%"的预测。得票总数未检索到。</p></div>
+<div class="blk en"><ol><li class="en"><strong>"Drought" framing conflicts.</strong> "First Democratic Senate win since <strong>1988</strong>" (Lloyd Bentsen; BBC/AP/NYT), "first statewide win since <strong>1994</strong>" (San Angelo LIVE), and "three-decade drought" (NYT headline) all appear. The likeliest reconciliation is <em>Senate seat</em> vs <em>any statewide office</em>, but it is not confirmed. Do not use one figure without stating which baseline.</li></ol></div>
+<div class="blk zh"><p><strong>"干旱期"表述冲突。</strong> "自 <strong>1988</strong> 年以来首位民主党参议员胜选"（劳埃德·本特森；BBC／美联社／《纽约时报》）、"自 <strong>1994</strong> 年以来首次全州性胜利"（San Angelo LIVE）、"三十年空白"（《纽约时报》标题）三种说法并存。最可能的调和是*参议院席位*与*任何全州公职*之别，但未获确认。引用任一数字时必须说明基线口径。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="3-campaign-events-竞选活动">3. Campaign events / 竞选活动</h2>
+<div class="blk en"><ol><li class="en"><strong>Tour stop completeness — improved but still short.</strong> Paxton's "Come and Take It" tour was announced as 18 days / 30+ stops; <strong>15 of 19 named cities remain schedule-only with no date</strong> because stops were posted to Eventbrite and then removed. Talarico's "Clear Eyes, Full Hearts" tour is documented at <strong>12 held stops with evidence</strong> out of 20 announced cities, plus 11 schedule-only items (Fort Bend, Galveston, San Antonio, Weslaco etc. have no date at all). <strong>Closure route:</strong> the campaigns' Eventbrite pages and local outlets.</li></ol></div>
+<div class="blk zh"><p><strong>巡回站点完整性——有改善但仍不完整。</strong> 帕克斯顿的 "Come and Take It" 巡回宣传宣布为 18 天／30 余站；<strong>19 个具名城市中有 15 个仅有日程安排而无日期</strong>，因为站点信息曾发布在 Eventbrite 上随后被撤下。塔拉里科的 "Clear Eyes, Full Hearts" 巡回宣传在 20 个宣布城市中有 <strong>12 站有证据证明实际举行</strong>，另有 11 条仅有日程记录（Fort Bend、Galveston、San Antonio、Weslaco 等完全没有日期）。<strong>补齐路径：</strong> 两阵营的 Eventbrite 页面与地方媒体。</p></div>
+<div class="blk en"><ol><li class="en"><strong>No candidate-vs-candidate debate occurred.</strong> There is no debate transcript, no joint stage, no head-to-head video. The archive documents the <em>absence</em> and its negotiation chronology (five <code>debate_invitation</code> rows). The CNN–Jubilee event was a <strong>solo voter Q&amp;A</strong>, not a debate — several outlets mislabelled it.</li></ol></div>
+<div class="blk zh"><p><strong>未发生任何候选人对候选人的辩论。</strong> 没有辩论文字稿、没有同台、没有一对一视频。本档案记录的是这一*缺席*及其协商过程（五条 <code>debate_invitation</code> 记录）。CNN–Jubilee 那场活动是<strong>单人</strong>选民问答，并非辩论——多家媒体误标。</p></div>
+<div class="blk en"><ol><li class="en"><strong>"Three debates scheduled" is FALSE and is preserved only as a caution.</strong> Washington Examiner (2026-09-02) reported debates scheduled for Sept 22 / Oct 6 / Oct 13; none happened. Do not place them in any event table (<code>_staging/E_gaps.md</code> §7).</li></ol></div>
+<div class="blk zh"><p><strong>"三场已排定辩论"为不实信息，仅作为警示保留。</strong> 《华盛顿观察家报》（2026-09-02）报道辩论排定于 9 月 22 日、10 月 6 日、10 月 13 日；三场均未发生。不得将其写入任何事件表（<code>_staging/E_gaps.md</code> 第 7 节）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Talarico's two-week absence</strong> from the trail (early October, reported as flu) is documented by NYT/NY Post/CNN but the exact start and end dates are not pinned. No events were invented for that period — it is logged as an activity gap.</li></ol></div>
+<div class="blk zh"><p><strong>塔拉里科约两周的活动空窗</strong>（10 月初，报道称为流感）由《纽约时报》《纽约邮报》与 CNN 记载，但确切起止日期未能锁定。该期间没有编造任何事件——只作为"活动缺口"记录。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Trump "virtual vs in-person" conflict — effectively resolved against "virtual."</strong> Four in-person Texas trips with Paxton present are documented (Dallas September; Denton 2026-10-01; San Antonio 2026-10-07; Corpus Christi + Lubbock 2026-10-27). One announced leg — a <strong>Waco 18:00 rally on 10-27</strong> — is logged <code>disputed</code>: announced, execution unconfirmed.</li></ol></div>
+<div class="blk zh"><p><strong>特朗普"线上还是线下"之争——实际已否证"仅线上"说法。</strong> 有据可查的四次亲赴德州行程均有帕克斯顿在场（9 月达拉斯；2026-10-01 丹顿；2026-10-07 圣安东尼奥；2026-10-27 科珀斯克里斯蒂与拉伯克）。其中一段宣布的行程——<strong>10-27 韦科 18:00 集会</strong>——记为 <code>disputed</code>（存疑）：已宣布，执行未证实。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Announcement vs occurrence.</strong> Several announced events could not be confirmed as having taken place; marked <code>announced</code> or <code>partially verified</code>, never <code>held</code>.</li></ol></div>
+<div class="blk zh"><p><strong>宣布与举行之别。</strong> 若干已宣布活动无法证实确实举行；标为 <code>announced</code>（已宣布）或 <code>partially verified</code>（部分核实），绝不标为 <code>held</code>（已举行）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Nacogdoches ~2026-05-27 rally attribution is ambiguous</strong> — a KWTX preview headline concerns Talarico, so no row was created.</li></ol></div>
+<div class="blk zh"><p><strong>纳科多奇斯 2026-05-27 前后的集会归属不明</strong>——KWTX 的预告标题指向塔拉里科，因此未建行。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Midland vs Lubbock same-night sequencing is ambiguous.</strong> KOSA says Amarillo and Lubbock were "still to come" while the Lubbock A-J reports Lubbock "Tuesday night"; the Midland row is flagged <code>conflicting sources</code> and may be 10-26 rather than 10-27.</li></ol></div>
+<div class="blk zh"><p><strong>米德兰与拉伯克同夜先后顺序不明。</strong> KOSA 称阿马里洛与拉伯克"尚待前往"，而《拉伯克阿瓦兰奇报》称拉伯克为"周二晚"；米德兰一行标为 <code>conflicting sources</code>（来源冲突），日期可能是 10-26 而非 10-27。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Categories that are empty for BOTH campaigns</strong> despite targeted search: HQ openings, closed-door fundraisers, labour events, county-party meetings, podcasts, press conferences, election-day GOTV events. These are gaps in the public record, not evidence the activities did not occur.</li></ol></div>
+<div class="blk zh"><p><strong>双方均为空白的类别</strong>（尽管做过定向检索）：竞选总部开幕、闭门筹款会、劳工活动、县党部会议、播客、记者会、选举日催票活动。这些是公开记录中的缺口，不能当作"活动未发生"的证据。</p></div>
+<div class="blk en"><ol><li class="en"><strong>April 2026 has no dated campaign event for either candidate</strong> — a shared gap.</li></ol></div>
+<div class="blk zh"><p><strong>2026 年 4 月双方都没有带日期的竞选活动</strong>——这是共同的缺口。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="4-campaign-organization-竞选组织">4. Campaign organization / 竞选组织</h2>
+<div class="blk en"><ol><li class="en"><strong>Paxton's campaign manager is unidentified.</strong> Senior advisor Nick Maddux is documented; the manager is not. Full staffing: <code>08_comparative_analysis/campaign_organization.md</code>.</li></ol></div>
+<div class="blk zh"><p><strong>帕克斯顿的竞选经理身份未明。</strong> 高级顾问 Nick Maddux 有据可查，竞选经理则没有。完整人事见 <code>08_comparative_analysis/campaign_organization.md</code>。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Campaign headquarters</strong> for both candidates — unknown.</li></ol></div>
+<div class="blk zh"><p><strong>双方竞选总部地址</strong>——未查明。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Full staff rosters, field-organisation structure, pollsters, media consultants</strong> — not established for either campaign.</li></ol></div>
+<div class="blk zh"><p><strong>完整人员名册、地面组织架构、民调机构、媒体顾问</strong>——双方均未确立。</p></div>
+<div class="blk en"><ol><li class="en"><strong>FEC filing PDFs unreachable</strong> (<code>docquery.fec.gov</code> 403). Committee IDs and registration dates ARE verified (Talarico C00919084 / 2025-09-09; Paxton C00901918 / 2025-04-08), but line-item detail rests on the FEC summary tables and reporting, not the filings themselves.</li></ol></div>
+<div class="blk zh"><p><strong>FEC 申报 PDF 无法访问</strong>（<code>docquery.fec.gov</code> 返回 403）。委员会编号与注册日期<strong>已核实</strong>（塔拉里科 C00919084／2025-09-09；帕克斯顿 C00901918／2025-04-08），但逐条明细只能依据 FEC 汇总表与新闻报道，而非申报原件。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Axios report on Paxton's primary consultants (2025-04-08) blocked (403)</strong> — its existence is known, the names are not.</li></ol></div>
+<div class="blk zh"><p><strong>Axios 关于帕克斯顿初选顾问的报道（2025-04-08）被拦截（403）</strong>——知其存在，不知其名单。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="5-money-the-discrepancies-that-must-never-be-silently-merged">5. Money — the discrepancies that must never be silently merged / 资金：绝不可悄然合并的口径差异</h2>
+<div class="blk en"><ol><li class="en"><strong>Four different Talarico "totals" exist and are not the same quantity:</strong> campaign announcement <strong>$134.3m</strong> cumulative; FEC <strong>contributions $140,307,408</strong>; FEC <strong>total receipts $146,349,912</strong>; Texas Tribune figure <strong>~$155m</strong> including joint fundraising committees. All four are in <code>campaign_finance.csv</code> as separate rows.</li></ol></div>
+<div class="blk zh"><p><strong>塔拉里科存在四种不同的"总额"，并非同一计量对象：</strong> 阵营宣布的累计 <strong>1.343 亿美元</strong>；FEC <strong>捐款 140,307,408 美元</strong>；FEC <strong>总收入 146,349,912 美元</strong>；《德州论坛报》所载含联合筹款委员会的 <strong>约 1.55 亿美元</strong>。四者在 <code>campaign_finance.csv</code> 中分列为不同行。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Paxton Q2/Q3 confusion.</strong> Campaign figure <strong>$18m</strong> for Q3 (principal + two JFCs) vs principal committee <strong>$10,249,117</strong>; Q2 ≈ <strong>$9m</strong>. One outlet (El Paso Times) mislabels the $18m as second-quarter money; KWTX/Tribune is unambiguous that it is Q3 and doubled Q2. Row flagged <code>conflicting sources</code>.</li></ol></div>
+<div class="blk zh"><p><strong>帕克斯顿第二／第三季度口径混淆。</strong> 阵营口径第三季度 <strong>1,800 万美元</strong>（主委员会加两个联合筹款委员会），主委员会为 <strong>10,249,117 美元</strong>；第二季度约 <strong>900 万美元</strong>。一家媒体（《埃尔帕索时报》）把 1,800 万误作第二季度；KWTX／《德州论坛报》明确其为第三季度且为第二季度的两倍。该行标为 <code>conflicting sources</code>。</p></div>
+<div class="blk en"><ol><li class="en"><strong>THE BIGGEST TRAP — FEC Schedule E vs AdImpact are roughly an order of magnitude apart.</strong> Example: "Texans for a Conservative Majority" shows <strong>$24.96m</strong> in FEC independent expenditures opposing Paxton, while Texas PAC shows <strong>$182.1m</strong> in AdImpact ad spend. These are different measurement constructs, kept in separate, differently typed rows. <strong>Never sum them.</strong></li></ol></div>
+<div class="blk zh"><p><strong>最大的陷阱——FEC Schedule E 与 AdImpact 相差约一个数量级。</strong> 例："Texans for a Conservative Majority" 的 FEC 独立支出为 <strong>2,496 万美元</strong>（反对帕克斯顿），而 Texas PAC 的 AdImpact 广告投放为 <strong>1.821 亿美元</strong>。二者是不同的计量构造，已分列于类型不同的行中。<strong>绝不可相加。</strong></p></div>
+<div class="blk en"><ol><li class="en"><strong>Outside-spending totals do not reconcile.</strong> "Over $214 million" by national Republican actors (AdImpact via Texas Tribune, 2026-10-14); Musk-related giving traced via FEC at <strong>$158m</strong> ($75m on 2026-09-09 + $83m), but claimed at "nearly $190m" / "&gt;$190m" / "&gt;$200m" (Talarico) / ~$150m (translated outlet). Attributed claims only; no reconciled total exists.</li></ol></div>
+<div class="blk zh"><p><strong>外部支出总额无法对账。</strong> 全国性共和党力量投放"超过 2.14 亿美元"（AdImpact，经《德州论坛报》，2026-10-14）；与马斯克相关的政治捐款按 FEC 追溯为 <strong>1.58 亿美元</strong>（2026-09-09 的 7,500 万＋8,300 万），但各方宣称"近 1.9 亿""超过 1.9 亿""超过 2 亿"（塔拉里科）或约 1.5 亿（一家译文媒体）。仅作带归属的宣称记录；不存在经对账的总额。</p></div>
+<div class="blk en"><ol><li class="en"><strong>AdImpact totals are not filings.</strong> The $573.2m race ad-spend total and the $81m/$8m/$3.5m Talarico-side air-war figures are tracking estimates or campaign claims.</li></ol></div>
+<div class="blk zh"><p><strong>AdImpact 总额不是申报数据。</strong> 5.732 亿美元的竞选广告总额，以及塔拉里科一方 8,100 万／800 万／350 万美元的空中战数字，均为监测估算或阵营宣称。</p></div>
+<div class="blk en"><ol><li class="en"><strong>PAC contribution conflicts.</strong> Talarico: $518,805 vs $518,000 vs $468,806. Paxton: $435,150 vs $702,000. Scope and date differences unexplained.</li></ol></div>
+<div class="blk zh"><p><strong>PAC 捐款数字冲突。</strong> 塔拉里科：518,805／518,000／468,806 美元三种；帕克斯顿：435,150／702,000 美元两种。统计范围与日期差异未获解释。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Post-general FEC reports unavailable</strong> at time of research; last verified balances are <strong>2026-10-14</strong> for both committees. Both reported <strong>$0 debt</strong>.</li></ol></div>
+<div class="blk zh"><p><strong>选后 FEC 报告在检索时不可得</strong>；两个委员会最后经核实的余额截止 <strong>2026-10-14</strong>。双方均申报<strong>零负债</strong>。</p></div>
+<div class="blk en"><ol><li class="en"><strong>OpenFEC DEMO_KEY rate limit</strong> (40 calls/hour) prevented splitting primary vs general independent expenditures by date; <code>FIN-EXT</code> rows are cycle-wide.</li></ol></div>
+<div class="blk zh"><p><strong>OpenFEC 的 DEMO_KEY 限速</strong>（每小时 40 次调用）使独立支出无法按日期拆分初选与大选阶段；<code>FIN-EXT</code> 各行覆盖整个选举周期。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="6-media-and-quotations-媒体与引语">6. Media and quotations / 媒体与引语</h2>
+<div class="blk en"><ol><li class="en"><strong>Paywalled primary reporting</strong> (NYT, WaPo, WSJ, Politico, Dallas Morning News) contributed headline-level facts only.</li></ol></div>
+<div class="blk zh"><p><strong>付费墙后的核心报道</strong>（《纽约时报》《华盛顿邮报》《华尔街日报》Politico、《达拉斯晨报》）仅贡献标题级事实。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Verbatim quotation limits.</strong> Every quotation in this archive comes from printed text. <strong>Nothing was verified against audio or video</strong>, so all prosody fields (pace, pitch, pauses, emphasis) are <code>unknown</code> across both communication analyses.</li></ol></div>
+<div class="blk zh"><p><strong>引语逐字性问题。</strong> 本档案中每一句引语都来自文字文本。<strong>没有任何内容与音频或视频核对过</strong>，因此两篇传播分析中的全部韵律字段（语速、音高、停顿、重音）均为 <code>unknown</code>（未查明）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Timestamps</strong> for speech quotations are largely unavailable; <code>speech_archive.csv</code> uses <code>unknown</code> on many rows rather than inventing timecodes.</li></ol></div>
+<div class="blk zh"><p><strong>时间戳</strong>大多不可得；<code>speech_archive.csv</code> 在多数行使用 <code>unknown</code>，而非编造时间码。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Axios vs Al Jazeera wording differs</strong> in the victory-speech sentence about "trillionaire megadonors / corrupt defenders." Quote the outlet you cite; do not harmonise them.</li></ol></div>
+<div class="blk zh"><p><strong>Axios 与半岛电视台在胜选演说中"万亿富翁金主／腐败辩护者"一句的措辞不同。</strong> 引用哪家就照哪家引，不要擅自统一。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Reuters is absent from the media corpus</strong> — no retrievable Reuters item; recorded as a gap, not fabricated.</li></ol></div>
+<div class="blk zh"><p><strong>媒体语料中缺少路透社</strong>——未检索到任何可获取的路透社条目；记为缺口，不作虚构。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Leaked Paxton audio (2026-09-24)</strong> is headline-level only; verbatim quotes not verified (Independent 403, Newsweek 403, Fox print URL 404).</li></ol></div>
+<div class="blk zh"><p><strong>帕克斯顿泄露录音（2026-09-24）</strong>仅有标题级信息；逐字引语未核实（Independent 403、Newsweek 403、Fox 文字版链接 404）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>AFP Fact Check</strong> piece on a "temporary data-entry error" returned 403; findings not incorporated.</li></ol></div>
+<div class="blk zh"><p><strong>法新社事实核查</strong>关于"临时数据录入错误"的文章返回 403；其结论未纳入。</p></div>
+<div class="blk en"><ol><li class="en"><strong>TIME/Colbert attribution</strong> (~9 million YouTube views, $2.5m in 24 hours, 4,000 volunteers) is carried via the TIME text retrieved through a mirror, attributed to TIME. Treat as a campaign-favourable claim reported by TIME, not as an FEC-verified number.</li></ol></div>
+<div class="blk zh"><p><strong>《时代》周刊／科尔伯特环节的数字</strong>（YouTube 约 900 万次观看、24 小时内 250 万美元、4,000 名志愿者）经由镜像取得《时代》原文后转录，并注明出自《时代》。应视为《时代》报道的、对阵营有利的宣称，而非 FEC 核实的数字。</p></div>
+<div class="blk en"><ol><li class="en"><strong>CNN/Jubilee faith exchange</strong> quotations were relayed via a partisan outlet (Hannity.com) and cross-confirmed by CNN's live post; re-check against CNN video before print.</li></ol></div>
+<div class="blk zh"><p><strong>CNN／Jubilee 的信仰话题往来</strong>引语经一家党派媒体（Hannity.com）转述，并由 CNN 实时贴文交叉印证；正式刊发前建议对照 CNN 视频复核。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Warm-up speaker ≠ candidate.</strong> Bob Hall's "Freako Talarico" line is a warm-up speaker's, not Paxton's (flagged in <code>D_gaps.md</code>).</li></ol></div>
+<div class="blk zh"><p><strong>暖场发言者不等于候选人本人。</strong> Bob Hall 的 "Freako Talarico" 一语出自暖场发言者，不是帕克斯顿本人（已在 <code>D_gaps.md</code> 标注）。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="7-images-and-visual-record-rewritten-after-the-visual-scope-">7. Images and visual record — rewritten after the visual scope was taken over / 影像与视觉记录（接手后重写）</h2>
+<div class="pair"><div class="col en"><p><strong>What happened.</strong> Agent C produced no deliverable after ~75 minutes and was
+interrupted; the Lead built the visual archive directly from the Wikimedia Commons API
+(throttled, batched <code>imageinfo</code> calls) plus verified news-photo credit lines.
+<code>_staging/C_sources.csv</code> and <code>C_gaps.md</code> therefore do not exist; this section replaces
+them.</p></div><div class="col zh"><p><strong>经过。</strong> 负责影像的代理 C 在约 75 分钟内未产出任何交付物，被中断；主导研究者直接通过维基共享资源 API（限速、批量 <code>imageinfo</code> 请求）并辅以已核实的新闻照片署名信息，重建了影像档案。因此 <code>_staging/C_sources.csv</code> 与 <code>C_gaps.md</code> 均不存在；本节取代其位置。</p></div></div>
+<div class="blk en"><ol><li class="en"><strong>The 60–100 photograph target per candidate was NOT met for Talarico — and this is a documented evidence limit, not padding.</strong> <code>image_archive.csv</code> holds <strong>18 Talarico rows</strong> (7 CC-licensed copies, 2 public-domain, 9 all-rights-reserved link-only records) against <strong>98 Paxton rows</strong> (91 CC-licensed copies, 1 public-domain, 6 link-only). Commons holds only 14 files in <code>Category:James Talarico</code> and its year subcategories, 9 of them usable photographs of him. His news photography is overwhelmingly agency-licensed (AP/Getty/AFP) and therefore link-only under a copyright-clean policy.</li></ol></div>
+<div class="blk zh"><p><strong>塔拉里科未达到每位候选人 60–100 张照片的目标——这是有据可查的证据限制，不是注水。</strong> <code>image_archive.csv</code> 中塔拉里科 <strong>18 行</strong>（7 张知识共享许可副本、2 张公有领域、9 条保留所有权利的仅链接记录），帕克斯顿 <strong>98 行</strong>（91 张许可副本、1 张公有领域、6 条仅链接）。维基共享资源 <code>Category:James Talarico</code> 及其年份子分类仅收录 14 个文件，其中 9 个是他的可用照片。他的新闻摄影绝大多数为通讯社授权（美联社／盖蒂／法新社），在"版权干净"原则下只能记录链接。</p></div>
+<div class="blk en"><ol><li class="en"><strong>The Paxton pool is context-skewed.</strong> <strong>68 of 98</strong> Paxton rows are photographs from <strong>AmericaFest</strong> (Turning Point USA, Phoenix, 2024/2025 editions), mostly by Gage Skidmore under CC BY-SA 4.0; 3 more are from a Goldwater Institute dinner. Only 5 rows join a 2026 campaign event and only 5 fall in 2026 at all. The pool depicts him as a <strong>conference speaker</strong>, not as a touring Senate candidate.</li></ol></div>
+<div class="blk zh"><p><strong>帕克斯顿的图库情境严重偏斜。</strong> <strong>98 行中有 68 行</strong>是 <strong>AmericaFest</strong>（Turning Point USA，凤凰城，2024／2025 年届）的照片，多由 Gage Skidmore 以 CC BY-SA 4.0 拍摄；另有 3 行来自戈德华特研究所晚宴。仅 5 行对应 2026 年竞选活动，仅 5 行落在 2026 年。该图库呈现的是<strong>会议演讲者</strong>，而非巡回竞选的参议员候选人。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Volume asymmetry is not evidence of visual effort.</strong> Comparing the two archives would confound <em>venue</em> with <em>candidate</em>. Any comparative image use must state both the volume (18 vs 98) and the skew (68/98 from one conference) alongside the images.</li></ol></div>
+<div class="blk zh"><p><strong>数量差异不能当作"视觉投入"的证据。</strong> 直接比较两个档案会把*场地*与*候选人*混为一谈。任何对比性使用影像的场合，必须同时说明数量（18 对 98）与偏斜（98 张中 68 张出自同一会议）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Facial geometry and body proportions were NOT measured.</strong> The Python environment has Pillow and NumPy but <strong>no</strong> <code>cv2</code>, <code>mediapipe</code>, <code>dlib</code> or <code>face_recognition</code>, and the analyst model in this session <strong>cannot accept image input</strong>. No photograph was visually inspected by the research agent. Both <code>visual_analysis_*.md</code> files state this plainly and supply a full landmark/ratio protocol (fWHR, facial index, intercanthal ratio, facial thirds, head-height fraction, shoulder-to-head) for the human researcher, with lens/lighting/crop caveats.</li></ol></div>
+<div class="blk zh"><p><strong>面部几何与身体比例均未测量。</strong> Python 环境有 Pillow 与 NumPy，但<strong>没有</strong> <code>cv2</code>、<code>mediapipe</code>、<code>dlib</code> 或 <code>face_recognition</code>；本次会话的分析模型<strong>无法接收图像输入</strong>。研究代理没有目视检查过任何照片。两篇 <code>visual_analysis_*.md</code> 均如实说明这一点，并为人类研究者提供完整的标志点／比例测量规程（面部宽高比 fWHR、面部指数、内眦间距比、面部三等分、头高占比、肩宽对头高），同时说明镜头、光照与裁切的干扰。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Clothing and grooming: zero documentary basis.</strong> No retrieved source describes either candidate's attire at any event; <code>campaign_events.csv</code> has a clothing description for <strong>zero</strong> rows of either candidate; <code>clothing_notes</code> is <code>unknown</code> in all 116 image rows. Any claim that a candidate "dressed like a teacher" or "wore boots" is unsupported by this archive.</li></ol></div>
+<div class="blk zh"><p><strong>着装与仪容：无文献依据。</strong> 没有任何检索到的来源描述过两位候选人在任何活动上的衣着；<code>campaign_events.csv</code> 中双方<strong>均无一行</strong>有着装描述；全部 116 行影像的 <code>clothing_notes</code> 均为 <code>unknown</code>。任何"候选人穿得像老师"或"穿靴子"的说法，在本档案中都没有依据。</p></div>
+<div class="blk en"><ol><li class="en"><strong>What IS measurable was measured.</strong> Frame statistics (dimensions, aspect ratio, orientation, Laplacian-variance sharpness, mean luma, contrast, saturation proxy) for 69 locally held copies are in <code>_staging/_visual_metrics.csv</code>; resolution classes are computed from original Commons metadata, with the measurement basis (800px derivative) stated per row.</li></ol></div>
+<div class="blk zh"><p><strong>可以测量的部分已经测量。</strong> 69 张本地副本的画幅统计（尺寸、宽高比、方向、拉普拉斯方差清晰度、平均亮度、对比度、饱和度近似值）见 <code>_staging/_visual_metrics.csv</code>；分辨率分级依据共享资源原始元数据计算，每行均注明测量基准（800 像素衍生图）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Official portrait provenance is uneven</strong> — several "official" images are re-hosted by third parties; the authoritative source was not established for either candidate.</li></ol></div>
+<div class="blk zh"><p><strong>官方肖像的来源链不整齐</strong>——若干"官方"影像由第三方转托管；双方均未确立权威来源。</p></div>
+<div class="blk en"><ol><li class="en"><strong>One wrong-subject file was caught.</strong> <code>File:KPaxton.png</code> describes "Ken Paxton of Lawton, OK" (1986), a different person; removed, id <code>PAX-IMG-0801</code> retired.</li></ol></div>
+<div class="blk zh"><p><strong>已发现并处理一个主体错误的文件。</strong> <code>File:KPaxton.png</code> 描述的是"俄克拉何马州劳顿市的肯·帕克斯顿"（1986 年），是另一个人；已移除，<code>PAX-IMG-0801</code> 编号作废。</p></div>
+<div class="blk en"><ol><li class="en"><strong>No campaign-supplied photo library was retrieved</strong> for either campaign (jamestalarico.com / kenpaxton.com galleries). Paxton's site served site-builder JSON (Agent B hit the same wall for issue pages).</li></ol></div>
+<div class="blk zh"><p><strong>未取到任何阵营自建的图库</strong>（jamestalarico.com／kenpaxton.com 的图片页）。帕克斯顿的网站返回建站工具 JSON（代理 B 在议题页上也遇到同一障碍）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Perceptual-hash de-duplication applies to the catalogue, not to downloaded files.</strong> Several Commons files are crops/variants of the same underlying photograph (e.g. a "centered", a "cropped" and a "3x4 cropped" version of one press conference); this is recorded in filenames but not merged into single rows.</li></ol></div>
+<div class="blk zh"><p><strong>去重只在目录层面，不在下载文件层面。</strong> 若干共享资源文件是同一张底片的裁切／变体（如某场记者会的"居中版""裁切版""3:4 裁切版"）；这一点记录在文件名中，但未合并为单一行。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="8-policy-and-biography-source-asymmetry-政策与传记的来源不对称">8. Policy and biography source asymmetry / 政策与传记的来源不对称</h2>
+<div class="blk en"><ol><li class="en"><strong>Paxton's own campaign issue literature does not exist in retrievable form.</strong> His site returned site-builder JSON, so all 66 policy rows are documented through the attorney-general record and press reporting, not his campaign's own pages. <strong>The thinner row counts (Gun, Healthcare, Labor, Religion) reflect source availability, not issue emphasis.</strong> <code>_staging/B_gaps.md</code> §5 records this; the dataset was not padded.</li></ol></div>
+<div class="blk zh"><p><strong>帕克斯顿竞选团队的议题文献不存在可获取形态。</strong> 他的网站返回建站工具 JSON，因此全部 66 条政策记录均通过州检察长履职记录与新闻报道确立，而非其竞选自有页面。<strong>条目较少的议题（枪支、医疗、劳工、宗教）反映的是来源可得性，而非议题权重。</strong> <code>_staging/B_gaps.md</code> 第 5 节有记录；数据集未作注水。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Paxton positions left <code>unverified</code>, not guessed:</strong> NATO/State/USAID posture, SD-8 tenure substance, law-practice detail, debate-refusal reasoning.</li></ol></div>
+<div class="blk zh"><p><strong>帕克斯顿部分立场标为 <code>unverified</code>（未核实）而非猜测：</strong> 对北约／国务院／美国国际开发署的取向、州参议院第 8 选区任期实质、律师执业细节、拒绝辩论的理由。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Talarico biography gaps:</strong> pre-2017 employment detail, seminary enrolment detail, and campaign-manager confirmation <em>inside Agent B's scope</em> (the manager — Seth Krasne — is documented by the Lead via El Paso Times in <code>campaign_organization.md</code>; Agent B deliberately did not include unverified Lead-supplied leads).</li></ol></div>
+<div class="blk zh"><p><strong>塔拉里科传记缺口：</strong> 2017 年以前的任职细节、神学院就读细节，以及在代理 B 范围内对竞选经理的确认（经理 Seth Krasne 由主导研究者经《埃尔帕索时报》在 <code>campaign_organization.md</code> 中确立；代理 B 有意不纳入未经核实的、由主导方提供的线索）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Launch-date conflict.</strong> Talarico's launch is 2025-09-09 (documented), but a 2025-09-05 preview said he "planned to launch" — marked <code>conflicting sources</code>.</li></ol></div>
+<div class="blk zh"><p><strong>参选宣布日期冲突。</strong> 塔拉里科于 2025-09-09 宣布参选（有据），但 2025-09-05 的一篇预告称他"计划宣布"——标为 <code>conflicting sources</code>。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Age conflict.</strong> 28 (TIME) vs 29 (Wikipedia) at election to the Texas House; reconciled via the 1989-05-17 birth date with both readings stated. Also 36 vs 37 reported age during the campaign (birthday in August 2026).</li></ol></div>
+<div class="blk zh"><p><strong>年龄冲突。</strong> 当选德州众议员时，28 岁（《时代》）对 29 岁（维基百科）；已按 1989-05-17 出生日期调和，并同时列出两种读法。竞选期间报道年龄亦有 36 与 37 两说（其生日在 2026 年 8 月）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Lead-supplied leads that Agent B did not independently verify</strong> (Politico/Ted Cruz, Denton Peterbilt, Houston Chronicle, The Root, Spectrum, El Paso staffing) are quarantined in <code>B_gaps.md</code> §3 for correct attribution. The Lead subsequently verified the El Paso Times and Politico items directly; attribution is recorded in <code>campaign_organization.md</code> and <code>image_archive.csv</code>.</li></ol></div>
+<div class="blk zh"><p><strong>代理 B 未独立核实的、由主导方提供的线索</strong>（Politico／泰德·克鲁兹、丹顿 Peterbilt、休斯敦纪事报、The Root、Spectrum、埃尔帕索人事）隔离在 <code>B_gaps.md</code> 第 3 节以便正确归属。主导研究者随后直接核实了《埃尔帕索时报》与 Politico 的相关条目；归属记录在 <code>campaign_organization.md</code> 与 <code>image_archive.csv</code> 中。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="9-source-integrity-notes-for-the-human-researcher-给人类研究者的来源完">9. Source-integrity notes for the human researcher / 给人类研究者的来源完整性提示</h2>
+<div class="blk en"><ol><li class="en"><strong>Two campaigns, one event, opposite descriptions.</strong> The debate dispute is the clearest case: Paxton said negotiations foundered because Talarico "always wants something we can't do"; Talarico's spokesperson called that "lying" and said Paxton "ignored every single attempt… including a personal call to his cellphone." Both recorded, neither adjudicated.</li></ol></div>
+<div class="blk zh"><p><strong>同一事件，两套说辞，且完全相反。</strong> 辩论之争最为典型：帕克斯顿称谈判破裂是因为塔拉里科"总是要一些我们做不到的东西"（译）；塔拉里科的发言人指其为"撒谎"（译），并称帕克斯顿"无视了每一次尝试……包括打到他手机的一通私人电话"（译）。两者均予记录，均不裁定真伪。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Partisan-source characterisations</strong> are labelled as such.</li></ol></div>
+<div class="blk zh"><p><strong>党派来源的定性表述</strong>均已标注其党派属性。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Campaign-claim vs independent reporting</strong> is separated structurally via <code>report_type</code> / <code>sponsor_type</code> / <code>coverage_type</code> / <code>verification_status</code> fields.</li></ol></div>
+<div class="blk zh"><p><strong>阵营宣称与独立报道</strong>通过 <code>report_type</code>／<code>sponsor_type</code>／<code>coverage_type</code>／<code>verification_status</code> 字段在结构上区分。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Tour-size conflict.</strong> Paxton's tour: "30+ stops" (campaign, via Dock Line) vs "one of 12 on Paxton's Come and Take It Tour" (KGNS Laredo). Archive uses "30+ planned" and flags the "12" as a local-outlet discrepancy.</li></ol></div>
+<div class="blk zh"><p><strong>巡回规模冲突。</strong> 帕克斯顿巡回宣传："30 余站"（阵营口径，经 Dock Line）对"帕克斯顿 Come and Take It 巡回的第 12 站"（KGNS 拉雷多）。档案采用"计划 30 余站"，并把"12 站"标为地方媒体的口径差异。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Laredo date conflict.</strong> Paxton's Laredo stop is 2026-10-23 per KGNS (verified) and "reported as Oct 24" per a Tribune caption; the row is <code>conflicting sources</code> with the dedupe reasoning in <code>analyst_notes</code>. A third duplicate row was deleted.</li></ol></div>
+<div class="blk zh"><p><strong>拉雷多日期冲突。</strong> 帕克斯顿拉雷多站据 KGNS 为 2026-10-23（已核实），而《德州论坛报》图注"报道为 10 月 24 日"；该行标为 <code>conflicting sources</code>，去重理由写在 <code>analyst_notes</code>。另有一行重复记录已删除。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Tyler is four distinct items</strong>, not one: Vance surrogate (10-13), Talarico rally (10-20), a cancelled Paxton October stop, and Paxton's rescheduled 11-01 stop.</li></ol></div>
+<div class="blk zh"><p><strong>泰勒市涉及四个不同事项</strong>，而非一件事：万斯的代理活动（10-13）、塔拉里科集会（10-20）、帕克斯顿一场被取消的 10 月站点、以及帕克斯顿改期至 11-01 的站点。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Source registry reconciliation.</strong> 206 agent-registry rows merged into <strong>189 unique sources</strong> (<code>09_sources/sources.csv</code>) with URL-level de-duplication; 17 URLs were independently retrieved by more than one research stream and are marked as such. Cross-stream duplicates are a positive integrity signal, not an error.</li></ol></div>
+<div class="blk zh"><p><strong>来源登记对账。</strong> 206 条代理登记行经 URL 去重后合并为 <strong>189 个唯一来源</strong>（<code>09_sources/sources.csv</code>）；17 个 URL 被不止一条研究线索独立抓取，已作标注。跨线索重复是正向的完整性信号，不是错误。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="10-what-would-most-improve-this-archive-prioritised-最应优先补齐的事">10. What would most improve this archive (prioritised) / 最应优先补齐的事项</h2>
+<div class="blk en"><ol><li class="en"><strong>Texas Secretary of State county canvass</strong> → fills <code>county_results.csv</code> and converts every percentage from "aggregator-reported" to "certified." Highest value, one action.</li></ol></div>
+<div class="blk zh"><p><strong>德州州务卿县级选举认证数据</strong> → 填充 <code>county_results.csv</code>，并把每个百分比从"汇总方报道"升级为"官方认证口径"。价值最高，一步到位。</p></div>
+<div class="blk en"><ol><li class="en"><strong>FEC line-item filings</strong> via OpenFEC (with a real API key) or a browser → converts <code>campaign_finance.csv</code> from "as reported" to "as filed," and lets IEs be split by date.</li></ol></div>
+<div class="blk zh"><p><strong>FEC 逐条申报</strong>（用真实 OpenFEC 密钥或浏览器）→ 使 <code>campaign_finance.csv</code> 从"按报道"升级为"按申报原件"，并可按日期拆分独立支出。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Campaigns' Eventbrite / event archives</strong> → completes both tour stop lists (15 Paxton cities and 11 Talarico cities are currently schedule-only).</li></ol></div>
+<div class="blk zh"><p><strong>两阵营的 Eventbrite／活动存档</strong> → 补全双方巡回站点清单（目前帕克斯顿 15 个、塔拉里科 11 个城市仅有日程记录）。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Full video of 8–12 major speeches</strong> → genuine transcripts, timecodes, and the first real prosody analysis; converts <code>partially verified</code> speech rows to <code>verified</code>.</li></ol></div>
+<div class="blk zh"><p><strong>8–12 场主要演讲的完整视频</strong> → 生成真实文字稿与时间码，并首次进行真正的韵律分析；把 <code>partially verified</code> 的演讲行升级为 <code>verified</code>。</p></div>
+<div class="blk en"><ol><li class="en"><strong>An image-capable analyst plus a landmark tool</strong> → executes the facial-geometry and body-proportion protocol already written in <code>visual_analysis_*.md</code>; also fills the clothing columns.</li></ol></div>
+<div class="blk zh"><p><strong>具备图像能力者搭配关键点检测工具</strong> → 执行 <code>visual_analysis_*.md</code> 中已写好的面部几何与身体比例规程；并可填补着装字段。</p></div>
+<div class="blk en"><ol><li class="en"><strong>AdImpact's underlying report</strong> → reconciles the outside-spending figures, and separates FEC Schedule E from ad-spend tracking.</li></ol></div>
+<div class="blk zh"><p><strong>AdImpact 的底层报告</strong> → 对账外部支出数字，并区分 FEC Schedule E 与广告投放监测。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Certified GOP primary margin</strong> → resolves the 1.1-pt vs 2.5-pt conflict.</li></ol></div>
+<div class="blk zh"><p><strong>共和党初选的认证差距</strong> → 解决 1.1 个百分点对 2.5 个百分点的冲突。</p></div>
+<div class="blk en"><ol><li class="en"><strong>Campaign photo libraries</strong> (official Flickr/site galleries) → would substantially close the Talarico image shortfall with properly licensed material.</li></ol></div>
+<div class="blk zh"><p><strong>阵营官方图库</strong>（官方 Flickr／网站图片页）→ 将以许可合规的素材大幅缩小塔拉里科的影像缺口。</p></div>
+<div class="blk mix"><hr></div>
+<h2 id="11-agent-level-gap-registers-preserved-for-granular-detail-代">11. Agent-level gap registers (preserved for granular detail) / 代理层面的缺口登记（保留细粒度信息）</h2>
+<div class="pair"><div class="col en"><p>The Lead merged headline items into the sections above; the staging files retain
+per-item granularity (specific missing photo URLs, per-source 403s, quote-level
+caveats):</p></div><div class="col zh"><p>主导研究者已将要点合并入上文各节；阶段文件保留了逐项粒度（具体缺失的照片 URL、逐个来源的 403、引语级注意事项）：</p></div></div>
+<div class="blk zh"><ul><li class="zh">Event reconstruction: <code>_staging/A_gaps.md</code> / 事件重构</li><li class="zh">Biography / policy: <code>_staging/B_gaps.md</code> / 传记与政策</li><li class="zh">Speeches / communication: <code>_staging/D_gaps.md</code> / 演讲与传播</li><li class="zh">Finance / media: <code>_staging/E_gaps.md</code> / 资金与媒体</li><li class="zh"><strong>Visual archive: no <code>C_gaps.md</code> exists</strong> — Agent C produced no output; §7 above is the replacement register. <strong>影像档案：不存在 <code>C_gaps.md</code></strong>——代理 C 未产出；上文第 7 节即为替代登记。</li></ul></div>
+    
+  </main>
+</div>
+<footer><div class="in">
+  <span>American Political Image Lab · 案例研究 001 · 生成于 2026-11-10 · 全部内容可离线阅读</span>
+  <span>所有事实均可溯源至 09_sources/sources.csv 的 SRC-#### 编号</span>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

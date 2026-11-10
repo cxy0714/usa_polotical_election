@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>「Come and Take It」巡游启动，Rockwall（罗克沃尔）——PAX-SPC-1103 · ‘Come and Take It’ tour launch, Rockwall — PAX-SPC-1103</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--muted:#6b6760;--line:#e3ded4;--accent:#8c2f1e;--accent2:#1f4e5f;--card:#fff;--en:#1c1b19;--zh:#243b4a}
+@media (prefers-color-scheme:dark){:root{--bg:#16171a;--fg:#e8e6e1;--muted:#a3a09a;--line:#2e3138;--accent:#e0796a;--accent2:#7fb3c4;--card:#1d1f24;--en:#e8e6e1;--zh:#a9c6d6}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.72 -apple-system,"Segoe UI","Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.6rem 1.1rem;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.01em;color:var(--fg)}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+nav.main{display:flex;gap:.15rem;flex-wrap:wrap;margin-left:auto}
+nav.main a{padding:.28rem .55rem;border-radius:6px;color:var(--muted);font-size:.9rem}
+nav.main a.on,nav.main a:hover{background:var(--line);color:var(--fg);text-decoration:none}
+.modes{display:flex;gap:.2rem;border:1px solid var(--line);border-radius:8px;padding:.15rem}
+.modes button{background:none;border:0;color:var(--muted);font:inherit;font-size:.8rem;padding:.2rem .45rem;border-radius:6px;cursor:pointer}
+.modes button.on{background:var(--accent);color:#fff}
+.layout{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr);gap:2rem;padding:1.6rem 1.1rem 4rem}
+aside.toc{position:sticky;top:4.2rem;align-self:start;max-height:calc(100vh - 5rem);overflow:auto;font-size:.86rem;border-left:2px solid var(--line);padding-left:.9rem}
+aside.toc h4{margin:.2rem 0 .6rem;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+aside.toc a{display:block;padding:.18rem 0;color:var(--muted);line-height:1.45}
+aside.toc a:hover{color:var(--fg)}
+aside.toc a.h3{padding-left:.7rem;font-size:.82rem;opacity:.85}
+main{min-width:0}
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.crumb a{color:var(--muted)}
+h1{font-size:1.85rem;line-height:1.3;margin:.2rem 0 .4rem}
+h1 .zh{display:block;font-size:1.15rem;color:var(--muted);font-weight:500;margin-top:.35rem}
+h2{font-size:1.28rem;margin:2.4rem 0 .7rem;padding-top:.6rem;border-top:1px solid var(--line)}
+h3{font-size:1.08rem;margin:1.7rem 0 .5rem}
+h4{font-size:1rem;margin:1.3rem 0 .4rem}
+p{margin:.55rem 0}
+code{background:var(--line);padding:.08em .32em;border-radius:4px;font-size:.86em;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem;overflow:auto}
+pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
+blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
+blockquote p{margin:.35rem 0}
+.table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
+tbody tr:hover{background:color-mix(in srgb,var(--line) 45%,transparent)}
+ul,ol{margin:.5rem 0 .7rem;padding-left:1.35rem}
+li{margin:.22rem 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin:.6rem 0;align-items:start}
+.pair .col{min-width:0}
+.pair .en{color:var(--en)}
+.pair .zh{color:var(--zh);border-left:2px solid var(--line);padding-left:1.1rem;font-size:.97em}
+body.mode-en .zh,body.mode-en .pair .zh{display:none}
+body.mode-en .pair{grid-template-columns:1fr}
+body.mode-zh .en,body.mode-zh .pair .en{display:none}
+body.mode-zh .pair{grid-template-columns:1fr}
+body.mode-zh li.en,body.mode-zh .blk.en{display:none}
+body.mode-en li.zh,body.mode-en .blk.zh{display:none}
+.blk.mix{display:block}
+.meta{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:.4rem 0 1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1rem;margin:1.2rem 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card h3{margin:.1rem 0 .45rem;font-size:1.02rem}
+.card p{margin:.2rem 0;color:var(--muted);font-size:.85rem;line-height:1.6}
+.card .n{font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1.1}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.8rem;margin:1.2rem 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem}
+.stat b{display:block;font-size:1.45rem;color:var(--accent);line-height:1.2}
+.stat span{font-size:.78rem;color:var(--muted)}
+.hero{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,transparent),color-mix(in srgb,var(--accent2) 12%,transparent));border:1px solid var(--line);border-radius:16px;padding:2rem 1.8rem;margin:0 0 1.6rem}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+.hero p{color:var(--muted);max-width:62ch}
+.search{position:relative;margin:1.2rem 0}
+.search input{width:100%;padding:.85rem 1rem;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+#results{margin-top:.8rem;display:grid;gap:.5rem}
+.hit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem}
+.hit .t{font-weight:600}
+.hit .s{font-size:.8rem;color:var(--muted);margin-top:.2rem}
+.hit mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
+.gal figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.gal img{width:100%;height:210px;object-fit:cover;display:block;background:var(--line)}
+.gal figcaption{padding:.55rem .65rem;font-size:.74rem;color:var(--muted);line-height:1.45}
+.gal figcaption b{color:var(--fg);font-weight:600;display:block;font-size:.8rem}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.4rem 1.1rem;color:var(--muted);font-size:.8rem}
+footer .in{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.src{font-family:ui-monospace,Consolas,monospace;font-size:.78em;padding:.02em .32em;border:1px solid var(--line);border-radius:4px;color:var(--accent2);white-space:nowrap;text-decoration:none}
+.src:hover{background:color-mix(in srgb,var(--accent2) 14%,transparent);text-decoration:none;border-color:var(--accent2)}
+a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
+.nolink{display:flex;flex-direction:column;justify-content:center;align-items:center;height:210px;padding:1rem;text-align:center;background:repeating-linear-gradient(45deg,var(--line) 0 6px,transparent 6px 12px);font-size:.8rem;color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem;margin:1rem 0 1.6rem}
+.shots a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card)}
+.shots img{width:100%;height:130px;object-fit:cover;display:block}
+.shots span{display:block;font-size:.68rem;color:var(--muted);padding:.25rem .35rem;line-height:1.35}
+.tag{display:inline-block;font-size:.72rem;padding:.1rem .45rem;border-radius:999px;background:var(--line);color:var(--muted);margin-right:.3rem}
+.warn{background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:10px;padding:.85rem 1rem;margin:1rem 0;font-size:.9rem}
+@media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
+@media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
+</style>
+</head><body>
+<header class="top"><div class="top-in">
+  <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="on" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  <aside class="toc"><h4>本页目录 / On this page</h4>
+<a class="" href="#1-speech-context-演讲背景">1. Speech context / 演讲背景</a>
+<a class="" href="#2-main-argument-主要论点">2. Main argument / 主要论点</a>
+<a class="" href="#3-speech-structure-演讲结构">3. Speech structure / 演讲结构</a>
+<a class="" href="#4-opening-and-closing-开场与结尾">4. Opening and closing / 开场与结尾</a>
+<a class="" href="#5-main-policy-positions-主要政策立场">5. Main policy positions / 主要政策立场</a>
+<a class="" href="#6-personal-stories-个人故事">6. Personal stories / 个人故事</a>
+<a class="" href="#7-repeated-slogans-反复出现的口号">7. Repeated slogans / 反复出现的口号</a>
+<a class="" href="#8-key-quotations-with-timestamps-关键引语与时间码">8. Key quotations with timestamps / 关键引语与时间码</a>
+<a class="" href="#9-audience-reactions-听众反应">9. Audience reactions / 听众反应</a>
+<a class="" href="#10-visual-presentation-视觉呈现">10. Visual presentation / 视觉呈现</a>
+<a class="" href="#sources-来源">Sources / 来源</a></aside>
+  <main>
+    <div class="crumb"><a href="../index.html">首页</a> › <a href="../speeches/index.html">演讲</a></div>
+    <h1>‘Come and Take It’ tour launch, Rockwall — PAX-SPC-1103<span class="zh">「Come and Take It」巡游启动，Rockwall（罗克沃尔）——PAX-SPC-1103</span></h1>
+    <div class="meta"><span>状态：complete</span><span>更新：2026-11-10</span><span>编译：Agent D (speech)</span><span>源文件：<a href="../../03_speeches/key_speech_analysis/PAX-SPC-1103_rockwall_tour_launch.md">03_speeches/key_speech_analysis/PAX-SPC-1103_rockwall_tour_launch.md</a></span></div><div class="warn"><b>覆盖范围说明 / Coverage note.</b> Two verbatim lines, crowd size and venue are documented via a Tier-3 aggregation quoting the Dallas Morning News; no transcript/timestamps and no local report was retrievable.</div><h1 id="pax-spc-1103-tour-launch-rockwall-municipal-airport-2026-10-">PAX-SPC-1103 — Tour launch, Rockwall Municipal Airport, 2026-10-17 / 巡游启动，Rockwall 市机场，2026-10-17</h1>
+<div class="pair"><div class="col en"><p><strong>Type:</strong> tour_launch / rally · <strong>Venue:</strong> Rockwall Municipal Airport, Rockwall, Texas (North Texas) · <strong>Date:</strong> 2026-10-17 (Saturday) · <strong>Attendance:</strong> about 200 (<a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a>) · <strong>Transcript:</strong> not retrievable · <strong>Sources:</strong> <a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a></p></div><div class="col zh"><p><strong>类型：</strong> tour_launch（巡游启动）／rally（集会） · <strong>地点：</strong> 德州 Rockwall 市机场（北德州） · <strong>日期：</strong> 2026-10-17（星期六） · <strong>到场人数：</strong> 约 200 人（<a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a>） · <strong>转录稿：</strong> 不可获取 · <strong>来源：</strong> <a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a></p></div></div>
+<h2 id="1-speech-context-演讲背景">1. Speech context / 演讲背景</h2>
+<div class="pair"><div class="col en"><p>The first stop of the 18-day tour, launched in a North Texas exurban airport — the same corridor where Talarico would launch his own tour the next day in Plano. Both campaigns chose North Texas suburbs, and Dock Line (citing the Dallas Morning News) reads this as a region both campaigns were counting on. The venue type — an airport, not a church or a barbecue joint — is unusual for Texas retail politics and tends to produce a rally-of-the-base atmosphere rather than a swing-voter event.</p></div><div class="col zh"><p>这是 18 天巡游的首站，在北德州一座郊区机场启动——正是 Talarico 次日将在 Plano 启动自己巡游的同一走廊地带。两场竞选都选择了北德州郊区，Dock Line（引述《Dallas Morning News》）将此地解读为双方都在指望的地区。场地类型——机场，而非教堂或烧烤店——在德州的地面零售式政治中并不常见，且往往营造出「基本盘集会」的氛围，而非面向摇摆选民的活动。</p></div></div>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Layer / 层次</th><th style="text-align:left">Content / 内容</th><th style="text-align:left">Evidence / 依据</th></tr></thead><tbody><tr><td style="text-align:left">Stated purpose / 声明的目的</td><td style="text-align:left">Launch the tour and frame the race as a defence of country and state（译：启动巡游，并把这场选举框定为对国家与州的保卫）</td><td style="text-align:left"><a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a></td></tr><tr><td style="text-align:left">Observable function / 可观察的功能</td><td style="text-align:left">A rally opening a bus tour, with a prayer request to the crowd（译：一场为巴士巡游开幕的集会，其间向人群请求祈祷）</td><td style="text-align:left"><a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a></td></tr><tr><td style="text-align:left">Analyst interpretation / 分析者解读</td><td style="text-align:left">INTERPRETATION: opening with "we need your prayers" casts the race as a spiritual contest and pre-empts low-turnout risk by appealing to church networks rather than to swing voters.（译：解读：以「我们需要你们的祈祷」开场，把这场选举塑造成精神层面的较量，并通过诉诸教会网络而非摇摆选民来预防低投票率风险。）</td><td style="text-align:left">inferred（译：推断）</td></tr></tbody></table></div></div>
+<h2 id="2-main-argument-主要论点">2. Main argument / 主要论点</h2>
+<div class="pair"><div class="col en"><p>That the election is a national-security and civilisational contest, not a normal Senate race: "This race is about defending our country and this great state of Texas." The second reported line — "We will be out working, but we need your prayers" — shifts agency onto the audience: the campaign will work, but the outcome depends on supporters' spiritual and electoral labour.</p></div><div class="col zh"><p>这场选举事关国家安全与文明存续，而非一场普通的参议院选举："This race is about defending our country and this great state of Texas."（译：「这场选举关乎保卫我们的国家和伟大的德州。」）被报道的第二句——"We will be out working, but we need your prayers"（译：「我们会一直在外奔走，但我们需要你们的祈祷」）——把行动主体转移到听众身上：竞选团队会努力工作，但结果取决于支持者的精神与选举劳动。</p></div></div>
+<h2 id="3-speech-structure-演讲结构">3. Speech structure / 演讲结构</h2>
+<div class="pair"><div class="col en"><p><code>⚠ unknown</code> beyond the two reported lines. The rally's length, order, policy content and closing ask are not documented in retrieved sources.</p></div><div class="col zh"><p>除两处被报道的语句外，<code>⚠ unknown</code>（未查明）。集会的时长、顺序、政策内容与结尾请求在检索来源中均无记录。</p></div></div>
+<h2 id="4-opening-and-closing-开场与结尾">4. Opening and closing / 开场与结尾</h2>
+<div class="pair"><div class="col en"><p>The "defending our country" line reads as a framing statement and may have been near the top; "we need your prayers" reads as an audience-directed close or near-close. Both placements are inference — <code>⚠ unknown</code>.</p></div><div class="col zh"><p>"defending our country"（译：「保卫我们的国家」）一句读起来像框架陈述，可能位于开头附近；"we need your prayers"（译：「我们需要你们的祈祷」）读起来像面向听众的收尾或近收尾。两处位置皆属推断——<code>⚠ unknown</code>（未查明）。</p></div></div>
+<h2 id="5-main-policy-positions-主要政策立场">5. Main policy positions / 主要政策立场</h2>
+<div class="pair"><div class="col en"><p>None quoted from this stop beyond the defence framing. Later stops carry the programme (energy vs. "Green New Deal," Supreme Court, SAVE America Act — PAX-SPC-1107; the "Protecting the Texas Promise Plan" — PAX-SPC-1105/1106).</p></div><div class="col zh"><p>除防御框架外，本站未引述任何政策内容。纲领见于更晚的站点（能源 vs. "Green New Deal"、最高法院、SAVE America Act——PAX-SPC-1107；"Protecting the Texas Promise Plan"（译：「守护德州承诺计划」）——PAX-SPC-1105／1106）。</p></div></div>
+<h2 id="6-personal-stories-个人故事">6. Personal stories / 个人故事</h2>
+<div class="pair"><div class="col en"><p><code>⚠ unknown</code> — no anecdote quoted.</p></div><div class="col zh"><p><code>⚠ unknown</code>（未查明）—— 未引述轶事。</p></div></div>
+<h2 id="7-repeated-slogans-反复出现的口号">7. Repeated slogans / 反复出现的口号</h2>
+<div class="blk zh"><ul><li class="en"><strong>"Come and take it"</strong> — the tour frame, established the day before and visible at the launch.</li><li class="zh">中文：<strong>"Come and take it"（译：「有种来拿」）</strong> —— 巡游框架，前一日确立，在启动仪式上可见。</li><li class="en"><strong>"We need your prayers"</strong> — the faith-based mobilisation line, recurring at Brownsville (PAX-SPC-1104) and Houston (PAX-SPC-1106, "Do you believe that faith matters?").</li><li class="zh">中文：<strong>"We need your prayers"（译：「我们需要你们的祈祷」）</strong> —— 基于信仰的动员语句，在 Brownsville（PAX-SPC-1104）与休斯敦（PAX-SPC-1106，"Do you believe that faith matters?"（译：「你相信信仰重要吗？」））再度出现。</li><li class="en"><strong>"Defending our country and this great state"</strong> — the national/local doubling.</li><li class="zh">中文：<strong>"Defending our country and this great state"（译：「保卫我们的国家和这个伟大的州」）</strong> —— 国家／地方的双重表述。</li></ul></div>
+<h2 id="8-key-quotations-with-timestamps-关键引语与时间码">8. Key quotations with timestamps / 关键引语与时间码</h2>
+<div class="pair"><div class="col en"><p>TIMECODES: <code>⚠ unknown</code>. Verbatim as quoted by the Dallas Morning News and relayed by Dock Line.</p></div><div class="col zh"><p>时间码：<code>⚠ unknown</code>（未查明）。引语为《Dallas Morning News》引述、经 Dock Line 转述的逐字文本。</p></div></div>
+<div class="blk zh"><blockquote><p>"This race is about defending our country and this great state of Texas." <code>[unknown]</code>（译：「这场选举关乎保卫我们的国家和伟大的德州。」）</p><p>"We will be out working, but we need your prayers." <code>[unknown]</code>（译：「我们会一直在外奔走，但我们需要你们的祈祷。」）</p></blockquote></div>
+<h2 id="9-audience-reactions-听众反应">9. Audience reactions / 听众反应</h2>
+<div class="pair"><div class="col en"><p>Documented only as size: about 200 people. No applause, chant or interruption reporting. Whether the crowd responded audibly to the prayer line is <code>⚠ unknown</code>.</p></div><div class="col zh"><p>仅记录规模：约 200 人。无关于掌声、呼喊或打断的报道。人群是否对祈祷请求作出可听见的回应，<code>⚠ unknown</code>（未查明）。</p></div></div>
+<h2 id="10-visual-presentation-视觉呈现">10. Visual presentation / 视觉呈现</h2>
+<div class="pair"><div class="col en"><p>Documented: airport venue; the tour's Gonzales-flag imagery is the campaign's established motif (PAX-SPC-1102). Clothing, stage design, bus livery and signage at this stop: <code>⚠ unknown</code>. No photo caption describing the staging was retrieved.</p></div><div class="col zh"><p>有据可查：机场场地；巡游的冈萨雷斯旗帜图像是竞选已确立的母题（PAX-SPC-1102）。本站的服装、舞台设计、巴士涂装与标语：<code>⚠ unknown</code>（未查明）。未检索到描述舞台布置的图片说明。</p></div></div>
+<h2 id="sources-来源">Sources / 来源</h2>
+<div class="blk zh"><ul><li class="zh"><a class="src" href="https://docklinemagazine.com/politics-government/paxton-and-talarico-hit-the-road-on-dueling-bus-tours-as-early-voting-begins" target="_blank" rel="noopener" title="Dock Line Magazine">SRC-0004</a> — Dock Line Magazine (Jane Long), 2026-10-18, quoting the Dallas Morning News' report from Rockwall.（Dock Line Magazine，Jane Long，2026-10-18，引述《Dallas Morning News》关于 Rockwall 的报道。）</li></ul></div>
+    
+  </main>
+</div>
+<footer><div class="in">
+  <span>American Political Image Lab · 案例研究 001 · 生成于 2026-11-10 · 全部内容可离线阅读</span>
+  <span>所有事实均可溯源至 09_sources/sources.csv 的 SRC-#### 编号</span>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

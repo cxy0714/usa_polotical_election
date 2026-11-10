@@ -1,0 +1,1045 @@
+---
+title: James Talarico - Political Positions Matrix
+title_zh: 詹姆斯·塔拉里科（James Talarico）——政治立场矩阵
+language: en+zh
+candidate_id: TALARICO
+compiled_by: Agent B (bio-policy)
+last_updated: 2026-11-10
+status: complete
+coverage_note: 80 documented position rows across 12 issue categories. / 在12个议题类别下共记录 80 条立场行。
+---
+
+# James Talarico - Political Positions / 詹姆斯·塔拉里科——政治立场
+
+Machine-readable canonical source: `01_candidates/policy_positions.csv` (filter on `candidate_id = TALARICO`). This file is the narrative view of the same rows, grouped by the conventions issue vocabulary.
+
+机器可读的权威数据源为 `01_candidates/policy_positions.csv`（按 `candidate_id = TALARICO` 筛选）。本文件是同一批数据行的叙事视图，按规范中的议题词表分组呈现。
+
+**Reading conventions.** `unknown` is an explicit value meaning no retrieved source established the fact, not a placeholder for unfinished work. Statements are verbatim from a retrieved page or document unless marked *(paraphrase)* or attributed to reporting. Verification status uses the four-value controlled vocabulary. Sources appear as registry ids linked to the retrieved URL; every id is defined in `_staging/B_sources.csv`.
+
+**阅读约定。** `unknown` 是一个显式取值，意为「已获取的来源中没有任何一项确立了该事实」，而非未完成工作的占位符。除标注为*（转述）*或明确归于报道之外，表述均为取自已获取页面或文件的逐字引语。核实状态使用四值受控词表。来源以登记编号呈现，并链接到已获取的 URL；每个编号均定义于 `_staging/B_sources.csv`。
+
+**Coverage / 覆盖:** 80 rows. 共 80 条。Abortion 6 | Democracy 6 | Economy 7 | Education 7 | Energy 7 | Foreign policy 7 | Gun policy 4 | Healthcare 7 | Immigration 7 | Labor 6 | Other 10 | Religion 6
+
+堕胎 6 ｜ 民主 6 ｜ 经济 7 ｜ 教育 7 ｜ 能源 7 ｜ 外交政策 7 ｜ 枪支政策 4 ｜ 医疗 7 ｜ 移民 7 ｜ 劳工 6 ｜ 其他 10 ｜ 宗教 6
+
+## Issue-by-issue matrix / 逐议题矩阵
+
+### Economy / 经济
+
+- **Cost of living and wages / 生活成本与工资** - `B-POL-0001` - partially verified
+  - Position: Frames politics as corrupt because billionaires and corporations have rigged the economy; proposes raising the minimum wage, cutting taxes for working people and capping credit card interest rates.
+  - 立场：以「政治之所以腐败是因为它确实腐败」为框架，主张提高最低工资、为劳动者减税并限制信用卡利率
+  - Statement: "Politics feels corrupt because it is." Campaign issue page pairs this with a pledge to cut taxes for working people, cap credit card interest rates and lower the cost of rent, groceries, utilities and gas.
+  - 表述：「政治之所以让人觉得腐败，是因为它确实腐败。」竞选议题页将这一表述与「为劳动者减税、限制信用卡利率、降低租金/食品杂货/水电与油价」的承诺并列（译：原文为英文引语与摘要的合并表述）
+  - Date and context: unknown - 2026 campaign issue page Taxes & Cost of Living; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「税收与生活成本」，页面未标注日期，访问于2026-11-10
+  - Legislative or legal record: Claims work with Republicans to deliver "the largest property tax cut in Texas history"; passage of legislation lowering prescription drug, housing and childcare costs
+  - 立法或法律记录：自称与共和党人合作推动「德克萨斯历史上规模最大的财产税削减」；并通过立法降低处方药、住房与托育成本
+  - Opponent criticism: Paxton campaign frames Talarico as a tax-and-spend progressive; Paxton's own plan centers deductions rather than wage floors
+  - 对手批评：共和党对手（帕克斯顿阵营）将塔拉里科描绘为「加税与扩大开支的进步派」；帕克斯顿方案以税前扣除而非工资下限为核心
+  - Sources / 来源: [SRC-0086](https://jamestalarico.com/issue/taxes-cost-of-living/)
+- **Minimum wage / 最低工资** - `B-POL-0002` - partially verified
+  - Position: Supports raising the federal minimum wage to $15 an hour and expanding overtime eligibility.
+  - 立场：支持将联邦最低工资提高至每小时15美元，并扩大加班费适用资格
+  - Statement: (paraphrase) Campaign states Talarico will "raise the minimum wage to $15" and expand overtime; campaign site headline: "Higher Wages and a Fair Shot for Small Businesses".
+  - 表述：（转述）竞选方表示塔拉里科将「把最低工资提高到15美元」并扩大加班资格；议题页标题为「更高的工资与让小企业获得公平机会」
+  - Date and context: unknown - 2026 campaign issue page Labor & Business; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「劳工与企业」，页面未标注日期，访问于2026-11-10
+  - Legislative or legal record: No state-level minimum wage bill credited to him; Texas has no state minimum wage, so the pledge is federal
+  - 立法或法律记录：未记录其主导过州级最低工资法案；德克萨斯州无州定最低工资，故该承诺属联邦层面
+  - Opponent criticism: Paxton's economic plan offers tax deductions and credits rather than a wage floor; supply-side critics argue mandates raise business costs
+  - 对手批评：帕克斯顿的经济方案提供税前扣除与抵免而非工资下限；供给学派批评者认为强制工资下限会推高企业成本
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+- **Taxes and property tax / 税收与财产税** - `B-POL-0003` - partially verified
+  - Position: Claims credit for working with Republicans on the largest property tax cut in Texas history and pitches further tax relief for working people financed by closing billionaire loopholes.
+  - 立场：主张与共和党人合作推动的「德克萨斯历史上规模最大的财产税削减」，并提出以堵住亿万富翁税收漏洞来为劳动者进一步减税
+  - Statement: unknown (no direct quotation retrieved)
+  - 表述：unknown（未查明；未获取直接引语）
+  - Date and context: unknown - 2026 campaign issue page Taxes & Cost of Living; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「税收与生活成本」，页面未标注日期，访问于2026-11-10
+  - Legislative or legal record: Participated in the 2023 property tax package per his own framing; also sponsored SB 1145 childcare property-tax exemption
+  - 立法或法律记录：按其本人表述参与了2023年财产税一揽子法案；并推动SB 1145托育机构财产税豁免
+  - Opponent criticism: Paxton's May and August 2026 property-tax decrees are framed as stronger action against local governments
+  - 对手批评：帕克斯顿于2026年5月与8月的财产税执法行动被其阵营表述为对地方政府更强硬的举措
+  - Sources / 来源: [SRC-0086](https://jamestalarico.com/issue/taxes-cost-of-living/)
+- **Corporate power and antitrust / 企业权力与反垄断** - `B-POL-0004` - partially verified
+  - Position: Casts concentration of corporate power as the cause of high prices; campaign materials promise to make "billionaires and giant corporations pay their fair share".
+  - 立场：将企业权力集中视为高物价的成因；竞选材料承诺让「亿万富翁与巨型企业缴纳其应缴份额」
+  - Statement: "Billionaires and their giant corporations pour millions of dollars into campaign contributions and corporate PACs to elect politicians who will do their bidding."
+  - 表述：「亿万富翁及其巨型企业向竞选捐款和企业政治行动委员会投入数百万美元，以选出替他们办事的政客。」
+  - Date and context: unknown - 2026 campaign issue page Corruption & Democracy; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「腐败与民主」，页面未标注日期，访问于2026-11-10
+  - Opponent criticism: Paxton campaign presents Talarico as hostile to Texas business; Talarico counters that he is pro-small-business
+  - 对手批评：帕克斯顿阵营将塔拉里科呈现为敌视德克萨斯商业；塔拉里科回应称自己支持小企业
+  - Sources / 来源: [SRC-0085](https://jamestalarico.com/issue/corruption-democracy/)
+- **Tariffs and trade / 关税与贸易** - `B-POL-0005` - partially verified
+  - Position: Calls for rolling back "unnecessary tariffs" as a cost driver for consumers and small business, framing tariffs and zoning rules as barriers to the American dream.
+  - 立场：主张回退「不必要的关税」，将其与小企业成本并列，并把关税与过时区划规则一并视为实现「美国梦」的障碍
+  - Statement: "And we need a government that rolls back the barriers keeping us from being able to live the American dream - whether they're unnecessary tariffs or outdated zoning regulations."
+  - 表述：「我们还需要一个能够回退那些阻碍我们实现美国梦的壁垒的政府——无论是不必要的关税，还是过时的区划规定。」
+  - Date and context: unknown - 2026 campaign issue page Taxes & Cost of Living; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「税收与生活成本」，页面未标注日期，访问于2026-11-10
+  - Legislative or legal record: Foreign policy page adds "Repeal unnecessary tariffs" as a Senate priority
+  - 立法或法律记录：外交政策议题页将「废除不必要的关税」列为参议院优先事项
+  - Opponent criticism: Paxton campaign does not emphasize tariffs; the leaked-audio reporting has Paxton blaming the Iran war and fuel prices instead
+  - 对手批评：帕克斯顿阵营并不强调关税；泄露音频报道显示帕克斯顿将竞选困境归因于伊朗战争与燃油价格
+  - Sources / 来源: [SRC-0086](https://jamestalarico.com/issue/taxes-cost-of-living/)
+- **Medical debt and household finance / 医疗债务与家庭财务** - `B-POL-0006` - partially verified
+  - Position: Proposes canceling medical debt and barring medical debt from consumer credit reports as an affordability measure.
+  - 立场：提出取消医疗债务，并禁止医疗债务进入消费者信用报告，作为可负担性措施
+  - Statement: (paraphrase) FOX 26 reports Talarico has proposed a ban on medical debt impacting consumer credit scores; the campaign's economic plan is reported to include canceling medical debt.
+  - 表述：（转述）FOX 26报道称塔拉里科提出禁止医疗债务影响消费者信用评分；其经济方案据报包含取消医疗债务
+  - Date and context: 2026-10-07 - FOX 26 Houston comparison of the two candidates' healthcare affordability plans
+  - 日期与语境：2026-10-07 - FOX 26 休斯敦台对两位候选人医疗可负担性方案的对比报道
+  - Legislative or legal record: Personal history used as warrant: $684 first insulin purchase charged to a credit card
+  - 立法或法律记录：以个人经历为依据：首笔胰岛素支出684美元被计入信用卡
+  - Opponent criticism: Paxton's plan uses deductions for out-of-pocket medical spending instead of debt relief
+  - 对手批评：帕克斯顿方案以自付医疗支出税前扣除替代债务减免
+  - Sources / 来源: [SRC-0102](https://www.fox26houston.com/election/talarico-paxton-senate-race-healthcare-plan)
+- **Child care and family costs / 托育与家庭开支** - `B-POL-0007` - partially verified
+  - Position: Supports universal child care and paid family leave as economic policy, presented as pro-family rather than redistribution.
+  - 立场：支持普惠托育与带薪家庭假，并将其表述为「支持家庭」而非「再分配」
+  - Statement: "Childcare is now more expensive than college." He states he passed legislation cutting property taxes for childcare centers and lowering childcare costs with Sen. West and Rep. Button.
+  - 表述：「如今托育费用比大学学费还贵。」他表示自己与参议员韦斯特（West）及众议员巴顿（Button）共同推动立法，降低托育中心的财产税并降低托育成本
+  - Date and context: 2026-07-28 - X post 2026-07-28 reproduced on campaign Labor & Business page; earlier post 2023-05-19 on childcare legislation
+  - 日期与语境：2026-07-28 - 2026-07-28的X平台帖文，转载于竞选「劳工与企业」页面；另有2023-05-19关于托育立法的帖文
+  - Legislative or legal record: SB 1145 childcare property-tax exemption (House sponsor per SRC-0098); 2023 childcare cost legislation with Sen. West and Rep. Button
+  - 立法或法律记录：SB 1145托育机构财产税豁免（据[SRC-0098]为其在众议院的推动方）；2023年与参议员韦斯特、众议员巴顿的托育成本立法
+  - Opponent criticism: Paxton campaign emphasizes tax deductions and doubling the child tax credit
+  - 对手批评：帕克斯顿阵营强调税前扣除与子女税收抵免翻倍
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+
+### Healthcare / 医疗
+
+- **Insulin and drug prices / 胰岛素与药价** - `B-POL-0008` - verified
+  - Position: Type 1 diabetic who built his healthcare identity on capping insulin copays at $25 per month and allowing Canadian prescription importation.
+  - 立场：作为1型糖尿病患者，以「将胰岛素自付额上限设为每月25美元」与「允许从加拿大进口处方药」构建其医疗身份
+  - Statement: "When I was 28 years old, I almost died." He recounts a $684 first 30-day insulin supply charged to a credit card, then states he passed bills capping insulin copays at $25 a month and allowing Canadian drug importation.
+  - 表述：「我28岁那年差点死掉。」他讲述首次30天胰岛素供应以684美元计入信用卡，随后表示自己推动了将胰岛素自付额上限设为每月25美元及允许加拿大药品进口的法案
+  - Date and context: unknown - 2026 campaign issue page Health Care; undated page accessed 2026-11-10; insulin bill tweet dated 2021-05-24
+  - 日期与语境：unknown - 2026年竞选议题页「医疗」，页面未标注日期，访问于2026-11-10；胰岛素法案帖文日期为2021-05-24
+  - Legislative or legal record: State insulin copay cap and Canadian importation legislation, attributed to him by the Texas House member biography
+  - 立法或法律记录：州级胰岛素自付额上限与加拿大药品进口立法，德克萨斯州众议员简历将之归于其名下
+  - Opponent criticism: Paxton campaign points to his own record suing pharmaceutical companies and pharmacy benefit managers
+  - 对手批评：帕克斯顿阵营指向其本人起诉制药企业与药房福利管理机构的记录
+  - Sources / 来源: [SRC-0088](https://jamestalarico.com/issue/health-care/)
+- **Coverage expansion / 医保覆盖扩展** - `B-POL-0009` - partially verified
+  - Position: Supports a Medicare buy-in open to all ages as a public option intended to force private insurers to compete.
+  - 立场：支持向所有年龄段开放的联邦医疗保险（Medicare）购买选项，作为旨在迫使私营保险公司竞争的「公共选项」
+  - Statement: (paraphrase) FOX 26 reports Talarico has pushed for public options for healthcare and proposed a Medicare buy-in option for all ages.
+  - 表述：（转述）FOX 26报道塔拉里科推动医疗领域的公共选项，并提出向所有年龄段开放的联邦医疗保险购买方案
+  - Date and context: 2026-10-07 - FOX 26 Houston healthcare affordability comparison
+  - 日期与语境：2026-10-07 - FOX 26 休斯敦台医疗可负担性对比报道
+  - Legislative or legal record: No state analogue; federal proposal only
+  - 立法或法律记录：无州级对应措施；仅为联邦提案
+  - Opponent criticism: Paxton campaign frames this as government-controlled healthcare
+  - 对手批评：帕克斯顿阵营将其定性为「政府控制的医疗」
+  - Sources / 来源: [SRC-0102](https://www.fox26houston.com/election/talarico-paxton-senate-race-healthcare-plan)
+- **Pre-existing conditions / 既往病史保护** - `B-POL-0010` - partially verified
+  - Position: Pledges federal protection for people with pre-existing conditions.
+  - 立场：承诺为有既往病史者提供联邦层面保护
+  - Statement: (paraphrase) FOX 26 reports Talarico proposed federal protection for pre-existing conditions.
+  - 表述：（转述）FOX 26报道塔拉里科提出联邦层面的既往病史保护
+  - Date and context: 2026-10-07 - FOX 26 Houston healthcare affordability comparison
+  - 日期与语境：2026-10-07 - FOX 26 休斯敦台医疗可负担性对比报道
+  - Opponent criticism: Paxton campaign argues market-based deductions protect patients without federal mandates
+  - 对手批评：帕克斯顿阵营主张市场化税前扣除可在无联邦强制的前提下保护患者
+  - Sources / 来源: [SRC-0102](https://www.fox26houston.com/election/talarico-paxton-senate-race-healthcare-plan)
+- **Medicaid and the 2025 federal law / 医疗补助与2025年联邦法律** - `B-POL-0011` - partially verified
+  - Position: Opposes the 2025 federal budget law, calling it a wealth transfer that cut Medicaid and Medicare and stripped coverage.
+  - 立场：反对2025年联邦预算法，称其为「财富转移」，削减了医疗补助（Medicaid）与联邦医疗保险（Medicare）并剥夺了覆盖
+  - Statement: "Republicans in DC just passed the largest transfer of wealth in American history with their 'Big Ugly Bill.' They slashed Medicaid and Medicare, are kicking 15 million people off their health insurance, and raised premiums for millions more."
+  - 表述：「华盛顿的共和党人刚刚通过了美国历史上规模最大的财富转移，即他们的'大丑法案'（Big Ugly Bill）。他们削减了医疗补助与联邦医疗保险，把1,500万人踢出健康保险，并让另外数百万人的保费上涨。」
+  - Date and context: unknown - 2026 campaign issue page Health Care; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「医疗」，页面未标注日期，访问于2026-11-10
+  - Opponent criticism: Paxton campaign says it will protect Social Security and Medicare; no documented Paxton statement on the 2025 law located
+  - 对手批评：帕克斯顿阵营称将保护社会保障与联邦医疗保险；已获取来源中未见帕克斯顿就该2025年法律的具体表态
+  - Forensic or fact-check note: The 15 million figure is a campaign claim; no independent fact-check located in retrieved sources
+  - 事实核查／取证说明：「1,500万人」为竞选方主张；所获取来源中未见独立事实核查
+  - Sources / 来源: [SRC-0088](https://jamestalarico.com/issue/health-care/)
+- **Health care as a right / 医疗作为一项权利** - `B-POL-0012` - partially verified
+  - Position: States health care is a human right and that the fight should move to Washington.
+  - 立场：主张医疗是一项人权，并把斗争推进到华盛顿
+  - Statement: "Because health care is a human right." and "It's time to take our fight for guaranteed health care to our nation's capital."
+  - 表述：「因为医疗是一项人权。」以及「是把争取有保障的医疗的斗争推进到我国首都的时候了。」
+  - Date and context: unknown - 2026 campaign issue page Health Care; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「医疗」，页面未标注日期，访问于2026-11-10
+  - Opponent criticism: Paxton campaign counters with deductions and market competition
+  - 对手批评：帕克斯顿阵营以税前扣除与市场竞争作为回应
+  - Sources / 来源: [SRC-0088](https://jamestalarico.com/issue/health-care/)
+- **Maternal mortality / 孕产妇死亡率** - `B-POL-0013` - partially verified
+  - Position: Names ending Texas' maternal mortality crisis as a Senate priority.
+  - 立场：将终结德克萨斯的孕产妇死亡危机列为参议院优先事项
+  - Statement: (paraphrase) Campaign page headline states he will "end Texas' maternal mortality crisis".
+  - 表述：（转述）议题页标题称他将「终结德克萨斯的孕产妇死亡危机」
+  - Date and context: unknown - 2026 campaign issue page Health Care; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「医疗」，页面未标注日期，访问于2026-11-10
+  - Opponent criticism: Paxton's record includes defending the state abortion ban that critics link to maternal-health harms
+  - 对手批评：帕克斯顿的记录包括为该州堕胎禁令辩护，批评者将该禁令与孕产妇健康损害相联系
+  - Forensic or fact-check note: A September 2026 lawsuit over a death during pregnancy (reported by NYT) was not retrieved and is not used here
+  - 事实核查／取证说明：2026年9月纽约时报（NYT）报道的孕期死亡诉讼未被获取，本文未予采用
+  - Sources / 来源: [SRC-0088](https://jamestalarico.com/issue/health-care/)
+- **Personal stakes and communication / 个人经历与传播** - `B-POL-0014` - partially verified
+  - Position: Uses his own diabetes diagnosis as the standing warrant for his healthcare agenda.
+  - 立场：以自身糖尿病诊断作为其医疗议程的长期论据
+  - Statement: "When I got out of the ICU, I went to Walgreens to pick up my first 30-day supply of insulin. It cost me $684."
+  - 表述：「我出重症监护室后，去沃博联（Walgreens）取我第一份30天用量的胰岛素。花了684美元。」
+  - Date and context: unknown - 2026 campaign issue page Health Care; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「医疗」，页面未标注日期，访问于2026-11-10
+  - Sources / 来源: [SRC-0088](https://jamestalarico.com/issue/health-care/)
+
+### Education / 教育
+
+- **School vouchers / 学校教育券** - `B-POL-0015` - verified
+  - Position: Opposes private school vouchers and frames them as defunding public schools, especially in rural Texas.
+  - 立场：反对私立学校教育券，将其描述为对公立学校（尤其是乡村地区）的抽血
+  - Statement: "I'm going to keep showing up and listening to rural Texans." Campaign states he will "keep public money in public schools" and describes vouchers as scams siphoning money from rural schools.
+  - 表述：「我会继续出现在乡村德州人面前并倾听他们的声音。」竞选方称他将「把公共资金留在公立学校」，并称教育券是把资金从乡村学校抽走的骗局
+  - Date and context: unknown - 2026 campaign issue pages Public Education and Rural Investment; undated pages accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「公共教育」与「乡村投资」，页面未标注日期，访问于2026-11-10
+  - Legislative or legal record: States he led the fight against vouchers in the Texas House across multiple sessions
+  - 立法或法律记录：自称在多个会期中领导众议院反对教育券
+  - Opponent criticism: Paxton actively defends the voucher program and sued districts that campaigned against it
+  - 对手批评：帕克斯顿积极为该教育券项目辩护，并起诉讨论教育券影响的学区
+  - Forensic or fact-check note: FOX 7 reports the two candidates' records are directly opposed on vouchers
+  - 事实核查／取证说明：FOX 7报道两位候选人在教育券议题上记录直接对立
+  - Sources / 来源: [SRC-0087](https://jamestalarico.com/issue/public-education/), [SRC-0096](https://jamestalarico.com/issue/rural-investment/)
+- **Teacher pay and staffing / 教师薪酬与人员配置** - `B-POL-0016` - partially verified
+  - Position: Pledges to hire more teachers, raise teacher pay and bring universal Pre-K to every Texas family.
+  - 立场：承诺聘用更多教师、提高教师薪酬，并为每个德克萨斯家庭提供普惠学前教育
+  - Statement: (paraphrase) Campaign states he will "hire more teachers, raise teacher pay, and bring universal Pre-K to every Texas family".
+  - 表述：（转述）竞选方称他将「聘用更多教师、提高教师薪酬，并为每个德克萨斯家庭提供普惠学前教育」
+  - Date and context: unknown - 2026 campaign issue page Public Education; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「公共教育」，页面未标注日期，访问于2026-11-10
+  - Legislative or legal record: Pre-K class-size cap legislation (HB 41 / SB 2081 companion) per SRC-0098
+  - 立法或法律记录：学前班班级规模上限立法（据[SRC-0098]为HB 41与SB 2081的配套）
+  - Opponent criticism: Paxton emphasizes parental choice over staffing levels
+  - 对手批评：帕克斯顿强调家长选择而非人员配置水平
+  - Sources / 来源: [SRC-0087](https://jamestalarico.com/issue/public-education/)
+- **School finance / 学校财政** - `B-POL-0017` - verified
+  - Position: Claims authorship of the 2019 school finance overhaul, described as the most significant reform to the system in 20 years.
+  - 立场：自称参与撰写2019年学校财政改革，称其为20年来该体系最重大的改革
+  - Statement: (paraphrase) The Texas House member biography states that in his first term he "helped write the most significant reform to the state's school finance system in 20 years".
+  - 表述：（转述）德克萨斯州众议员简历称，他在第一任期「参与撰写了20年来该州学校财政体系最重大的改革」
+  - Date and context: unknown - Official Texas House member biography; accessed 2026-11-10
+  - 日期与语境：unknown - 德克萨斯州众议员官方简历，访问于2026-11-10
+  - Legislative or legal record: House Bill 3 (2019) school finance package, per his official biography
+  - 立法或法律记录：据其官方简历为2019年HB 3学校财政一揽子法案
+  - Sources / 来源: [SRC-0083](https://house.texas.gov/members/3685/biography)
+- **Class size / 班级规模** - `B-POL-0018` - verified
+  - Position: Passed the first-ever cap on Pre-K class sizes to reduce student-to-teacher ratios.
+  - 立场：推动首个学前班班级规模上限，以降低师生比
+  - Statement: (paraphrase) Official biography credits him with establishing "the first-ever cap on Pre-K class sizes to reduce student-to-teacher ratios".
+  - 表述：（转述）官方简历将其归功于「确立了首个学前班班级规模上限以降低师生比」
+  - Date and context: unknown - Official Texas House member biography; accessed 2026-11-10
+  - 日期与语境：unknown - 德克萨斯州众议员官方简历，访问于2026-11-10
+  - Legislative or legal record: HB 41 filed; substantively enacted via SB 2081 (22-student cap) per SRC-0098
+  - 立法或法律记录：提交HB 41；据[SRC-0098]，实质内容经SB 2081（22人上限）成法
+  - Sources / 来源: [SRC-0083](https://house.texas.gov/members/3685/biography)
+- **Religion in schools and the Ten Commandments / 校园宗教与《十诫》** - `B-POL-0019` - verified
+  - Position: Led House opposition to state-mandated Ten Commandments displays and calls the requirement an affront to non-Christian Texans.
+  - 立场：领导众议院反对强制张贴《十诫》，并称该要求是对非基督徒德州人的冒犯
+  - Statement: "Un-Christian decision" per FOX 7; he said he did not want "the government forcing a religion down my throat."
+  - 表述：据FOX 7报道他称其为「反基督教的（un-Christian）决定」；他表示不希望「政府把某种宗教强加于我」
+  - Date and context: unknown - FOX 7 Austin comparison of the candidates on education; accessed 2026-11-10
+  - 日期与语境：unknown - FOX 7 奥斯汀台关于两位候选人教育议题的对比报道，访问于2026-11-10
+  - Legislative or legal record: Led Texas House opposition to the Ten Commandments display requirement per TIME reporting (SRC-0052)
+  - 立法或法律记录：据TIME报道[SRC-0052]，他领导众议院反对《十诫》张贴要求
+  - Opponent criticism: Paxton defends religious displays and in September 2025 urged students to recite the Lord's Prayer
+  - 对手批评：帕克斯顿为宗教展示辩护，并于2025年9月鼓励学生诵读主祷文
+  - Forensic or fact-check note: TIME notes this fight is what introduced him to a national audience, including Joe Rogan
+  - 事实核查／取证说明：TIME指出这场争议正是使他进入全国视野的原因之一，包括乔·罗根（Joe Rogan）在内
+  - Sources / 来源: [SRC-0101](https://www.fox7austin.com/news/talarico-vs-paxton-education)
+- **Student mental health and safety / 学生心理健康与安全** - `B-POL-0020` - verified
+  - Position: Passed legislation opening millions of dollars for student mental health and character education, and put Narcan on every school campus.
+  - 立场：推动为学生心理健康与品格教育释放数百万美元资金，并在每个校园配备纳洛酮
+  - Statement: "I just passed a bill to put Narcan on EVERY school campus in Texas."
+  - 表述：「我刚刚推动通过了一项在每个德克萨斯校园配备纳洛酮（Narcan）的法案。」
+  - Date and context: 2023-05-26 - X post 2023-05-26 reproduced on campaign Public Safety page
+  - 日期与语境：2023-05-26 - 2023-05-26的X平台帖文，转载于竞选「公共安全」页面
+  - Legislative or legal record: Narcan-on-campus legislation; student mental health and character education funding per official biography
+  - 立法或法律记录：纳洛酮进校园立法；据官方简历为学生心理健康与品格教育拨款
+  - Sources / 来源: [SRC-0095](https://jamestalarico.com/issue/public-safety-justice/)
+- **Child care quality and cost / 托育质量与成本** - `B-POL-0021` - verified
+  - Position: Passed child care affordability and quality legislation, including a property-tax exemption for qualifying childcare facilities.
+  - 立场：推动托育可负担性与质量立法，包括对符合条件的托育设施给予财产税豁免
+  - Statement: "Childcare is now more expensive than college tuition. I just passed major legislation with Sen. West and Rep. Button to bring down childcare costs for working families."
+  - 表述：「如今托育费用比大学学费还贵。我刚与参议员韦斯特和众议员巴顿共同推动了一项重要立法，为工薪家庭降低托育成本。」
+  - Date and context: 2023-05-19 - X post 2023-05-19 reproduced on campaign Labor & Business page
+  - 日期与语境：2023-05-19 - 2023-05-19的X平台帖文，转载于竞选「劳工与企业」页面
+  - Legislative or legal record: SB 1145 childcare property-tax exemption (House sponsor per SRC-0098)
+  - 立法或法律记录：SB 1145托育机构财产税豁免（据[SRC-0098]为其在众议院的推动方）
+  - Opponent criticism: Paxton's plan offers a doubled child tax credit instead
+  - 对手批评：帕克斯顿方案提供子女税收抵免翻倍
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+
+### Immigration / 移民
+
+- **Border framing / 边境论述框架** - `B-POL-0022` - verified
+  - Position: Uses a front-porch metaphor to argue border security and welcome are compatible rather than opposed.
+  - 立场：以「前廊」比喻论证边境安全与接纳并不对立
+  - Statement: "Our border should be like a front porch - it should have a welcome mat out front and a lock on the door."
+  - 表述：「我们的边境应当像一个前廊——门口要有一块欢迎垫，同时门上要有一把锁。」
+  - Date and context: unknown - 2026 campaign issue page Immigration & Border Security; undated page accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「移民与边境安全」，页面未标注日期，访问于2026-11-10
+  - Opponent criticism: Paxton campaign frames the race as border security versus open borders
+  - 对手批评：帕克斯顿阵营将该场竞选框定为「边境安全对开放边境」
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+- **Comprehensive reform / 全面移民改革** - `B-POL-0023` - verified
+  - Position: Calls for comprehensive immigration reform and criticizes grandstanding instead of legislating.
+  - 立场：主张全面移民改革，批评以作秀代替立法
+  - Statement: "We should finally fix this problem instead of grandstanding on it." (post dated 2026-01-06); page priority: "Pass comprehensive immigration reform: Secure the border, make it easier to come here legally, and supercharge our economy."
+  - 表述：「我们应当最终解决这个问题，而不是拿它作秀。」（2026-01-06帖文）；页面优先事项为「通过全面移民改革：保障边境安全、使合法来美更容易，并为我们经济注入活力」
+  - Date and context: 2026-01-06 - Post reproduced on campaign Immigration page; page priorities list undated
+  - 日期与语境：2026-01-06 - 该帖文转载于竞选移民议题页；页面优先事项清单未标注日期
+  - Opponent criticism: Paxton in September 2026 also called for balancing border security with immigration reform for labor-starved sectors; the two overlap rhetorically while differing on legalization
+  - 对手批评：帕克斯顿于2026年9月亦呼吁在边境安全与为劳动力短缺行业进行的移民改革之间取得平衡；两者在修辞上重叠，但在合法化路径上不同
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+- **Enforcement priorities / 执法优先级** - `B-POL-0024` - verified
+  - Position: Argues enforcement should target cartels, gang members and traffickers rather than long-settled families and small business owners.
+  - 立场：主张执法应针对卡特尔、帮派成员与人口贩运者，而非长期定居的家庭与小企业主
+  - Statement: "ICE should be cracking down on the cartels, not our communities. ICE should be deporting gang members, not small business owners. ICE should be hunting down human traffickers, not moms and babies."
+  - 表述：「移民与海关执法局（ICE）应当打击卡特尔，而不是我们的社区。ICE应当驱逐帮派成员，而不是小企业主。ICE应当追捕人口贩运者，而不是母亲与婴儿。」
+  - Date and context: 2025-11-17 - X post 2025-11-17 reproduced on campaign Immigration page
+  - 日期与语境：2025-11-17 - 2025-11-17的X平台帖文，转载于竞选移民议题页
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+- **Legalization pathways / 合法化路径** - `B-POL-0025` - partially verified
+  - Position: Supports a path to citizenship for the longest-settled undocumented immigrants, spouses and DREAMers, with temporary status for recent arrivals.
+  - 立场：支持为定居最久的无证移民、配偶与「梦想者」（DREAMers）提供入籍路径，并为近期抵达者提供临时身份
+  - Statement: (paraphrase) Campaign priority: "Create a path to citizenship for the immigrants who have been here the longest and certain groups like spouses and DREAMers, while allowing those who recently arrived to apply for temporary work" (text truncated at retrieval).
+  - 表述：（转述）竞选优先事项：「为在此居住最久的移民以及配偶与梦想者等特定群体创造入籍路径，同时允许近期抵达者申请临时工作许可」（获取时文本被截断）
+  - Date and context: unknown - 2026 campaign issue page Immigration & Border Security priorities list; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「移民与边境安全」优先事项清单，访问于2026-11-10
+  - Opponent criticism: Paxton campaign and Republican ads characterize this as amnesty
+  - 对手批评：帕克斯顿阵营与共和党广告将此定性为大赦
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+- **ICE accountability / ICE问责** - `B-POL-0026` - partially verified
+  - Position: Proposes banning ICE agents from wearing masks or refusing to identify themselves and holding agents accountable for unlawful conduct.
+  - 立场：提议禁止ICE人员佩戴口罩或拒绝表明身份，并追究违法人员的责任
+  - Statement: (paraphrase) Campaign priority: "Hold ICE accountable for abuses: Ban ICE agents from wearing masks or refusing to show identification, and hold them accountable when they break the law."
+  - 表述：（转述）竞选优先事项：「追究ICE滥用权力的责任：禁止ICE人员佩戴口罩或拒绝出示身份证明，并在其违法时追究责任。」
+  - Date and context: unknown - 2026 campaign issue page Immigration & Border Security priorities list; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「移民与边境安全」优先事项清单，访问于2026-11-10
+  - Opponent criticism: Paxton's office has publicly defended aggressive immigration enforcement and sued nonprofits assisting immigrants
+  - 对手批评：帕克斯顿的办公室曾公开为强硬的移民执法辩护，并起诉协助移民的非营利机构
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+- **Border personnel and cartels / 边境人员与卡特尔** - `B-POL-0027` - partially verified
+  - Position: Proposes hiring more Border Patrol agents and cracking down on cartels; campaign states the plan is endorsed by a Republican sheriff.
+  - 立场：提议增聘边境巡逻人员并打击卡特尔；竞选方称该方案获一位共和党警长背书
+  - Statement: (paraphrase) Campaign page states his plan "hires more Border Patrol agents, cracks down on the cartels" and is "endorsed by a Republican sheriff".
+  - 表述：（转述）竞选页称其方案「增聘边境巡逻人员、打击卡特尔」，并「获一位共和党警长背书」
+  - Date and context: unknown - 2026 campaign issue page Immigration & Border Security; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「移民与边境安全」，访问于2026-11-10
+  - Opponent criticism: Paxton campaign treats any enforcement nuance as weakness
+  - 对手批评：帕克斯顿阵营将任何执法上的细微区分视为软弱
+  - Forensic or fact-check note: The endorsing sheriff is named only on the campaign page and was not independently verified
+  - 事实核查／取证说明：背书警长仅见于竞选页且未具名，未经独立核实
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+- **Personal and regional identity / 个人与地域身份** - `B-POL-0028` - verified
+  - Position: Grounds his immigration stance in family history on the border.
+  - 立场：以边境家族史为其移民立场提供依据
+  - Statement: "I'm an eighth-generation Texan. My family has been here since it was Mexico. We have deep ties to the border - my mother grew up in Laredo."
+  - 表述：「我是第八代德州人。我的家族自这片土地还属墨西哥时就在此。我们与边境有深厚联系——我母亲在拉雷多长大。」
+  - Date and context: unknown - 2026 campaign issue page Immigration & Border Security; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「移民与边境安全」，访问于2026-11-10
+  - Legislative or legal record: No legislative vehicle
+  - 立法或法律记录：无立法载体
+  - Sources / 来源: [SRC-0090](https://jamestalarico.com/issue/immigration-border-security/)
+
+### Abortion / 堕胎
+
+- **Right to abortion / 堕胎权** - `B-POL-0029` - verified
+  - Position: Supports legal abortion and argues it is not a decision for politicians or the state.
+  - 立场：支持合法堕胎，并主张这不应由政客或州来决定
+  - Statement: "I don't believe it's a place for politicians... I don't believe it's a place for the state. And that's a belief I hold not despite my faith, but because of my faith."
+  - 表述：「我不认为这是政客该决定的事……我不认为这是该由州来决定的事。而这一信念并非无视我的信仰，恰恰是出于我的信仰。」
+  - Date and context: 2026-05-26 - Interview on the Jamie Kern Lima show, published 2026-05-25 and reported 2026-05-26
+  - 日期与语境：2026-05-26 - 杰米·科恩·利马（Jamie Kern Lima）节目访谈，2026-05-25发布、2026-05-26被报道
+  - Legislative or legal record: Voted against abortion-restriction bills in the Texas House per SRC-0098
+  - 立法或法律记录：据[SRC-0098]，在德克萨斯州众议院对堕胎限制法案投反对票
+  - Opponent criticism: Paxton campaign calls him an abortion extremist
+  - 对手批评：帕克斯顿阵营称其为「堕胎极端派」
+  - Forensic or fact-check note: Quotes are direct; the surrounding Fox framing is partisan
+  - 事实核查／取证说明：引语为直接引语；福克斯的框架带有党派色彩
+  - Sources / 来源: [SRC-0107](https://www.foxnews.com/media/texas-dem-nominee-james-talarico-invokes-faith-defend-abortion-rights-bible-silent-abortion.print)
+- **Scriptural reasoning / 经文论证** - `B-POL-0030` - verified
+  - Position: Argues the Bible does not address abortion directly and that Christians must reason from scripture as a whole.
+  - 立场：主张圣经并未直接谈及堕胎，基督徒必须从整体经文出发推理
+  - Statement: "Jesus never talks about abortion. The Bible is silent on abortion. And when that happens with a social issue as important as abortion, we Christians have to take scripture as a whole."
+  - 表述：「耶稣从未谈及堕胎。圣经对堕胎是沉默的。当面对堕胎这样重要的社会议题而经文沉默时，我们基督徒就必须把圣经作为一个整体来理解。」
+  - Date and context: 2026-05-26 - Jamie Kern Lima show interview reported 2026-05-26
+  - 日期与语境：2026-05-26 - 杰米·科恩·利马节目访谈，2026-05-26被报道
+  - Opponent criticism: Religious conservative critics call the claim theologically wrong; National Review covered the remark critically
+  - 对手批评：宗教保守派批评者称该说法在神学上错误；《国家评论》（National Review）对该表述作了批评性报道
+  - Forensic or fact-check note: No independent fact-check of the theological claim located
+  - 事实核查／取证说明：所获取来源中未见针对该神学主张的独立事实核查
+  - Sources / 来源: [SRC-0107](https://www.foxnews.com/media/texas-dem-nominee-james-talarico-invokes-faith-defend-abortion-rights-bible-silent-abortion.print)
+- **Texas ban exceptions / 德克萨斯禁令的例外** - `B-POL-0031` - verified
+  - Position: Calls the Texas abortion ban the most extreme in the country because it lacks rape and incest exceptions.
+  - 立场：称德克萨斯的堕胎禁令是全美最极端者，因其不含强奸与乱伦例外
+  - Statement: "Right now in Texas, we have the most extreme abortion ban in the country. No exception for rape. No exception for incest. We have girls as young as 10 years old who are assaulted, who are raped, who are victims of incest, and who can't access basic reproductive care."
+  - 表述：「如今在德克萨斯，我们有着全国最极端的堕胎禁令。强奸没有例外，乱伦没有例外。我们有年仅10岁的女孩遭到侵犯、遭到强奸、成为乱伦的受害者，却无法获得基本的生殖医疗。」
+  - Date and context: 2026-05-26 - Jamie Kern Lima show interview reported 2026-05-26
+  - 日期与语境：2026-05-26 - 杰米·科恩·利马节目访谈，2026-05-26被报道
+  - Legislative or legal record: No floor vote recorded on adding exceptions; Texas ban has no rape or incest exception
+  - 立法或法律记录：未记录就增加例外条款的议会表决；德克萨斯禁令确无强奸或乱伦例外
+  - Opponent criticism: Paxton's office actively enforced and defended the ban
+  - 对手批评：帕克斯顿的办公室积极执行并为该禁令辩护
+  - Forensic or fact-check note: The factual claim that the Texas ban lacks rape and incest exceptions is accurate as a description of the statute
+  - 事实核查／取证说明：「德州禁令无强奸与乱伦例外」这一事实描述与法条一致
+  - Sources / 来源: [SRC-0107](https://www.foxnews.com/media/texas-dem-nominee-james-talarico-invokes-faith-defend-abortion-rights-bible-silent-abortion.print)
+- **Constitutional amendment proposals / 宪法修正案提案** - `B-POL-0032` - partially verified
+  - Position: Proposed state constitutional amendments in 2022 and 2025 to bar the Legislature from further restricting abortion.
+  - 立场：于2022年与2025年提出州宪法修正案，禁止立法机关进一步限制堕胎
+  - Statement: (paraphrase) In 2022 he proposed an amendment preventing the Legislature from further restricting abortion access; in 2025 he proposed one prohibiting legislative restrictions on abortion and related care chosen with licensed physicians.
+  - 表述：（转述）他于2022年提出修正案，阻止立法机关进一步限制堕胎服务；2025年又提出禁止立法机关限制堕胎及患者与执业医师共同选择的相关医疗
+  - Date and context: 2025-01-01 - Reported by the Texas Tribune (2022-12-12) and catalogued in his Wikipedia record; month-level dating only
+  - 日期与语境：2025-01-01 - 《德克萨斯论坛报》2022-12-12报道及其维基百科记录；仅精确到月份
+  - Legislative or legal record: Two proposed constitutional amendments; neither was adopted
+  - 立法或法律记录：两项拟议宪法修正案；均未获通过
+  - Sources / 来源: [SRC-0098](https://en.wikipedia.org/wiki/James_Talarico)
+- **Salience in the race / 议题显著性** - `B-POL-0033` - verified
+  - Position: Neither candidate made abortion a centerpiece of the general election, despite sharply opposed records.
+  - 立场：尽管双方记录尖锐对立，两位候选人都未把堕胎作为普选核心议题
+  - Statement: (paraphrase) The 19th and Texas Tribune reported in July 2026 that abortion was not a focus for either candidate.
+  - 表述：（转述）《第十九》（The 19th）与《德克萨斯论坛报》于2026年7月报道称，堕胎并非两位候选人的重点
+  - Date and context: 2026-07-15 - Texas Tribune / The 19th analysis syndicated 2026-07-16
+  - 日期与语境：2026-07-15 - 《德克萨斯论坛报》／《第十九》分析，2026-07-16经转载
+  - Forensic or fact-check note: This is itself the fact-check style observation: the issue was not emphasized by either campaign
+  - 事实核查／取证说明：本条本身即为该类事实性观察：双方竞选均未强调该议题
+  - Sources / 来源: [SRC-0106](https://www.gilmermirror.com/2026/07/16/abortion-not-a-focus-in-texas-race-for-u-s-senate-as-neither-candidates-emphasizes-the-issue/)
+- **Catholic voter exchange / 与天主教选民的交流** - `B-POL-0034` - partially verified
+  - Position: Engaged a pro-life Catholic voter on abortion in a widely shared exchange that stressed civil disagreement.
+  - 立场：在一次广为传播的交流中，就堕胎议题与一位支持生命权的天主教选民对话，强调文明分歧
+  - Statement: (paraphrase) America Magazine described a viral exchange with Talarico over abortion as evidence that civil debate remains possible.
+  - 表述：（转述）《美国》（America Magazine）将一次与塔拉里科关于堕胎的病毒式传播交流，视为文明辩论仍可能的例证
+  - Date and context: 2026-10-23 - America Magazine column dated 2026-10-23
+  - 日期与语境：2026-10-23 - 《美国》杂志2026-10-23专栏
+  - Sources / 来源: [SRC-0098](https://en.wikipedia.org/wiki/James_Talarico)
+
+### Gun policy / 枪支政策
+
+- **Second Amendment and background checks / 第二修正案与背景审查** - `B-POL-0035` - verified
+  - Position: Supports the Second Amendment while backing universal background checks and restrictions for felons, domestic abusers and people at risk to themselves or others.
+  - 立场：支持第二修正案，同时支持普遍背景审查，并限制重罪犯、家庭暴力施暴者及有自伤或伤人风险者持枪
+  - Statement: (paraphrase) Campaign: he will "protect the Second Amendment while passing universal background checks" and keep firearms from "felons, domestic abusers, and anyone who's a threat to themselves or others".
+  - 表述：（转述）竞选方：他将「在通过普遍背景审查的同时保护第二修正案」，并使枪支远离「重罪犯、家庭暴力施暴者，以及任何对自己或他人构成威胁的人」
+  - Date and context: unknown - 2026 campaign issue page Public Safety & Justice; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「公共安全与司法」，访问于2026-11-10
+  - Legislative or legal record: No state gun bill credited to him
+  - 立法或法律记录：未记录其主导过州级枪支法案
+  - Opponent criticism: Texas Gun Rights framed the two records as maximally far apart; Paxton's record is litigation defending gun rights
+  - 对手批评：德克萨斯枪支权利组织（Texas Gun Rights）称两人记录差距最大；帕克斯顿的记录是以诉讼维护枪支权利
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0095](https://jamestalarico.com/issue/public-safety-justice/)
+- **Safe neighborhoods framing / 安全社区论述** - `B-POL-0036` - verified
+  - Position: Frames public safety as resources for law enforcement plus prevention funding for mental health, housing, addiction treatment and youth services.
+  - 立场：将公共安全框定为「为执法提供资源」加上「为心理健康、住房、成瘾治疗与青少年服务提供预防性资金」
+  - Statement: "We all deserve to live in a safe neighborhood. And as your Senator, your safety will always be my top priority."
+  - 表述：「我们都应当生活在安全的社区。作为你们的参议员，你们的安全将始终是我的首要任务。」
+  - Date and context: unknown - 2026 campaign issue page Public Safety & Justice; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「公共安全与司法」，访问于2026-11-10
+  - Sources / 来源: [SRC-0095](https://jamestalarico.com/issue/public-safety-justice/)
+- **Outreach to gun owners / 与拥枪者沟通** - `B-POL-0037` - verified
+  - Position: Publicly recounts meeting an NRA member constituent to find consensus on background checks.
+  - 立场：公开讲述与一位全国步枪协会（NRA）成员选民的会面，以在背景审查上寻求共识
+  - Statement: "Once we were actually listening to each other, we found real consensus - on background checks and other common-sense steps to keep guns out of the hands of felons, domestic abusers, and anyone who's a threat to themselves or others."
+  - 表述：「一旦我们真正开始倾听彼此，我们就找到了真正的共识——在背景审查以及其他常识性措施上，使枪支远离重罪犯、家庭暴力施暴者，以及任何对自己或他人构成威胁的人。」
+  - Date and context: 2019-09-18 - Story dated to a 2019 X thread and reproduced on the 2026 campaign Public Safety page
+  - 日期与语境：2019-09-18 - 该故事可追溯至2019年的一条X平台长帖，并转载于2026年竞选「公共安全」页面
+  - Legislative or legal record: No legislative vehicle
+  - 立法或法律记录：无立法载体
+  - Opponent criticism: Paxton campaign does not engage this framing
+  - 对手批评：帕克斯顿阵营未就此框架作出回应
+  - Sources / 来源: [SRC-0095](https://jamestalarico.com/issue/public-safety-justice/)
+- **Contrast with Paxton / 与帕克斯顿的对比** - `B-POL-0038` - partially verified
+  - Position: Talarico's gun record is legislative and rhetorical; Paxton's is litigation defending campus carry, open carry and preemption.
+  - 立场：塔拉里科的枪支记录属立法与修辞层面；帕克斯顿的记录是以诉讼维护校园携枪、公开携枪与州法优先
+  - Statement: (paraphrase) Texas Gun Rights published a comparison arguing the two candidates' gun records "could not be further apart" while the race was nearly tied.
+  - 表述：（转述）德克萨斯枪支权利组织发表对比文章，主张两位候选人的枪支记录「差距不能再大」，而当时选情胶着
+  - Date and context: unknown - Texas Gun Rights article; headline and lede only were retrievable
+  - 日期与语境：unknown - 德克萨斯枪支权利组织文章；仅能获取标题与导语
+  - Legislative or legal record: Talarico has no comparable gun litigation record
+  - 立法或法律记录：塔拉里科没有可比的枪支诉讼记录
+  - Forensic or fact-check note: Not a fact-check: advocacy outlet
+  - 事实核查／取证说明：并非事实核查，属倡议组织的文章
+  - Sources / 来源: [SRC-0098](https://en.wikipedia.org/wiki/James_Talarico)
+
+### Energy / 能源
+
+- **All-of-the-above strategy / 「全能源」战略** - `B-POL-0039` - verified
+  - Position: Supports an all-of-the-above energy strategy that protects oil and gas jobs while growing wind, solar, geothermal and hydrogen.
+  - 立场：支持「全能源」（all-of-the-above）战略，在保护油气就业的同时发展风能、太阳能、地热与氢能
+  - Statement: "We're the energy leader of the world - and as Senator, I will work tirelessly to ensure our state not only maintains, but extends that innovative leadership for generations to come so that Texans always have access to reliable, affordable energy."
+  - 表述：「我们是世界的能源领导者——作为参议员，我将不懈努力，确保本州不仅保持、而且把这种创新领导地位延续给后代，使德州人始终能获得可靠且可负担的能源。」
+  - Date and context: unknown - 2026 campaign issue page Energy & Environment; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「能源与环境」，访问于2026-11-10
+  - Legislative or legal record: Authored a Texas Climate Action Act proposal per the campaign's track-record list
+  - 立法或法律记录：据竞选方履历清单，曾撰写《德克萨斯气候行动法案》（Texas Climate Action Act）提案
+  - Opponent criticism: Paxton frames Talarico's climate positions as hostile to oil and gas
+  - 对手批评：帕克斯顿将塔拉里科的气候立场描述为敌视油气产业
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Grid reliability / 电网可靠性** - `B-POL-0040` - verified
+  - Position: Pledges federal resources to weatherize the Texas grid and points to his grid-audit legislation.
+  - 立场：承诺以联邦资源为德克萨斯电网做耐候改造，并援引其电网审计立法
+  - Statement: (paraphrase) Campaign track record: "Improved the reliability of the Texas power grid by requiring an annual independent audit of weaknesses in grid infrastructure."
+  - 表述：（转述）竞选履历：「通过要求对电网基础设施弱点进行年度独立审计，提升了德克萨斯电力系统的可靠性。」
+  - Date and context: unknown - 2026 campaign issue page Energy & Environment track-record list; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「能源与环境」履历清单，访问于2026-11-10
+  - Legislative or legal record: Annual independent grid audit legislation (state)
+  - 立法或法律记录：年度独立电网审计立法（州级）
+  - Opponent criticism: Paxton's record includes suing federal environmental regulators rather than grid-weatherization measures
+  - 对手批评：帕克斯顿的记录是起诉联邦环境监管机构，而非电网耐候措施
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Climate disasters and preparedness / 气候灾害与应急准备** - `B-POL-0041` - verified
+  - Position: Criticizes state unpreparedness for climate disasters and pledges disaster mitigation and LIHEAP expansion.
+  - 立场：批评州政府在气候灾害面前准备不足，并承诺灾害减缓与扩大低收入家庭能源援助（LIHEAP）
+  - Statement: "That kind of incompetence in the face of increasingly frequent climate disasters is completely unacceptable."
+  - 表述：「面对日益频繁的气候灾害，这种无能是完全不可接受的。」
+  - Date and context: unknown - 2026 campaign issue page Energy & Environment; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「能源与环境」，访问于2026-11-10
+  - Legislative or legal record: Appropriated funds for disaster relief and preparedness per campaign track record
+  - 立法或法律记录：据竞选履历，为灾害救援与备灾拨款
+  - Opponent criticism: Paxton's climate posture is adversarial to federal regulation
+  - 对手批评：帕克斯顿在气候议题上对联邦监管持对抗立场
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Fuel prices and war / 燃油价格与战争** - `B-POL-0042` - verified
+  - Position: Linked fuel prices to wars and called for a federal gas-tax suspension during the Iran war.
+  - 立场：将燃油价格与战争相联系，并在伊朗战争期间呼吁暂停联邦汽油税
+  - Statement: "Gas prices are surging because of this new war in Iran. I'm calling for a suspension of the federal gas tax - which would immediately drop the price of gas by 18 cents a gallon."
+  - 表述：「汽油价格因这场新的伊朗战争而飙升。我呼吁暂停联邦汽油税——这将立即使每加仑油价下降18美分。」
+  - Date and context: 2026-04-30 - X post 2026-04-30 reproduced on campaign Energy page
+  - 日期与语境：2026-04-30 - 2026-04-30的X平台帖文，转载于竞选能源议题页
+  - Legislative or legal record: Federal proposal only
+  - 立法或法律记录：仅为联邦提案
+  - Opponent criticism: Paxton supported the Iran strikes; leaked-audio reporting has Paxton blaming the war and fuel prices for his own campaign troubles
+  - 对手批评：帕克斯顿支持对伊朗的打击；泄露音频报道显示帕克斯顿将战争与燃油价格视为其竞选的拖累
+  - Forensic or fact-check note: The 18-cent figure matches the federal gasoline excise tax rate
+  - 事实核查／取证说明：18美分与联邦汽油消费税税率一致
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Data centers and grid costs / 数据中心与电网成本** - `B-POL-0043` - verified
+  - Position: Argues large energy users such as AI data centers should pay for the infrastructure they require instead of passing costs to consumers.
+  - 立场：主张人工智能数据中心等大型用电主体应为其所需基础设施付费，而非把成本转嫁给消费者
+  - Statement: (paraphrase) Campaign priority: "Require large energy users like AI data centers to cover the cost of the energy infrastructure updates they need so those costs aren't passed onto consumers."
+  - 表述：（转述）竞选优先事项：「要求人工智能数据中心等大型用电主体承担其所需要的基础设施升级成本，使这些成本不被转嫁给消费者。」
+  - Date and context: unknown - 2026 campaign issue page Energy & Environment priorities; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「能源与环境」优先事项，访问于2026-11-10
+  - Legislative or legal record: No state data-center cost-allocation bill credited to him
+  - 立法或法律记录：未记录其主导过州级数据中心成本分摊法案
+  - Opponent criticism: Paxton declined to issue an attorney general opinion on whether counties can pause data-center development, and his political operation received data-center donations
+  - 对手批评：帕克斯顿未就「县可否暂停数据中心开发」出具总检察长意见，且其政治运作曾获数据中心相关捐款
+  - Forensic or fact-check note: Not a fact-check
+  - 事实核查／取证说明：并非事实核查
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Price gouging and consumer relief / 价格欺诈与消费者救济** - `B-POL-0044` - partially verified
+  - Position: Proposes cracking down on energy price gouging during disasters and expanding LIHEAP eligibility and funding.
+  - 立场：提议在灾害期间打击能源价格欺诈，并扩大低收入家庭能源援助的资格与资金
+  - Statement: (paraphrase) Campaign priorities include expanding LIHEAP, modernizing its disbursement formula for hot-weather states and cracking down on price gouging during emergencies.
+  - 表述：（转述）竞选优先事项包括扩大LIHEAP、为炎热气候州更新其发放公式，以及打击紧急状态期间的价格欺诈
+  - Date and context: unknown - 2026 campaign issue page Energy & Environment priorities; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「能源与环境」优先事项，访问于2026-11-10
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Oil-and-gas jobs as a Texas asset / 油气就业作为德州资产** - `B-POL-0045` - verified
+  - Position: Asserts that environmental ambition and Texas energy jobs are compatible.
+  - 立场：主张环境目标与德克萨斯能源就业并不冲突
+  - Statement: "If any state can figure out how to grow our economy, lower costs, and combat climate change, it's Texas."
+  - 表述：「如果说有哪个州能想出如何实现经济增长、降低成本并应对气候变化，那就是德克萨斯。」
+  - Date and context: unknown - 2026 campaign issue page Energy & Environment; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「能源与环境」，访问于2026-11-10
+  - Opponent criticism: Paxton campaign presents him as a climate activist hostile to fossil fuels
+  - 对手批评：帕克斯顿阵营将其呈现为敌视化石燃料的气候活动人士
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+
+### Religion / 宗教
+
+- **Faith as motivation / 信仰作为动力** - `B-POL-0046` - verified
+  - Position: Presents his Presbyterian faith as the reason for his public service and for skepticism of concentrated wealth.
+  - 立场：将长老会信仰表述为其从事公共服务的原因，以及对财富集中持怀疑态度的根源
+  - Statement: "My faith is central in my life. It's why I'm in public service, and I want to tell the people that I seek to represent why I'm doing this. In our tradition, there is a deep suspicion of concentrated wealth and power. Jesus had his most searing critiques directed toward the powerful and the wealthy."
+  - 表述：「我的信仰是我生活的核心。这正是我从政的原因，我想告诉我希望代表的人们我为什么这样做。在我们的传统中，对财富与权力的集中有着深切的怀疑。耶稣最尖锐的批评正是针对有权者与富人。」
+  - Date and context: 2026-02-27 - TIME profile reporting from Lubbock and Midland, February 2026
+  - 日期与语境：2026-02-27 - TIME于2026年2月在拉伯克（Lubbock）与米德兰（Midland）的人物报道
+  - Legislative or legal record: Seminarian on academic leave; active at St. Andrew's Presbyterian Church in Austin per SRC-0098
+  - 立法或法律记录：休学中的神学生；据[SRC-0098]为奥斯汀圣安德鲁长老会教堂（St. Andrew's Presbyterian Church）的活跃成员
+  - Opponent criticism: Paxton campaign attacks his theology and masculinity rather than the faith framing itself
+  - 对手批评：帕克斯顿阵营攻击其神学与男性气质，而非信仰框架本身
+  - Forensic or fact-check note: Quotes verified verbatim against the retrieved text
+  - 事实核查／取证说明：引语已与获取文本逐字核对
+  - Sources / 来源: [SRC-0052](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/)
+- **Separation of church and state and religious pluralism / 政教分离与宗教多元** - `B-POL-0047` - verified
+  - Position: Rejects the idea that America is a Christian nation and defends a pluralist reading of religious freedom.
+  - 立场：否认美国是基督教国家，并为宗教自由的多元解读辩护
+  - Statement: "America is not a Christian nation. It is a nation where you are free to be a Christian or a Buddhist or a Hindu or a Jew or a Muslim or a Sikh or an agnostic or an atheist."
+  - 表述：「美国不是一个基督教国家。它是一个你可以自由选择做基督徒、佛教徒、印度教徒、犹太人、穆斯林、锡克教徒、不可知论者或无神论者的国家。」
+  - Date and context: 2026-02-27 - TIME profile, sermon at Covenant Presbyterian in Lubbock
+  - 日期与语境：2026-02-27 - TIME人物报道，拉伯克「盟约长老会教堂」（Covenant Presbyterian）讲道
+  - Legislative or legal record: Led House opposition to Ten Commandments displays per TIME
+  - 立法或法律记录：据TIME报道，领导众议院反对《十诫》展示
+  - Opponent criticism: Paxton has publicly urged students to recite the Lord's Prayer in classrooms
+  - 对手批评：帕克斯顿曾公开鼓励学生在教室诵读主祷文
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0052](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/)
+- **Christian nationalism / 基督教民族主义** - `B-POL-0048` - partially verified
+  - Position: Calls Christian nationalism a corruption of the faith.
+  - 立场：称基督教民族主义是对信仰的腐蚀
+  - Statement: "There's nothing Christian about Christian nationalism." (reported 2025-09-05); in a 2023 sermon he called it "the worship of power - social power, economic power, political power, in the name of Christ"
+  - 表述：「基督教民族主义没有任何基督教成分。」（据2025-09-05报道）；在2023年的一次讲道中他称之为「对权力的崇拜——社会权力、经济权力、政治权力，以基督之名」
+  - Date and context: 2023-10-22 - 2023 guest sermon; 2025 Texas Tribune report; both catalogued in his Wikipedia record
+  - 日期与语境：2023-10-22 - 2023年受邀讲道；2025年《德克萨斯论坛报》报道；两者均见于其维基百科记录
+  - Legislative or legal record: No legislative vehicle
+  - 立法或法律记录：无立法载体
+  - Opponent criticism: Paxton's public rhetoric on religion in schools is the practical counter-position
+  - 对手批评：帕克斯顿关于校园宗教的公开修辞构成实际对位立场
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0098](https://en.wikipedia.org/wiki/James_Talarico)
+- **Remarks on God and gender / 关于上帝与性别的言论** - `B-POL-0049` - verified
+  - Position: Said on the Texas House floor in 2021 that God is non-binary and that sex is a spectrum; the remarks became a central line of attack in 2026.
+  - 立场：2021年在德克萨斯州众议院议事厅表示上帝是非二元的、性别是一个谱系；这些言论在2026年成为核心攻击点
+  - Statement: "God is both masculine and feminine and everything in between. God is non-binary. Trans children are God's children, made in God's own image."
+  - 表述：「上帝既是阳性的也是阴性的，并包含两者之间的一切。上帝是非二元的。跨性别儿童是上帝的孩子，是按上帝的形象所造。」
+  - Date and context: 2021-05-01 - 2021 Texas House floor remarks during debate on a transgender student-athlete bill; recirculated and quoted in 2026
+  - 日期与语境：2021-05-01 - 2021年德克萨斯州众议院关于跨性别学生运动员法案辩论中的议事厅发言；2026年被重新传播并引用
+  - Legislative or legal record: Voted against the 2021 transgender student-athlete bill and against gender-affirming care restrictions per SRC-0098
+  - 立法或法律记录：据[SRC-0098]，对2021年跨性别学生运动员法案及性别肯定医疗限制投反对票
+  - Opponent criticism: Paxton repeatedly attacked the remarks and questioned his masculinity in 2026; the campaign responded rather than retracting
+  - 对手批评：帕克斯顿在2026年反复攻击这些言论并质疑其男性气质；其竞选方作出回应而非撤回
+  - Forensic or fact-check note: TIME reported the remark as a known line of attack; Talarico has not disavowed it
+  - 事实核查／取证说明：据TIME报道，该言论是已知的攻击点；塔拉里科未否认该言论
+  - Sources / 来源: [SRC-0107](https://www.foxnews.com/media/texas-dem-nominee-james-talarico-invokes-faith-defend-abortion-rights-bible-silent-abortion.print)
+- **Ten Commandments and public schools / 《十诫》与公立学校** - `B-POL-0050` - verified
+  - Position: Calls mandated Ten Commandments displays an un-Christian and un-American use of state power.
+  - 立场：称强制张贴《十诫》是反基督教、反美国地动用国家权力
+  - Statement: "Un-Christian decision" and "un-American" per reporting; he said he did not want "the government forcing a religion down my throat."
+  - 表述：据报道称其为「反基督教的（un-Christian）决定」与「反美国的（un-American）」；他表示不希望「政府把某种宗教强加于我」
+  - Date and context: unknown - 2023 House debate and 2025 floor action; FOX 7 2026 comparison
+  - 日期与语境：unknown - 2023年众议院辩论与2025年议事行动；FOX 7于2026年的对比报道
+  - Legislative or legal record: Led House opposition; the 2023 bill died in the House per SRC-0098
+  - 立法或法律记录：据[SRC-0098]，领导众议院反对；2023年该法案在众议院未能通过
+  - Opponent criticism: Paxton enforces and defends religious displays
+  - 对手批评：帕克斯顿执行并为宗教展示辩护
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0101](https://www.fox7austin.com/news/talarico-vs-paxton-education)
+- **Love of neighbor and opponents / 爱邻人与对手** - `B-POL-0051` - verified
+  - Position: Frames politics as neighbor-love and explicitly includes political opponents.
+  - 立场：将政治框定为「爱邻人」，并明确把政治对手纳入其中
+  - Statement: "Politics is just another word for how we treat our neighbors." (also paraphrased on the campaign site: he describes his political opponents as children of God)
+  - 表述：「政治不过是『我们如何对待邻人』的另一种说法。」（竞选网站另有一处转述：他把政治对手描述为上帝的孩子）
+  - Date and context: 2026-02-27 - TIME profile rally reporting; second quote from a 2025-09-11 post
+  - 日期与语境：2026-02-27 - TIME人物报道中的集会记录；后半句转述自2025-09-11帖文
+  - Legislative or legal record: No legislative vehicle
+  - 立法或法律记录：无立法载体
+  - Opponent criticism: Paxton campaign argues the tone is a mask for progressive policy
+  - 对手批评：帕克斯顿阵营主张这种基调是进步主义政策的伪装
+  - Sources / 来源: [SRC-0052](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/)
+
+### Labor / 劳工
+
+- **Minimum wage and overtime / 最低工资与加班费** - `B-POL-0052` - verified
+  - Position: Pledges a $15 minimum wage, expanded overtime and paid family leave, arguing workers and small businesses are not in conflict.
+  - 立场：承诺将最低工资提高至15美元、扩大加班资格并推动带薪家庭假，主张劳动者与小企业并不对立
+  - Statement: "We don't have to choose between supporting workers and supporting businesses."
+  - 表述：「我们不必在支持劳动者与支持企业之间做选择。」
+  - Date and context: unknown - 2026 campaign issue page Labor & Business; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「劳工与企业」，访问于2026-11-10
+  - Legislative or legal record: Federal pledges; no state minimum wage bill credited to him
+  - 立法或法律记录：联邦承诺；未记录其主导过州级最低工资法案
+  - Opponent criticism: Paxton's labor record is litigation against federal overtime expansion and the persuader rule
+  - 对手批评：帕克斯顿的劳工记录是就联邦加班扩展与「劝说规则」提起诉讼
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+- **Paid family leave / 带薪家庭假** - `B-POL-0053` - verified
+  - Position: Filed paid family leave legislation in Texas, citing his mother's firing after a premature birth.
+  - 立场：在德克萨斯州提交带薪家庭假立法，并以母亲早产后被解雇的经历为据
+  - Statement: "I was born to a single mom who worked long hours at a hotel. Just days after giving birth to me, the hotel forced her to go back to work. Today she joined me as I filed legislation to enact paid family leave for all Texans."
+  - 表述：「我出生时，母亲是一位在旅馆长时间工作的单身母亲。就在生下我几天后，旅馆强迫她回去上班。今天她与我一同出席，见证我提交为所有德州人建立带薪家庭假的立法。」
+  - Date and context: 2023-02-14 - X post 2023-02-14 reproduced on campaign Labor & Business page
+  - 日期与语境：2023-02-14 - 2023-02-14的X平台帖文，转载于竞选「劳工与企业」页面
+  - Legislative or legal record: Filed paid family leave legislation in the 2023 session; not enacted
+  - 立法或法律记录：2023年会期提交带薪家庭假立法；未成法
+  - Opponent criticism: Texas Republican leadership has not advanced paid leave; Paxton emphasizes tax credits instead
+  - 对手批评：德克萨斯共和党领导层未推进带薪家庭假；帕克斯顿强调税收抵免
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+- **Unionization / 组织工会** - `B-POL-0054` - verified
+  - Position: Backs the freedom to unionize and appears at labor actions.
+  - 立场：支持组织工会的自由，并出席劳工行动
+  - Statement: "I joined the picket line with striking hotel workers in Houston. If you put in the hours, you shouldn't be scraping by."
+  - 表述：「我加入了休斯敦罢工旅馆工人的警戒线。如果你付出了那些工时，你就不该勉强糊口。」
+  - Date and context: 2025-09-16 - X post 2025-09-16 reproduced on campaign Labor & Business page
+  - 日期与语境：2025-09-16 - 2025-09-16的X平台帖文，转载于竞选「劳工与企业」页面
+  - Legislative or legal record: Campaign claims a 100 percent pro-labor voting record
+  - 立法或法律记录：竞选方称其「100%支持劳工」的投票记录
+  - Opponent criticism: Paxton sued to block the DOL persuader rule, which unions supported
+  - 对手批评：帕克斯顿曾起诉以阻止劳工部「劝说规则」，而工会支持该规则
+  - Forensic or fact-check note: The 100 percent rating is a campaign claim and was not independently verified
+  - 事实核查／取证说明：「100%」这一评级为竞选方主张，未获独立核实
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+- **Small business / 小企业** - `B-POL-0055` - verified
+  - Position: Presents small business support as part of the same agenda as worker support, including childcare property-tax relief.
+  - 立场：把支持小企业表述为与支持劳动者同一议程的一部分，包括托育财产税减免
+  - Statement: (paraphrase) Campaign states he will "give small businesses a fair shot against giant corporations" and cites childcare tax relief as a small-business measure.
+  - 表述：（转述）竞选方称他将「让小企业在与巨型企业的竞争中获得公平机会」，并以托育税收减免作为小企业措施
+  - Date and context: unknown - 2026 campaign issue page Labor & Business; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「劳工与企业」，访问于2026-11-10
+  - Legislative or legal record: SB 1145 childcare property-tax exemption
+  - 立法或法律记录：SB 1145托育机构财产税豁免
+  - Opponent criticism: Paxton campaign frames him as anti-business
+  - 对手批评：帕克斯顿阵营将其描绘为反企业
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+- **Workforce development role / 劳动力发展职务** - `B-POL-0056` - partially verified
+  - Position: Cites his House committee vice chairmanship over trade, workforce and economic development as evidence of a pro-worker record.
+  - 立场：援引其在众议院贸易、劳动力与经济发展委员会副主席的职务，作为支持劳工记录的证明
+  - Statement: (paraphrase) Campaign describes his "leadership as Vice Chair of the Committee on Trade, Workforce, and Economic Development in the Texas House".
+  - 表述：（转述）竞选方描述其「在德克萨斯州众议院贸易、劳动力与经济发展委员会担任副主席的领导工作」
+  - Date and context: unknown - 2026 campaign issue page Labor & Business; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「劳工与企业」，访问于2026-11-10
+  - Legislative or legal record: Committee leadership role in the Texas House
+  - 立法或法律记录：德克萨斯州众议院委员会领导职务
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+- **Child care as labor infrastructure / 托育作为劳工基础设施** - `B-POL-0057` - verified
+  - Position: Treats affordable child care as a precondition for parents staying in the workforce.
+  - 立场：把可负担的托育视为父母得以留在劳动力市场的前提
+  - Statement: "Childcare is now more expensive than college."
+  - 表述：「如今托育费用比大学学费还贵。」
+  - Date and context: 2026-07-28 - X post 2026-07-28 reproduced on campaign Labor & Business page
+  - 日期与语境：2026-07-28 - 2026-07-28的X平台帖文，转载于竞选「劳工与企业」页面
+  - Legislative or legal record: Childcare cost and property-tax legislation per official biography
+  - 立法或法律记录：据官方简历，为托育成本与财产税立法
+  - Opponent criticism: Paxton proposes a doubled child tax credit
+  - 对手批评：帕克斯顿提出子女税收抵免翻倍
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0091](https://jamestalarico.com/issue/labor-business/)
+
+### Democracy / 民主
+
+- **Campaign finance and anti-corruption package / 竞选财务与反腐一揽子方案** - `B-POL-0058` - verified
+  - Position: Pledges that his first Senate legislation will be an anti-corruption package banning super PACs and corporate PACs, banning congressional stock trading and closing billionaire loopholes.
+  - 立场：承诺其首项参议院立法将是反腐一揽子方案：禁止超级政治行动委员会与企业政治行动委员会、禁止国会议员炒股、堵住亿万富翁税收漏洞
+  - Statement: "That's why I've never taken a dime of corporate PAC money. It's why I broke quorum twice with my colleagues in the Texas House to fight back against rigged redistricting maps and defend the freedom to vote. And it's why the first set of legislation I will pursue in the U.S. Senate will be an anti-corruption package."
+  - 表述：「这就是为什么我从未拿过一分企业政治行动委员会的钱。这就是为什么我在德克萨斯州众议院两次离席以破坏法定人数，反击被操纵的重划选区地图、捍卫投票自由。这也是为什么我在美国参议院要推动的第一组立法，将是一份反腐一揽子方案。」
+  - Date and context: unknown - 2026 campaign issue page Corruption & Democracy; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「腐败与民主」，访问于2026-11-10
+  - Legislative or legal record: Claims no corporate PAC money since his first race in 2017; participated in two quorum breaks
+  - 立法或法律记录：自称自2017年首次竞选以来未接受企业政治行动委员会资金；参与两次缺席破坏法定人数
+  - Opponent criticism: Paxton's political operation was buoyed by a super PAC funded largely by Elon Musk; Talarico's side attacked that dependency
+  - 对手批评：帕克斯顿的政治运作得到主要由埃隆·马斯克（Elon Musk）出资的超级政治行动委员会支撑；塔拉里科一方攻击这种依赖关系
+  - Forensic or fact-check note: The "never taken a dime of corporate PAC money" claim is self-reported and was not independently audited here
+  - 事实核查／取证说明：「从未拿过一分企业政治行动委员会的钱」为自述，本文未作独立审计
+  - Sources / 来源: [SRC-0085](https://jamestalarico.com/issue/corruption-democracy/)
+- **Gerrymandering and redistricting / 杰利蝾螈与重划选区** - `B-POL-0059` - verified
+  - Position: Opposes partisan gerrymandering and participated in quorum breaks against Texas redistricting maps; recounts a Fox News interview he says was cut short.
+  - 立场：反对党派性杰利蝾螈，并参与针对德克萨斯重划选区地图的缺席行动；讲述一次他称被缩短的福克斯新闻采访
+  - Statement: "If Republican policies are so popular, why do they need to redraw these maps; why not run on their policies?"
+  - 表述：「如果共和党的政策如此受欢迎，为什么他们还需要重划这些地图？为什么不直接拿政策来竞选？」
+  - Date and context: unknown - 2026 campaign issue page Corruption & Democracy, post quoted on the page
+  - 日期与语境：unknown - 2026年竞选议题页「腐败与民主」页面上引用的帖文
+  - Legislative or legal record: Left the state with colleagues in quorum breaks during 2021 and 2025 redistricting fights per SRC-0098 and campaign claim
+  - 立法或法律记录：据[SRC-0098]及竞选方说法，在2021年与2025年重划选区之争中与同僚离州破坏法定人数
+  - Opponent criticism: Paxton's office sued Beto O'Rourke over fundraising for the 2025 walkout and defended the maps
+  - 对手批评：帕克斯顿的办公室就2025年离席行动的募款起诉贝托·奥罗克（Beto O'Rourke），并为该地图辩护
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0085](https://jamestalarico.com/issue/corruption-democracy/)
+- **Voting access / 投票可及性** - `B-POL-0060` - verified
+  - Position: Argues Texas makes voting deliberately hard and that restrictions are aimed at reducing turnout.
+  - 立场：主张德克萨斯刻意让投票变得困难，并称这些限制旨在压低投票率
+  - Statement: "They wouldn't be trying so hard to stop you from voting if your vote didn't matter. Texas is one of the hardest places to vote in the entire country. That is by design."
+  - 表述：「如果你的选票无关紧要，他们就不会如此费力地阻止你投票。德克萨斯是全美最难投票的地方之一。这是有意为之。」
+  - Date and context: 2025-12-14 - Post 2025-12-14 reproduced on campaign Corruption & Democracy page
+  - 日期与语境：2025-12-14 - 2025-12-14的帖文，转载于竞选「腐败与民主」页面
+  - Opponent criticism: Paxton's record is the opposite: a self-described crusade of voter-fraud prosecutions and defense of voter ID
+  - 对手批评：帕克斯顿的记录正好相反：他自称发起选民欺诈追诉行动并捍卫选民身份法
+  - Forensic or fact-check note: The "hardest places to vote" ranking is a campaign characterization without a cited index
+  - 事实核查／取证说明：「最难投票的地方」为竞选方的定性表述，未引用任何排名指数
+  - Sources / 来源: [SRC-0085](https://jamestalarico.com/issue/corruption-democracy/)
+- **Congressional stock trading / 国会议员炒股** - `B-POL-0061` - verified
+  - Position: Supports banning stock trading by members of Congress.
+  - 立场：支持禁止国会议员进行股票交易
+  - Statement: (paraphrase) Campaign anti-corruption agenda includes "bans stock trading by members of Congress".
+  - 表述：（转述）竞选反腐议程包括「禁止国会议员炒股」
+  - Date and context: unknown - 2026 campaign issue page Corruption & Democracy; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「腐败与民主」，访问于2026-11-10
+  - Opponent criticism: Talarico's campaign attacked Paxton for becoming a multi-millionaire in office and for reported asset disclosures
+  - 对手批评：塔拉里科阵营攻击帕克斯顿在任内成为千万富翁，以及被报道的资产披露情况
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0085](https://jamestalarico.com/issue/corruption-democracy/)
+- **Transparency and the Epstein files / 透明与爱泼斯坦档案** - `B-POL-0062` - verified
+  - Position: References the Epstein files as an example of officials covering up each other's conduct.
+  - 立场：以爱泼斯坦档案为例，指官员互相掩盖彼此的行为
+  - Statement: (paraphrase) Campaign page: officials "cover up each other's crimes just like they've done with the Epstein files".
+  - 表述：（转述）竞选页称官员「互相掩盖彼此的罪行，就像他们在爱泼斯坦档案中所做的那样」
+  - Date and context: unknown - 2026 campaign issue page Corruption & Democracy; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「腐败与民主」，访问于2026-11-10
+  - Sources / 来源: [SRC-0085](https://jamestalarico.com/issue/corruption-democracy/)
+- **Cross-party appeal and political reform / 跨党派吸引力与政治改革** - `B-POL-0063` - verified
+  - Position: Argues the problem is systemic rather than personal and explicitly invites Trump voters into the coalition.
+  - 立场：主张问题在制度而非个人，并明确邀请特朗普选民加入其联盟
+  - Statement: "You know why our politics sucks right now? It's not any one politician. It is the system itself." and "If you voted for Donald Trump, but you are fed up with the extremism and the corruption in our government, you also have a place in this campaign."
+  - 表述：「你知道为什么我们的政治现在这么糟糕吗？问题不在某一位政治人物身上。问题在制度本身。」以及「如果你投票给了唐纳德·特朗普，但你对政府中的极端主义与腐败感到厌倦，这场竞选里也有你的位置。」
+  - Date and context: 2026-02-27 - TIME profile rally reporting in Lubbock, February 2026
+  - 日期与语境：2026-02-27 - TIME于2026年2月在拉伯克的集会报道
+  - Opponent criticism: Paxton campaign focused instead on culture-war and gender attacks
+  - 对手批评：帕克斯顿阵营转而聚焦文化战争与性别议题攻击
+  - Forensic or fact-check note: Exit polling reported about one in nine 2024 Trump voters backed Talarico (SRC-0100)
+  - 事实核查／取证说明：据出口民调（[SRC-0100]），约九分之一的2024年特朗普选民支持塔拉里科
+  - Sources / 来源: [SRC-0052](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/)
+
+### Foreign policy / 外交政策
+
+- **Iran war / 伊朗战争** - `B-POL-0064` - verified
+  - Position: Opposes the 2026 Iran war as another forever war and demands Congress reassert its war powers while keeping Iran from obtaining a nuclear weapon.
+  - 立场：反对2026年伊朗战争，视其为又一场「永久战争」，要求国会收回战争权，同时主张不让伊朗获得核武器
+  - Statement: "As a millennial, I saw how military disasters like the Iraq war robbed this nation of young lives, billions of dollars, and our moral standing." Campaign priority: keep Iran from a nuclear weapon "without another forever war".
+  - 表述：「作为千禧一代，我目睹了伊拉克战争这样的军事灾难如何夺走这个国家的年轻生命、耗费数千亿美元并损害我们的道德地位。」竞选优先事项：在不陷入「又一场永久战争」的前提下阻止伊朗获得核武器
+  - Date and context: 2026-03-20 - Post 2026-03-20 reproduced on campaign Foreign Policy page
+  - 日期与语境：2026-03-20 - 2026-03-20的帖文，转载于竞选外交政策页面
+  - Legislative or legal record: No vote recorded; Senate candidate only
+  - 立法或法律记录：无表决记录；仅为参议员候选人
+  - Opponent criticism: Paxton supported the strikes: "I am very glad that he did it. Iran is a great threat to our country."
+  - 对手批评：帕克斯顿支持对伊打击：「I am very glad that he did it. Iran is a great threat to our country.」（译：「我很高兴他这么做了。伊朗是对我国的重大威胁。」）
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0093](https://jamestalarico.com/issue/foreign-policy/)
+- **Israel and Gaza / 以色列与加沙** - `B-POL-0065` - verified
+  - Position: Affirms Israel's right to defend itself after October 7 while opposing offensive weapons sales, civilian harm and settlements, and supporting a two-state solution.
+  - 立场：确认以色列在10月7日之后的自卫权，同时反对进攻性武器销售、平民伤亡与定居点，并支持两国方案
+  - Statement: "My north star will always be to protect innocent life. October 7th was the deadliest day for Jews since the Holocaust - and Israel has the right to defend its people. But Prime Minister Benjamin Netanyahu does not have the right to bomb civilians, restrict aid, or use forced famine and collective punishment as tactics."
+  - 表述：「我的北极星永远是保护无辜者的生命。10月7日是自大屠杀以来犹太人伤亡最惨重的一天——以色列有权保卫自己的人民。但总理本雅明·内塔尼亚胡（Benjamin Netanyahu）无权轰炸平民、限制援助，或把强制饥荒与集体惩罚当作手段。」
+  - Date and context: unknown - 2026 campaign issue page Foreign Policy; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「外交政策」，访问于2026-11-10
+  - Legislative or legal record: Federal proposals: stop offensive weapons sales, continue Iron Dome support
+  - 立法或法律记录：联邦提案：停止进攻性武器销售，继续支持「铁穹」（Iron Dome）
+  - Opponent criticism: Paxton's record is uncritical support, including defending Texas' anti-BDS law and investigating districts for anti-Israel rhetoric
+  - 对手批评：帕克斯顿的记录是无保留支持，包括为德州反BDS法辩护以及调查学区的反以色列言论
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0093](https://jamestalarico.com/issue/foreign-policy/)
+- **Ukraine and Russia / 乌克兰与俄罗斯** - `B-POL-0066` - verified
+  - Position: Supports enabling Ukraine and European partners to negotiate from strength and holding Russia accountable.
+  - 立场：支持让乌克兰及欧洲伙伴以强势地位谈判，并追究俄罗斯责任
+  - Statement: (paraphrase) Campaign priority: "Ensure Ukraine remains free and independent" by supporting measures that let the US, Ukraine and European partners negotiate from a position of strength.
+  - 表述：（转述）竞选优先事项：「确保乌克兰保持自由与独立」，通过支持使美国、乌克兰与欧洲伙伴能以强势地位谈判的措施
+  - Date and context: unknown - 2026 campaign issue page Foreign Policy priorities; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「外交政策」优先事项，访问于2026-11-10
+  - Opponent criticism: Paxton attacked Cornyn over Ukraine aid in the primary, aligning with the anti-aid faction
+  - 对手批评：帕克斯顿在初选中就乌克兰援助攻击科宁，与反援助阵营一致
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0093](https://jamestalarico.com/issue/foreign-policy/)
+- **Alliances and diplomacy / 同盟与外交** - `B-POL-0067` - verified
+  - Position: Opposes withdrawing from the world and supports NATO, the EU, a fully funded State Department and restoring USAID.
+  - 立场：反对把美国从世界中隔离，支持北约与欧盟、为国务院提供充足经费并恢复美国国际开发署（USAID）
+  - Statement: "I will reject efforts to shut America off from the rest of the world - because I know it makes us weaker and less secure."
+  - 表述：「我将拒绝把美国与世界隔离开来的努力——因为我知道那会让我们更弱、更不安全。」
+  - Date and context: unknown - 2026 campaign issue page Foreign Policy; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「外交政策」，访问于2026-11-10
+  - Opponent criticism: Paxton's foreign policy posture is aligned with the Trump administration
+  - 对手批评：帕克斯顿的外交立场与特朗普政府保持一致
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0093](https://jamestalarico.com/issue/foreign-policy/)
+- **Trade and tariffs / 贸易与关税** - `B-POL-0068` - verified
+  - Position: Opposes tariffs as a consumer cost and supports trade partnerships with worker protections.
+  - 立场：反对关税作为消费者成本，并支持附有劳工保护的贸易伙伴关系
+  - Statement: (paraphrase) Campaign priority: "Repeal unnecessary tariffs and support responsible trade" and reject actions that risk escalating trade wars.
+  - 表述：（转述）竞选优先事项：「废除不必要的关税并支持负责任的贸易」，并反对可能升级贸易战的做法
+  - Date and context: unknown - 2026 campaign issue page Foreign Policy priorities; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「外交政策」优先事项，访问于2026-11-10
+  - Sources / 来源: [SRC-0093](https://jamestalarico.com/issue/foreign-policy/)
+- **Venezuela and oil-driven war / 委内瑞拉与石油驱动的战争** - `B-POL-0069` - verified
+  - Position: Opposes military action in Venezuela, framing it as serving oil executives.
+  - 立场：反对在委内瑞拉的军事行动，将其定性为服务于石油高管
+  - Statement: "This new war in Venezuela is deeply corrupt. I will never vote to send someone's son or daughter to war to make oil executives richer."
+  - 表述：「这场新的委内瑞拉战争极度腐败。我绝不会投票把谁家的儿女送去参战，只为让石油高管更富有。」
+  - Date and context: 2026-01-05 - X post 2026-01-05 reproduced on campaign Energy page
+  - 日期与语境：2026-01-05 - 2026-01-05的X平台帖文，转载于竞选能源议题页
+  - Legislative or legal record: No vote recorded; Senate candidate only
+  - 立法或法律记录：无表决记录；仅为参议员候选人
+  - Opponent criticism: Paxton supported the administration's Iran strikes and did not distance himself from the Venezuela action in retrieved sources
+  - 对手批评：帕克斯顿支持政府对伊朗的打击，且在所获取来源中未与该委内瑞拉行动保持距离
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0092](https://jamestalarico.com/issue/energy-environment/)
+- **Veterans and the VA / 退伍军人与退伍军人事务部** - `B-POL-0070` - verified
+  - Position: Opposes VA privatization and proposes mandatory VA funding, automatic enrollment, pay parity and full PACT Act implementation.
+  - 立场：反对退伍军人事务部（VA）私有化，并提出VA经费法定化、自动登记、薪酬对等与全面落实PACT法案
+  - Statement: "Each year, millions of brave men and women protect our country, defend democracy abroad, and fight for our freedoms - yet when they come home, their country isn't fighting for them."
+  - 表述：「每年有数百万勇敢的男女保卫我们的国家、在海外捍卫民主并为我们的自由而战——然而当他们回到家乡，他们的国家却没有为他们而战。」
+  - Date and context: unknown - 2026 campaign issue page Veterans; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「退伍军人」，访问于2026-11-10
+  - Legislative or legal record: State record: highway naming for a fallen officer, PTSD workers' compensation coverage, veteran survivor property-tax exemption
+  - 立法或法律记录：州级记录：以殉职警官命名公路、将创伤后应激障碍（PTSD）纳入工伤补偿、退伍军人遗属财产税豁免
+  - Opponent criticism: No paxton position on VA privatization located in retrieved sources
+  - 对手批评：所获取来源中未见帕克斯顿关于VA私有化的立场
+  - Sources / 来源: [SRC-0097](https://jamestalarico.com/issue/veterans/)
+
+### Other / 其他
+
+- **Cannabis and the THC ban / 大麻与THC禁令** - `B-POL-0071` - partially verified
+  - Position: Opposes the Texas THC ban and frames it as a personal-freedom issue.
+  - 立场：反对德克萨斯的THC禁令，并把它作为个人自由议题
+  - Statement: (paraphrase) Campaign issue page lists opposition to "the Texas THC ban" among the freedoms he defends.
+  - 表述：（转述）竞选议题页将他所捍卫的自由包括「反对德克萨斯的THC禁令」
+  - Date and context: unknown - 2026 campaign issue page Freedom Family & Faith; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「自由、家庭与信仰」，访问于2026-11-10
+  - Opponent criticism: Paxton's cannabis posture is not clearly documented in retrieved sources
+  - 对手批评：帕克斯顿在大麻议题上的立场在已获取来源中不明确
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0089](https://jamestalarico.com/issue/freedom-family-faith/)
+- **Social media and AI / 社交媒体与人工智能** - `B-POL-0072` - verified
+  - Position: Supports holding platforms accountable and giving parents control over children's social media without limiting free speech, plus clear AI rules.
+  - 立场：支持在不妨碍言论自由的前提下追究平台责任、给家长对儿童社交媒体的控制权，并制定清晰一致的AI规则
+  - Statement: "Predatory algorithms elevate the most extreme voices on all sides to provoke our outrage, to get more clicks, to make more money."
+  - 表述：「掠夺性算法把各方的极端声音抬升，以挑起我们的愤怒、获取更多点击、赚更多钱。」
+  - Date and context: unknown - 2026 campaign issue page Social Media AI & Tech; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「社交媒体、人工智能与科技」，访问于2026-11-10
+  - Legislative or legal record: Not a state legislator's subject; federal proposals only
+  - 立法或法律记录：非州议员的议题领域；仅为联邦提案
+  - Opponent criticism: Paxton's operation is closely tied to Elon Musk's funding; Talarico's platform critique names Musk, Zuckerberg and Bezos
+  - 对手批评：帕克斯顿的运作与埃隆·马斯克的资金密切相关；塔拉里科的平台批评点名了马斯克、扎克伯格（Zuckerberg）与贝索斯（Bezos）
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0094](https://jamestalarico.com/issue/social-media-artificial-intelligence-tech/)
+- **AI and elections / 人工智能与选举** - `B-POL-0073` - verified
+  - Position: Cites AI and platforms as drivers of division and proposes transparency and accountability measures.
+  - 立场：把AI与平台视为社会分裂的驱动因素，并提出透明与问责措施
+  - Statement: "We can defend free speech while holding powerful corporations accountable."
+  - 表述：「我们可以在捍卫言论自由的同时，追究强大企业的责任。」
+  - Date and context: unknown - 2026 campaign issue page Social Media AI & Tech; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「社交媒体、人工智能与科技」，访问于2026-11-10
+  - Sources / 来源: [SRC-0094](https://jamestalarico.com/issue/social-media-artificial-intelligence-tech/)
+- **Public safety and police accountability / 公共安全与警务问责** - `B-POL-0074` - verified
+  - Position: Championed Javier Ambler's Law banning reality-TV policing contracts and passed fentanyl/Narcan legislation.
+  - 立场：推动《哈维尔·安布勒法》禁止「真人秀执法」，并推动芬太尼／纳洛酮立法
+  - Statement: "I worked with Javier's family to pass Javier Ambler's Law, which bans reality TV policing in the state of Texas."
+  - 表述：「我与哈维尔的家人一起推动通过了《哈维尔·安布勒法》，禁止德克萨斯州内的真人秀执法。」
+  - Date and context: 2025-12-14 - Post 2025-12-14 reproduced on campaign Public Safety page
+  - 日期与语境：2025-12-14 - 2025-12-14的帖文，转载于竞选「公共安全」页面
+  - Legislative or legal record: HB 54 Javier Ambler's Law passed in the 87th Legislature per SRC-0098; Narcan on school campuses; fentanyl overdose legislation per official biography
+  - 立法或法律记录：据[SRC-0098]，HB 54《哈维尔·安布勒法》在第87届议会通过；纳洛酮进校园；据官方简历，另有芬太尼过量立法
+  - Opponent criticism: Paxton's office is the state's top law enforcement lawyer and has opposed some police-accountability measures
+  - 对手批评：帕克斯顿的办公室是该州最高执法法律官员，并对部分警务问责措施持反对态度
+  - Forensic or fact-check note: No fact-check located
+  - 事实核查／取证说明：所获取来源中未见事实核查
+  - Sources / 来源: [SRC-0095](https://jamestalarico.com/issue/public-safety-justice/)
+- **Criminal justice and juveniles / 刑事司法与青少年** - `B-POL-0075` - verified
+  - Position: Passed legislation giving incarcerated minors the chance to earn a high school diploma and increasing juvenile justice accountability.
+  - 立场：推动立法使被监禁未成年人有机会获得高中文凭，并加强青少年司法的问责
+  - Statement: (paraphrase) Official biography credits him with laws to "increase accountability within the Texas Juvenile Justice Department, and give all incarcerated minors in Texas the opportunity to earn a high school diploma".
+  - 表述：（转述）官方简历将其归功于「加强德克萨斯青少年司法厅内部的问责，并让德克萨斯所有被监禁未成年人有机会获得高中文凭」
+  - Date and context: unknown - Official Texas House member biography; accessed 2026-11-10
+  - 日期与语境：unknown - 德克萨斯州众议员官方简历，访问于2026-11-10
+  - Legislative or legal record: HB 30 (diploma pathway for minors adjudicated as adults) per SRC-0098
+  - 立法或法律记录：据[SRC-0098]，HB 30（被按成年人起诉的未成年人取得文凭的途径）
+  - Sources / 来源: [SRC-0083](https://house.texas.gov/members/3685/biography)
+- **Capital punishment / 死刑** - `B-POL-0076` - partially verified
+  - Position: Reported to oppose capital punishment in a state that leads the nation in executions.
+  - 立场：据报反对死刑——在一个执行死刑数量居全美之首的州
+  - Statement: (paraphrase) TIME reports Talarico "does not support capital punishment in a state that leads the nation in executions".
+  - 表述：（转述）TIME称塔拉里科「在一个执行死刑数量居全美之首的州并不支持死刑」
+  - Date and context: 2026-02-27 - TIME profile listing his vulnerability points for a general election
+  - 日期与语境：2026-02-27 - TIME列出其在大选中易受攻击的要点
+  - Legislative or legal record: No legislative vehicle; no floor vote identified
+  - 立法或法律记录：无立法载体；未发现相关表决
+  - Opponent criticism: Paxton's record is strongly pro-death-penalty as AG
+  - 对手批评：帕克斯顿作为总检察长在死刑问题上立场强硬
+  - Forensic or fact-check note: This is secondary reporting, not a direct quotation; his own statement was not retrieved
+  - 事实核查／取证说明：此为二手报道而非直接引语；其本人表述未被获取
+  - Sources / 来源: [SRC-0052](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/)
+- **Vaccination and religious exemptions / 疫苗与宗教豁免** - `B-POL-0077` - partially verified
+  - Position: Reported to reject religious-freedom exemptions to avoid vaccinations.
+  - 立场：据报反对以宗教自由为由豁免接种疫苗
+  - Statement: (paraphrase) TIME lists among his vulnerability points that he "rejects religious freedom exemptions to avoid vaccinations".
+  - 表述：（转述）TIME将其列为可攻击点之一：塔拉里科「拒绝以宗教自由为由豁免接种疫苗」
+  - Date and context: 2026-02-27 - TIME profile
+  - 日期与语境：2026-02-27 - TIME人物报道
+  - Legislative or legal record: No legislative vehicle identified
+  - 立法或法律记录：未发现立法载体
+  - Opponent criticism: Paxton's record includes litigation on vaccine-related federal authority
+  - 对手批评：帕克斯顿的记录包括就疫苗相关的联邦权限提起诉讼
+  - Forensic or fact-check note: Secondary reporting only; no direct Talarico statement retrieved
+  - 事实核查／取证说明：仅二手报道；未获取塔拉里科本人表述
+  - Sources / 来源: [SRC-0052](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/)
+- **LGBTQ rights / LGBTQ权利** - `B-POL-0078` - partially verified
+  - Position: Supports the Equality Act and voted against the 2021 transgender student-athlete bill and against restrictions on gender-affirming care for minors; his 2026 stance on the Equality Act was reported as less clear.
+  - 立场：支持《平等法案》，对2021年跨性别学生运动员法案及未成年人性别肯定医疗限制投反对票；其2026年在《平等法案》上的立场据报不够明确
+  - Statement: (paraphrase) In 2025 he said he would support the Equality Act; the Washington Post reported in October 2026 that he had vowed to back an LGBTQ rights bill and later his stance was less clear.
+  - 表述：（转述）2025年他表示将支持《平等法案》；《华盛顿邮报》2026年10月报道称他曾承诺支持一项LGBTQ权利法案，其后立场不够明确
+  - Date and context: 2025-01-01 - Compiled from his Wikipedia record citing Washington Post 2026-10-09 and Austin American-Statesman 2021-04-21
+  - 日期与语境：2025-01-01 - 依据其维基百科记录，转引《华盛顿邮报》2026-10-09与《奥斯汀美国政治家报》2021-04-21
+  - Legislative or legal record: House votes against the 2021 transgender athlete bill and against gender-affirming care restrictions
+  - 立法或法律记录：对2021年跨性别运动员法案及性别肯定医疗限制投反对票
+  - Position change: **yes** - Reported shift: firm support for the Equality Act in 2025, reported ambiguity in October 2026
+  - 立场变化：**yes** - 据报的转变：2025年对《平等法案》明确支持，至2026年10月被报道立场模糊
+  - Opponent criticism: Paxton's campaign attacked his past remarks on God and gender throughout 2026
+  - 对手批评：帕克斯顿阵营在2026年整场竞选中攻击其关于上帝与性别的旧言论
+  - Forensic or fact-check note: Not a fact-check
+  - 事实核查／取证说明：并非事实核查
+  - Sources / 来源: [SRC-0098](https://en.wikipedia.org/wiki/James_Talarico)
+- **Rural investment / 乡村投资** - `B-POL-0079` - verified
+  - Position: Proposes rural hospital finance support, broadband and water investment and a defense of rural schools against vouchers.
+  - 立场：提出乡村医院融资支持、宽带与水利投资，并为乡村学校反对教育券辩护
+  - Statement: "Every Texas community contributes to this state's success. But not every community is being given the opportunity to share in it."
+  - 表述：「每一个德克萨斯社区都为这个州的成功作出了贡献。但并非每个社区都被给予了共享这份成功的机会。」
+  - Date and context: unknown - 2026 campaign issue page Rural Investment; accessed 2026-11-10
+  - 日期与语境：unknown - 2026年竞选议题页「乡村投资」，访问于2026-11-10
+  - Legislative or legal record: Texas Broadband Infrastructure Fund; up to $1 billion for water infrastructure; State Office of Rural Hospital Finance per campaign track record
+  - 立法或法律记录：据竞选履历：德克萨斯宽带基础设施基金；最高10亿美元水利基础设施；州乡村医院融资办公室
+  - Sources / 来源: [SRC-0096](https://jamestalarico.com/issue/rural-investment/)
+- **Rural campaign presence / 乡村竞选存在感** - `B-POL-0080` - verified
+  - Position: Deliberately campaigns in heavily Republican rural counties and treats it as a coalition argument.
+  - 立场：刻意在重度共和党的乡村县竞选，并把它作为联盟论证
+  - Statement: "Amarillo is one of the reddest towns in Texas. But I showed up because our campaign is not writing off any community."
+  - 表述：「阿马里洛是德克萨斯最「红」的城镇之一。但我还是来了，因为我们的竞选不放弃任何社区。」
+  - Date and context: unknown - Post reproduced on campaign Rural Investment page
+  - 日期与语境：unknown - 转载于竞选「乡村投资」页面的帖文
+  - Legislative or legal record: Not legislative
+  - 立法或法律记录：非立法事项
+  - Forensic or fact-check note: Exit polling showed him winning some rural Hispanic counties by large margins (SRC-0100)
+  - 事实核查／取证说明：据出口民调（[SRC-0100]），他在部分乡村拉美裔县以较大差距胜出
+  - Sources / 来源: [SRC-0096](https://jamestalarico.com/issue/rural-investment/)
+
+## Sources / 来源
+
+- [SRC-0052] ['She Can't Win. He Can': Inside James Talarico's Faith-Based Bid to Flip Texas](https://www.yerepouni-news.com/she-cant-win-he-can-inside-james-talaricos-faith-based-bid-to-flip-texas/) - TIME (Philip Elliott) - retrieved via Yerepouni Daily News mirror - tier T2, news_article / 中文题解：TIME人物报道
+- [SRC-0083] [Rep. Talarico James -Biography](https://house.texas.gov/members/3685/biography) - Texas House of Representatives - tier T1, official_government / 中文题解：众议员官方简历
+- [SRC-0085] [James Talarico on Corruption & Democracy](https://jamestalarico.com/issue/corruption-democracy/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「腐败与民主」议题页
+- [SRC-0086] [James Talarico on Taxes & Cost of Living](https://jamestalarico.com/issue/taxes-cost-of-living/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「税收与生活成本」议题页
+- [SRC-0087] [James Talarico on Public Education & School Vouchers](https://jamestalarico.com/issue/public-education/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「公共教育」议题页
+- [SRC-0088] [James Talarico on Health Care & Prescription Drug Costs](https://jamestalarico.com/issue/health-care/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「医疗」议题页
+- [SRC-0089] [James Talarico on Freedom Family & Faith](https://jamestalarico.com/issue/freedom-family-faith/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「自由、家庭与信仰」议题页
+- [SRC-0090] [James Talarico on Immigration & Border Security](https://jamestalarico.com/issue/immigration-border-security/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「移民与边境安全」议题页
+- [SRC-0091] [James Talarico on Jobs Wages & Small Business](https://jamestalarico.com/issue/labor-business/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「劳工与企业」议题页
+- [SRC-0092] [James Talarico on Energy the Texas Grid & Utility Bills](https://jamestalarico.com/issue/energy-environment/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「能源与环境」议题页
+- [SRC-0093] [James Talarico on Foreign Policy Iran & Israel](https://jamestalarico.com/issue/foreign-policy/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「外交政策」议题页
+- [SRC-0094] [James Talarico on Social Media & Tech](https://jamestalarico.com/issue/social-media-artificial-intelligence-tech/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「社交媒体、人工智能与科技」议题页
+- [SRC-0095] [James Talarico on Public Safety Guns & Justice](https://jamestalarico.com/issue/public-safety-justice/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「公共安全与司法」议题页
+- [SRC-0096] [James Talarico on Rural Texas Farms & Ranches](https://jamestalarico.com/issue/rural-investment/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「乡村投资」议题页
+- [SRC-0097] [James Talarico on Veterans & Military Families](https://jamestalarico.com/issue/veterans/) - Talarico for Texas (campaign) - tier T1, official_campaign / 中文题解：「退伍军人」议题页
+- [SRC-0098] [James Talarico](https://en.wikipedia.org/wiki/James_Talarico) - Wikipedia - tier T3, other / 中文题解：维基条目「James Talarico」
+- [SRC-0101] [Talarico vs. Paxton: How the candidates differ on schools and education](https://www.fox7austin.com/news/talarico-vs-paxton-education) - FOX 7 Austin - tier T2, news_article / 中文题解：教育议题对比报道
+- [SRC-0102] [Talarico vs. Paxton: Who has the better approach to healthcare affordability](https://www.fox26houston.com/election/talarico-paxton-senate-race-healthcare-plan) - FOX 26 Houston - tier T2, news_article / 中文题解：医疗方案对比报道
+- [SRC-0106] [Abortion not a focus in Texas race for U.S. Senate as neither candidates emphasizes the issue](https://www.gilmermirror.com/2026/07/16/abortion-not-a-focus-in-texas-race-for-u-s-senate-as-neither-candidates-emphasizes-the-issue/) - The Gilmer Mirror (syndicating The 19th and The Texas Tribune) - tier T2, news_article / 中文题解：参议院竞选中的堕胎议题
+- [SRC-0107] [Texas Dem nominee James Talarico invokes faith to defend abortion rights 'The Bible is silent on abortion'](https://www.foxnews.com/media/texas-dem-nominee-james-talarico-invokes-faith-defend-abortion-rights-bible-silent-abortion.print) - Fox News - tier T2, news_article / 中文题解：塔拉里科谈信仰与堕胎

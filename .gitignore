@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Derived artefacts — regenerate with `python texas-senate-2026/_staging/_lead_build_site.py`
+texas-senate-2026/_staging/*.png
+
+# Intermediate working files. The deliverables do not depend on them; see README §6 / §6.1.
+texas-senate-2026/_staging/*.tsv
+texas-senate-2026/_staging/*.ps1
+texas-senate-2026/_staging/_commons_cache.json
+texas-senate-2026/_staging/_headers_dump.txt
+texas-senate-2026/_staging/[A-E]_sources.csv
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
