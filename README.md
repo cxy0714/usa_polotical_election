@@ -83,6 +83,22 @@ New-NetFirewallRule -DisplayName "dsl-site-8000" -Direction Inbound -Protocol TC
 
 then `http://100.x.y.z:8000/site/index.html`.
 
+**HTTP-only caveat (bites Edge/Chrome).** If the peer serves the site on plain HTTP
+(port 80 only, no `tailscale serve`), current Edge/Chrome silently upgrade `http://` to
+`https://` first; with nothing listening on 443 the page simply fails and the browser
+reports `ERR_BLOCKED_BY_CLIENT` / timeout — the link looks broken even though HTTP works.
+Three fixes, best first:
+
+1. **Serve over HTTPS** on the peer: `tailscale serve --bg 8000` (as above) and point the
+   node's `.well-known/archive.json` `entry_url` at `https://<machine>.<tailnet>.ts.net/site/index.html`.
+2. Turn off *Automatically switch to more secure connections* (Edge: 设置 → 隐私、搜索和服务 →
+   安全性) for the browser, or allow the site once from the upgrade interstitial.
+3. Launch the browser once with the upgrade disabled:
+   `msedge.exe --disable-features=HttpsUpgrades,HttpsFirstBalancedModeAutoEnable http://…/site/index.html`
+
+Also note: if the peer routes by `Host`, an IP URL (`http://100.x.y.z/site/index.html`)
+returns 404 — always use the MagicDNS name.
+
 **Keep one builder.** The generated `site/*.html` files are committed, so if both machines
 rebuild and push you get conflicts on generated HTML. Either the remote machine runs the
 pipeline + build and the laptop only `git pull`s, or run `git pull --rebase` immediately
