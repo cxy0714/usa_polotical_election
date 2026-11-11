@@ -1141,7 +1141,7 @@ def main():
 
         def m_of(rs, k, nd=0):
             vals = [g(r, k) for r in rs]
-            vals = [v for v in vals if v is not None]
+            vals = [v for v in vals if v is not None and v == v]  # v == v drops NaN
             if not vals:
                 return "—"
             vals.sort()
