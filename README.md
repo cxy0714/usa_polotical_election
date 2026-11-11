@@ -52,7 +52,41 @@ python texas-senate-2026/_staging/_lead_validate.py
 
 Python side needs `opencv-python`, `numpy`, `pandas`, `yt-dlp`, plus `ffmpeg` on `PATH`.
 Frames are cut from campaign/news videos and are **internal research only** — see the
-rights note in [`texas-senate-2026/10_video_frames/README.md`](texas-senate-2026/10_video_frames/README.md) §7.
+rights note in [`texas-senate-2026/10_video_frames/README.md`](texas-senate-2026/10_video_frames/README.md).
+
+### View a remote build over Tailscale / 通过 Tailscale 查看另一台机器生成的站点
+
+The site is static, so the only requirement is a web root that also contains the folders
+the pages link into (`10_video_frames/`, `04_visual_archive/`, `09_sources/`). Serving
+`site/` alone gives 404s on every image — serve `texas-senate-2026/` and open
+`/site/index.html`.
+
+**On the machine that builds** (recommended — no firewall rule, HTTPS certificate included):
+
+```bash
+python texas-senate-2026/_staging/serve_site.py     # binds 127.0.0.1:8000, no-store cache
+tailscale serve --bg 8000                           # exposes it on the tailnet over HTTPS
+```
+
+Then on this laptop open `https://<remote-machine>.<tailnet>.ts.net/site/index.html`.
+The helper answers `/` with a redirect to `/site/index.html`, sends `Cache-Control:
+no-store` so a fresh rebuild is visible without a hard refresh, and refuses to serve
+`_staging/` (raw video, model weights, per-crop cache).
+
+Direct-IP alternative (no `tailscale serve`): bind the tailnet address and open the port
+on the firewall —
+
+```powershell
+python texas-senate-2026/_staging/serve_site.py --bind 100.x.y.z    # this node's Tailscale IP
+New-NetFirewallRule -DisplayName "dsl-site-8000" -Direction Inbound -Protocol TCP -LocalPort 8000 -Action Allow
+```
+
+then `http://100.x.y.z:8000/site/index.html`.
+
+**Keep one builder.** The generated `site/*.html` files are committed, so if both machines
+rebuild and push you get conflicts on generated HTML. Either the remote machine runs the
+pipeline + build and the laptop only `git pull`s, or run `git pull --rebase` immediately
+before any build.
 
 ## Three cautionary notes / 三条必读前提
 
