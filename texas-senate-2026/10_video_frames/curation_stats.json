@@ -1,0 +1,31 @@
+{
+  "candidates": 150,
+  "kept": 67,
+  "kept_tal": 31,
+  "kept_pax": 36,
+  "removed": 83,
+  "per_video": {
+    "BOTH_kvue": 3,
+    "PAX_convention_fox4": 1,
+    "TAL_sanantonio_kens": 4,
+    "TAL_victory_cnn": 2,
+    "BOTH_tyler_cbs": 9,
+    "TAL_waco_kxxv": 2,
+    "PAX_cypress_rally": 2,
+    "PAX_bus_kickoff": 6,
+    "PAX_tyler_ketk": 3,
+    "TAL_win_gma": 2,
+    "TAL_dallas_nbc": 4,
+    "TAL_tyler_cbs": 2,
+    "PAX_concession_pbs": 2,
+    "PAX_conroe_khou": 4,
+    "TAL_tour_kickoff": 1,
+    "PAX_concession_nbc": 1,
+    "PAX_allen_ap": 4,
+    "PAX_abbott_cbs": 5,
+    "TAL_plano_cbs": 2,
+    "PAX_collin_nbc": 2,
+    "PAX_allen_cbs": 3,
+    "PAX_tyler_cbs": 3
+  }
+}

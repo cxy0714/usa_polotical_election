@@ -28,10 +28,10 @@ sentiment scoring appears anywhere in these files.
 
 ## 1. What this is / 这是什么
 
-Ten datasets, 158 research files and a 66-page offline bilingual website reconstructing the campaign across five parallel research
+Ten datasets, 158 research files, a face-recognised video frame set and a 72-page offline bilingual website reconstructing the campaign across five parallel research
 streams, every row carrying its own sources:
 
-十个数据集、158 份研究材料，外加一个 66 页的离线双语站点，按五条并行的研究线索重构整场竞选；每一行数据都自带来源。
+十个数据集、158 份研究材料、一套经人脸识别的视频帧集，外加一个 72 页的离线双语站点，按五条并行的研究线索重构整场竞选；每一行数据都自带来源。
 
 | Stream / 线索 | Dataset(s) / 数据集 | Rows / 行数 |
 |---|---|---|
@@ -39,6 +39,7 @@ streams, every row carrying its own sources:
 | Event reconstruction / 事件重构 | `02_campaign_events/campaign_events.csv` + 2 timelines + coverage-gap register | **93** events |
 | Speeches & rhetoric / 演讲与修辞 | `03_speeches/speech_archive.csv`, `speech_video_index.csv`, 24 ten-section analyses, 2 communication analyses, 1 transcript | **32** speeches, **31** videos, **24** analyses |
 | Visual archive / 影像档案 | `04_visual_archive/image_archive.csv`, 76 locally measured photos, 2 visual analyses | **116** images |
+| Video frames / 视频帧 | `10_video_frames/{frame_index,video_sources}.csv`, 6,939 face crops from 26 videos | **67** curated frames |
 | Media & money / 媒体与资金 | `05_campaign_media/advertisements.csv`, `social_media.csv`, `media_coverage.csv`, `06_campaign_finance/campaign_finance.csv` | **23** ads, **12** posts, **66** coverage items, **69** finance rows |
 | Electoral context / 选举背景 | `07_electoral_context/*` (results, polling, election context) | 12 results + 11 polls |
 | Comparative synthesis / 对比综合 | `08_comparative_analysis/*` | 3 analyses |

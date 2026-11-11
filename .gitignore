@@ -16,3 +16,18 @@ texas-senate-2026/_staging/[A-E]_sources.csv
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Video pipeline binaries: ~490 MB of source video + ~47 MB ONNX weights.
+# They are NOT needed to read or serve the archive; restore them with
+#   python texas-senate-2026/_staging/vision/fetch_models.py
+#   python texas-senate-2026/_staging/vision/download_videos.py
+texas-senate-2026/_staging/vision/raw/
+texas-senate-2026/_staging/vision/models/
+
+# Per-crop face cache (~90 MB, 8k files). Regenerate with extract_faces.py.
+# The identified CSVs (manifest.csv, identity.csv) ARE tracked.
+texas-senate-2026/_staging/vision/out/*/faces/
+texas-senate-2026/_staging/vision/out/*/frames/
+texas-senate-2026/_staging/vision/out/*/sheet_*.jpg
+texas-senate-2026/_staging/vision/out/sheet_*.jpg
+

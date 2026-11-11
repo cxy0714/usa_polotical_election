@@ -17,7 +17,8 @@ video; it does **not** rank the two campaigns and contains no blog or video scri
 | | |
 |---|---|
 | **Full documentation** | [`texas-senate-2026/README.md`](texas-senate-2026/README.md) — directory map, data contract, honest limits |
-| **Read it as a website** | open `texas-senate-2026/site/index.html` (offline, no server, 66 pages, EN/ZH side-by-side, clickable sources) |
+| **Read it as a website** | open `texas-senate-2026/site/index.html` (offline, no server, 72 pages, EN/ZH side-by-side, clickable sources) |
+| **Video frames** | [`texas-senate-2026/10_video_frames/`](texas-senate-2026/10_video_frames/README.md) — 26 source videos, 6,939 face detections, 67 face-matched frames |
 | **Know the gaps first** | [`texas-senate-2026/research_gaps.md`](texas-senate-2026/research_gaps.md) |
 | **Rebuild the site** | `python texas-senate-2026/_staging/_lead_build_site.py` |
 

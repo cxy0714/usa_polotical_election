@@ -433,6 +433,7 @@ NAV = [
     ("candidates/index.html", "候选人", "Candidates"),
     ("speeches/index.html", "演讲", "Speeches"),
     ("visual/index.html", "影像", "Images"),
+    ("video/index.html", "视频帧", "Video frames"),
     ("media/index.html", "媒体与资金", "Media & Money"),
     ("context/index.html", "选举背景", "Context"),
     ("compare/index.html", "对比分析", "Comparison"),
@@ -723,6 +724,8 @@ def main():
     if os.path.isdir(SITE):
         shutil.rmtree(SITE)
     os.makedirs(os.path.join(SITE, "assets"))
+    # GitHub Pages must not run Jekyll over this static export.
+    open(os.path.join(SITE, ".nojekyll"), "w", encoding="utf-8").close()
 
     # ---- page registry (md path -> html path). Must exist before rendering links.
     reg = [
@@ -742,6 +745,7 @@ def main():
         ("05_campaign_media/media_narrative_timeline.md", "media/narrative.html"),
         ("04_visual_archive/visual_analysis_talarico.md", "visual/analysis-talarico.html"),
         ("04_visual_archive/visual_analysis_paxton.md", "visual/analysis-paxton.html"),
+        ("10_video_frames/README.md", "video/method.html"),
         ("07_electoral_context/election_context.md", "context/election-context.html"),
         ("08_comparative_analysis/candidate_comparison.md", "compare/candidate-comparison.html"),
         ("08_comparative_analysis/campaign_timeline_comparison.md", "compare/timeline-comparison.html"),
@@ -944,7 +948,7 @@ def main():
     write("visual/gallery.html", "Image gallery", "影像图库", gallery, crumb([("index.html", "首页"), ("visual/index.html", "影像")]))
     write(
         "visual/index.html", "Visual archive", "影像档案",
-        f"""<div class="hero"><p>影像档案记录来源、许可、摄影者与画幅统计；<b>图片在页面内直接加载</b>，可点击看原图或跳转来源页。<b>未测量</b>面部几何、身体比例与着装：工具链不具备图像输入与关键点检测能力，任何外貌论断都不得从本档案产生。</p></div>
+        f"""<div class="hero"><p>影像档案记录来源、许可、摄影者与画幅统计；<b>图片在页面内直接加载</b>，可点击看原图或跳转来源页。画面本身的取景与舞台记录现已由<a href="../video/index.html">视频帧集</a>补齐（YuNet 检测 + SFace 身份匹配），但<b>面部几何、身体比例与着装仍未测量</b>；任何外貌论断都不得从本档案直接产生。</p></div>
 <div class="stats">
   <div class="stat"><b>{len(imgs)}</b><span>影像记录</span></div>
   <div class="stat"><b>{len(licensed)}</b><span>可本地展示的许可副本</span></div>
@@ -961,6 +965,79 @@ def main():
     vis = csv_table("04_visual_archive/image_archive.csv", "tbl-img", '<div class="warn"><code>framing</code>、<code>camera_angle</code>、<code>face_visibility</code>、<code>body_visibility</code>、<code>clothing_notes</code> 全部为 <code>unknown</code>——这是明确的证据限制，不是待办事项。</div>')
     write("visual/data.html", "Image dataset", "影像数据集", vis, crumb([("index.html", "首页"), ("visual/index.html", "影像")]))
     search.append({"t": "影像 / Images", "u": "visual/index.html", "b": "影像档案、图库与视觉分析", "n": "影像"})
+
+    # ---- video frames
+    os.makedirs(os.path.join(SITE, "video"), exist_ok=True)
+    with open(os.path.join(ROOT, "10_video_frames", "frame_index.csv"), newline="", encoding="utf-8-sig") as fh:
+        vframes = list(csv.DictReader(fh))
+    with open(os.path.join(ROOT, "10_video_frames", "video_sources.csv"), newline="", encoding="utf-8-sig") as fh:
+        vsrc = list(csv.DictReader(fh))
+    nf_tal = sum(1 for r in vframes if r["identity"] == "TALARICO")
+    nf_pax = sum(1 for r in vframes if r["identity"] == "PAXTON")
+    n_official = sum(1 for v in vsrc if "official campaign" in (v.get("channel") or "").lower())
+
+    rm = md_page("10_video_frames/README.md", "video/method.html",
+                 crumb([("index.html", "首页"), ("video/index.html", "视频帧")]))
+    search.append({"t": rm["zh"], "u": "video/method.html", "b": rm["en"], "n": "视频帧"})
+
+    def vf_caption(row):
+        return ('<figcaption><b>%s · %s</b>t=%ss · 相似度 %s · %s<br>%s<br><span class="tag">%s</span></figcaption>'
+                % (esc(row["frame_id"].split("_t")[0].upper()), esc(row["identity"]),
+                   esc(row["timestamp_s"]), esc(row["identity_sim"]), esc(row["shot_scale"]),
+                   esc(row["source_title"]), esc(row["event_kind"])))
+
+    def vf_figure(row):
+        src = "../../" + row["frame_path"].replace("\\", "/")
+        return ('<figure><a href="%s" target="_blank"><img src="%s" alt="%s" loading="lazy"></a>%s</figure>'
+                % (esc(src), esc(src), esc(row["identity"] + " " + row["video_id"]), vf_caption(row)))
+
+    gal_tal = "".join(vf_figure(r) for r in vframes if r["identity"] == "TALARICO")
+    gal_pax = "".join(vf_figure(r) for r in vframes if r["identity"] == "PAXTON")
+    write("video/frames.html", "Face-matched frame gallery", "人脸识别帧图库",
+          '<div class="warn">这些帧来自新闻与官方竞选视频，仅作内部研究参考，<b>未经授权不得公开发布</b>。'
+          '识别标签来自 SFace 余弦匹配（阈值与方法见 <a href="method.html">方法页</a>），每张图都标注相似度。</div>'
+          '<h2 id="tal">塔拉里科 / Talarico — %d 帧</h2><div class="gal">%s</div>'
+          '<h2 id="pax">帕克斯顿 / Paxton — %d 帧</h2><div class="gal">%s</div>'
+          % (nf_tal, gal_tal, nf_pax, gal_pax),
+          crumb([("index.html", "首页"), ("video/index.html", "视频帧")]))
+
+    vf_data = ('<div class="warn">帧索引：身份、相似度、时间码、景别、人脸像素、清晰度、亮度与躯干区 RGB 均值。'
+               '<b>躯干 RGB 是粗测，常混入背景</b>，不能当作"他穿什么"。</div>'
+               + csv_table("10_video_frames/frame_index.csv", "tbl-vframes", "", up="../")
+               + '<h2>源视频 / Source videos</h2>' + csv_table("10_video_frames/video_sources.csv", "tbl-vsrc", "", up="../"))
+    write("video/data.html", "Video frame datasets", "视频帧数据集", vf_data,
+          crumb([("index.html", "首页"), ("video/index.html", "视频帧")]))
+
+    sheets = "".join(
+        '<figure><a href="../../10_video_frames/%s" target="_blank"><img src="../../10_video_frames/%s" alt="%s" loading="lazy"></a>'
+        '<figcaption><b>%s</b>%s</figcaption></figure>' % (f, f, t, t, sub)
+        for f, t, sub in [
+            ("sheet_duel.jpg", "双人对照缩略图", "每位候选人 12 帧并置"),
+            ("sheet_talarico_frames.jpg", "塔拉里科缩略图", "按相似度排序"),
+            ("sheet_paxton_frames.jpg", "帕克斯顿缩略图", "按相似度排序"),
+            ("sheet_context.jpg", "场景语境缩略图", "每段视频 3 帧，不含身份判定"),
+        ])
+    write(
+        "video/index.html", "Video frame set", "视频帧集",
+        f"""<div class="hero"><p>从 {len(vsrc)} 段公开视频（{n_official} 段官方竞选频道、其余为地方电视台新闻包或第三方上传）中每 0.5–1 秒采样，用 YuNet 检测人脸、SFace 与档案内授权照片比对身份，再对<b>同一场景、同一着装</b>的重复帧做感知哈希去重，留下 <b>{len(vframes)}</b> 帧。这是本档案第一次真正拿到两位候选人的画面：此前取景、舞台与着装全部是 <code>unknown</code>。</p></div>
+<div class="stats">
+  <div class="stat"><b>{len(vsrc)}</b><span>源视频</span></div>
+  <div class="stat"><b>{len(vframes)}</b><span>精选识别帧</span></div>
+  <div class="stat"><b>{nf_tal}</b><span>塔拉里科帧</span></div>
+  <div class="stat"><b>{nf_pax}</b><span>帕克斯顿帧</span></div>
+  <div class="stat"><b>0.499 / 0.123</b><span>参考库同类／异类余弦</span></div>
+</div>
+<div class="warn"><b>三条必须先读的说明：</b>① 这些帧裁自 YouTube 上的竞选团队与电视台视频，<b>仅限内部研究</b>，公开使用需换授权素材或做仅链接处理；② 识别标签是带分数的算法判定，<b>不是人工逐帧核对</b>；③ 样本为 {len(vframes)} 帧、{len(vsrc)} 段视频，不能支撑"频率"类论断。</div>
+<div class="cards">
+  <a class="card" href="frames.html"><h3>识别帧图库</h3><p>{len(vframes)} 帧分候选人陈列，含相似度与景别。</p></a>
+  <a class="card" href="method.html"><h3>方法与局限</h3><p>采样、检测、SFace 阈值、验证与版权说明。</p></a>
+  <a class="card" href="data.html"><h3>帧索引与源视频（数据集）</h3><p>逐帧测量值 + 每段视频的频道、日期与链接。</p></a>
+</div>
+<h2>对照缩略图 / Contact sheets</h2>
+<div class="gal">{sheets}</div>""",
+    )
+    search.append({"t": "视频帧 / Video frames", "u": "video/index.html",
+                   "b": "YuNet 检测 + SFace 身份匹配的竞选视频帧", "n": "视频帧"})
 
     # ---- media & finance
     os.makedirs(os.path.join(SITE, "media"), exist_ok=True)
@@ -1066,6 +1143,7 @@ def main():
         (32, ("演讲记录", "speeches")),
         (24, ("演讲分析", "analyses")),
         (len(imgs), ("影像记录", "images")),
+        (len(vframes), ("识别帧", "video frames")),
         (23, ("广告", "ads")),
         (66, ("媒体报道", "coverage items")),
         (69, ("财务条目", "finance rows")),
@@ -1079,7 +1157,7 @@ def main():
     <div class="col en"><p>A bilingual, line-by-line sourced archive of one campaign process. <b>It collects and organises evidence; it does not judge which side ran a better campaign.</b> What gets narrated, and which events and images deserve emphasis, is left to the researcher.</p></div>
     <div class="col zh"><p>一份中英双语、逐条溯源的竞选过程档案。<b>它收集并组织证据，不评判哪一方更成功。</b>最终如何叙述、强调哪些事件与影像，由研究者决定。</p></div>
   </div>
-  <p style="margin-top:.5rem"><span class="tag">93 events</span><span class="tag">146 positions</span><span class="tag">32 speeches</span><span class="tag">116 images</span><span class="tag">189 sources</span><span class="tag">EN + 中文</span></p>
+  <p style="margin-top:.5rem"><span class="tag">93 events</span><span class="tag">146 positions</span><span class="tag">32 speeches</span><span class="tag">116 images</span><span class="tag">{len(vsrc)} videos</span><span class="tag">{len(vframes)} frames</span><span class="tag">189 sources</span><span class="tag">EN + 中文</span></p>
 </div>
 <div class="search"><input id="q" placeholder="站内检索：输入事件名、城市、人名、关键词…… / Search across the archive"><div id="results"></div></div>
 <h2>数据概览 / At a glance</h2>
@@ -1093,7 +1171,7 @@ def main():
 </div>
 <h2>三段必须知道的前提 / Three cautionary notes</h2>
 <div class="warn"><b>一、没有辩论 / No debate took place.</b><br><span class="en">Five records reconstruct the full sequence of invitations and refusals; the CNN–Jubilee event was a solo town hall that several outlets mislabelled as a debate.</span><br><span class="zh">五条记录还原了辩论邀请与拒绝的完整过程；CNN–Jubilee 那场是单人问答，被多家媒体误标为辩论。</span></div>
-<div class="warn"><b>二、外貌未测量 / Appearance was not measured.</b><br><span class="en">The toolchain could not read images and had no landmark library, so facial geometry, body proportions and clothing were not measured at all. The archive supplies a reproducible measurement protocol for a human researcher to execute.</span><br><span class="zh">工具链无法读取图像、也没有关键点检测库；面部几何、身体比例与着装全部未测。档案提供了可复现的测量规程，供人类研究者执行。</span></div>
+<div class="warn"><b>二、外貌仍未测量，但画面已可读 / Appearance still unmeasured, imagery now readable.</b><br><span class="en">The archive now ships a face-detected video frame set (<a href="video/index.html">video frames</a>), so framing and staging are documented. But facial geometry, body proportions and clothing remain unmeasured; the reproducible measurement protocol is still waiting for a human to execute it.</span><br><span class="zh">档案现已附上经人脸检测的视频帧集（<a href="video/index.html">视频帧</a>），取景与舞台布置因此有了记录。但面部几何、身体比例与着装<b>仍未测量</b>；可复现的测量规程仍在等待人工执行。</span></div>
 <div class="warn"><b>三、资金口径不可相加 / Money measures cannot be summed.</b><br><span class="en">FEC independent expenditures and AdImpact ad tracking differ by roughly an order of magnitude, and four different Talarico "totals" exist. Section 6 of the data dictionary lists every trap.</span><br><span class="zh">FEC 独立支出与 AdImpact 广告投放相差约一个数量级；塔拉里科存在四种不同的「总额」。数据字典第 6 节列出全部陷阱。</span></div>
 <h2>阅读方式 / How to read</h2>
 <div class="pair">
