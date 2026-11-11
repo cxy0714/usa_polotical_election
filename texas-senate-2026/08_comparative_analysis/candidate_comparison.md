@@ -110,13 +110,13 @@ Evidence: `03_speeches/communication_analysis_talarico.md`,
 `03_speeches/communication_analysis_paxton.md`. Both files were written before any
 audio existed and flag prosody (pace, pitch, pauses) as `unknown`. **That gap is now
 partly closed**: `11_speech_audio/` measures the delivery of 145 videos, including 94
-speech-type appearances. Medians over speech-type videos show Talarico at 0.69 speaking
-share / 38.4 pauses per minute / 124 wpm / 207.8 Hz median F0, Paxton at 0.62 / 36.3 /
-148 wpm / 176.4 Hz. Those are *measurements of a mix*, not a verdict on delivery: rally
+speech-type appearances. Medians over speech-type videos show Talarico at 0.67 speaking
+share / 38.4 pauses per minute / 123 wpm / 207.8 Hz median F0, Paxton at 0.62 / 36.3 /
+159 wpm / 173.9 Hz. Those are *measurements of a mix*, not a verdict on delivery: rally
 audio carries music, applause and PA, so pitch and loudness are indicative only, and
 nothing here supports claims about emotion, sincerity or audience reaction.
 
-证据：`03_speeches/communication_analysis_talarico.md`、`03_speeches/communication_analysis_paxton.md`。两份文件撰写时尚无任何音频，因此把韵律（语速、音高、停顿）标注为 `unknown`。**该缺口现已部分补上**：`11_speech_audio/` 测量了 145 段视频的交付特征，其中 94 段属演讲类出场。演讲类中位数显示：塔拉里科说话占比 0.69、每分钟停顿 38.4 次、语速 124 词/分、基频中位数 207.8 Hz；帕克斯顿为 0.62、36.3、148 词/分、176.4 Hz。这些是**对混音的测量**，不是对交付方式的评判：集会音频含音乐、掌声与扩声，音高与响度仅为指示值，也不能据此推断情绪、真诚度或观众反应。
+证据：`03_speeches/communication_analysis_talarico.md`、`03_speeches/communication_analysis_paxton.md`。两份文件撰写时尚无任何音频，因此把韵律（语速、音高、停顿）标注为 `unknown`。**该缺口现已部分补上**：`11_speech_audio/` 测量了 145 段视频的交付特征，其中 94 段属演讲类出场。演讲类中位数显示：塔拉里科说话占比 0.67、每分钟停顿 38.4 次、语速 123 词/分、基频中位数 207.8 Hz；帕克斯顿为 0.62、36.3、159 词/分、173.9 Hz。这些是**对混音的测量**，不是对交付方式的评判：集会音频含音乐、掌声与扩声，音高与响度仅为指示值，也不能据此推断情绪、真诚度或观众反应。
 
 ## 5. Policy and issue coverage by dimension / 5. 按维度统计的政策与议题覆盖
 

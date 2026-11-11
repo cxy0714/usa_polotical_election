@@ -1167,7 +1167,7 @@ def main():
         if os.path.exists(vsf):
             with open(vsf, newline="", encoding="utf-8-sig") as fh:
                 for vr in csv.DictReader(fh):
-                    tmap[vr.get("slug", "")] = vr.get("source_title", "")
+                    tmap[vr.get("slug", "")] = vr.get("title", "")
         top = sorted(sp, key=lambda r: -(g(r, "video_duration_s") or 0))[:14]
         tr_rows = "".join(
             '<tr><td>%s</td><td style="text-align:right">%s</td><td style="text-align:right">%s</td>'

@@ -26,8 +26,9 @@ VISION = ROOT / "_staging" / "vision"
 
 SPEECH_KINDS = {"rally_speech", "victory_speech", "concession_speech", "convention_speech",
                 "town_hall", "interview", "final_rally", "tour_launch"}
-PAIR_KINDS = {"rally_speech", "victory_speech", "concession_speech", "convention_speech",
-              "town_hall", "interview"}
+# The candidate comparison uses every speech-type kind (same set as SPEECH_KINDS), so the
+# numbers quoted in the README, the site and the analysis files cannot drift apart.
+PAIR_KINDS = SPEECH_KINDS
 
 
 def rows(p):
@@ -85,8 +86,11 @@ def main():
             v, n = med(rs, k)
             d["metric_median"][k] = None if not np.isfinite(v) else round(v, nd)
             d["metric_median"][k + "_n"] = n
+        # Rhetoric counters only exist where captions exist; rows without captions carry
+        # zeros, which would drag every median toward 0. Restrict to captured speeches.
+        rs_cap = [r for r in rs if num(r, "words") > 0]
         for k in ("pron_i", "pron_we", "pron_you", "pron_they", "mentions_texas", "words"):
-            v, n = med(rs, k)
+            v, n = med(rs_cap, k)
             d["metric_median"][k] = None if not np.isfinite(v) else round(v, 0)
         summary["candidates"][name] = d
     (DEST / "summary_by_candidate.json").write_text(

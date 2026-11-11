@@ -71,24 +71,24 @@ Medians over speech-type videos. n is the number of videos contributing a value.
 
 | Measure | Talarico | Paxton |
 |---|---|---|
-| speaking share of audio / 说话占比 | 0.69 (n=39) | 0.62 (n=19) |
-| pauses ≥0.25 s per minute / 每分钟停顿 | 38.4 (n=38) | 36.3 (n=18) |
-| words per minute / 语速 | 124 (n=20) | 148 (n=12) |
-| median F0, Hz / 基频中位数 | 207.8 (n=39) | 176.4 (n=19) |
-| F0 range, semitones / 音域 | 13.3 (n=39) | 14.0 (n=19) |
-| loudness SD, dB / 音量动态 | 7.3 (n=39) | 6.4 (n=19) |
-| mean pause, s / 平均停顿 | 0.69 (n=39) | 0.88 (n=19) |
+| speaking share of audio / 说话占比 | 0.67 (n=44) | 0.62 (n=25) |
+| pauses ≥0.25 s per minute / 每分钟停顿 | 38.4 (n=43) | 36.3 (n=24) |
+| words per minute / 语速 | 123 (n=21) | 159 (n=17) |
+| median F0, Hz / 基频中位数 | 207.8 (n=44) | 173.9 (n=25) |
+| F0 range, semitones / 音域 | 13.5 (n=44) | 14.0 (n=25) |
+| loudness SD, dB / 音量动态 | 7.4 (n=44) | 6.9 (n=25) |
+| mean pause, s / 平均停顿 | 0.84 (n=44) | 0.88 (n=25) |
 
 Rhetoric counters (median per speech, caption-derived):
 
 | Counter | Talarico | Paxton |
 |---|---|---|
-| words per speech | 340 | 470 |
-| first person I | 21 | 54 |
-| we / our / us | 65 | 54 |
-| you / your | 24 | 58 |
-| they / them / their | 20 | 25 |
-| "Texas" | 12 | 24 |
+| words per speech | 2036 | 2345 |
+| first person I | 21 | 48 |
+| we / our / us | 71 | 53 |
+| you / your | 24 | 43 |
+| they / them / their | 23 | 25 |
+| "Texas" | 14 | 22 |
 
 ## 5. What can and cannot be claimed / 可以说与不可以说
 
