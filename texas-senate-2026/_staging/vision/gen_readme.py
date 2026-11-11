@@ -35,6 +35,14 @@ def main():
     stats = json.loads((DEST / "curation_stats.json").read_text(encoding="utf-8"))
     meta = {v["slug"]: v for v in cfg}
 
+    def maybe(p):
+        return rows(p) if p.exists() else []
+
+    shot = maybe(DEST / "shot_index.csv")
+    vmet = maybe(DEST / "video_visual_metrics.csv")
+    aud = maybe(ROOT / "11_speech_audio" / "delivery_metrics.csv")
+    aud = list({r["slug"]: r for r in aud}.values()) if aud else []
+
     missing = [v for v in cfg if not (RAW / v["file"]).exists()]
     n_crops = len(manifest)
     counts = Counter(r["label"] for r in ident)
@@ -132,6 +140,12 @@ def main():
     A("8. **Measurements** — shot scale from face-width / frame-width ratio; face box in source")
     A("   pixels; Laplacian sharpness; mean grey brightness; mean RGB of the region below the")
     A("   face (a crude torso proxy, **not** a clothing classification).")
+    A("9. **Shot layer** (`extract_keyframes.py`) — a 160×90 / 2 fps proxy is decoded per video,")
+    A("   cuts are detected on frame-to-frame difference with an adaptive threshold, and up to")
+    A("   8 scenes keep a full-resolution keyframe measured for brightness, contrast, sharpness,")
+    A("   colourfulness (Hasler–Süsstrunk), saturation, mean RGB and YuNet face fraction.")
+    A("10. **Audio layer** (`analyze_speech.py`) — 16 kHz decode, energy VAD, pause/loudness/F0/")
+    A("   speech-rate measurement and caption parsing; see `../11_speech_audio/README.md`.")
     A("")
     A("Scripts: `../_staging/vision/{extract_faces,recognize_faces,curate}.py`;")
     A("config: `../_staging/vision/videos.json`; models cached in `../_staging/vision/models/`.")
@@ -167,7 +181,13 @@ def main():
     A("| `sheet_talarico_frames.jpg` | %d Talarico frames, contact sheet |" % n_tal)
     A("| `sheet_paxton_frames.jpg` | %d Paxton frames, contact sheet |" % n_pax)
     A("| `sheet_duel.jpg` | top 12 per candidate side by side |")
-    A("| `sheet_context.jpg` | evenly spaced staging frames from every video (no identity claim) |")
+    A("| `sheet_context.jpg` (+ `_2`, `_3`…) | evenly spaced staging frames from every video (no identity claim) |")
+    A("| `context/` | the individual staging stills — **local only**, Git-excluded like `raw/` |")
+    if shot:
+        A("| `shot_index.csv` | %d scenes/keyframes: timing, brightness, contrast, sharpness, colourfulness, face fraction |" % len(shot))
+        A("| `video_visual_metrics.csv` | %d videos: cut rate, mean shot length, motion, static ratio, face presence |" % len(vmet))
+        A("| `keyframes/<slug>/` | the keyframe stills (≤720 px, Git-excluded working copies) |")
+        A("| `sheet_shots_*.jpg` | global keyframe contact sheets |")
     A("")
     A("## 5. First measurable observations / 可先说的量化观察")
     A("")
@@ -185,6 +205,49 @@ def main():
     A("  venue lighting dominates any colour comparison.")
     A("- **Format split**: official channels publish very differently — Talarico's tour clip is")
     A("  640×360 / 75 s (social-first cut), Paxton's Cypress rally is 720p / 20 min (broadcast feed).")
+    if vmet:
+        def fnum(rs, k):
+            out = []
+            for r in rs:
+                try:
+                    out.append(float(r[k]))
+                except (KeyError, ValueError, TypeError):
+                    pass
+            return out
+
+        def med(a):
+            a = sorted(a)
+            if not a:
+                return float("nan")
+            n = len(a)
+            return a[n // 2] if n % 2 else (a[n // 2 - 1] + a[n // 2]) / 2
+
+        all_cut = fnum(vmet, "cuts_per_min")
+        all_len = fnum(vmet, "mean_scene_len_s")
+        t_cut = fnum([v for v in vmet if v["candidate_source"] == "TALARICO"], "cuts_per_min")
+        p_cut = fnum([v for v in vmet if v["candidate_source"] == "PAXTON"], "cuts_per_min")
+        t_b = fnum([v for v in vmet if v["candidate_source"] == "TALARICO"], "brightness_mean")
+        p_b = fnum([v for v in vmet if v["candidate_source"] == "PAXTON"], "brightness_mean")
+        A("")
+        A("- **Shot structure**: %d videos carry scene data; median shot length **%.1f s**, median"
+          % (len(vmet), med(all_len)))
+        A("  cut rate **%.1f cuts/min**. Median cut rate is %.1f for Talarico-sourced videos and"
+          % (med(all_cut), med(t_cut)))
+        A("  %.1f for Paxton-sourced videos — a mix of broadcast packages and single-camera rally"
+          % med(p_cut))
+        A("  feeds, so this is a production-format reading, not a campaign-style claim.")
+        A("- **Exposure**: median frame brightness %.0f (Talarico) vs %.0f (Paxton) on the 0–255"
+          % (med(t_b), med(p_b)))
+        A("  scale. Venue lighting and camera gain dominate; no colour or tone claim follows.")
+    if aud:
+        sp = [r for r in aud if r["kind"] in ("rally_speech", "victory_speech", "concession_speech",
+                                              "convention_speech", "town_hall", "interview",
+                                              "final_rally", "tour_launch")]
+        A("")
+        A("- **Audio**: %d of %d videos measured (%d speech-type, %.1f h). Speech share, pause"
+          % (len(aud), len(vsrc), len(sp), sum(float(r["video_duration_s"]) for r in sp) / 3600))
+        A("  structure, F0 and caption-derived rate live in `../11_speech_audio/`; delivery is no")
+        A("  longer an `unknown`, though pitch on rally audio is indicative only.")
     A("")
     A("## 5.1 The official mark / 官方标志")
     A("")
@@ -210,14 +273,24 @@ def main():
     A("## 6. Reproduction / 复现")
     A("")
     A("```powershell")
-    A("# first clone only: restore the video + model binaries excluded from Git (~530 MB)")
+    A("# first clone only: restore the video + model binaries excluded from Git")
     A("python texas-senate-2026/_staging/vision/fetch_models.py        # YuNet + SFace ONNX")
-    A("python texas-senate-2026/_staging/vision/download_videos.py     # 26 source videos")
+    A("python texas-senate-2026/_staging/vision/download_videos.py     # the %d configured videos" % len(cfg))
     A("")
-    A("python texas-senate-2026/_staging/vision/extract_faces.py     # sampling + detection")
-    A("python texas-senate-2026/_staging/vision/recognize_faces.py   # SFace identity pass")
-    A("python texas-senate-2026/_staging/vision/curate.py            # de-duplicated curated set")
-    A("python texas-senate-2026/_staging/vision/gen_readme.py        # regenerate this file")
+    A("# optional: re-run discovery on YouTube and rebuild the selection")
+    A("python texas-senate-2026/_staging/vision/discover_videos.py     # ~35 searches")
+    A("python texas-senate-2026/_staging/vision/select_videos.py       # quotas + budget")
+    A("python texas-senate-2026/_staging/vision/download_all.py        # video + captions")
+    A("python texas-senate-2026/_staging/vision/normalize_config.py    # candidate/kind fixes")
+    A("")
+    A("python texas-senate-2026/_staging/vision/extract_faces.py       # sampling + detection")
+    A("python texas-senate-2026/_staging/vision/recognize_faces.py     # SFace identity pass")
+    A("python texas-senate-2026/_staging/vision/curate.py              # de-duplicated curated set")
+    A("python texas-senate-2026/_staging/vision/extract_keyframes.py   # scene cuts + keyframes")
+    A("python texas-senate-2026/_staging/vision/gen_readme.py          # regenerate this file")
+    A("")
+    A("python texas-senate-2026/_staging/vision/analyze_speech.py      # audio + delivery")
+    A("python texas-senate-2026/_staging/vision/gen_audio_readme.py    # 11_speech_audio/README")
     A("```")
     A("")
     A("## 7. Limits — read before using / 使用前必读")
@@ -229,8 +302,9 @@ def main():
         A("   They remain registered in `videos.json`, so a retry is one command away.")
     else:
         A("1. **All %d configured videos are present.**" % len(cfg))
-    A("2. **No audio was analysed.** Nothing here says anything about delivery, tone or pacing;")
-    A("   all prosody fields in the main archive remain `unknown`.")
+    A("2. **Audio is analysed separately, not here.** `../11_speech_audio/` measures speech share,")
+    A("   pauses, F0 and caption-based rate. It does not support claims about emotion, sincerity")
+    A("   or \"tone\"; rally audio is a mix and pitch there is indicative only.")
     A("3. **%d frames from %d videos is still a small sample.** It cannot support frequency"
       % (n_frames, len(vsrc)))
     A("   claims about either campaign's imagery.")

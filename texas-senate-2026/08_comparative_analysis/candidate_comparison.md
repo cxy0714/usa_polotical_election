@@ -107,11 +107,16 @@ structural, not evaluative:
 | Documented slogan set / 有记录的口号集 | "Clear eyes, full hearts, can't lose"; "big money is powerful, people power"; "rot at the core"<br>（译：「目光清澈、心怀满腔、绝不认输」；「大资金很有力量，人民的力量」；「核心已经腐烂」） | "Come and take it"; "When they come after Texans, Ken Paxton goes after them"; "He won't fight for you. He'll fight for them."<br>（译：「来拿吧」；「当他们冲着得克萨斯人来时，肯·帕克斯顿就冲着他们去」；「他不会为你而战。他会为他们而战。」） |
 
 Evidence: `03_speeches/communication_analysis_talarico.md`,
-`03_speeches/communication_analysis_paxton.md`. Both files explicitly flag that
-**prosody (pace, pitch, pauses) is `unknown`** — no audio was analysed — so claims
-about delivery are not made anywhere in this archive.
+`03_speeches/communication_analysis_paxton.md`. Both files were written before any
+audio existed and flag prosody (pace, pitch, pauses) as `unknown`. **That gap is now
+partly closed**: `11_speech_audio/` measures the delivery of 145 videos, including 94
+speech-type appearances. Medians over speech-type videos show Talarico at 0.69 speaking
+share / 38.4 pauses per minute / 124 wpm / 207.8 Hz median F0, Paxton at 0.62 / 36.3 /
+148 wpm / 176.4 Hz. Those are *measurements of a mix*, not a verdict on delivery: rally
+audio carries music, applause and PA, so pitch and loudness are indicative only, and
+nothing here supports claims about emotion, sincerity or audience reaction.
 
-证据：`03_speeches/communication_analysis_talarico.md`、`03_speeches/communication_analysis_paxton.md`。两份文件均明确标注**韵律（语速、音高、停顿）为 `unknown`（未查明）**——未对任何音频进行分析——因此本档案任何位置都不对表达方式作出断言。
+证据：`03_speeches/communication_analysis_talarico.md`、`03_speeches/communication_analysis_paxton.md`。两份文件撰写时尚无任何音频，因此把韵律（语速、音高、停顿）标注为 `unknown`。**该缺口现已部分补上**：`11_speech_audio/` 测量了 145 段视频的交付特征，其中 94 段属演讲类出场。演讲类中位数显示：塔拉里科说话占比 0.69、每分钟停顿 38.4 次、语速 124 词/分、基频中位数 207.8 Hz；帕克斯顿为 0.62、36.3、148 词/分、176.4 Hz。这些是**对混音的测量**，不是对交付方式的评判：集会音频含音乐、掌声与扩声，音高与响度仅为指示值，也不能据此推断情绪、真诚度或观众反应。
 
 ## 5. Policy and issue coverage by dimension / 5. 按维度统计的政策与议题覆盖
 

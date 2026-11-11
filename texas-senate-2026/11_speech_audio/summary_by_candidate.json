@@ -1,0 +1,60 @@
+{
+  "n_videos_analysed": 145,
+  "n_speech_type": 94,
+  "speech_audio_hours": 37.25,
+  "n_transcripts": 78,
+  "n_audio_copies": 93,
+  "n_plots": 93,
+  "candidates": {
+    "TALARICO": {
+      "n": 39,
+      "metric_median": {
+        "speech_ratio": 0.69,
+        "speech_ratio_n": 39,
+        "pauses_per_min": 38.4,
+        "pauses_per_min_n": 38,
+        "wpm": 124.0,
+        "wpm_n": 20,
+        "f0_median_hz": 207.8,
+        "f0_median_hz_n": 39,
+        "f0_range_semitones": 13.3,
+        "f0_range_semitones_n": 39,
+        "speech_db_std": 7.3,
+        "speech_db_std_n": 39,
+        "pause_mean_s": 0.69,
+        "pause_mean_s_n": 39,
+        "pron_i": 21.0,
+        "pron_we": 65.0,
+        "pron_you": 24.0,
+        "pron_they": 20.0,
+        "mentions_texas": 12.0,
+        "words": 340.0
+      }
+    },
+    "PAXTON": {
+      "n": 19,
+      "metric_median": {
+        "speech_ratio": 0.62,
+        "speech_ratio_n": 19,
+        "pauses_per_min": 36.3,
+        "pauses_per_min_n": 18,
+        "wpm": 148.0,
+        "wpm_n": 12,
+        "f0_median_hz": 176.4,
+        "f0_median_hz_n": 19,
+        "f0_range_semitones": 14.0,
+        "f0_range_semitones_n": 19,
+        "speech_db_std": 6.4,
+        "speech_db_std_n": 19,
+        "pause_mean_s": 0.88,
+        "pause_mean_s_n": 19,
+        "pron_i": 54.0,
+        "pron_we": 54.0,
+        "pron_you": 58.0,
+        "pron_they": 25.0,
+        "mentions_texas": 24.0,
+        "words": 470.0
+      }
+    }
+  }
+}

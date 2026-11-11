@@ -284,10 +284,16 @@ one Wikimedia file was a **different Ken Paxton** ("Lawton, OK", 1986) and was r
 
     **付费墙后的核心报道**（《纽约时报》《华盛顿邮报》《华尔街日报》Politico、《达拉斯晨报》）仅贡献标题级事实。
 34. **Verbatim quotation limits.** Every quotation in this archive comes from printed
-    text. **Nothing was verified against audio or video**, so all prosody fields (pace,
-    pitch, pauses, emphasis) are `unknown` across both communication analyses.
+    text. **No quotation was checked word-by-word against the audio**, so a quotation's
+    wording still rests on the outlet that printed it. Prosody is no longer blank:
+    `11_speech_audio/delivery_metrics.csv` measures speech share, pause structure,
+    caption-derived rate and indicative F0 for 145 videos, and
+    `11_speech_audio/transcripts/` holds 78 timed caption transcripts (27 Talarico-only,
+    21 Paxton-only, 30 two-candidate) that can be used to spot-check wording. What stays
+    absent: word-level verification of every quote, emphasis/stress annotation, and any
+    inference about emotion or sincerity — the measurements cannot support those.
 
-    **引语逐字性问题。** 本档案中每一句引语都来自文字文本。**没有任何内容与音频或视频核对过**，因此两篇传播分析中的全部韵律字段（语速、音高、停顿、重音）均为 `unknown`（未查明）。
+    **引语逐字性问题。** 本档案中每一句引语都来自文字文本，**没有逐字与音频核对**，因此引语措辞仍取决于刊出它的媒体。韵律不再是空白：`11_speech_audio/delivery_metrics.csv` 测量了 145 段视频的说话占比、停顿结构、由字幕推算的语速与仅作指示的基频；`11_speech_audio/transcripts/` 存有 78 份带时间码的字幕逐字稿（27 份塔拉里科专属、21 份帕克斯顿专属、30 份双人），可用于抽查措辞。仍然缺的是：每句引语逐字核验、重音标注，以及任何关于情绪或真诚度的推断——现有测量无法支持这类推断。
 35. **Timestamps** for speech quotations are largely unavailable; `speech_archive.csv`
     uses `unknown` on many rows rather than inventing timecodes.
 

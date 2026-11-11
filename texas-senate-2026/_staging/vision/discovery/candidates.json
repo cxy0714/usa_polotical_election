@@ -1,0 +1,7441 @@
+[
+  {
+    "video_id": "tBuHy4Wan7E",
+    "title": "James Talarico SHUTS DOWN Ken Paxton LIVE ON AIR",
+    "channel": "James Talarico",
+    "duration": 1312.0,
+    "views": 949070,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 13.0
+  },
+  {
+    "video_id": "4k88mIFdTK4",
+    "title": "James Talarico delivers PERFECT RESPONSE to Ken Paxton's attacks",
+    "channel": "James Talarico",
+    "duration": 1430.0,
+    "views": 580359,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 13.0
+  },
+  {
+    "video_id": "EbcVUjFRpxc",
+    "title": "James Talarico CHALLENGES Ken Paxton to 3 Debates LIVE ON AIR",
+    "channel": "James Talarico",
+    "duration": 495.0,
+    "views": 466713,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 13.0
+  },
+  {
+    "video_id": "TUMqxK7OzUw",
+    "title": "James Talarico EXPOSES Ken Paxton LIVE ON STAGE",
+    "channel": "James Talarico",
+    "duration": 3427.0,
+    "views": 274116,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 13.0
+  },
+  {
+    "video_id": "pZVUoNauuEU",
+    "title": "James Talarico Calls Ken Paxton",
+    "channel": "James Talarico",
+    "duration": 40.0,
+    "views": 1145483,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 12.0
+  },
+  {
+    "video_id": "cFJaM54q39E",
+    "title": "James Talarico EXPOSES Ken Paxton’s Record",
+    "channel": "James Talarico",
+    "duration": 1085.0,
+    "views": 661136,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 12.0
+  },
+  {
+    "video_id": "etkbx4itBUI",
+    "title": "Victory Party LIVE: James Talarico for US Senate",
+    "channel": "James Talarico",
+    "duration": 6655.0,
+    "views": 460787,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 12.0
+  },
+  {
+    "video_id": "iEB7l5NDQos",
+    "title": "New poll shows James Talarico leading Ken Paxton by 6 percentage points in Senate race",
+    "channel": "ABC13 Houston",
+    "duration": 190.0,
+    "views": 324143,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 12.0
+  },
+  {
+    "video_id": "VfuU7Qy5bW0",
+    "title": "James Talarico delivers Democratic primary victory speech",
+    "channel": "James Talarico",
+    "duration": 668.0,
+    "views": 293336,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 12.0
+  },
+  {
+    "video_id": "FUSyVVIpgug",
+    "title": "How Talarico and Paxton supporters reacted to Texas election results",
+    "channel": "USA TODAY",
+    "duration": 254.0,
+    "views": 228298,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 12.0
+  },
+  {
+    "video_id": "ezPKVpfjMGE",
+    "title": "James Talarico Delivers Election Night Victory Speech",
+    "channel": "James Talarico",
+    "duration": 1493.0,
+    "views": 192312,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 11.92
+  },
+  {
+    "video_id": "1n-pbdJf4B0",
+    "title": "James Talarico full remarks at Democratic primary election night watch party",
+    "channel": "James Talarico",
+    "duration": 169.0,
+    "views": 172774,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 11.73
+  },
+  {
+    "video_id": "4reG6UMsGuk",
+    "title": "Texans Leave Voicemails for Ken Paxton and James Talarico",
+    "channel": "James Talarico",
+    "duration": 69.0,
+    "views": 160665,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.61
+  },
+  {
+    "video_id": "hZXByZ8c4PU",
+    "title": "Full interview: James Talarico on Texas Senate race, Ken Paxton and more",
+    "channel": "CBS News",
+    "duration": 915.0,
+    "views": 146243,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 11.46
+  },
+  {
+    "video_id": "83pOVOCMjH0",
+    "title": "'It feels like I'm taking away part of myself:' North Texas voters on Paxton-Talarico Senate race",
+    "channel": "The Dallas Morning News",
+    "duration": 458.0,
+    "views": 135497,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 11.35
+  },
+  {
+    "video_id": "ajINMbVvxW0",
+    "title": "Talarico leads Paxton in Texas Senate race, Marist poll shows",
+    "channel": "CBS News",
+    "duration": 345.0,
+    "views": 121845,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 11.22
+  },
+  {
+    "video_id": "AWOtbRQoYhc",
+    "title": "Watch - Ken Paxton Delivers Remarks: James Talarico Sold Us Out To China",
+    "channel": "Ken Paxton for Senate",
+    "duration": 754.0,
+    "views": 16575,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.17
+  },
+  {
+    "video_id": "uKFhoKvxYzA",
+    "title": "Texas voters explain why they're choosing Talarico or Paxton",
+    "channel": "CBS Mornings",
+    "duration": 163.0,
+    "views": 114894,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 11.15
+  },
+  {
+    "video_id": "6OEGm8DHIoM",
+    "title": "FULL VIDEO: Ken Paxton speaks about loss to James Talarico in US Senate race",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 112.0,
+    "views": 12058,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.12
+  },
+  {
+    "video_id": "aDq1dsAybT0",
+    "title": "Trump urges Paxton-Talarico debate as Texas Senate race deadlocked",
+    "channel": "CBS19",
+    "duration": 172.0,
+    "views": 107491,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "debate",
+    "score": 11.07
+  },
+  {
+    "video_id": "fDKCD7CThLA",
+    "title": "Gina Hinojosa beats Greg Abbott and James Talarico defeats Ken Paxton in Texas, CBS News projects",
+    "channel": "CBS News",
+    "duration": 377.0,
+    "views": 105733,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 11.06
+  },
+  {
+    "video_id": "gj_VARdubh4",
+    "title": "FULL VIDEO: Ken Paxton speaks about loss to James Talarico in US Senate race",
+    "channel": "FOX 26 Houston",
+    "duration": 112.0,
+    "views": 3584,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.04
+  },
+  {
+    "video_id": "kCgH7PmeeCk",
+    "title": "LIVE: Democrats James Talarico defeats Ken Paxton to win Texas U.S. Senate seat",
+    "channel": "KWTX News10",
+    "duration": 2095.0,
+    "views": 2502,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 11.03
+  },
+  {
+    "video_id": "6mAPHKHFtKQ",
+    "title": "James Talarico fires up 3,000 Texans at HUGE rally",
+    "channel": "James Talarico",
+    "duration": 752.0,
+    "views": 514338,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.0
+  },
+  {
+    "video_id": "lLB8jNEzJSg",
+    "title": "Ken Paxton Hit With TERRIBLE NEWS in Texas Senate Race",
+    "channel": "James Talarico",
+    "duration": 530.0,
+    "views": 411731,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 11.0
+  },
+  {
+    "video_id": "GHTdFeZkNA0",
+    "title": "James Talarico PACKS VENUE in deep-red Texas",
+    "channel": "James Talarico",
+    "duration": 1006.0,
+    "views": 368946,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.0
+  },
+  {
+    "video_id": "S341PHgiAi4",
+    "title": "James Talarico Unveils Plan For Black Voters",
+    "channel": "James Talarico",
+    "duration": 2502.0,
+    "views": 349618,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 11.0
+  },
+  {
+    "video_id": "5QmO_-Z3CfI",
+    "title": "James Talarico’s Lays Out VISION for Texas’ Future",
+    "channel": "James Talarico",
+    "duration": 970.0,
+    "views": 289476,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.0
+  },
+  {
+    "video_id": "4ynVi514qAg",
+    "title": "James Talarico’s Message to Elon Musk: “Texas Is NOT for Sale”",
+    "channel": "James Talarico",
+    "duration": 1493.0,
+    "views": 281412,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 11.0
+  },
+  {
+    "video_id": "Di0ACC-Er4M",
+    "title": "James Talarico launches his campaign for the U.S. Senate",
+    "channel": "James Talarico",
+    "duration": 470.0,
+    "views": 200454,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 11.0
+  },
+  {
+    "video_id": "aZqbUmYTMEY",
+    "title": "Texas voters reveal TOP issues in critical Paxton-Talarico US Senate race",
+    "channel": "Fox News Clips",
+    "duration": 359.0,
+    "views": 74884,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.75
+  },
+  {
+    "video_id": "_XWr4RRBpCY",
+    "title": "Paxton's Former “Top Cop” Endorses James Talarico",
+    "channel": "James Talarico",
+    "duration": 60.0,
+    "views": 74261,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.74
+  },
+  {
+    "video_id": "R5bLhWmM07A",
+    "title": "Talarico and Paxton hold dueling rallies in Texas",
+    "channel": "CBS Evening News",
+    "duration": 130.0,
+    "views": 73914,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.74
+  },
+  {
+    "video_id": "XDHGe0Upouo",
+    "title": "James Talarico Joins Bobby Pulido to UNITE Texas",
+    "channel": "James Talarico",
+    "duration": 562.0,
+    "views": 170019,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.7
+  },
+  {
+    "video_id": "WwTXGDB208Q",
+    "title": "Can James Talarico convert Republican voters against Ken Paxton in Texas?",
+    "channel": "CBS News",
+    "duration": 313.0,
+    "views": 68728,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.69
+  },
+  {
+    "video_id": "sVgkETyyuPg",
+    "title": "James Talarico leading Ken Paxton in Texas, new poll shows",
+    "channel": "CBS News",
+    "duration": 241.0,
+    "views": 64173,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.64
+  },
+  {
+    "video_id": "CrnA_Q7YtiI",
+    "title": "'VERY STRANGE time to disappear': Paxton SLAMS Talarico over campaign absence",
+    "channel": "Fox News Clips",
+    "duration": 792.0,
+    "views": 52898,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.53
+  },
+  {
+    "video_id": "_CJ4vUJalwc",
+    "title": "James Talarico Gives ELECTRIFYING Speech in San Antonio",
+    "channel": "James Talarico",
+    "duration": 1591.0,
+    "views": 147170,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.47
+  },
+  {
+    "video_id": "drPQz4NGq9k",
+    "title": "Sizing up the Paxton-Talarico Texas Senate race as early voting gets started",
+    "channel": "CBS TEXAS",
+    "duration": 161.0,
+    "views": 42647,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 10.43
+  },
+  {
+    "video_id": "PgH7p00Q-6M",
+    "title": "Paxton supporters react to loss to Talarico in Texas Senate race",
+    "channel": "CBS TEXAS",
+    "duration": 94.0,
+    "views": 41232,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.41
+  },
+  {
+    "video_id": "UxqbmOVx2Ng",
+    "title": "Texas Senate race tests GOP brand as Talarico, Paxton face off",
+    "channel": "CBS TEXAS",
+    "duration": 170.0,
+    "views": 40313,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 10.4
+  },
+  {
+    "video_id": "5lPm8UKbYqE",
+    "title": "Texas GOP chair on toss-up Senate race between James Talarico and Ken Paxton",
+    "channel": "CBS News",
+    "duration": 455.0,
+    "views": 39357,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 10.39
+  },
+  {
+    "video_id": "CamYITDOLDE",
+    "title": "James Talarico Accepts Texas US Senate Nomination",
+    "channel": "James Talarico",
+    "duration": 1169.0,
+    "views": 136447,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 10.36
+  },
+  {
+    "video_id": "ORG-hZ9n6pU",
+    "title": "Trump expresses concern in Texas midterms, pushes for Paxton in tight Senate race against Talarico",
+    "channel": "CBS TEXAS",
+    "duration": 716.0,
+    "views": 35339,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 10.35
+  },
+  {
+    "video_id": "kjcmyASsW-4",
+    "title": "What James Talarico and Ken Paxton are saying about each other in \"toss up\" Texas Senate race",
+    "channel": "CBS TEXAS",
+    "duration": 469.0,
+    "views": 31197,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 10.31
+  },
+  {
+    "video_id": "9kMA6wlXViQ",
+    "title": "Super PAC spending increases for both Paxton and Talarico in tight Texas Senate race",
+    "channel": "CBS TEXAS",
+    "duration": 332.0,
+    "views": 30875,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.31
+  },
+  {
+    "video_id": "1dTE48BFV5g",
+    "title": "New poll shows Talarico, Paxton essentially tied in Texas as Democrats, Republicans weigh midterms",
+    "channel": "CBS News",
+    "duration": 321.0,
+    "views": 28481,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.28
+  },
+  {
+    "video_id": "RW4Xug6fziI",
+    "title": "CBS News poll shows a Texas toss-up with Talarico, Paxton in tight Senate race",
+    "channel": "Face the Nation and CBS News",
+    "duration": 192.0,
+    "views": 27752,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.28
+  },
+  {
+    "video_id": "x5sJnTD4khQ",
+    "title": "Ken Paxton needs to debate James Talarico, Texas Republican says",
+    "channel": "NewsNation",
+    "duration": 707.0,
+    "views": 27730,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 10.28
+  },
+  {
+    "video_id": "vDR5SgTvMOs",
+    "title": "Ken Paxton or James Talarico? In Texas election, voters on each side feel hope and fear",
+    "channel": "USA TODAY",
+    "duration": 440.0,
+    "views": 23337,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.23
+  },
+  {
+    "video_id": "2E8jb68eVnY",
+    "title": "Is Texas Flippable? Here’s What The Latest Paxton-Talarico Poll Says",
+    "channel": "Forbes Breaking News",
+    "duration": 678.0,
+    "views": 23217,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.23
+  },
+  {
+    "video_id": "h0TvP-grFZM",
+    "title": "Paxton, Talarico make final campaign push as early voting begins",
+    "channel": "CBS19",
+    "duration": 142.0,
+    "views": 22929,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.23
+  },
+  {
+    "video_id": "MSH_YUQcv28",
+    "title": "Can $51 million in GOP ads help Ken Paxton beat James Talarico in Texas?",
+    "channel": "CBS TEXAS",
+    "duration": 1000.0,
+    "views": 20852,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 10.21
+  },
+  {
+    "video_id": "9-ff7RacRjQ",
+    "title": "James Talarico holds sizeable lead over Ken Paxton in race for Texas Senate",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 96.0,
+    "views": 19485,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.19
+  },
+  {
+    "video_id": "0vuqwyCPEGA",
+    "title": "​Texas Attorney General, U.S. Senate candidate Ken Paxton criticizes James Talarico in speech",
+    "channel": "CBS19",
+    "duration": 611.0,
+    "views": 18785,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.19
+  },
+  {
+    "video_id": "MGbyIZ_RS4g",
+    "title": "Paxton, Talarico release attack ads as general election matchup set",
+    "channel": "CBS TEXAS",
+    "duration": 94.0,
+    "views": 18651,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "ad",
+    "score": 10.19
+  },
+  {
+    "video_id": "1KfN9J3QJHc",
+    "title": "James Talarico makes his case in Texas Senate race against Paxton",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 273.0,
+    "views": 17478,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.17
+  },
+  {
+    "video_id": "mYUsTPv-EtM",
+    "title": "Talarico, Paxton others visiting EP ahead of midterms",
+    "channel": "KTSM 9 NEWS",
+    "duration": 174.0,
+    "views": 16781,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.17
+  },
+  {
+    "video_id": "Atj03AXtV8U",
+    "title": "James Talarico Condemns Christian Nationalism at the Texas Democratic Convention",
+    "channel": "James Talarico",
+    "duration": 208.0,
+    "views": 115553,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 10.16
+  },
+  {
+    "video_id": "uJd1L5Ai2As",
+    "title": "James Talarico revs up general election campaign in SA after Paxton secures GOP Senate nomination",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 180.0,
+    "views": 16420,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 10.16
+  },
+  {
+    "video_id": "hhgYQq9VzSY",
+    "title": "Republicans, Democrats push to motivate voters in Texas Senate race between Talarico and Paxton",
+    "channel": "CBS TEXAS",
+    "duration": 200.0,
+    "views": 14757,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.15
+  },
+  {
+    "video_id": "JWAECgb0vXo",
+    "title": "Talarico holds narrow lead over Paxton in Texas Senate race, UH poll finds",
+    "channel": "CBS19",
+    "duration": 85.0,
+    "views": 14647,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.15
+  },
+  {
+    "video_id": "lj1CnjPgnvY",
+    "title": "Top Pollster Reveals Who Is Winning Between Paxton And Talarico In Latest Poll In Texas Race",
+    "channel": "Forbes Breaking News",
+    "duration": 156.0,
+    "views": 13745,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.14
+  },
+  {
+    "video_id": "ba1S-s4QCeI",
+    "title": "What challenges await James Talarico and Ken Paxton in Texas Senate election",
+    "channel": "CBS News",
+    "duration": 245.0,
+    "views": 12719,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 10.13
+  },
+  {
+    "video_id": "n3E8OYdjApY",
+    "title": "'His actual words': Paxton defends ads about Dem senate opponent Talarico",
+    "channel": "Newsmax",
+    "duration": 393.0,
+    "views": 12105,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 10.12
+  },
+  {
+    "video_id": "2tyO6xv-rVA",
+    "title": "Republican Senate candidate Ken Paxton rallies in Texas amid challenge from Democrat James Talarico",
+    "channel": "AP Archive",
+    "duration": 155.0,
+    "views": 11951,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 10.12
+  },
+  {
+    "video_id": "raJtXQmqnTA",
+    "title": "BREAKING NEWS: Ken Paxton Savages 'Vegan' James Talarico At Get Out The Vote Rally In Fort Worth",
+    "channel": "Forbes Breaking News",
+    "duration": 1065.0,
+    "views": 11267,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.11
+  },
+  {
+    "video_id": "0LFki8aA1lk",
+    "title": "Paxton And Talarico Neck-And-Neck In Tight Texas Senate Race: New Poll",
+    "channel": "Forbes Breaking News",
+    "duration": 554.0,
+    "views": 11151,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.11
+  },
+  {
+    "video_id": "fXhxqZWPIvs",
+    "title": "Poll shows tight Texas Senate race as Talarico leads Paxton",
+    "channel": "CBS19",
+    "duration": 61.0,
+    "views": 9862,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.1
+  },
+  {
+    "video_id": "CHLZ_ymsXTA",
+    "title": "Senate candidates Paxton and Talarico propose different plans to help Texans with affordability",
+    "channel": "CBS TEXAS",
+    "duration": 342.0,
+    "views": 9353,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 10.09
+  },
+  {
+    "video_id": "PNUUDNuG2us",
+    "title": "New poll shows James Talarico leading Ken Paxton in Texas Senate race",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 30.0,
+    "views": 9149,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.09
+  },
+  {
+    "video_id": "0lD4eJd87_M",
+    "title": "CBS News poll: Talarico-Paxton Senate race is a Texas toss-up",
+    "channel": "CBS TEXAS",
+    "duration": 89.0,
+    "views": 8822,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.09
+  },
+  {
+    "video_id": "J5U_hYn5NSU",
+    "title": "Paxton, Talarico campaign across Texas as early voting begins Monday",
+    "channel": "CBS19",
+    "duration": 72.0,
+    "views": 8801,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.09
+  },
+  {
+    "video_id": "-kK6UPqlhhI",
+    "title": "Senate debate between Paxton and Talarico appears increasingly unlikely",
+    "channel": "CBS19",
+    "duration": 107.0,
+    "views": 8299,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 10.08
+  },
+  {
+    "video_id": "MZHhvDzmips",
+    "title": "Texas Senate race between Paxton, Talarico draws national attention",
+    "channel": "CBS TEXAS",
+    "duration": 150.0,
+    "views": 7281,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 10.07
+  },
+  {
+    "video_id": "3TY3GWSrSIc",
+    "title": "In tight Texas Senate race, Talarico and Paxton clash over affordability",
+    "channel": "CBS TEXAS",
+    "duration": 187.0,
+    "views": 7102,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 10.07
+  },
+  {
+    "video_id": "NjjrhccCg5o",
+    "title": "Paxton vs. Talarico: Political science expert explains what's at stake in 2026 Texas Senate race",
+    "channel": "CBS TEXAS",
+    "duration": 699.0,
+    "views": 7042,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.07
+  },
+  {
+    "video_id": "AHN7ftYCqjU",
+    "title": "Watch - President Trump urges Texas to Vote for Ken Paxton",
+    "channel": "Ken Paxton for Senate",
+    "duration": 173.0,
+    "views": 6155,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.06
+  },
+  {
+    "video_id": "hr2jmX1Gs-Y",
+    "title": "Talarico, Paxton discuss border security at campaign stops in \"critically important\" South Texas",
+    "channel": "CBS TEXAS",
+    "duration": 311.0,
+    "views": 5702,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.06
+  },
+  {
+    "video_id": "CsuL_N6eR3M",
+    "title": "James Talarico, Ken Paxton rally San Antonio voters as midterms approach",
+    "channel": "News 4 (WOAI) San Antonio",
+    "duration": 202.0,
+    "views": 5692,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.06
+  },
+  {
+    "video_id": "D2B_Edu3EIw",
+    "title": "Ken Paxton speech after Texas election win thanks Donald Trump, labels James Talarico a 'threat'",
+    "channel": "USA TODAY",
+    "duration": 534.0,
+    "views": 5302,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.05
+  },
+  {
+    "video_id": "rZZ6lAUuLGQ",
+    "title": "Ken Paxton, James Talarico agree to televised Texas U.S. Senate debate",
+    "channel": "CBS TEXAS",
+    "duration": 32.0,
+    "views": 5077,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "debate",
+    "score": 10.05
+  },
+  {
+    "video_id": "r08AxsHMJ8k",
+    "title": "Ken Paxton addresses supporters after losing U.S. Senate race to James Talarico",
+    "channel": "KWTX News10",
+    "duration": 114.0,
+    "views": 4477,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.04
+  },
+  {
+    "video_id": "sIwAf4nEH78",
+    "title": "Ken Paxton RNC speech contrasts campaign with James Talarico and boasts of Donald Trump endorsement",
+    "channel": "USA TODAY",
+    "duration": 384.0,
+    "views": 4365,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 10.04
+  },
+  {
+    "video_id": "6_CfM0pDZn4",
+    "title": "Talarico leads Paxton in latest Texas Senate race poll",
+    "channel": "KETK NBC",
+    "duration": 38.0,
+    "views": 4083,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.04
+  },
+  {
+    "video_id": "wPBPdLYYfVQ",
+    "title": "Polls tighten in Texas Senate primary between Paxton and Cornyn, Talarico and Crockett",
+    "channel": "CBS TEXAS",
+    "duration": 202.0,
+    "views": 4001,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.04
+  },
+  {
+    "video_id": "nKDCUz_fwik",
+    "title": "Ken Paxton holds rally in Selma; James Talarico casts his vote",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 41.0,
+    "views": 3635,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.04
+  },
+  {
+    "video_id": "jSdjdKaqKMQ",
+    "title": "Could Texas Flip Blue If Ken Paxton Is The Republican Senate Nominee Against James Talarico?",
+    "channel": "Forbes Breaking News",
+    "duration": 130.0,
+    "views": 3493,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.03
+  },
+  {
+    "video_id": "ZGg8TYQnI4E",
+    "title": "Ken Paxton targets James Talarico in scathing new campaign ad as Texas campaign intensifies",
+    "channel": "News24",
+    "duration": 239.0,
+    "views": 2635,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 10.03
+  },
+  {
+    "video_id": "CcY8auEsbj4",
+    "title": "Democrats in Austin waiting for James Talarico as he leads Texas Senate race against Ken Paxton",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 88.0,
+    "views": 2139,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.02
+  },
+  {
+    "video_id": "qy3GI-728yw",
+    "title": "Watch - Ken Paxton Speaks in Parker County on the Protecting the Texas Promise Tour",
+    "channel": "Ken Paxton for Senate",
+    "duration": 1249.0,
+    "views": 1906,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 10.02
+  },
+  {
+    "video_id": "OZmlQ4xPF2k",
+    "title": "Paxton agrees to debate with Talarico as Texas Senate race intensifies",
+    "channel": "CBS19",
+    "duration": 54.0,
+    "views": 1883,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 10.02
+  },
+  {
+    "video_id": "LV0sbGua7ro",
+    "title": "Texas Senate race deadlocked with Paxton and Talarico tied at 49% in new poll",
+    "channel": "CBS19",
+    "duration": 74.0,
+    "views": 1819,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.02
+  },
+  {
+    "video_id": "MtR4fLsIXP4",
+    "title": "Paxton for Senate new ad “Hypocrite”",
+    "channel": "Ken Paxton for Senate",
+    "duration": 31.0,
+    "views": 101270,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 10.01
+  },
+  {
+    "video_id": "Xgkb_EJ0F1Q",
+    "title": "New Texas poll shows Paxton ahead of Talarico in tight Senate race",
+    "channel": "KETK NBC",
+    "duration": 50.0,
+    "views": 1360,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.01
+  },
+  {
+    "video_id": "FCFAiTkiECM",
+    "title": "What's at stake in the Texas Senate race between James Talarico and Ken Paxton?",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 84.0,
+    "views": 915,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.01
+  },
+  {
+    "video_id": "Blph_2RSBno",
+    "title": "James Talarico Delivers Sermon Against Christian Nationalism",
+    "channel": "James Talarico",
+    "duration": 1127.0,
+    "views": 2400742,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.0
+  },
+  {
+    "video_id": "Z3ugTB9IaYA",
+    "title": "James Talarico on Texas Senate Race, Ken Paxton, Jasmine Crockett, Black Voters & Businesses + More",
+    "channel": "Breakfast Club Power 105.1 FM",
+    "duration": 3764.0,
+    "views": 661168,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.0
+  },
+  {
+    "video_id": "m7BAUXTiJVY",
+    "title": "LIVE: James Talarico speaks after winning the Texas Senate election",
+    "channel": "Associated Press",
+    "duration": 1181.0,
+    "views": 659789,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.0
+  },
+  {
+    "video_id": "ib8W9kBcaJU",
+    "title": "LIVE: James Talarico & Mark Cuban on Policy and Culture",
+    "channel": "James Talarico and Raging Moderates",
+    "duration": 2697.0,
+    "views": 353103,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.0
+  },
+  {
+    "video_id": "a4gD6UWdo4g",
+    "title": "James Talarico releases devastating ad against Ken Paxton",
+    "channel": "Brian Tyler Cohen News",
+    "duration": 507.0,
+    "views": 318401,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "ad",
+    "score": 10.0
+  },
+  {
+    "video_id": "AOklW9PYZvY",
+    "title": "James Talarico holds midterm rally following call on Paxton to return taxpayer funds",
+    "channel": "MS NOW",
+    "duration": 1687.0,
+    "views": 214026,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.0
+  },
+  {
+    "video_id": "_4AbnkHuDaU",
+    "title": "WATCH: Democrat James Talarico speaks after winning Texas Senate seat",
+    "channel": "PBS NewsHour",
+    "duration": 1182.0,
+    "views": 213599,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.0
+  },
+  {
+    "video_id": "9yqrlcZo5AU",
+    "title": "WATCH LIVE: Democrat James Talarico speaks after winning Texas Senate seat",
+    "channel": "PBS NewsHour",
+    "duration": 1203.0,
+    "views": 206576,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 10.0
+  },
+  {
+    "video_id": "hy7xtatQWPg",
+    "title": "Ken Paxton ROCKED As GOP Texas Senator Gives Surprise Gift To James Talarico",
+    "channel": "The Damage Report",
+    "duration": 495.0,
+    "views": 202279,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 10.0
+  },
+  {
+    "video_id": "FQFSgvAq4E4",
+    "title": "Texas Senate candidates Paxton, Talarico bring statewide tours to East Texas",
+    "channel": "CBS19",
+    "duration": 45.0,
+    "views": 384,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 10.0
+  },
+  {
+    "video_id": "Thc4V8mJYGg",
+    "title": "Paxton, Talarico set for Texas Senate race as campaigns target undecided voters",
+    "channel": "CBS19",
+    "duration": 83.0,
+    "views": 156,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 10.0
+  },
+  {
+    "video_id": "Y36GLIJQr9w",
+    "title": "James Talarico Delivers POWERFUL Message in Houston",
+    "channel": "James Talarico",
+    "duration": 246.0,
+    "views": 190838,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.91
+  },
+  {
+    "video_id": "IpZ3Hqt2j8I",
+    "title": "Paxton said he’d debate Talarico. Now, his campaign has gone silent.",
+    "channel": "WFAA",
+    "duration": 96.0,
+    "views": 163379,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "debate",
+    "score": 9.63
+  },
+  {
+    "video_id": "KhBgmiCE0kg",
+    "title": "‘I’m asking for proof of spine from him’: Talarico challenges Paxton to debate",
+    "channel": "NBC News",
+    "duration": 319.0,
+    "views": 156297,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "debate",
+    "score": 9.56
+  },
+  {
+    "video_id": "H9jhKwftCiA",
+    "title": "James Talarico fires up 5,000 Texans at HUGE Stop ICE Rally",
+    "channel": "James Talarico",
+    "duration": 447.0,
+    "views": 55747,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.56
+  },
+  {
+    "video_id": "1_KTIl1zJIM",
+    "title": "Ablaze - Radical James Talarico is Anti-Texas",
+    "channel": "Ken Paxton for Senate",
+    "duration": 31.0,
+    "views": 29194,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.29
+  },
+  {
+    "video_id": "WLDE9LrGpNk",
+    "title": "Jimmy Kimmel’s Interview with James Talarico That the FCC Doesn’t Want You To See",
+    "channel": "Jimmy Kimmel Live and James Talarico",
+    "duration": 1262.0,
+    "views": 16471530,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 9.0
+  },
+  {
+    "video_id": "tweubjhuaPo",
+    "title": "Texas voters debate Talarico on abortion, Israel, voter ID & more",
+    "channel": "CNN and Jubilee",
+    "duration": 1009.0,
+    "views": 2764556,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "debate",
+    "score": 9.0
+  },
+  {
+    "video_id": "FpIN6tYC5XM",
+    "title": "James Talarico: Here Is How They Designed The System To Keep You Poor!",
+    "channel": "The Diary Of A CEO and James Talarico",
+    "duration": 5808.0,
+    "views": 1836753,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "pZ9GQ3HH6HE",
+    "title": "Another prominent Texas Republican backs Democrat James Talarico",
+    "channel": "CNN",
+    "duration": 482.0,
+    "views": 1472800,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "VnurpLQd4c0",
+    "title": "James Talarico Debates Texas Voters: Jubilee x CNN Townhall",
+    "channel": "Jubilee and CNN",
+    "duration": 4999.0,
+    "views": 1332671,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 9.0
+  },
+  {
+    "video_id": "7mfPysnaiyA",
+    "title": "Enten on Talarico's 'historically good' TX lead 1 day before midterms",
+    "channel": "CNN",
+    "duration": 739.0,
+    "views": 990187,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "CDV-hx4noNU",
+    "title": "Dems Talarico & Hinojosa win in Texas, CNN projects",
+    "channel": "CNN",
+    "duration": 606.0,
+    "views": 964616,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "A_PvIuletbc",
+    "title": "Texas Senator-Elect Talarico tells CNN what he's surprised by",
+    "channel": "CNN",
+    "duration": 620.0,
+    "views": 734371,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "i-2A6-JdFgg",
+    "title": "Ken Paxton EXPOSED on House Hunters",
+    "channel": "James Talarico",
+    "duration": 47.0,
+    "views": 650767,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "8aHhIOBLPwM",
+    "title": "BREAKING: Dems FLIP Texas as Talarico wins Senate, Abbott loses governor race",
+    "channel": "Fox News",
+    "duration": 493.0,
+    "views": 600686,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "ZxIihSkhcOE",
+    "title": "Staunch TX Republican breaks with GOP to vote for Talarico",
+    "channel": "CNN",
+    "duration": 937.0,
+    "views": 510179,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "MDdeFLNrPD0",
+    "title": "State Fair Classic Crowd is FIRED UP for James Talarico",
+    "channel": "James Talarico",
+    "duration": 271.0,
+    "views": 455450,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "Qm4gcgdbRJ0",
+    "title": "Talarico, Hinojosa celebrate historic Texas wins at Whataburger",
+    "channel": "CBS TEXAS",
+    "duration": 160.0,
+    "views": 431620,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "GK24thp_2Qo",
+    "title": "A New American Dream: James Talarico's Full Policy Address",
+    "channel": "James Talarico",
+    "duration": 1673.0,
+    "views": 399760,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "ao3BmA1pt54",
+    "title": "A conversation with Rep. James Talarico: The aspiring preacher making a name in Texas politics",
+    "channel": "Austin PBS",
+    "duration": 2080.0,
+    "views": 384097,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "jvfxHiRCxZo",
+    "title": "Ken Paxton 'dragging down the entire ticket' as election forecaster shifts Texas away from GOP",
+    "channel": "NBC News",
+    "duration": 961.0,
+    "views": 367853,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "QlHVxUMasu0",
+    "title": "Ken Paxton Steals Pens",
+    "channel": "James Talarico",
+    "duration": 61.0,
+    "views": 330707,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "VI2ibRQVH9o",
+    "title": "BREAKING: Ken Paxton defeats John Cornyn in Texas GOP Senate runoff, AP projects",
+    "channel": "Fox News Clips",
+    "duration": 301.0,
+    "views": 312069,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "eE__2uvEVqE",
+    "title": "Texas Republican ex-judge explains his vote for Talarico",
+    "channel": "CNN",
+    "duration": 658.0,
+    "views": 257905,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 9.0
+  },
+  {
+    "video_id": "5QHcWMUNqO8",
+    "title": "Trump & Talarico hold dueling rallies in Texas",
+    "channel": "CNN",
+    "duration": 495.0,
+    "views": 221619,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "qoxKPdOQAZg",
+    "title": "Paxton predicts Texas will 'stay a STRONG Republican state'",
+    "channel": "Fox News",
+    "duration": 403.0,
+    "views": 212123,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 9.0
+  },
+  {
+    "video_id": "RY4kBZVhAgo",
+    "title": "James Talarico SURGES as Ken Paxton Stabs His Voters in Their Backs",
+    "channel": "Rebel HQ",
+    "duration": 720.0,
+    "views": 99924,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 9.0
+  },
+  {
+    "video_id": "X6B2-8rX9Cc",
+    "title": "Ken Paxton delivers his concession speech after losing the Texas Senate race to James Talarico",
+    "channel": "The Washington Examiner",
+    "duration": 70.0,
+    "views": 393,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 9.0
+  },
+  {
+    "video_id": "Vj3hXp6DdoI",
+    "title": "LIVE: James Talarico speaks at a rally in Austin",
+    "channel": "Associated Press",
+    "duration": 1597.0,
+    "views": 98491,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.98
+  },
+  {
+    "video_id": "EogeI7sRtwU",
+    "title": "Talarico vs. Paxton: Why the Texas Senate race is so close",
+    "channel": "Vox",
+    "duration": 1369.0,
+    "views": 97666,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 8.98
+  },
+  {
+    "video_id": "dtfhGrFHdbo",
+    "title": "WATCH LIVE: James Talarico speaks to supporters on election night",
+    "channel": "CBS Austin",
+    "duration": 6878.0,
+    "views": 92637,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.93
+  },
+  {
+    "video_id": "LngXKDkxRFA",
+    "title": "As Paxton asks 'Where's James Talarico?' Trump urges Senate debate",
+    "channel": "KXAN",
+    "duration": 154.0,
+    "views": 87250,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 8.87
+  },
+  {
+    "video_id": "N7oKRMPMcXk",
+    "title": "Full interview: James Talarico on affordability, Paxton's AI ads and more",
+    "channel": "CBS News",
+    "duration": 516.0,
+    "views": 81729,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 8.82
+  },
+  {
+    "video_id": "j7n37Tvkox8",
+    "title": "Talarico's Lead Over Paxton In Texas Senate Polling Expands",
+    "channel": "The Majority Report w/ Sam Seder",
+    "duration": 824.0,
+    "views": 80114,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.8
+  },
+  {
+    "video_id": "U3tAqywYaUw",
+    "title": "Trump says Paxton should debate Talarico",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 124.0,
+    "views": 78373,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 8.78
+  },
+  {
+    "video_id": "Uarzvd9iPA8",
+    "title": "MS NOW shifts Talarico, Paxton Texas Senate race to 'TOSS-UP': ‘There is a REAL race here’",
+    "channel": "MS NOW",
+    "duration": 419.0,
+    "views": 77194,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "interview",
+    "score": 8.77
+  },
+  {
+    "video_id": "dSSVf7Ei9RM",
+    "title": "Texas Election 8:30 p.m. update: Early results come in for Paxton, Talarico",
+    "channel": "KHOU 11",
+    "duration": 304.0,
+    "views": 74317,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.74
+  },
+  {
+    "video_id": "doAzTmVf-FQ",
+    "title": "NEW: James Talarico Reveals Whether Ken Paxton Has Called Him To Concede",
+    "channel": "Forbes Breaking News",
+    "duration": 99.0,
+    "views": 68108,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 8.68
+  },
+  {
+    "video_id": "MHxjlV5VfNc",
+    "title": "Ken Paxton's Travel Records Are UNBELIEVABLE",
+    "channel": "James Talarico",
+    "duration": 48.0,
+    "views": 166661,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.67
+  },
+  {
+    "video_id": "_EorvCbDcR4",
+    "title": "Full speech: James Talarico projected winner in Texas Senate race",
+    "channel": "NBC News",
+    "duration": 1143.0,
+    "views": 65088,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.65
+  },
+  {
+    "video_id": "PFYK0czII0c",
+    "title": "Texas Senate race between Ken Paxton and James Talarico draws more than $500 million",
+    "channel": "KHOU 11",
+    "duration": 31.0,
+    "views": 62263,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 8.62
+  },
+  {
+    "video_id": "v08ENYbhdvQ",
+    "title": "BREAKING: Ken Paxton Delivers Less-Than-2-Minute Concession Speech After Losing Texas Senate Race",
+    "channel": "Forbes Breaking News",
+    "duration": 118.0,
+    "views": 61326,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 8.61
+  },
+  {
+    "video_id": "E-rU_kTRWYY",
+    "title": "Texas Senate race HEATING UP: Talarico files court motion to UNSEAL Paxton depositions",
+    "channel": "MS NOW",
+    "duration": 324.0,
+    "views": 48918,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 8.49
+  },
+  {
+    "video_id": "8rQHiGHrPes",
+    "title": "Full interview: James Talarico talks Texas Senate race, Ken Paxton, corruption and more",
+    "channel": "Face the Nation",
+    "duration": 915.0,
+    "views": 47882,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 8.48
+  },
+  {
+    "video_id": "9ao9d7zxkBQ",
+    "title": "Full interview: James Talarico discusses agenda if elected to Senate, taking on Ken Paxton and more",
+    "channel": "Face the Nation",
+    "duration": 516.0,
+    "views": 47179,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 8.47
+  },
+  {
+    "video_id": "4gAcmG6zPbE",
+    "title": "Enten: Why Trump hasn't endorsed Paxton or Cornyn yet for TX senate",
+    "channel": "CNN",
+    "duration": 558.0,
+    "views": 146336,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.46
+  },
+  {
+    "video_id": "yRhpTuKlqX4",
+    "title": "Eye on Politics: Talarico and Paxton's race in perspective",
+    "channel": "CBS TEXAS",
+    "duration": 1260.0,
+    "views": 45107,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 8.45
+  },
+  {
+    "video_id": "QBcfNspS2mE",
+    "title": "2026 Midterm Elections: Analyzing the U.S. Senate race between James Talarico and Ken Paxton",
+    "channel": "KHOU 11",
+    "duration": 131.0,
+    "views": 42421,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.42
+  },
+  {
+    "video_id": "p7Z2V7PMsqQ",
+    "title": "Ken Paxton refuses to show up to debate against James Talarico",
+    "channel": "Brian Tyler Cohen News",
+    "duration": 1706.0,
+    "views": 41620,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 8.42
+  },
+  {
+    "video_id": "qHpSEK6Bpak",
+    "title": "LIVE: Texas Democratic Senate candidate James Talarico reacts to midterm election results",
+    "channel": "Reuters",
+    "duration": 3695.0,
+    "views": 39856,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.4
+  },
+  {
+    "video_id": "jsMuhlXAxfU",
+    "title": "Talarico, Paxton trade blows while crisscrossing Texas in final days of campaign for US Senate seat",
+    "channel": "KSAT 12",
+    "duration": 146.0,
+    "views": 39231,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.39
+  },
+  {
+    "video_id": "ib4hz_WtHag",
+    "title": "James Talarico delivers victory speech after winning Texas Senate race",
+    "channel": "The Dallas Morning News",
+    "duration": 1131.0,
+    "views": 36642,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.37
+  },
+  {
+    "video_id": "f1sbycaZsTg",
+    "title": "Eye On Politics: Paxton's unanswered questions, Talarico expands outreach",
+    "channel": "CBS TEXAS",
+    "duration": 1258.0,
+    "views": 36459,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 8.36
+  },
+  {
+    "video_id": "_efNEPn-lpI",
+    "title": "WATCH LIVE: U.S. Senate candidate James Talarico makes campaign stop in Tyler during statewide tour",
+    "channel": "CBS19",
+    "duration": 4177.0,
+    "views": 35929,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 8.36
+  },
+  {
+    "video_id": "uEGvw2ap9-A",
+    "title": "State of Texas: Paxton Talarico Polling",
+    "channel": "KXAN",
+    "duration": 537.0,
+    "views": 35224,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.35
+  },
+  {
+    "video_id": "CeT3wMBASeg",
+    "title": "The tight race for Texas Senate - Paxton vs Talarico: Big money at play as calls for debate continue",
+    "channel": "WFAA",
+    "duration": 122.0,
+    "views": 34795,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "debate",
+    "score": 8.35
+  },
+  {
+    "video_id": "txVoQv_3trw",
+    "title": "Ken Paxton concedes to James Talarico in Texas U.S. Senate race",
+    "channel": "KVUE",
+    "duration": 70.0,
+    "views": 33056,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 8.33
+  },
+  {
+    "video_id": "Mlg12H0yLPU",
+    "title": "LIVE: Ken Paxton wins Texas Republican Senate primary runoff",
+    "channel": "Associated Press",
+    "duration": 2378.0,
+    "views": 32518,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.33
+  },
+  {
+    "video_id": "JFQGxqSOg9c",
+    "title": "Talarico, Crockett campaign in Lubbock as Democratic Primary draws record voters",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 217.0,
+    "views": 132458,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.32
+  },
+  {
+    "video_id": "9HusHn13x0U",
+    "title": "Texas 2026 poll: Talarico, Paxton and Abbott, Hinojosa",
+    "channel": "KHOU 11",
+    "duration": 113.0,
+    "views": 31724,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.32
+  },
+  {
+    "video_id": "TFG1FAtrDK0",
+    "title": "Texas Senate race: Talarico returns to campaign trail after illness",
+    "channel": "NBC DFW",
+    "duration": 158.0,
+    "views": 129664,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.3
+  },
+  {
+    "video_id": "eEwRgv9KkvM",
+    "title": "LIVE: Ken Paxton and John Cornyn speeches after Texas Senate primary runoff (Full)",
+    "channel": "Associated Press",
+    "duration": 1110.0,
+    "views": 29115,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.29
+  },
+  {
+    "video_id": "WSK37NGWliI",
+    "title": "Texas Election 7 p.m. update: Paxton, Talarico battle for Texas Senate seat in record-breaking race",
+    "channel": "KHOU 11",
+    "duration": 317.0,
+    "views": 26163,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.26
+  },
+  {
+    "video_id": "M7w1PJOblmA",
+    "title": "New poll shows Talarico leading Paxton in US Senate race",
+    "channel": "KVUE",
+    "duration": 72.0,
+    "views": 24331,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.24
+  },
+  {
+    "video_id": "dKz2gMuMKsc",
+    "title": "James Talarico returns to campaign trail at Austin City Limits",
+    "channel": "CBS TEXAS",
+    "duration": 178.0,
+    "views": 122365,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.22
+  },
+  {
+    "video_id": "Vv2hIZV1OTA",
+    "title": "Senate Democrat candidate James Talarico talks to community in Dallas",
+    "channel": "AP Archive",
+    "duration": 32.0,
+    "views": 121755,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.22
+  },
+  {
+    "video_id": "M5dlES_crBM",
+    "title": "Will Dems' dreams of Texas become a reality? Polling average finds Talarico has an edge over Paxton",
+    "channel": "MS NOW",
+    "duration": 219.0,
+    "views": 19878,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.2
+  },
+  {
+    "video_id": "qMuXmrBZsZc",
+    "title": "Texas Election 9 p.m. update: Talarico leads Paxton in Texas Senate race as votes continue to be cou",
+    "channel": "KHOU 11",
+    "duration": 280.0,
+    "views": 19108,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.19
+  },
+  {
+    "video_id": "NSwfbKkET3k",
+    "title": "New Texas poll: Talarico leads Paxton, Abbott and Hinojosa tied",
+    "channel": "KHOU 11",
+    "duration": 124.0,
+    "views": 17851,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.18
+  },
+  {
+    "video_id": "5iUr-IZFnX4",
+    "title": "Ken Paxton ad SLAMS “Radical Talarico” as “Too Low-T for Texas”",
+    "channel": "Jordan Conradson",
+    "duration": 60.0,
+    "views": 17751,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 8.18
+  },
+  {
+    "video_id": "suBNGU6DAsI",
+    "title": "James Talarico FAKE AI VIDEO USED By Ken Paxton In New Campaign AD - WTAF?",
+    "channel": "Dave Neal",
+    "duration": 640.0,
+    "views": 17449,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 8.17
+  },
+  {
+    "video_id": "hDXzMzg6Oe8",
+    "title": "New US Senate poll released, showing possible tight race between Paxton and Talarico",
+    "channel": "KVUE",
+    "duration": 125.0,
+    "views": 15335,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.15
+  },
+  {
+    "video_id": "aoyXZexghjg",
+    "title": "Watch - Ken Paxton joins Bret Baier at the Republican Convention",
+    "channel": "Ken Paxton for Senate",
+    "duration": 388.0,
+    "views": 14797,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 8.15
+  },
+  {
+    "video_id": "4Eec65jUzgc",
+    "title": "James Talarico jokes he’s eaten barbecue since before Ken Paxton’s first indictment",
+    "channel": "Associated Press",
+    "duration": 98.0,
+    "views": 14745,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.15
+  },
+  {
+    "video_id": "CHJD6QunwB0",
+    "title": "New Poll Shows James Talarico Leading Ken Paxton Except With Older Voters",
+    "channel": "Houston Public Media",
+    "duration": 645.0,
+    "views": 13757,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.14
+  },
+  {
+    "video_id": "fB90imr4LQ0",
+    "title": "Talarico rallies supporters in Leander as Senate race against Paxton intensifies",
+    "channel": "KVUE",
+    "duration": 156.0,
+    "views": 13117,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.13
+  },
+  {
+    "video_id": "6a9vIL0Etlw",
+    "title": "Paxton vs. Talarico: Why the Texas Senate race is gaining national attention",
+    "channel": "KHOU 11",
+    "duration": 221.0,
+    "views": 12988,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.13
+  },
+  {
+    "video_id": "a_0fBtyjGAw",
+    "title": "LIVE: James Talarico holds midterm rally in Lubbock",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 7500.0,
+    "views": 10683,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.11
+  },
+  {
+    "video_id": "pGA4dcKgv28",
+    "title": "WATCH: Ken Paxton holds campaign rally in Katy, TX",
+    "channel": "LiveNOW from FOX",
+    "duration": 1273.0,
+    "views": 10548,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.11
+  },
+  {
+    "video_id": "KO4mb86SpSU",
+    "title": "Texas Senate Race Preview: Can Talarico Beat Paxton?",
+    "channel": "Battleground Daily",
+    "duration": 753.0,
+    "views": 9905,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 8.1
+  },
+  {
+    "video_id": "dm7It_ox_ZY",
+    "title": "LIVE: Talarico, Hinojosa rally in Dallas as Texas races tighten",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 4903.0,
+    "views": 9033,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.09
+  },
+  {
+    "video_id": "J_9QtA8sjgk",
+    "title": "WATCH LIVE: James Talarico election night watch party at the Long Center",
+    "channel": "CBS Austin",
+    "duration": 5302.0,
+    "views": 8855,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.09
+  },
+  {
+    "video_id": "mRsfH_z04hk",
+    "title": "WATCH LIVE: Ken Paxton election night watch party",
+    "channel": "CBS Austin",
+    "duration": 1423.0,
+    "views": 8358,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.08
+  },
+  {
+    "video_id": "pD3jKRdC1nY",
+    "title": "WATCH: Rep. Talarico STOP ICE Rally",
+    "channel": "CBS Austin",
+    "duration": 6023.0,
+    "views": 7955,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.08
+  },
+  {
+    "video_id": "tpUSS5wOGaY",
+    "title": "US Senate race: Ken Paxton's impeachment trial attorney endorses James Talarico",
+    "channel": "KVUE",
+    "duration": 93.0,
+    "views": 7699,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.08
+  },
+  {
+    "video_id": "OHhEkaGaqRA",
+    "title": "BREAKING: Gov. Greg Abbott concedes, Talarico wins over Paxton",
+    "channel": "CBS19",
+    "duration": 651.0,
+    "views": 7639,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 8.08
+  },
+  {
+    "video_id": "4cF14ikKgBU",
+    "title": "LIVE: James Talarico holds campaign rally in San Marcos",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 3795.0,
+    "views": 7007,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.07
+  },
+  {
+    "video_id": "claU9rNov_A",
+    "title": "Final campaign push for Texas AG Ken Paxton, State Rep. James Talarico",
+    "channel": "KVUE",
+    "duration": 154.0,
+    "views": 6911,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.07
+  },
+  {
+    "video_id": "5W4WrTKzxyo",
+    "title": "LIVE: Talarico campaigns in Dallas",
+    "channel": "Reuters",
+    "duration": 3053.0,
+    "views": 6870,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.07
+  },
+  {
+    "video_id": "Y0vXI8jET9s",
+    "title": "🇺🇸 Ken Paxton For US Senate Rally in San Antonio, Texas [LIVE]",
+    "channel": "MAGNO NEWS",
+    "duration": 3087.0,
+    "views": 6198,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.06
+  },
+  {
+    "video_id": "LRqgkScXOVs",
+    "title": "LIVE:  James Talarico holds a rally in San Antonio",
+    "channel": "ABC News 4",
+    "duration": 3141.0,
+    "views": 6195,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.06
+  },
+  {
+    "video_id": "XjWyySYJCD8",
+    "title": "2026 midterms: Paxton, Talarico make final push ahead of Election Day",
+    "channel": "WFAA",
+    "duration": 236.0,
+    "views": 5107,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "final_rally",
+    "score": 8.05
+  },
+  {
+    "video_id": "6C2Ng0FkgLg",
+    "title": "LIVE: Ken Paxton holds campaign event in Corpus Christi",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 3915.0,
+    "views": 4889,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.05
+  },
+  {
+    "video_id": "ma-2faLUnO0",
+    "title": "Live with the crowd for Talarico rally at Fiesta Center (5 p.m.)",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 192.0,
+    "views": 4519,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.05
+  },
+  {
+    "video_id": "XkXs22VrERM",
+    "title": "LIVE: Ken Paxton holds campaign event in Corpus Christi",
+    "channel": "FOX 26 Houston",
+    "duration": 3921.0,
+    "views": 3910,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.04
+  },
+  {
+    "video_id": "1vCpJPTxazo",
+    "title": "James Talarico leads Ken Paxton in new U.S. Senate poll",
+    "channel": "WFAA",
+    "duration": 70.0,
+    "views": 3623,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.04
+  },
+  {
+    "video_id": "OJLE338FzPA",
+    "title": "Talarico PIVOTS on working with Trump as Texas voters head to polls",
+    "channel": "Fox News",
+    "duration": 147.0,
+    "views": 103459,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.03
+  },
+  {
+    "video_id": "8o_atiOPOrc",
+    "title": "Watch - Ken Paxton on Keeping It Real with Jillian Michaels",
+    "channel": "Ken Paxton for Senate",
+    "duration": 2099.0,
+    "views": 3222,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.03
+  },
+  {
+    "video_id": "FtJbp3AxhSQ",
+    "title": "LIVE: James Talarico holds campaign rally in San Marcos",
+    "channel": "FOX 26 Houston",
+    "duration": 3795.0,
+    "views": 3112,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.03
+  },
+  {
+    "video_id": "kag4jbVRGBw",
+    "title": "LIVE: James Talarico holds campaign rally in San Marcos",
+    "channel": "FOX 7 Austin",
+    "duration": 3800.0,
+    "views": 3064,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.03
+  },
+  {
+    "video_id": "SVE6JdA-9Zc",
+    "title": "Texas US Senate race: State Rep. Talarico leads AG Paxton in new poll",
+    "channel": "KVUE",
+    "duration": 153.0,
+    "views": 3017,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.03
+  },
+  {
+    "video_id": "Cp6af80xExw",
+    "title": "LIVE: Ken Paxton holds campaign event in Corpus Christi",
+    "channel": "FOX 7 Austin",
+    "duration": 3925.0,
+    "views": 2795,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.03
+  },
+  {
+    "video_id": "7R6cYE9MKPQ",
+    "title": "Talarico, Paxton ramp up campaign tours",
+    "channel": "KVUE",
+    "duration": 162.0,
+    "views": 2157,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 8.02
+  },
+  {
+    "video_id": "BJ9Hkv0cIro",
+    "title": "LIVE: Ken Paxton holds campaign event in Brownsville",
+    "channel": "FOX 26 Houston",
+    "duration": 1630.0,
+    "views": 1984,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.02
+  },
+  {
+    "video_id": "k7Ar9a5VDok",
+    "title": "LIVE: Ken Paxton holds campaign event in Brownsville",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 1641.0,
+    "views": 1775,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.02
+  },
+  {
+    "video_id": "mky5sersn8E",
+    "title": "LIVE: Talarico, Hinojosa rally in Dallas as Texas races tighten",
+    "channel": "FOX 7 Austin",
+    "duration": 4888.0,
+    "views": 1760,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.02
+  },
+  {
+    "video_id": "mUT71uj4Dg4",
+    "title": "LIVE: Talarico, Hinojosa rally in Dallas as Texas races tighten",
+    "channel": "FOX 26 Houston",
+    "duration": 4893.0,
+    "views": 1652,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.02
+  },
+  {
+    "video_id": "CtNU9j_L3a4",
+    "title": "WATCH LIVE: Texas AG and U.S. Senate Candidate Ken Paxton holds a campaign rally near Beaumont.",
+    "channel": "CBS Austin",
+    "duration": 2432.0,
+    "views": 1634,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.02
+  },
+  {
+    "video_id": "x8UfXvN2nmI",
+    "title": "Ken Paxton concedes Texas Senate race to James Talarico",
+    "channel": "KPRC 2 Click2Houston",
+    "duration": 110.0,
+    "views": 1596,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 8.02
+  },
+  {
+    "video_id": "BWQbv8NAslg",
+    "title": "State of Texas: Paxton vs. Talarico - balancing border security with workforce needs",
+    "channel": "KXAN",
+    "duration": 321.0,
+    "views": 1589,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.02
+  },
+  {
+    "video_id": "Xxm9Nwz8gJc",
+    "title": "Texas Senate candidate Ken Paxton delivers concession speech",
+    "channel": "25 News KXXV",
+    "duration": 117.0,
+    "views": 1467,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 8.01
+  },
+  {
+    "video_id": "qTvwJaEU_hU",
+    "title": "WATCH: Protesters DISRUPT Ken Paxton Event, Campaign Rally DESCENDS Into Chaos During Texas Speech",
+    "channel": "Oneindia News",
+    "duration": 932.0,
+    "views": 1371,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.01
+  },
+  {
+    "video_id": "VNTPEpRECvU",
+    "title": "LIVE: Ken Paxton holds campaign event in Brownsville",
+    "channel": "FOX 7 Austin",
+    "duration": 1636.0,
+    "views": 1086,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.01
+  },
+  {
+    "video_id": "EFK86mNE1Sk",
+    "title": "A deep dive into the numbers behind Talarico v. Paxton",
+    "channel": "KCENNews",
+    "duration": 723.0,
+    "views": 1004,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.01
+  },
+  {
+    "video_id": "2O8NnVXaSkA",
+    "title": "🚨 TEXAS SENATE RACE TIGHTENS! Paxton vs Talarico Polls Surprise Everyone",
+    "channel": "Today's BluePrint",
+    "duration": 158.0,
+    "views": 998,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.01
+  },
+  {
+    "video_id": "E18YdNGIBIY",
+    "title": "LIVE NOW: AG Ken Paxton in San Antonio Protecting The Texas Promise Rally",
+    "channel": "KABB FOX San Antonio",
+    "duration": 2471.0,
+    "views": 940,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.01
+  },
+  {
+    "video_id": "G5k7Ibt6YrA",
+    "title": "Watch - Ken Paxton on Newsmax",
+    "channel": "Ken Paxton for Senate",
+    "duration": 253.0,
+    "views": 726,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 8.01
+  },
+  {
+    "video_id": "E_FZ0C2WSNQ",
+    "title": "James Talarico speaks after Texas victory over Ken Paxton in US Senate race",
+    "channel": "ARC El Paso",
+    "duration": 1130.0,
+    "views": 516,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.01
+  },
+  {
+    "video_id": "R9fl1j5AbXg",
+    "title": "BREAKING UPDATE on Ken Paxton-James Talarico DEBATE",
+    "channel": "Brian Tyler Cohen",
+    "duration": 506.0,
+    "views": 934531,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 8.0
+  },
+  {
+    "video_id": "FAKpT04ohtM",
+    "title": "LIVE: James Talarico gives victory speech after Senate race win in Texas",
+    "channel": "MS NOW",
+    "duration": 2160.0,
+    "views": 464687,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 8.0
+  },
+  {
+    "video_id": "gQEmaRcXC0U",
+    "title": "WATCH: James Talarico Asked Point Blank If He Wants To Impeach Trump",
+    "channel": "Forbes Breaking News",
+    "duration": 79.0,
+    "views": 267202,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.0
+  },
+  {
+    "video_id": "3ZuoCGP-bO4",
+    "title": "James Talarico unveils LANDMARK border security plan",
+    "channel": "James Talarico",
+    "duration": 1109.0,
+    "views": 100207,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.0
+  },
+  {
+    "video_id": "L9rkxFp8oEI",
+    "title": "Trump heads to Texas to campaign despite leaked Ken Paxton audio",
+    "channel": "CBS Mornings",
+    "duration": 132.0,
+    "views": 100154,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 8.0
+  },
+  {
+    "video_id": "EncpHndwz_o",
+    "title": "WATCH LIVE: U.S. Senate candidate Ken Paxton holds meet and greet rally in Longview",
+    "channel": "CBS19",
+    "duration": 1546.0,
+    "views": 383,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 8.0
+  },
+  {
+    "video_id": "8REJL7Y7lTI",
+    "title": "Paxton Scrambles As Talarico Campaign Resumes Post-Flu, And More",
+    "channel": "Progress Texas",
+    "duration": 579.0,
+    "views": 33,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 8.0
+  },
+  {
+    "video_id": "dxvkQOBZkNs",
+    "title": "Talarico rally in Texas 19 days before Senate election",
+    "channel": "CNN",
+    "duration": 895.0,
+    "views": 98599,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.99
+  },
+  {
+    "video_id": "3RjeHBF8sXM",
+    "title": "James Talarico wins Texas Senate seat, NBC News projects",
+    "channel": "NBC News",
+    "duration": 221.0,
+    "views": 98123,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.98
+  },
+  {
+    "video_id": "fJJzkY0lBR4",
+    "title": "Ken Paxton: This is the STRANGEST campaign I've ever seen",
+    "channel": "Fox News",
+    "duration": 222.0,
+    "views": 97529,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.98
+  },
+  {
+    "video_id": "xVLm3NQbcsA",
+    "title": "Blue surge in Texas as Democrats Talarico and Hinojosa win",
+    "channel": "CBS TEXAS",
+    "duration": 501.0,
+    "views": 94870,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 7.95
+  },
+  {
+    "video_id": "yKeFcSujSlo",
+    "title": "VoteHub gives Talarico 55% chance of winning Texas Senate race",
+    "channel": "CBS News",
+    "duration": 302.0,
+    "views": 94187,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.94
+  },
+  {
+    "video_id": "SgCjayat99A",
+    "title": "James Talarico and Gina Hinojosa deliver remarks at a rally in Houston",
+    "channel": "MS NOW",
+    "duration": 2519.0,
+    "views": 186622,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.87
+  },
+  {
+    "video_id": "XMonsb21rMQ",
+    "title": "Talarico's final rally before midterm election day",
+    "channel": "CNN",
+    "duration": 1600.0,
+    "views": 86445,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "final_rally",
+    "score": 7.86
+  },
+  {
+    "video_id": "iKpzNKqZfdA",
+    "title": "BREAKING: Dems FLIP Texas as Talarico wins Senate, Abbott loses governor race",
+    "channel": "Fox Business",
+    "duration": 493.0,
+    "views": 86228,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.86
+  },
+  {
+    "video_id": "PHp0E-e7n68",
+    "title": "Introducing Scanduel: Bet on Ken Paxton's Scandals",
+    "channel": "James Talarico",
+    "duration": 48.0,
+    "views": 84260,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.84
+  },
+  {
+    "video_id": "J7iCJrvZEpQ",
+    "title": "Ted Cruz calls midterm results a \"Watergate-level repudiation\" as Talarico wins Senate race",
+    "channel": "CBS TEXAS",
+    "duration": 67.0,
+    "views": 81716,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.82
+  },
+  {
+    "video_id": "GOd04R2x_mo",
+    "title": "Call the Ken Paxton CORRUPTION Hotline",
+    "channel": "James Talarico",
+    "duration": 46.0,
+    "views": 79701,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.8
+  },
+  {
+    "video_id": "CjA0E1FkA6o",
+    "title": "FULL: James Talarico speech after Texas Senate victory",
+    "channel": "FOX 26 Houston",
+    "duration": 1143.0,
+    "views": 72810,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.73
+  },
+  {
+    "video_id": "o0jDT5CkkvY",
+    "title": "Talarico responds to Trump criticism as Texas Senate race intensifies",
+    "channel": "CBS TEXAS",
+    "duration": 209.0,
+    "views": 69580,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.7
+  },
+  {
+    "video_id": "55HKZ7lQbQM",
+    "title": "Democratic candidate for Senate James Talarico talks data centers, energy in Texas, oil and gas",
+    "channel": "CBS TEXAS",
+    "duration": 761.0,
+    "views": 66657,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.67
+  },
+  {
+    "video_id": "jkF7kZPpTdY",
+    "title": "Trump Takes Swipe At Ken Paxton Amid Tight Midterm Senate Race In Texas",
+    "channel": "Forbes Breaking News",
+    "duration": 91.0,
+    "views": 64032,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.64
+  },
+  {
+    "video_id": "bEkMxEBmNGc",
+    "title": "John Cornyn concedes election to Ken Paxton",
+    "channel": "LiveNOW from FOX",
+    "duration": 461.0,
+    "views": 62877,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 7.63
+  },
+  {
+    "video_id": "DFFfim-KOR4",
+    "title": "James Talarico campaign tour stop in El Paso",
+    "channel": "KTSM 9 NEWS",
+    "duration": 1543.0,
+    "views": 61975,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.62
+  },
+  {
+    "video_id": "kwFGP4IaabQ",
+    "title": "Why James Talarico won Texas: “This kid's special'",
+    "channel": "NewsNation",
+    "duration": 358.0,
+    "views": 61514,
+    "queries": [
+      "paxton",
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 7.62
+  },
+  {
+    "video_id": "AGpFyVRK5ec",
+    "title": "Texas Senator John Cornyn fires back after President Trump endorses Ken Paxton",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 126.0,
+    "views": 59875,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.6
+  },
+  {
+    "video_id": "KWyHDDBXKNE",
+    "title": "James Talarico unveils border policy plan for TX Senate bid, saying 'both parties have failed us'",
+    "channel": "NBC News",
+    "duration": 297.0,
+    "views": 58702,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.59
+  },
+  {
+    "video_id": "gUGJOSoG3Ug",
+    "title": "Texas Democrat James Talarico celebrates winning Senate race",
+    "channel": "FOX 11 Los Angeles",
+    "duration": 364.0,
+    "views": 55130,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.55
+  },
+  {
+    "video_id": "DQDL694frhs",
+    "title": "James Talarico addresses campaign absence, abortion debate and immigration at CNN Jubilee town hall",
+    "channel": "CBS TEXAS",
+    "duration": 214.0,
+    "views": 51078,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 7.51
+  },
+  {
+    "video_id": "TNOoHvcCxpQ",
+    "title": "James Talarico gives victory speech for Senate primary",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 659.0,
+    "views": 50786,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.51
+  },
+  {
+    "video_id": "uoH0YM5LrZM",
+    "title": "EXCLUSIVE: James Talarico talks Texas Senate race in one-on-one interview with FOX SA",
+    "channel": "KABB FOX San Antonio",
+    "duration": 674.0,
+    "views": 47691,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "interview",
+    "score": 7.48
+  },
+  {
+    "video_id": "tfO1IgPq7Zs",
+    "title": "Trump endorses Paxton: What it means for TX election",
+    "channel": "CNN",
+    "duration": 589.0,
+    "views": 45655,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.46
+  },
+  {
+    "video_id": "8u-VGOO2srs",
+    "title": "James Talarico CNN town hall comes as Texas Senate race tightens",
+    "channel": "KCENNews",
+    "duration": 32.0,
+    "views": 35036,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 7.35
+  },
+  {
+    "video_id": "VOzH_2VW-fs",
+    "title": "James Talarico speaks to supporters after historic Senate win: \"We just took back Texas\"",
+    "channel": "CBS News",
+    "duration": 256.0,
+    "views": 33973,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.34
+  },
+  {
+    "video_id": "Ka9JIABH6YQ",
+    "title": "John Cornyn: This Is Why I Won't Fundraise For Ken Paxton In Texas Senate Race",
+    "channel": "Forbes Breaking News",
+    "duration": 131.0,
+    "views": 31923,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.32
+  },
+  {
+    "video_id": "jw5VLaUd3ZQ",
+    "title": "What led to Texas Attorney General Ken Paxton's impeachment?",
+    "channel": "CBS News",
+    "duration": 140.0,
+    "views": 30891,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.31
+  },
+  {
+    "video_id": "bEp3wCs-_Mw",
+    "title": "Texas Runoff: Cornyn faces Trump-backed Paxton",
+    "channel": "LiveNOW from FOX",
+    "duration": 409.0,
+    "views": 30729,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.31
+  },
+  {
+    "video_id": "1JUnNy9tZ90",
+    "title": "Texas midterms: Abbott, Talarico court North Texas voters on safety and border",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 210.0,
+    "views": 28819,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 7.29
+  },
+  {
+    "video_id": "Ty16EfjS-3U",
+    "title": "James Talarico addresses supporters after projected win in Texas Senate race",
+    "channel": "ABC News",
+    "duration": 1128.0,
+    "views": 28688,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.29
+  },
+  {
+    "video_id": "AZ8jdyJHLVA",
+    "title": "Texas Republicans at odds over GOP Senate nominee Ken Paxton",
+    "channel": "NBC News",
+    "duration": 178.0,
+    "views": 28094,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.28
+  },
+  {
+    "video_id": "NTrnc02PmBo",
+    "title": "FULL: James Talarico speech after Texas Senate victory",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 1143.0,
+    "views": 27243,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.27
+  },
+  {
+    "video_id": "PwdLaZvYu-c",
+    "title": "¡Talaricooooo!",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 26826,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.27
+  },
+  {
+    "video_id": "1Nfangh0N7E",
+    "title": "Trump endorsement of Paxton upends Texas race, draws national attention",
+    "channel": "CBS TEXAS",
+    "duration": 200.0,
+    "views": 26343,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.26
+  },
+  {
+    "video_id": "DvzkvtjzBb4",
+    "title": "Rep. James Talarico holds rally in Lubbock, Texas",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 1712.0,
+    "views": 23125,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.23
+  },
+  {
+    "video_id": "-sedWCxhMNk",
+    "title": "James Talarico Shows Up in Houston for Sunday Funday",
+    "channel": "James Talarico",
+    "duration": 203.0,
+    "views": 23122,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 7.23
+  },
+  {
+    "video_id": "R0dM-jRCAlY",
+    "title": "The accusations that led to Texas AG Ken Paxton's impeachment trial",
+    "channel": "PBS NewsHour",
+    "duration": 331.0,
+    "views": 22906,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.23
+  },
+  {
+    "video_id": "hdPHFa7wBnw",
+    "title": "GOP-controlled Texas House votes to impeach Republican Attorney General Ken Paxton",
+    "channel": "CBS Mornings",
+    "duration": 140.0,
+    "views": 22818,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.23
+  },
+  {
+    "video_id": "OEEfHAi6dVU",
+    "title": "James Talarico holds press conference with former students in San Antonio",
+    "channel": "James Talarico",
+    "duration": 204.0,
+    "views": 22280,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.22
+  },
+  {
+    "video_id": "I8WQnao-WZQ",
+    "title": "Ken Paxton on winning the 2026 Texas Senate runoff",
+    "channel": "FOX 26 Houston",
+    "duration": 657.0,
+    "views": 21597,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.22
+  },
+  {
+    "video_id": "wYFjB91JGDk",
+    "title": "James Talarico wins Senate race in Texas, securing historic victory",
+    "channel": "Guardian News",
+    "duration": 241.0,
+    "views": 20775,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.21
+  },
+  {
+    "video_id": "-9_xC1J7oIA",
+    "title": "Ken Paxton: The Conservative They Couldn't Cancel",
+    "channel": "Ken Paxton for Senate",
+    "duration": 155.0,
+    "views": 19776,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.2
+  },
+  {
+    "video_id": "KLPquFcCAqE",
+    "title": "Trump calls out Ken Paxton's fashion choices during speech at midterm convention",
+    "channel": "NBC News",
+    "duration": 139.0,
+    "views": 17908,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 7.18
+  },
+  {
+    "video_id": "_wDVEZNzTDA",
+    "title": "U. S. Senate candidate James Talarico holds rally in San Antonio",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 5118.0,
+    "views": 17830,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.18
+  },
+  {
+    "video_id": "9jz9DZ6lUc0",
+    "title": "John Cornyn concedes to Ken Paxton in Republican U.S. Senate runoff",
+    "channel": "CBS TEXAS",
+    "duration": 415.0,
+    "views": 17479,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 7.17
+  },
+  {
+    "video_id": "zHQnil-HC_w",
+    "title": "James Talarico celebrates major Democratic win in Texas",
+    "channel": "FOX 9 Minneapolis-St. Paul",
+    "duration": 195.0,
+    "views": 17160,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.17
+  },
+  {
+    "video_id": "oRJfYpbHaPw",
+    "title": "Texas Republican voters grapple with Ken Paxton's candidacy",
+    "channel": "CBS News",
+    "duration": 441.0,
+    "views": 16902,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 7.17
+  },
+  {
+    "video_id": "GA3JjeuZdp8",
+    "title": "James Talarico Holds North Texas Rallies in Denton & Fort Worth",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 2163.0,
+    "views": 16846,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.17
+  },
+  {
+    "video_id": "5TPG-C8vLzg",
+    "title": "Steve Kornacki previews the Texas GOP primary runoff between Ken Paxton and John Cornyn",
+    "channel": "NBC News",
+    "duration": 347.0,
+    "views": 16675,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.17
+  },
+  {
+    "video_id": "fMXLtvCKROE",
+    "title": "Democrats Talarico And Brown Lead In Texas, Ohio Senate Races In New Polls",
+    "channel": "Forbes Breaking News",
+    "duration": 116.0,
+    "views": 16127,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 7.16
+  },
+  {
+    "video_id": "7XvbQm8D4BA",
+    "title": "Democrat James Talarico addresses supporters after projected to win Texas Senate seat —11/4/26",
+    "channel": "CNBC Television",
+    "duration": 2248.0,
+    "views": 16087,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.16
+  },
+  {
+    "video_id": "SZQnPqkH12w",
+    "title": "James Talarico wins Texas Senate Democratic nomination",
+    "channel": "Associated Press",
+    "duration": 37.0,
+    "views": 15450,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.15
+  },
+  {
+    "video_id": "cMg3VZoBJJc",
+    "title": "James Talarico wins Texas Senate race",
+    "channel": "ABC News",
+    "duration": 243.0,
+    "views": 15221,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.15
+  },
+  {
+    "video_id": "JurCwWzMsP0",
+    "title": "‘We defeated Goliath.' Talarico victory speech celebrates Democrat's Senate win in Texas election",
+    "channel": "USA TODAY",
+    "duration": 1111.0,
+    "views": 14912,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.15
+  },
+  {
+    "video_id": "5kZrgjc8pdA",
+    "title": "Trump-backed Ken Paxton defeats incumbent John Cornyn in Texas GOP Senate runoff",
+    "channel": "ABC News",
+    "duration": 182.0,
+    "views": 13785,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.14
+  },
+  {
+    "video_id": "cENpN4mTfQk",
+    "title": "2026 Elections: Talarico wins Texas' US Senate seat",
+    "channel": "FOX 26 Houston",
+    "duration": 196.0,
+    "views": 13609,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.14
+  },
+  {
+    "video_id": "qH_aD8TsHqM",
+    "title": "Ken Paxton victory speech: FULL",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 657.0,
+    "views": 13407,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.13
+  },
+  {
+    "video_id": "ss3DyFqxgew",
+    "title": "Trump endorses Ken Paxton in Texas GOP Senate race",
+    "channel": "LiveNOW from FOX",
+    "duration": 157.0,
+    "views": 13186,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.13
+  },
+  {
+    "video_id": "54MRgIcg4gA",
+    "title": "Key points on Cornyn-Paxton Texas GOP Senate runoff",
+    "channel": "CBS News",
+    "duration": 197.0,
+    "views": 12497,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.12
+  },
+  {
+    "video_id": "KXNklIeCpgk",
+    "title": "TV AD: Ken Paxton Will Defend Our Constitution",
+    "channel": "Ken Paxton for Senate",
+    "duration": 31.0,
+    "views": 12413,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 7.12
+  },
+  {
+    "video_id": "ULN_oX3xHV4",
+    "title": "Trump endorses Ken Paxton in Texas GOP primary, boosting his challenge to incumbent Sen. Cornyn",
+    "channel": "AP Archive",
+    "duration": 76.0,
+    "views": 12287,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.12
+  },
+  {
+    "video_id": "JTCKl4_1EUY",
+    "title": "Talarico hosting rally in Plano",
+    "channel": "CBS TEXAS",
+    "duration": 53.0,
+    "views": 12149,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.12
+  },
+  {
+    "video_id": "VfwSDSZDDO8",
+    "title": "Trump-backed Paxton projected to defeat incumbent Cornyn in Texas GOP Senate runoff",
+    "channel": "ABC News",
+    "duration": 144.0,
+    "views": 11763,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.12
+  },
+  {
+    "video_id": "O9AvcttZ_4g",
+    "title": "John Cornyn vs. Ken Paxton in Texas Republican Senate runoff",
+    "channel": "CBS News",
+    "duration": 268.0,
+    "views": 11704,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.12
+  },
+  {
+    "video_id": "K_tUhXUKEp0",
+    "title": "James Talarico gives victory speech for Senate primary",
+    "channel": "FOX 26 Houston",
+    "duration": 659.0,
+    "views": 11269,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.11
+  },
+  {
+    "video_id": "Rv5d21dkOvE",
+    "title": "'We're about to take back Texas,' James Talarico says in victory speech",
+    "channel": "Associated Press",
+    "duration": 116.0,
+    "views": 11246,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.11
+  },
+  {
+    "video_id": "8S5y-KOtKAs",
+    "title": "Ken Paxton - Brave Commercial",
+    "channel": "Ken Paxton for Senate",
+    "duration": 31.0,
+    "views": 10271,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 7.1
+  },
+  {
+    "video_id": "mi67x9dIUAQ",
+    "title": "Talarico Dismisses Conspiracy Theories After Campaign Absence",
+    "channel": "Forbes Breaking News",
+    "duration": 170.0,
+    "views": 9998,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.1
+  },
+  {
+    "video_id": "Lk6PjprYDio",
+    "title": "Trump, Ken Paxton rally in San Antonio ahead of midterm election",
+    "channel": "CBS TEXAS",
+    "duration": 138.0,
+    "views": 9819,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.1
+  },
+  {
+    "video_id": "uAOXdwf_zM8",
+    "title": "Ken Paxton speaks at campaign rally in San Antonio before Trump arrives at Freeman Coliseum",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 502.0,
+    "views": 9591,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.1
+  },
+  {
+    "video_id": "_uQbi8eABpM",
+    "title": "'He Is An Embarrassment': John Cornyn Rips Ken Paxton Before Texas Primary Run-Off Polls Close",
+    "channel": "Forbes Breaking News",
+    "duration": 452.0,
+    "views": 9337,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 7.09
+  },
+  {
+    "video_id": "y-HDVgRIaOs",
+    "title": "'We just took back Texas,' James Talarico says after flipping the Senate seat",
+    "channel": "Associated Press",
+    "duration": 102.0,
+    "views": 9122,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.09
+  },
+  {
+    "video_id": "Y5lPouNF38k",
+    "title": "'This Raging, Disturbed Person': Trump Rips Into James Talarico At Midterm Rally",
+    "channel": "Forbes Breaking News",
+    "duration": 192.0,
+    "views": 9101,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.09
+  },
+  {
+    "video_id": "PUizpUBikE8",
+    "title": "Here's why Trump is backing Ken Paxton over John Cornyn in Texas GOP Senate primary",
+    "channel": "CBS News",
+    "duration": 270.0,
+    "views": 8943,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.09
+  },
+  {
+    "video_id": "6b5LZr0fgyA",
+    "title": "Ken Paxton says Texas 'has never been this close to slipping away'",
+    "channel": "Associated Press",
+    "duration": 103.0,
+    "views": 8434,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.08
+  },
+  {
+    "video_id": "X3sGeCvEV70",
+    "title": "Trump endorses Ken Paxton in Texas GOP Senate runoff",
+    "channel": "NBC News",
+    "duration": 67.0,
+    "views": 8343,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.08
+  },
+  {
+    "video_id": "AVRX-ZUasXo",
+    "title": "FULL: Ken Paxton’s 2026 RNC Midterm Convention Speech",
+    "channel": "FOX 26 Houston",
+    "duration": 434.0,
+    "views": 8193,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 7.08
+  },
+  {
+    "video_id": "oTwe1YsTilE",
+    "title": "In bitter GOP primary fight for Texas Senate seat, Paxton, Cornyn exchange insults",
+    "channel": "CBS TEXAS",
+    "duration": 217.0,
+    "views": 8157,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.08
+  },
+  {
+    "video_id": "98zTMPAM6Yw",
+    "title": "James Talarico talks Texas Senate race in one on one interview",
+    "channel": "CBS Austin",
+    "duration": 674.0,
+    "views": 8057,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 7.08
+  },
+  {
+    "video_id": "EOuV4s_YSUI",
+    "title": "Texas: The Issue Is - Ken Paxton Impeachment Special",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 1158.0,
+    "views": 7588,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.08
+  },
+  {
+    "video_id": "RwKrF3KKq5o",
+    "title": "James Talarico Holds North Texas Rallies in Denton & Fort Worth",
+    "channel": "FOX 26 Houston",
+    "duration": 2148.0,
+    "views": 7569,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.08
+  },
+  {
+    "video_id": "kvu5ouoAwYY",
+    "title": "Texas Senate Democratic Candidate James Talarico holds rally in Houston",
+    "channel": "FOX 7 Austin",
+    "duration": 3555.0,
+    "views": 7422,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.07
+  },
+  {
+    "video_id": "FvVU3ThLLd0",
+    "title": "Cornyn blasts 'self-centered' Paxton after Texas GOP Senate race advances to runoff",
+    "channel": "NBC News",
+    "duration": 135.0,
+    "views": 7364,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.07
+  },
+  {
+    "video_id": "D7f2FMNNdS0",
+    "title": "Memo To Cornyn And Paxton: Trump Says He'll Make Texas Republican Senate Primary Endorsement Today",
+    "channel": "Forbes Breaking News",
+    "duration": 151.0,
+    "views": 7271,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.07
+  },
+  {
+    "video_id": "oGRo0chTDhw",
+    "title": "FULL: Ken Paxton Speaks To Supporters As He Advances To Texas Senate Primary Runoff Against Cornyn",
+    "channel": "Forbes Breaking News",
+    "duration": 642.0,
+    "views": 7035,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.07
+  },
+  {
+    "video_id": "zg6I0WgxL9M",
+    "title": "Ken Paxton speaks at political rally in San Antonio",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 453.0,
+    "views": 6939,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.07
+  },
+  {
+    "video_id": "XyTBNxYKwBo",
+    "title": "Texas Senate Democratic Candidate James Talarico holds rally in Houston",
+    "channel": "FOX 26 Houston",
+    "duration": 3571.0,
+    "views": 6672,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.07
+  },
+  {
+    "video_id": "1AofAkj8Luw",
+    "title": "James Talarico makes final North Texas push as Senate primary tightens against Jasmine Crockett",
+    "channel": "CBS TEXAS",
+    "duration": 179.0,
+    "views": 6413,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.06
+  },
+  {
+    "video_id": "ewJQjzYIw6Q",
+    "title": "'This Guy Is An Empty Suit': Thom Tillis Lights Into Ken Paxton, Urges Texans Vote For Cornyn",
+    "channel": "Forbes Breaking News",
+    "duration": 87.0,
+    "views": 6304,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.06
+  },
+  {
+    "video_id": "mFZgvxR0Uc8",
+    "title": "New Ken Paxton Leaked Audio Says Washington Runs His Campaign: ‘I Don’t Control Messaging’",
+    "channel": "Forbes Breaking News",
+    "duration": 137.0,
+    "views": 6237,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.06
+  },
+  {
+    "video_id": "Sp00_ErF2O4",
+    "title": "Texas Attorney General Ken Paxton gives concession speech after losing Senate bid",
+    "channel": "CBS19",
+    "duration": 170.0,
+    "views": 5833,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 7.06
+  },
+  {
+    "video_id": "qWHFMA-qsmY",
+    "title": "James Talarico holds a \"Clear Eyes for Full Hearts\" campaign event",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 2408.0,
+    "views": 5798,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.06
+  },
+  {
+    "video_id": "FA5NRk5MOuI",
+    "title": "James Talarico on AI ads, midterm convention",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 346.0,
+    "views": 5662,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 7.06
+  },
+  {
+    "video_id": "WqAmdUnnbaU",
+    "title": "Talarico and Hinojosa host rally in San Antonio ahead of Election Day",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 8302.0,
+    "views": 5595,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.06
+  },
+  {
+    "video_id": "5NCetQZ9U7s",
+    "title": "James Talarico talks Texas Senate race in one on one interview",
+    "channel": "KTXS News",
+    "duration": 674.0,
+    "views": 5568,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 7.06
+  },
+  {
+    "video_id": "QEnpt2NUcOU",
+    "title": "Democratic Senate candidate James Talarico speaks to ABC13 during campaign blitz across Houston area",
+    "channel": "ABC13 Houston",
+    "duration": 212.0,
+    "views": 5353,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.05
+  },
+  {
+    "video_id": "2dDYlksV_XE",
+    "title": "Ken Paxton speaks at political rally in San Antonio",
+    "channel": "FOX 26 Houston",
+    "duration": 453.0,
+    "views": 5041,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.05
+  },
+  {
+    "video_id": "U10Bdke6tOs",
+    "title": "Democratic Senate Candidate James Talarico speaks with The Dallas Morning News",
+    "channel": "The Dallas Morning News",
+    "duration": 304.0,
+    "views": 5013,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 7.05
+  },
+  {
+    "video_id": "bj4uI7WBnbE",
+    "title": "Texas Senate candidate James Talarico visits San Antonio's La Fonda On Main",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 88.0,
+    "views": 4985,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.05
+  },
+  {
+    "video_id": "cgT1jVqkofs",
+    "title": "James Talarico wins Texas Senate seat: \"We just took back Texas\"",
+    "channel": "CBS TEXAS",
+    "duration": 1208.0,
+    "views": 4636,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.05
+  },
+  {
+    "video_id": "h512OIiBG1Q",
+    "title": "James Talarico victory speech",
+    "channel": "KTSM 9 NEWS",
+    "duration": 612.0,
+    "views": 4625,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.05
+  },
+  {
+    "video_id": "cNowcLZ9mGA",
+    "title": "FULL: Ken Paxton’s 2026 RNC Midterm Convention Speech",
+    "channel": "FOX 7 Austin",
+    "duration": 434.0,
+    "views": 4589,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 7.05
+  },
+  {
+    "video_id": "hJQTlcZiEu0",
+    "title": "James Talarico holds a \"Clear Eyes for Full Hearts\" campaign event",
+    "channel": "FOX 7 Austin",
+    "duration": 2398.0,
+    "views": 4584,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.05
+  },
+  {
+    "video_id": "QJpRNkqF1eY",
+    "title": "Trump endorses Ken Paxton in the Texas Republican primary for US Senate",
+    "channel": "Associated Press",
+    "duration": 76.0,
+    "views": 4578,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.05
+  },
+  {
+    "video_id": "U4-KSaAOPmw",
+    "title": "'We Don't Have To Settle For This...' James Talarico Vows to Take on Corruption and Fight for Texas",
+    "channel": "Apex News",
+    "duration": 3358.0,
+    "views": 4378,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.04
+  },
+  {
+    "video_id": "-y_u2Bs1aBQ",
+    "title": "James Talarico victory speech",
+    "channel": "KTSM 9 NEWS",
+    "duration": 146.0,
+    "views": 4312,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.04
+  },
+  {
+    "video_id": "-JBnqzzacoE",
+    "title": "James Talarico \"Clear Eyes Full Hears\" campaign tour stop in El Paso",
+    "channel": "KTSM 9 NEWS",
+    "duration": 3796.0,
+    "views": 4193,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.04
+  },
+  {
+    "video_id": "pCv9iA4pGpM",
+    "title": "“FIGHT, FIGHT, FIGHT!” Ken Paxton Channels Trump After Crushing Texas Election Defeat",
+    "channel": "Oneindia News",
+    "duration": 185.0,
+    "views": 4163,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.04
+  },
+  {
+    "video_id": "DOyDTIwVo4s",
+    "title": "Ken Paxton hits campaign trail as political expert weighs in on strategy of avoiding debate",
+    "channel": "ABC13 Houston",
+    "duration": 221.0,
+    "views": 4044,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 7.04
+  },
+  {
+    "video_id": "uZULY1hVIAw",
+    "title": "James Talarico holds a \"Clear Eyes for Full Hearts\" campaign event",
+    "channel": "FOX 26 Houston",
+    "duration": 2393.0,
+    "views": 3987,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.04
+  },
+  {
+    "video_id": "nFxHuZmU9z4",
+    "title": "Ken Paxton defeats John Cornyn in Texas primary, marking another win for Trump-backed Republicans",
+    "channel": "CBS Mornings",
+    "duration": 155.0,
+    "views": 3974,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.04
+  },
+  {
+    "video_id": "oOz704XijQQ",
+    "title": "What to know about the Paxton-Cornyn primary in Texas and how it could impact the midterms",
+    "channel": "CBS Mornings",
+    "duration": 232.0,
+    "views": 3830,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.04
+  },
+  {
+    "video_id": "KR7zwf99yU4",
+    "title": "Ken Paxton thanks family, supporters in speech after Senate race loss",
+    "channel": "CBS TEXAS",
+    "duration": 115.0,
+    "views": 3715,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.04
+  },
+  {
+    "video_id": "1xQ-sqB3oG8",
+    "title": "Texas Senate Democratic Candidate James Talarico holds rally in Houston",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 3565.0,
+    "views": 3409,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.03
+  },
+  {
+    "video_id": "3bU15YRAPoQ",
+    "title": "Texas Democratic U.S. Senate nominee James Talarico holds rally Monday evening in Port Arthur",
+    "channel": "12NewsNow",
+    "duration": 4021.0,
+    "views": 3326,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.03
+  },
+  {
+    "video_id": "UST5ckxntaM",
+    "title": "Joe Biden's Border Failure, Says James Talarico",
+    "channel": "Club Talarico",
+    "duration": 94.0,
+    "views": 3245,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.03
+  },
+  {
+    "video_id": "MynaMQlZ6v8",
+    "title": "Senate Democratic Primary candidate James Talarico campaigns in Lubbock",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 93.0,
+    "views": 3039,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.03
+  },
+  {
+    "video_id": "CMfScB66cZc",
+    "title": "Texas House votes to impeach Attorney Ken Paxton",
+    "channel": "Associated Press",
+    "duration": 68.0,
+    "views": 3028,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.03
+  },
+  {
+    "video_id": "TBJtdOp8PZs",
+    "title": "Trump endorses Ken Paxton in heated Texas Senate run-off",
+    "channel": "NewsNation",
+    "duration": 157.0,
+    "views": 2803,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.03
+  },
+  {
+    "video_id": "gWZuRoXe1oM",
+    "title": "Rep. Talarico Rally",
+    "channel": "CBS Austin",
+    "duration": 3604.0,
+    "views": 2681,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.03
+  },
+  {
+    "video_id": "B2Yb3GNvbRU",
+    "title": "Cornyn targets Paxton’s “baggage” in final push before GOP runoff for Senate",
+    "channel": "CBS TEXAS",
+    "duration": 436.0,
+    "views": 2559,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "final_rally",
+    "score": 7.03
+  },
+  {
+    "video_id": "pGA1NdBZIXU",
+    "title": "Ken Paxton makes weekend visit to San Antonio on Texas-wide campaign tour",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 92.0,
+    "views": 2341,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.02
+  },
+  {
+    "video_id": "_ijGEKriIpg",
+    "title": "Ken Paxton kicks off campaign bus tour in Rockwall",
+    "channel": "CBS TEXAS",
+    "duration": 164.0,
+    "views": 2079,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.02
+  },
+  {
+    "video_id": "zA4XvnrymcY",
+    "title": "Ken Paxton continues \"Come and Take It\" Texas Bus Tour",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 3631.0,
+    "views": 1983,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.02
+  },
+  {
+    "video_id": "wL440j5Ylsw",
+    "title": "Paxton concession speech for TX Senate race",
+    "channel": "KTSM 9 NEWS",
+    "duration": 163.0,
+    "views": 1929,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 7.02
+  },
+  {
+    "video_id": "ynipjqRJNcI",
+    "title": "FULL: James Talarico Slams Billionaire Donors and Political Establishment After Texas Senate Win",
+    "channel": "DRM News",
+    "duration": 1160.0,
+    "views": 1842,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.02
+  },
+  {
+    "video_id": "DN58tSFJdzE",
+    "title": "Attorney General Ken Paxton declares victory in runoff",
+    "channel": "ABC 7 Amarillo",
+    "duration": 957.0,
+    "views": 1827,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.02
+  },
+  {
+    "video_id": "sD0cIZC06U4",
+    "title": "AG Ken Paxton says he's open to dropping out of Senate race as President Trump weighs endorsement",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 54.0,
+    "views": 1767,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.02
+  },
+  {
+    "video_id": "mvVWgwCb_X8",
+    "title": "Ken Paxton in Texas",
+    "channel": "FOX 26 Houston",
+    "duration": 933.0,
+    "views": 1751,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.02
+  },
+  {
+    "video_id": "rOzoYASYd6o",
+    "title": "Ken Paxton in Texas",
+    "channel": "FOX 4 Dallas-Fort Worth",
+    "duration": 933.0,
+    "views": 1660,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.02
+  },
+  {
+    "video_id": "sUAJnp4MGN0",
+    "title": "Former President Trump Endorses Ken Paxton To Be Re-Elected As Texas Attorney General",
+    "channel": "CBS TEXAS",
+    "duration": 24.0,
+    "views": 1525,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.02
+  },
+  {
+    "video_id": "MtuePRD3RkM",
+    "title": "Ken Paxton to close Senate campaign with “Come and Take It” bus tour ending at the Alamo",
+    "channel": "KETK NBC",
+    "duration": 44.0,
+    "views": 1472,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.01
+  },
+  {
+    "video_id": "DddkU2iGiQY",
+    "title": "James Talarico Holds North Texas Rallies in Denton & Fort Worth",
+    "channel": "FOX 7 Austin",
+    "duration": 2153.0,
+    "views": 1466,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "KYmi0OvHZoo",
+    "title": "Texas Rep. James Talarico hosts campaign rally in El Paso",
+    "channel": "KTSM 9 NEWS",
+    "duration": 41.0,
+    "views": 1377,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.01
+  },
+  {
+    "video_id": "sDgNUxlgscA",
+    "title": "Paxton \"honored\" to have Trump's endorsement for Texas Senate primary runoff",
+    "channel": "CBS TEXAS",
+    "duration": 223.0,
+    "views": 1349,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "j5hTBNTLt1s",
+    "title": "Ken Paxton sets off on statewide campaign bus tour",
+    "channel": "CBS TEXAS",
+    "duration": 169.0,
+    "views": 1322,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.01
+  },
+  {
+    "video_id": "qdkZdKlZHBA",
+    "title": "Attorney General Ken Paxton arrives in San Antonio for his “Come and Take It” campaign",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 2735.0,
+    "views": 1160,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "Z1rDQX2R840",
+    "title": "Ken Paxton continues \"Come and Take It\" Texas Bus Tour",
+    "channel": "FOX 26 Houston",
+    "duration": 3620.0,
+    "views": 1010,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.01
+  },
+  {
+    "video_id": "OsYZMbooGzU",
+    "title": "Ken Paxton in Texas",
+    "channel": "FOX 7 Austin",
+    "duration": 938.0,
+    "views": 962,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "PU0CPv3VoE8",
+    "title": "Talarico ends Senate primary push with hometown rally and Election Day tradition",
+    "channel": "CBS TEXAS",
+    "duration": 101.0,
+    "views": 837,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.01
+  },
+  {
+    "video_id": "jrvqTmJ4Rjo",
+    "title": "Trump endorses Paxton over Cornyn in Texas Senate primary",
+    "channel": "CBS19",
+    "duration": 105.0,
+    "views": 736,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "I_GeqeHnn9o",
+    "title": "Recap: Talarico takes on billionaires at Lubbock rally",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 246.0,
+    "views": 731,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.01
+  },
+  {
+    "video_id": "t4wLtnDVNyE",
+    "title": "Talarico in El Paso for campaign stop",
+    "channel": "KTSM 9 NEWS",
+    "duration": 3796.0,
+    "views": 690,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "DZI5CCLZBUU",
+    "title": "Talarico to make another campaign stop in EP",
+    "channel": "KTSM 9 NEWS",
+    "duration": 49.0,
+    "views": 625,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "rcr39Q_nxYs",
+    "title": "Ken Paxton gets multi-city bus tour underway for Senate campaign",
+    "channel": "CBS TEXAS",
+    "duration": 188.0,
+    "views": 625,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.01
+  },
+  {
+    "video_id": "kEzHOIUeVeo",
+    "title": "Ken Paxton continues \"Come and Take It\" Texas Bus Tour",
+    "channel": "FOX 7 Austin",
+    "duration": 3621.0,
+    "views": 599,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.01
+  },
+  {
+    "video_id": "CHTEJiIQo5I",
+    "title": "James Talarico stops in El Paso following South Texas tour",
+    "channel": "KETK NBC",
+    "duration": 65.0,
+    "views": 576,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 7.01
+  },
+  {
+    "video_id": "1Mh8fxAURsQ",
+    "title": "Talarico stops in Dallas-Forth Worth to campaign for US Senate seat",
+    "channel": "AP Archive",
+    "duration": 138.0,
+    "views": 570,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "2SHsOy0BBe0",
+    "title": "Trump endorses Ken Paxton in Texas Senate runoff race",
+    "channel": "KCENNews",
+    "duration": 107.0,
+    "views": 556,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.01
+  },
+  {
+    "video_id": "oiTJ7Pz_59A",
+    "title": "Rep. James Talarico On Confronting Christian Nationalism, And Strange Days In The Texas Legislature",
+    "channel": "The Late Show with Stephen Colbert",
+    "duration": 896.0,
+    "views": 9936514,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "vCPfgceRjQI",
+    "title": "\"The Earth Shook Last Night\": Talarico Wins Senate, Hinojosa Becomes First Latina Governor in Texas",
+    "channel": "Democracy Now!",
+    "duration": 727.0,
+    "views": 1014334,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.0
+  },
+  {
+    "video_id": "LV8NbqXv9P0",
+    "title": "Ken Paxton gets UNWELCOME SURPRISE at Texas \"debate\"",
+    "channel": "Brian Tyler Cohen",
+    "duration": 1831.0,
+    "views": 626616,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 7.0
+  },
+  {
+    "video_id": "zu2fkNNhctw",
+    "title": "James Talarico’s Stunning Baylor Speech Gets Crowd Roaring After Kimmel Interview Goes Viral",
+    "channel": "Hook Global",
+    "duration": 966.0,
+    "views": 514874,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 7.0
+  },
+  {
+    "video_id": "-hSvAlGS2BU",
+    "title": "James Talarico Reacts To His Historic Senate Win On 'The View'",
+    "channel": "The View",
+    "duration": 512.0,
+    "views": 478472,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 7.0
+  },
+  {
+    "video_id": "pbMPgtqJ42M",
+    "title": "The FCC keeps another Talarico interview off late night",
+    "channel": "CNN",
+    "duration": 586.0,
+    "views": 416163,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 7.0
+  },
+  {
+    "video_id": "YstZd-skcuk",
+    "title": "MAGA conspiracy theory about James Talarico implodes",
+    "channel": "CNN",
+    "duration": 743.0,
+    "views": 396443,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "cK8wzjBpEoQ",
+    "title": "James Talarico (D-TX) Full Victory Speech",
+    "channel": "C-SPAN",
+    "duration": 1206.0,
+    "views": 374819,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.0
+  },
+  {
+    "video_id": "Mjcp0AUW0Uo",
+    "title": "James Talarico’s victory speech in full",
+    "channel": "The Independent",
+    "duration": 1127.0,
+    "views": 339685,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 7.0
+  },
+  {
+    "video_id": "zXhUcjSzJbc",
+    "title": "Talarico’s Town Hall Answer Has Texas Shook",
+    "channel": "Rebel HQ",
+    "duration": 558.0,
+    "views": 313066,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 7.0
+  },
+  {
+    "video_id": "4Rlr3vA6F5M",
+    "title": "James Talarico The Interview: Fighting to Flip Tables + Take Texas, Christianity & the Country Back",
+    "channel": "Jamie Kern Lima",
+    "duration": 5335.0,
+    "views": 283767,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 7.0
+  },
+  {
+    "video_id": "XOWZbLqBzG4",
+    "title": "John Berman breaks down the CNN & Jubilee Town Hall with James Talarico",
+    "channel": "CNN and Jubilee",
+    "duration": 3429.0,
+    "views": 245089,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 7.0
+  },
+  {
+    "video_id": "iiL4mhP5q8A",
+    "title": "James Talarico Reveals All (Pt 3): Fighting Take Texas, Christianity & the Country Back",
+    "channel": "Jamie Kern Lima",
+    "duration": 2207.0,
+    "views": 224151,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "24ySUJ39UMk",
+    "title": "Talarico REJECTS retribution, signals willingness to work with Trump",
+    "channel": "Fox News Clips",
+    "duration": 604.0,
+    "views": 208261,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "kXHN19-8Bt0",
+    "title": "US Senate candidate James Talarico makes campaign stop in San Antonio",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 43.0,
+    "views": 459,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "gIiYkk9jNnI",
+    "title": "Ahead of Election Day, Senate hopeful James Talarico rallies in El Paso",
+    "channel": "KFOX14",
+    "duration": 152.0,
+    "views": 438,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "Ax9onzjfyx0",
+    "title": "Talarico visits El Paso on campaign stop",
+    "channel": "KTSM 9 NEWS",
+    "duration": 31.0,
+    "views": 362,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "oCA17eFG7yU",
+    "title": "Talarico schedules El Paso campaign stop",
+    "channel": "KVIA ABC-7",
+    "duration": 24.0,
+    "views": 250,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "IwOnd4nZDxk",
+    "title": "Talarico stops in Dallas-Fort Worth to campaign for US Senate",
+    "channel": "AP Archive",
+    "duration": 129.0,
+    "views": 239,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "ijceU1SbZrU",
+    "title": "Texas senate candidate Talarico holds border security press conference in Sanderson",
+    "channel": "First Alert 7 - News - Permian Basin & West Texas",
+    "duration": 134.0,
+    "views": 236,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "z9YuFiijOdM",
+    "title": "James Talarico to stop in El Paso for US Senate campaign",
+    "channel": "KVIA ABC-7",
+    "duration": 31.0,
+    "views": 146,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "ZIziVgvfOkc",
+    "title": "U.S. Senate Republican nominee Ken Paxton promises to make Texas more affordable",
+    "channel": "ABC 7 Amarillo",
+    "duration": 121.0,
+    "views": 135,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "-BEEjsvIQKw",
+    "title": "Texas State Rep. James Talarico talks data centers, immigration with ABC-7’s Marcel Clarke",
+    "channel": "KVIA ABC-7",
+    "duration": 333.0,
+    "views": 113,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "q07_XzH7B1E",
+    "title": "Talarico touts unity, policy reform during “Take Back Texas” stop in El Paso",
+    "channel": "KVIA ABC-7",
+    "duration": 113.0,
+    "views": 43,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "IQlSvcZJUes",
+    "title": "Trump throws full support behind Ken Paxton in high stakes Texas runoff",
+    "channel": "KTXS News",
+    "duration": 286.0,
+    "views": 38,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 7.0
+  },
+  {
+    "video_id": "yn2S_2nZ430",
+    "title": "Cornyn, Paxton speeches Tuesday night",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 1782.0,
+    "views": 19,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 7.0
+  },
+  {
+    "video_id": "ibLWzNY0l74",
+    "title": "James Talarico and Gina Hinojosa deliver remarks at a rally in San Antonio",
+    "channel": "MS NOW",
+    "duration": 2725.0,
+    "views": 98990,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.99
+  },
+  {
+    "video_id": "_GJKJ0FWY-0",
+    "title": "Democrat James Talarico leads U.S. Senate race in Texas",
+    "channel": "WPLG Local 10",
+    "duration": 66.0,
+    "views": 196497,
+    "queries": [
+      "paxton",
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.96
+  },
+  {
+    "video_id": "EjBEkpJjmL4",
+    "title": "James Talarico on His Historic Texas Senate Campaign",
+    "channel": "The New York Times",
+    "duration": 2104.0,
+    "views": 193953,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.94
+  },
+  {
+    "video_id": "BCCY0swVZ1E",
+    "title": "James Talarico Reveals All (Pt 2): Fighting Take Texas, Christianity & the Country Back",
+    "channel": "Jamie Kern Lima",
+    "duration": 2401.0,
+    "views": 191489,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.91
+  },
+  {
+    "video_id": "TLEPpgosDfs",
+    "title": "James Talarico challenges Ken Paxton to Fox News debate",
+    "channel": "Face the Nation",
+    "duration": 294.0,
+    "views": 87691,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 6.88
+  },
+  {
+    "video_id": "2vN6aZJ4K2U",
+    "title": "The KEY Moment From James Talarico's CNN Town Hall That Shows Why Paxton Might Be in Trouble",
+    "channel": "Megyn Kelly",
+    "duration": 645.0,
+    "views": 74033,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 6.74
+  },
+  {
+    "video_id": "1P-30kD3zRU",
+    "title": "'He Serves Himself': Talarico Draws Roars From San Antonio Crowd With Fiery Ken Paxton Takedown",
+    "channel": "Hook Global",
+    "duration": 1517.0,
+    "views": 69341,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.69
+  },
+  {
+    "video_id": "H6joPayH6oE",
+    "title": "Talarico's First Attack Ad Against Ken Paxton Was BRUTAL!",
+    "channel": "U.S. Democratic Socialists",
+    "duration": 525.0,
+    "views": 59784,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "ad",
+    "score": 6.6
+  },
+  {
+    "video_id": "pMUgwXyD1Vo",
+    "title": "Texas House votes to impeach Attorney General Ken Paxton",
+    "channel": "MS NOW",
+    "duration": 256.0,
+    "views": 155411,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 6.55
+  },
+  {
+    "video_id": "uJmfDHuLosc",
+    "title": "James Talarico delivers remarks at Texas Democratic Convention",
+    "channel": "The Democrats",
+    "duration": 1257.0,
+    "views": 46037,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 6.46
+  },
+  {
+    "video_id": "46JfOKrSQzU",
+    "title": "James Talarico takes aim at Elon Musk after Texas Senate win",
+    "channel": "KHOU 11",
+    "duration": 51.0,
+    "views": 132169,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.32
+  },
+  {
+    "video_id": "DDTfaZNM_HQ",
+    "title": "'He Will Show Up Anywhere But...': James Talarico Turns Paxton’s Debate Absence Into A Brutal Roast",
+    "channel": "Hook Global",
+    "duration": 614.0,
+    "views": 32353,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 6.32
+  },
+  {
+    "video_id": "05RKvwrK_o4",
+    "title": "James Talarico speaks at victory rally after predicted to win Texas Senate",
+    "channel": "The Hill",
+    "duration": 2076.0,
+    "views": 125154,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 6.25
+  },
+  {
+    "video_id": "kILbF5HoWiw",
+    "title": "SHOCKING: James Talarico LEADS by FIVE in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 739.0,
+    "views": 123887,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 6.24
+  },
+  {
+    "video_id": "0MWjkoFvUIg",
+    "title": "\"Ganas\" - 2022 Texas State Democratic Convention Speech",
+    "channel": "James Talarico",
+    "duration": 526.0,
+    "views": 22957,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "convention_speech",
+    "score": 6.23
+  },
+  {
+    "video_id": "6k4j5DMUaMc",
+    "title": "James Talarico Takes the Stage Alone After Debate with Ken Paxton Fails to Materialize",
+    "channel": "Houston Public Media",
+    "duration": 821.0,
+    "views": 21143,
+    "queries": [
+      "paxton",
+      "talarico"
+    ],
+    "kind_guess": "debate",
+    "score": 6.21
+  },
+  {
+    "video_id": "lr4GSZq_gV8",
+    "title": "Texas election update: Talarico addresses ICE, statewide races within margin of error",
+    "channel": "KHOU 11",
+    "duration": 116.0,
+    "views": 119519,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 6.2
+  },
+  {
+    "video_id": "62Izz0VvhAs",
+    "title": "WATCH: James Talarico speaks after declaring victory in Texas U.S. Senate race",
+    "channel": "KSAT 12",
+    "duration": 850.0,
+    "views": 20399,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.2
+  },
+  {
+    "video_id": "d_sjaNqhHxU",
+    "title": "FULL SPEECH: San Antonio Crowd Goes Crazy for Ken Paxton - 10/07/26",
+    "channel": "Right Side Broadcasting Network",
+    "duration": 453.0,
+    "views": 15002,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.15
+  },
+  {
+    "video_id": "eCta17LWk6M",
+    "title": "James Talarico flips Texas Senate seat blue in a historic win for Dems",
+    "channel": "The Hill",
+    "duration": 290.0,
+    "views": 113228,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.13
+  },
+  {
+    "video_id": "e5tCFBspuJo",
+    "title": "SHOCKING POLL: James Talarico EXPANDS LEAD in Texas Senate",
+    "channel": "Let's Talk Elections",
+    "duration": 908.0,
+    "views": 112351,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 6.12
+  },
+  {
+    "video_id": "RgFTFiS1gKA",
+    "title": "LIVE: Olivia Troye at the James Talarico Rally in El Paso, TX",
+    "channel": "Olivia of Troye",
+    "duration": 3586.0,
+    "views": 11273,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.11
+  },
+  {
+    "video_id": "OACCOE0v2vE",
+    "title": "Can Ken Paxton Afford To Debate James Talarico?",
+    "channel": "Stickman Summits",
+    "duration": 1264.0,
+    "views": 10375,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 6.1
+  },
+  {
+    "video_id": "EWVMC5pRBPA",
+    "title": "Ken Paxton's AI Deepfake of James Talarico — The REAL Quotes",
+    "channel": "Light & Shadow Politics",
+    "duration": 888.0,
+    "views": 9431,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 6.09
+  },
+  {
+    "video_id": "clQv32p35FM",
+    "title": "US Senate candidate James Talarico delivers victory speech in Austin",
+    "channel": "KVUE",
+    "duration": 628.0,
+    "views": 9297,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 6.09
+  },
+  {
+    "video_id": "6WxH1_Ide7o",
+    "title": "Full video: Texas Senate votes to acquit AG Ken Paxton on 16 articles of impeachment",
+    "channel": "KHOU 11",
+    "duration": 7234.0,
+    "views": 7766,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 6.08
+  },
+  {
+    "video_id": "9SUoxXjOD6g",
+    "title": "FOX NEWS: James Talarico Leads by SEVEN in TEXAS Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 931.0,
+    "views": 107337,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 6.07
+  },
+  {
+    "video_id": "YyR7qJLTrDg",
+    "title": "WATCH LIVE: James Talarico speaks after voting in Austin",
+    "channel": "CBS Austin",
+    "duration": 165.0,
+    "views": 7457,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.07
+  },
+  {
+    "video_id": "5JkpT5uYPPI",
+    "title": "NEW POLL: James Talarico KEEPS WINNING in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 811.0,
+    "views": 106005,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 6.06
+  },
+  {
+    "video_id": "WBNbBGDaM8c",
+    "title": "FULL SPEECH: AG Ken Paxton Delivers Remarks at the CPAC 2026 Ronald Reagan Dinner - 03/27/26",
+    "channel": "Right Side Broadcasting Network",
+    "duration": 961.0,
+    "views": 6354,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.06
+  },
+  {
+    "video_id": "AfFpJn1W2MM",
+    "title": "FULL: 'We're All Getting Screwed...', James Talarico Delivers Fiery Speech On 'WH-Billionaire Nexus'",
+    "channel": "NDTV World",
+    "duration": 937.0,
+    "views": 6169,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.06
+  },
+  {
+    "video_id": "n5B4ypxKazM",
+    "title": "James Talarico delivers final message to San Antonio ahead of Election Day",
+    "channel": "KSAT 12",
+    "duration": 120.0,
+    "views": 4685,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.05
+  },
+  {
+    "video_id": "vGbrNQMt_wc",
+    "title": "LIVE: Talarico in San Antonio",
+    "channel": "News 4 (WOAI) San Antonio",
+    "duration": 3663.0,
+    "views": 3980,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.04
+  },
+  {
+    "video_id": "kizpyKbVZHg",
+    "title": "WATCH LIVE: James Talarico makes a stop at UT Austin",
+    "channel": "CBS Austin",
+    "duration": 4052.0,
+    "views": 3420,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.03
+  },
+  {
+    "video_id": "_h4dSVoQmSk",
+    "title": "ICYMI: Olivia Troye & Jim Acosta Livestream From James Talarico’s Rally in El Paso, TX",
+    "channel": "Olivia of Troye",
+    "duration": 3126.0,
+    "views": 2628,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.03
+  },
+  {
+    "video_id": "Egz_vv5zxiQ",
+    "title": "LIVE: James Talarico stops at La Fonda on Main",
+    "channel": "News 4 (WOAI) San Antonio",
+    "duration": 1589.0,
+    "views": 2417,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.02
+  },
+  {
+    "video_id": "kyl5ydTbJzE",
+    "title": "Paxton vs. Talarico: These Ads Are Getting Ridiculous",
+    "channel": "Grimm on the Rocks",
+    "duration": 602.0,
+    "views": 1623,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 6.02
+  },
+  {
+    "video_id": "JGpHRDue4Cc",
+    "title": "Here's Why",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 42499188,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.0
+  },
+  {
+    "video_id": "EraE-qv80QU",
+    "title": "Drowning",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 26215998,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.0
+  },
+  {
+    "video_id": "YKmq--3gOLo",
+    "title": "Insulin",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 10963363,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.0
+  },
+  {
+    "video_id": "l2laitYVITo",
+    "title": "PawPaw",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 10851217,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.0
+  },
+  {
+    "video_id": "3aOl8nE2sPI",
+    "title": "LIVE: Talarico and Cuban Make MAJOR 2026 ANNOUNCEMENT…",
+    "channel": "MeidasTouch",
+    "duration": 2704.0,
+    "views": 399341,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 6.0
+  },
+  {
+    "video_id": "5s_1x9IYPbc",
+    "title": "Billionaires",
+    "channel": "James Talarico",
+    "duration": 30.0,
+    "views": 314856,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 6.0
+  },
+  {
+    "video_id": "fWS87m5TEnA",
+    "title": "AG Ken Paxton (Full Speech) - Turning Point Action - AmFest 2024",
+    "channel": "Turning Point Action",
+    "duration": 968.0,
+    "views": 428,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 6.0
+  },
+  {
+    "video_id": "QWwgnBKjEqc",
+    "title": "‘We've Had A Difficult Night’: Ken Paxton Concedes Defeat, Congratulates James Talarico",
+    "channel": "The Daily Guardian",
+    "duration": 111.0,
+    "views": 126,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 6.0
+  },
+  {
+    "video_id": "iEFAf8X_8Ow",
+    "title": "5pm live shot on ken paxton day before election day",
+    "channel": "The Blessed Mess",
+    "duration": 145.0,
+    "views": 6,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 6.0
+  },
+  {
+    "video_id": "slcgGR9tZMI",
+    "title": "SHOCKING POLL: James Talarico Leads by SIX in TEXAS Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 728.0,
+    "views": 99452,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.99
+  },
+  {
+    "video_id": "_R_U1L2ZGpw",
+    "title": "Trump Weighs GAME-CHANGING Endorsement in Texas Primary Between Cornyn and Paxton, with Jesse Kelly",
+    "channel": "Megyn Kelly",
+    "duration": 887.0,
+    "views": 97253,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.97
+  },
+  {
+    "video_id": "gd2wAK9xKLg",
+    "title": "James Talarico on the Rage Economy, Billionaires and Flipping Texas",
+    "channel": "New York Times Podcasts",
+    "duration": 2143.0,
+    "views": 97044,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.97
+  },
+  {
+    "video_id": "3dCexPtFavw",
+    "title": "James Talarico and Gina Hinojosa rally in Texas on the final night before the midterms",
+    "channel": "MS NOW",
+    "duration": 1956.0,
+    "views": 96503,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.97
+  },
+  {
+    "video_id": "35fLaijCnAE",
+    "title": "FINAL A+ Texas Poll: James Talarico WINS Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 766.0,
+    "views": 95968,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 5.96
+  },
+  {
+    "video_id": "JuVGcMjDcx0",
+    "title": "SHOCKING POLL: James Talarico EXPANDS LEAD in TEXAS Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 901.0,
+    "views": 90470,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.9
+  },
+  {
+    "video_id": "WopGYDNd22A",
+    "title": "Paxton a ‘NIGHTMARE’ for his own party: Texas Dem Rep. rips GOP candidate over leaked audios",
+    "channel": "MS NOW",
+    "duration": 476.0,
+    "views": 87170,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.87
+  },
+  {
+    "video_id": "JMQOs-DZnLc",
+    "title": "The Check",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 182322,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.82
+  },
+  {
+    "video_id": "HNq_T5LsVMY",
+    "title": "SHOCKING POLL: James Talarico LEADS BY SIX in TEXAS Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 726.0,
+    "views": 80267,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.8
+  },
+  {
+    "video_id": "WKQpmvuewUk",
+    "title": "Texas Senator James Talarico & Ilana Glazer Talk Trust & God",
+    "channel": "It's Open with Ilana Glazer",
+    "duration": 332.0,
+    "views": 77795,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.78
+  },
+  {
+    "video_id": "jBdmN0bXpYU",
+    "title": "LEAKED: John Cornyn \"Wants Paxton to Lose\" Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 724.0,
+    "views": 75707,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.76
+  },
+  {
+    "video_id": "x5efFLfLWNA",
+    "title": "James Talarico FLEES CAMERAS After Viral Ad HUMILIATES Democrats’ Texas Candidate!",
+    "channel": "Ron Yates",
+    "duration": 1287.0,
+    "views": 75676,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "ad",
+    "score": 5.76
+  },
+  {
+    "video_id": "y9w0byAwdUQ",
+    "title": "Ken Paxton’s Campaign Takes An EMBARRASSING Turn",
+    "channel": "The Damage Report",
+    "duration": 301.0,
+    "views": 71417,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.71
+  },
+  {
+    "video_id": "zmaxfMh140A",
+    "title": "What led to the impeachment of Texas AG Ken Paxton",
+    "channel": "WFAA",
+    "duration": 232.0,
+    "views": 68323,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.68
+  },
+  {
+    "video_id": "-TYaR5i6cwE",
+    "title": "A+ POLL: James Talarico LEADS in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 910.0,
+    "views": 64950,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.65
+  },
+  {
+    "video_id": "r0lXNVLAIGg",
+    "title": "Service",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 164488,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.64
+  },
+  {
+    "video_id": "3r4E8q8zb-k",
+    "title": "A+ Texas Poll: James Talarico SURGES in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 902.0,
+    "views": 61321,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.61
+  },
+  {
+    "video_id": "cqL6GSrUKEU",
+    "title": "Olivia Troye Joins Jim Acosta to Discuss What They Witnessed at the James Talarico Rally in El Paso",
+    "channel": "Olivia of Troye",
+    "duration": 1232.0,
+    "views": 58304,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.58
+  },
+  {
+    "video_id": "OXTGiahq2hE",
+    "title": "GOP POLLSTER: James Talarico WINS Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 740.0,
+    "views": 55861,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 5.56
+  },
+  {
+    "video_id": "uut_Jcbd1LU",
+    "title": "CNN, Jubilee Town Hall with James Talarico Wednesday in Fort Worth",
+    "channel": "CBS TEXAS",
+    "duration": 258.0,
+    "views": 55567,
+    "queries": [
+      "race",
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.56
+  },
+  {
+    "video_id": "muU9JiT9BT0",
+    "title": "James Talarico opens up about his stance on immigration",
+    "channel": "Fox News Clips",
+    "duration": 203.0,
+    "views": 54311,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.54
+  },
+  {
+    "video_id": "lhzSpYDWmm4",
+    "title": "Republicans CAN'T SAVE Ken Paxton in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 731.0,
+    "views": 52005,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.52
+  },
+  {
+    "video_id": "Ked-_X5SzQQ",
+    "title": "James Talarico takes voters' questions in CNN town hall days before early voting",
+    "channel": "KHOU 11",
+    "duration": 111.0,
+    "views": 51079,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.51
+  },
+  {
+    "video_id": "vVuYOMY-eCw",
+    "title": "James Talarico SURGES TO LEAD in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 786.0,
+    "views": 50507,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 5.51
+  },
+  {
+    "video_id": "FHwmGdPE9HQ",
+    "title": "James Talarico Campaigns for U.S. Senate in Austin, Texas",
+    "channel": "C-SPAN",
+    "duration": 1306.0,
+    "views": 49712,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.5
+  },
+  {
+    "video_id": "Yk1xBYM9pRM",
+    "title": "James Talarico makes closing arguments to Texans, Desoto residents face water billing issues",
+    "channel": "CBS TEXAS",
+    "duration": 573.0,
+    "views": 49014,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.49
+  },
+  {
+    "video_id": "EY5jMAkdoZU",
+    "title": "Trump-backed super PAC commits $10 million to support Ken Paxton",
+    "channel": "CBS TEXAS",
+    "duration": 38.0,
+    "views": 47128,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.47
+  },
+  {
+    "video_id": "4Zqn6U7Y74w",
+    "title": "Lawmakers react to Texas Attorney General Ken Paxton's acquittal in impeachment trial",
+    "channel": "KHOU 11",
+    "duration": 146.0,
+    "views": 44913,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.45
+  },
+  {
+    "video_id": "Nt6loWINgjE",
+    "title": "VP Vance on President Trump Endorsing Ken Paxton in Texas Senate Race",
+    "channel": "C-SPAN",
+    "duration": 116.0,
+    "views": 44666,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.45
+  },
+  {
+    "video_id": "HK9T_3MOJG4",
+    "title": "James Talarico and Gina Hinojosa's post-election celebration couldn't be more Texas",
+    "channel": "KHOU 11",
+    "duration": 52.0,
+    "views": 43616,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.44
+  },
+  {
+    "video_id": "M9DWEo5myD0",
+    "title": "Ken Paxton speaks on eve of midterm election",
+    "channel": "MS NOW",
+    "duration": 1436.0,
+    "views": 42771,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "final_rally",
+    "score": 5.43
+  },
+  {
+    "video_id": "ZY_th1-fbAk",
+    "title": "James Talarico holds rally at UT Austin",
+    "channel": "KVUE",
+    "duration": 145.0,
+    "views": 42436,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.42
+  },
+  {
+    "video_id": "sTH3_uUonPg",
+    "title": "“People of Texas deserve better”: Paxton speech as Senate primary heads toward runoff",
+    "channel": "WFAA",
+    "duration": 593.0,
+    "views": 41876,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.42
+  },
+  {
+    "video_id": "GxHsSCvFM-Y",
+    "title": "Trump Supporter KICKED OUT of Ken Paxton Rally! She NEVER Saw This Coming! 😳",
+    "channel": "Stinkster_Reborn",
+    "duration": 328.0,
+    "views": 41042,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.41
+  },
+  {
+    "video_id": "BL2s1bVbGWA",
+    "title": "Sen. John Cornyn Concedes Texas GOP Senate Primary Runoff to Ken Paxton",
+    "channel": "C-SPAN",
+    "duration": 453.0,
+    "views": 37384,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 5.37
+  },
+  {
+    "video_id": "zsKqeHkJH6w",
+    "title": "Trump RIPS Ken Paxton In Texas Announcement As White House Dinner Goes Sideways",
+    "channel": "The Damage Report",
+    "duration": 386.0,
+    "views": 34985,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 5.35
+  },
+  {
+    "video_id": "nJzIymXoZiE",
+    "title": "REPORT: Republicans REGRET Ken Paxton in Texas Senate Race",
+    "channel": "Let's Talk Elections",
+    "duration": 758.0,
+    "views": 34797,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.35
+  },
+  {
+    "video_id": "ZPx761Osvsk",
+    "title": "“Black People Don’t Trust You!” James Talarico Faced Heated Texas Town Hall",
+    "channel": "The Karen Hunter Show",
+    "duration": 499.0,
+    "views": 33559,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.34
+  },
+  {
+    "video_id": "Xqf0cWYgNKw",
+    "title": "Paxton's campaign control",
+    "channel": "POLITICO",
+    "duration": 1459.0,
+    "views": 32949,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.33
+  },
+  {
+    "video_id": "WDy8iYHIegE",
+    "title": "Ad Mocks Texas Democrat James Talarico: “He Ties All the Worst Negatives of the Democrats Into One”",
+    "channel": "2WAY",
+    "duration": 860.0,
+    "views": 29817,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "ad",
+    "score": 5.3
+  },
+  {
+    "video_id": "bd5sG0WXkCk",
+    "title": "‘Perfect storm’ brewing for Democrats after Paxton’s GOP primary victory: Fmr. Bush advisor",
+    "channel": "MS NOW",
+    "duration": 581.0,
+    "views": 29607,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.3
+  },
+  {
+    "video_id": "uXMJtbn1atc",
+    "title": "Black Voters TURN on James Talarico at Texas Town Hall",
+    "channel": "After Party with Emily Jashinsky",
+    "duration": 781.0,
+    "views": 27976,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.28
+  },
+  {
+    "video_id": "tMKfZ4SyM30",
+    "title": "Texas US Senate race: New poll shows Talarico in the lead",
+    "channel": "KVUE",
+    "duration": 346.0,
+    "views": 27620,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.28
+  },
+  {
+    "video_id": "vdgxP8ratc8",
+    "title": "James Talarico SUPPORTS Border Security, DEFENDS His Texas Roots",
+    "channel": "MS NOW",
+    "duration": 737.0,
+    "views": 26788,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.27
+  },
+  {
+    "video_id": "j_XD79Wax64",
+    "title": "All HELL BREAKS LOOSE in Texas Senate Race as Paxton Faces Debate Pressure",
+    "channel": "The TEC Show",
+    "duration": 708.0,
+    "views": 26604,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "debate",
+    "score": 5.27
+  },
+  {
+    "video_id": "JC_s0J-Kgg0",
+    "title": "Ken Paxton Takes Texas Youth Summit Stage to Explain How He Will Support Texas - 10/09/26",
+    "channel": "Right Side Broadcasting Network",
+    "duration": 1242.0,
+    "views": 24417,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.24
+  },
+  {
+    "video_id": "bqmI4z2Yt8Q",
+    "title": "What Election Night Looked Like in Austin: Hinojosa, Talarico & Behind-the-Scenes Moments",
+    "channel": "Houston Chronicle",
+    "duration": 316.0,
+    "views": 23650,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 5.24
+  },
+  {
+    "video_id": "5nF1thfSfXA",
+    "title": "SHOCK POLL: James Talarico Leads by 5 and Texas Could Decide the Senate",
+    "channel": "The TEC Show",
+    "duration": 585.0,
+    "views": 23289,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.23
+  },
+  {
+    "video_id": "-uoE4ZhdB4c",
+    "title": "Cornyn vs Paxton primary a 'Texas-sized test' on Trump’s hold on GOP",
+    "channel": "MS NOW",
+    "duration": 473.0,
+    "views": 19826,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.2
+  },
+  {
+    "video_id": "eY_U8kueaa0",
+    "title": "The 2026 Senate Elections Based on NEW Texas POLLS Can Talarico Pull Off a 2026 Upset?",
+    "channel": "The TEC Show",
+    "duration": 839.0,
+    "views": 17921,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.18
+  },
+  {
+    "video_id": "Pzc1p9RSK9o",
+    "title": "James Talarico Campaigns for U.S. Senate in San Antonio, TX",
+    "channel": "C-SPAN",
+    "duration": 1451.0,
+    "views": 16832,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.17
+  },
+  {
+    "video_id": "hPIdMHLf1XA",
+    "title": "Elon Musk bankrolls Ken Paxton's campaign for Senate",
+    "channel": "WFAA",
+    "duration": 33.0,
+    "views": 15356,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.15
+  },
+  {
+    "video_id": "0yndHmKFbQQ",
+    "title": "'They're Going After Grandmothers And Infants': James Talarico Criticizes ICE Deportations",
+    "channel": "Forbes Breaking News",
+    "duration": 32.0,
+    "views": 12819,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.13
+  },
+  {
+    "video_id": "COOq72bJZe8",
+    "title": "'They Have Spent So Far $368 Million Just Against One Man...': Beto O'Rourke Defends James Talarico",
+    "channel": "Forbes Breaking News",
+    "duration": 643.0,
+    "views": 12544,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.13
+  },
+  {
+    "video_id": "DqyBy9e8XXU",
+    "title": "BLACK MAGA SUPPORTER KICKED OUT OF KEN PAXTON RALLY! DOES THE GOP REALLY ACCEPT BLACK CONSERVATIVES?",
+    "channel": "THE JUST BEING PETTY SHOW",
+    "duration": 1018.0,
+    "views": 10649,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.11
+  },
+  {
+    "video_id": "GCtRBkE7LqA",
+    "title": "Trump-backed candidate Ken Paxton defeats incumbent Senator John Cornyn in Texas runoff",
+    "channel": "WHAS11",
+    "duration": 152.0,
+    "views": 10479,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.1
+  },
+  {
+    "video_id": "wpj2Fel4uJI",
+    "title": "Talarico, Trump hold dueling rallies in Lubbock",
+    "channel": "CBS TEXAS",
+    "duration": 69.0,
+    "views": 10453,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.1
+  },
+  {
+    "video_id": "khyNwKrZZXk",
+    "title": "Talarico: \"The people of Texas are my slingshot\"",
+    "channel": "C-SPAN",
+    "duration": 73.0,
+    "views": 10349,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.1
+  },
+  {
+    "video_id": "mul50z2Pd48",
+    "title": "'I Think We've Got To Ban Them All': James Talarico Slams Corporate PACs",
+    "channel": "Forbes Breaking News",
+    "duration": 29.0,
+    "views": 10054,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.1
+  },
+  {
+    "video_id": "oxn3-v-VXjU",
+    "title": "Talarico energizing Democrats at Lubbock's Fiesta Center",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 152.0,
+    "views": 9787,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.1
+  },
+  {
+    "video_id": "YRpJhPqSvP0",
+    "title": "Texas Senate Race SHIFTS as Talarico Opens 5-Point Lead",
+    "channel": "The TEC Show",
+    "duration": 603.0,
+    "views": 9354,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 5.09
+  },
+  {
+    "video_id": "cHapFqIvqoo",
+    "title": "Ken Paxton says opponent “stabbed our president in the back” in speech",
+    "channel": "WFAA",
+    "duration": 203.0,
+    "views": 8816,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.09
+  },
+  {
+    "video_id": "DuFxEcmkH58",
+    "title": "Texas Town Hall: James Talarico Takes Questions from Voters",
+    "channel": "merton jenkins",
+    "duration": 9278.0,
+    "views": 8715,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.09
+  },
+  {
+    "video_id": "lpVAiiIlHg8",
+    "title": "Ken Paxton speaks after defeating John Cornyn in Texas Senate runoff",
+    "channel": "KHOU 11",
+    "duration": 596.0,
+    "views": 8714,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.09
+  },
+  {
+    "video_id": "equQ47sGlTQ",
+    "title": "Texas Senate race heats up as James Talarico rallies hundreds in Houston ahead of Election Day",
+    "channel": "KHOU 11",
+    "duration": 177.0,
+    "views": 8418,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "other",
+    "score": 5.08
+  },
+  {
+    "video_id": "aM4pGRs3614",
+    "title": "James Talarico campaigns in Austin ahead of early voting",
+    "channel": "KVUE",
+    "duration": 95.0,
+    "views": 7923,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.08
+  },
+  {
+    "video_id": "hI7H3rcTNrI",
+    "title": "James Talarico Electrifies Texas Crowd With Bold Promise to Protect Immigrants and Pursue Pedophiles",
+    "channel": "Hook Global",
+    "duration": 485.0,
+    "views": 7711,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.08
+  },
+  {
+    "video_id": "WCcANcmbi8U",
+    "title": "James Talarico Campaign event in Plano",
+    "channel": "The National Desk",
+    "duration": 1830.0,
+    "views": 7527,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.08
+  },
+  {
+    "video_id": "kYBMIWyNFK0",
+    "title": "James Talarico becomes first Democrat elected to US Senate from Texas in nearly 40 years",
+    "channel": "KHOU 11",
+    "duration": 149.0,
+    "views": 7304,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.07
+  },
+  {
+    "video_id": "b8H9j5plIE8",
+    "title": "James Talarico Holds a Campaign Rally in San Antonio, TX",
+    "channel": "electron media group, inc.",
+    "duration": 2254.0,
+    "views": 6987,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.07
+  },
+  {
+    "video_id": "JMajkLHBceY",
+    "title": "Dallas Republican pollster weighs whether Trump's endorsement of Paxton over Cornyn matters",
+    "channel": "CBS TEXAS",
+    "duration": 881.0,
+    "views": 6948,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.07
+  },
+  {
+    "video_id": "DlD33CF4KNw",
+    "title": "Texas Senate Primary Debate: James Talarico 'proven fighter' in Texas politics",
+    "channel": "KXAN",
+    "duration": 69.0,
+    "views": 6576,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "debate",
+    "score": 5.07
+  },
+  {
+    "video_id": "xEVsJrCy4qY",
+    "title": "'I Want To See Fewer Abortions': James Talarico Discusses Reproductive Health At Town Hall",
+    "channel": "Forbes Breaking News",
+    "duration": 53.0,
+    "views": 6546,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.07
+  },
+  {
+    "video_id": "79tCFhPGnIc",
+    "title": "James Talarico speaks after Texas senate win",
+    "channel": "ARC El Paso",
+    "duration": 1144.0,
+    "views": 6181,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.06
+  },
+  {
+    "video_id": "3AX-g3O_EuE",
+    "title": "Ken Paxton's impeachment trial: What you need to know",
+    "channel": "CBS TEXAS",
+    "duration": 1328.0,
+    "views": 6053,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.06
+  },
+  {
+    "video_id": "DpeIRkzKemU",
+    "title": "James Talarico Addresses The ‘Conspiracy Theories’ After Spending A Week At Home With The Flu",
+    "channel": "Forbes Breaking News",
+    "duration": 77.0,
+    "views": 5871,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.06
+  },
+  {
+    "video_id": "rsEf161mgSs",
+    "title": "Extended interview with Democratic U.S. Senate candidate James Talarico just before Election Day",
+    "channel": "KSAT 12",
+    "duration": 232.0,
+    "views": 5123,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 5.05
+  },
+  {
+    "video_id": "H3OoExoyc9Y",
+    "title": "AP: Ken Paxton defeats John Cornyn in Texas GOP Senate runoff",
+    "channel": "KHOU 11",
+    "duration": 208.0,
+    "views": 4711,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.05
+  },
+  {
+    "video_id": "Y91oRGgMzx4",
+    "title": "Ken Paxton (R-TX) Election Night Speech",
+    "channel": "C-SPAN",
+    "duration": 410.0,
+    "views": 4026,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 5.04
+  },
+  {
+    "video_id": "z_082RRxnqY",
+    "title": "Senate Candidate Ken Paxton Shares His Story and Makes Case for Senate Seat - 09/09/26",
+    "channel": "Right Side Broadcasting Network",
+    "duration": 378.0,
+    "views": 3860,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.04
+  },
+  {
+    "video_id": "GwiQPcaI5a4",
+    "title": "Trump Endorses Ken Paxton In Texas GOP Senate Primary Runoff",
+    "channel": "Houston Public Media",
+    "duration": 376.0,
+    "views": 3837,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.04
+  },
+  {
+    "video_id": "qoQK5ud3y1E",
+    "title": "James Talarico talks US Senate race, priorities ahead of Election Day",
+    "channel": "KSAT 12",
+    "duration": 93.0,
+    "views": 3569,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.04
+  },
+  {
+    "video_id": "BkBDW3wyqng",
+    "title": "Ken Paxton holds Senate campaign rally in Allen ahead of midterms",
+    "channel": "WFAA",
+    "duration": 158.0,
+    "views": 3477,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.03
+  },
+  {
+    "video_id": "sKzQQC3wmUI",
+    "title": "James Talarico changes Lubbock rally location",
+    "channel": "Everything Lubbock",
+    "duration": 40.0,
+    "views": 3050,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.03
+  },
+  {
+    "video_id": "66JV-g_2sn8",
+    "title": "Trump and Talarico hold rallies in Lubbock County",
+    "channel": "KENS 5: Your San Antonio News Source",
+    "duration": 123.0,
+    "views": 2975,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.03
+  },
+  {
+    "video_id": "Xg7FAg_OU1w",
+    "title": "Ken Paxton Declares Victory in Texas GOP Senate Primary Runoff",
+    "channel": "C-SPAN",
+    "duration": 567.0,
+    "views": 2753,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 5.03
+  },
+  {
+    "video_id": "k-iggkR_j60",
+    "title": "James Talarico & Gina Hinojosa Rally with Supporters in Dallas, Texas",
+    "channel": "electron media group, inc.",
+    "duration": 4046.0,
+    "views": 2692,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.03
+  },
+  {
+    "video_id": "6_Sb86OfzOU",
+    "title": "Paxton defeats incumbent Cornyn in Texas GOP Senate primary runoff, CBS News projects",
+    "channel": "Face the Nation",
+    "duration": 143.0,
+    "views": 2543,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "news_package",
+    "score": 5.03
+  },
+  {
+    "video_id": "hAXABEQ7NgY",
+    "title": "Verdict is in for Texas Attorney General Ken Paxton",
+    "channel": "The National Desk",
+    "duration": 4033.0,
+    "views": 2501,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.03
+  },
+  {
+    "video_id": "F-iHf0p7rDI",
+    "title": "Ken Paxton thanks Trump for support & John Cornyn concedes Texas Senate GOP runoff election",
+    "channel": "The Hill",
+    "duration": 122.0,
+    "views": 2488,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 5.02
+  },
+  {
+    "video_id": "wkMey2I5vh4",
+    "title": "Jasmine Crockett vs James Talarico Debate: Race For Texas Senate 2026",
+    "channel": "AT2",
+    "duration": 4286.0,
+    "views": 2420,
+    "queries": [
+      "race"
+    ],
+    "kind_guess": "debate",
+    "score": 5.02
+  },
+  {
+    "video_id": "qymcGZ0k1UA",
+    "title": "James Talarico launches U.S. Senate campaign",
+    "channel": "WFAA",
+    "duration": 120.0,
+    "views": 2277,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 5.02
+  },
+  {
+    "video_id": "40_1B6pMWOw",
+    "title": "VoteBeat: Trump endorsement of Paxton not sitting well with some Republicans",
+    "channel": "KVUE",
+    "duration": 309.0,
+    "views": 2203,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.02
+  },
+  {
+    "video_id": "V-1AwohT3U4",
+    "title": "Trump, Talarico hold competing rallies in Lubbock Tuesday night",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 766.0,
+    "views": 2194,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.02
+  },
+  {
+    "video_id": "L0GGcedc7_A",
+    "title": "Ken Paxton speech to Turning Point USA students at the University of Texas",
+    "channel": "KXAN",
+    "duration": 665.0,
+    "views": 1936,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.02
+  },
+  {
+    "video_id": "0JublPIKXZQ",
+    "title": "U.S. Senate candidate James Talarico rally in Lubbock",
+    "channel": "Everything Lubbock",
+    "duration": 3167.0,
+    "views": 1860,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.02
+  },
+  {
+    "video_id": "OW9uhU8LqAY",
+    "title": "Supporters gather for Ken Paxton's bus tour kickoff",
+    "channel": "CBS TEXAS",
+    "duration": 161.0,
+    "views": 1808,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 5.02
+  },
+  {
+    "video_id": "gCf6fXXlHLg",
+    "title": "James Talarico changes Lubbock rally location",
+    "channel": "Everything Lubbock",
+    "duration": 108.0,
+    "views": 1723,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.02
+  },
+  {
+    "video_id": "-7nTJ8Zf85c",
+    "title": "James Talarico’s hypocrisy on display with his unbelievable border stance",
+    "channel": "News24",
+    "duration": 736.0,
+    "views": 1719,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.02
+  },
+  {
+    "video_id": "Ei3sbs0SHhI",
+    "title": "Trump endorses Paxton in GOP Senate primary runoff",
+    "channel": "KXAN",
+    "duration": 112.0,
+    "views": 1520,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.02
+  },
+  {
+    "video_id": "K9pqmF-hdms",
+    "title": "Senate Candidate James Talarico Rally in Kerrville, TX",
+    "channel": "electron media group, inc.",
+    "duration": 2192.0,
+    "views": 1434,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.01
+  },
+  {
+    "video_id": "OzccKEWpuSs",
+    "title": "Sen. John Cornyn concedes to Ken Paxton in GOP U.S. Senate runoff election",
+    "channel": "KPRC 2 Click2Houston",
+    "duration": 85.0,
+    "views": 1377,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "concession_speech",
+    "score": 5.01
+  },
+  {
+    "video_id": "70SoBFS1-_k",
+    "title": "Ken Paxton impeachment trial ends with acquittal, political barbs",
+    "channel": "CBS TEXAS",
+    "duration": 250.0,
+    "views": 1360,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "BdwGA9cLKXI",
+    "title": "Trump endorsement reshapes Paxton–Cornyn primary, CBS correspondent says",
+    "channel": "CBS TEXAS",
+    "duration": 245.0,
+    "views": 1107,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "mSVRSWFmN3A",
+    "title": "Trump-backed Ken Paxton wins Texas Senate runoff over John Cornyn",
+    "channel": "KHOU 11",
+    "duration": 102.0,
+    "views": 1105,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "victory_speech",
+    "score": 5.01
+  },
+  {
+    "video_id": "pytnH6n9r58",
+    "title": "James Talarico raises concerns about San Antonio storm warnings, FEMA and data centers",
+    "channel": "KABB FOX San Antonio",
+    "duration": 175.0,
+    "views": 1019,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "Z6MRNXEQpRo",
+    "title": "James Talarico in El Paso",
+    "channel": "KFOX14",
+    "duration": 2128.0,
+    "views": 1007,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "jojQBXAR3M4",
+    "title": "Talarico kicks off 'Frontera Tour' in El Paso",
+    "channel": "KTSM 9 NEWS",
+    "duration": 87.0,
+    "views": 738,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 5.01
+  },
+  {
+    "video_id": "na4T88nidHs",
+    "title": "Talarico visits EP,  touts immigration reform",
+    "channel": "KTSM 9 NEWS",
+    "duration": 144.0,
+    "views": 692,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "CJJLDjO3Khc",
+    "title": "James Talarico Faces Texas Voters: Moments From His CNN Town Hall",
+    "channel": "Atlanta Black Star",
+    "duration": 456.0,
+    "views": 662,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.01
+  },
+  {
+    "video_id": "nZPPjuKBvnE",
+    "title": "Trump, Talarico both holding rallies in Lubbock Oct. 27",
+    "channel": "KCBD NewsChannel 11 - Lubbock, TX",
+    "duration": 40.0,
+    "views": 626,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "fZCrOZ_DCiQ",
+    "title": "James Talarico makes campaign stop in Houston's Third Ward",
+    "channel": "KHOU 11",
+    "duration": 192.0,
+    "views": 551,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "eQVinWaY3II",
+    "title": "President Trump endorses Ken Paxton for US Senate",
+    "channel": "KHOU 11",
+    "duration": 54.0,
+    "views": 528,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.01
+  },
+  {
+    "video_id": "_jOGPvMftb8",
+    "title": "Joe Rogan Experience #2352 - James Talarico",
+    "channel": "PowerfulJRE",
+    "duration": 9415.0,
+    "views": 1588868,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "QJfBZjYCqiQ",
+    "title": "Dems TERRIFIED after new James Talarico ad goes viral!!",
+    "channel": "RJ Talks",
+    "duration": 532.0,
+    "views": 430162,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "ad",
+    "score": 5.0
+  },
+  {
+    "video_id": "peqzHceiXGU",
+    "title": "Ten Commandments bill exchange between Rep. Talarico and Rep. Noble",
+    "channel": "KXAN",
+    "duration": 350.0,
+    "views": 232485,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "DNiiVICk2MY",
+    "title": "Jimmy Kimmel interview with State Rep. James Talarico gains more than 6M views on YouTube",
+    "channel": "KVUE",
+    "duration": 28.0,
+    "views": 208781,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "interview",
+    "score": 5.0
+  },
+  {
+    "video_id": "6KA8VnLqyBA",
+    "title": "Ken Paxton impeachment trial: what the attorney general is accused of",
+    "channel": "CBS TEXAS",
+    "duration": 366.0,
+    "views": 484,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "dNrlVZ0AKww",
+    "title": "U.S. Senate candidate Ken Paxton speaks at historic GOP rally in Tyler",
+    "channel": "KLTV 7",
+    "duration": 556.0,
+    "views": 454,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.0
+  },
+  {
+    "video_id": "kMykDN6t1xE",
+    "title": "Texas Town Hall: James Talarico Takes Questions from Voters",
+    "channel": "merton jenkins",
+    "duration": 9271.0,
+    "views": 430,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 5.0
+  },
+  {
+    "video_id": "FX-cWlI2zFo",
+    "title": "Ken Paxton Holds Rally in Willow Park, TX",
+    "channel": "electron media group, inc.",
+    "duration": 1294.0,
+    "views": 378,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.0
+  },
+  {
+    "video_id": "ci_lrdilyDk",
+    "title": "KABB Only SA TV Station Invited to Travel With James Talarico on Border",
+    "channel": "KABB FOX San Antonio",
+    "duration": 227.0,
+    "views": 345,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "tqkMwjOA9Yw",
+    "title": "James Talarico holds rally in Lubbock",
+    "channel": "Everything Lubbock",
+    "duration": 97.0,
+    "views": 300,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.0
+  },
+  {
+    "video_id": "WcuddyxMYC0",
+    "title": "Democratic US Senate candidate James Talarico visits San Antonio",
+    "channel": "KSAT 12",
+    "duration": 39.0,
+    "views": 248,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "Pj0cKemG_UI",
+    "title": "James Talarico holds rally in Lubbock",
+    "channel": "Everything Lubbock",
+    "duration": 77.0,
+    "views": 247,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.0
+  },
+  {
+    "video_id": "qaAnsvKdc7Y",
+    "title": "Talarico’s ‘Frontera Tour’ addresses border issues, affordability in El Paso",
+    "channel": "KTSM 9 NEWS",
+    "duration": 69.0,
+    "views": 186,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "tour_launch",
+    "score": 5.0
+  },
+  {
+    "video_id": "_WkK48ScrG8",
+    "title": "Line to get into Talarico's rally in Lubbock, Texas on Tuesday, 10-27-26. 1.5 hours before rally.",
+    "channel": "Thomas Gregory",
+    "duration": 503.0,
+    "views": 177,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.0
+  },
+  {
+    "video_id": "DjSjqyY6Mcc",
+    "title": "Donald Trump Vlog: Ken Paxton Endorsement for Senate - October 17, 2026",
+    "channel": "Roll Call Factbase Videos",
+    "duration": 327.0,
+    "views": 148,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "AKRiciffvVw",
+    "title": "Ahead of Election Day, Senate hopeful James Talarico rallies in El Paso",
+    "channel": "ARC El Paso",
+    "duration": 129.0,
+    "views": 140,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "MBWF-8zxOfk",
+    "title": "Dem Talarico Attacks Biden's Border, Shifts Stance",
+    "channel": "USA Daily News",
+    "duration": 326.0,
+    "views": 39,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "IEBumHHCA-s",
+    "title": "James Talarico’s Fiery Lubbock Rally: 4,000 Texans Demand Change",
+    "channel": "The Musk Rag",
+    "duration": 78.0,
+    "views": 10,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 5.0
+  },
+  {
+    "video_id": "r4Rh33DMvdk",
+    "title": "TRUMP: Ken Paxton \"Has My Complete and Total Endorsement\" for U.S. Senate! 🇺🇸",
+    "channel": "USVanta",
+    "duration": 327.0,
+    "views": 6,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 5.0
+  },
+  {
+    "video_id": "0PVKATErlyA",
+    "title": "Anti-Trump Cornyn",
+    "channel": "Ken Paxton for Senate",
+    "duration": 113.0,
+    "views": 64809,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 4.65
+  },
+  {
+    "video_id": "p3xRLG-_MOc",
+    "title": "King James",
+    "channel": "Ken Paxton for Senate",
+    "duration": 31.0,
+    "views": 49060,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "other",
+    "score": 4.49
+  },
+  {
+    "video_id": "lSZ26-ZJiTs",
+    "title": "I Don't Scare Easily",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 40475,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 4.4
+  },
+  {
+    "video_id": "nGBdtl5mZoE",
+    "title": "Reaction to Talarico's Town Hall on CNN",
+    "channel": "Elex Michaelson",
+    "duration": 982.0,
+    "views": 138114,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 4.38
+  },
+  {
+    "video_id": "TZw8KQnpRew",
+    "title": "Who Is James Talarico’s Girlfriend? Inside His Unexpected Love Story🥤 Rumour Juice",
+    "channel": "Rumour Juice",
+    "duration": 729.0,
+    "views": 135768,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 4.36
+  },
+  {
+    "video_id": "-R5J_STxKtU",
+    "title": "Live look: Atmosphere at James Talarico's watch party in Austin",
+    "channel": "KXAN",
+    "duration": 62.0,
+    "views": 18294,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "news_package",
+    "score": 4.18
+  },
+  {
+    "video_id": "nPMyiN4E77A",
+    "title": "One Team",
+    "channel": "James Talarico",
+    "duration": 31.0,
+    "views": 11338,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 4.11
+  },
+  {
+    "video_id": "ZHMJGCPZPjo",
+    "title": "President Trump just endorsed me in Dallas. Will you join him?",
+    "channel": "Ken Paxton for Senate",
+    "duration": 23.0,
+    "views": 826,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 4.01
+  },
+  {
+    "video_id": "g5L3P6fNelE",
+    "title": "Our Border: Welcome Mat and Locked Door",
+    "channel": "James Talarico Lover",
+    "duration": 46.0,
+    "views": 665,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "rally_speech",
+    "score": 4.01
+  },
+  {
+    "video_id": "3dfyz1Md1qk",
+    "title": "WATCH: James Talarico in the Permian Basin to talk about border security",
+    "channel": "KMID",
+    "duration": 178.0,
+    "views": 65,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 4.0
+  },
+  {
+    "video_id": "s--tagw1sQM",
+    "title": "How James Talarico Crushed The Dem Establishment",
+    "channel": "The Majority Report w/ Sam Seder",
+    "duration": 554.0,
+    "views": 93039,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.93
+  },
+  {
+    "video_id": "XBWx2_YoXwE",
+    "title": "Crowder Fact-Checks James Talarico’s CNN Townhall Lies Into OBLIVION",
+    "channel": "CrowderBits",
+    "duration": 1655.0,
+    "views": 92403,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 3.92
+  },
+  {
+    "video_id": "k1uOhio4IgY",
+    "title": "Trump Panicking? Talarico Blows The Roof Off In Lubbock Which Trump Won By 40 Points",
+    "channel": "Hook Global",
+    "duration": 1618.0,
+    "views": 54039,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.54
+  },
+  {
+    "video_id": "iDpSWxF0V5I",
+    "title": "Talarico just released a perfect ad",
+    "channel": "NowThis Impact",
+    "duration": 61.0,
+    "views": 24407,
+    "queries": [
+      "paxton"
+    ],
+    "kind_guess": "ad",
+    "score": 3.24
+  },
+  {
+    "video_id": "ppZ8eTZuGGw",
+    "title": "Talarico's argument against BORDER WALL doesn't make a lick of sense...😭",
+    "channel": "Memology 101",
+    "duration": 76.0,
+    "views": 21986,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.22
+  },
+  {
+    "video_id": "wbBJmB1hskI",
+    "title": "The Exact Moment James Talarico’s CNN/Jubilee Town Hall Went Off The Rails!",
+    "channel": "Brad Polumbo",
+    "duration": 1106.0,
+    "views": 16064,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 3.16
+  },
+  {
+    "video_id": "mAvKTGKWiHI",
+    "title": "This Key Moment from James Talarico’s CNN Tall Hall that Has Karen Hunter Talking",
+    "channel": "The Karen Hunter Show",
+    "duration": 577.0,
+    "views": 14350,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.14
+  },
+  {
+    "video_id": "jQgl-PZoR54",
+    "title": "James Talarico Gets EXPOSED in Embarrassing Town Hall",
+    "channel": "Sara Gonzales and Sara Gonzales Unfiltered",
+    "duration": 1484.0,
+    "views": 9644,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 3.1
+  },
+  {
+    "video_id": "BfmoQ_36kMM",
+    "title": "Talarico town hall takeaways",
+    "channel": "The Hill",
+    "duration": 433.0,
+    "views": 8684,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 3.09
+  },
+  {
+    "video_id": "SFJmabECJtg",
+    "title": "Talarico rejects abolishing ICE: 'We need Immigration and Customs Enforcement'",
+    "channel": "The Washington Examiner",
+    "duration": 232.0,
+    "views": 6888,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.07
+  },
+  {
+    "video_id": "4IANq2gCSJY",
+    "title": "Houston Black Talarico Town Hall Recap",
+    "channel": "Black Girls Who Brunch",
+    "duration": 806.0,
+    "views": 1890,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 3.02
+  },
+  {
+    "video_id": "sZI1RQLeeag",
+    "title": "James Talarico Rallies with Supporters in Lubbock, TX",
+    "channel": "electron media group, inc.",
+    "duration": 2840.0,
+    "views": 1792,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.02
+  },
+  {
+    "video_id": "zMXWZXh6M6Q",
+    "title": "Former West Side teacher James Talarico says San Antonio classroom shaped his path to politics",
+    "channel": "KSAT 12",
+    "duration": 126.0,
+    "views": 1447,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.01
+  },
+  {
+    "video_id": "C70dTN62IRU",
+    "title": "James Talarico Town Hall (Dallas)",
+    "channel": "Quality Results Media",
+    "duration": 4705.0,
+    "views": 872,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "town_hall",
+    "score": 3.01
+  },
+  {
+    "video_id": "8nCxUWamO9c",
+    "title": "James Talarico holds press conference with former students in San Antonio",
+    "channel": "Every Bit Texas",
+    "duration": 205.0,
+    "views": 43,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.0
+  },
+  {
+    "video_id": "1LKJeZUP9fk",
+    "title": "James Talarico Calls Out Biden Border Chaos and Calls for Immigrant Reform",
+    "channel": "Kairos Cast",
+    "duration": 524.0,
+    "views": 14,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.0
+  },
+  {
+    "video_id": "djMSE4fZNSo",
+    "title": "Talarico on border security #jamestalarico",
+    "channel": "Dont Buy More Lies",
+    "duration": 118.0,
+    "views": 5,
+    "queries": [
+      "talarico"
+    ],
+    "kind_guess": "other",
+    "score": 3.0
+  }
+]

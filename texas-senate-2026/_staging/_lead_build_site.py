@@ -20,6 +20,7 @@ import re
 import shutil
 import sys
 from collections import OrderedDict
+from pathlib import Path
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
@@ -434,6 +435,7 @@ NAV = [
     ("speeches/index.html", "演讲", "Speeches"),
     ("visual/index.html", "影像", "Images"),
     ("video/index.html", "视频帧", "Video frames"),
+    ("audio/index.html", "音频", "Audio"),
     ("media/index.html", "媒体与资金", "Media & Money"),
     ("context/index.html", "选举背景", "Context"),
     ("compare/index.html", "对比分析", "Comparison"),
@@ -721,6 +723,8 @@ def crumb(path_parts):
 # ----------------------------------------------------------------------------- main build
 def main():
     print("sources loaded: %d" % load_sources())
+    n_audio_measured = 0
+    n_audio_hours = 0.0
     if os.path.isdir(SITE):
         shutil.rmtree(SITE)
     os.makedirs(os.path.join(SITE, "assets"))
@@ -1008,6 +1012,81 @@ def main():
     write("video/data.html", "Video frame datasets", "视频帧数据集", vf_data,
           crumb([("index.html", "首页"), ("video/index.html", "视频帧")]))
 
+    # ---- shot-level layer: scene cuts, keyframes, per-video visual metrics
+    shot_path = os.path.join(ROOT, "10_video_frames", "shot_index.csv")
+    vmet_path = os.path.join(ROOT, "10_video_frames", "video_visual_metrics.csv")
+    shot_rows, vmet = [], []
+    if os.path.exists(shot_path):
+        with open(shot_path, newline="", encoding="utf-8-sig") as fh:
+            shot_rows = list(csv.DictReader(fh))
+    if os.path.exists(vmet_path):
+        with open(vmet_path, newline="", encoding="utf-8-sig") as fh:
+            vmet = list(csv.DictReader(fh))
+
+    def med(vals):
+        vals = sorted(vals)
+        if not vals:
+            return None
+        n = len(vals)
+        return vals[n // 2] if n % 2 else (vals[n // 2 - 1] + vals[n // 2]) / 2.0
+
+    def fnum(rs, k):
+        out = []
+        for r in rs:
+            try:
+                out.append(float(r[k]))
+            except (KeyError, ValueError, TypeError):
+                continue
+        return out
+
+    if shot_rows:
+        vs_met = sum(1 for v in vmet if v.get("face_presence_ratio") and float(v["face_presence_ratio"]) > 0)
+        cut_med = med(fnum(vmet, "cuts_per_min"))
+        shot_med = med(fnum(vmet, "mean_scene_len_s"))
+        bright_t = med(fnum([v for v in vmet if v["candidate_source"] == "TALARICO"], "brightness_mean"))
+        bright_p = med(fnum([v for v in vmet if v["candidate_source"] == "PAXTON"], "brightness_mean"))
+        shots_sheets = "".join(
+            '<figure><a href="../../10_video_frames/%s" target="_blank"><img src="../../10_video_frames/%s" alt="%s" loading="lazy"></a>'
+            '<figcaption><b>%s</b></figcaption></figure>' % (f, f, f, f)
+            for f in sorted(os.path.basename(p) for p in
+                            (Path(ROOT) / "10_video_frames").glob("sheet_shots_*.jpg")))
+        write(
+            "video/shots.html", "Shot structure & keyframes", "镜头结构与关键帧",
+            ('<div class="warn">这一层<b>不做身份判定</b>：它记录的是镜头怎样被剪、场景看起来如何。'
+             '关键帧来自每段视频的场景切分（160×90 代理帧、2 fps、自适应阈值），每段最多取 8 帧；'
+             '亮度／对比／色彩／人脸占比均为可复现的像素测量。</div>'
+             '<div class="stats">'
+             '<div class="stat"><b>%d</b><span>关键帧</span></div>'
+             '<div class="stat"><b>%d</b><span>有镜头数据的视频</span></div>'
+             '<div class="stat"><b>%s</b><span>镜头时长中位数（秒）</span></div>'
+             '<div class="stat"><b>%s</b><span>每分钟剪切中位数</span></div>'
+             '<div class="stat"><b>%d</b><span>关键帧中检到人脸的视频</span></div>'
+             '</div>'
+             '<p>候选人间亮度中位数：塔拉里科 <b>%s</b>、帕克斯顿 <b>%s</b>（0–255）。'
+             '这只是曝光差异，不构成任何视觉风格判断；拍摄设备与场地照明的影响远大于阵营选择。</p>'
+             '<h2>缩略图 / Contact sheets</h2><div class="gal">%s</div>'
+             '<h2>镜头数据集 / Shot dataset</h2>'
+             '<p><a href="shots-data.html">逐场景索引（%d 行）</a> · '
+             '<a href="../../10_video_frames/video_visual_metrics.csv" download>每视频视觉指标 CSV</a></p>'
+             % (len(shot_rows), len(vmet),
+                "—" if shot_med is None else f"{shot_med:.1f}",
+                "—" if cut_med is None else f"{cut_med:.1f}",
+                vs_met,
+                "—" if bright_t is None else f"{bright_t:.0f}",
+                "—" if bright_p is None else f"{bright_p:.0f}",
+                shots_sheets, len(shot_rows))),
+            crumb([("index.html", "首页"), ("video/index.html", "视频帧")]))
+        write(
+            "video/shots-data.html", "Shot index (dataset)", "镜头索引（数据集）",
+            ('<div class="warn">每行一个场景：起止时间、代表帧时间码、亮度、对比、清晰度、色彩丰富度、'
+             '人脸数与人脸占宽比。`shot_scale` 由人脸占宽比推出，无人脸时为 wide。</div>'
+             + csv_table("10_video_frames/shot_index.csv", "tbl-shots", "", up="../")
+             + '<h2>每视频视觉指标 / Per-video visual metrics</h2>'
+             + csv_table("10_video_frames/video_visual_metrics.csv", "tbl-vmet", "", up="../")),
+            crumb([("index.html", "首页"), ("video/index.html", "视频帧")]))
+        search.append({"t": "镜头结构与关键帧 / Shot structure", "u": "video/shots.html",
+                       "b": "场景切分、关键帧与每视频视觉指标", "n": "视频帧"})
+
     sheets = "".join(
         '<figure><a href="../../10_video_frames/%s" target="_blank"><img src="../../10_video_frames/%s" alt="%s" loading="lazy"></a>'
         '<figcaption><b>%s</b>%s</figcaption></figure>' % (f, f, t, t, sub)
@@ -1019,7 +1098,8 @@ def main():
         ])
     write(
         "video/index.html", "Video frame set", "视频帧集",
-        f"""<div class="hero"><p>从 {len(vsrc)} 段公开视频（{n_official} 段官方竞选频道、其余为地方电视台新闻包或第三方上传）中每 0.5–1 秒采样，用 YuNet 检测人脸、SFace 与档案内授权照片比对身份，再对<b>同一场景、同一着装</b>的重复帧做感知哈希去重，留下 <b>{len(vframes)}</b> 帧。这是本档案第一次真正拿到两位候选人的画面：此前取景、舞台与着装全部是 <code>unknown</code>。</p></div>
+        f"""<div class="hero"><p>从 {len(vsrc)} 段公开视频（{n_official} 段官方竞选频道、其余为地方电视台新闻包或第三方上传）中每 0.5–1 秒采样，用 YuNet 检测人脸、SFace 与档案内授权照片比对身份，再对<b>同一场景、同一着装</b>的重复帧做感知哈希去重，留下 <b>{len(vframes)}</b> 帧。这是本档案第一次真正拿到两位候选人的画面：此前取景、舞台与着装全部是 <code>unknown</code>。</p>
+<p>另有一层<b>镜头结构</b>：对每段视频做场景切分、每段最多取 8 个关键帧，并测量亮度、对比、色彩丰富度、运动量与镜头时长 —— 这一层<b>不判定身份</b>，只记录「画面怎样被剪、场景长什么样」，见 <a href="shots.html">镜头结构与关键帧</a>。演讲类视频的音轨另见 <a href="../audio/index.html">音频分析</a>。</p></div>
 <div class="stats">
   <div class="stat"><b>{len(vsrc)}</b><span>源视频</span></div>
   <div class="stat"><b>{len(vframes)}</b><span>精选识别帧</span></div>
@@ -1030,6 +1110,7 @@ def main():
 <div class="warn"><b>三条必须先读的说明：</b>① 这些帧裁自 YouTube 上的竞选团队与电视台视频，<b>仅限内部研究</b>，公开使用需换授权素材或做仅链接处理；② 识别标签是带分数的算法判定，<b>不是人工逐帧核对</b>；③ 样本为 {len(vframes)} 帧、{len(vsrc)} 段视频，不能支撑"频率"类论断。</div>
 <div class="cards">
   <a class="card" href="frames.html"><h3>识别帧图库</h3><p>{len(vframes)} 帧分候选人陈列，含相似度与景别。</p></a>
+  <a class="card" href="shots.html"><h3>镜头结构与关键帧</h3><p>场景切分、关键帧缩略图与每视频视觉指标。</p></a>
   <a class="card" href="method.html"><h3>方法与局限</h3><p>采样、检测、SFace 阈值、验证与版权说明。</p></a>
   <a class="card" href="data.html"><h3>帧索引与源视频（数据集）</h3><p>逐帧测量值 + 每段视频的频道、日期与链接。</p></a>
 </div>
@@ -1038,6 +1119,136 @@ def main():
     )
     search.append({"t": "视频帧 / Video frames", "u": "video/index.html",
                    "b": "YuNet 检测 + SFace 身份匹配的竞选视频帧", "n": "视频帧"})
+
+    # ---- speech audio (11_speech_audio)
+    aud_dir = os.path.join(ROOT, "11_speech_audio")
+    aud_path = os.path.join(aud_dir, "delivery_metrics.csv")
+    if os.path.exists(aud_path):
+        os.makedirs(os.path.join(SITE, "audio"), exist_ok=True)
+        with open(aud_path, newline="", encoding="utf-8-sig") as fh:
+            am = list(csv.DictReader(fh))
+        am = list({r["slug"]: r for r in am}.values())
+        speech_kinds = {"rally_speech", "victory_speech", "concession_speech",
+                        "convention_speech", "town_hall", "interview", "final_rally",
+                        "tour_launch"}
+        sp = [r for r in am if r["kind"] in speech_kinds]
+
+        def g(r, k):
+            try:
+                return float(r[k])
+            except (KeyError, ValueError, TypeError):
+                return None
+
+        def m_of(rs, k, nd=0):
+            vals = [g(r, k) for r in rs]
+            vals = [v for v in vals if v is not None]
+            if not vals:
+                return "—"
+            vals.sort()
+            n = len(vals)
+            v = vals[n // 2] if n % 2 else (vals[n // 2 - 1] + vals[n // 2]) / 2
+            return ("%." + str(nd) + "f") % v
+
+        tal_s = [r for r in sp if r["candidate"] == "TALARICO"]
+        pax_s = [r for r in sp if r["candidate"] == "PAXTON"]
+        trans = sorted((Path(aud_dir) / "transcripts").glob("*.txt"))
+        plots = sorted((Path(aud_dir) / "plots").glob("*.png"))
+        aud_hours = sum(g(r, "video_duration_s") or 0 for r in sp) / 3600
+        n_audio_measured = len(am)
+        n_audio_hours = aud_hours
+        seg_n = 0
+        segf = os.path.join(aud_dir, "speech_segments.csv")
+        if os.path.exists(segf):
+            with open(segf, newline="", encoding="utf-8-sig") as fh:
+                seg_n = sum(1 for _ in csv.DictReader(fh))
+
+        tmap = {}
+        vsf = os.path.join(ROOT, "10_video_frames", "video_sources.csv")
+        if os.path.exists(vsf):
+            with open(vsf, newline="", encoding="utf-8-sig") as fh:
+                for vr in csv.DictReader(fh):
+                    tmap[vr.get("slug", "")] = vr.get("source_title", "")
+        top = sorted(sp, key=lambda r: -(g(r, "video_duration_s") or 0))[:14]
+        tr_rows = "".join(
+            '<tr><td>%s</td><td style="text-align:right">%s</td><td style="text-align:right">%s</td>'
+            '<td style="text-align:right">%s</td><td style="text-align:right">%s</td><td>%s</td></tr>'
+            % (esc(r["slug"]), esc(r["kind"]),
+               (("%.0f" % (g(r, "video_duration_s") or 0))),
+               esc(r["wpm"] or "—"), esc(r["pauses_per_min"] or "—"),
+               esc((tmap.get(r["slug"]) or r["slug"])[:70]))
+            for r in top)
+        tr_tbl = ('<div class="table-wrap"><table><thead><tr><th>slug</th><th>kind</th>'
+                  '<th>duration s</th><th>wpm</th><th>pauses/min</th><th>title</th></tr></thead>'
+                  '<tbody>%s</tbody></table></div>' % tr_rows)
+
+        trans_rows = "".join(
+            '<li><a href="../../11_speech_audio/transcripts/%s.txt" target="_blank">%s</a> <span class="tag">%s</span></li>'
+            % (esc(p.stem), esc(p.stem), esc(str(p.stat().st_size // 1024)) + " KB")
+            for p in trans)
+        plot_rows = "".join(
+            '<figure><a href="../../11_speech_audio/plots/%s" target="_blank">'
+            '<img src="../../11_speech_audio/plots/%s" alt="%s" loading="lazy"></a>'
+            '<figcaption><b>%s</b></figcaption></figure>' % (p.name, p.name, p.stem, p.stem)
+            for p in plots[:24])
+
+        r = md_page("11_speech_audio/README.md", "audio/method.html",
+                    crumb([("index.html", "首页"), ("audio/index.html", "音频")]))
+        search.append({"t": r["zh"], "u": "audio/method.html", "b": r["en"], "n": "音频"})
+
+        write("audio/data.html", "Speech delivery dataset", "演讲交付数据集",
+              ('<div class="warn">每行一段视频：说话占比、停顿次数/均值/最长、响度均值与动态、'
+               'F0 中位数与音域、频谱质心、字幕词数、语速、代词与「Texas」计数、高频实词。'
+               '<b>F0 与响度在集会混音上只能作为指示值</b>。</div>'
+               + csv_table("11_speech_audio/delivery_metrics.csv", "tbl-audio", "", up="../")
+               + '<div class="meta"><span>60 秒分段：%d 行</span>'
+                 '<span><a href="../../11_speech_audio/speech_segments.csv" download>下载 speech_segments.csv</a></span></div>'
+                 % seg_n),
+              crumb([("index.html", "首页"), ("audio/index.html", "音频")]))
+
+        write("audio/transcripts.html", "Timed transcripts", "带时间码的逐字稿",
+              ('<div class="warn">文本来自 yt-dlp 抓取的英文字幕（自动或人工）。自动字幕会丢标点、'
+               '误听人名，词数误差约百分之几；<b>引用前必须回看视频</b>。</div>'
+               '<ul>%s</ul>' % trans_rows),
+              crumb([("index.html", "首页"), ("audio/index.html", "音频")]))
+
+        write("audio/index.html", "Speech audio & delivery", "演讲音频与交付分析",
+              (f'<div class="hero"><p>把 {len(am)} 段视频的音轨全部抽出来测量：说话占比、停顿结构、'
+               '响度动态、基频与语速。它的用途是让「交付方式」从 <code>unknown</code> 变成有数的记录，'
+               '<b>而不是</b>给两位候选人的「气质」下判断。</p></div>'
+               '<div class="stats">'
+               f'<div class="stat"><b>{len(am)}</b><span>已测量视频</span></div>'
+               f'<div class="stat"><b>{len(sp)}</b><span>演讲类视频</span></div>'
+               f'<div class="stat"><b>{aud_hours:.1f}</b><span>演讲音频小时</span></div>'
+               f'<div class="stat"><b>{len(trans)}</b><span>逐字稿</span></div>'
+               f'<div class="stat"><b>{seg_n}</b><span>60 秒分段</span></div>'
+               '</div>'
+               '<h2>候选人间（仅演讲类，中位数）</h2>'
+               '<div class="table-wrap"><table><thead><tr><th>指标</th><th>塔拉里科</th><th>帕克斯顿</th></tr></thead><tbody>'
+               f'<tr><td>说话占比</td><td>{m_of(tal_s, "speech_ratio", 2)}</td><td>{m_of(pax_s, "speech_ratio", 2)}</td></tr>'
+               f'<tr><td>每分钟停顿（≥0.25 s）</td><td>{m_of(tal_s, "pauses_per_min", 1)}</td><td>{m_of(pax_s, "pauses_per_min", 1)}</td></tr>'
+               f'<tr><td>平均停顿（秒）</td><td>{m_of(tal_s, "pause_mean_s", 2)}</td><td>{m_of(pax_s, "pause_mean_s", 2)}</td></tr>'
+               f'<tr><td>语速（词/分钟）</td><td>{m_of(tal_s, "wpm", 0)}</td><td>{m_of(pax_s, "wpm", 0)}</td></tr>'
+               f'<tr><td>F0 中位数（Hz，指示值）</td><td>{m_of(tal_s, "f0_median_hz", 1)}</td><td>{m_of(pax_s, "f0_median_hz", 1)}</td></tr>'
+               f'<tr><td>音域（半音）</td><td>{m_of(tal_s, "f0_range_semitones", 1)}</td><td>{m_of(pax_s, "f0_range_semitones", 1)}</td></tr>'
+               f'<tr><td>响度标准差（dB）</td><td>{m_of(tal_s, "speech_db_std", 1)}</td><td>{m_of(pax_s, "speech_db_std", 1)}</td></tr>'
+               '</tbody></table></div>'
+               '<div class="gal">'
+               '<figure><img src="../../11_speech_audio/fig_delivery_comparison.png" alt="delivery comparison">'
+               '<figcaption><b>四项交付指标对比</b>中位数 ± 标准差，仅演讲类视频</figcaption></figure>'
+               '<figure><img src="../../11_speech_audio/fig_pacing.png" alt="pacing scatter">'
+               '<figcaption><b>语速 vs 停顿率</b>气泡大小＝视频长度</figcaption></figure>'
+               '</div>'
+               '<div class="cards">'
+               '<a class="card" href="data.html"><h3>交付数据集</h3><p>逐视频指标 + 60 秒分段。</p></a>'
+               '<a class="card" href="transcripts.html"><h3>逐字稿（%d）</h3><p>带时间码的字幕文本，可回查。</p></a>'
+               '<a class="card" href="method.html"><h3>方法与局限</h3><p>VAD、F0、字幕口径与不可断言清单。</p></a>'
+               '</div>'
+               '<h2>最长的演讲类视频</h2>%s'
+               '<h2>波形与基频轨迹（前 24 段）</h2><div class="gal">%s</div>'
+               % (len(trans), tr_tbl, plot_rows)),
+              crumb([("index.html", "首页"), ("audio/index.html", "音频")]))
+        search.append({"t": "演讲音频 / Speech audio", "u": "audio/index.html",
+                       "b": "音轨抽取、停顿、语速、基频与逐字稿", "n": "音频"})
 
     # ---- media & finance
     os.makedirs(os.path.join(SITE, "media"), exist_ok=True)
@@ -1143,7 +1354,9 @@ def main():
         (32, ("演讲记录", "speeches")),
         (24, ("演讲分析", "analyses")),
         (len(imgs), ("影像记录", "images")),
+        (len(vsrc), ("源视频", "videos")),
         (len(vframes), ("识别帧", "video frames")),
+        (n_audio_measured, ("音频已测量", "audio analysed")),
         (23, ("广告", "ads")),
         (66, ("媒体报道", "coverage items")),
         (69, ("财务条目", "finance rows")),

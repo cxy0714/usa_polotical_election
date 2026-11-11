@@ -6,7 +6,7 @@ candidate_id: PAXTON
 compiled_by: Agent D (speech)
 last_updated: 2026-11-10
 status: complete
-coverage_note: "Descriptive synthesis across 11 analysed appearances. Audio/video not playable for the compiler; no in-person delivery description comparable to TIME's Talarico piece was retrieved, so prosody dimensions are largely unknown."
+coverage_note: "Descriptive synthesis across 11 analysed appearances. Compiled before any audio existed; no in-person delivery description comparable to TIME's Talarico piece was retrieved, so prosody dimensions were then unknown. A later pass (11_speech_audio/) measured 145 videos, so speech share, pause rate, caption-derived wpm and indicative F0 now exist per video — the ⚠ marks below record what was unverified at compile time."
 ---
 
 # Communication analysis — Ken Paxton（肯·帕克斯顿） / 沟通风格分析
@@ -18,6 +18,8 @@ coverage_note: "Descriptive synthesis across 11 analysed appearances. Audio/vide
 **Evidence limits.** The compiler did not play any video or audio. No retrieved source describes Paxton's voice, pace, accent or pausing, and no transcript exists for any Paxton appearance in this archive. The dimensions below are therefore built from syntax and vocabulary in printed quotations, from staging and audience descriptions in reporting, and from the structure of the campaign's communication choices. All prosody claims are marked `⚠`.
 
 **证据限制。** 整理者未播放任何视频或音频。无任何检索来源描述 Paxton 的嗓音、语速、口音或停顿，本档案中也没有任何 Paxton 出场场合的转录稿。因此以下各维度建立在印刷引语的句法与用词、报道中的舞台与听众描述，以及竞选传播选择的结构之上。所有韵律类判断均标注 `⚠`。
+
+**后续测量（补充）。** 此后 `11_speech_audio/` 对 145 段视频抽取音轨并测量；Paxton 侧有 19 段演讲类视频进入统计。演讲类中位数为说话占比 0.62、每分钟停顿 36.3 次、语速 148 词/分、基频 176.4 Hz。集会音频含音乐、掌声与扩声，因此音高、响度只作指示值，**不能**据此判断情绪、真诚度或观众反应；下文 `⚠` 标记保留，用以记录撰写时尚无法核实的部分。另有 21 段帕克斯顿专属视频（外加 30 段双人视频）配有英文字幕，可在 `11_speech_audio/transcripts/` 中回查原话。
 
 ## 1. Voice characteristics / 音质特征
 

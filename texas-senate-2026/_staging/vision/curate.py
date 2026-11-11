@@ -28,8 +28,8 @@ DEST = ROOT / "10_video_frames"
 MIN_SIM = 0.62
 MIN_SHARP = 40.0
 MIN_FACE = 80
-MAX_PICKS_PER_VIDEO = 8
-MAX_PICKS_PER_CAND = 75
+MAX_PICKS_PER_VIDEO = 6
+MAX_PICKS_PER_CAND = 110
 MIN_GAP = 1.5
 
 PHASH_HAMMING = 12        # same video: <= this = near-identical framing
@@ -346,8 +346,10 @@ def main():
             cv2.imwrite(str(DEST / "context" / f"{tag}.jpg"), vis, [cv2.IMWRITE_JPEG_QUALITY, 90])
             ctx.append((vis, f"{v['slug']} t={t:.1f}s"))
         cap.release()
-    sheet(ctx, 6, 240, "Staging context — evenly spaced frames from every source video",
-          DEST / "sheet_context.jpg")
+    for k in range(0, len(ctx), 36):
+        suffix = "" if k == 0 else "_%d" % (k // 36 + 1)
+        sheet(ctx[k:k + 36], 6, 240, "Staging context — evenly spaced frames from every source video",
+              DEST / f"sheet_context{suffix}.jpg")
     return 0
 
 

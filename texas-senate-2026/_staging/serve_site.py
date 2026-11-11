@@ -26,6 +26,7 @@ intermediate crops).
 """
 import argparse
 import http.server
+import json
 import socketserver
 import subprocess
 import sys
@@ -50,12 +51,48 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         if self.path.startswith(BLOCKED_PREFIXES):
             self.send_error(403, "not served")
             return
+        if self.path.split("?")[0] == "/.well-known/archive.json":
+            self._send_manifest()
+            return
         if self.path in ("/", ""):
             self.send_response(302)
             self.send_header("Location", "/site/index.html")
+            self.send_header("Content-Length", "0")
             self.end_headers()
             return
         return super().do_GET()
+
+    def _send_manifest(self):
+        """Machine-readable entry point, so an agent on another node can discover the
+        site without a human pasting a URL: GET /.well-known/archive.json."""
+        host = self.headers.get("Host") or "localhost"
+        fwd = (self.headers.get("X-Forwarded-Proto") or "").split(",")[0].strip().lower()
+        scheme = fwd if fwd in ("http", "https") else ("https" if host.endswith(".ts.net") else "http")
+        site = SITE_ROOT / "site"
+        pages = sorted(p.relative_to(SITE_ROOT).as_posix() for p in site.rglob("*.html"))
+        datasets = sorted(
+            p.relative_to(SITE_ROOT).as_posix()
+            for p in SITE_ROOT.glob("0*_*/")
+            if p.is_dir()
+        )
+        body = json.dumps({
+            "name": "American Political Image Lab - Case Study 001",
+            "case": "2026 Texas U.S. Senate general election: Talarico (D) vs Paxton (R)",
+            "entry": "/site/index.html",
+            "entry_url": "%s://%s/site/index.html" % (scheme, host),
+            "entry_url_http": "http://%s/site/index.html" % host,
+            "root": "/",
+            "host": host,
+            "scheme": scheme,
+            "pages": len(pages),
+            "datasets": datasets,
+            "cache": "no-store",
+        }, ensure_ascii=False, indent=2).encode("utf-8")
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
 
     def log_message(self, fmt, *args):
         sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))

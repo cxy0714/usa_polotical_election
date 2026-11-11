@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>README.md · README.md</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--muted:#6b6760;--line:#e3ded4;--accent:#8c2f1e;--accent2:#1f4e5f;--card:#fff;--en:#1c1b19;--zh:#243b4a}
+@media (prefers-color-scheme:dark){:root{--bg:#16171a;--fg:#e8e6e1;--muted:#a3a09a;--line:#2e3138;--accent:#e0796a;--accent2:#7fb3c4;--card:#1d1f24;--en:#e8e6e1;--zh:#a9c6d6}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.72 -apple-system,"Segoe UI","Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.6rem 1.1rem;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.01em;color:var(--fg)}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+nav.main{display:flex;gap:.15rem;flex-wrap:wrap;margin-left:auto}
+nav.main a{padding:.28rem .55rem;border-radius:6px;color:var(--muted);font-size:.9rem}
+nav.main a.on,nav.main a:hover{background:var(--line);color:var(--fg);text-decoration:none}
+.modes{display:flex;gap:.2rem;border:1px solid var(--line);border-radius:8px;padding:.15rem}
+.modes button{background:none;border:0;color:var(--muted);font:inherit;font-size:.8rem;padding:.2rem .45rem;border-radius:6px;cursor:pointer}
+.modes button.on{background:var(--accent);color:#fff}
+.layout{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr);gap:2rem;padding:1.6rem 1.1rem 4rem}
+aside.toc{position:sticky;top:4.2rem;align-self:start;max-height:calc(100vh - 5rem);overflow:auto;font-size:.86rem;border-left:2px solid var(--line);padding-left:.9rem}
+aside.toc h4{margin:.2rem 0 .6rem;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+aside.toc a{display:block;padding:.18rem 0;color:var(--muted);line-height:1.45}
+aside.toc a:hover{color:var(--fg)}
+aside.toc a.h3{padding-left:.7rem;font-size:.82rem;opacity:.85}
+main{min-width:0}
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.crumb a{color:var(--muted)}
+h1{font-size:1.85rem;line-height:1.3;margin:.2rem 0 .4rem}
+h1 .zh{display:block;font-size:1.15rem;color:var(--muted);font-weight:500;margin-top:.35rem}
+h2{font-size:1.28rem;margin:2.4rem 0 .7rem;padding-top:.6rem;border-top:1px solid var(--line)}
+h3{font-size:1.08rem;margin:1.7rem 0 .5rem}
+h4{font-size:1rem;margin:1.3rem 0 .4rem}
+p{margin:.55rem 0}
+code{background:var(--line);padding:.08em .32em;border-radius:4px;font-size:.86em;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem;overflow:auto}
+pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
+blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
+blockquote p{margin:.35rem 0}
+.table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
+tbody tr:hover{background:color-mix(in srgb,var(--line) 45%,transparent)}
+ul,ol{margin:.5rem 0 .7rem;padding-left:1.35rem}
+li{margin:.22rem 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin:.6rem 0;align-items:start}
+.pair .col{min-width:0}
+.pair .en{color:var(--en)}
+.pair .zh{color:var(--zh);border-left:2px solid var(--line);padding-left:1.1rem;font-size:.97em}
+body.mode-en .zh,body.mode-en .pair .zh{display:none}
+body.mode-en .pair{grid-template-columns:1fr}
+body.mode-zh .en,body.mode-zh .pair .en{display:none}
+body.mode-zh .pair{grid-template-columns:1fr}
+body.mode-zh li.en,body.mode-zh .blk.en{display:none}
+body.mode-en li.zh,body.mode-en .blk.zh{display:none}
+.blk.mix{display:block}
+.meta{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin:.4rem 0 1.4rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1rem;margin:1.2rem 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card h3{margin:.1rem 0 .45rem;font-size:1.02rem}
+.card p{margin:.2rem 0;color:var(--muted);font-size:.85rem;line-height:1.6}
+.card .n{font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1.1}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.8rem;margin:1.2rem 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem}
+.stat b{display:block;font-size:1.45rem;color:var(--accent);line-height:1.2}
+.stat span{font-size:.78rem;color:var(--muted)}
+.hero{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,transparent),color-mix(in srgb,var(--accent2) 12%,transparent));border:1px solid var(--line);border-radius:16px;padding:2rem 1.8rem;margin:0 0 1.6rem}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+.hero p{color:var(--muted);max-width:62ch}
+.search{position:relative;margin:1.2rem 0}
+.search input{width:100%;padding:.85rem 1rem;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+#results{margin-top:.8rem;display:grid;gap:.5rem}
+.hit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem}
+.hit .t{font-weight:600}
+.hit .s{font-size:.8rem;color:var(--muted);margin-top:.2rem}
+.hit mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem}
+.gal figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.gal img{width:100%;height:210px;object-fit:cover;display:block;background:var(--line)}
+.gal figcaption{padding:.55rem .65rem;font-size:.74rem;color:var(--muted);line-height:1.45}
+.gal figcaption b{color:var(--fg);font-weight:600;display:block;font-size:.8rem}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.4rem 1.1rem;color:var(--muted);font-size:.8rem}
+footer .in{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.src{font-family:ui-monospace,Consolas,monospace;font-size:.78em;padding:.02em .32em;border:1px solid var(--line);border-radius:4px;color:var(--accent2);white-space:nowrap;text-decoration:none}
+.src:hover{background:color-mix(in srgb,var(--accent2) 14%,transparent);text-decoration:none;border-color:var(--accent2)}
+a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
+.nolink{display:flex;flex-direction:column;justify-content:center;align-items:center;height:210px;padding:1rem;text-align:center;background:repeating-linear-gradient(45deg,var(--line) 0 6px,transparent 6px 12px);font-size:.8rem;color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem;margin:1rem 0 1.6rem}
+.shots a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--card)}
+.shots img{width:100%;height:130px;object-fit:cover;display:block}
+.shots span{display:block;font-size:.68rem;color:var(--muted);padding:.25rem .35rem;line-height:1.35}
+.tag{display:inline-block;font-size:.72rem;padding:.1rem .45rem;border-radius:999px;background:var(--line);color:var(--muted);margin-right:.3rem}
+.warn{background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:10px;padding:.85rem 1rem;margin:1rem 0;font-size:.9rem}
+@media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
+@media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
+</style>
+</head><body>
+<header class="top"><div class="top-in">
+  <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Video frames</span></a><a class="on" href="../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  <aside class="toc"><h4>本页目录 / On this page</h4>
+<a class="" href="#1-coverage-覆盖范围">1. Coverage / 覆盖范围</a>
+<a class="" href="#2-method-方法">2. Method / 方法</a>
+<a class="" href="#3-deliverables-交付物">3. Deliverables / 交付物</a>
+<a class="" href="#4-measured-delivery-测量结果">4. Measured delivery / 测量结果</a>
+<a class="" href="#5-what-can-and-cannot-be-claimed-可以说与不可以说">5. What can and cannot be claimed / 可以说与不可以说</a>
+<a class="" href="#6-reproduction-复现">6. Reproduction / 复现</a>
+<a class="" href="#7-limits-and-rights-局限与版权">7. Limits and rights / 局限与版权</a></aside>
+  <main>
+    <div class="crumb"><a href="../index.html">首页</a> › <a href="../audio/index.html">音频</a></div>
+    <h1>README.md<span class="zh">README.md</span></h1>
+    <div class="meta"><span>源文件：<a href="../../11_speech_audio/README.md">11_speech_audio/README.md</a></span></div><div class="pair"><div class="col en"><p><strong>English</strong> — Audio was pulled from every downloaded video and measured, because the
+archive's own gap register said delivery, tone and pacing were <code>unknown</code>. For
+speech-type videos the audio track is also kept as a 64 kbps mono copy, and word-level
+captions are captured as timed transcripts. Nothing here interprets <em>why</em> a candidate
+sounds the way he does; it records what can be measured and marks the rest.</p></div><div class="col zh"><p><strong>中文</strong> — 本目录从每段已下载视频中抽出音轨并做测量。档案此前的缺口登记写明：交付方式、
+语气与节奏均为 <code>unknown</code>。演讲类视频另存 64 kbps 单声道音频副本，并把字幕整理成带时间码的
+逐字稿。这里不解释「为什么听起来是这样」，只记录可测的量，其余标注为不可测。</p></div></div>
+<div class="blk mix"><hr></div>
+<h2 id="1-coverage-覆盖范围">1. Coverage / 覆盖范围</h2>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left"></th><th style="text-align:left"></th></tr></thead><tbody><tr><td style="text-align:left">Videos analysed</td><td style="text-align:left"><strong>145</strong></td></tr><tr><td style="text-align:left">Speech-type videos</td><td style="text-align:left"><strong>94</strong> (37.25 h of audio)</td></tr><tr><td style="text-align:left">Audio copies kept (<code>audio/*.m4a</code>, 64 kbps mono)</td><td style="text-align:left"><strong>93</strong></td></tr><tr><td style="text-align:left">Timed transcripts (<code>transcripts/</code>)</td><td style="text-align:left"><strong>78</strong></td></tr><tr><td style="text-align:left">Delivery plots (<code>plots/</code>)</td><td style="text-align:left"><strong>93</strong></td></tr><tr><td style="text-align:left">Segments (60 s windows)</td><td style="text-align:left"><strong>2542</strong></td></tr></tbody></table></div></div>
+<div class="blk en"><p>Kinds treated as "speech": rally_speech, victory_speech, concession_speech,
+convention_speech, town_hall, interview, final_rally, tour_launch. News packages are
+measured but excluded from the candidate comparison, because their audio is mostly
+reporter narration.</p></div>
+<h2 id="2-method-方法">2. Method / 方法</h2>
+<div class="blk en"><ol><li class="en"><strong>Decode</strong> — <code>ffmpeg</code> → 16 kHz mono PCM; the working WAV is deleted after measurement, the kept copy is AAC 64 kbps mono.</li><li class="en"><strong>Speech/silence</strong> — 25 ms frames, 10 ms hop, RMS in dBFS. The noise floor is the 10th percentile; the speech threshold is <code>max(noise+9 dB, min(p95−6 dB, −32 dB))</code>, then 150 ms gaps are closed and runs under 120 ms dropped.</li><li class="en"><strong>Pauses</strong> — silence runs ≥ 0.25 s <em>inside</em> the first–last speech span, reported as count, mean and maximum length, and per minute of speech.</li><li class="en"><strong>Loudness</strong> — mean, SD and p10/p90 of dBFS over speech frames (dynamics, not LUFS).</li><li class="en"><strong>F0</strong> — normalised autocorrelation, 40 ms window / 20 ms hop, 55–400 Hz; the first lag within 85 % of the frame maximum is taken as the period (this avoids the usual octave-up error from a strong second harmonic), then median-filtered over 5 frames. <strong>Indicative only</strong> on rally audio that contains music, applause and PA.</li><li class="en"><strong>Spectral centroid</strong> — mean over speech frames (a rough brightness/timbre proxy).</li><li class="en"><strong>Speech rate</strong> — words from the English captions yt-dlp saved (auto or manual). <code>wpm</code> divides by the caption span; <code>articulation_wpm</code> divides by measured speech time.</li><li class="en"><strong>Rhetoric counters</strong> — pronoun classes, "Texas" mentions, vocabulary richness, mean sentence length and the 12 most frequent content words, all from the caption text.</li></ol></div>
+<div class="blk en"><p>Scripts: <code>../_staging/vision/analyze_speech.py</code> (measure) and
+<code>../_staging/vision/gen_audio_readme.py</code> (this file + figures).</p></div>
+<h2 id="3-deliverables-交付物">3. Deliverables / 交付物</h2>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">File</th><th style="text-align:left">Content</th></tr></thead><tbody><tr><td style="text-align:left"><code>delivery_metrics.csv</code></td><td style="text-align:left">one row per video: speech/silence, pauses, loudness, F0, centroid, caption-derived rate and rhetoric counters</td></tr><tr><td style="text-align:left"><code>speech_segments.csv</code></td><td style="text-align:left">60 s windows per video: speech ratio, loudness, F0, words, wpm — the pacing arc</td></tr><tr><td style="text-align:left"><code>transcripts/&lt;slug&gt;.txt</code></td><td style="text-align:left">caption text (English, verbatim as published)</td></tr><tr><td style="text-align:left"><code>transcripts/&lt;slug&gt;.cues.csv</code></td><td style="text-align:left">timed cues: start, end, text</td></tr><tr><td style="text-align:left"><code>audio/&lt;slug&gt;.m4a</code></td><td style="text-align:left">64 kbps mono audio copy for speech-type videos</td></tr><tr><td style="text-align:left"><code>plots/&lt;slug&gt;.png</code></td><td style="text-align:left">waveform envelope + VAD + F0 track + caption density</td></tr><tr><td style="text-align:left"><code>summary_by_candidate.json</code></td><td style="text-align:left">medians per candidate and coverage counts</td></tr><tr><td style="text-align:left"><code>fig_delivery_comparison.png</code></td><td style="text-align:left">four delivery measures, candidate vs candidate</td></tr><tr><td style="text-align:left"><code>fig_pacing.png</code></td><td style="text-align:left">words-per-minute vs pause rate per speech</td></tr></tbody></table></div></div>
+<h2 id="4-measured-delivery-测量结果">4. Measured delivery / 测量结果</h2>
+<div class="blk en"><p>Medians over speech-type videos. n is the number of videos contributing a value.</p></div>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Measure</th><th style="text-align:left">Talarico</th><th style="text-align:left">Paxton</th></tr></thead><tbody><tr><td style="text-align:left">speaking share of audio / 说话占比</td><td style="text-align:left">0.69 (n=39)</td><td style="text-align:left">0.62 (n=19)</td></tr><tr><td style="text-align:left">pauses ≥0.25 s per minute / 每分钟停顿</td><td style="text-align:left">38.4 (n=38)</td><td style="text-align:left">36.3 (n=18)</td></tr><tr><td style="text-align:left">words per minute / 语速</td><td style="text-align:left">124 (n=20)</td><td style="text-align:left">148 (n=12)</td></tr><tr><td style="text-align:left">median F0, Hz / 基频中位数</td><td style="text-align:left">207.8 (n=39)</td><td style="text-align:left">176.4 (n=19)</td></tr><tr><td style="text-align:left">F0 range, semitones / 音域</td><td style="text-align:left">13.3 (n=39)</td><td style="text-align:left">14.0 (n=19)</td></tr><tr><td style="text-align:left">loudness SD, dB / 音量动态</td><td style="text-align:left">7.3 (n=39)</td><td style="text-align:left">6.4 (n=19)</td></tr><tr><td style="text-align:left">mean pause, s / 平均停顿</td><td style="text-align:left">0.69 (n=39)</td><td style="text-align:left">0.88 (n=19)</td></tr></tbody></table></div></div>
+<div class="blk en"><p>Rhetoric counters (median per speech, caption-derived):</p></div>
+<div class="blk mix"><div class="table-wrap"><table><thead><tr><th style="text-align:left">Counter</th><th style="text-align:left">Talarico</th><th style="text-align:left">Paxton</th></tr></thead><tbody><tr><td style="text-align:left">words per speech</td><td style="text-align:left">340</td><td style="text-align:left">470</td></tr><tr><td style="text-align:left">first person I</td><td style="text-align:left">21</td><td style="text-align:left">54</td></tr><tr><td style="text-align:left">we / our / us</td><td style="text-align:left">65</td><td style="text-align:left">54</td></tr><tr><td style="text-align:left">you / your</td><td style="text-align:left">24</td><td style="text-align:left">58</td></tr><tr><td style="text-align:left">they / them / their</td><td style="text-align:left">20</td><td style="text-align:left">25</td></tr><tr><td style="text-align:left">"Texas"</td><td style="text-align:left">12</td><td style="text-align:left">24</td></tr></tbody></table></div></div>
+<h2 id="5-what-can-and-cannot-be-claimed-可以说与不可以说">5. What can and cannot be claimed / 可以说与不可以说</h2>
+<div class="blk en"><ul><li class="en"><strong>Can</strong>: speech share, pause counts, loudness dynamics, caption-based speaking rate, and <em>indicative</em> pitch ranges, each per video and per 60 s segment.</li><li class="en"><strong>Cannot</strong>: infer emotion, sincerity, confidence or "tone" from these numbers; infer audience reaction from loudness (applause contaminates the VAD); compare venues as if microphone and PA were equal — they are not. Rally audio is a <em>mix</em>, not a studio feed.</li><li class="en"><strong>Do not average across kinds.</strong> A 20 s news soundbite and a 20 min rally speech are not the same measurement; the comparison table already restricts to speech-type videos.</li></ul></div>
+<h2 id="6-reproduction-复现">6. Reproduction / 复现</h2>
+<div class="blk en"><pre><code>python texas-senate-2026/_staging/vision/download_all.py        # video + captions
+python texas-senate-2026/_staging/vision/analyze_speech.py      # decode + measure
+python texas-senate-2026/_staging/vision/gen_audio_readme.py    # this file + figures</code></pre></div>
+<h2 id="7-limits-and-rights-局限与版权">7. Limits and rights / 局限与版权</h2>
+<div class="blk en"><ol><li class="en"><strong>Caption coverage is partial.</strong> Where no English captions exist, <code>words</code>, <code>wpm</code> and the rhetoric counters are empty — the delivery measures are still valid.</li><li class="en"><strong>Auto captions are not transcripts.</strong> They drop punctuation and mishear names; counts are approximate (±few %) and sentence statistics are rough.</li><li class="en"><strong>F0 on mixed audio</strong> can lock onto music or crowd noise. <code>voiced_ratio</code> and the wide p10–p90 spread show how much of each file is genuinely trackable.</li><li class="en"><strong>Loudness is dBFS, not LUFS</strong>, and no microphone calibration exists — never compare absolute levels across venues.</li><li class="en"><strong>Rights</strong>: audio is cut from YouTube uploads owned by the campaigns and stations. Internal analysis only; not licensed for republication or for re-upload.</li></ol></div>
+    
+  </main>
+</div>
+<footer><div class="in">
+  <span>American Political Image Lab · 案例研究 001 · 生成于 2026-11-10 · 全部内容可离线阅读</span>
+  <span>所有事实均可溯源至 09_sources/sources.csv 的 SRC-#### 编号</span>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

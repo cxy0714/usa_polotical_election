@@ -103,7 +103,7 @@ a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
 </head><body>
 <header class="top"><div class="top-in">
   <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
-  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="on" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Video frames</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="on" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Video frames</span></a><a class="" href="../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
   <div class="modes" role="group" aria-label="语言模式">
     <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
   </div>
@@ -113,17 +113,19 @@ a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
   <main>
     
     <h1>Video frame set<span class="zh">视频帧集</span></h1>
-    <div class="hero"><p>从 26 段公开视频（2 段官方竞选频道、其余为地方电视台新闻包或第三方上传）中每 0.5–1 秒采样，用 YuNet 检测人脸、SFace 与档案内授权照片比对身份，再对<b>同一场景、同一着装</b>的重复帧做感知哈希去重，留下 <b>67</b> 帧。这是本档案第一次真正拿到两位候选人的画面：此前取景、舞台与着装全部是 <code>unknown</code>。</p></div>
+    <div class="hero"><p>从 145 段公开视频（3 段官方竞选频道、其余为地方电视台新闻包或第三方上传）中每 0.5–1 秒采样，用 YuNet 检测人脸、SFace 与档案内授权照片比对身份，再对<b>同一场景、同一着装</b>的重复帧做感知哈希去重，留下 <b>172</b> 帧。这是本档案第一次真正拿到两位候选人的画面：此前取景、舞台与着装全部是 <code>unknown</code>。</p>
+<p>另有一层<b>镜头结构</b>：对每段视频做场景切分、每段最多取 8 个关键帧，并测量亮度、对比、色彩丰富度、运动量与镜头时长 —— 这一层<b>不判定身份</b>，只记录「画面怎样被剪、场景长什么样」，见 <a href="shots.html">镜头结构与关键帧</a>。演讲类视频的音轨另见 <a href="../audio/index.html">音频分析</a>。</p></div>
 <div class="stats">
-  <div class="stat"><b>26</b><span>源视频</span></div>
-  <div class="stat"><b>67</b><span>精选识别帧</span></div>
-  <div class="stat"><b>31</b><span>塔拉里科帧</span></div>
-  <div class="stat"><b>36</b><span>帕克斯顿帧</span></div>
+  <div class="stat"><b>145</b><span>源视频</span></div>
+  <div class="stat"><b>172</b><span>精选识别帧</span></div>
+  <div class="stat"><b>87</b><span>塔拉里科帧</span></div>
+  <div class="stat"><b>85</b><span>帕克斯顿帧</span></div>
   <div class="stat"><b>0.499 / 0.123</b><span>参考库同类／异类余弦</span></div>
 </div>
-<div class="warn"><b>三条必须先读的说明：</b>① 这些帧裁自 YouTube 上的竞选团队与电视台视频，<b>仅限内部研究</b>，公开使用需换授权素材或做仅链接处理；② 识别标签是带分数的算法判定，<b>不是人工逐帧核对</b>；③ 样本为 67 帧、26 段视频，不能支撑"频率"类论断。</div>
+<div class="warn"><b>三条必须先读的说明：</b>① 这些帧裁自 YouTube 上的竞选团队与电视台视频，<b>仅限内部研究</b>，公开使用需换授权素材或做仅链接处理；② 识别标签是带分数的算法判定，<b>不是人工逐帧核对</b>；③ 样本为 172 帧、145 段视频，不能支撑"频率"类论断。</div>
 <div class="cards">
-  <a class="card" href="frames.html"><h3>识别帧图库</h3><p>67 帧分候选人陈列，含相似度与景别。</p></a>
+  <a class="card" href="frames.html"><h3>识别帧图库</h3><p>172 帧分候选人陈列，含相似度与景别。</p></a>
+  <a class="card" href="shots.html"><h3>镜头结构与关键帧</h3><p>场景切分、关键帧缩略图与每视频视觉指标。</p></a>
   <a class="card" href="method.html"><h3>方法与局限</h3><p>采样、检测、SFace 阈值、验证与版权说明。</p></a>
   <a class="card" href="data.html"><h3>帧索引与源视频（数据集）</h3><p>逐帧测量值 + 每段视频的频道、日期与链接。</p></a>
 </div>

@@ -28,10 +28,12 @@ sentiment scoring appears anywhere in these files.
 
 ## 1. What this is / 这是什么
 
-Ten datasets, 158 research files, a face-recognised video frame set and a 72-page offline bilingual website reconstructing the campaign across five parallel research
-streams, every row carrying its own sources:
+Ten datasets, 158 research files, a 145-video frame-and-audio layer (face-recognised
+frames, scene keyframes, measured speech delivery) and a bilingual offline website
+reconstructing the campaign across five parallel research streams, every row carrying its
+own sources:
 
-十个数据集、158 份研究材料、一套经人脸识别的视频帧集，外加一个 72 页的离线双语站点，按五条并行的研究线索重构整场竞选；每一行数据都自带来源。
+十个数据集、158 份研究材料、一套覆盖 145 段视频的画面与音频层（人脸识别帧、镜头关键帧、演讲交付测量），外加一个离线双语站点，按五条并行的研究线索重构整场竞选；每一行数据都自带来源。
 
 | Stream / 线索 | Dataset(s) / 数据集 | Rows / 行数 |
 |---|---|---|
@@ -39,7 +41,8 @@ streams, every row carrying its own sources:
 | Event reconstruction / 事件重构 | `02_campaign_events/campaign_events.csv` + 2 timelines + coverage-gap register | **93** events |
 | Speeches & rhetoric / 演讲与修辞 | `03_speeches/speech_archive.csv`, `speech_video_index.csv`, 24 ten-section analyses, 2 communication analyses, 1 transcript | **32** speeches, **31** videos, **24** analyses |
 | Visual archive / 影像档案 | `04_visual_archive/image_archive.csv`, 76 locally measured photos, 2 visual analyses | **116** images |
-| Video frames / 视频帧 | `10_video_frames/{frame_index,video_sources}.csv`, 6,939 face crops from 26 videos | **67** curated frames |
+| Video frames / 视频帧 | `10_video_frames/{frame_index,video_sources,shot_index,video_visual_metrics}.csv`, 106,295 face crops and 1,073 scene keyframes from 145 videos | **172** curated frames |
+| Speech audio / 演讲音频 | `11_speech_audio/{delivery_metrics,speech_segments}.csv`, 78 timed transcripts, 93 audio copies | **145** videos measured |
 | Media & money / 媒体与资金 | `05_campaign_media/advertisements.csv`, `social_media.csv`, `media_coverage.csv`, `06_campaign_finance/campaign_finance.csv` | **23** ads, **12** posts, **66** coverage items, **69** finance rows |
 | Electoral context / 选举背景 | `07_electoral_context/*` (results, polling, election context) | 12 results + 11 polls |
 | Comparative synthesis / 对比综合 | `08_comparative_analysis/*` | 3 analyses |
@@ -198,6 +201,22 @@ texas-senate-2026/
 │   ├── sources.csv                ← 189 unique sources / 189 个唯一来源
 │   └── data_dictionary_bilingual.md ← 双语数据字典（CSV 字段与词表中英对照）
 │
+├── 10_video_frames/               ← 145 段视频 → 106,295 个人脸裁片 → 172 帧精选画面
+│   ├── frame_index.csv            ← 逐帧测量值 / per-frame measurements
+│   ├── video_sources.csv          ← 每段视频的频道、日期与链接
+│   ├── shot_index.csv             ← 1,073 个镜头关键帧（亮度、对比、锐度、色彩丰富度）
+│   ├── video_visual_metrics.csv   ← 每段视频的剪辑率、平均镜头长度、运动量
+│   ├── frames/ · faces/ · context/  ← curated stills, crops, staging frames
+│   └── README.md                  ← method, validation, limits, rights
+│
+├── 11_speech_audio/               ← 演讲音频与交付测量 / speech delivery layer
+│   ├── delivery_metrics.csv       ← 145 段视频：说话占比、停顿、响度、F0、语速、修辞计数
+│   ├── speech_segments.csv        ← 2,542 个 60 秒窗口（节奏曲线）
+│   ├── transcripts/               ← 78 份带时间码的字幕逐字稿
+│   ├── plots/                     ← 93 张波形／VAD／F0 轨迹图
+│   ├── audio/                     ← 93 份 64 kbps 单声道副本（本地工作集，未入 Git）
+│   └── README.md                  ← method, measured delivery, limits, rights
+│
 ├── site/                          ← offline bilingual website, derived from the files above
 │                                    / 离线双语站点，由上述文件生成
 └── _staging/                      ← gap registers, source mirrors, build/QA scripts
@@ -226,6 +245,14 @@ assets: open the file directly in a browser.
   render inline with photographer, date and licence; the 40 rights-reserved records show a
   "link only" card that jumps to the source page instead of hotlinking an unlicensed copy.
   两篇视觉分析页首各有一条影像索引条，图库按候选人分区列出全部 116 条记录。本地许可副本直接显示，注明摄影者、日期与许可；40 条保留所有权利的记录显示「仅链接」卡片，跳转来源页，不做未授权外链嵌入。
+- **Video frames and shot structure / 视频帧与镜头结构** — the gallery shows 172 de-duplicated,
+  face-matched frames with similarity, shot scale and timestamp; a companion page indexes 1,073
+  scene keyframes and per-video cut rate, shot length, brightness and motion.
+  图库陈列 172 帧去重后的识别画面（含相似度、景别与时间码）；另有一页列出 1,073 个镜头关键帧，以及每段视频的剪辑率、镜头长度、亮度与运动量。
+- **Speech audio / 演讲音频** — 145 videos measured for speech share, pauses, loudness, F0 and
+  caption-derived rate; 78 timed transcripts and 93 waveform/F0 plots are readable in-page. The
+  64 kbps audio copies are a local working set and are not committed.
+  145 段视频的说话占比、停顿、响度、基频与语速均已测量；78 份带时间码逐字稿与 93 张波形／F0 图可在页内阅读。64 kbps 音频副本属本地工作集，未纳入版本库。
 - **Every source is clickable / 来源全可点击** — each `SRC-####` id anywhere in the prose becomes
   a chip that opens the original source in a new tab (with the publisher as tooltip), and bare
   URLs in the CSV tables are clickable too. 2,066 source chips and 1,371 outbound links across
@@ -246,21 +273,26 @@ Full register: [`research_gaps.md`](research_gaps.md). The four that matter most
    regional analysis is possible from this archive.
 
    **县级选举数据缺失。** `county_results.csv` 有意只保留表头；县级统计通过 JavaScript 交互页面发布，无法抓取执行，而维基百科条目只有县级*地图*，没有数据表。因此本档案无法支撑任何县级或区域分析。
-2. **Facial geometry, body proportions and clothing were not measured.** The toolchain
-   had Pillow/NumPy but no landmark library, and the analyst model could not accept image
-   input. Both visual analysis files state this and supply a complete measurement protocol
-   for the human analyst. **Do not write appearance claims from this archive.**
+2. **Facial geometry, body proportions and clothing are still not measured.** Landmark
+   detection was never available, so no distances, proportions or garment classification
+   exist. What the frame layer does provide: 172 curated frames with face boxes in source
+   pixels, shot scale, sharpness, brightness and a crude torso-colour proxy. Both visual
+   analysis files state the limit and supply a measurement protocol for the human analyst.
+   **Do not write appearance claims from this archive.**
 
-   **面部几何、身体比例与着装均未测量。** 工具链只有 Pillow/NumPy，没有关键点检测库；分析模型也无法接收图像输入。两篇视觉分析文件均如实写明这一点，并为人类研究者提供了完整的测量规程。**请勿依据本档案撰写任何外貌类论断。**
+   **面部几何、身体比例与着装仍未测量。** 始终没有可用的关键点检测，因此不存在距离、比例或服装分类数据。画面层提供的是：172 帧精选画面，附原始像素中的人脸框、景别、锐度、亮度，以及一个粗糙的躯干颜色代理值。两篇视觉分析文件均如实写明这一局限，并为人类研究者提供了完整的测量规程。**请勿依据本档案撰写任何外貌类论断。**
 3. **The image target was not met for Talarico (18 vs a 60–100 target), and Paxton's pool
    is context-skewed (68 of 98 from AmericaFest).** Both facts are documented rather than
    padded; any comparative image use must carry them.
 
    **塔拉里科的影像数量未达目标（18 张，目标为每位候选人 60–100 张），帕克斯顿的图库则在情境上严重偏斜（98 张中 68 张来自 AmericaFest）。** 这两项事实均如实记录而非注水；任何对比性使用影像的场合都必须同时说明它们。
-4. **Nothing was verified against audio or video.** Every quotation comes from printed
-   text; all prosody fields are `unknown`.
+4. **No quotation was verified word-by-word against the audio, though delivery is now
+   measured.** Every quotation still comes from printed text. What changed: 145 videos were
+   decoded and measured in `11_speech_audio/` (speech share, pause structure, caption-based
+   rate, indicative F0), and 78 timed caption transcripts can be used to spot-check wording.
+   Emotion, sincerity, emphasis and audience reaction remain unmeasured and unclaimable.
 
-   **所有内容都未与音视频核对。** 每一句引语都来自文字报道；所有韵律字段均为 `unknown`（未查明）。
+   **引语尚未逐字与音频核对，但交付方式已有测量。** 每一句引语仍来自文字报道。变化在于：`11_speech_audio/` 已解码并测量 145 段视频（说话占比、停顿结构、由字幕推算的语速、仅作指示的基频），另有 78 份带时间码的字幕逐字稿可用于抽查措辞。情绪、真诚度、重音与观众反应仍不可测、不可断言。
 
 Additional documented cautions: FEC Schedule E totals and AdImpact ad-spend totals differ
 by roughly an order of magnitude and **must never be summed**; four different Talarico

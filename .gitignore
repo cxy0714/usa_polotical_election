@@ -33,3 +33,17 @@ texas-senate-2026/_staging/vision/out/*/frames/
 texas-senate-2026/_staging/vision/out/*/sheet_*.jpg
 texas-senate-2026/_staging/vision/out/sheet_*.jpg
 
+# Bulk frame working sets: thousands of stills that only feed the committed
+# contact sheets and the curated frame index. Regenerate with the pipeline.
+texas-senate-2026/10_video_frames/keyframes/
+texas-senate-2026/10_video_frames/context/
+
+# Speech audio working set (64 kbps copies, ~2–3 GB) + per-cue timing files.
+# Metrics, transcripts (.txt), plots and summary figures ARE tracked.
+texas-senate-2026/11_speech_audio/audio/
+texas-senate-2026/11_speech_audio/transcripts/*.cues.csv
+
+# 16 kHz mono WAV cache used while measuring (~4 GB) — deleted after each run.
+texas-senate-2026/_staging/vision/audio_cache/
+
+

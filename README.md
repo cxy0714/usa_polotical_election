@@ -17,15 +17,16 @@ video; it does **not** rank the two campaigns and contains no blog or video scri
 | | |
 |---|---|
 | **Full documentation** | [`texas-senate-2026/README.md`](texas-senate-2026/README.md) — directory map, data contract, honest limits |
-| **Read it as a website** | open `texas-senate-2026/site/index.html` (offline, no server, 70 pages, EN/ZH side-by-side, clickable sources) |
-| **Video frames** | [`texas-senate-2026/10_video_frames/`](texas-senate-2026/10_video_frames/README.md) — 26 source videos, 6,939 face detections, 67 face-matched frames |
+| **Read it as a website** | open `texas-senate-2026/site/index.html` (offline, no server, 76 pages, EN/ZH side-by-side, clickable sources) |
+| **Video frames** | [`texas-senate-2026/10_video_frames/`](texas-senate-2026/10_video_frames/README.md) — 145 source videos, 106,295 face crops, 172 face-matched frames, 1,073 scene keyframes |
 | **Know the gaps first** | [`texas-senate-2026/research_gaps.md`](texas-senate-2026/research_gaps.md) |
 | **Rebuild the site** | `python texas-senate-2026/_staging/_lead_build_site.py` |
 
 ## Continue on another machine / 换一台电脑继续
 
 The repository is self-contained for **reading and analysis**: all datasets, the offline
-bilingual site, the 67 curated video frames and their per-frame measurements are committed.
+bilingual site, the 172 curated video frames, 1,073 keyframes, the speech-delivery measurements
+and the 78 timed transcripts are committed.
 Only two bulky binary sets are excluded, and both restore with one command:
 
 ```bash
@@ -34,15 +35,17 @@ cd usa_polotical_election
 
 # 1) Optional: restore the model weights (~47 MB) and source video (~490 MB)
 python texas-senate-2026/_staging/vision/fetch_models.py     # YuNet + SFace ONNX
-python texas-senate-2026/_staging/vision/download_videos.py  # 26 videos (needs yt-dlp + ffmpeg)
+python texas-senate-2026/_staging/vision/download_all.py     # 145 videos + captions (needs yt-dlp + ffmpeg)
 
 # 2) Read the archive — no setup needed
 #    open texas-senate-2026/site/index.html
 
 # 3) Re-run any stage of the video pipeline
-python texas-senate-2026/_staging/vision/extract_faces.py
-python texas-senate-2026/_staging/vision/recognize_faces.py
+python texas-senate-2026/_staging/vision/extract_faces.py --jobs 6
+python texas-senate-2026/_staging/vision/recognize_faces.py --jobs 4
 python texas-senate-2026/_staging/vision/curate.py
+python texas-senate-2026/_staging/vision/extract_keyframes.py --jobs 5
+python texas-senate-2026/_staging/vision/analyze_speech.py
 python texas-senate-2026/_staging/vision/gen_readme.py
 python texas-senate-2026/_staging/_lead_build_site.py
 
@@ -109,11 +112,11 @@ before any build.
 1. **No debate took place.** Five records reconstruct the invitations and refusals; the CNN–Jubilee
    event was a solo town hall that several outlets mislabelled as a debate.
    没有辩论。CNN–Jubilee 那场是单人问答，被多家媒体误标为辩论。
-2. **Appearance is still unmeasured, but the imagery is now readable.** 67 de-duplicated
-   frames from 26 videos document framing, staging and venue; facial geometry, body
-   proportions and clothing remain `unknown`, with a reproducible measurement protocol
-   waiting for a human to execute.
-   外貌仍未测量，但画面已可读：26 段视频、67 帧记录取景与舞台；面部几何、身体比例与着装仍为未测。
+2. **Appearance is still unmeasured, but the imagery is now readable.** 172 de-duplicated
+   frames from 145 videos, plus 1,073 scene keyframes and a measured audio layer, document
+   framing, staging, venue and delivery; facial geometry, body proportions and clothing
+   remain `unknown`, with a reproducible measurement protocol waiting for a human to execute.
+   外貌仍未测量，但画面已可读：145 段视频、172 帧精选画面、1,073 个镜头关键帧，外加已测量的音频层，记录取景、舞台与交付方式；面部几何、身体比例与着装仍为未测。
 3. **Money measures cannot be summed.** FEC Schedule E and AdImpact differ by ~10×, and four
    different Talarico "totals" exist. See the bilingual data dictionary §6.
    资金口径不可相加，详见双语数据字典第 6 节。

@@ -6,7 +6,7 @@ candidate_id: TALARICO
 compiled_by: Agent D (speech)
 last_updated: 2026-11-10
 status: complete
-coverage_note: "Descriptive synthesis across 13 analysed appearances. Audio/video was not playable for the compiler, so prosody claims rest on (a) a journalist's in-person description of his delivery, (b) AI-generated captions, and (c) reported audience behaviour; every such claim is flagged."
+coverage_note: "Descriptive synthesis across 13 analysed appearances. Compiled before any audio existed; prosody claims then rested on (a) a journalist's in-person description of delivery, (b) AI-generated captions, and (c) reported audience behaviour. A later pass (11_speech_audio/) measured 145 videos, so speech share, pause rate, caption-derived wpm and indicative F0 now exist per video — the ⚠ marks below record what was unverified at compile time."
 ---
 
 # Communication analysis — James Talarico（詹姆斯·塔拉里科） / 沟通风格分析
@@ -18,6 +18,8 @@ coverage_note: "Descriptive synthesis across 13 analysed appearances. Audio/vide
 **Evidence limits.** The compiler did not play any video or audio. Two things are nevertheless observable with confidence: (1) TIME's correspondent described his delivery in person at the Lubbock sermon; (2) a timecoded (AI-generated) transcript exists for the MS NOW interview, which reveals sentence length, self-interruption, repetition and answer structure even where it cannot prove pitch or pace. All claims about voice quality, accent, speed and pause are marked `⚠` and must be checked against video before publication.
 
 **证据限制。** 整理者未播放任何视频或音频。不过有两点可以确信观察：（1）《TIME（时代）》周刊记者在 Lubbock 布道现场描述过他的表达方式；（2）MS NOW 采访存在一份带时间码的（AI 生成）转录稿，即便它无法证明音高或语速，却能显示句长、自我打断、重复与答问结构。所有关于音质、口音、语速与停顿的判断均标注 `⚠`，发表前必须对照视频核实。
+
+**后续测量（补充）。** 此后 `11_speech_audio/` 对 145 段视频（含本节所列出场）抽取音轨并测量：说话占比、每分钟停顿、由字幕推算的语速、以及仅作指示的基频中位数，均按视频成表。演讲类中位数为说话占比 0.69、每分钟停顿 38.4 次、语速 124 词/分、基频 207.8 Hz。这些数值来自集会与采访的混音，**不能**用来判断情绪、真诚度或观众反应；下文 `⚠` 标记保留，用以记录撰写时尚无法核实的部分。
 
 ## 1. Voice characteristics / 音质特征
 
