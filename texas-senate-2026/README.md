@@ -212,7 +212,7 @@ texas-senate-2026/
 ├── 11_speech_audio/               ← 演讲音频与交付测量 / speech delivery layer
 │   ├── delivery_metrics.csv       ← 145 段视频：说话占比、停顿、响度、F0、语速、修辞计数
 │   ├── speech_segments.csv        ← 2,542 个 60 秒窗口（节奏曲线）
-│   ├── transcripts/               ← 78 份带时间码的字幕逐字稿
+│   ├── transcripts/               ← 78 份逐字稿：时间码 + 英文行 + 中文机翻行（逐行对齐）
 │   ├── plots/                     ← 93 张波形／VAD／F0 轨迹图
 │   ├── audio/                     ← 93 份 64 kbps 单声道副本（本地工作集，未入 Git）
 │   └── README.md                  ← method, measured delivery, limits, rights
@@ -252,7 +252,7 @@ assets: open the file directly in a browser.
 - **Speech audio / 演讲音频** — 145 videos measured for speech share, pauses, loudness, F0 and
   caption-derived rate; 78 timed transcripts and 93 waveform/F0 plots are readable in-page. The
   64 kbps audio copies are a local working set and are not committed.
-  145 段视频的说话占比、停顿、响度、基频与语速均已测量；78 份带时间码逐字稿与 93 张波形／F0 图可在页内阅读。64 kbps 音频副本属本地工作集，未纳入版本库。
+  145 段视频的说话占比、停顿、响度、基频与语速均已测量；78 份逐字稿（每行英文配一句机翻中文）与 93 张波形／F0 图可在页内阅读。64 kbps 音频副本属本地工作集，未纳入版本库。
 - **Every source is clickable / 来源全可点击** — each `SRC-####` id anywhere in the prose becomes
   a chip that opens the original source in a new tab (with the publisher as tooltip), and bare
   URLs in the CSV tables are clickable too. 2,066 source chips and 1,371 outbound links across

@@ -45,5 +45,4 @@ texas-senate-2026/11_speech_audio/transcripts/*.cues.csv
 
 # 16 kHz mono WAV cache used while measuring (~4 GB) — deleted after each run.
 texas-senate-2026/_staging/vision/audio_cache/
-
-
+texas-senate-2026/_staging/vision/*.log

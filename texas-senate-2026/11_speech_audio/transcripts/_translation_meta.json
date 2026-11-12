@@ -1,0 +1,627 @@
+{
+  "BOTH_fort_worth_rally_fox4": {
+    "engine": "google-translate gtx endpoint",
+    "method": "machine translation",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 15,
+    "translated": 15
+  },
+  "_note": "Machine translation of automatic caption text. Reading aid only; the English line is authoritative and the Chinese must not be quoted as a candidate's words.",
+  "TAL_win_gma": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 31,
+    "translated": 31
+  },
+  "BOTH_houston_news_abc13": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 20,
+    "translated": 20
+  },
+  "BOTH_kvue": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 15,
+    "translated": 15
+  },
+  "BOTH_san_antonio_convention_kens": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 24,
+    "translated": 24
+  },
+  "BOTH_tx_ad_cbstx": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 11,
+    "translated": 11
+  },
+  "BOTH_tx_ad_web": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 35,
+    "translated": 35
+  },
+  "BOTH_tx_concession_cbs19": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 86,
+    "translated": 86
+  },
+  "BOTH_tx_debate_cbstx": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 4,
+    "translated": 4
+  },
+  "BOTH_tx_interview_cbs": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 101,
+    "translated": 101
+  },
+  "BOTH_tx_interview_cbs2": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 62,
+    "translated": 62
+  },
+  "BOTH_tx_interview_web": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 51,
+    "translated": 51
+  },
+  "BOTH_tx_interview_web2": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 102,
+    "translated": 102
+  },
+  "BOTH_tx_interview_web3": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 64,
+    "translated": 64
+  },
+  "BOTH_tx_news_cbs": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 37,
+    "translated": 37
+  },
+  "BOTH_tx_news_cbs2": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 21,
+    "translated": 21
+  },
+  "BOTH_tx_news_cbs3": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 43,
+    "translated": 43
+  },
+  "BOTH_tx_news_cbs4": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 36,
+    "translated": 36
+  },
+  "BOTH_tx_news_cbs5": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 23,
+    "translated": 23
+  },
+  "BOTH_tx_news_cbs6": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 33,
+    "translated": 33
+  },
+  "BOTH_tx_news_cbs7": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 20,
+    "translated": 20
+  },
+  "BOTH_tx_news_cbstx": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 11,
+    "translated": 11
+  },
+  "BOTH_tx_news_cbstx2": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 24,
+    "translated": 24
+  },
+  "BOTH_tx_news_cbstx3": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 8,
+    "translated": 8
+  },
+  "BOTH_tx_news_cbstx4": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 69,
+    "translated": 69
+  },
+  "BOTH_tx_news_foxn": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 47,
+    "translated": 47
+  },
+  "BOTH_tx_news_ketk": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 4,
+    "translated": 4
+  },
+  "BOTH_tx_news_ketk2": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 4,
+    "translated": 4
+  },
+  "BOTH_tx_rally_foxn": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 85,
+    "translated": 85
+  },
+  "BOTH_tx_rally_usat": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 67,
+    "translated": 67
+  },
+  "BOTH_tyler_ad_web": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 58,
+    "translated": 58
+  },
+  "PAX_abbott_cbs": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 5,
+    "translated": 5
+  },
+  "PAX_allen_ap": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 167,
+    "translated": 167
+  },
+  "PAX_allen_cbs": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 16,
+    "translated": 16
+  },
+  "PAX_austin_rally_cbs": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 180,
+    "translated": 180
+  },
+  "PAX_bus_kickoff": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 17,
+    "translated": 17
+  },
+  "PAX_collin_nbc": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 10,
+    "translated": 10
+  },
+  "PAX_concession_nbc": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 17,
+    "translated": 17
+  },
+  "PAX_conroe_khou": {
+    "engine": "google-translate (client=gtx)",
+    "method": "machine translation, line by line",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 23,
+    "translated": 23
+  },
+  "PAX_cypress_rally": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 143,
+    "translated": 143
+  },
+  "PAX_longview_rally_cbs19": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 161,
+    "translated": 161
+  },
+  "PAX_midterm_convention": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 52,
+    "translated": 52
+  },
+  "PAX_san_antonio_rally_web": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 341,
+    "translated": 341
+  },
+  "PAX_tx_ad_kpc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 4,
+    "translated": 4
+  },
+  "PAX_tx_final_cbstx": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 53,
+    "translated": 53
+  },
+  "PAX_tx_rally_ap": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 111,
+    "translated": 111
+  },
+  "PAX_tx_rally_kpc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 17,
+    "translated": 17
+  },
+  "PAX_tx_rally_kpc2": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 238,
+    "translated": 238
+  },
+  "PAX_tx_rally_kpc3": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 99,
+    "translated": 99
+  },
+  "PAX_tx_rally_kpc4": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 4,
+    "translated": 4
+  },
+  "PAX_tx_rally_web": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 162,
+    "translated": 162
+  },
+  "PAX_tx_tour_kpc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 152,
+    "translated": 152
+  },
+  "TAL_austin_rally_ap": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 158,
+    "translated": 158
+  },
+  "TAL_austin_rally_cbs": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 489,
+    "translated": 489
+  },
+  "TAL_austin_victory_cbs": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 287,
+    "translated": 287
+  },
+  "TAL_dallas_nbc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 17,
+    "translated": 17
+  },
+  "TAL_lubbock_full": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 183,
+    "translated": 183
+  },
+  "TAL_plano_cbs": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 14,
+    "translated": 14
+  },
+  "TAL_rally_angie": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 39,
+    "translated": 39
+  },
+  "TAL_san_antonio_rally_abc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 268,
+    "translated": 268
+  },
+  "TAL_sanantonio_kens": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 8,
+    "translated": 8
+  },
+  "TAL_tx_convention_jtc2": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 16,
+    "translated": 16
+  },
+  "TAL_tx_debate_jtc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 49,
+    "translated": 49
+  },
+  "TAL_tx_interview_jtc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 156,
+    "translated": 156
+  },
+  "TAL_tx_rally_ap": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 120,
+    "translated": 120
+  },
+  "TAL_tx_rally_cnn": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 62,
+    "translated": 62
+  },
+  "TAL_tx_rally_jtc2": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 713,
+    "translated": 713
+  },
+  "TAL_tx_rally_jtc3": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 135,
+    "translated": 135
+  },
+  "TAL_tx_rally_nbc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 37,
+    "translated": 37
+  },
+  "TAL_tx_townhall_cbstx": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 24,
+    "translated": 24
+  },
+  "TAL_tx_townhall_web2": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 58,
+    "translated": 58
+  },
+  "TAL_tx_victory_cbstx": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 20,
+    "translated": 20
+  },
+  "TAL_tx_victory_jtc2": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 70,
+    "translated": 70
+  },
+  "TAL_tx_victory_jtc4": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 15,
+    "translated": 15
+  },
+  "TAL_tx_victory_nbc": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 113,
+    "translated": 113
+  },
+  "TAL_tyler_tour_cbs19": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 463,
+    "translated": 463
+  },
+  "TAL_victory_cnn": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 74,
+    "translated": 74
+  },
+  "TAL_watchparty_cbs": {
+    "engine": "google-translate (client=dict-chrome-ex)",
+    "method": "machine translation, newline-aligned batches",
+    "source": "YouTube captions (auto or manual)",
+    "date": "2026-11-12",
+    "lines": 11,
+    "translated": 11
+  }
+}

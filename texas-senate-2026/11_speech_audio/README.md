@@ -59,6 +59,8 @@ Scripts: `../_staging/vision/analyze_speech.py` (measure) and
 | `speech_segments.csv` | 60 s windows per video: speech ratio, loudness, F0, words, wpm — the pacing arc |
 | `transcripts/<slug>.txt` | caption text (English, verbatim as published) |
 | `transcripts/<slug>.cues.csv` | timed cues: start, end, text |
+| `transcripts/<slug>.lines.csv` | the same cues merged into readable ~28-word lines, one row per line — the unit used for bilingual alignment |
+| `transcripts/<slug>.zh.csv` | machine translation of each line (reading aid, not a quotation source) |
 | `audio/<slug>.m4a` | 64 kbps mono audio copy for speech-type videos |
 | `plots/<slug>.png` | waveform envelope + VAD + F0 track + caption density |
 | `summary_by_candidate.json` | medians per candidate and coverage counts |
@@ -100,11 +102,26 @@ Rhetoric counters (median per speech, caption-derived):
 - **Do not average across kinds.** A 20 s news soundbite and a 20 min rally speech are not
   the same measurement; the comparison table already restricts to speech-type videos.
 
+### 5.1 Bilingual reading / 双语阅读
+
+Each transcript is split into lines (about 28 words, or a natural pause) and each line
+is machine-translated to Chinese, so the site can show timecode | English | Chinese in
+one table. **The Chinese column is a reading aid only**: the source is automatic caption
+text that already mishears names, and the translation adds its own errors. Quote the
+English line against the video, never the Chinese text.
+
+逐字稿被切成约 28 词一行（或自然停顿），每行再机器翻译成中文，
+网站因此能以「时间码 | 英文 | 中文」三列并排。**中文列只是阅读辅助**：
+原文本身是自动字幕，已经会误听人名，机翻又会叠加它自己的错误。
+引用时一律以英文行对照视频，不得把中文当作候选人的原话。
+
 ## 6. Reproduction / 复现
 
 ```powershell
 python texas-senate-2026/_staging/vision/download_all.py        # video + captions
 python texas-senate-2026/_staging/vision/analyze_speech.py      # decode + measure
+python texas-senate-2026/_staging/vision/extract_transcript_lines.py  # lines for bilingual tables
+python texas-senate-2026/_staging/vision/translate_lines.py --jobs 8      # machine translation (optional)
 python texas-senate-2026/_staging/vision/gen_audio_readme.py    # this file + figures
 ```
 

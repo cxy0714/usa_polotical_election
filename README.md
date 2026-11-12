@@ -26,7 +26,7 @@ video; it does **not** rank the two campaigns and contains no blog or video scri
 
 The repository is self-contained for **reading and analysis**: all datasets, the offline
 bilingual site, the 172 curated video frames, 1,073 keyframes, the speech-delivery measurements
-and the 78 timed transcripts are committed.
+and the 78 timed transcripts (each line paired with a Chinese machine translation) are committed.
 Only two bulky binary sets are excluded, and both restore with one command:
 
 ```bash

@@ -482,6 +482,11 @@ pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
 blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
 blockquote p{margin:.35rem 0}
 .table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table.transcript td.tstamp{width:74px;white-space:nowrap;color:var(--muted,#8a8a8a);font-variant-numeric:tabular-nums;font-size:.8rem}
+table.transcript td.src{width:47%}
+table.transcript td.trz{width:47%;color:var(--zh,#24476b)}
+body.mode-en table.transcript th.trz,body.mode-en table.transcript td.trz{display:none}
+body.mode-zh table.transcript th.src,body.mode-zh table.transcript td.src{display:none}
 table{border-collapse:collapse;width:100%;font-size:.86rem}
 th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
 th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
@@ -1181,10 +1186,77 @@ def main():
                   '<th>duration s</th><th>wpm</th><th>pauses/min</th><th>title</th></tr></thead>'
                   '<tbody>%s</tbody></table></div>' % tr_rows)
 
-        trans_rows = "".join(
-            '<li><a href="../../11_speech_audio/transcripts/%s.txt" target="_blank">%s</a> <span class="tag">%s</span></li>'
-            % (esc(p.stem), esc(p.stem), esc(str(p.stat().st_size // 1024)) + " KB")
-            for p in trans)
+        AUD = os.path.join(ROOT, "11_speech_audio", "transcripts")
+
+        def read_csv_rows(path):
+            if not os.path.exists(path):
+                return []
+            with open(path, newline="", encoding="utf-8-sig") as fh:
+                return list(csv.DictReader(fh))
+
+        def clock(sec):
+            try:
+                v = int(float(sec))
+            except (TypeError, ValueError):
+                return "—"
+            if v >= 3600:
+                return "%d:%02d:%02d" % (v // 3600, (v % 3600) // 60, v % 60)
+            return "%d:%02d" % (v // 60, v % 60)
+
+        tr_meta = {r["slug"]: r for r in am}
+        index_rows, n_zh = [], 0
+        os.makedirs(os.path.join(SITE, "audio", "transcripts"), exist_ok=True)
+        for p in trans:
+            slug = p.stem
+            lines = read_csv_rows(os.path.join(AUD, slug + ".lines.csv"))
+            if not lines:
+                raw = " ".join(p.read_text(encoding="utf-8").split())
+                lines = [{"idx": "0", "start_s": "0", "words": str(len(raw.split())),
+                          "text": raw}]
+            zh = {r["idx"]: (r["text_zh"] or "") for r in read_csv_rows(os.path.join(AUD, slug + ".zh.csv"))}
+            has_zh = any(v.strip() for v in zh.values())
+            if has_zh:
+                n_zh += 1
+            m = tr_meta.get(slug, {})
+            body_rows = "".join(
+                '<tr><td class="tstamp">%s</td><td class="src">%s</td><td class="trz">%s</td></tr>'
+                % (esc(clock(r.get("start_s"))), esc(r.get("text", "")), esc(zh.get(r["idx"], "")))
+                for r in lines)
+            head = ('<div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、'
+                    '丢标点；中文列是<b>机器翻译</b>，只作阅读辅助，<b>不可当作候选人的原话引用</b>，'
+                    '引用一律以英文列与视频为准。</div>'
+                    '<div class="meta">'
+                    '<span>%s</span><span>%s · %s</span><span>%d 行 / %s 词</span>'
+                    '<span><a href="../../../11_speech_audio/transcripts/%s.txt" target="_blank">原文 txt</a></span>'
+                    '<span><a href="../../../11_speech_audio/transcripts/%s.cues.csv" download>时间码 cues.csv</a></span>'
+                    '</div>') % (
+                esc((tmap.get(slug) or slug)[:90]),
+                esc(m.get("kind", "—")), esc(m.get("channel", "—")),
+                len(lines), esc(m.get("words", "—")), esc(slug), esc(slug))
+            write("audio/transcripts/%s.html" % slug,
+                  "Transcript — %s" % (tmap.get(slug) or slug),
+                  "逐字稿——%s" % (tmap.get(slug) or slug),
+                  head + ('<div class="table-wrap"><table class="transcript"><thead><tr>'
+                          '<th class="tstamp">时间</th><th class="src">英文原文</th>'
+                          '<th class="trz">中文（机翻）</th></tr></thead><tbody>%s</tbody></table></div>'
+                          % body_rows),
+                  crumb([("index.html", "首页"), ("audio/index.html", "音频"),
+                         ("audio/transcripts.html", "逐字稿")]))
+            search.append({"t": "逐字稿 · %s" % (tmap.get(slug) or slug),
+                           "u": "audio/transcripts/%s.html" % slug,
+                           "b": (m.get("channel", "") or "") + " · " + slug, "n": "逐字稿"})
+            index_rows.append('<tr><td><a href="transcripts/%s.html">%s</a></td><td>%s</td><td>%s</td>'
+                              '<td style="text-align:right">%s</td><td style="text-align:right">%s</td>'
+                              '<td style="text-align:right">%s</td><td>%s</td></tr>'
+                              % (esc(slug), esc(slug), esc(m.get("candidate", "—")),
+                                 esc(m.get("kind", "—")),
+                                 ("%.0f" % (g(m, "video_duration_s") or 0)),
+                                 esc(m.get("words", "—")), esc(m.get("wpm", "—")),
+                                 "可读" if has_zh else "—"))
+        trans_rows = ('<div class="table-wrap"><table><thead><tr><th>逐字稿 / slug</th>'
+                      '<th>候选人</th><th>类型</th><th>时长 s</th>'
+                      '<th>词数</th><th>语速</th><th>中文译文</th></tr></thead>'
+                      '<tbody>%s</tbody></table></div>' % "".join(index_rows))
         plot_rows = "".join(
             '<figure><a href="../../11_speech_audio/plots/%s" target="_blank">'
             '<img src="../../11_speech_audio/plots/%s" alt="%s" loading="lazy"></a>'
@@ -1206,9 +1278,12 @@ def main():
               crumb([("index.html", "首页"), ("audio/index.html", "音频")]))
 
         write("audio/transcripts.html", "Timed transcripts", "带时间码的逐字稿",
-              ('<div class="warn">文本来自 yt-dlp 抓取的英文字幕（自动或人工）。自动字幕会丢标点、'
-               '误听人名，词数误差约百分之几；<b>引用前必须回看视频</b>。</div>'
-               '<ul>%s</ul>' % trans_rows),
+              ('<div class="warn">%d 份逐字稿，每份可点开双语阅读：左列时间码、'
+               '中列英文字幕原文、右列机器译文（其中 <b>%d</b> 份已有中文）。'
+               '机翻只供阅读，不可引用；英文本来自自动字幕，本身已有误听。</div>'
+               '<div class="meta"><span>共 %d 份</span><span>中文可读 %d 份</span>'
+               '<span><a href="../../11_speech_audio/transcripts/">目录</a></span></div>'
+               '%s') % (len(trans), n_zh, len(trans), n_zh, trans_rows),
               crumb([("index.html", "首页"), ("audio/index.html", "音频")]))
 
         write("audio/index.html", "Speech audio & delivery", "演讲音频与交付分析",
@@ -1240,7 +1315,7 @@ def main():
                '</div>'
                '<div class="cards">'
                '<a class="card" href="data.html"><h3>交付数据集</h3><p>逐视频指标 + 60 秒分段。</p></a>'
-               '<a class="card" href="transcripts.html"><h3>逐字稿（%d）</h3><p>带时间码的字幕文本，可回查。</p></a>'
+               '<a class="card" href="transcripts.html"><h3>逐字稿（%d）</h3><p>时间码 + 英文原文 + 机翻中文，逐行对照；机翻仅供阅读。</p></a>'
                '<a class="card" href="method.html"><h3>方法与局限</h3><p>VAD、F0、字幕口径与不可断言清单。</p></a>'
                '</div>'
                '<h2>最长的演讲类视频</h2>%s'
