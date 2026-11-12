@@ -41,11 +41,28 @@ pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
 blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
 blockquote p{margin:.35rem 0}
 .table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
-table.transcript td.tstamp{width:74px;white-space:nowrap;color:var(--muted,#8a8a8a);font-variant-numeric:tabular-nums;font-size:.8rem}
-table.transcript td.src{width:47%}
-table.transcript td.trz{width:47%;color:var(--zh,#24476b)}
-body.mode-en table.transcript th.trz,body.mode-en table.transcript td.trz{display:none}
-body.mode-zh table.transcript th.src,body.mode-zh table.transcript td.src{display:none}
+body.wide .layout{grid-template-columns:minmax(0,1fr);max-width:1160px}
+body.wide aside.toc{display:none}
+.bi-head{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
+padding:0 6px .45rem;font-size:.74rem;letter-spacing:.02em;color:var(--muted,#8a8a8a);
+position:sticky;top:4.05rem;background:var(--bg,#fff);z-index:2;border-bottom:1px solid var(--line)}
+.bi{display:flex;flex-direction:column}
+.bi-row{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
+padding:.5rem 6px;border-bottom:1px solid var(--line);align-items:start}
+.bi-row .tx-tc{font-variant-numeric:tabular-nums;font-size:.78rem;color:var(--muted,#8a8a8a);padding-top:.12rem}
+.bi-row .tx-en,.bi-row .tx-zh{min-width:0;overflow-wrap:anywhere;word-break:break-word;line-height:1.6;white-space:normal}
+.bi-row .tx-en{color:var(--en,inherit);font-size:.95rem}
+.bi-row .tx-zh{color:var(--zh,#24476b);font-size:.95rem}
+.bi-row:hover{background:color-mix(in srgb,var(--line) 38%,transparent)}
+body.mode-en .bi-head .tx-zh,body.mode-en .bi-row .tx-zh{display:none}
+body.mode-zh .bi-head .tx-en,body.mode-zh .bi-row .tx-en{display:none}
+body.mode-en .bi-head,body.mode-en .bi-row{grid-template-columns:74px minmax(0,1fr)}
+body.mode-zh .bi-head,body.mode-zh .bi-row{grid-template-columns:74px minmax(0,1fr)}
+@media(max-width:780px){
+.bi-head{display:none}
+.bi-row{grid-template-columns:minmax(0,1fr);gap:.3rem;padding:.7rem 2px}
+.bi-row .tx-tc{padding-top:0;font-size:.72rem;opacity:.75}
+}
 table{border-collapse:collapse;width:100%;font-size:.86rem}
 th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
 th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
@@ -105,7 +122,7 @@ a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
 @media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
 @media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
 </style>
-</head><body>
+</head><body class="wide">
 <header class="top"><div class="top-in">
   <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
   <nav class="main"><a class="" href="../../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Video frames</span></a><a class="on" href="../../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
@@ -118,7 +135,7 @@ a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
   <main>
     <div class="crumb"><a href="../../index.html">首页</a> › <a href="../../audio/index.html">音频</a> › <a href="../../audio/transcripts.html">逐字稿</a></div>
     <h1>Transcript — Talarico leads Paxton in latest Texas Senate race poll<span class="zh">逐字稿——Talarico leads Paxton in latest Texas Senate race poll</span></h1>
-    <div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、丢标点；中文列是<b>机器翻译</b>，只作阅读辅助，<b>不可当作候选人的原话引用</b>，引用一律以英文列与视频为准。</div><div class="meta"><span>Talarico leads Paxton in latest Texas Senate race poll</span><span>news_package · KETK NBC</span><span>4 行 / 80 词</span><span><a href="../../../11_speech_audio/transcripts/BOTH_tx_news_ketk.txt" target="_blank">原文 txt</a></span><span><a href="../../../11_speech_audio/transcripts/BOTH_tx_news_ketk.cues.csv" download>时间码 cues.csv</a></span></div><div class="table-wrap"><table class="transcript"><thead><tr><th class="tstamp">时间</th><th class="src">英文原文</th><th class="trz">中文（机翻）</th></tr></thead><tbody><tr><td class="tstamp">0:03</td><td class="src">A newly released, Texas Senate race poll has James Talarico maintaining a lead with less than 40 days until the midterm election. Texas Public Opinion Research has surveyed 1,007 likely Texas voters.</td><td class="trz">最新公布的得克萨斯州参议院竞选民意调查显示，距离中期选举还有不到 40 天，詹姆斯·塔拉里科 (James Talarico) 仍保持领先。德克萨斯州民意研究中心对 1,007 名可能的德克萨斯州选民进行了调查。</td></tr><tr><td class="tstamp">0:14</td><td class="src">They found that Talarico holding a five-point advantage over Attorney General Ken Paxton, 49% to 44%.</td><td class="trz">他们发现塔拉里科比司法部长肯·帕克斯顿（Ken Paxton）领先 5 个百分点（49% 比 44%）。</td></tr><tr><td class="tstamp">0:22</td><td class="src">The survey also shows that Talarico's edge over Paxton has dropped one point since this poll was last conducted in August. Meanwhile, 3% of people surveyed said they are either undecided or voting</td><td class="trz">调查还显示，自八月份上次民意调查以来，Talarico 相对于 Paxton 的优势下降了一个百分点。与此同时，3% 的受访者表示，他们要么尚未决定，要么正在投票</td></tr><tr><td class="tstamp">0:36</td><td class="src">for someone else.</td><td class="trz">为了别人。</td></tr></tbody></table></div>
+    <div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、丢标点；中文列是<b>机器翻译</b>，只作阅读辅助，<b>不可当作候选人的原话引用</b>，引用一律以英文列与视频为准。</div><div class="meta"><span>Talarico leads Paxton in latest Texas Senate race poll</span><span>news_package · KETK NBC</span><span>4 行 / 80 词</span><span><a href="../../../11_speech_audio/transcripts/BOTH_tx_news_ketk.txt" target="_blank">原文 txt</a></span><span><a href="../../../11_speech_audio/transcripts/BOTH_tx_news_ketk.cues.csv" download>时间码 cues.csv</a></span></div><div class="bi-head"><span class="tx-tc">时间</span><span class="tx-en">英文原文</span><span class="tx-zh">中文（机翻）</span></div><div class="bi"><div class="bi-row"><span class="tx-tc">0:03</span><div class="tx-en">A newly released, Texas Senate race poll has James Talarico maintaining a lead with less than 40 days until the midterm election. Texas Public Opinion Research has surveyed 1,007 likely Texas voters.</div><div class="tx-zh">最新公布的得克萨斯州参议院竞选民意调查显示，距离中期选举还有不到 40 天，詹姆斯·塔拉里科 (James Talarico) 仍保持领先。德克萨斯州民意研究中心对 1,007 名可能的德克萨斯州选民进行了调查。</div></div><div class="bi-row"><span class="tx-tc">0:14</span><div class="tx-en">They found that Talarico holding a five-point advantage over Attorney General Ken Paxton, 49% to 44%.</div><div class="tx-zh">他们发现塔拉里科比司法部长肯·帕克斯顿（Ken Paxton）领先 5 个百分点（49% 比 44%）。</div></div><div class="bi-row"><span class="tx-tc">0:22</span><div class="tx-en">The survey also shows that Talarico's edge over Paxton has dropped one point since this poll was last conducted in August. Meanwhile, 3% of people surveyed said they are either undecided or voting</div><div class="tx-zh">调查还显示，自八月份上次民意调查以来，Talarico 相对于 Paxton 的优势下降了一个百分点。与此同时，3% 的受访者表示，他们要么尚未决定，要么正在投票</div></div><div class="bi-row"><span class="tx-tc">0:36</span><div class="tx-en">for someone else.</div><div class="tx-zh">为了别人。</div></div></div>
     
   </main>
 </div>

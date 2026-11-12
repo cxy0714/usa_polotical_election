@@ -482,11 +482,28 @@ pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
 blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
 blockquote p{margin:.35rem 0}
 .table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
-table.transcript td.tstamp{width:74px;white-space:nowrap;color:var(--muted,#8a8a8a);font-variant-numeric:tabular-nums;font-size:.8rem}
-table.transcript td.src{width:47%}
-table.transcript td.trz{width:47%;color:var(--zh,#24476b)}
-body.mode-en table.transcript th.trz,body.mode-en table.transcript td.trz{display:none}
-body.mode-zh table.transcript th.src,body.mode-zh table.transcript td.src{display:none}
+body.wide .layout{grid-template-columns:minmax(0,1fr);max-width:1160px}
+body.wide aside.toc{display:none}
+.bi-head{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
+padding:0 6px .45rem;font-size:.74rem;letter-spacing:.02em;color:var(--muted,#8a8a8a);
+position:sticky;top:4.05rem;background:var(--bg,#fff);z-index:2;border-bottom:1px solid var(--line)}
+.bi{display:flex;flex-direction:column}
+.bi-row{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
+padding:.5rem 6px;border-bottom:1px solid var(--line);align-items:start}
+.bi-row .tx-tc{font-variant-numeric:tabular-nums;font-size:.78rem;color:var(--muted,#8a8a8a);padding-top:.12rem}
+.bi-row .tx-en,.bi-row .tx-zh{min-width:0;overflow-wrap:anywhere;word-break:break-word;line-height:1.6;white-space:normal}
+.bi-row .tx-en{color:var(--en,inherit);font-size:.95rem}
+.bi-row .tx-zh{color:var(--zh,#24476b);font-size:.95rem}
+.bi-row:hover{background:color-mix(in srgb,var(--line) 38%,transparent)}
+body.mode-en .bi-head .tx-zh,body.mode-en .bi-row .tx-zh{display:none}
+body.mode-zh .bi-head .tx-en,body.mode-zh .bi-row .tx-en{display:none}
+body.mode-en .bi-head,body.mode-en .bi-row{grid-template-columns:74px minmax(0,1fr)}
+body.mode-zh .bi-head,body.mode-zh .bi-row{grid-template-columns:74px minmax(0,1fr)}
+@media(max-width:780px){
+.bi-head{display:none}
+.bi-row{grid-template-columns:minmax(0,1fr);gap:.3rem;padding:.7rem 2px}
+.bi-row .tx-tc{padding-top:0;font-size:.72rem;opacity:.75}
+}
 table{border-collapse:collapse;width:100%;font-size:.86rem}
 th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
 th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
@@ -1219,7 +1236,8 @@ def main():
                 n_zh += 1
             m = tr_meta.get(slug, {})
             body_rows = "".join(
-                '<tr><td class="tstamp">%s</td><td class="src">%s</td><td class="trz">%s</td></tr>'
+                '<div class="bi-row"><span class="tx-tc">%s</span>'
+                '<div class="tx-en">%s</div><div class="tx-zh">%s</div></div>'
                 % (esc(clock(r.get("start_s"))), esc(r.get("text", "")), esc(zh.get(r["idx"], "")))
                 for r in lines)
             head = ('<div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、'
@@ -1236,12 +1254,17 @@ def main():
             write("audio/transcripts/%s.html" % slug,
                   "Transcript — %s" % (tmap.get(slug) or slug),
                   "逐字稿——%s" % (tmap.get(slug) or slug),
-                  head + ('<div class="table-wrap"><table class="transcript"><thead><tr>'
-                          '<th class="tstamp">时间</th><th class="src">英文原文</th>'
-                          '<th class="trz">中文（机翻）</th></tr></thead><tbody>%s</tbody></table></div>'
-                          % body_rows),
+                  head + ('<div class="bi-head"><span class="tx-tc">时间</span>'
+                          '<span class="tx-en">英文原文</span><span class="tx-zh">中文（机翻）</span></div>'
+                          '<div class="bi">%s</div>' % body_rows),
                   crumb([("index.html", "首页"), ("audio/index.html", "音频"),
                          ("audio/transcripts.html", "逐字稿")]))
+            tp = os.path.join(SITE, "audio", "transcripts", slug + ".html")
+            with open(tp, encoding="utf-8") as fh:
+                thtml = fh.read()
+            if "<body>" in thtml:
+                with open(tp, "w", encoding="utf-8") as fh:
+                    fh.write(thtml.replace("<body>", '<body class="wide">', 1))
             search.append({"t": "逐字稿 · %s" % (tmap.get(slug) or slug),
                            "u": "audio/transcripts/%s.html" % slug,
                            "b": (m.get("channel", "") or "") + " · " + slug, "n": "逐字稿"})

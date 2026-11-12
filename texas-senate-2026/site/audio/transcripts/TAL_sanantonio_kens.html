@@ -41,11 +41,28 @@ pre code{background:none;padding:0;font-size:.82rem;line-height:1.55}
 blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0}
 blockquote p{margin:.35rem 0}
 .table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
-table.transcript td.tstamp{width:74px;white-space:nowrap;color:var(--muted,#8a8a8a);font-variant-numeric:tabular-nums;font-size:.8rem}
-table.transcript td.src{width:47%}
-table.transcript td.trz{width:47%;color:var(--zh,#24476b)}
-body.mode-en table.transcript th.trz,body.mode-en table.transcript td.trz{display:none}
-body.mode-zh table.transcript th.src,body.mode-zh table.transcript td.src{display:none}
+body.wide .layout{grid-template-columns:minmax(0,1fr);max-width:1160px}
+body.wide aside.toc{display:none}
+.bi-head{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
+padding:0 6px .45rem;font-size:.74rem;letter-spacing:.02em;color:var(--muted,#8a8a8a);
+position:sticky;top:4.05rem;background:var(--bg,#fff);z-index:2;border-bottom:1px solid var(--line)}
+.bi{display:flex;flex-direction:column}
+.bi-row{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
+padding:.5rem 6px;border-bottom:1px solid var(--line);align-items:start}
+.bi-row .tx-tc{font-variant-numeric:tabular-nums;font-size:.78rem;color:var(--muted,#8a8a8a);padding-top:.12rem}
+.bi-row .tx-en,.bi-row .tx-zh{min-width:0;overflow-wrap:anywhere;word-break:break-word;line-height:1.6;white-space:normal}
+.bi-row .tx-en{color:var(--en,inherit);font-size:.95rem}
+.bi-row .tx-zh{color:var(--zh,#24476b);font-size:.95rem}
+.bi-row:hover{background:color-mix(in srgb,var(--line) 38%,transparent)}
+body.mode-en .bi-head .tx-zh,body.mode-en .bi-row .tx-zh{display:none}
+body.mode-zh .bi-head .tx-en,body.mode-zh .bi-row .tx-en{display:none}
+body.mode-en .bi-head,body.mode-en .bi-row{grid-template-columns:74px minmax(0,1fr)}
+body.mode-zh .bi-head,body.mode-zh .bi-row{grid-template-columns:74px minmax(0,1fr)}
+@media(max-width:780px){
+.bi-head{display:none}
+.bi-row{grid-template-columns:minmax(0,1fr);gap:.3rem;padding:.7rem 2px}
+.bi-row .tx-tc{padding-top:0;font-size:.72rem;opacity:.75}
+}
 table{border-collapse:collapse;width:100%;font-size:.86rem}
 th,td{padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
 th{background:var(--line);font-weight:600;position:sticky;top:0;font-size:.8rem;white-space:nowrap}
@@ -105,7 +122,7 @@ a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
 @media(max-width:960px){.layout{grid-template-columns:1fr}aside.toc{display:none}.pair{grid-template-columns:1fr}.pair .zh{border-left:0;padding-left:0;border-top:1px dashed var(--line);padding-top:.6rem}}
 @media print{header.top,aside.toc,.modes,.pager,footer{display:none}.pair{display:block}.pair .zh{margin-top:.4rem}}
 </style>
-</head><body>
+</head><body class="wide">
 <header class="top"><div class="top-in">
   <div class="brand">Texas Senate 2026 <small>案例研究 001 · 双语档案</small></div>
   <nav class="main"><a class="" href="../../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Video frames</span></a><a class="on" href="../../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & Money</span></a><a class="" href="../../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources & Gaps</span></a><a class="" href="../../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
@@ -118,7 +135,7 @@ a.ext::after{content:" ↗";font-size:.8em;opacity:.65}
   <main>
     <div class="crumb"><a href="../../index.html">首页</a> › <a href="../../audio/index.html">音频</a> › <a href="../../audio/transcripts.html">逐字稿</a></div>
     <h1>Transcript — James Talarico visits San Antonio on 'Clear Eyes, Full Hearts' campaign tour<span class="zh">逐字稿——James Talarico visits San Antonio on 'Clear Eyes, Full Hearts' campaign tour</span></h1>
-    <div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、丢标点；中文列是<b>机器翻译</b>，只作阅读辅助，<b>不可当作候选人的原话引用</b>，引用一律以英文列与视频为准。</div><div class="meta"><span>James Talarico visits San Antonio on 'Clear Eyes, Full Hearts' campaign tour</span><span>rally · KENS 5</span><span>8 行 / 149 词</span><span><a href="../../../11_speech_audio/transcripts/TAL_sanantonio_kens.txt" target="_blank">原文 txt</a></span><span><a href="../../../11_speech_audio/transcripts/TAL_sanantonio_kens.cues.csv" download>时间码 cues.csv</a></span></div><div class="table-wrap"><table class="transcript"><thead><tr><th class="tstamp">时间</th><th class="src">英文原文</th><th class="trz">中文（机翻）</th></tr></thead><tbody><tr><td class="tstamp">0:04</td><td class="src">Democratic Senate candidate James Tallarico rallied in San Antonio this afternoon with special guests Eva Longoria.</td><td class="trz">民主党参议院候选人詹姆斯·塔拉里科今天下午在圣安东尼奥与特邀嘉宾伊娃·朗格利亚一起集会。</td></tr><tr><td class="tstamp">0:11</td><td class="src">A big crowd gathered at the 1902 nightclub east of downtown. The grandmother who is facing eviction, the little boy who's waking up in the middle of the night from the lights of the data center.</td><td class="trz">市中心东边的 1902 夜总会里聚集了一大群人。面临被驱逐的祖母，半夜从数据中心的灯光中醒来的小男孩。</td></tr><tr><td class="tstamp">0:25</td><td class="src">The small business owner who is struggling to keep his family restaurant open.</td><td class="trz">一位小企业主正在努力维持他的家庭餐馆的营业。</td></tr><tr><td class="tstamp">0:29</td><td class="src">Those Texans are my team. They are why I'm in this race.</td><td class="trz">那些德克萨斯人是我的球队。他们就是我参加这场比赛的原因。</td></tr><tr><td class="tstamp">0:34</td><td class="src">I want to be a senator for every Texan who can't afford one.</td><td class="trz">我想成为一名参议员，为每一个无力承担参议员费用的德克萨斯人服务。</td></tr><tr><td class="tstamp">0:40</td><td class="src">Tallarico cast his ballot in Austin yesterday. He says he and his team have shattered grassroots fundraising records throughout the race, and according to new federal findings, Tallarico raised nearly $18 million in just the first two weeks of October.</td><td class="trz">塔拉里科昨天在奥斯汀投票。他说，他和他的团队在整个竞选过程中打破了草根筹款记录，根据新的联邦调查结果，塔拉里科仅在 10 月的前两周就筹集了近 1800 万美元。</td></tr><tr><td class="tstamp">0:56</td><td class="src">That's on top of the record breaking $64 million he raised in the previous three months.</td><td class="trz">这还不包括他在过去三个月筹集的创纪录的 6400 万美元。</td></tr><tr><td class="tstamp">1:01</td><td class="src">Tallarico heads to Corpus Christi tomorrow.</td><td class="trz">塔拉里科明天将前往科珀斯克里斯蒂。</td></tr></tbody></table></div>
+    <div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、丢标点；中文列是<b>机器翻译</b>，只作阅读辅助，<b>不可当作候选人的原话引用</b>，引用一律以英文列与视频为准。</div><div class="meta"><span>James Talarico visits San Antonio on 'Clear Eyes, Full Hearts' campaign tour</span><span>rally · KENS 5</span><span>8 行 / 149 词</span><span><a href="../../../11_speech_audio/transcripts/TAL_sanantonio_kens.txt" target="_blank">原文 txt</a></span><span><a href="../../../11_speech_audio/transcripts/TAL_sanantonio_kens.cues.csv" download>时间码 cues.csv</a></span></div><div class="bi-head"><span class="tx-tc">时间</span><span class="tx-en">英文原文</span><span class="tx-zh">中文（机翻）</span></div><div class="bi"><div class="bi-row"><span class="tx-tc">0:04</span><div class="tx-en">Democratic Senate candidate James Tallarico rallied in San Antonio this afternoon with special guests Eva Longoria.</div><div class="tx-zh">民主党参议院候选人詹姆斯·塔拉里科今天下午在圣安东尼奥与特邀嘉宾伊娃·朗格利亚一起集会。</div></div><div class="bi-row"><span class="tx-tc">0:11</span><div class="tx-en">A big crowd gathered at the 1902 nightclub east of downtown. The grandmother who is facing eviction, the little boy who's waking up in the middle of the night from the lights of the data center.</div><div class="tx-zh">市中心东边的 1902 夜总会里聚集了一大群人。面临被驱逐的祖母，半夜从数据中心的灯光中醒来的小男孩。</div></div><div class="bi-row"><span class="tx-tc">0:25</span><div class="tx-en">The small business owner who is struggling to keep his family restaurant open.</div><div class="tx-zh">一位小企业主正在努力维持他的家庭餐馆的营业。</div></div><div class="bi-row"><span class="tx-tc">0:29</span><div class="tx-en">Those Texans are my team. They are why I'm in this race.</div><div class="tx-zh">那些德克萨斯人是我的球队。他们就是我参加这场比赛的原因。</div></div><div class="bi-row"><span class="tx-tc">0:34</span><div class="tx-en">I want to be a senator for every Texan who can't afford one.</div><div class="tx-zh">我想成为一名参议员，为每一个无力承担参议员费用的德克萨斯人服务。</div></div><div class="bi-row"><span class="tx-tc">0:40</span><div class="tx-en">Tallarico cast his ballot in Austin yesterday. He says he and his team have shattered grassroots fundraising records throughout the race, and according to new federal findings, Tallarico raised nearly $18 million in just the first two weeks of October.</div><div class="tx-zh">塔拉里科昨天在奥斯汀投票。他说，他和他的团队在整个竞选过程中打破了草根筹款记录，根据新的联邦调查结果，塔拉里科仅在 10 月的前两周就筹集了近 1800 万美元。</div></div><div class="bi-row"><span class="tx-tc">0:56</span><div class="tx-en">That's on top of the record breaking $64 million he raised in the previous three months.</div><div class="tx-zh">这还不包括他在过去三个月筹集的创纪录的 6400 万美元。</div></div><div class="bi-row"><span class="tx-tc">1:01</span><div class="tx-en">Tallarico heads to Corpus Christi tomorrow.</div><div class="tx-zh">塔拉里科明天将前往科珀斯克里斯蒂。</div></div></div>
     
   </main>
 </div>
