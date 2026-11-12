@@ -115,6 +115,11 @@ English line against the video, never the Chinese text.
 原文本身是自动字幕，已经会误听人名，机翻又会叠加它自己的错误。
 引用时一律以英文行对照视频，不得把中文当作候选人的原话。
 
+Every transcript page links to its source video, and each line's timecode is a YouTube
+deep link (`?t=` seconds), so a row can be checked against the footage in one click.
+每份逐字稿页都链到原视频，每行时间码就是 YouTube 深链接（`?t=秒`）
+，点一下就能回到录像里核对那一句。
+
 ## 6. Reproduction / 复现
 
 ```powershell

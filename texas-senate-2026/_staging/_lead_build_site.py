@@ -483,6 +483,10 @@ blockquote{margin:1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);
 blockquote p{margin:.35rem 0}
 .table-wrap{overflow:auto;margin:1rem 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}
 body.wide .layout{grid-template-columns:minmax(0,1fr);max-width:1160px}
+.tx-go{color:inherit;text-decoration:none;border-bottom:1px dotted var(--line)}
+.tx-go:hover{color:var(--accent,#b3261e);border-bottom-color:var(--accent,#b3261e)}
+a.yt{color:var(--accent,#b3261e);font-weight:600;text-decoration:none}
+a.yt:hover{text-decoration:underline}
 body.wide aside.toc{display:none}
 .bi-head{display:grid;grid-template-columns:74px minmax(0,1fr) minmax(0,1fr);gap:18px;
 padding:0 6px .45rem;font-size:.74rem;letter-spacing:.02em;color:var(--muted,#8a8a8a);
@@ -1221,6 +1225,23 @@ def main():
             return "%d:%02d" % (v // 60, v % 60)
 
         tr_meta = {r["slug"]: r for r in am}
+        vs_map = {}
+        vs_path = os.path.join(ROOT, "10_video_frames", "video_sources.csv")
+        if os.path.exists(vs_path):
+            for vr in read_csv_rows(vs_path):
+                vs_map[vr.get("slug", "")] = vr
+
+        def stamp_link(sec, url):
+            label = esc(clock(sec))
+            if not url:
+                return label
+            try:
+                t = int(float(sec))
+            except (TypeError, ValueError):
+                t = 0
+            return ('<a class="tx-go" href="%s&t=%ds" target="_blank" rel="noopener" '
+                    'title="在 YouTube 从 %s 播放">%s</a>' % (esc(url), t, label, label))
+
         index_rows, n_zh = [], 0
         os.makedirs(os.path.join(SITE, "audio", "transcripts"), exist_ok=True)
         for p in trans:
@@ -1238,19 +1259,27 @@ def main():
             body_rows = "".join(
                 '<div class="bi-row"><span class="tx-tc">%s</span>'
                 '<div class="tx-en">%s</div><div class="tx-zh">%s</div></div>'
-                % (esc(clock(r.get("start_s"))), esc(r.get("text", "")), esc(zh.get(r["idx"], "")))
+                % (stamp_link(r.get("start_s"), (vs_map.get(slug) or {}).get("url", "")),
+                   esc(r.get("text", "")), esc(zh.get(r["idx"], "")))
                 for r in lines)
             head = ('<div class="warn">英文列是 yt-dlp 抓到的字幕原文（自动或人工）。自动字幕会误听人名、'
                     '丢标点；中文列是<b>机器翻译</b>，只作阅读辅助，<b>不可当作候选人的原话引用</b>，'
                     '引用一律以英文列与视频为准。</div>'
                     '<div class="meta">'
                     '<span>%s</span><span>%s · %s</span><span>%d 行 / %s 词</span>'
+                    '%s'
                     '<span><a href="../../../11_speech_audio/transcripts/%s.txt" target="_blank">原文 txt</a></span>'
                     '<span><a href="../../../11_speech_audio/transcripts/%s.cues.csv" download>时间码 cues.csv</a></span>'
                     '</div>') % (
                 esc((tmap.get(slug) or slug)[:90]),
                 esc(m.get("kind", "—")), esc(m.get("channel", "—")),
-                len(lines), esc(m.get("words", "—")), esc(slug), esc(slug))
+                len(lines), esc(m.get("words", "—")),
+                (('<span><a class="yt" href="%s" target="_blank" rel="noopener">'
+                  '▶ 在 YouTube 观看原视频</a> <code>%s</code></span>'
+                  % (esc((vs_map.get(slug) or {}).get("url", "")),
+                     esc((vs_map.get(slug) or {}).get("video_id", ""))))
+                 if (vs_map.get(slug) or {}).get("url") else ""),
+                esc(slug), esc(slug))
             write("audio/transcripts/%s.html" % slug,
                   "Transcript — %s" % (tmap.get(slug) or slug),
                   "逐字稿——%s" % (tmap.get(slug) or slug),
@@ -1268,17 +1297,20 @@ def main():
             search.append({"t": "逐字稿 · %s" % (tmap.get(slug) or slug),
                            "u": "audio/transcripts/%s.html" % slug,
                            "b": (m.get("channel", "") or "") + " · " + slug, "n": "逐字稿"})
+            vu = (vs_map.get(slug) or {}).get("url", "")
             index_rows.append('<tr><td><a href="transcripts/%s.html">%s</a></td><td>%s</td><td>%s</td>'
                               '<td style="text-align:right">%s</td><td style="text-align:right">%s</td>'
-                              '<td style="text-align:right">%s</td><td>%s</td></tr>'
+                              '<td style="text-align:right">%s</td><td>%s</td><td>%s</td></tr>'
                               % (esc(slug), esc(slug), esc(m.get("candidate", "—")),
                                  esc(m.get("kind", "—")),
                                  ("%.0f" % (g(m, "video_duration_s") or 0)),
                                  esc(m.get("words", "—")), esc(m.get("wpm", "—")),
-                                 "可读" if has_zh else "—"))
+                                 "可读" if has_zh else "—",
+                                 ('<a href="%s" target="_blank" rel="noopener" title="在 YouTube 打开">▶</a>'
+                                  % esc(vu)) if vu else "—"))
         trans_rows = ('<div class="table-wrap"><table><thead><tr><th>逐字稿 / slug</th>'
                       '<th>候选人</th><th>类型</th><th>时长 s</th>'
-                      '<th>词数</th><th>语速</th><th>中文译文</th></tr></thead>'
+                      '<th>词数</th><th>语速</th><th>中文译文</th><th>视频</th></tr></thead>'
                       '<tbody>%s</tbody></table></div>' % "".join(index_rows))
         plot_rows = "".join(
             '<figure><a href="../../11_speech_audio/plots/%s" target="_blank">'
