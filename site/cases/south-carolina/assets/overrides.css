@@ -1,5 +1,13 @@
 /* widen the reading column; the Texas grid is 250px + 1fr with a 1280px cap */
 .layout{max-width:1500px}
+.idtag{display:inline-block;padding:.05rem .35rem;border-radius:4px;font-size:.72em;font-weight:600;
+  background:var(--line);color:var(--fg);margin-left:.25rem;white-space:nowrap}
+.idtag.id-andrews{background:#123a5f;color:#fff}
+.idtag.id-graham{background:#7a1f1f;color:#fff}
+.facetbar{display:flex;gap:.4rem;flex-wrap:wrap;margin:1rem 0 .6rem}
+.facetbar button{border:1px solid var(--line);background:var(--card);color:var(--muted);
+  padding:.3rem .7rem;border-radius:999px;font-size:.82rem;cursor:pointer}
+.facetbar button.on{background:var(--accent2);border-color:var(--accent2);color:#fff}
 body.wide .layout{max-width:1500px}
 @media (min-width:1560px){.layout,body.wide .layout{max-width:1640px}}
 .prose img{max-width:100%;height:auto}

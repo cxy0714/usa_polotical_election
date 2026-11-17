@@ -157,6 +157,11 @@ stream produced it (§5).</p>
 <td>One row per extracted keyframe.</td>
 </tr>
 <tr>
+<td><code>10_video_frames/keyframes_identity.csv</code></td>
+<td>300</td>
+<td>Per-frame SFace identity match: <code>ANDREWS</code>, <code>GRAHAM</code>, <code>unknown</code>, <code>other</code>, <code>noface</code>.</td>
+</tr>
+<tr>
 <td><code>10_video_frames/video_face_summary.csv</code></td>
 <td>27</td>
 <td>Per-video frame and face counts.</td>
@@ -208,6 +213,26 @@ component sum is 10,821 and that is what the table records.</p>
 each <code>SRC-####</code> and lists the files that cite it. <code>unknown</code> there means the source is registered
 background that no delivered row cites.</p>
 <p><code>used_by</code> 是计算出来的，不是断言的：合并脚本扫描档案内每个 CSV 与 Markdown 文件中的 <code>SRC-####</code>，列出引用它的文件。该列为 <code>unknown</code> 表示该来源是已登记的背景资料，没有交付行引用它。</p>
+<h3>3.5 <code>keyframes_identity.csv</code></h3>
+<p><code>frame_id</code> · <code>identity</code> · <code>identity_sim</code> · <code>second_identity</code> · <code>second_sim</code> · <code>faces</code> ·
+<code>candidate_faces</code> · <code>identity_note</code></p>
+<p><code>identity</code> is one of <code>ANDREWS</code>, <code>GRAHAM</code>, <code>unknown</code>, <code>other</code>, <code>noface</code>, <code>nofile</code>. It comes from an
+SFace cosine comparison against 23 photographs already in <code>04_visual_archive/</code> (12 Andrews, 11
+Graham), filtered so that only photographs where the candidate's face fills at least 3% of the frame
+are used as references. A face is labelled with a candidate only if its best cosine reaches <strong>0.363</strong>
+(OpenCV's published SFace threshold) and beats the other candidate by <strong>0.05</strong>. Everything else is
+<code>unknown</code>, which is why 156 of 300 frames carry no candidate label: a debate frame contains a
+moderator, an audience and two candidates, and only the faces that clear both tests are attributed.</p>
+<p>Sanity figures from the run: same-class reference pairs average 0.740 cosine, cross-class 0.104. As an
+independent check, 136 frames come from videos in which only one candidate appears; 3 of them (2.2%)
+carry the other candidate's label, which is the archive's working estimate of the false-positive rate.</p>
+<p><code>identity</code> 取值 <code>ANDREWS</code>、<code>GRAHAM</code>、<code>unknown</code>、<code>other</code>、<code>noface</code>、<code>nofile</code>。来源是对
+<code>04_visual_archive/</code> 中 23 张照片（安德鲁斯 12、格雷厄姆 11）做 SFace 余弦比对，且只采用候选人脸部占画幅
+至少 3% 的照片作为参照。只有最佳余弦达到 <strong>0.363</strong>（OpenCV 公布的 SFace 阈值）且领先另一候选人 <strong>0.05</strong>
+时，才把该脸标注为某位候选人；其余一律 <code>unknown</code>——所以 300 帧里有 156 帧没有候选人标签：一场辩论帧里同时有
+主持人、观众与两位候选人，只有通过双重检验的脸才被归属。</p>
+<p>本次运行的合理性数据：同类参照对平均余弦 0.740，跨类 0.104。独立检验：来自「只出现一位候选人」视频的 136 帧中，
+有 3 帧（2.2%）带上了另一候选人的标签，这就是本档案对误报率的经验估计。</p>
 <h2>4. Controlled vocabularies / 4. 受控词表</h2>
 <table>
 <thead>

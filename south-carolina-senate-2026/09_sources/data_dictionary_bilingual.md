@@ -56,6 +56,7 @@ stream produced it (§5).
 | `09_sources/sources.csv` | 370 | Every source, with tier, type, and a computed `used_by`. |
 | `09_sources/exit_poll_2026.csv` | 45 | Exit-poll subgroups, 15 groups. |
 | `10_video_frames/keyframes.csv` | see file | One row per extracted keyframe. |
+| `10_video_frames/keyframes_identity.csv` | 300 | Per-frame SFace identity match: `ANDREWS`, `GRAHAM`, `unknown`, `other`, `noface`. |
 | `10_video_frames/video_face_summary.csv` | 27 | Per-video frame and face counts. |
 | `10_video_frames/video_sources.csv` | 27 | The downloaded corpus, with local filenames and byte sizes. |
 | `11_speech_audio/audio_metrics.csv` | 27 | Loudness, silence ratio and caption-derived word counts. |
@@ -107,6 +108,31 @@ each `SRC-####` and lists the files that cite it. `unknown` there means the sour
 background that no delivered row cites.
 
 `used_by` 是计算出来的，不是断言的：合并脚本扫描档案内每个 CSV 与 Markdown 文件中的 `SRC-####`，列出引用它的文件。该列为 `unknown` 表示该来源是已登记的背景资料，没有交付行引用它。
+
+### 3.5 `keyframes_identity.csv`
+`frame_id` · `identity` · `identity_sim` · `second_identity` · `second_sim` · `faces` ·
+`candidate_faces` · `identity_note`
+
+`identity` is one of `ANDREWS`, `GRAHAM`, `unknown`, `other`, `noface`, `nofile`. It comes from an
+SFace cosine comparison against 23 photographs already in `04_visual_archive/` (12 Andrews, 11
+Graham), filtered so that only photographs where the candidate's face fills at least 3% of the frame
+are used as references. A face is labelled with a candidate only if its best cosine reaches **0.363**
+(OpenCV's published SFace threshold) and beats the other candidate by **0.05**. Everything else is
+`unknown`, which is why 156 of 300 frames carry no candidate label: a debate frame contains a
+moderator, an audience and two candidates, and only the faces that clear both tests are attributed.
+
+Sanity figures from the run: same-class reference pairs average 0.740 cosine, cross-class 0.104. As an
+independent check, 136 frames come from videos in which only one candidate appears; 3 of them (2.2%)
+carry the other candidate's label, which is the archive's working estimate of the false-positive rate.
+
+`identity` 取值 `ANDREWS`、`GRAHAM`、`unknown`、`other`、`noface`、`nofile`。来源是对
+`04_visual_archive/` 中 23 张照片（安德鲁斯 12、格雷厄姆 11）做 SFace 余弦比对，且只采用候选人脸部占画幅
+至少 3% 的照片作为参照。只有最佳余弦达到 **0.363**（OpenCV 公布的 SFace 阈值）且领先另一候选人 **0.05**
+时，才把该脸标注为某位候选人；其余一律 `unknown`——所以 300 帧里有 156 帧没有候选人标签：一场辩论帧里同时有
+主持人、观众与两位候选人，只有通过双重检验的脸才被归属。
+
+本次运行的合理性数据：同类参照对平均余弦 0.740，跨类 0.104。独立检验：来自「只出现一位候选人」视频的 136 帧中，
+有 3 帧（2.2%）带上了另一候选人的标签，这就是本档案对误报率的经验估计。
 
 ## 4. Controlled vocabularies / 4. 受控词表
 

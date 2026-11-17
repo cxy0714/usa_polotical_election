@@ -1,0 +1,301 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+JNT_debate_cXE2Ik6YxMg-KF-001,ANDREWS,0.645,GRAHAM,0.205,1,1,1 candidate face(s) above threshold
+JNT_debate_cXE2Ik6YxMg-KF-002,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_cXE2Ik6YxMg-KF-003,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_cXE2Ik6YxMg-KF-004,unknown,unknown,GRAHAM,0.281,1,0,below threshold: nearest candidate GRAHAM at cosine 0.281
+JNT_debate_cXE2Ik6YxMg-KF-005,unknown,unknown,ANDREWS,0.342,2,0,below threshold: nearest candidate ANDREWS at cosine 0.342
+JNT_debate_cXE2Ik6YxMg-KF-006,unknown,unknown,GRAHAM,0.261,1,0,below threshold: nearest candidate GRAHAM at cosine 0.261
+JNT_debate_cXE2Ik6YxMg-KF-007,unknown,unknown,ANDREWS,0.145,3,0,below threshold: nearest candidate ANDREWS at cosine 0.145
+JNT_debate_cXE2Ik6YxMg-KF-008,unknown,unknown,GRAHAM,0.296,2,0,below threshold: nearest candidate GRAHAM at cosine 0.296
+JNT_debate_cXE2Ik6YxMg-KF-009,GRAHAM,0.652,ANDREWS,0.153,1,1,1 candidate face(s) above threshold
+JNT_debate_cXE2Ik6YxMg-KF-010,unknown,unknown,ANDREWS,0.263,2,0,below threshold: nearest candidate ANDREWS at cosine 0.263
+JNT_debate_cXE2Ik6YxMg-KF-011,ANDREWS,0.665,GRAHAM,0.106,1,1,1 candidate face(s) above threshold
+JNT_debate_cXE2Ik6YxMg-KF-012,unknown,unknown,ANDREWS,0.327,2,0,below threshold: nearest candidate ANDREWS at cosine 0.327
+JNT_debate_cXE2Ik6YxMg-KF-013,unknown,unknown,GRAHAM,0.269,1,0,below threshold: nearest candidate GRAHAM at cosine 0.269
+JNT_debate_cXE2Ik6YxMg-KF-014,ANDREWS,0.394,GRAHAM,0.209,2,1,1 candidate face(s) above threshold
+JNT_debate_cXE2Ik6YxMg-KF-015,ANDREWS,0.647,GRAHAM,0.187,1,1,1 candidate face(s) above threshold
+JNT_debate_cXE2Ik6YxMg-KF-016,unknown,unknown,GRAHAM,0.337,1,0,below threshold: nearest candidate GRAHAM at cosine 0.337
+JNT_debate_cXE2Ik6YxMg-KF-017,unknown,unknown,ANDREWS,0.359,5,0,below threshold: nearest candidate ANDREWS at cosine 0.359
+JNT_debate_cXE2Ik6YxMg-KF-018,unknown,unknown,ANDREWS,0.286,2,0,below threshold: nearest candidate ANDREWS at cosine 0.286
+JNT_debate_cXE2Ik6YxMg-KF-019,unknown,unknown,ANDREWS,0.199,1,0,below threshold: nearest candidate ANDREWS at cosine 0.199
+JNT_debate_cXE2Ik6YxMg-KF-020,unknown,unknown,GRAHAM,0.255,3,0,below threshold: nearest candidate GRAHAM at cosine 0.255
+JNT_debate_cXE2Ik6YxMg-KF-021,unknown,unknown,GRAHAM,0.213,1,0,below threshold: nearest candidate GRAHAM at cosine 0.213
+JNT_debate_cXE2Ik6YxMg-KF-022,ANDREWS,0.477,GRAHAM,0.205,5,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-001,GRAHAM,0.514,ANDREWS,0.298,2,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-002,GRAHAM,0.610,ANDREWS,0.266,2,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-003,unknown,unknown,ANDREWS,0.310,1,0,below threshold: nearest candidate ANDREWS at cosine 0.310
+JNT_debate_fYbTRsRnT6U-KF-004,unknown,unknown,ANDREWS,0.216,5,0,below threshold: nearest candidate ANDREWS at cosine 0.216
+JNT_debate_fYbTRsRnT6U-KF-005,unknown,unknown,GRAHAM,0.266,1,0,below threshold: nearest candidate GRAHAM at cosine 0.266
+JNT_debate_fYbTRsRnT6U-KF-006,other,unknown,,,2,0,"no face cleared the threshold; crowd, moderator or bystander"
+JNT_debate_fYbTRsRnT6U-KF-007,unknown,unknown,GRAHAM,0.230,1,0,below threshold: nearest candidate GRAHAM at cosine 0.230
+JNT_debate_fYbTRsRnT6U-KF-008,GRAHAM,0.643,ANDREWS,0.279,1,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-009,unknown,unknown,GRAHAM,0.230,1,0,below threshold: nearest candidate GRAHAM at cosine 0.230
+JNT_debate_fYbTRsRnT6U-KF-010,unknown,unknown,ANDREWS,0.206,4,0,below threshold: nearest candidate ANDREWS at cosine 0.206
+JNT_debate_fYbTRsRnT6U-KF-011,GRAHAM,0.588,ANDREWS,0.207,1,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-012,GRAHAM,0.460,ANDREWS,0.306,2,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-013,GRAHAM,0.597,ANDREWS,0.337,1,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-014,unknown,unknown,ANDREWS,0.246,1,0,below threshold: nearest candidate ANDREWS at cosine 0.246
+JNT_debate_fYbTRsRnT6U-KF-015,GRAHAM,0.438,ANDREWS,0.240,5,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-016,unknown,unknown,ANDREWS,0.237,1,0,below threshold: nearest candidate ANDREWS at cosine 0.237
+JNT_debate_fYbTRsRnT6U-KF-017,unknown,unknown,GRAHAM,0.257,1,0,below threshold: nearest candidate GRAHAM at cosine 0.257
+JNT_debate_fYbTRsRnT6U-KF-018,GRAHAM,0.376,ANDREWS,0.213,5,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-019,unknown,unknown,GRAHAM,0.126,3,0,below threshold: nearest candidate GRAHAM at cosine 0.126
+JNT_debate_fYbTRsRnT6U-KF-020,GRAHAM,0.699,ANDREWS,0.297,1,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-021,GRAHAM,0.401,ANDREWS,0.234,5,1,1 candidate face(s) above threshold
+JNT_debate_fYbTRsRnT6U-KF-022,unknown,unknown,GRAHAM,0.069,1,0,below threshold: nearest candidate GRAHAM at cosine 0.069
+JNT_debate_O690xUFPNJ8-KF-001,GRAHAM,0.569,ANDREWS,0.309,2,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-002,unknown,unknown,GRAHAM,0.333,1,0,below threshold: nearest candidate GRAHAM at cosine 0.333
+JNT_debate_O690xUFPNJ8-KF-003,unknown,unknown,ANDREWS,0.173,5,0,below threshold: nearest candidate ANDREWS at cosine 0.173
+JNT_debate_O690xUFPNJ8-KF-004,GRAHAM,0.613,ANDREWS,0.366,1,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-005,GRAHAM,0.479,ANDREWS,0.189,2,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-006,unknown,unknown,GRAHAM,0.244,1,0,below threshold: nearest candidate GRAHAM at cosine 0.244
+JNT_debate_O690xUFPNJ8-KF-007,GRAHAM,0.580,ANDREWS,0.257,2,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-008,unknown,unknown,GRAHAM,0.299,1,0,below threshold: nearest candidate GRAHAM at cosine 0.299
+JNT_debate_O690xUFPNJ8-KF-009,unknown,unknown,GRAHAM,0.193,5,0,below threshold: nearest candidate GRAHAM at cosine 0.193
+JNT_debate_O690xUFPNJ8-KF-010,unknown,unknown,ANDREWS,0.255,1,0,below threshold: nearest candidate ANDREWS at cosine 0.255
+JNT_debate_O690xUFPNJ8-KF-011,unknown,unknown,ANDREWS,0.097,5,0,below threshold: nearest candidate ANDREWS at cosine 0.097
+JNT_debate_O690xUFPNJ8-KF-012,GRAHAM,0.618,ANDREWS,0.247,2,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-013,unknown,unknown,ANDREWS,0.170,5,0,below threshold: nearest candidate ANDREWS at cosine 0.170
+JNT_debate_O690xUFPNJ8-KF-014,unknown,unknown,GRAHAM,0.159,3,0,below threshold: nearest candidate GRAHAM at cosine 0.159
+JNT_debate_O690xUFPNJ8-KF-015,GRAHAM,0.564,ANDREWS,0.335,1,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-016,GRAHAM,0.524,ANDREWS,0.218,2,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-017,GRAHAM,0.566,ANDREWS,0.284,1,1,1 candidate face(s) above threshold
+JNT_debate_O690xUFPNJ8-KF-018,unknown,unknown,GRAHAM,0.146,3,0,below threshold: nearest candidate GRAHAM at cosine 0.146
+JNT_debate_O690xUFPNJ8-KF-019,unknown,unknown,ANDREWS,0.247,5,0,below threshold: nearest candidate ANDREWS at cosine 0.247
+JNT_debate_O690xUFPNJ8-KF-020,unknown,unknown,GRAHAM,0.268,1,0,below threshold: nearest candidate GRAHAM at cosine 0.268
+JNT_debate_O690xUFPNJ8-KF-021,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_O690xUFPNJ8-KF-022,unknown,unknown,ANDREWS,0.304,1,0,below threshold: nearest candidate ANDREWS at cosine 0.304
+JNT_debate_4u--w8rz_lI-KF-001,unknown,unknown,GRAHAM,0.186,1,0,below threshold: nearest candidate GRAHAM at cosine 0.186
+JNT_debate_4u--w8rz_lI-KF-002,unknown,unknown,GRAHAM,0.192,1,0,below threshold: nearest candidate GRAHAM at cosine 0.192
+JNT_debate_4u--w8rz_lI-KF-003,ANDREWS,0.634,GRAHAM,0.179,1,1,1 candidate face(s) above threshold
+JNT_debate_4u--w8rz_lI-KF-004,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_4u--w8rz_lI-KF-005,ANDREWS,0.385,GRAHAM,0.116,4,1,1 candidate face(s) above threshold
+JNT_debate_4u--w8rz_lI-KF-006,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_4u--w8rz_lI-KF-007,GRAHAM,0.635,ANDREWS,0.125,1,1,1 candidate face(s) above threshold
+JNT_debate_4u--w8rz_lI-KF-008,other,unknown,,,2,0,"no face cleared the threshold; crowd, moderator or bystander"
+JNT_debate_4u--w8rz_lI-KF-009,unknown,unknown,GRAHAM,0.289,1,0,below threshold: nearest candidate GRAHAM at cosine 0.289
+JNT_debate_4u--w8rz_lI-KF-010,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_4u--w8rz_lI-KF-011,unknown,unknown,ANDREWS,0.118,1,0,below threshold: nearest candidate ANDREWS at cosine 0.118
+JNT_debate_4u--w8rz_lI-KF-012,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-001,unknown,unknown,GRAHAM,0.268,1,0,below threshold: nearest candidate GRAHAM at cosine 0.268
+JNT_debate_8QidNt1QDWA-KF-002,unknown,unknown,ANDREWS,0.312,5,0,below threshold: nearest candidate ANDREWS at cosine 0.312
+JNT_debate_8QidNt1QDWA-KF-003,GRAHAM,0.648,ANDREWS,0.159,1,1,1 candidate face(s) above threshold
+JNT_debate_8QidNt1QDWA-KF-004,unknown,unknown,GRAHAM,0.247,1,0,below threshold: nearest candidate GRAHAM at cosine 0.247
+JNT_debate_8QidNt1QDWA-KF-005,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-006,other,unknown,,,2,0,"no face cleared the threshold; crowd, moderator or bystander"
+JNT_debate_8QidNt1QDWA-KF-007,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-008,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-009,ANDREWS,0.699,GRAHAM,0.137,3,2,2 candidate face(s) above threshold
+JNT_debate_8QidNt1QDWA-KF-010,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-011,GRAHAM,0.610,ANDREWS,0.236,1,1,1 candidate face(s) above threshold
+JNT_debate_8QidNt1QDWA-KF-012,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-013,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-014,ANDREWS,0.626,GRAHAM,0.207,1,1,1 candidate face(s) above threshold
+JNT_debate_8QidNt1QDWA-KF-015,unknown,unknown,GRAHAM,0.276,1,0,below threshold: nearest candidate GRAHAM at cosine 0.276
+JNT_debate_8QidNt1QDWA-KF-016,ANDREWS,0.430,GRAHAM,0.048,3,1,1 candidate face(s) above threshold
+JNT_debate_8QidNt1QDWA-KF-017,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-018,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-019,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-020,noface,unknown,,,0,0,YuNet found no face above 0.6
+JNT_debate_8QidNt1QDWA-KF-021,unknown,unknown,GRAHAM,0.311,1,0,below threshold: nearest candidate GRAHAM at cosine 0.311
+JNT_debate_8QidNt1QDWA-KF-022,unknown,unknown,GRAHAM,0.087,2,0,below threshold: nearest candidate GRAHAM at cosine 0.087
+AND_launch_J8wMNLaSNW4-KF-001,ANDREWS,0.398,GRAHAM,0.246,4,1,1 candidate face(s) above threshold
+AND_launch_J8wMNLaSNW4-KF-002,ANDREWS,0.441,GRAHAM,0.179,3,1,1 candidate face(s) above threshold
+AND_launch_J8wMNLaSNW4-KF-003,ANDREWS,0.544,GRAHAM,0.177,3,1,1 candidate face(s) above threshold
+AND_launch_J8wMNLaSNW4-KF-004,ANDREWS,0.533,GRAHAM,0.151,2,1,1 candidate face(s) above threshold
+AND_launch_J8wMNLaSNW4-KF-005,ANDREWS,0.670,GRAHAM,0.175,1,1,1 candidate face(s) above threshold
+AND_launch_J8wMNLaSNW4-KF-006,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-007,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-008,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-009,unknown,unknown,GRAHAM,0.307,1,0,below threshold: nearest candidate GRAHAM at cosine 0.307
+AND_launch_J8wMNLaSNW4-KF-010,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-011,unknown,unknown,GRAHAM,0.310,1,0,below threshold: nearest candidate GRAHAM at cosine 0.310
+AND_launch_J8wMNLaSNW4-KF-012,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-013,unknown,unknown,ANDREWS,0.117,5,0,below threshold: nearest candidate ANDREWS at cosine 0.117
+AND_launch_J8wMNLaSNW4-KF-014,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-015,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-016,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-017,ANDREWS,0.696,GRAHAM,0.209,1,1,1 candidate face(s) above threshold
+AND_launch_J8wMNLaSNW4-KF-018,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-019,unknown,unknown,ANDREWS,0.190,1,0,below threshold: nearest candidate ANDREWS at cosine 0.190
+AND_launch_J8wMNLaSNW4-KF-020,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_launch_J8wMNLaSNW4-KF-021,unknown,unknown,ANDREWS,0.182,1,0,below threshold: nearest candidate ANDREWS at cosine 0.182
+AND_launch_J8wMNLaSNW4-KF-022,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_interview_tv_3HrgPQKBmjE-KF-001,ANDREWS,0.440,GRAHAM,0.007,2,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-002,unknown,unknown,GRAHAM,0.192,1,0,below threshold: nearest candidate GRAHAM at cosine 0.192
+AND_interview_tv_3HrgPQKBmjE-KF-003,ANDREWS,0.438,GRAHAM,,2,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-004,ANDREWS,0.654,GRAHAM,0.237,1,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-005,ANDREWS,0.700,GRAHAM,0.235,1,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-006,unknown,unknown,GRAHAM,0.229,1,0,below threshold: nearest candidate GRAHAM at cosine 0.229
+AND_interview_tv_3HrgPQKBmjE-KF-007,ANDREWS,0.671,GRAHAM,0.249,1,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-008,ANDREWS,0.399,GRAHAM,0.068,2,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-009,unknown,unknown,GRAHAM,0.181,1,0,below threshold: nearest candidate GRAHAM at cosine 0.181
+AND_interview_tv_3HrgPQKBmjE-KF-010,ANDREWS,0.437,GRAHAM,0.062,2,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-011,ANDREWS,0.674,GRAHAM,0.252,1,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-012,unknown,unknown,ANDREWS,0.272,2,0,below threshold: nearest candidate ANDREWS at cosine 0.272
+AND_interview_tv_3HrgPQKBmjE-KF-013,unknown,unknown,GRAHAM,0.199,1,0,below threshold: nearest candidate GRAHAM at cosine 0.199
+AND_interview_tv_3HrgPQKBmjE-KF-014,ANDREWS,0.408,GRAHAM,,2,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-015,ANDREWS,0.690,GRAHAM,0.240,1,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-016,ANDREWS,0.505,GRAHAM,0.079,3,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-017,ANDREWS,0.616,GRAHAM,0.216,1,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-018,ANDREWS,0.363,GRAHAM,0.087,2,1,1 candidate face(s) above threshold
+AND_interview_tv_3HrgPQKBmjE-KF-019,ANDREWS,0.685,GRAHAM,0.193,1,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-001,ANDREWS,0.742,GRAHAM,0.211,3,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-002,ANDREWS,0.708,GRAHAM,0.254,1,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-003,ANDREWS,0.645,GRAHAM,0.198,3,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-004,ANDREWS,0.637,GRAHAM,0.273,1,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-005,ANDREWS,0.654,GRAHAM,0.162,3,2,2 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-006,ANDREWS,0.594,GRAHAM,0.227,1,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-007,ANDREWS,0.651,GRAHAM,0.231,3,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-008,ANDREWS,0.633,GRAHAM,0.297,1,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-009,ANDREWS,0.655,GRAHAM,0.253,3,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-010,ANDREWS,0.720,GRAHAM,0.220,1,1,1 candidate face(s) above threshold
+AND_interview_tv_kNBDrVT4HS4-KF-011,ANDREWS,0.674,GRAHAM,0.246,3,1,1 candidate face(s) above threshold
+AND_victory_speech_jjw3a1ZO6j4-KF-001,noface,unknown,,,0,0,YuNet found no face above 0.6
+AND_news_DN__FMK9Wjw-KF-001,unknown,unknown,ANDREWS,0.207,2,0,below threshold: nearest candidate ANDREWS at cosine 0.207
+AND_news_DN__FMK9Wjw-KF-002,unknown,unknown,ANDREWS,0.201,2,0,below threshold: nearest candidate ANDREWS at cosine 0.201
+AND_news_DN__FMK9Wjw-KF-003,ANDREWS,0.525,GRAHAM,0.215,2,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-004,unknown,unknown,ANDREWS,0.192,2,0,below threshold: nearest candidate ANDREWS at cosine 0.192
+AND_news_DN__FMK9Wjw-KF-005,GRAHAM,0.702,ANDREWS,0.240,1,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-006,GRAHAM,0.608,ANDREWS,0.239,1,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-007,unknown,unknown,ANDREWS,0.124,3,0,below threshold: nearest candidate ANDREWS at cosine 0.124
+AND_news_DN__FMK9Wjw-KF-008,GRAHAM,0.911,ANDREWS,0.253,3,2,2 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-009,ANDREWS,0.734,GRAHAM,0.206,2,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-010,ANDREWS,0.622,GRAHAM,0.234,1,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-011,ANDREWS,0.721,GRAHAM,0.253,2,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-012,ANDREWS,0.695,GRAHAM,0.253,1,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-013,ANDREWS,0.653,GRAHAM,0.235,2,1,1 candidate face(s) above threshold
+AND_news_DN__FMK9Wjw-KF-014,unknown,unknown,GRAHAM,0.148,1,0,below threshold: nearest candidate GRAHAM at cosine 0.148
+AND_news_X-5IhdI5biM-KF-001,unknown,unknown,GRAHAM,0.249,2,0,below threshold: nearest candidate GRAHAM at cosine 0.249
+AND_news_X-5IhdI5biM-KF-002,ANDREWS,0.415,GRAHAM,0.171,5,1,1 candidate face(s) above threshold
+AND_news_X-5IhdI5biM-KF-003,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-001,unknown,unknown,ANDREWS,0.159,2,0,below threshold: nearest candidate ANDREWS at cosine 0.159
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-002,unknown,unknown,ANDREWS,0.181,1,0,below threshold: nearest candidate ANDREWS at cosine 0.181
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-003,unknown,unknown,GRAHAM,0.300,1,0,below threshold: nearest candidate GRAHAM at cosine 0.300
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-004,other,unknown,,,1,0,"no face cleared the threshold; crowd, moderator or bystander"
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-005,GRAHAM,0.644,ANDREWS,0.220,1,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-006,unknown,unknown,ANDREWS,0.014,7,0,below threshold: nearest candidate ANDREWS at cosine 0.014
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-007,unknown,unknown,ANDREWS,0.201,3,0,below threshold: nearest candidate ANDREWS at cosine 0.201
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-008,unknown,unknown,ANDREWS,0.253,3,0,below threshold: nearest candidate ANDREWS at cosine 0.253
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-009,unknown,unknown,GRAHAM,0.128,11,0,below threshold: nearest candidate GRAHAM at cosine 0.128
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-010,unknown,unknown,GRAHAM,0.182,3,0,below threshold: nearest candidate GRAHAM at cosine 0.182
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-011,GRAHAM,0.597,ANDREWS,0.213,1,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-012,unknown,unknown,GRAHAM,0.084,5,0,below threshold: nearest candidate GRAHAM at cosine 0.084
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-013,unknown,unknown,ANDREWS,0.080,3,0,below threshold: nearest candidate ANDREWS at cosine 0.080
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-014,unknown,unknown,GRAHAM,0.174,1,0,below threshold: nearest candidate GRAHAM at cosine 0.174
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-015,unknown,unknown,GRAHAM,0.167,2,0,below threshold: nearest candidate GRAHAM at cosine 0.167
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-016,unknown,unknown,ANDREWS,0.208,2,0,below threshold: nearest candidate ANDREWS at cosine 0.208
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-017,unknown,unknown,ANDREWS,0.219,1,0,below threshold: nearest candidate ANDREWS at cosine 0.219
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-018,unknown,unknown,GRAHAM,0.074,1,0,below threshold: nearest candidate GRAHAM at cosine 0.074
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-019,unknown,unknown,ANDREWS,0.135,3,0,below threshold: nearest candidate ANDREWS at cosine 0.135
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-020,unknown,unknown,GRAHAM,0.122,4,0,below threshold: nearest candidate GRAHAM at cosine 0.122
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-021,unknown,unknown,GRAHAM,0.167,5,0,below threshold: nearest candidate GRAHAM at cosine 0.167
+GRA_appointment_announcement_aHqk0nFu9Hc-KF-022,unknown,unknown,ANDREWS,0.151,7,0,below threshold: nearest candidate ANDREWS at cosine 0.151
+GRA_swearing_in_hgtB3mrkR9Q-KF-001,unknown,unknown,ANDREWS,0.165,2,0,below threshold: nearest candidate ANDREWS at cosine 0.165
+GRA_swearing_in_hgtB3mrkR9Q-KF-002,unknown,unknown,ANDREWS,0.146,2,0,below threshold: nearest candidate ANDREWS at cosine 0.146
+GRA_swearing_in_hgtB3mrkR9Q-KF-003,unknown,unknown,GRAHAM,0.218,1,0,below threshold: nearest candidate GRAHAM at cosine 0.218
+GRA_swearing_in_hgtB3mrkR9Q-KF-004,unknown,unknown,GRAHAM,0.139,4,0,below threshold: nearest candidate GRAHAM at cosine 0.139
+GRA_swearing_in_hgtB3mrkR9Q-KF-005,unknown,unknown,GRAHAM,0.201,13,0,below threshold: nearest candidate GRAHAM at cosine 0.201
+GRA_swearing_in_hgtB3mrkR9Q-KF-006,unknown,unknown,ANDREWS,0.225,1,0,below threshold: nearest candidate ANDREWS at cosine 0.225
+GRA_swearing_in_hgtB3mrkR9Q-KF-007,unknown,unknown,ANDREWS,0.228,15,0,below threshold: nearest candidate ANDREWS at cosine 0.228
+GRA_swearing_in_hgtB3mrkR9Q-KF-008,unknown,unknown,ANDREWS,0.225,12,0,below threshold: nearest candidate ANDREWS at cosine 0.225
+GRA_swearing_in_hgtB3mrkR9Q-KF-009,unknown,unknown,GRAHAM,0.173,21,0,below threshold: nearest candidate GRAHAM at cosine 0.173
+GRA_swearing_in_hgtB3mrkR9Q-KF-010,unknown,unknown,GRAHAM,0.189,1,0,below threshold: nearest candidate GRAHAM at cosine 0.189
+GRA_appointment_announcement_6GdhLydYMOc-KF-001,GRAHAM,0.638,ANDREWS,0.142,6,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-002,unknown,unknown,GRAHAM,0.326,1,0,below threshold: nearest candidate GRAHAM at cosine 0.326
+GRA_appointment_announcement_6GdhLydYMOc-KF-003,GRAHAM,0.487,ANDREWS,0.149,10,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-004,unknown,unknown,ANDREWS,0.250,1,0,below threshold: nearest candidate ANDREWS at cosine 0.250
+GRA_appointment_announcement_6GdhLydYMOc-KF-005,GRAHAM,0.588,ANDREWS,0.131,6,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-006,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_appointment_announcement_6GdhLydYMOc-KF-007,GRAHAM,0.618,ANDREWS,0.117,6,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-008,GRAHAM,0.651,ANDREWS,0.227,3,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-009,GRAHAM,0.631,ANDREWS,0.216,3,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-010,unknown,unknown,ANDREWS,0.216,6,0,below threshold: nearest candidate ANDREWS at cosine 0.216
+GRA_appointment_announcement_6GdhLydYMOc-KF-011,unknown,unknown,GRAHAM,0.210,1,0,below threshold: nearest candidate GRAHAM at cosine 0.210
+GRA_appointment_announcement_6GdhLydYMOc-KF-012,GRAHAM,0.585,ANDREWS,0.182,6,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-013,GRAHAM,0.530,ANDREWS,0.165,4,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-014,GRAHAM,0.593,ANDREWS,0.142,7,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-015,unknown,unknown,GRAHAM,0.072,2,0,below threshold: nearest candidate GRAHAM at cosine 0.072
+GRA_appointment_announcement_6GdhLydYMOc-KF-016,GRAHAM,0.521,ANDREWS,0.155,6,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-017,unknown,unknown,GRAHAM,0.250,1,0,below threshold: nearest candidate GRAHAM at cosine 0.250
+GRA_appointment_announcement_6GdhLydYMOc-KF-018,GRAHAM,0.578,ANDREWS,0.095,6,1,1 candidate face(s) above threshold
+GRA_appointment_announcement_6GdhLydYMOc-KF-019,unknown,unknown,ANDREWS,0.178,1,0,below threshold: nearest candidate ANDREWS at cosine 0.178
+GRA_appointment_announcement_6GdhLydYMOc-KF-020,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_launch_k5ywQhN6mJ8-KF-001,unknown,unknown,ANDREWS,0.173,1,0,below threshold: nearest candidate ANDREWS at cosine 0.173
+GRA_launch_k5ywQhN6mJ8-KF-002,GRAHAM,0.832,ANDREWS,0.221,1,1,1 candidate face(s) above threshold
+GRA_launch_k5ywQhN6mJ8-KF-003,unknown,unknown,ANDREWS,0.163,1,0,below threshold: nearest candidate ANDREWS at cosine 0.163
+GRA_launch_k5ywQhN6mJ8-KF-004,unknown,unknown,GRAHAM,0.165,2,0,below threshold: nearest candidate GRAHAM at cosine 0.165
+GRA_speech_-XitIUmtH4A-KF-001,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_speech_NJ6S-9WUHIo-KF-001,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_speech_NJ6S-9WUHIo-KF-002,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_speech_NJ6S-9WUHIo-KF-003,noface,unknown,,,0,0,YuNet found no face above 0.6
+GRA_speech_NJ6S-9WUHIo-KF-004,GRAHAM,0.542,ANDREWS,0.142,4,1,1 candidate face(s) above threshold
+GRA_speech_NJ6S-9WUHIo-KF-005,GRAHAM,0.609,ANDREWS,0.027,3,1,1 candidate face(s) above threshold
+GRA_speech_NJ6S-9WUHIo-KF-006,GRAHAM,0.613,ANDREWS,0.094,4,1,1 candidate face(s) above threshold
+GRA_speech_NJ6S-9WUHIo-KF-007,GRAHAM,0.640,ANDREWS,0.085,3,1,1 candidate face(s) above threshold
+GRA_speech_NJ6S-9WUHIo-KF-008,GRAHAM,0.552,ANDREWS,0.191,4,1,1 candidate face(s) above threshold
+GRA_speech_NJ6S-9WUHIo-KF-009,unknown,unknown,ANDREWS,0.141,1,0,below threshold: nearest candidate ANDREWS at cosine 0.141
+CTX_news_1BMiheFPtEE-KF-001,GRAHAM,0.600,ANDREWS,0.095,4,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-002,GRAHAM,0.534,ANDREWS,0.060,5,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-003,GRAHAM,0.637,ANDREWS,0.071,4,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-004,GRAHAM,0.540,ANDREWS,,5,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-005,GRAHAM,0.663,ANDREWS,0.082,4,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-006,GRAHAM,0.568,ANDREWS,0.145,5,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-007,unknown,unknown,ANDREWS,0.096,1,0,below threshold: nearest candidate ANDREWS at cosine 0.096
+CTX_news_1BMiheFPtEE-KF-008,unknown,unknown,ANDREWS,0.126,1,0,below threshold: nearest candidate ANDREWS at cosine 0.126
+CTX_news_1BMiheFPtEE-KF-009,unknown,unknown,ANDREWS,0.149,1,0,below threshold: nearest candidate ANDREWS at cosine 0.149
+CTX_news_1BMiheFPtEE-KF-010,unknown,unknown,ANDREWS,0.116,1,0,below threshold: nearest candidate ANDREWS at cosine 0.116
+CTX_news_1BMiheFPtEE-KF-011,unknown,unknown,ANDREWS,0.157,2,0,below threshold: nearest candidate ANDREWS at cosine 0.157
+CTX_news_1BMiheFPtEE-KF-012,unknown,unknown,ANDREWS,0.130,1,0,below threshold: nearest candidate ANDREWS at cosine 0.130
+CTX_news_1BMiheFPtEE-KF-013,GRAHAM,0.588,ANDREWS,0.104,1,1,1 candidate face(s) above threshold
+CTX_news_1BMiheFPtEE-KF-014,unknown,unknown,GRAHAM,0.100,1,0,below threshold: nearest candidate GRAHAM at cosine 0.100
+CTX_news_1BMiheFPtEE-KF-015,unknown,unknown,ANDREWS,0.115,2,0,below threshold: nearest candidate ANDREWS at cosine 0.115
+CTX_news_1BMiheFPtEE-KF-016,unknown,unknown,GRAHAM,0.129,2,0,below threshold: nearest candidate GRAHAM at cosine 0.129
+CTX_news_1BMiheFPtEE-KF-017,unknown,unknown,GRAHAM,0.061,1,0,below threshold: nearest candidate GRAHAM at cosine 0.061
+CTX_news_1BMiheFPtEE-KF-018,unknown,unknown,ANDREWS,0.123,2,0,below threshold: nearest candidate ANDREWS at cosine 0.123
+CTX_news_1BMiheFPtEE-KF-019,unknown,unknown,ANDREWS,0.155,1,0,below threshold: nearest candidate ANDREWS at cosine 0.155
+CTX_news_1BMiheFPtEE-KF-020,unknown,unknown,ANDREWS,0.150,1,0,below threshold: nearest candidate ANDREWS at cosine 0.150
+CTX_news_wBdy6mG60fw-KF-001,noface,unknown,,,0,0,YuNet found no face above 0.6
+CTX_news_wBdy6mG60fw-KF-002,noface,unknown,,,0,0,YuNet found no face above 0.6
+CTX_news_wBdy6mG60fw-KF-003,noface,unknown,,,0,0,YuNet found no face above 0.6
+CTX_news_wBdy6mG60fw-KF-004,unknown,unknown,ANDREWS,0.156,3,0,below threshold: nearest candidate ANDREWS at cosine 0.156
+CTX_news_wBdy6mG60fw-KF-005,unknown,unknown,ANDREWS,0.052,2,0,below threshold: nearest candidate ANDREWS at cosine 0.052
+CTX_news_wBdy6mG60fw-KF-006,unknown,unknown,GRAHAM,0.159,3,0,below threshold: nearest candidate GRAHAM at cosine 0.159
+CTX_news_wBdy6mG60fw-KF-007,unknown,unknown,ANDREWS,0.153,1,0,below threshold: nearest candidate ANDREWS at cosine 0.153
+CTX_news_wBdy6mG60fw-KF-008,unknown,unknown,ANDREWS,0.087,1,0,below threshold: nearest candidate ANDREWS at cosine 0.087
+CTX_news_wBdy6mG60fw-KF-009,unknown,unknown,GRAHAM,0.060,4,0,below threshold: nearest candidate GRAHAM at cosine 0.060
+CTX_news_wBdy6mG60fw-KF-010,unknown,unknown,ANDREWS,0.126,1,0,below threshold: nearest candidate ANDREWS at cosine 0.126
+CTX_news_wBdy6mG60fw-KF-011,unknown,unknown,ANDREWS,0.255,6,0,below threshold: nearest candidate ANDREWS at cosine 0.255
+CTX_news_wBdy6mG60fw-KF-012,unknown,unknown,ANDREWS,0.126,4,0,below threshold: nearest candidate ANDREWS at cosine 0.126
+CTX_news_wBdy6mG60fw-KF-013,unknown,unknown,ANDREWS,0.231,1,0,below threshold: nearest candidate ANDREWS at cosine 0.231
+CTX_news_wBdy6mG60fw-KF-014,unknown,unknown,ANDREWS,0.245,1,0,below threshold: nearest candidate ANDREWS at cosine 0.245
+CTX_news_wBdy6mG60fw-KF-015,unknown,unknown,ANDREWS,0.228,4,0,below threshold: nearest candidate ANDREWS at cosine 0.228
+CTX_news_wBdy6mG60fw-KF-016,unknown,unknown,GRAHAM,0.167,1,0,below threshold: nearest candidate GRAHAM at cosine 0.167
+CTX_news_wBdy6mG60fw-KF-017,unknown,unknown,ANDREWS,0.224,4,0,below threshold: nearest candidate ANDREWS at cosine 0.224
+CTX_news_wBdy6mG60fw-KF-018,ANDREWS,0.624,GRAHAM,0.054,4,1,1 candidate face(s) above threshold
+CTX_news_wBdy6mG60fw-KF-019,unknown,unknown,ANDREWS,0.209,1,0,below threshold: nearest candidate ANDREWS at cosine 0.209
+CTX_news_wBdy6mG60fw-KF-020,unknown,unknown,ANDREWS,0.143,1,0,below threshold: nearest candidate ANDREWS at cosine 0.143
+CTX_news_wBdy6mG60fw-KF-021,unknown,unknown,GRAHAM,,21,0,below threshold: nearest candidate GRAHAM at cosine -0.026
+CTX_news_wBdy6mG60fw-KF-022,unknown,unknown,ANDREWS,0.085,9,0,below threshold: nearest candidate ANDREWS at cosine 0.085
+CTX_news__iJrWKRv1p0-KF-001,noface,unknown,,,0,0,YuNet found no face above 0.6
+CTX_news__iJrWKRv1p0-KF-002,unknown,unknown,GRAHAM,0.137,9,0,below threshold: nearest candidate GRAHAM at cosine 0.137
+CTX_news__iJrWKRv1p0-KF-003,unknown,unknown,GRAHAM,0.135,10,0,below threshold: nearest candidate GRAHAM at cosine 0.135
+CTX_news__iJrWKRv1p0-KF-004,unknown,unknown,GRAHAM,0.063,11,0,below threshold: nearest candidate GRAHAM at cosine 0.063
+CTX_news__iJrWKRv1p0-KF-005,unknown,unknown,ANDREWS,0.101,18,0,below threshold: nearest candidate ANDREWS at cosine 0.101
+CTX_news__iJrWKRv1p0-KF-006,unknown,unknown,ANDREWS,0.272,23,0,below threshold: nearest candidate ANDREWS at cosine 0.272
+CTX_news__iJrWKRv1p0-KF-007,unknown,unknown,ANDREWS,0.139,57,0,below threshold: nearest candidate ANDREWS at cosine 0.139
+CTX_news__iJrWKRv1p0-KF-008,unknown,unknown,ANDREWS,0.096,12,0,below threshold: nearest candidate ANDREWS at cosine 0.096
+CTX_news__iJrWKRv1p0-KF-009,unknown,unknown,ANDREWS,0.243,2,0,below threshold: nearest candidate ANDREWS at cosine 0.243
+CTX_news__iJrWKRv1p0-KF-010,unknown,unknown,GRAHAM,0.039,11,0,below threshold: nearest candidate GRAHAM at cosine 0.039
+CTX_news__iJrWKRv1p0-KF-011,unknown,unknown,ANDREWS,0.118,12,0,below threshold: nearest candidate ANDREWS at cosine 0.118
+CTX_news__iJrWKRv1p0-KF-012,unknown,unknown,GRAHAM,0.187,64,0,below threshold: nearest candidate GRAHAM at cosine 0.187
+CTX_news__iJrWKRv1p0-KF-013,unknown,unknown,GRAHAM,0.070,8,0,below threshold: nearest candidate GRAHAM at cosine 0.070
+CTX_news__iJrWKRv1p0-KF-014,unknown,unknown,ANDREWS,0.035,35,0,below threshold: nearest candidate ANDREWS at cosine 0.035
+CTX_news__iJrWKRv1p0-KF-015,unknown,unknown,GRAHAM,0.112,6,0,below threshold: nearest candidate GRAHAM at cosine 0.112
+CTX_news__iJrWKRv1p0-KF-016,unknown,unknown,GRAHAM,0.153,9,0,below threshold: nearest candidate GRAHAM at cosine 0.153
+CTX_news__iJrWKRv1p0-KF-017,unknown,unknown,ANDREWS,0.111,9,0,below threshold: nearest candidate ANDREWS at cosine 0.111
+CTX_news__iJrWKRv1p0-KF-018,unknown,unknown,ANDREWS,0.122,1,0,below threshold: nearest candidate ANDREWS at cosine 0.122
+CTX_news__iJrWKRv1p0-KF-019,unknown,unknown,ANDREWS,0.172,11,0,below threshold: nearest candidate ANDREWS at cosine 0.172
+CTX_news__iJrWKRv1p0-KF-020,unknown,unknown,GRAHAM,0.134,17,0,below threshold: nearest candidate GRAHAM at cosine 0.134
+CTX_news__iJrWKRv1p0-KF-021,unknown,unknown,ANDREWS,0.081,23,0,below threshold: nearest candidate ANDREWS at cosine 0.081
+CTX_news__iJrWKRv1p0-KF-022,unknown,unknown,GRAHAM,0.161,62,0,below threshold: nearest candidate GRAHAM at cosine 0.161

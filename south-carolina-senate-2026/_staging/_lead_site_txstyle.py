@@ -72,6 +72,8 @@ DATASETS = [
      "27 videos with local filenames, byte sizes and duration."),
     ("10_video_frames/keyframes.csv", "video", "Keyframes", "关键帧",
      "300 scene-change frames with face counts and bounding boxes."),
+    ("10_video_frames/keyframes_identity.csv", "video", "Keyframe identities", "关键帧身份识别",
+     "Per-frame SFace match against archive photographs: Andrews, Graham, unidentified, or no face."),
     ("10_video_frames/video_face_summary.csv", "video", "Per-video face summary", "逐视频人脸汇总",
      "Frames extracted, frames with faces, largest face share."),
     ("11_speech_audio/audio_metrics.csv", "audio", "Audio metrics", "音频指标",
@@ -311,17 +313,46 @@ def frame_rows():
     return by_video
 
 
+def identity_map():
+    path = os.path.join(ROOT, "10_video_frames", "keyframes_identity.csv")
+    if not os.path.exists(path):
+        return {}
+    return {r["frame_id"]: r for r in csv.DictReader(open(path, encoding="utf-8"))}
+
+
+IDENT_LABEL = {"ANDREWS": "安德鲁斯 / Andrews", "GRAHAM": "格雷厄姆 / Graham"}
+
+
+def identity_badge(frame, ident):
+    row = ident.get(frame["frame_id"])
+    if not row:
+        return ""
+    who = row.get("identity", "unknown")
+    sim = row.get("identity_sim", "unknown")
+    if who in IDENT_LABEL:
+        return f'<b class="idtag id-{who.lower()}">{IDENT_LABEL[who]} · {esc(sim)}</b>'
+    if who == "noface":
+        return '<span class="idtag">无人脸 / no face</span>'
+    return '<span class="idtag">未识别 / unidentified</span>'
+
+
+def candidate_frames(frames, ident, limit=4):
+    """Preview strip: the candidate's own frames first; strangers only if no candidate was found."""
+    hits = [f for f in frames if ident.get(f["frame_id"], {}).get("identity") in IDENT_LABEL]
+    return hits[:limit] if hits else frames[:limit]
+
+
 def video_rows():
     path = os.path.join(ROOT, "10_video_frames", "video_sources.csv")
     return list(csv.DictReader(open(path, encoding="utf-8"))) if os.path.exists(path) else []
 
 
-def shots_html(frames, page_dir, limit=4):
+def shots_html(frames, page_dir, ident, limit=4):
     cells = []
     for r in frames[:limit]:
         src = os.path.relpath(os.path.join(ROOT, "10_video_frames", r["file"]), page_dir).replace(os.sep, "/")
         cells.append(f'<a href="{src}"><img loading="lazy" src="{src}" alt="{esc(r["frame_id"])}"></a>'
-                     f'<span>{esc(r["timecode"])} · faces {esc(r["faces_detected"])}</span>')
+                     f'<span>{esc(r["timecode"])} {identity_badge(r, ident)}</span>')
     return '<div class="shots">' + "".join(cells) + "</div>"
 
 
@@ -429,14 +460,24 @@ def build():
                          f'<ul>{rows_html}</ul>')
         if sec == "video":
             by_video = frame_rows()
+            ident = identity_map()
             blocks = []
             for v in video_rows():
                 frames = by_video.get(v["slug"], [])
+                counts = {}
+                for f in frames:
+                    who = ident.get(f["frame_id"], {}).get("identity", "unknown")
+                    counts[who] = counts.get(who, 0) + 1
+                summary = (f'安德鲁斯 {counts.get("ANDREWS", 0)} · '
+                           f'格雷厄姆 {counts.get("GRAHAM", 0)} · '
+                           f'未识别 {counts.get("unknown", 0) + counts.get("other", 0)} · '
+                           f'无人脸 {counts.get("noface", 0)}')
                 link = f'<a href="{esc(v["slug"])}.html">全部 {len(frames)} 帧 / all frames</a>'
                 blocks.append(f'<h3>{esc(v["title"])}</h3>'
                               f'<p class="meta">{esc(v["candidate_source"])} · {esc(v["kind"])} · '
                               f'{esc(v["duration_s"])}s · {esc(v["upload_date"])} · {link}</p>'
-                              + shots_html(frames, page_dir))
+                              f'<p class="meta">{summary}</p>'
+                              + shots_html(candidate_frames(frames, ident), page_dir, ident))
             body += ('<h2>逐视频帧 / Frames by video</h2><p class="meta">First four detected keyframes per '
                      'video; every frame page carries face counts and timecodes.</p>' + "".join(blocks))
         out = os.path.join(page_dir, "index.html")
@@ -452,11 +493,15 @@ def build():
         frames = by_video.get(v["slug"], [])
         if not frames:
             continue
+        ident = identity_map()
         figs = []
         for r in frames:
             src = os.path.relpath(os.path.join(ROOT, "10_video_frames", r["file"]), vdir).replace(os.sep, "/")
-            figs.append(f'<figure><a href="{src}"><img loading="lazy" src="{src}" alt="{esc(r["frame_id"])}"></a>'
-                        f'<figcaption><b>{esc(r["timecode"])}</b> · faces {esc(r["faces_detected"])} · '
+            who = ident.get(r["frame_id"], {}).get("identity", "unknown")
+            figs.append(f'<figure data-identity="{esc(who)}"><a href="{src}">'
+                        f'<img loading="lazy" src="{src}" alt="{esc(r["frame_id"])}"></a>'
+                        f'<figcaption><b>{esc(r["timecode"])}</b> {identity_badge(r, ident)} · '
+                        f'faces {esc(r["faces_detected"])} · '
                         f'largest {esc(r.get("largest_face_area_pct", "unknown"))}% · {esc(r["frame_id"])}'
                         f'</figcaption></figure>')
         body = (f'<div class="crumb"><a href="../index.html">首页</a> / <a href="index.html">视频帧</a> / '
@@ -467,7 +512,13 @@ def build():
                 f'<a href="{esc(v["url"])}">原视频 / source</a></div>'
                 f'<div class="warn">These frames are scene-change samples, not a shot-by-shot edit. Face counts come '
                 f'from YuNet detection at 960 px width; the archive does not caption what is happening in them.</div>'
-                f'<div class="gal">{"".join(figs)}</div>')
+                f'<div class="facetbar" data-facet-group="frame-gallery">'
+                f'<button class="on" data-facet="all">全部 / all</button>'
+                f'<button data-facet="ANDREWS">安德鲁斯 / Andrews</button>'
+                f'<button data-facet="GRAHAM">格雷厄姆 / Graham</button>'
+                f'<button data-facet="unknown">未识别 / unidentified</button>'
+                f'</div>'
+                f'<div class="gal" id="frame-gallery">{"".join(figs)}</div>')
         open(os.path.join(vdir, f'{v["slug"]}.html'), "w", encoding="utf-8", newline="\n").write(
             shell(f'{v["title"]}', body, 1, "video"))
         made += 1
@@ -559,6 +610,14 @@ second interface. The data models differ where the races differ: South Carolina 
 
 OVERRIDES = """/* widen the reading column; the Texas grid is 250px + 1fr with a 1280px cap */
 .layout{max-width:1500px}
+.idtag{display:inline-block;padding:.05rem .35rem;border-radius:4px;font-size:.72em;font-weight:600;
+  background:var(--line);color:var(--fg);margin-left:.25rem;white-space:nowrap}
+.idtag.id-andrews{background:#123a5f;color:#fff}
+.idtag.id-graham{background:#7a1f1f;color:#fff}
+.facetbar{display:flex;gap:.4rem;flex-wrap:wrap;margin:1rem 0 .6rem}
+.facetbar button{border:1px solid var(--line);background:var(--card);color:var(--muted);
+  padding:.3rem .7rem;border-radius:999px;font-size:.82rem;cursor:pointer}
+.facetbar button.on{background:var(--accent2);border-color:var(--accent2);color:#fff}
 body.wide .layout{max-width:1500px}
 @media (min-width:1560px){.layout,body.wide .layout{max-width:1640px}}
 .prose img{max-width:100%;height:auto}
@@ -579,6 +638,20 @@ JS = """(function(){
   });
   var saved='both'; try{saved=localStorage.getItem('dsh-mode')||'both'}catch(e){}
   setMode(saved);
+
+  document.querySelectorAll('[data-facet-group]').forEach(function(group){
+    var target=document.getElementById(group.dataset.facetGroup);
+    if(!target) return;
+    group.querySelectorAll('button').forEach(function(b){
+      b.addEventListener('click',function(){
+        group.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});
+        var want=b.dataset.facet;
+        target.querySelectorAll('[data-identity]').forEach(function(el){
+          el.style.display=(want==='all'||el.dataset.identity===want)?'':'none';
+        });
+      });
+    });
+  });
 
   document.querySelectorAll('[data-filter]').forEach(function(inp){
     var tbl=document.getElementById(inp.dataset.filter);
