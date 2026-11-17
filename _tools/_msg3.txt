@@ -1,0 +1,16 @@
+Frame galleries keep only the two candidates' frames
+
+Every per-video page now publishes just the frames the identity pass attributed to Andrews or Graham.
+Moderators, audiences and faces that did not clear the threshold are no longer rendered: 100 of 300
+keyframes survive, 200 are set aside.
+
+- Page header reads "候选人帧 6 / 全部 22 帧" so the size of what was set aside is visible without
+  hiding it; a note under the gallery links to the full identity table.
+- Videos with no attributable frame say so in a warning block instead of falling back to stranger
+  frames, which is what made the earlier galleries read as a crowd.
+- Facet bar narrowed to all / Andrews / Graham with counts, since unidentified frames are no longer
+  on the page.
+- Video hub strips likewise draw only from attributed frames.
+
+The 300-row keyframes_identity.csv is unchanged and still browsable as a dataset page, so the 200
+set-aside frames remain auditable even though they are not shown.
