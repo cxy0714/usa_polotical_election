@@ -1,0 +1,27 @@
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of October 14, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}| Darline Graham (R)
+|$1,917,646
+|$1,283,216
+|$634,430
+|-
+|{{party shading/Democratic}}| Annie Andrews (D)
+|$24,216,841
+|$22,507,375
+|$1,709,466
+|-
+|| Catherine Fleming Bruce (W)
+|$18,989
+|$8,258
+|$10,731
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC1" /></small>
+|}

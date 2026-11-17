@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Data dictionary / 数据字典 — 案例研究 002 · 双语档案</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Senate Archive<span>2026 参议院档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas / 德州</a>
+    <a href="../../../cases/south-carolina/index.html">South Carolina / 南卡</a>
+  </span>
+  <span class="apb-here">South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">案例研究 002 · 双语档案<small>South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Frames</span></a><a class="" href="../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="on" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  
+  <main>
+<div class="crumb"><a href="../index.html">首页</a> / Data dictionary</div><div class="meta">09_sources/data_dictionary_bilingual.md · 2026-11-12</div><h1>Data dictionary / 数据字典</h1>
+<h2>1. How to read any row / 1. 如何读任何一行</h2>
+<p>Three rules govern every table in this archive.</p>
+<p>三条规则支配本档案中的每一张表。</p>
+<p><strong>Rule 1 — <code>unknown</code> is a value, not a gap.</strong> A cell reading <code>unknown</code> means the retrieved sources
+do not state it. It never means "not applicable" and it never means zero. Filtering <code>unknown</code> out
+silently changes the denominator of any count you compute.</p>
+<p><strong>规则一——<code>unknown</code> 是取值，不是缺失。</strong> 单元格为 <code>unknown</code> 表示已检索来源未作说明；它从不表示「不适用」，也从不表示零。把 <code>unknown</code> 静默过滤掉，会悄悄改变任何计数的分母。</p>
+<p><strong>Rule 2 — every row carries <code>SRC-####|https://…</code>.</strong> The token identifies the source, the URL
+after the pipe is the retrievable address. Multi-source cells separate entries with <code>;</code>. The id
+resolves in <code>sources.csv</code>; the token's numeric block tells you which collection
+stream produced it (§5).</p>
+<p><strong>规则二——每一行都带 <code>SRC-####|https://…</code>。</strong> token 标识来源，竖线后的 URL 是可检索地址；多来源单元格用 <code>;</code> 分隔。id 在 <code>sources.csv</code> 中解析；token 的号段说明它由哪个采集流产生（见 §5）。</p>
+<p><strong>Rule 3 — inference is labelled.</strong> Anything the analyst concluded rather than read begins with
+<code>INTERPRETATION:</code>. A sentence without that prefix is a statement about a source.</p>
+<p><strong>规则三——推断有标记。</strong> 分析师得出的、而非读到的内容，都以 <code>INTERPRETATION:</code> 开头。没有该前缀的句子是对来源的陈述。</p>
+<h2>2. Files / 2. 文件</h2>
+<table>
+<thead>
+<tr>
+<th>File / 文件</th>
+<th>Rows / 行数</th>
+<th>What it holds / 内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>01_candidates/policy_positions.csv</code></td>
+<td>51</td>
+<td>One row per candidate–issue position, with statement date, verbatim where available, and <code>position_changed</code>.</td>
+</tr>
+<tr>
+<td><code>01_candidates/andrews/career_timeline.csv</code></td>
+<td>20</td>
+<td>Dated career and campaign milestones for Andrews.</td>
+</tr>
+<tr>
+<td><code>01_candidates/graham/career_timeline.csv</code></td>
+<td>24</td>
+<td>Dated career and campaign milestones for Graham.</td>
+</tr>
+<tr>
+<td><code>02_campaign_events/campaign_events.csv</code></td>
+<td>28</td>
+<td>Documented events, each anchored to a date in a retrieved source.</td>
+</tr>
+<tr>
+<td><code>03_speeches/speech_archive.csv</code></td>
+<td>24</td>
+<td>Speeches and speech-like appearances.</td>
+</tr>
+<tr>
+<td><code>03_speeches/speech_video_index.csv</code></td>
+<td>22</td>
+<td>Video of each speech, where one exists.</td>
+</tr>
+<tr>
+<td><code>04_visual_archive/image_archive.csv</code></td>
+<td>48</td>
+<td>Photographs and campaign visuals, with rights status.</td>
+</tr>
+<tr>
+<td><code>05_campaign_media/media_coverage.csv</code></td>
+<td>55</td>
+<td>Coverage register: outlet, author, title, tier, framing.</td>
+</tr>
+<tr>
+<td><code>05_campaign_media/advertisements.csv</code></td>
+<td>3</td>
+<td>Documented ad and outside-money entries.</td>
+</tr>
+<tr>
+<td><code>05_campaign_media/social_media.csv</code></td>
+<td>3</td>
+<td>Documented social posts.</td>
+</tr>
+<tr>
+<td><code>06_campaign_finance/campaign_finance.csv</code></td>
+<td>5</td>
+<td>Principal-candidate FEC snapshots.</td>
+</tr>
+<tr>
+<td><code>06_campaign_finance/other_candidates_finance.csv</code></td>
+<td>15</td>
+<td>Every other filed candidate, kept out of the principal table by schema rule.</td>
+</tr>
+<tr>
+<td><code>07_electoral_context/election_results.csv</code></td>
+<td>26</td>
+<td>Race-level results, including the primary rounds.</td>
+</tr>
+<tr>
+<td><code>07_electoral_context/county_results.csv</code></td>
+<td>46</td>
+<td>All 46 counties.</td>
+</tr>
+<tr>
+<td><code>07_electoral_context/polling.csv</code></td>
+<td>20</td>
+<td>General-election polls and forecasters.</td>
+</tr>
+<tr>
+<td><code>07_electoral_context/primary_polling.csv</code></td>
+<td>6</td>
+<td>Primary and runoff polling.</td>
+</tr>
+<tr>
+<td><code>09_sources/sources.csv</code></td>
+<td>370</td>
+<td>Every source, with tier, type, and a computed <code>used_by</code>.</td>
+</tr>
+<tr>
+<td><code>09_sources/exit_poll_2026.csv</code></td>
+<td>45</td>
+<td>Exit-poll subgroups, 15 groups.</td>
+</tr>
+<tr>
+<td><code>10_video_frames/keyframes.csv</code></td>
+<td>see file</td>
+<td>One row per extracted keyframe.</td>
+</tr>
+<tr>
+<td><code>10_video_frames/video_face_summary.csv</code></td>
+<td>27</td>
+<td>Per-video frame and face counts.</td>
+</tr>
+<tr>
+<td><code>10_video_frames/video_sources.csv</code></td>
+<td>27</td>
+<td>The downloaded corpus, with local filenames and byte sizes.</td>
+</tr>
+<tr>
+<td><code>11_speech_audio/audio_metrics.csv</code></td>
+<td>27</td>
+<td>Loudness, silence ratio and caption-derived word counts.</td>
+</tr>
+</tbody>
+</table>
+<p>行数为本次交付的实际行数，不是目标行数；未达目标的部分记录在 <code>research_gaps.md</code>，不以填充行凑数。</p>
+<h2>3. Column reference / 3. 列说明</h2>
+<h3>3.1 <code>campaign_events.csv</code></h3>
+<p><code>event_id</code> (GRA-/AND-/JNT-EVT-####) · <code>candidate_id</code> · <code>event_date</code> (ISO or <code>unknown</code>) ·
+<code>event_time</code> · <code>event_title</code> · <code>event_category</code> · <code>city</code> · <code>venue</code> · <code>state_region</code> ·
+<code>event_status</code> · <code>campaign_phase</code> · <code>stated_purpose</code> (what the campaign said it was for) ·
+<code>observable_function</code> (what the record shows happened) · <code>analyst_interpretation</code> ·
+<code>target_audience</code> · <code>main_messages</code> · <code>policy_issues</code> · <code>speech_summary</code> · <code>transcript_url</code> ·
+<code>video_url</code> · <code>photo_urls</code> · <code>media_coverage</code> · <code>opponent_reference</code> · <code>visual_notes</code> ·
+<code>source_urls</code> · <code>verification_status</code> · <code>actor_note</code> · <code>vacancy_context</code> · <code>analyst_notes</code></p>
+<p><code>stated_purpose</code> 与 <code>observable_function</code> 必须分开：前者是竞选方的说法，后者是记录显示的实际功能。两者相同的情况本身就是一个发现。</p>
+<h3>3.2 <code>policy_positions.csv</code></h3>
+<p><code>pos_id</code> · <code>candidate_id</code> · <code>issue</code> · <code>position_summary</code> · <code>verbatim_quote</code> · <code>statement_date</code> ·
+<code>context</code> · <code>source_urls</code> · <code>verification_status</code> · <code>legislative_record</code> · <code>position_changed</code> ·
+<code>change_notes</code> · <code>policy_claims</code> · <code>source</code> · <code>notes</code></p>
+<p><code>legislative_record</code> is <code>unknown</code> for all 34 Andrews rows because she has held no office; it is a
+real record for Graham's Senate votes and bill sponsorships. <code>position_changed = yes</code> requires two
+dated statements that conflict — not a change of emphasis inferred by the analyst.</p>
+<p><code>legislative_record</code> 在安德鲁斯全部 34 行为 <code>unknown</code>，因为她未担任过公职；对格雷厄姆的参议院表决与法案联署则是真实记录。<code>position_changed = yes</code> 要求两条有日期的陈述相互冲突，而非分析师推断的语气变化。</p>
+<h3>3.3 <code>county_results.csv</code></h3>
+<p>One row per county: <code>county</code>, <code>andrews_votes</code>, <code>andrews_pct</code>, <code>graham_votes</code>, <code>graham_pct</code>,
+<code>whitener_votes</code>, <code>whitener_pct</code>, <code>hackett_votes</code>, <code>hackett_pct</code>, <code>writein_votes</code>, <code>total_votes</code>,
+<code>winner</code>, <code>region</code>, <code>source_urls</code>, <code>verification_status</code>, <code>notes</code>.</p>
+<p>The 46 county totals sum to 2,041,487, which equals the statewide total — the reconciliation is
+documented in <code>../07_electoral_context/results_notes.md</code>.
+One source cell for Edgefield literally reads <code>10.821</code> (a full stop where a comma belongs); the
+component sum is 10,821 and that is what the table records.</p>
+<p>46 个县的总和等于全州总数 2,041,487，对账过程见 <code>results_notes.md</code>。Edgefield 的来源单元格字面写作 <code>10.821</code>（应为逗号处写成句点）；各分项之和为 10,821，表中即记录该值。</p>
+<h3>3.4 <code>sources.csv</code></h3>
+<p><code>source_id</code> · <code>url</code> · <code>title</code> · <code>publisher</code> · <code>publication_date</code> · <code>event_date</code> · <code>access_date</code> ·
+<code>source_tier</code> · <code>source_type</code> · <code>relevant_quote_or_info</code> · <code>reliability_notes</code> · <code>used_by</code></p>
+<p><code>used_by</code> is computed, not asserted: the merge scans every CSV and Markdown file in the archive for
+each <code>SRC-####</code> and lists the files that cite it. <code>unknown</code> there means the source is registered
+background that no delivered row cites.</p>
+<p><code>used_by</code> 是计算出来的，不是断言的：合并脚本扫描档案内每个 CSV 与 Markdown 文件中的 <code>SRC-####</code>，列出引用它的文件。该列为 <code>unknown</code> 表示该来源是已登记的背景资料，没有交付行引用它。</p>
+<h2>4. Controlled vocabularies / 4. 受控词表</h2>
+<table>
+<thead>
+<tr>
+<th>Field / 字段</th>
+<th>Legal values / 合法取值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>candidate_id</code></td>
+<td><code>ANDREWS</code>, <code>GRAHAM</code></td>
+</tr>
+<tr>
+<td><code>event_status</code></td>
+<td><code>held</code>, <code>cancelled</code>, <code>postponed</code>, <code>rescheduled</code>, <code>virtual</code>, <code>announced</code>, <code>unverified</code>, <code>disputed</code></td>
+</tr>
+<tr>
+<td><code>campaign_phase</code></td>
+<td><code>pre_launch</code>, <code>launch</code>, <code>primary</code>, <code>special_primary</code>, <code>runoff</code>, <code>general</code>, <code>early_voting</code>, <code>gotv</code>, <code>election_day</code>, <code>post_election</code></td>
+</tr>
+<tr>
+<td><code>state_region</code></td>
+<td><code>Upstate</code>, <code>Midlands</code>, <code>Pee Dee</code>, <code>Lowcountry</code>, <code>Grand Strand</code>, <code>statewide</code>, <code>national</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>verification_status</code></td>
+<td><code>verified</code>, <code>partially verified</code>, <code>unverified</code>, <code>conflicting sources</code></td>
+</tr>
+<tr>
+<td><code>source_tier</code></td>
+<td><code>T1</code>, <code>T2</code>, <code>T3</code></td>
+</tr>
+<tr>
+<td><code>source_type</code></td>
+<td><code>official_campaign</code>, <code>official_government</code>, <code>candidate_social</code>, <code>news_article</code>, <code>news_video</code>, <code>transcript</code>, <code>op_ed</code>, <code>fact_check</code>, <code>poll</code>, <code>press_release</code>, <code>event_page</code>, <code>photo</code>, <code>podcast</code>, <code>encyclopedia</code>, <code>government_record</code>, <code>social_media</code>, <code>unknown</code>, <code>other</code></td>
+</tr>
+<tr>
+<td><code>coverage_type</code></td>
+<td><code>news_report</code>, <code>analysis</code>, <code>op_ed</code>, <code>fact_check</code>, <code>interview</code>, <code>live_blog</code>, <code>newsletter</code>, <code>news_video</code></td>
+</tr>
+<tr>
+<td><code>sponsor_type</code></td>
+<td><code>candidate_campaign</code>, <code>authorized_committee</code>, <code>outside_pac</code>, <code>party_committee</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>completeness</code></td>
+<td><code>full</code>, <code>partial</code>, <code>clip</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>copyright_status</code></td>
+<td><code>public_domain</code>, <code>licensed</code>, <code>all_rights_reserved_link_only</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>vacancy_context</code></td>
+<td><code>pre_vacancy</code>, <code>vacancy</code>, <code>post_appointment</code>, <code>post_runoff</code>, <code>general</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>winner</code></td>
+<td><code>yes</code>, <code>no</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>mentions_opponent</code> / <code>opponent_reference</code></td>
+<td><code>yes</code>, <code>no</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>position_changed</code></td>
+<td><code>yes</code>, <code>no</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>transcript_available</code></td>
+<td><code>yes</code>, <code>no</code>, <code>unknown</code></td>
+</tr>
+<tr>
+<td><code>issue</code></td>
+<td><code>Economy</code>, <code>Healthcare</code>, <code>Education</code>, <code>Immigration</code>, <code>Abortion</code>, <code>Gun policy</code>, <code>Energy</code>, <code>Religion</code>, <code>Labor</code>, <code>Democracy</code>, <code>Foreign policy</code>, <code>Other</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>encyclopedia</code>, <code>government_record</code>, <code>social_media</code>, <code>unknown</code> and <code>other</code> were <strong>added to
+<code>source_type</code> during this build</strong>. The first three were needed because the collection streams
+register Wikipedia pages, <code>.gov</code> records and social posts as sources, and forcing them into
+<code>news_article</code> would have misdescribed them. The extension is a documented deviation from the
+conventions, not an accident.</p>
+<p><code>encyclopedia</code>、<code>government_record</code>、<code>social_media</code>、<code>unknown</code>、<code>other</code> 是<strong>本次构建中新增到 <code>source_type</code> 的取值</strong>。前三者是必要的：采集流把维基百科页面、<code>.gov</code> 记录与社交帖子登记为来源，把它们强行归入 <code>news_article</code> 会造成错误描述。该扩展是对研究规范的有记录偏离，不是疏漏。</p>
+<h2>5. Id scheme / 5. 编号规则</h2>
+<table>
+<thead>
+<tr>
+<th>Prefix / 前缀</th>
+<th>Meaning / 含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>AND-POS-####</code>, <code>GRA-POS-####</code></td>
+<td>policy positions</td>
+</tr>
+<tr>
+<td><code>AND-TL-####</code>, <code>GRA-TL-####</code></td>
+<td>career timelines</td>
+</tr>
+<tr>
+<td><code>AND-EVT-####</code>, <code>GRA-EVT-####</code>, <code>JNT-EVT-####</code></td>
+<td>events; <code>JNT</code> marks a joint/format event such as a debate</td>
+</tr>
+<tr>
+<td><code>AND-SPC-####</code>, <code>GRA-SPC-####</code></td>
+<td>speeches</td>
+</tr>
+<tr>
+<td><code>AND-IMG-####</code>, <code>GRA-IMG-####</code></td>
+<td>images</td>
+</tr>
+<tr>
+<td><code>COV-####</code></td>
+<td>media coverage</td>
+</tr>
+<tr>
+<td><code>AD-####</code>, <code>EXT-AD-####</code></td>
+<td>candidate ads, outside-money entries</td>
+</tr>
+<tr>
+<td><code>POST-####</code></td>
+<td>social posts</td>
+</tr>
+<tr>
+<td><code>AND-FIN-####</code>, <code>GRA-FIN-####</code>, <code>OTH-FIN-####</code></td>
+<td>finance; <code>OTH</code> keeps non-principal candidates out of the two-value schema</td>
+</tr>
+<tr>
+<td><code>EXIT-####</code></td>
+<td>exit-poll subgroups</td>
+</tr>
+<tr>
+<td><code>AND-SOC-####</code></td>
+<td>social entries created by the Lead</td>
+</tr>
+</tbody>
+</table>
+<p>Source blocks: <code>SRC-0001–0399</code> candidate research, <code>0400–0599</code> candidate/positions stream,
+<code>0600–0799</code> visual stream, <code>0800–1099</code> speeches stream, <code>1100–1499</code> media/finance stream,
+<code>1500–1699</code> electoral stream, <code>1700–1899</code> video stream, <code>1900+</code> Lead research and the video
+corpus registered at <code>2200+</code>. Blocks are not contiguous: a stream that produced fewer sources than
+its allocation leaves a hole, and holes are harmless because ids are opaque.</p>
+<p>来源号段：<code>0001–0399</code> 候选人研究、<code>0400–0599</code> 候选人/立场流、<code>0600–0799</code> 视觉流、<code>0800–1099</code> 演讲流、<code>1100–1499</code> 媒体/财务流、<code>1500–1699</code> 选举流、<code>1700–1899</code> 视频流、<code>1900+</code> 主研究与 <code>2200+</code> 视频语料。号段不连续：产出少于配额的流会留下空号，而空号无害，因为 id 是不透明的。</p>
+<h2>6. Tier rules / 6. 等级规则</h2>
+<p><code>T1</code> — official records: <code>.gov</code> domains (FEC, South Carolina Election Commission, Congress,
+Senate), and the state's public broadcaster (SCETV) for debate video. · <code>T2</code> — established news
+organisations with editorial standards, including the state's major papers and the networks. ·
+<code>T3</code> — everything else: party and advocacy sites, aggregators, polls published by the sponsoring
+firm, social posts, Wikipedia, and unclassified domains.</p>
+<p><code>T1</code>——官方记录：<code>.gov</code> 域（FEC、南卡选举委员会、国会、参议院），以及辩论视频的州公共广播机构 SCETV。<code>T2</code>——有编辑标准的既有新闻机构，包括州内主要报纸与全国电视网。<code>T3</code>——其余：政党与倡议组织网站、聚合站、由委托机构自行发布的民调、社交帖子、维基百科，以及未分类域名。</p>
+<p>Tier is assigned from the <strong>domain</strong>, mechanically, in the merge script. It describes the venue,
+not the accuracy of any particular claim. Wikipedia is <code>T3</code> by rule even where it is the most
+complete account of the race, and every dataset built from it says so.</p>
+<p>等级在合并脚本中由<strong>域名</strong>机械判定。它描述的是发表场所，而非任何具体主张的准确性。按规则维基百科为 <code>T3</code>，即使它是这场选举最完整的记述；所有据其构建的数据集都注明了这一点。</p>
+<h2>7. 口径 rules that prevent wrong arithmetic / 7. 防止算错的口径规则</h2>
+<ol>
+<li>Candidate-committee totals and outside independent expenditures are <strong>never summed</strong>. They
+   live in <code>campaign_finance.csv</code> and <code>advertisements.csv</code> respectively.</li>
+<li>Primary-round vote totals are per-round and cannot be added across rounds: the same voters
+   appear in the 08-11 special primary and the 08-25 runoff.</li>
+<li>County rows sum to the statewide total exactly; any future edit must preserve that identity.</li>
+<li>
+<p>Percentages are as published. Where a source publishes only votes, the percentage is derived
+   and flagged in <code>notes</code>.</p>
+</li>
+<li>
+<p>候选人委员会总额与外部独立支出<strong>绝不相加</strong>，分别存放于 <code>campaign_finance.csv</code> 与 <code>advertisements.csv</code>。</p>
+</li>
+<li>各轮初选票数是分轮的，不能跨轮相加：同一批选民同时出现在 08-11 特别初选与 08-25 决选中。</li>
+<li>县级行精确加总为全州总数；今后任何修改都必须保持该恒等式。</li>
+<li>百分比按来源发表值记录。来源只给票数时，百分比为推算值并在 <code>notes</code> 中标注。</li>
+</ol>
+<h2>8. Known deviations from the conventions / 8. 与研究规范的已知偏离</h2>
+<table>
+<thead>
+<tr>
+<th>Deviation / 偏离</th>
+<th>Why / 原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>campaign_events.csv</code> has 28 rows against a 70-row target</td>
+<td>The record contains almost no dated, located appearances; padding would have broken traceability. Documented in <code>event_coverage_gaps.md</code>.</td>
+</tr>
+<tr>
+<td><code>campaign_finance.csv</code> has 5 rows against a 30-row target</td>
+<td>Only four FEC snapshots are quoted in the retrievable sources; quarterly line items are not. Non-principal candidates live in <code>other_candidates_finance.csv</code>.</td>
+</tr>
+<tr>
+<td><code>source_type</code> vocabulary extended</td>
+<td>See §4.</td>
+</tr>
+<tr>
+<td>Video corpus registered at <code>SRC-2200+</code>, outside the allocated <code>1700</code> block</td>
+<td>The video stream delivered no source table; the Lead registered the corpus instead of leaving 27 videos uncitable.</td>
+</tr>
+<tr>
+<td>No frame captions</td>
+<td>No vision-language model was available in this environment; frames are described by measurable properties only.</td>
+</tr>
+<tr>
+<td><code>media_coverage.csv</code> titles and framings come from the media stream</td>
+<td>The Lead's parallel build produced a thinner index and was discarded in favour of the fuller file.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>偏离</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>campaign_events.csv</code> 为 28 行，目标 70 行</td>
+<td>记录中几乎没有带日期、带地点的露面；填充会破坏可追溯性。详见 <code>event_coverage_gaps.md</code>。</td>
+</tr>
+<tr>
+<td><code>campaign_finance.csv</code> 为 5 行，目标 30 行</td>
+<td>可检索来源只引用了四个 FEC 时点；季度明细未获取。非主要候选人存放于 <code>other_candidates_finance.csv</code>。</td>
+</tr>
+<tr>
+<td><code>source_type</code> 词表扩展</td>
+<td>见 §4。</td>
+</tr>
+<tr>
+<td>视频语料登记在 <code>SRC-2200+</code>，超出分配的 <code>1700</code> 号段</td>
+<td>视频流未交付来源表；主研究选择登记语料，而不是让 27 个视频无法被引用。</td>
+</tr>
+<tr>
+<td>无帧解说词</td>
+<td>本环境无视觉语言模型；帧只以可测量属性描述。</td>
+</tr>
+<tr>
+<td><code>media_coverage.csv</code> 的标题与框架来自媒体流</td>
+<td>主研究并行构建的索引更单薄，已弃用，改用更完整的文件。</td>
+</tr>
+</tbody>
+</table>
+<h2>Sources / 来源</h2>
+<ul>
+<li>[SRC-2108] <code>https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina</code></li>
+<li><code>_research_conventions.md</code> — the binding contract this dictionary documents</li>
+</ul>
+  </main>
+</div>
+<footer><div class="in">
+  <p>Compiled 2026-11-12. Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>2026-11-12 编制。每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

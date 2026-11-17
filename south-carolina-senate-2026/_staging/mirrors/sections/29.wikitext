@@ -1,0 +1,85 @@
+====Results====
+[[File:2026 United States Senate Republican special primary election in South Carolina results map by county.svg|thumb|230px|Primary results by county:
+{{collapsible list
+| title = {{legend|#E27F7F|Graham}}
+|{{legend|#FFC8CD|30–40%}}
+|{{legend|#FFB2B2|40–50%}}
+|{{legend|#E27F7F|50–60%}}
+}}
+{{collapsible list
+| title = {{legend|#FF9A50|Norman}}
+|{{legend|#FFCCA9|30–40%}}
+|{{legend|#FFB580|40–50%}}
+}}
+{{collapsible list
+| title = {{legend|#5FD35F|Fry}}
+|{{legend|#AAE5AA|30–40%}}
+|{{legend|#87DE87|40–50%}}
+}}
+]]
+
+{{Election box begin no change |title=Republican special primary results}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Darline Graham]] (incumbent)
+  |votes      = 109,881
+  |percentage = 32.8
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Ralph Norman]]
+  |votes      = 82,627
+  |percentage = 24.6
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Russell Fry]]
+  |votes      = 65,955
+  |percentage = 19.7
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Mark Sanford]]
+  |votes      = 50,136
+  |percentage = 14.9
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Mark Lynch
+  |votes      = 19,892
+  |percentage = 5.9
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Danny Ford II
+  |votes      = 2,804
+  |percentage = 0.8
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Duke Buckner
+  |votes      = 1,583
+  |percentage = 0.5
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Glenda Gail Parker
+  |votes      = 977
+  |percentage = 0.3
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Samuel Shepherd
+  |votes      = 931
+  |percentage = 0.3
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Mark Struthers McBride|Mark McBride]]
+  |votes      = 769
+  |percentage = 0.2
+}}
+{{Election box total no change
+  |votes      = 335,555
+  |percentage = 100.0
+}}{{Election box end}}

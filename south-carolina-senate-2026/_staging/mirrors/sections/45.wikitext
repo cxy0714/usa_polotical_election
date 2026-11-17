@@ -1,0 +1,40 @@
+===Results===
+[[File:2026 United States Senate Democratic primary election in South Carolina results map by county.svg|thumb|230px|Primary results by county:
+{{collapsible list
+| title = {{legend|#7996E2|Andrews}}
+|{{legend|#BDD3FF|30–40%}}
+|{{legend|#A5B0FF|40–50%}}
+|{{legend|#7996E2|50–60%}}
+|{{legend|#6674DE|60–70%}}
+|{{legend|#584CDE|70–80%}}
+}}
+{{collapsible list
+| title = {{legend|#51C2C2|Brown}}
+|{{legend|#7DDDDD|40–50%}}
+|{{legend|#51C2C2|50–60%}}
+}}
+]]
+{{Election box begin no change |title = Democratic primary results }}
+{{Election box winning candidate with party link no change
+| candidate = [[Annie Andrews (pediatrician)|Annie Andrews]]
+| party = Democratic Party (United States)
+| votes = 226,075
+| percentage = 61.5
+}}
+{{Election box candidate with party link no change
+| candidate = Brandon Brown
+| party = Democratic Party (United States)
+| votes = 110,962
+| percentage = 30.2
+}}
+{{Election box candidate with party link no change
+| candidate = Kyle Freeman
+| party = Democratic Party (United States)
+| votes = 30,374
+| percentage = 8.3
+}}
+{{Election box total no change
+| votes = 367,411
+| percentage = 100.0
+}}
+{{Election box end}}

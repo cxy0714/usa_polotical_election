@@ -1,0 +1,48 @@
+===Results===
+[[File:2026 United States Senate Republican primary election in South Carolina results map by county.svg|thumb|230px|Initial primary results by county:
+{{collapsible list
+| title = {{legend|#E27F7F|Graham}}
+| {{legend|#FFB2B2|40–50%}}
+| {{legend|#E27F7F|50–60%}}
+| {{legend|#D75D5D|60–70%}}
+| {{legend|#D72F30|70–80%}}
+}}
+{{collapsible list
+| title = {{legend|#FF9A50|Lynch}}
+| {{legend|#FFB580|40–50%}}
+}}]]
+{{Election box begin no change |title=Republican primary results}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Lindsey Graham]] (incumbent)
+  |votes      = 264,091
+  |percentage = 56.8
+}}{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Mark Lynch
+  |votes      = 134,360
+  |percentage = 28.9
+}}{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Thomas Dismukes
+  |votes      = 24,164
+  |percentage = 5.2
+}}{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Pat Herrmann
+  |votes      = 17,448
+  |percentage = 3.8
+}}{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Calvin Cowen
+  |votes      = 14,171
+  |percentage = 3.0
+}}{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Darius Mitchell
+  |votes      = 10,842
+  |percentage = 2.3
+}}{{Election box total no change
+  |votes      = 465,076
+  |percentage = 100.0
+}}{{Election box end}}

@@ -1,0 +1,65 @@
+# [9.1] Exit poll
+
+Exit poll
+{| class="wikitable sortable" style="font-size:90%; line-height:1.2" | + 2026 United States Senate election in South Carolina (CNN)
+Demographic subgroup |  |Andrews |  |Graham | % oftotal vote
+colspan="4" |Ideology
+Liberals | style="text-align:right; background:#b0ceff;" | 97 | style="text-align:right; background:#fff3f3;" | 2 | style="text-align:right;" | 17
+Moderates | style="text-align:right; background:#b0ceff;" | 71 | style="text-align:right; background:#fff3f3;" | 26 | style="text-align:right;" | 40
+Conservatives | style="text-align:right; background:#f0f0ff;" | 15 | style="text-align:right; background:#ffb6b6;" | 83 | style="text-align:right;" | 43
+colspan="4" |Party
+Democrats | style="text-align:right; background:#b0ceff;" | 99 | style="text-align:right; background:#fff3f3;" | 1 | style="text-align:right;" | 27
+Republicans | style="text-align:right; background:#f0f0ff;" | 11 | style="text-align:right; background:#ffb6b6;" | 87 | style="text-align:right;" | 41
+Independents | style="text-align:right; background:#b0ceff;" | 63 | style="text-align:right; background:#fff3f3;" | 32 | style="text-align:right;" | 32
+colspan="4" |Donald Trump job approval
+Approve | style="text-align:right; background:#f0f0ff;" | 8 | style="text-align:right; background:#ffb6b6;" | 91 | style="text-align:right;" | 44
+Disapprove | style="text-align:right; background:#b0ceff;" | 86 | style="text-align:right; background:#fff3f3;" | 11 | style="text-align:right;" | 55
+colspan="4" |2024 presidential vote
+Kamala Harris | style="text-align:right; background:#b0ceff;" | 98 | style="text-align:right; background:#fff3f3;" | 1 | style="text-align:right;" | 43
+Donald Trump | style="text-align:right; background:#f0f0ff;" | 10 | style="text-align:right; background:#ffb6b6;" | 87 | style="text-align:right;" | 52
+colspan="4" |Gender
+Men | style="text-align:right; background:#f0f0ff;" | 45 | style="text-align:right; background:#ffb6b6;" | 51 | style="text-align:right;" | 45
+Women | style="text-align:right; background:#b0ceff;" | 56 | style="text-align:right; background:#fff3f3;" | 43 | style="text-align:right;" | 55
+colspan="4" |Income
+$100,000 or more | style="text-align:right; background:#b0ceff;" | 49 | style="text-align:right; background:#fff3f3;" | 48 | style="text-align:right;" | 34
+$50,000-$99,999 | style="text-align:right; background:#b0ceff;" | 49 | style="text-align:right; background:#ffb6b6;" | 49 | style="text-align:right;" | 39
+Less than $50,000 | style="text-align:right; background:#b0ceff;" | 58 | style="text-align:right; background:#fff3f3;" | 41 | style="text-align:right;" | 27
+colspan="4" |Race/ethnicity
+White | style="text-align:right; background:#f0f0ff;" | 42 | style="text-align:right; background:#ffb6b6;" | 56 | style="text-align:right;" | 74
+Black | style="text-align:right; background:#b0ceff;" | 85 | style="text-align:right; background:#fff3f3;" | 12 | style="text-align:right;" | 18
+colspan="4" | White born-again or evangelical Christian?
+Yes | style="text-align:right; background:#f0f0ff;" | 21 | style="text-align:right; background:#ffb6b6;" | 76 | style="text-align:right;" | 29
+No | style="text-align:right; background:#b0ceff;" | 64 | style="text-align:right; background:#fff3f3;" | 35 | style="text-align:right;" | 71
+colspan="4" | Race by gender
+White men | style="text-align:right; background:#f0f0ff;" | 39 | style="text-align:right; background:#ffb6b6;" | 58 | style="text-align:right;" | 34
+White women | style="text-align:right; background:#f0f0ff;" | 44 | style="text-align:right; background:#ffb6b6;" | 55 | style="text-align:right;" | 40
+Black men | style="text-align:right; background:#b0ceff;" | 73 | style="text-align:right; background:#fff3f3;" | 25 | style="text-align:right;" | 7
+Black women | style="text-align:right; background:#b0ceff;" | 92 | style="text-align:right; background:#fff3f3;" | 6 | style="text-align:right;" | 12
+colspan="4" |Age
+18–44 years old | style="text-align:right; background:#b0ceff;" | 66 | style="text-align:right; background:#fff3f3;" | 29 | style="text-align:right;" | 25
+45-64 years old | style="text-align:right; background:#f0f0ff;" | 48 | style="text-align:right; background:#ffb6b6;" | 50 | style="text-align:right;" | 34
+65 and older | style="text-align:right; background:#f0f0ff;" | 45 | style="text-align:right; background:#ffb6b6;" | 54 | style="text-align:right;" | 41
+colspan="4" |Area type
+Urban | style="text-align:right; background:#b0ceff;" | 62 | style="text-align:right; background:#fff3f3;" | 35 | style="text-align:right;" | 10
+Suburban | style="text-align:right; background:#b0ceff;" | 52 | style="text-align:right; background:#fff3f3;" | 45 | style="text-align:right;" | 46
+Rural | style="text-align:right; background:#f0f0ff;" | 48 | style="text-align:right; background:#ffb6b6;" | 51 | style="text-align:right;" | 44
+colspan="4" |Education
+College graduate | style="text-align:right; background:#b0ceff;" | 58 | style="text-align:right; background:#fff3f3;" | 40 | style="text-align:right;" | 43
+No college degree | style="text-align:right; background:#f0f0ff;" | 46 | style="text-align:right; background:#ffb6b6;" | 52 | style="text-align:right;" | 57
+colspan="4" |Education by race
+White college graduates | style="text-align:right; background:#b0ceff;" | 53 | style="text-align:right; background:#fff3f3;" | 44 | style="text-align:right;" | 35
+Non-white college graduates | style="text-align:right; background:#b0ceff;" | 78 | style="text-align:right; background:#fff3f3;" | 21 | style="text-align:right;" | 9
+Whites without college | style="text-align:right; background:#f0f0ff;" | 32 | style="text-align:right; background:#ffb6b6;" | 67 | style="text-align:right;" | 40
+Non-whites without college | style="text-align:right; background:#b0ceff;" | 78 | style="text-align:right; background:#fff3f3;" | 18 | style="text-align:right;" | 17
+colspan="4" |Education by gender and race
+White women with college degrees | style="text-align:right; background:#b0ceff;" | 59 | style="text-align:right; background:#fff3f3;" | 39 | style="text-align:right;" | 19
+White women without college degrees | style="text-align:right; background:#f0f0ff;" | 33 | style="text-align:right; background:#ffb6b6;" | 67 | style="text-align:right;" | 27
+White men with college degrees | style="text-align:right; background:#f0f0ff;" | 47 | style="text-align:right; background:#ffb6b6;" | 49 | style="text-align:right;" | 16
+White men without college degrees | style="text-align:right; background:#f0f0ff;" | 32 | style="text-align:right; background:#ffb6b6;" | 66 | style="text-align:right;" | 28
+Voters of color | style="text-align:right; background:#b0ceff;" | 78 | style="text-align:right; background:#fff3f3;" | 19 | style="text-align:right;" | 26
+colspan="4" |Educational attainment
+Advanced degree | style="text-align:right; background:#b0ceff;" | 58 | style="text-align:right; background:#fff3f3;" | 39 | style="text-align:right;" | 19
+Bachelor's degree | style="text-align:right; background:#b0ceff;" | 57 | style="text-align:right; background:#fff3f3;" | 40 | style="text-align:right;" | 24
+Associate's degree | style="text-align:right; background:#b0ceff;" | 54 | style="text-align:right; background:#fff3f3;" | 44 | style="text-align:right;" | 12
+Some college | style="text-align:right; background:#f0f0ff;" | 47 | style="text-align:right; background:#ffb6b6;" | 51 | style="text-align:right;" | 20
+Never attended college | style="text-align:right; background:#f0f0ff;" | 41 | style="text-align:right; background:#ffb6b6;" | 57 | style="text-align:right;" | 25

@@ -1,0 +1,1162 @@
+== General election ==
+[[Cost of living]], the [[economy]], [[War|foreign wars]], and the candidates' experience were the central issues for voters.<ref name="Mazzei1">{{Cite news |last1= Mazzei |first1= Patricia |last2= Igielnik |first2= Ruth |date= October 28, 2026 |title= The Senate Race in Heavily Republican South Carolina is a Tossup, Poll Finds |url= https://www.nytimes.com/2026/10/28/us/south-carolina-florida-minnesota-poll.html |access-date= October 29, 2026 |work= The New York Times |language= en-US |issn=0362-4331}}</ref>
+
+The seat was initially considered safe for Republicans as South Carolina is normally considered a strongly [[red state]] at the state and federal levels, but after Graham said during a primary runoff debate that "[[national security]] is not my thing,” some voters began to see her as inexperienced and unqualified, inflaming a divide between establishment and conservative Republicans<ref>{{Cite news |date=November 3, 2026 |title=Congressman Ralph Norman reacts to Annie Andrews beating Darline Graham for SC Senate seat |url=https://www.youtube.com/watch?v=GLkuf5sCRmk |access-date=November 6, 2026 |work=Queen City News}}</ref> who objected to Trump's involvement in the race,<ref>{{Cite news |last=Gallagher |first=Dianne |date=November 4, 2026 |title=Trump's personal push of Darline Graham in South Carolina comes back to bite his party |url= https://www.cnn.com/2026/11/03/politics/trump-darline-graham-loss |access-date=November 8, 2026 |work= CNN |language=en}}</ref> and the race became a contested tossup.<ref name= "Mazzei1" /> A ''[[The New York Times]]/[[Siena University (New York)|Siena]]'' poll found that "51 percent of the voters in the polls, including 18 percent of Republicans" said Graham "did not have the right experience to be an effective senator". In contrast, "54 percent of voters, including 22 percent of Republicans, said that Dr. Andrews did."<ref name="Mazzei1" />
+
+=== Predictions ===
+{| class="wikitable sortable" style=text-align:center
+!Source
+!Ranking
+!As of
+|-
+|align="left"|[[CBS News]]<ref>{{Cite news |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |title=2026 midterm election races to watch |last1=Hubbard |first1=Kaia |last2=Linton |first2=Caroline |last3=Yilek |first3=Caitlin |last4=Walsh |first4=Joe |work=[[CBS News]] |orig-date=September 13, 2026 |date=November 2, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|October 30, 2026
+|-
+|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 8, 2026|website=[[Cook Political Report]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2026
+|-
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 8, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 8, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 1, 2026
+|-
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 8, 2026 |website=[[Inside Elections]]}}</ref>
+|{{USRaceRating|Tilt|R}}
+|October 29, 2026
+|-
+|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 8, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|October 29, 2026
+|-
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 8, 2026|website=[[RealClearPolitics]]}}</ref>
+|{{USRaceRating|Tossup}}
+|November 2, 2026
+|-
+|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2026
+|-
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 8, 2026 |url-access=subscription}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2026
+|}
+
+===Post-primary endorsements===
+{{Endorsements box|title=Darline Graham (R)|list=
+;U.S. representatives
+*[[Ralph Norman]], [[South Carolina's 5th congressional district|SC-05]] (2017–2027) and special primary candidate for this seat<ref>{{Cite web |last1=Mueller |first1=Julia |title=Norman endorses Graham after questioning why Trump backed her |url=https://thehill.com/homenews/campaign/6067649-ralph-norman-darline-graham-trump-endorsement/ |website=[[The Hill (newspaper)|The Hill]] |access-date=September 3, 2026|date=September 2, 2026}}</ref>
+;Organizations
+*[[Students for Life of America|Students for Life Action]]<ref>{{Cite web|url=https://www.studentsforlifeaction.org/students-for-life-action-congratulates-u-s-senator-darline-graham-now-the-official-gop-pick-for-the-u-s-senate-seat-in-south-carolina/|title=Students for Life Action Congratulates U.S. Senator Darline Graham, now the Official GOP Pick for the U.S. Senate seat in South Carolina|last1=Hamrick|first1=Kristi|date=August 26, 2026|work=Students for Life Action}}</ref>
+*[[NRA Political Victory Fund]]<ref>{{cite web |title=NRA-PVF {{!}} Grades {{!}} South Carolina |url=https://www.nrapvf.org/grades/south-carolina |website=NRA-PVF |publisher=NRA-PVF |access-date=November 3, 2026 |archive-url=https://web.archive.org/web/20261103013511/https://www.nrapvf.org/grades/south-carolina |archive-date=November 3, 2026 |language=en-us}}</ref><ref>{{Cite web|url=https://www.wistv.com/2026/10/31/nra-endorses-sen-darline-graham/|title=NRA Endorses Sen. Darline Graham|date=October 30, 2026|work=WISTV 10}}</ref>
+*[[National Right to Life Committee]] and South Carolina Citizens for Life Committee <ref>{{Cite web|url=https://nrlc.org/nrlnewstoday/2026/10/gov-beasleys-endorsement-of-pro-abortion-andrews-betrays-the-principle-that-every-human-life-matters-national-right-to-life-sccl-federal-pac-endorse-senator-darline-graham-3/|title=Gov. Beasley's Endorsement of Pro-Abortion Andrews Betrays the Principle that Every Human Life Matters. National Right to Life, SCCL Federal PAC Endorse Senator Darline Graham|date=October 28, 2026|work=National Right to Life}}</ref>
+}}
+
+{{Endorsements box
+| title=Annie Andrews (D)
+| list=
+;Executive branch officials
+*[[Pete Buttigieg]], former [[secretary of transportation]] (2021–2025)<ref name="buttigieg_andrews">{{cite web |last1=Reynolds |first1=Nick |title=Buttigieg endorses Dr. Annie Andrews amid mounting national interest in SC's Senate race |url=https://www.postandcourier.com/politics/sc-buttigieg-andrews-endorsement-2026-senate/article_bfe6b63d-0438-490e-8759-ca1b9423292a.html |website=[[The Post and Courier]] |access-date=August 13, 2026 |date=August 13, 2026}}</ref>
+;State legislators
+*[[Katrina Shealy]], former [[South Carolina Senate|SD-23]] (2013–2025) ''(Republican)''<ref name="Andrews_touts">{{cite web |last1=Valeski |first1=Lucy |title=US Senate hopeful Andrews touts some GOP voter support ahead of SC Trump stop |url=https://www.thestate.com/news/politics-government/article317699412.html |website=[[The State (newspaper)|The State]] |access-date=October 20, 2026 |date=October 20, 2026}}</ref>
+;Statewide officials 
+*[[David Beasley]], former [[governor of South Carolina]] (1995–1999) and former executive director of [[United Nations World Food Programme]] (2017–2023) ''(Independent; former Republican)''<ref>{{cite web | title=Former SC governors Beasley and Hodges endorse Annie Andrews in Senate race | url=https://www.wistv.com/2026/10/26/former-sc-governors-beasley-hodges-endorse-annie-andrews-senate-race/ }}</ref>
+*[[Jim Hodges]], former governor of South Carolina (1999–2003)<ref>{{cite web | title=Former SC governors Beasley and Hodges endorse Annie Andrews in Senate race | url=https://www.wistv.com/2026/10/26/former-sc-governors-beasley-hodges-endorse-annie-andrews-senate-race/ }}</ref>
+;Individuals
+*[[George Will]], journalist ''(Independent)''<ref>{{Cite news|url=https://www.washingtonpost.com/opinions/2026/09/16/south-carolina-senate-race-democrat-annie-andrews-faces-trump-pick/|title=Independence-minded South Carolina has an alternative to Darline Graham|last=Will|first=George|date=September 16, 2026|access-date=September 16, 2026|newspaper=[[The Washington Post]]}}</ref>
+;Labor unions
+*[[National Education Association]]<ref name="NEA">{{cite web |title=Our Recommended Candidates |url=https://educationvotes.nea.org/2026-election/our-recommended-candidates/ |website=Education Votes |access-date=October 31, 2026}}</ref>
+;Organizations
+*[[Jewish Democratic Council of America]]<ref>{{cite web |title=Jewish Dems Endorse House, Senate, and Gubernatorial Candidates |url=https://jewishdems.org/press_release/jewish-dems-endorse-house-senate-and-gubernatorial-candidates/ |website=Jewish Democratic Council of America |access-date=September 2, 2026}}</ref>
+*[[National Women's Political Caucus]]<ref>{{cite web |title=2026 Federal Endorsements |url=https://nwpc.org/endorsed-candidates/ |website=National Women's Political Caucus |access-date=September 16, 2026}}</ref>
+*[[Reproductive Freedom for All]]<ref>{{cite web |title=Who We're Endorsing |website=Reproductive Freedom for All |url=https://reproductivefreedomforall.org/elections |archive-url=https://web.archive.org/web/20260715045339/https://reproductivefreedomforall.org/elections |archive-date=July 15, 2026 |access-date=October 24, 2026}}</ref>
+}}
+
+===Debates===
+{| class="wikitable" style="text-align:center;"
+|+ 2026 South Carolina U.S. Senate election debates
+|-
+! scope="col" | {{abbr|No.|Number}}
+! scope="col" | Date
+! scope="col" | Host
+! scope="col" | Moderator
+! scope="col" | Link
+! scope="col" | <small>[[Republican Party (United States)|Republican]]</small>
+! scope="col" | <small>[[Democratic Party (US)|Democratic]]</small>
+! scope="col" | <small>[[Libertarian Party (US)|Libertarian]]</small>
+|-
+! colspan="5" rowspan="2" |Key:<br />{{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small>
+! scope="col" style="background:{{party color|Republican Party (US)}}" |
+! scope="col" style="background:{{party color|Democratic Party (US)}}" |
+! scope="col" style="background:{{party color|Libertarian Party (US)}}" |
+|-
+! scope="col" | Graham
+! scope="col" | Andrews
+! scope="col" | Whitener
+|-
+!1<ref>{{Cite news |url=https://www.scetv.org/stories/2026/south-carolina-etv-and-public-radio-host-broadcast-and-livestream-south-carolina |title=South Carolina ETV and Public Radio to host, broadcast and livestream 'South Carolina Election 2026' U.S. Senate debate |last=Masters |first=Landon |work=[[South Carolina ETV]] |date=September 25, 2026 |access-date=October 11, 2026}}</ref>
+| style="white-space:nowrap;" | October 11, 2026
+| style="white-space:nowrap;" | [[South Carolina ETV]]<br />[[South Carolina Public Radio|SCPR]]
+| style="white-space:nowrap;" | Gavin Jackson
+| [https://www.youtube.com/watch?v=cXE2Ik6YxMg YouTube]
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+|}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of October 14, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}| Darline Graham (R)
+|$1,917,646
+|$1,283,216
+|$634,430
+|-
+|{{party shading/Democratic}}| Annie Andrews (D)
+|$24,216,841
+|$22,507,375
+|$1,709,466
+|-
+|| Catherine Fleming Bruce (W)
+|$18,989
+|$8,258
+|$10,731
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC1" /></small>
+|}
+
+=== Polling ===
+;Aggregate polls
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
+!Source of poll<br>aggregation
+! Dates<br />administered
+! Dates<br />updated
+! style="width:100px;"| Darline<br />Graham (R)
+! style="width:100px;"| Annie<br/>Andrews (D)
+! style="width:100px;" |Other/<br />Undecided{{Efn|name=calculated|Calculated by taking the difference of 100% and all other candidates combined.}}
+! Margin
+|-
+|[[270toWin]]<ref>{{cite web|title=2026 Polls: South Carolina Senate|url=https://www.270towin.com/2026-senate-polls/south-carolina|website=[[270toWin]]|access-date=November 3, 2026}}</ref>
+|October 14 – November 1, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
+|November 2, 2026
+|{{party shading/Republican}} |'''47.4%'''
+|45.2%
+|7.4%
+|{{party shading/Republican}} |'''Graham +2.2%'''
+|-
+|[[Decision Desk HQ]]<ref>{{cite web|title=2026 South Carolina Senate Polling|url=https://votes.decisiondeskhq.com/races/2026-11-03/south-carolina-us-senate-general-election/polling|website=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
+|through November 1, 2026
+|November 2, 2026
+|45.9%
+|{{party shading/Democratic}} |'''46.0%'''
+|8.1%
+|{{party shading/Democratic}} |'''Andrews +0.1%'''
+|-
+|[[FiftyPlusOne]]<ref>{{cite web|title=South Carolina General Senate Election|url=https://fiftyplusone.news/polls/senate/general/south-carolina|website=[[FiftyPlusOne]]|access-date=November 3, 2026}}</ref>
+|through November 1, 2026
+|November 3, 2026
+|'''45.8%'''
+|'''45.8%'''
+|8.4%
+|'''Tie'''
+|-
+|[[RealClearPolitics]]<ref>{{cite web|title=2026 South Carolina Senate - Graham Nordone vs. Andrews|url=https://www.realclearpolling.com/polls/senate/general/2026/south-carolina/graham-nordone-vs-andrews|website=[[RealClearPolitics]]|access-date=November 3, 2026}}</ref>
+|October 14 – November 1, 2026
+|November 2, 2026
+|{{party shading/Republican}} |'''48.0%'''
+|45.4%
+|6.6%
+|{{party shading/Republican}} |'''Graham +2.6%'''
+|-
+|''[[Silver Bulletin]]''<ref name="Silver"/>
+|through November 1, 2026
+|November 3, 2026
+|{{party shading/Republican}} |'''47.2%'''
+|46.1%
+|6.7%
+|{{party shading/Republican}} |'''Graham +1.1%'''
+|-
+| colspan="3" |'''Average'''
+|{{party shading/Republican}}|'''46.9%'''
+|45.7%
+|7.4%
+|{{party shading/Republican}}|'''Graham +1.2%'''
+|}
+
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Darline<br />Graham (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Other 
+! Undecided
+|-
+|style="text-align: left;"|[[Trafalgar Group]] (R)<ref>{{cite web |title=South Carolina General Election Poll |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/11/SC-Midterms-Survey-Report-1101.pdf |publisher=[[Trafalgar Group]] |access-date=November 3, 2026}}</ref>
+|October 31 – November 1, 2026
+|1,091 (LV)
+|±{{nbsp}}2.9%
+|{{party shading/Republican}}|'''48%'''
+|46%
+|3%{{Efn|Kasie Whitener (L) with 2%; Mark Hackett (C) with 1%}}
+|4%
+|-
+|style="text-align: left;" |[[Rasmussen Reports]] (R)<ref>{{cite web |title=Election 2026: South Carolina Senate |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_south_carolina_senate |work=[[Rasmussen Reports]] |date=November 2, 2026 |access-date=November 3, 2026}}</ref>
+|October 27–31, 2026
+|1,028 (LV)
+|±{{nbsp}}3.0%
+|{{party shading/Republican}}|'''50%'''
+|47%
+|{{sdash}}
+|6%
+|-
+|style="text-align: left;"|Resonance Media Services (R)<ref>{{cite web |title=Wilson Over 50 Percent; Senate Race Comes Down to Tuesday |url=https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/11/Resonance-final-SC-Poll-Memo-11-02-2026.pdf |publisher=Resonance Media Services |access-date=November 3, 2026 |date=November 2, 2026}}</ref>
+|October 30, 2026
+|600 (LV)
+|±{{nbsp}}4.0%
+|45%
+|{{party shading/Democratic}}|'''46%'''
+|3%{{Efn|"Other candidates" with 3%}}
+|7%
+|-
+|style="text-align: left;"|Patinkin Research Strategies (D)<ref>{{cite web |title=New poll shows Dr. Annie Andrews narrowly leading Darline Graham 48 to 43 percent, a new way to understand the electorate shows why |url=https://static1.squarespace.com/static/54512d3ce4b07de69d8320c7/t/6ae4f0f24aec54388059c463/1793388786248/PRS%2BProjectVOTE.SCSW+Poll+Release.103026.pdf |publisher=Patinkin Research Strategies |access-date=November 1, 2026}}</ref>{{Efn-ua|Poll conducted for Project V.O.T.E.}}
+|October 27–29, 2026
+|500 (LV)
+|±{{nbsp}}4.4%
+|43%
+|{{party shading/Democratic}}|'''48%'''
+|8%{{efn|Kasie Whitner (L) with 3%; Mark Hackett (C) with 3%; "Someone else" with 2%}}
+|{{sdash}}
+|-
+|style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: October 2026 Times/Siena Poll of the Likely Electorate in South Carolina |url=https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-sc-poll-toplines.html |website=[[The New York Times]] |date=October 27, 2026 |access-date=October 28, 2026}}</ref>
+|October 19–26, 2026
+|707 (LV)
+|±{{nbsp}}4.3%
+|'''48%'''
+|'''48%'''
+|0%
+|3%
+|-
+|style="text-align:left;"|Targoz Media Research<ref>{{cite web |last1=Snipes |first1=Anisa |title=New poll shows neck-and-neck Senate race, double-digit lead for governor in SC midterms |url=https://www.foxcarolina.com/2026/10/26/new-poll-shows-neck-and-neck-senate-race-double-digit-lead-governor-sc-midterms/ |publisher=[[WHNS]] |access-date=October 27, 2026 |date=October 26, 2026}}</ref>{{Efn-ua|Poll conducted for the [[South Carolina Policy Council]]}}
+|October 16–25, 2026
+|895 (LV)
+|±{{nbsp}}2.8%
+|{{party shading/Republican}}|'''47%'''
+|46%
+|3%{{efn|Kasie Whitner (L) with 2%, Mark Hackett (C) with 1%}}
+|4%
+|-
+|style="text-align:left;"|[[East Carolina University]]<ref>{{cite web |title=ECU Poll Finds Graham Leading Andrews by Four Points |url=https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-finds-graham-leading-andrews-by-four-points |work=[[East Carolina University]] |date=October 29, 2026 |access-date=October 29, 2026}}</ref>
+|October 19–24, 2026
+|955 (LV)
+|±{{nbsp}}3.7%
+|{{party shading/Republican}}|'''51%'''
+|47%
+|2%
+|{{sdash}}
+|-
+| rowspan="2" style="text-align:left;" |[[The Citadel]]<ref>{{Cite web |url=https://poll.citadel.edu/wp-content/uploads/2026/10/The-Citadel-Poll-Oct2026.pdf |title=October 14 – 25, 2026, Toplines in South Carolina |work=[[The Citadel]] |date=October 27, 2026 |access-date=October 28, 2026}}</ref>
+|rowspan="2"|October 14–25, 2026
+|890 (LV)
+|rowspan="2"|±{{nbsp}}3.4%
+|{{party shading/Republican}}|'''43%'''
+|39%
+|2%{{efn|Mark Hackett (C) with 1%; Kasie Whitener (L) 1%}}
+|15%
+|-
+|1,009 (RV)
+|35%
+|{{party shading/Democratic}}|'''40%'''
+|5%{{efn|Mark Hackett (C) with 2%; "Not voting" with 2%; Kasie Whitener (L) 1%}}
+|20%
+|-
+|style="text-align:left;"|Impact Research (D)<ref>{{Cite web |url=https://freshstartpac.org/wp-content/uploads/2026/10/SC-Senate-Track-Public-Memo.pdf |title=New Poll Finds Path to Victory for Annie Andrews |work=Impact Research |date=October 22, 2026 |access-date=October 22, 2026}}</ref>{{efn-ua|Poll commissioned by Fresh Start SC, a [[super PAC]] supporting Annie Andrews}}
+|October 15–21, 2026
+|800 (LV)
+|±{{nbsp}}3.5%
+|44%
+|{{party shading/Democratic}}|'''45%'''
+|5%{{efn|Kasie Whitner with 3%, Mark Hackett with 2%}}
+|5%
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{Cite web |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/SC-Midterms-Survey-Report-1019.pdf |title=South Carolina General Election Poll |work=[[Trafalgar Group]] |date=October 18, 2026 |access-date=October 18, 2026}}</ref>
+|October 16–18, 2026
+|1,095 (LV)
+|±{{nbsp}}2.9%
+|{{party shading/Republican}}|'''49%'''
+|46%
+|5%{{efn|Kasie Whitner (L) with 4%, Mark Hackett (C) with 1%}}
+|1%
+|-
+|style="text-align: left;" |[[Rasmussen Reports]] (R)<ref name="Rasmussen10/9">{{cite web |title=Election 2026: South Carolina Senate |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_south_carolina_senate |website=[[Rasmussen Reports]] |access-date=October 11, 2026 |date=October 9, 2026}}</ref>
+|October 5–8, 2026
+|837 (LV)
+|±{{nbsp}}3.0%
+|{{party shading/Republican}}|'''49%'''
+|45%
+|{{sdash}}
+|6%
+|-
+|style="text-align: left;" |InsiderAdvantage (R)<ref>{{cite web|url=https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/|title=InsiderAdvantage South Carolina Senate: Graham Leads by One Point|date=October 2, 2026|access-date=October 2, 2026}}</ref>
+|September 28–29, 2026
+|1,200 (LV)
+|±{{nbsp}}2.8%
+|{{party shading/Republican}}|'''46%'''
+|45%
+|5%{{efn|Mark Hackett (C) with 3%; Kasie Whitener (L) with 2%}}
+|4%
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{Cite web |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/SC-Midterms-Survey-Report-0926.pdf |title=South Carolina General Election Survey |work=[[Trafalgar Group]] |date=September 26, 2026 |access-date=September 26, 2026}}</ref>
+|September 23–25, 2026
+|1,087 (LV)
+|±{{nbsp}}2.9%
+|{{party shading/Republican}}|'''43%'''
+|42%
+|6%{{efn|"Other" with 6%}}
+|9%
+|-
+|style="text-align: left;" |[[Rasmussen Reports]] (R)<ref name="Rasmussen9/15">{{cite web |title=South Carolina Senate: Graham Leads by 5 Points |url=https://www.rasmussenreports.com/public_content/archive/election_2026/south_carolina_senate_graham_leads_by_5_points |website=[[Rasmussen Reports]] |access-date=October 11, 2026 |date=September 15, 2026}}</ref>
+|September 14, 2026
+|1,006 (LV)
+|±{{nbsp}}3.0%
+|{{party shading/Republican}}|'''48%'''
+|43%
+|{{sdash}}
+|9%
+|-
+|style="text-align: left;" |InsiderAdvantage (R)<ref>{{Cite web |title=Top Line Tabs SC |url=https://insideradvantage.com/top-line-tabs-sc/ |website=InsiderAdvantage |date=September 10, 2026 |access-date=September 10, 2026}}</ref>
+|September 8–9, 2026
+|1,200 (LV)
+|±{{nbsp}}2.8%
+|{{party shading/Republican}}|'''45%'''
+|43%
+|3%{{efn|name=Another3}}
+|9%
+|-
+|style="text-align:left;" rowspan="2"|[[Abacus Data]]<ref>{{cite web|url=https://abacusdata.ca/the-trade-war-next-door-what-american-voters-think-about-tariffs-canada-and-the-battle-for-the-u-s-senate/|title=The Trade War Next Door: What American Voters Think About Tariffs, Canada and the Battle for the U.S. Senate|last1=Coletto|first1=David|date=September 2, 2026|access-date=September 2, 2026|website=[[Abacus Data]]}}</ref>
+|rowspan="2"|August 26–28, 2026
+|306 (LV)
+|{{sdash}}
+|{{party shading/Republican}}|'''55%'''
+|42%
+|3%{{efn|name=Another3|"Another candidate" with 3%}}
+|{{sdash}}
+|-
+|500 (RV)
+|±&nbsp;4.4%
+|47%
+|{{party shading/Democratic}}|'''48%'''
+|5%{{efn|"Another candidate" with 5%}}
+|{{sdash}}
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | August 25, 2026
+| colspan="16"| Republican special primary runoff
+|-
+| style="text-align: left;" |Impact Research (D)<ref>{{cite web |title=Recent Polling Shows a Tied U.S. Senate Race in South Carolina |url=https://drannieandrews.com/wp-content/uploads/2026/08/IMPACT-SC-SEN-POLL-MEMO-AUG-2026.pdf |publisher=Impact Research |access-date=August 28, 2026 |date=August 26, 2026}}</ref>{{efn-ua|name=Andrews}}
+|August 18–24, 2026
+|700 (LV)
+|±&nbsp;3.7%
+|'''41%'''
+|'''41%'''
+|5%{{efn|Kasie Whitener (L) with 5%}}
+|13%
+|-
+| style="text-align: left;" |Impact Research (D)<ref>{{cite web |last1=Cohen |first1=Max |title=Impact Research poll of #SCSen finds Dem Annie Andrews leading Republican Darline Graham 42-39. Poll of 900 likely voters in the field from 8/14-8/22. MOE +/- 3.3% |url= https://x.com/maxpcohen/status/2094727213044191363 |publisher= [[Twitter]] |access-date= September 1, 2026 |date= September 1, 2026}}</ref>{{efn-ua| name= Andrews}}
+|August 14–22, 2026
+|900 (LV)
+|±&nbsp;3.3%
+|39%
+|{{party shading/Democratic}}|'''42%'''
+|6%{{efn|Kasie Whitener (L) with 6%}}
+|13%
+|}
+
+=== Results ===
+{{Election box begin
+ | title      = 2026 United States Senate election in South Carolina<ref>{{Cite web |title=Election Night Reporting |url=https://www.enr-scvotes.org/SC/127300/web.345435/#/detail/26000 |access-date=November 6, 2026 |website=www.enr-scvotes.org |language=en}}</ref>
+}}
+{{Election box winning candidate with party link
+| party = Democratic Party (United States)
+| candidate = [[Annie Andrews]]
+| votes = 1,044,001
+| percentage = 51.14%
+| change = +6.96
+}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Darline Graham]] (incumbent)|votes=952,191|percentage=46.64%|change=−7.79}}
+{{Election box candidate with party link|party=Libertarian Party (United States)|candidate=Kasie Whitener|votes=23,585|percentage=1.16%|change=N/A}}
+{{Election box candidate with party link|party=Constitution Party (United States)|candidate=Mark Hackett|votes=16,811|percentage=0.82%|change=−0.48}}
+{{Election box write-in with party link
+ | votes      = 4,899
+ | percentage = 0.24%
+ | change     = +0.15
+}}
+{{Election box total
+ | votes      = 2,041,487
+ | percentage = 100.0%
+}}
+{{Election box gain with party link no swing
+| winner = Democratic Party (United States)
+| loser = Republican Party (United States)
+}}
+{{Election box end}}
+
+==== By county ====
+{| class="wikitable sortable"
+|+
+! rowspan="2" |County
+! colspan="2" |[[Annie Andrews]]
+[[Democratic Party (United States)|Democratic]]
+! colspan="2" |[[Darline Graham]]
+[[Republican Party (United States)|Republican]]
+! colspan="2" |Kasie Whitener
+[[Libertarian Party (United States)|Libertarian]]
+! colspan="2" |Mark Hackett
+[[Constitution Party (United States)|Constitution]]
+! colspan="2" |[[Write-in candidate|Write-in]]
+! colspan="2" |Margin
+! rowspan="2" |Total votes
+|-
+!#
+!%
+!#
+!%
+!#
+!%
+!#
+!%
+!#
+!%
+!#
+!%
+|-
+|style="background:#F9B6B5;"|[[Abbeville County, South Carolina|'''Abbeville''']]
+|style="background:#B4CEFF;"|3,415
+|style="background:#B4CEFF;"|37.84
+|style="background:#F9B6B5;"|'''5,364'''
+|style="background:#F9B6B5;"|'''59.43'''
+|style="background:#F9CF00;"|111
+|style="background:#F9CF00;"|1.23
+|style="background:#9F57E1;"|110
+|style="background:#9F57E1;"|1.22
+|26
+|0.29
+|style="background:#F9B6B5;"| -1,949
+|style="background:#F9B6B5;"| -21.59
+|style="background:#F9B6B5;"|'''9,026'''
+|-
+|style="background: #F9B6B5;"|'''[[Aiken County, South Carolina|Aiken]]'''
+|style="background:#B4CEFF;"|31,665
+|style="background:#B4CEFF;"|46.69
+|style="background:#F9B6B5;"|'''34,722'''
+|style="background:#F9B6B5;"|'''51.19'''
+|style="background:#F9CF00;"|779
+|style="background:#F9CF00;"|1.15
+|style="background:#9F57E1;"|540
+|style="background:#9F57E1;"|0.80
+|120
+|0.18
+|style="background:#F9B6B5;"| -3,057
+|style="background:#F9B6B5;"| -4.50
+|style="background:#F9B6B5;"|'''67,826'''
+|-
+|style="background:#B4CEFF;"|'''[[Allendale County, South Carolina|Allendale]]'''
+|style="background:#B4CEFF;"|'''1,952'''
+|style="background:#B4CEFF;"|'''77.86'''
+|style="background:#F9B6B5;"|533
+|style="background:#F9B6B5;"|21.26
+|style="background:#F9CF00;"|9
+|style="background:#F9CF00;"|0.36
+|style="background:#9F57E1;"|13
+|style="background:#9F57E1;"|0.52
+|0
+|0.00
+|style="background:#B4CEFF;"|1,419
+|style="background:#B4CEFF;"|56.60
+|style="background:#B4CEFF;"|'''2,507'''
+|-
+|style="background:#F9B6B5;"|'''[[Anderson County, South Carolina|Anderson]]'''
+|style="background:#B4CEFF;"|27,345
+|style="background:#B4CEFF;"|37.00
+|style="background:#F9B6B5;"|'''44,638'''
+|style="background:#F9B6B5;"|'''60.40'''
+|style="background:#F9CF00;"|938
+|style="background:#F9CF00;"|1.27
+|style="background:#9F57E1;"|739
+|style="background:#9F57E1;"|1.00
+|246
+|0.33
+|style="background:#F9B6B5;"| -17,293
+|style="background:#F9B6B5;"| -23.40
+|style="background:#F9B6B5;"|'''73,906'''
+|-
+|style="background:#B4CEFF;"|'''[[Bamberg County, South Carolina|Bamberg]]'''
+|style="background:#B4CEFF;"|'''3,026'''
+|style="background:#B4CEFF;"|'''65.31'''
+|style="background:#F9B6B5;"|1,531
+|style="background:#F9B6B5;"|33.05
+|style="background:#F9CF00;"|29
+|style="background:#F9CF00;"|0.63
+|style="background:#9F57E1;"|42
+|style="background:#9F57E1;"|0.91
+|5
+|0.11
+|style="background:#B4CEFF;"|1,495
+|style="background:#B4CEFF;"|32.26
+|style="background:#B4CEFF;"|'''4,633'''
+|-
+|style="background:#B4CEFF;"|'''[[Barnwell County, South Carolina|Barnwell]]'''
+|style="background:#B4CEFF;"|'''3,925'''
+|style="background:#B4CEFF;"|'''51.14'''
+|style="background:#F9B6B5;"|3,632
+|style="background:#F9B6B5;"|47.32
+|style="background:#F9CF00;"|57
+|style="background:#F9CF00;"|0.74
+|style="background:#9F57E1;"|52
+|style="background:#9F57E1;"|0.68
+|9
+|0.12
+|style="background:#B4CEFF;"|293
+|style="background:#B4CEFF;"|3.82
+|style="background:#B4CEFF;"|'''7,675'''
+|-
+|style="background:#F9B6B5;"|'''[[Beaufort County, South Carolina|Beaufort]]'''
+|style="background:#B4CEFF;"|41,134
+|style="background:#B4CEFF;"|47.74
+|style="background:#F9B6B5;"|'''43,486'''
+|style="background:#F9B6B5;"|'''50.47'''
+|style="background:#F9CF00;"|905
+|style="background:#F9CF00;"|1.05
+|style="background:#9F57E1;"|525
+|style="background:#9F57E1;"|0.61
+|118
+|0.14
+|style="background:#F9B6B5;"| -2,352
+|style="background:#F9B6B5;"| -2.73
+|style="background:#F9B6B5;"|'''86,168'''
+|-
+|style="background:#B4CEFF;"|'''[[Berkeley County, South Carolina|Berkeley]]'''
+|style="background:#B4CEFF;"|'''48,702'''
+|style="background:#B4CEFF;"|'''53.52'''
+|style="background:#F9B6B5;"|40,116
+|style="background:#F9B6B5;"|44.09
+|style="background:#F9CF00;"|1,216
+|style="background:#F9CF00;"|1.34
+|style="background:#9F57E1;"|797
+|style="background:#9F57E1;"|0.88
+|159
+|0.17
+|style="background:#B4CEFF;"|8,586
+|style="background:#B4CEFF;"|9.43
+|style="background:#B4CEFF;"|'''90,990'''
+|-
+|style="background:#B4CEFF;"|'''[[Calhoun County, South Carolina|Calhoun]]'''
+|style="background:#B4CEFF;"|'''3,367'''
+|style="background:#B4CEFF;"|'''51.92'''
+|style="background:#F9B6B5;"|2,955
+|style="background:#F9B6B5;"|45.47
+|style="background:#F9CF00;"|74
+|style="background:#F9CF00;"|1.14
+|style="background:#9F57E1;"|77
+|style="background:#9F57E1;"|1.19
+|12
+|0.19
+|style="background:#B4CEFF;"|412
+|style="background:#B4CEFF;"|6.45
+|style="background:#B4CEFF;"|'''6,485'''
+|-
+|style="background:#B4CEFF;"|'''[[Charleston County, South Carolina|Charleston]]'''
+|style="background:#B4CEFF;"|'''108,745'''
+|style="background:#B4CEFF;"|'''62.10'''
+|style="background:#F9B6B5;"|63,034
+|style="background:#F9B6B5;"|35.99
+|style="background:#F9CF00;"|2,080
+|style="background:#F9CF00;"|1.19
+|style="background:#9F57E1;"|926
+|style="background:#9F57E1;"|0.53
+|336
+|0.19
+|style="background:#B4CEFF;"|45,711
+|style="background:#B4CEFF;"|26.11
+|style="background:#B4CEFF;"|'''175,121'''
+|-
+|style="background:#F9B6B5;"|'''[[Cherokee County, South Carolina|Cherokee]]'''
+|style="background:#B4CEFF;"|6,074
+|style="background:#B4CEFF;"|34.42
+|style="background:#F9B6B5;"|'''11,149'''
+|style="background:#F9B6B5;"|'''63.17'''
+|style="background:#F9CF00;"|163
+|style="background:#F9CF00;"|0.92
+|style="background:#9F57E1;"|185
+|style="background:#9F57E1;"|1.05
+|77
+|0.44
+|style="background:#F9B6B5;"| -5,075
+|style="background:#F9B6B5;"| -28.75
+|style="background:#F9B6B5;"|'''17,648'''
+|-
+|style="background:#B4CEFF;"|'''[[Chester County, South Carolina|Chester]]'''
+|style="background:#B4CEFF;"|'''6,258'''
+|style="background:#B4CEFF;"|'''51.94'''
+|style="background:#F9B6B5;"|5,509
+|style="background:#F9B6B5;"|45,72
+|style="background:#F9CF00;"|124
+|style="background:#F9CF00;"|1.03
+|style="background:#9F57E1;"|124
+|style="background:#9F57E1;"|1.03
+|34
+|0.28
+|style="background:#B4CEFF;"|749
+|style="background:#B4CEFF;"|6.22
+|style="background:#B4CEFF;"|'''12,049'''
+|-
+|style="background:#F9B6B5;"|'''[[Chesterfield County, South Carolina|Chesterfield]]'''
+|style="background:#B4CEFF;"|6,385
+|style="background:#B4CEFF;"|46.19
+|style="background:#F9B6B5;"|'''7,134'''
+|style="background:#F9B6B5;"|'''51.61'''
+|style="background:#F9CF00;"|119
+|style="background:#F9CF00;"|0.86
+|style="background:#9F57E1;"|168
+|style="background:#9F57E1;"|1.22
+|16
+|0.12
+|style="background:#F9B6B5;"| -749
+|style="background:#F9B6B5;"| -6.58
+|style="background:#F9B6B5;"|'''13,822'''
+|-
+|style="background:#B4CEFF;"|'''[[Clarendon County, South Carolina|Clarendon]]'''
+|style="background:#B4CEFF;"|'''7,056'''
+|style="background:#B4CEFF;"|'''51.89'''
+|style="background:#F9B6B5;"|6,301
+|style="background:#F9B6B5;"|46.33
+|style="background:#F9CF00;"|123
+|style="background:#F9CF00;"|0.90
+|style="background:#9F57E1;"|101
+|style="background:#9F57E1;"|0.74
+|18
+|0.13
+|style="background:#B4CEFF;"|755
+|style="background:#B4CEFF;"|5.56
+|style="background:#B4CEFF;"|'''13,599'''
+|-
+|style="background:#B4CEFF;"|'''[[Colleton County, South Carolina|Colleton]]'''
+|style="background:#B4CEFF;"|'''6,978'''
+|style="background:#B4CEFF;"|'''50.87'''
+|style="background:#F9B6B5;"|6,391
+|style="background:#F9B6B5;"|46.59
+|style="background:#F9CF00;"|151
+|style="background:#F9CF00;"|1.10
+|style="background:#9F57E1;"|169
+|style="background:#9F57E1;"|1.23
+|28
+|0.20
+|style="background:#B4CEFF;"|587
+|style="background:#B4CEFF;"|4.28
+|style="background:#B4CEFF;"|'''13,717'''
+|-
+|style="background:#B4CEFF;"|'''[[Darlington County, South Carolina|Darlington]]'''
+|style="background:#B4CEFF;"|'''12,704'''
+|style="background:#B4CEFF;"|'''53,93'''
+|style="background:#F9B6B5;"|10,414
+|style="background:#F9B6B5;"|44.21
+|style="background:#F9CF00;"|226
+|style="background:#F9CF00;"|0.96
+|style="background:#9F57E1;"|172
+|style="background:#9F57E1;"|0.73
+|42
+|0.18
+|style="background:#B4CEFF;"|2,290
+|style="background:#B4CEFF;"|9.72
+|style="background:#B4CEFF;"|'''23,558'''
+|-
+|style="background:#B4CEFF;"|'''[[Dillon County, South Carolina|Dillon]]'''
+|style="background:#B4CEFF;"|'''4,796'''
+|style="background:#B4CEFF;"|'''54.38'''
+|style="background:#F9B6B5;"|3,920
+|style="background:#F9B6B5;"|44.44
+|style="background:#F9CF00;"|35
+|style="background:#F9CF00;"|0.40
+|style="background:#9F57E1;"|59
+|style="background:#9F57E1;"|0.67
+|10
+|0.11
+|style="background:#B4CEFF;"|876
+|style="background:#B4CEFF;"|9.94
+|style="background:#B4CEFF;"|'''8,820'''
+|-
+|style="background:#B4CEFF;"|'''[[Dorchester County, South Carolina|Dorchester]]'''
+|style="background:#B4CEFF;"|'''33,317'''
+|style="background:#B4CEFF;"|'''53.49'''
+|style="background:#F9B6B5;"|27,361
+|style="background:#F9B6B5;"|43.93
+|style="background:#F9CF00;"|873
+|style="background:#F9CF00;"|1.40
+|style="background:#9F57E1;"|631
+|style="background:#9F57E1;"|1.01
+|99
+|0.16
+|style="background:#B4CEFF;"|5,956
+|style="background:#B4CEFF;"|9.56
+|style="background:#B4CEFF;"|'''62,281'''
+|-
+|style="background:#F9B6B5;"|'''[[Edgefield County, South Carolina|Edgefield]]'''
+|style="background:#B4CEFF;"|4,593
+|style="background:#B4CEFF;"|42.45
+|style="background:#F9B6B5;"|'''5,972'''
+|style="background:#F9B6B5;"|'''55.19'''
+|style="background:#F9CF00;"|127
+|style="background:#F9CF00;"|1.17
+|style="background:#9F57E1;"|101
+|style="background:#9F57E1;"|0.93
+|28
+|0.26
+|style="background:#F9B6B5;"| -1,379
+|style="background:#F9B6B5;"| -12.74
+|style="background:#F9B6B5;"|'''10.821'''
+|-
+|style="background:#B4CEFF;"|'''[[Fairfield County, South Carolina|Fairfield]]'''
+|style="background:#B4CEFF;"|'''6,105'''
+|style="background:#B4CEFF;"|'''63.08'''
+|style="background:#F9B6B5;"|3,391
+|style="background:#F9B6B5;"|35.04
+|style="background:#F9CF00;"|91
+|style="background:#F9CF00;"|0.94
+|style="background:#9F57E1;"|73
+|style="background:#9F57E1;"|0.75
+|18
+|0.19
+|style="background:#B4CEFF;"|2,714
+|style="background:#B4CEFF;"|28.04
+|style="background:#B4CEFF;"|'''9,678'''
+|-
+|style="background:#B4CEFF;"|'''[[Florence County, South Carolina|Florence]]'''
+|style="background:#B4CEFF;"|'''27,638'''
+|style="background:#B4CEFF;"|'''56.45'''
+|style="background:#F9B6B5;"|20,444
+|style="background:#F9B6B5;"|41.75
+|style="background:#F9CF00;"|448
+|style="background:#F9CF00;"|0.91
+|style="background:#9F57E1;"|363
+|style="background:#9F57E1;"|0.74
+|70
+|0.14
+|style="background:#B4CEFF;"|7,194
+|style="background:#B4CEFF;"|14.70
+|style="background:#B4CEFF;"|'''48,963'''
+|-
+|style="background:#F9B6B5;"|'''[[Georgetown County, South Carolina|Georgetown]]'''
+|style="background:#B4CEFF;"|14,649
+|style="background:#B4CEFF;"|47.31
+|style="background:#F9B6B5;"|'''15,832'''
+|style="background:#F9B6B5;"|'''51.13'''
+|style="background:#F9CF00;"|259
+|style="background:#F9CF00;"|0.84
+|style="background:#9F57E1;"|189
+|style="background:#9F57E1;"|0.61
+|38
+|0.12
+|style="background:#F9B6B5;"| -1,183
+|style="background:#F9B6B5;"| -3.82
+|style="background:#F9B6B5;"|'''30,967'''
+|-
+|style="background:#B4CEFF;"|'''[[Greenville County, South Carolina|Greenville]]'''
+|style="background:#B4CEFF;"|'''107,256'''
+|style="background:#B4CEFF;"|'''49.76'''
+|style="background:#F9B6B5;"|102,412
+|style="background:#F9B6B5;"|47.52
+|style="background:#F9CF00;"|3,036
+|style="background:#F9CF00;"|1.41
+|style="background:#9F57E1;"|2,073
+|style="background:#9F57E1;"|0.96
+|756
+|0.35
+|style="background:#B4CEFF;"|4,844
+|style="background:#B4CEFF;"|2.24
+|style="background:#B4CEFF;"|'''215,533'''
+|-
+|style="background:#F9B6B5;"|'''[[Greenwood County, South Carolina|Greenwood]]'''
+|style="background:#B4CEFF;"|11,352
+|style="background:#B4CEFF;"|46.11
+|style="background:#F9B6B5;"|'''12,629'''
+|style="background:#F9B6B5;"|'''51.30'''
+|style="background:#F9CF00;"|314
+|style="background:#F9CF00;"|1.28
+|style="background:#9F57E1;"|260
+|style="background:#9F57E1;"|1.06
+|63
+|0.26
+|style="background:#F9B6B5;"| -1,277
+|style="background:#F9B6B5;"| -5.19
+|style="background:#F9B6B5;"|'''24,618'''
+|-
+|style="background:#B4CEFF;"|'''[[Hampton County, South Carolina|Hampton]]'''
+|style="background:#B4CEFF;"|'''3,905'''
+|style="background:#B4CEFF;"|'''58.66'''
+|style="background:#F9B6B5;"|2,659
+|style="background:#F9B6B5;"|39.94
+|style="background:#F9CF00;"|42
+|style="background:#F9CF00;"|0.63
+|style="background:#9F57E1;"|43
+|style="background:#9F57E1;"|0.65
+|8
+|0.12
+|style="background:#B4CEFF;"|1,246
+|style="background:#B4CEFF;"|18.72
+|style="background:#B4CEFF;"|'''6,657'''
+|-
+|style="background:#F9B6B5;"|'''[[Horry County, South Carolina|Horry]]'''
+|style="background:#B4CEFF;"|63,282
+|style="background:#B4CEFF;"|38.55
+|style="background:#F9B6B5;"|'''98,567'''
+|style="background:#F9B6B5;"|'''60.05'''
+|style="background:#F9CF00;"|1,188
+|style="background:#F9CF00;"|0.72
+|style="background:#9F57E1;"|919
+|style="background:#9F57E1;"|0.56
+|195
+|0.12
+|style="background:#F9B6B5;"| -35,285
+|style="background:#F9B6B5;"| -21.50
+|style="background:#F9B6B5;"|'''164,151'''
+|-
+|style="background:#B4CEFF;"|'''[[Jasper County, South Carolina|Jasper]]'''
+|style="background:#B4CEFF;"|'''8,763'''
+|style="background:#B4CEFF;"|'''50.29'''
+|style="background:#F9B6B5;"|8,406
+|style="background:#F9B6B5;"|48.24
+|style="background:#F9CF00;"|134
+|style="background:#F9CF00;"|0.77
+|style="background:#9F57E1;"|107
+|style="background:#9F57E1;"|0.61
+|16
+|0.09
+|style="background:#B4CEFF;"|357
+|style="background:#B4CEFF;"|2.05
+|style="background:#B4CEFF;"|'''17,426'''
+|-
+|style="background:#F9B6B5;"|'''[[Kershaw County, South Carolina|Kershaw]]'''
+|style="background:#B4CEFF;"|12,450
+|style="background:#B4CEFF;"|48.06
+|style="background:#F9B6B5;"|'''12,741'''
+|style="background:#F9B6B5;"|'''49.18'''
+|style="background:#F9CF00;"|320
+|style="background:#F9CF00;"|1.24
+|style="background:#9F57E1;"|290
+|style="background:#9F57E1;"|1.12
+|104
+|0.40
+|style="background:#F9B6B5;"| -291
+|style="background:#F9B6B5;"| -1.12
+|style="background:#F9B6B5;"|'''25,905'''
+|-
+|style="background:#F9B6B5;"|'''[[Lancaster County, South Carolina|Lancaster]]'''
+|style="background:#B4CEFF;"|19,776
+|style="background:#B4CEFF;"|46.20
+|style="background:#F9B6B5;"|'''22,029'''
+|style="background:#F9B6B5;"|'''51.47'''
+|style="background:#F9CF00;"|533
+|style="background:#F9CF00;"|1.25
+|style="background:#9F57E1;"|349
+|style="background:#9F57E1;"|0.82
+|116
+|0.27
+|style="background:#F9B6B5;"| -2,253
+|style="background:#F9B6B5;"| -5.27
+|style="background:#F9B6B5;"|'''42,803'''
+|-
+|style="background:#F9B6B5;"|'''[[Laurens County, South Carolina|Laurens]]'''
+|style="background:#B4CEFF;"|9,472
+|style="background:#B4CEFF;"|40.46
+|style="background:#F9B6B5;"|'''13,277'''
+|style="background:#F9B6B5;"|'''56.72'''
+|style="background:#F9CF00;"|286
+|style="background:#F9CF00;"|1.22
+|style="background:#9F57E1;"|285
+|style="background:#9F57E1;"|1.22
+|90
+|0.38
+|style="background:#F9B6B5;"| -3,805
+|style="background:#F9B6B5;"| -16.26
+|style="background:#F9B6B5;"|'''23,410'''
+|-
+|style="background:#B4CEFF;"|'''[[Lee County, South Carolina|Lee]]'''
+|style="background:#B4CEFF;"|'''4,269'''
+|style="background:#B4CEFF;"|'''67.45'''
+|style="background:#F9B6B5;"|1,957
+|style="background:#F9B6B5;"|30.92
+|style="background:#F9CF00;"|42
+|style="background:#F9CF00;"|0.66
+|style="background:#9F57E1;"|52
+|style="background:#9F57E1;"|0.82
+|9
+|0.14
+|style="background:#B4CEFF;"|2,312
+|style="background:#B4CEFF;"|36.53
+|style="background:#B4CEFF;"|'''6,329'''
+|-
+|style="background:#F9B6B5;"|'''[[Lexington County, South Carolina|Lexington]]'''
+|style="background:#B4CEFF;"|51,862
+|style="background:#B4CEFF;"|44.75
+|style="background:#F9B6B5;"|'''60,816'''
+|style="background:#F9B6B5;"|'''52.48'''
+|style="background:#F9CF00;"|1,699
+|style="background:#F9CF00;"|1.47
+|style="background:#9F57E1;"|1,198
+|style="background:#9F57E1;"|1.03
+|318
+|0.27
+|style="background:#F9B6B5;"| -8,954
+|style="background:#F9B6B5;"| -7.73
+|style="background:#F9B6B5;"|'''115,893'''
+|-
+|style="background:#B4CEFF;"|'''[[Marion County, South Carolina|Marion]]'''
+|style="background:#B4CEFF;"|'''7,085'''
+|style="background:#B4CEFF;"|'''62.91'''
+|style="background:#F9B6B5;"|4,036
+|style="background:#F9B6B5;"|35.83
+|style="background:#F9CF00;"|85
+|style="background:#F9CF00;"|0.75
+|style="background:#9F57E1;"|52
+|style="background:#9F57E1;"|0.46
+|5
+|0.04
+|style="background:#B4CEFF;"|3,049
+|style="background:#B4CEFF;"|27.08
+|style="background:#B4CEFF;"|'''11,263'''
+|-
+|style="background:#B4CEFF;"|'''[[Marlboro County, South Carolina|Marlboro]]'''
+|style="background:#B4CEFF;"|'''4,403'''
+|style="background:#B4CEFF;"|'''60.97'''
+|style="background:#F9B6B5;"|2,713
+|style="background:#F9B6B5;"|37.57
+|style="background:#F9CF00;"|50
+|style="background:#F9CF00;"|0.69
+|style="background:#9F57E1;"|49
+|style="background:#9F57E1;"|0.68
+|6
+|0.08
+|style="background:#B4CEFF;"|1,690
+|style="background:#B4CEFF;"|23.50
+|style="background:#B4CEFF;"|'''7,221'''
+|-
+|style="background:#F9B6B5;"|'''[[McCormick County, South Carolina|McCormick]]'''
+|style="background:#B4CEFF;"|2,518
+|style="background:#B4CEFF;"|46.03
+|style="background:#F9B6B5;"|'''2,829'''
+|style="background:#F9B6B5;"|'''51.72'''
+|style="background:#F9CF00;"|50
+|style="background:#F9CF00;"|0.91
+|style="background:#9F57E1;"|61
+|style="background:#9F57E1;"|1.12
+|12
+|0.22
+|style="background:#F9B6B5;"|311
+|style="background:#F9B6B5;"|5.69
+|style="background:#F9B6B5;"|'''5,470'''
+|-
+|style="background:#F9B6B5;"|'''[[Newberry County, South Carolina|Newberry]]'''
+|style="background:#B4CEFF;"|6,135
+|style="background:#B4CEFF;"|42.61
+|style="background:#F9B6B5;"|'''7,874'''
+|style="background:#F9B6B5;"|'''54.69'''
+|style="background:#F9CF00;"|191
+|style="background:#F9CF00;"|1.33
+|style="background:#9F57E1;"|145
+|style="background:#9F57E1;"|1.01
+|53
+|0.37
+|style="background:#F9B6B5;"|1,739
+|style="background:#F9B6B5;"|12.08
+|style="background:#F9B6B5;"|'''14,398'''
+|-
+|style="background:#F9B6B5;"|'''[[Oconee County, South Carolina|Oconee]]'''
+|style="background:#B4CEFF;"|10,698
+|style="background:#B4CEFF;"|32.92
+|style="background:#F9B6B5;"|'''21,037'''
+|style="background:#F9B6B5;"|'''64.74'''
+|style="background:#F9CF00;"|390
+|style="background:#F9CF00;"|1.20
+|style="background:#9F57E1;"|281
+|style="background:#9F57E1;"|0.86
+|87
+|0.27
+|style="background:#F9B6B5;"| -10,339
+|style="background:#F9B6B5;"| -31.82
+|style="background:#F9B6B5;"|'''32,493'''
+|-
+|style="background:#B4CEFF;"|'''[[Orangeburg County, South Carolina|Orangeburg]]'''
+|style="background:#B4CEFF;"|'''22,020'''
+|style="background:#B4CEFF;"|'''71.30'''
+|style="background:#F9B6B5;"|8,459
+|style="background:#F9B6B5;"|27.39
+|style="background:#F9CF00;"|200
+|style="background:#F9CF00;"|0.65
+|style="background:#9F57E1;"|172
+|style="background:#9F57E1;"|0.56
+|31
+|0.10
+|style="background:#B4CEFF;"|13,561
+|style="background:#B4CEFF;"|43.91
+|style="background:#B4CEFF;"|'''30,882'''
+|-
+|style="background:#F9B6B5;"|'''[[Pickens County, South Carolina|Pickens]]'''
+|style="background:#B4CEFF;"|15,155
+|style="background:#B4CEFF;"|33.83
+|style="background:#F9B6B5;"|'''28,279'''
+|style="background:#F9B6B5;"|'''63.13'''
+|style="background:#F9CF00;"|718
+|style="background:#F9CF00;"|1.60
+|style="background:#9F57E1;"|460
+|style="background:#9F57E1;"|1.03
+|183
+|0.41
+|style="background:#F9B6B5;"| -13,124
+|style="background:#F9B6B5;"| -29.30
+|style="background:#F9B6B5;"|'''44,795'''
+|-
+|style="background:#B4CEFF;"|'''[[Richland County, South Carolina|Richland]]'''
+|style="background:#B4CEFF;"|'''122,537'''
+|style="background:#B4CEFF;"|'''75.77'''
+|style="background:#F9B6B5;"|36,458
+|style="background:#F9B6B5;"|22.54
+|style="background:#F9CF00;"|1,633
+|style="background:#F9CF00;"|1.01
+|style="background:#9F57E1;"|824
+|style="background:#9F57E1;"|0.51
+|273
+|0.17
+|style="background:#B4CEFF;"|86,079
+|style="background:#B4CEFF;"|53.23
+|style="background:#B4CEFF;"|'''161,725'''
+|-
+|style="background:#F9B6B5;"|'''[[Saluda County, South Carolina|Saluda]]'''
+|style="background:#B4CEFF;"|2,563
+|style="background:#B4CEFF;"|36.67
+|style="background:#F9B6B5;"|'''4,236'''
+|style="background:#F9B6B5;"|'''60.60'''
+|style="background:#F9CF00;"|77
+|style="background:#F9CF00;"|1.10
+|style="background:#9F57E1;"|94
+|style="background:#9F57E1;"|1.34
+|20
+|0.29
+|style="background:#F9B6B5;"| -1,673
+|style="background:#F9B6B5;"| -23.93
+|style="background:#F9B6B5;"|'''6,990'''
+|-
+|style="background:#F9B6B5;"|[[Spartanburg County, South Carolina|'''Spartanburg''']]
+|style="background:#B4CEFF;"|55,303
+|style="background:#B4CEFF;"|46.22
+|style="background:#F9B6B5;"|'''60,916'''
+|style="background:#F9B6B5;"|'''50.91'''
+|style="background:#F9CF00;"|1,590
+|style="background:#F9CF00;"|1.33
+|style="background:#9F57E1;"|1,397
+|style="background:#9F57E1;"|1.17
+|438
+|0.37
+|style="background:#F9B6B5;"| -5,613
+|style="background:#F9B6B5;"| -4.69
+|style="background:#F9B6B5;"|'''119,644'''
+|-
+|style="background:#B4CEFF;"|[[Sumter County, South Carolina|'''Sumter''']]
+|style="background:#B4CEFF;"|'''22,813'''
+|style="background:#B4CEFF;"|'''62.56'''
+|style="background:#F9B6B5;"|13,014
+|style="background:#F9B6B5;"|35.69
+|style="background:#F9CF00;"|306
+|style="background:#F9CF00;"|0.84
+|style="background:#9F57E1;"|271
+|style="background:#9F57E1;"|0.74
+|62
+|0.17
+|style="background:#B4CEFF;"|9,799
+|style="background:#B4CEFF;"|28.97
+|style="background:#B4CEFF;"|'''36,466'''
+|-
+|style="background:#F9B6B5;"|[[Union County, South Carolina|'''Union''']]
+|style="background:#B4CEFF;"|4,050
+|style="background:#B4CEFF;"|42.99
+|style="background:#F9B6B5;"|'''5,116'''
+|style="background:#F9B6B5;"|'''54.31'''
+|style="background:#F9CF00;"|103
+|style="background:#F9CF00;"|1.09
+|style="background:#9F57E1;"|111
+|style="background:#9F57E1;"|1.18
+|40
+|0.42
+|style="background:#F9B6B5;"| -1,066
+|style="background:#F9B6B5;"| -11.32
+|style="background:#F9B6B5;"|'''9,420'''
+|-
+|style="background:#B4CEFF;"|[[Williamsburg County, South Carolina|'''Williamsburg''']]
+|style="background:#B4CEFF;"|'''8,048'''
+|style="background:#B4CEFF;"|'''68.79'''
+|style="background:#F9B6B5;"|3,512
+|style="background:#F9B6B5;"|30.02
+|style="background:#F9CF00;"|67
+|style="background:#F9CF00;"|0.57
+|style="background:#9F57E1;"|60
+|style="background:#9F57E1;"|0.51
+|13
+|0.11
+|style="background:#B4CEFF;"|4,536
+|style="background:#B4CEFF;"|38.77
+|style="background:#B4CEFF;"|'''11,700'''
+|-
+|style="background:#B4CEFF;"|[[York County, South Carolina|'''York''']]
+|style="background:#B4CEFF;"|'''58,457'''
+|style="background:#B4CEFF;"|'''50.38'''
+|style="background:#F9B6B5;"|54,390
+|style="background:#F9B6B5;"|46.87
+|style="background:#F9CF00;"|1,594
+|style="background:#F9CF00;"|1.37
+|style="background:#9F57E1;"|1,102
+|style="background:#9F57E1;"|0.95
+|492
+|0.42
+|style="background:#B4CEFF;"|4,067
+|style="background:#B4CEFF;"|3.51
+|style="background:#B4CEFF;"|'''116,035'''
+|}
+;Counties that flipped from Republican to Democratic
+* [[Barnwell County, South Carolina|Barnwell]] (largest municipality: [[Barnwell, South Carolina|Barnwell]])
+* [[Berkeley County, South Carolina|Berkeley]] (largest municipality: [[Goose Creek, South Carolina|Goose Creek]])
+* [[Calhoun County, South Carolina|Calhoun]] (largest municipality: [[St. Matthews, South Carolina|St. Matthews]])
+* [[Chester County, South Carolina|Chester]] (largest municipality: [[Chester, South Carolina|Chester]])
+* [[Colleton County, South Carolina|Colleton]] (largest municipality: [[Walterboro, South Carolina|Walterboro]])
+* [[Darlington County, South Carolina|Darlington]] (largest municipality: [[Hartsville, South Carolina|Hartsville]])
+* [[Dorchester County, South Carolina|Dorchester]] (largest municipality: [[North Charleston, South Carolina|North Charleston]])
+* [[Florence County, South Carolina|Florence]] (largest municipality: [[Florence, South Carolina|Florence]])
+* [[Greenville County, South Carolina|Greenville]] (largest municipality: [[Greenville, South Carolina|Greenville]])
+* [[York County, South Carolina|York]] (largest municipality: [[Rock Hill, South Carolina|Rock Hill]])

@@ -1,0 +1,11 @@
+# [4.3.2] Fundraising
+
+Fundraising
+{| class="wikitable sortable"
+colspan=4 |Campaign finance reports as of August 5, 2026
+style="text-align:center;" | Candidate | Raised | Spent | Cash on hand
+|Darline Graham (R) | $346,783 | $95,351 | $251,431
+|Ralph Norman (R) | $934,892 | $697,553 | $237,339
+colspan="4" |Source: Federal Election Commission
+
+ competed against  Darline Graham in the Republican special primary runoff.]]

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Results and reconciliation / 结果与对账 — 案例研究 002 · 双语档案</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/overrides.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">案例研究 002 · 双语档案<small>South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Frames</span></a><a class="" href="../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & money</span></a><a class="on" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  
+  <main>
+<div class="crumb"><a href="../index.html">首页</a> / Results and reconciliation</div><div class="meta">07_electoral_context/results_notes.md · 2026-11-12</div><h1>Results notes — provenance, integrity checks and reading rules / 结果说明——来源、完整性校验与阅读规则</h1>
+<h2>1. Provenance: projected, not certified / 1. 来源：预测值，非认证值</h2>
+<p>Every figure in <a href="election_results.csv"><code>election_results.csv</code></a> and
+<a href="county_results.csv"><code>county_results.csv</code></a> is transcribed from the Wikipedia results tables, which
+in turn cite the New York Times results page and the South Carolina Election Commission. CBS News
+"projects" Andrews the winner. <strong>No state certification (scvotes.gov canvass) was retrieved in this
+pass</strong>, so the whole file is <code>partially verified</code> — including the general-election totals.</p>
+<p><a href="election_results.csv"><code>election_results.csv</code></a> 与 <a href="county_results.csv"><code>county_results.csv</code></a> 中的每个数字都转录自维基百科结果表，而这些表又引用《纽约时报》结果页与南卡罗来纳州选举委员会。CBS 新闻「预测」安德鲁斯胜选。<strong>本次未取得州级认证（scvotes.gov 的官方计票）</strong>，因此整份文件——包括大选总票数——均标记为 <code>partially verified</code>。</p>
+<p>The article's own <code>last_update</code> field reads <em>November 11, 2026, 12:27 AM</em>, which is the moment the
+transcribed tables were last consistent with each other.</p>
+<p>条目自身的 <code>last_update</code> 字段为 <em>2026 年 11 月 11 日 12:27（美东）</em>，即所转录表格彼此一致的最后时点。</p>
+<h2>2. Integrity checks actually run / 2. 实际执行的完整性校验</h2>
+<p>Rather than trusting the county table, four checks were run and their results are recorded here:</p>
+<p>不是直接信任县表，而是执行了四项校验，结果记录如下：</p>
+<table>
+<thead>
+<tr>
+<th>Check / 校验</th>
+<th>Result / 结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sum of 46 county Andrews votes vs statewide</td>
+<td>1,044,001 = 1,044,001 ✅</td>
+</tr>
+<tr>
+<td>Sum of 46 county Graham votes vs statewide</td>
+<td>952,191 = 952,191 ✅</td>
+</tr>
+<tr>
+<td>Sum of 46 county total_votes vs statewide total</td>
+<td>2,041,487 = 2,041,487 ✅ (after the fix in §3)</td>
+</tr>
+<tr>
+<td>Sum of other_votes (Whitener + Hackett + write-in)</td>
+<td>45,295 = 23,585 + 16,811 + 4,899 ✅</td>
+</tr>
+</tbody>
+</table>
+<p>The county table is therefore internally consistent with the statewide result, and the two
+candidate columns are the strongest part of the dataset: they reconcile to the vote, not to a
+percentage.</p>
+<p>因此县表与全州结果内部自洽，两位候选人的票数列是整份数据中最可靠的部分：它们与总票数对得上，而非只与百分比对得上。</p>
+<h2>3. One source typo, corrected by arithmetic / 3. 一处源数据笔误，以算术修正</h2>
+<p>The row for <strong>Edgefield</strong> writes its total as <code>10.821</code> — a decimal point where the table's own
+convention uses a thousands separator. Its five component cells are 4,593 + 5,972 + 127 + 101 + 28 =
+<strong>10,821</strong>, which is the value carried in <code>county_results.csv</code>. The correction is this one cell; it
+was not applied silently, and it is the reason the third check above passes.</p>
+<p><strong>Edgefield</strong> 一行的总数写作 <code>10.821</code>——该表的惯例是用千位分隔符，此处却写成了小数点。其五个分项单元格为 4,593 + 5,972 + 127 + 101 + 28 = <strong>10,821</strong>，这正是 <code>county_results.csv</code> 中所载的值。修正仅涉及这一个单元格；它并非静默套用，也正是上表第三项校验得以通过的原因。</p>
+<h2>4. One discrepancy left unresolved / 4. 一处未解决的差异</h2>
+<p>The article's analysis paragraph states that Andrews "won a total of 25 counties". The county table
+yields <strong>24</strong>: Allendale, Bamberg, Barnwell, Berkeley, Calhoun, Charleston, Clarendon, Colleton,
+Darlington, Dillon, Dorchester, Fairfield, Florence, Greenville, Hampton, Jasper, Lee, Marion,
+Marlboro, Orangeburg, Richland, Sumter, Williamsburg and York. Graham carried the other 22.</p>
+<p>条目的分析段落称安德鲁斯「共赢下 25 个县」。县表给出 <strong>24</strong> 个：Allendale、Bamberg、Barnwell、Berkeley、Calhoun、Charleston、Clarendon、Colleton、Darlington、Dillon、Dorchester、Fairfield、Florence、Greenville、Hampton、Jasper、Lee、Marion、Marlboro、Orangeburg、Richland、Sumter、Williamsburg、York。格雷厄姆赢下其余 22 个。</p>
+<p>The archive does not pick a winner between the two statements. The likely explanations — a county
+counted at a rounding boundary, an error in the prose, or a county the table folds in elsewhere —
+cannot be distinguished without the precinct or county canvass. <code>⚠ unknown</code></p>
+<p>档案不在两种说法之间择一。可能的解释——某个县处在四舍五入边界、段落有误、或某个县被表格并入他处——在没有选区级或县级官方计票的情况下无法区分。<code>⚠ unknown</code></p>
+<h2>5. How to read the numbers / 5. 如何阅读这些数字</h2>
+<ul>
+<li><code>andrews_pct</code> / <code>graham_pct</code> are each candidate's share of that county's total votes, as printed.
+  They do not sum to 100 with <code>other_votes</code>, because the write-in share is small and rounding is per
+  cell.</li>
+<li><code>other_votes</code> is a <strong>derived sum</strong> of three documented columns (Whitener, Hackett, write-in); the
+  county schema has no separate column for each minor candidate, and the parsed source table that
+  carries them is kept at <code>_staging/mirrors/county_results_parsed.csv</code>.</li>
+<li><code>winner</code> in <code>election_results.csv</code> is a per-row flag, not a certification.</li>
+<li>
+<p>Party labels are as printed by the source: <code>Democratic</code>, <code>Republican</code>, <code>Libertarian</code>,
+  <code>Constitution</code>, <code>Write-in</code>.</p>
+</li>
+<li>
+<p><code>andrews_pct</code>／<code>graham_pct</code> 是各候选人在该县总票数中的占比，按原文照录。它们与 <code>other_votes</code> 不会恰好合计 100，因为写名票占比很小且逐格四舍五入。</p>
+</li>
+<li><code>other_votes</code> 是三个有据可查的列（惠特纳、哈克特、写名）的<strong>求和派生值</strong>；县表模式中没有为每位小党候选人单列一列，承载这些原始数据的解析表保存在 <code>_staging/mirrors/county_results_parsed.csv</code>。</li>
+<li><code>election_results.csv</code> 中的 <code>winner</code> 是逐行标记，不是认证结果。</li>
+<li>党籍标签按来源原文：<code>Democratic</code>、<code>Republican</code>、<code>Libertarian</code>、<code>Constitution</code>、<code>Write-in</code>。</li>
+</ul>
+<h2>6. What the exit poll can and cannot support / 6. 出口民调能支撑什么、不能支撑什么</h2>
+<p><a href="../09_sources/exit_poll_2026.csv"><code>../09_sources/exit_poll_2026.csv</code></a> holds 45 subgroups in 15
+groups, transcribed from the CNN table. It supports statements of the form "among self-identified
+independents, Andrews led 63–32". It does <strong>not</strong> support causal statements, subgroup turnout
+estimates, or claims about individual voters, and its subgroup sizes are not published in the
+source, so no subgroup margin of error is computable here. <code>⚠ unknown</code></p>
+<p><a href="../09_sources/exit_poll_2026.csv"><code>../09_sources/exit_poll_2026.csv</code></a> 收录 15 组共 45 个子群，转录自 CNN 表格。它可以支撑「在自认独立人士中，安德鲁斯以 63–32 领先」这类陈述。它<strong>不能</strong>支撑因果陈述、子群投票率估计或关于个体选民的断言；来源未公布各子群样本量，因此此处无法计算任何子群的误差范围。<code>⚠ unknown</code></p>
+<h2>7. Not attempted / 7. 未尝试的内容</h2>
+<ul>
+<li>Precinct-level aggregation or mapping.</li>
+<li>Ecological inference from county results to individual behaviour.</li>
+<li>Any turnout comparison with 2020 or 2022 (the baseline figures were not retrievable).</li>
+<li>
+<p>Certification reconciliation against scvotes.gov.</p>
+</li>
+<li>
+<p>选区级汇总或绘图。</p>
+</li>
+<li>由县级结果向个体行为的生态推断。</li>
+<li>与 2020 或 2022 年的投票率比较（基线数据未能检索）。</li>
+<li>与 scvotes.gov 认证结果的核对。</li>
+</ul>
+<h2>Sources</h2>
+<ul>
+<li>[SRC-2108] <code>https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina</code></li>
+<li>[SRC-2111] <code>https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/</code></li>
+</ul>
+  </main>
+</div>
+<footer><div class="in">
+  <p>Compiled 2026-11-12. Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>2026-11-12 编制。每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

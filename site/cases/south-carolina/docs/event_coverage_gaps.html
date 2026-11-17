@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Event coverage gaps / 活动覆盖缺口 — 案例研究 002 · 双语档案</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Senate Archive<span>2026 参议院档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas / 德州</a>
+    <a href="../../../cases/south-carolina/index.html">South Carolina / 南卡</a>
+  </span>
+  <span class="apb-here">South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">案例研究 002 · 双语档案<small>South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Frames</span></a><a class="" href="../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="on" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  
+  <main>
+<div class="crumb"><a href="../index.html">首页</a> / Event coverage gaps</div><div class="meta">02_campaign_events/event_coverage_gaps.md · 2026-11-12</div><h1>Event coverage gaps / 活动覆盖缺口</h1>
+<h2>1. Why this file has 32 rows, not 70 / 1. 为什么是 32 行而不是 70 行</h2>
+<p>The conventions set a 70-row target. The archive ships 32. The reason is specific: the retrievable record of this race is dominated by election administration, debates and televised speeches, and almost never contains a dated, located appearance with a venue, a time and a crowd. Andrews's campaign calendar was not retrievable at all (her site returns HTTP 403), and Graham's dated appearances beyond the debates are rallies documented through video uploads rather than through a campaign schedule.</p>
+<p>研究规范设定的目标是 70 行，本档案交付 32 行。原因是具体的：这场选举可检索到的记录以选举行政事务、辩论与电视讲话为主，几乎从不包含带场地、时间与人数、且有确切日期的竞选露面。安德鲁斯的竞选日程完全无法检索（其网站返回 HTTP 403）；格雷厄姆在辩论之外的确定露面，仅有两场集会，且是通过视频上传而非竞选日程记录下来的。</p>
+<p>Filling the gap with plausible rows would destroy the property that makes the dataset usable: that every row traces to something retrieved.</p>
+<p>用看似合理的行去填空，会毁掉这份数据集唯一可用的属性：每一行都能追溯到实际检索到的东西。</p>
+<h2>2. What is missing, by type / 2. 按类型列出的缺失</h2>
+<table>
+<thead>
+<tr>
+<th>Missing / 缺失</th>
+<th>Consequence / 影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Campaign event calendars (both sides)</td>
+<td>No meet-and-greets, county visits or church appearances; the two town halls are known only from photo captions.</td>
+</tr>
+<tr>
+<td>Venues and times for speeches</td>
+<td>Most rows carry <code>venue = unknown</code> and <code>event_time = unknown</code>.</td>
+</tr>
+<tr>
+<td>Crowd sizes</td>
+<td>Published in no retrieved source; never estimated here.</td>
+</tr>
+<tr>
+<td>The Myrtle Beach rally date</td>
+<td>Videos uploaded 2026-08-21/22; the event date is not established.</td>
+</tr>
+<tr>
+<td>Early-voting / GOTV events</td>
+<td>A photo documents an early-voting appearance (2026-10-28); no GOTV programme is recorded.</td>
+</tr>
+<tr>
+<td>Andrews events between 06-10 and 08-26</td>
+<td>The record jumps from the primary-night speech to a WBTV interview.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>缺失</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>双方竞选活动日程</td>
+<td>除两场有照片记录的市政厅外，没有见面会、县域走访或教会露面。</td>
+</tr>
+<tr>
+<td>讲话的场地与时间</td>
+<td>多数行 <code>venue = unknown</code>、<code>event_time = unknown</code>。</td>
+</tr>
+<tr>
+<td>参与人数</td>
+<td>任何已检索来源均未公布；本档案从不估算。</td>
+</tr>
+<tr>
+<td>默特尔比奇集会的日期</td>
+<td>视频上传于 2026-08-21/22；活动日期未能确立。</td>
+</tr>
+<tr>
+<td>提前投票／催票活动</td>
+<td>有一张照片记录 2026-10-28 的提前投票露面，但没有催票项目的记录。</td>
+</tr>
+<tr>
+<td>安德鲁斯在 06-10 至 08-26 之间的活动</td>
+<td>记录从初选之夜讲话直接跳到 WBTV 采访。</td>
+</tr>
+</tbody>
+</table>
+<h2>3. Asymmetry between the two candidates / 3. 两位候选人之间的不对称</h2>
+<p>Graham has 19 rows to Andrews's 13, and the imbalance is structural rather than editorial: the vacancy generated appointment, swearing-in, launch, filing-window, floor remarks and runoff events with no Democratic counterpart, plus four debates in which she took part.</p>
+<p>格雷厄姆 19 行、安德鲁斯 13 行，这一不平衡是结构性的而非编辑性的：空缺产生了一系列在民主党一方没有对应物的事件——任命、宣誓、启动、登记窗口、决选、院会发言——再加上她参与的四场辩论。安德鲁斯规模更大的竞选，其有日期、有分类的活动反而落在照片说明与视频上传上。</p>
+<h2>4. Rows dated by a recording or a caption / 4. 日期来自影像或说明的行</h2>
+<p>Several rows are dated by the upload date of a video showing the candidate speaking, or by a Commons file description, not by a campaign schedule. They are <code>partially verified</code> for that reason, and the evidence URL is in <code>video_url</code> or <code>photo_urls</code>. A human analyst should treat those dates as 'not earlier than' rather than exact.</p>
+<p>有十行的日期来自显示该候选人讲话的视频上传时间或照片说明，而非竞选日程。正因如此它们标记为 <code>partially verified</code>。人工分析者应把它们的日期视为「不早于」而非精确日期。</p>
+<h2>Sources</h2>
+<ul>
+<li>[SRC-2108] <code>https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina</code></li>
+</ul>
+  </main>
+</div>
+<footer><div class="in">
+  <p>Compiled 2026-11-12. Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>2026-11-12 编制。每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

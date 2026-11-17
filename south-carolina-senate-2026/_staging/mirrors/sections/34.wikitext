@@ -1,0 +1,27 @@
+====Debate====
+{| class="wikitable" style="text-align:center;"
+|+ Republican special primary runoff debate
+|-
+! scope="col" | {{abbr|No.|Number}}
+! scope="col" | Date
+! scope="col" | Host
+! scope="col" | Moderator
+! scope="col" | Link
+! scope="col"| <small>[[Republican Party (US)|Republican]]</small>
+! scope="col"| <small>[[Republican Party (US)|Republican]]</small>
+|-
+! colspan="5" rowspan="2" |Key:<br>{{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small>
+! scope="col" style="background:{{party color|Republican Party (US)}}"|
+! scope="col" style="background:{{party color|Republican Party (US)}}"|
+|-
+! scope="col" | [[Darline Graham]]
+! scope="col" | [[Ralph Norman]]
+|-
+!1
+| style="white-space:nowrap;" | August 18, 2026
+| style="white-space:nowrap;" |[[SCETV]]<br>[[Newsmax]]
+| style="white-space:nowrap;" | [[Greta Van Susteren]]<br>[[Van Hipp Jr.]]<br>Gavin Jackson
+| style="white-space:nowrap;" | [https://www.youtube.com/watch?v=PyxGkBSpS8g YouTube]
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+|}

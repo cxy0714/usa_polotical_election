@@ -1,0 +1,35 @@
+# [8.5] Polling
+
+Polling
+;Aggregate polls
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px" | Source of pollaggregation | Datesadministered | Datesupdated | style="width:100px;"| DarlineGraham (R) | style="width:100px;"| AnnieAndrews (D) | style="width:100px;" |Other/Undecided | Margin
+270toWin | October 14 – November 1, 2026 | November 2, 2026 |  |47.4% | 45.2% | 7.4% |  |Graham +2.2%
+Decision Desk HQ | through November 1, 2026 | November 2, 2026 | 45.9% |  |46.0% | 8.1% |  |Andrews +0.1%
+FiftyPlusOne | through November 1, 2026 | November 3, 2026 | 45.8% | 45.8% | 8.4% | Tie
+RealClearPolitics | October 14 – November 1, 2026 | November 2, 2026 |  |48.0% | 45.4% | 6.6% |  |Graham +2.6%
+Silver Bulletin | through November 1, 2026 | November 3, 2026 |  |47.2% | 46.1% | 6.7% |  |Graham +1.1%
+colspan="3" |Average | |46.9% | 45.7% | 7.4% | |Graham +1.2%
+
+{| class="wikitable" style="font-size:90%;text-align:center;"
+valign=bottom | Poll source | Date(s)administered | Samplesize | Margin | style="width:100px;"| DarlineGraham (R) | style="width:100px;"| AnnieAndrews (D) | Other | Undecided
+style="text-align: left;"|Trafalgar Group (R) | October 31 – November 1, 2026 | 1,091 (LV) | ±2.9% | |48% | 46% | 3% | 4%
+style="text-align: left;" |Rasmussen Reports (R) | October 27–31, 2026 | 1,028 (LV) | ±3.0% | |50% | 47% |  | 6%
+style="text-align: left;"|Resonance Media Services (R) | October 30, 2026 | 600 (LV) | ±4.0% | 45% | |46% | 3% | 7%
+style="text-align: left;"|Patinkin Research Strategies (D) | October 27–29, 2026 | 500 (LV) | ±4.4% | 43% | |48% | 8% | 
+style="text-align: left;"|New York Times/Siena University | October 19–26, 2026 | 707 (LV) | ±4.3% | 48% | 48% | 0% | 3%
+style="text-align:left;"|Targoz Media Research | October 16–25, 2026 | 895 (LV) | ±2.8% | |47% | 46% | 3% | 4%
+style="text-align:left;"|East Carolina University | October 19–24, 2026 | 955 (LV) | ±3.7% | |51% | 47% | 2% | 
+rowspan="2" style="text-align:left;" |The Citadel | rowspan="2"|October 14–25, 2026 | 890 (LV) | rowspan="2"|±3.4% | |43% | 39% | 2% | 15%
+1,009 (RV) | 35% | |40% | 5% | 20%
+style="text-align:left;"|Impact Research (D) | October 15–21, 2026 | 800 (LV) | ±3.5% | 44% | |45% | 5% | 5%
+style="text-align:left;"|Trafalgar Group (R) | October 16–18, 2026 | 1,095 (LV) | ±2.9% | |49% | 46% | 5% | 1%
+style="text-align: left;" |Rasmussen Reports (R) | October 5–8, 2026 | 837 (LV) | ±3.0% | |49% | 45% |  | 6%
+style="text-align: left;" |InsiderAdvantage (R) | September 28–29, 2026 | 1,200 (LV) | ±2.8% | |46% | 45% | 5% | 4%
+style="text-align:left;"|Trafalgar Group (R) | September 23–25, 2026 | 1,087 (LV) | ±2.9% | |43% | 42% | 6% | 9%
+style="text-align: left;" |Rasmussen Reports (R) | September 14, 2026 | 1,006 (LV) | ±3.0% | |48% | 43% |  | 9%
+style="text-align: left;" |InsiderAdvantage (R) | September 8–9, 2026 | 1,200 (LV) | ±2.8% | |45% | 43% | 3% | 9%
+style="text-align:left;" rowspan="2"|Abacus Data | rowspan="2"|August 26–28, 2026 | 306 (LV) |  | |55% | 42% | 3% | 
+500 (RV) | ±&nbsp;4.4% | 47% | |48% | 5% | 
+style="background:lightyellow;" | style="border-right-style:hidden; background:lightyellow;" | | style="border-right-style:hidden; " | August 25, 2026 | colspan="16"| Republican special primary runoff
+style="text-align: left;" |Impact Research (D) | August 18–24, 2026 | 700 (LV) | ±&nbsp;3.7% | 41% | 41% | 5% | 13%
+style="text-align: left;" |Impact Research (D) | August 14–22, 2026 | 900 (LV) | ±&nbsp;3.3% | 39% | |42% | 6% | 13%

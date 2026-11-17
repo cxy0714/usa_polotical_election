@@ -1,0 +1,265 @@
+===Polling===
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:70px;"| Annie<br />Andrews
+! style="width:70px;"| Brandon<br />Brown
+! style="width:70px;"| Kyle<br />Freeman
+! Undecided
+|-
+| style="text-align: left;" |[[The Citadel]]<ref name="CitadelMay2026"/>
+|May 21–31, 2026
+|427 (LV)
+|±&nbsp;4.7%
+|{{party shading/Democratic}}|'''45%'''
+|{{party shading/Democratic}}|'''14%'''
+|5%
+|36%
+|}
+
+
+<!-- = = = don't edit the line below = = = -->
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+'''Ralph Norman vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Ralph<br />Norman (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|{{party shading/Republican}}|'''43%'''
+|42%
+|15%
+|}
+
+'''Mark Sanford vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Mark<br />Sanford (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|40%
+|{{party shading/Democratic}}|'''41%'''
+|19%
+|}
+'''Mark Lynch vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Mark<br />Lynch (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|38%
+|{{party shading/Democratic}}|'''41%'''
+|21%
+|}
+'''Russell Fry vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Russell<br />Fry (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026">{{cite web|url=https://data.ddhq.io/polls/2026/07/30/Public-Policy-Polling/Annie-Andrews-South-Carolina-2026-07-16-2026-07-17|title=South Carolina Survey Results|work=[[Public Policy Polling]]|access-date=July 30, 2026}}</ref>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|39%
+|{{party shading/Democratic}}|'''42%'''
+|19%
+|}
+
+'''Pamela Evette vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Pamela<br />Evette (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|41%
+|{{party shading/Democratic}}|'''42%'''
+|17%
+|}
+
+'''Trey Gowdy vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Trey<br />Gowdy (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|{{party shading/Republican}}|'''44%'''
+|41%
+|15%
+|}
+
+'''Lindsey Graham vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Lindsey<br />Graham (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | July 11, 2026
+| colspan="9"| Lindsey Graham dies
+|-
+|style="text-align:left;"|Impact Research (D)<ref>{{cite web |title=June 2026 Impact Research poll |url=https://drive.google.com/file/d/1Iu8N5XaOVbTJR5_HE5IJtjHHas-UKvsJ/view |publisher=Impact Research |access-date=July 2, 2026 |date=June 30, 2026}}</ref>{{efn-ua|name=Andrews}}
+|June 17–22, 2026
+|700 (LV)
+|±&nbsp;3.7%
+|{{party shading/Republican}}|'''48%'''
+|45%
+|7%
+|-
+|style="text-align:left;"|Impact Research (D)<ref>{{cite web|url=https://s3.documentcloud.org/documents/27882119/sc-sen-impact-research-for-annie-andrews-march-2026.pdf|title=Recent Polling in South Carolina|work=Impact Research|date=March 11, 2026|access-date=March 17, 2026|via=[[DocumentCloud]]}}</ref>{{efn-ua|name=Andrews|Poll sponsored by Andrews's campaign.}}
+|February 25 – March 1, 2026
+|700 (LV)
+|±&nbsp;3.7%
+|{{party shading/Republican}}|'''47%'''
+|42%
+|11%
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPDec2025">{{cite web|url=https://314action.org/wp-content/uploads/2025/12/PPP-Memo-South-Carolina-Dec-2025.docx.pdf|title=Lindsey Graham Deeply Unpopular Heading into Reelection Year|first1=Jim|last1=Williams|work=[[Public Policy Polling]]|date=December 8, 2025|access-date=December 12, 2025}}</ref>{{efn-ua|name=314Action|Poll sponsored by [[314 Action]], which supports Andrews.}}
+|November 21–22, 2025
+|704 (V)
+|±&nbsp;3.7%
+|{{party shading/Republican}}|'''42%'''
+|36%
+|22%
+|}
+
+'''Lindsey Graham vs. generic Democrat'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Lindsey<br />Graham (R)
+! style="width:100px;"| Generic<br />Democrat
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPDec2025"/>{{efn-ua|name=314Action}}
+|November 21–22, 2025
+|704 (V)
+|±&nbsp;3.7%
+|{{party shading/Republican}}|'''41%'''
+|39%
+|20%
+|}
+
+'''Nancy Mace vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Nancy<br />Mace (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|39%
+|{{party shading/Democratic}}|'''42%'''
+|19%
+|}
+
+'''Generic Republican vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Generic<br />Republican
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|{{party shading/Republican}}|'''47%'''
+|39%
+|14%
+|}
+
+'''John Warren vs. Annie Andrews'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| John<br />Warren (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Undecided
+|-
+|style="text-align:left;"|[[Public Policy Polling]] (D)<ref name="PPPJuly2026"/>{{efn-ua|name=Andrews}}
+|July 16–17, 2026
+|577 (V)
+|±&nbsp;4.1%
+|36%
+|{{party shading/Democratic}}|'''42%'''
+|22%
+|}
+{{hidden end}}

@@ -1,0 +1,37 @@
+====Fundraising====
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of July 22, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}|Duke Buckner (R)
+|$10,960
+|$10,456
+|$504
+|-
+|{{party shading/Republican}}|Russell Fry (R)
+|$495,027
+|$10,441
+|$484,586
+|-
+|{{party shading/Republican}}|Mark Lynch (R)
+|$5,919,539
+|$5,372,977
+|$546,561
+|-
+|{{party shading/Republican}}|Ralph Norman (R)
+|$173,610
+|$2,189
+|$171,421
+|-
+|{{party shading/Republican}}|Mark Sanford (R)
+|$206,237
+|$177,136
+|$1,352,604
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC1" /></small>
+|}

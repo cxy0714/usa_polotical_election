@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research gaps / 研究缺口 — 案例研究 002 · 双语档案</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/overrides.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">案例研究 002 · 双语档案<small>South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</small></div>
+  <nav class="main"><a class="" href="../index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="../events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="../candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="../speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="../visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="../video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Frames</span></a><a class="" href="../audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="../media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & money</span></a><a class="" href="../context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="../compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="on" href="../sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources</span></a><a class="" href="../about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  
+  <main>
+<div class="crumb"><a href="../index.html">首页</a> / Research gaps</div><div class="meta">research_gaps.md · 2026-11-12</div><h1>Research gaps / 研究缺口</h1>
+<h2>1. Environmental limits / 1. 环境限制</h2>
+<table>
+<thead>
+<tr>
+<th>Limit / 限制</th>
+<th>Effect on this archive / 对本档案的影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>drannieandrews.com</code> and <code>darlinegraham.com</code> return HTTP 403 (Cloudflare)</td>
+<td>No campaign schedule, platform page, press release or ad library from either side. Every "what the campaign said" cell rests on third-party reporting.</td>
+</tr>
+<tr>
+<td><code>dgraham.senate.gov</code> and the NRLC release also 403</td>
+<td>Graham's own Senate communications are absent; her positions rest on one bill, one vote, four committee assignments, one debate remark.</td>
+</tr>
+<tr>
+<td>Shell TLS is broken (<code>SEC_E_NO_CREDENTIALS</code>) for <code>curl.exe</code> and <code>Invoke-WebRequest</code></td>
+<td>Only Python <code>urllib</code> with an explicit User-Agent reached the network. Bulk HTML retrieval of 300+ outlets was not practical, so coverage bodies were largely not read.</td>
+</tr>
+<tr>
+<td>No <code>web_search</code> tool in this session (no API key)</td>
+<td>Discovery relied on yt-dlp search and a Wikipedia citation crawl. Anything not cited by the race article or searchable on YouTube is outside the archive.</td>
+</tr>
+<tr>
+<td>Wikimedia 429s during image download</td>
+<td>41 of 48 images stored locally; the other 7 are link-only.</td>
+</tr>
+<tr>
+<td>No vision-language model locally</td>
+<td>Frames are described by measurable properties (scene position, face count, box area), not captions.</td>
+</tr>
+<tr>
+<td>No <code>ffprobe</code>; ffmpeg 4.3.1</td>
+<td>Duration and streams were taken from yt-dlp metadata rather than probe output.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>限制</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>drannieandrews.com</code> 与 <code>darlinegraham.com</code> 返回 HTTP 403（Cloudflare）</td>
+<td>双方都没有竞选日程、政纲页面、新闻稿或广告库。「竞选方说了什么」的单元格全部依赖第三方报道。</td>
+</tr>
+<tr>
+<td><code>dgraham.senate.gov</code> 与 NRLC 稿件同样 403</td>
+<td>格雷厄姆本人的参议院通联缺失；其立场只能依赖一项法案、一次表决、四项委员会任命、一句辩论发言。</td>
+</tr>
+<tr>
+<td>shell 的 TLS 损坏（<code>SEC_E_NO_CREDENTIALS</code>），<code>curl.exe</code> 与 <code>Invoke-WebRequest</code> 均不可用</td>
+<td>只有带显式 User-Agent 的 Python <code>urllib</code> 能连网。对 300+ 家媒体批量抓取 HTML 不现实，因此报道正文大多未读。</td>
+</tr>
+<tr>
+<td>本会话无 <code>web_search</code> 工具（无 API key）</td>
+<td>发现渠道限于 yt-dlp 搜索与维基百科引用爬取。未被该条目引用、也无法在 YouTube 搜到的内容，均在本档案之外。</td>
+</tr>
+<tr>
+<td>下载图片时遭遇维基媒体 429</td>
+<td>48 张图片中 41 张本地保存，其余 7 张仅存链接。</td>
+</tr>
+<tr>
+<td>本地无视觉语言模型</td>
+<td>帧只以可测量属性描述（场景位置、人脸数量、框面积），不做解说词。</td>
+</tr>
+<tr>
+<td>无 <code>ffprobe</code>；ffmpeg 4.3.1</td>
+<td>时长与流信息取自 yt-dlp 元数据，而非 probe 输出。</td>
+</tr>
+</tbody>
+</table>
+<h2>2. Content gaps by dataset / 2. 按数据集列出的内容缺口</h2>
+<p><strong>Events (28 of 70).</strong> No campaign calendars, so no town halls, county visits, church appearances
+or GOTV events. Fourteen rows carry <code>venue = unknown</code>, twenty-six carry <code>event_time = unknown</code>.
+Crowd sizes appear in no retrieved source and are never estimated.</p>
+<p><strong>活动（28 行，目标 70）。</strong> 没有竞选日程，因此没有市政厅、县域走访、教会露面或催票活动。14 行 <code>venue = unknown</code>，26 行 <code>event_time = unknown</code>。任何已检索来源都没有人数，本档案从不估算。</p>
+<p><strong>Finance (5 of 30).</strong> Four FEC snapshots are quoted in the sources (2026-03-31, 07-22, 08-05,
+10-14). Quarterly line items, individual-vs-PAC splits and disbursement detail are all <code>unknown</code>.
+The large March figure belongs to Lindsey Graham's committee and is flagged as such.</p>
+<p><strong>财务（5 行，目标 30）。</strong> 来源引用了四个 FEC 时点（2026-03-31、07-22、08-05、10-14）。季度明细、个人捐款与 PAC 捐款的拆分、支出明细均为 <code>unknown</code>。3 月的大额数字属于林赛·格雷厄姆的委员会，已如此标注。</p>
+<p><strong>Advertising (3 rows).</strong> No creative, script, flight dates or placement data. Two rows are
+outside-money transfers; one is an ad attributed to Andrews by a PinkNews report. The archive can
+say money moved; it cannot say what the money said.</p>
+<p><strong>广告（3 行）。</strong> 没有创意、脚本、投放日期或媒介数据。两行是外部资金转账，一行是 PinkNews 报道归于安德鲁斯的广告。档案能说明资金流动，不能说明资金说了什么。</p>
+<p><strong>Social (3 rows).</strong> Two posts are documented second-hand and one X status has no retrievable
+body. No engagement metrics exist anywhere in the corpus.</p>
+<p><strong>社交（3 行）。</strong> 两条为二手记录，一条 X 帖无法检索正文。整个语料中没有任何互动指标。</p>
+<p><strong>Media coverage (55 rows).</strong> Titles, authors and framings are present for 55 of the 334
+candidate-specific URLs the race article cites; the remaining coverage is registered in
+<code>sources.csv</code> without per-row framing. Bodies were not read for most outlets.</p>
+<p><strong>媒体报道（55 行）。</strong> 该条目引用的 334 条候选人相关 URL 中，55 条具备标题、作者与框架；其余媒体登记在 <code>sources.csv</code>，没有逐行框架。多数媒体正文未读。</p>
+<p><strong>Speeches.</strong> Transcripts exist for most videos via YouTube captions, but a machine transcript is
+not a transcript of record; <code>transcript_available</code> records what exists rather than what is
+authoritative. No paid transcript service was used.</p>
+<p><strong>演讲。</strong> 多数视频通过 YouTube 字幕获得文本，但机器转写不等于权威逐字稿；<code>transcript_available</code> 记录的是「存在什么」，而非「何为权威」。未使用付费转写服务。</p>
+<p><strong>Video.</strong> 27 videos, 1.47 GB, capped at 22 keyframes each (scene threshold 0.30), so an hour-long
+debate is sampled at roughly one frame every 2.7 minutes. That is enough to characterise staging
+and face presence, not enough for shot-level editing analysis.</p>
+<p><strong>视频。</strong> 27 个视频、1.47 GB，每个上限 22 帧（场景阈值 0.30），因此一小时的辩论约每 2.7 分钟取一帧。这足以刻画舞台与人脸出现，但不足以做镜头级剪辑分析。</p>
+<h2>3. Conflicts left unresolved / 3. 未解决的冲突</h2>
+<table>
+<thead>
+<tr>
+<th>Conflict / 冲突</th>
+<th>Handling / 处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lindsey Graham's death dated 2026-07-11 in the race article, 2026-07-12 in the Act article</td>
+<td>Both recorded; <code>07-11</code> used in the event table because it is the date the race article and the CBS piece agree on.</td>
+</tr>
+<tr>
+<td>Andrews's tenure at MUSC: "14 years" in one source, "about 15 years" in her own words</td>
+<td>Biography says "about 15 years, per her own account" and flags the discrepancy.</td>
+</tr>
+<tr>
+<td>Trump's endorsement of Darline Graham dated 2026-07-13 (race article) vs 2026-07-17 (Politico URL)</td>
+<td>Both recorded in <code>social_media.csv</code>; the post date is left unresolved.</td>
+</tr>
+<tr>
+<td>Counties won by Andrews: 24 in the county table, 25 in the article's prose</td>
+<td>The table governs <code>county_results.csv</code>; the prose claim is recorded as an unresolved conflict in <code>results_notes.md</code>.</td>
+</tr>
+<tr>
+<td>Graham's July bill: S.5025 (revised Russia sanctions) vs the enacted H.R. 5334</td>
+<td>Recorded as S.5025 with a note that it was not the enacted version.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>冲突</th>
+<th>处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>林赛·格雷厄姆逝世日期：条目作 2026-07-11，法案条目作 2026-07-12</td>
+<td>两者均记录；活动表采用 <code>07-11</code>，因为该条目与 CBS 报道一致。</td>
+</tr>
+<tr>
+<td>安德鲁斯在 MUSC 的年限：一处称 14 年，她本人称约 15 年</td>
+<td>传记写「据其本人说法约 15 年」，并标注差异。</td>
+</tr>
+<tr>
+<td>特朗普对达琳·格雷厄姆的背书日期：条目作 2026-07-13，Politico URL 作 2026-07-17</td>
+<td>均记录于 <code>social_media.csv</code>；帖子日期留作未决。</td>
+</tr>
+<tr>
+<td>安德鲁斯赢下的县数：县表 24 个，条目正文 25 个</td>
+<td><code>county_results.csv</code> 以县表为准；正文说法作为未决冲突记录于 <code>results_notes.md</code>。</td>
+</tr>
+<tr>
+<td>格雷厄姆 7 月法案：S.5025（修订版俄罗斯制裁）与已生效的 H.R. 5334</td>
+<td>记为 S.5025，并注明其非生效版本。</td>
+</tr>
+</tbody>
+</table>
+<h2>4. What would close the biggest gaps / 4. 弥补最大缺口所需</h2>
+<ol>
+<li>A browser session with residential TLS that can reach the two campaign sites — this alone would
+   fill the events, ads and message columns.</li>
+<li>FEC bulk data (<code>fec.gov/data</code>) for line-item receipts and disbursements, which would replace
+   five snapshot rows with a real finance table.</li>
+<li>A paid transcript service for the four debates, which would make the speech layer citable at
+   the sentence level.</li>
+<li>
+<p>A local vision-language model for frame captioning, which would let the visual layer describe
+   staging rather than count faces.</p>
+</li>
+<li>
+<p>一个能访问两个竞选网站的住宅 TLS 浏览器会话——仅此一项就能填补活动、广告与讯息列。</p>
+</li>
+<li>FEC 批量数据（<code>fec.gov/data</code>）的逐笔收支，可把五个时点行变成真正的财务表。</li>
+<li>针对四场辩论的付费转写服务，可使演讲层可逐句引用。</li>
+<li>本地视觉语言模型用于帧解说，可使视觉层描述舞台而非统计人脸。</li>
+</ol>
+<h2>Sources / 来源</h2>
+<ul>
+<li>[SRC-2108] <code>https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina</code></li>
+<li><code>_staging/B_gaps.md</code> — the positions stream's own gap log</li>
+</ul>
+  </main>
+</div>
+<footer><div class="in">
+  <p>Compiled 2026-11-12. Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>2026-11-12 编制。每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+<script src="../assets/app.js"></script>
+</body></html>

@@ -1,0 +1,5 @@
+/* widen the reading column; the Texas grid is 250px + 1fr with a 1280px cap */
+.layout{max-width:1500px}
+body.wide .layout{max-width:1500px}
+@media (min-width:1560px){.layout,body.wide .layout{max-width:1640px}}
+.prose img{max-width:100%;height:auto}

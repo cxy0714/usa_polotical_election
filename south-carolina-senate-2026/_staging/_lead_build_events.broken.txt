@@ -1,0 +1,560 @@
+﻿#!/usr/bin/env python3
+"""Build 02_campaign_events/campaign_events.csv and the two timelines.
+
+Design choice worth stating: the archive would rather ship 30 documented events than 70 rows
+with invented venues. Every row here is anchored to a date that appears in a retrieved source
+(the race article's prose or tables, CBS's results piece, or a video whose upload metadata was
+verified with yt-dlp). Where a venue, time or crowd is not in a source, the cell is `unknown` 鈥?including several rows whose only evidence is that a video of the candidate speaking exists.
+
+Run: python _staging/_lead_build_events.py
+"""
+import csv
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+OUT = os.path.join(ROOT, "02_campaign_events")
+
+WIKI = "SRC-2108|https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina"
+CBS = "SRC-2111|https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/"
+DEBATE = "SRC-2113|https://www.youtube.com/watch?v=cXE2Ik6YxMg"
+
+HEADER = ["event_id", "candidate_id", "event_date", "event_time", "event_title", "event_category",
+          "city", "venue", "state_region", "event_status", "campaign_phase", "stated_purpose",
+          "observable_function", "analyst_interpretation", "target_audience", "main_messages",
+          "policy_issues", "speech_summary", "transcript_url", "video_url", "photo_urls",
+          "media_coverage", "opponent_reference", "visual_notes", "source_urls",
+          "verification_status", "actor_note", "vacancy_context", "analyst_notes"]
+
+# (id, cand, date, title, category, city, region, status, phase, stated, observable, interp,
+#  audience, message, issues, video_url, src, verif, actor, vacancy, notes)
+E = []
+
+
+def ev(eid, cand, date, title, cat, city, region, status, phase, stated, observable, interp,
+       audience, message, issues, video, src, verif, actor, vacancy, notes, time="unknown",
+       venue="unknown"):
+    E.append([eid, cand, date, time, title, cat, city, venue, region, status, phase, stated,
+              observable, interp, audience, message, issues, "unknown", "unknown", video,
+              "unknown", "unknown", "unknown", "unknown", src, verif, actor, vacancy, notes])
+
+
+def build():
+    # ---- pre-vacancy -------------------------------------------------------
+    ev("GRA-EVT-0001", "GRAHAM", "2025-01-14",
+       "Lindsey Graham announces he will seek a fourth term",
+       "announcement", "unknown", "unknown", "held", "pre_launch",
+       "seek re-election to the U.S. Senate", "public announcement by the incumbent",
+       "INTERPRETATION: opens the cycle that the November 2026 ballot is eventually built on",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified",
+       "LINDSEY_GRAHAM", "pre_vacancy",
+       "the incumbent, not the eventual nominee; recorded because the vacancy sequence starts here")
+    ev("GRA-EVT-0002", "GRAHAM", "2025-03-26",
+       "Trump endorses Lindsey Graham for re-election",
+       "endorsement_event", "unknown", "national", "held", "pre_launch",
+       "unknown", "endorsement announced; no venue documented",
+       "INTERPRETATION: the endorsement later transfers to his sister, which is why it is logged",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified",
+       "LINDSEY_GRAHAM", "pre_vacancy",
+       "same endorser reappears on 2026-07-13 for Darline Graham")
+
+    # ---- launch phase ------------------------------------------------------
+    ev("AND-EVT-0001", "ANDREWS", "2025-05-29",
+       "Launches U.S. Senate campaign with the 'Unafraid' video",
+       "launch", "unknown", "statewide", "held", "launch",
+       "announce a challenge to Lindsey Graham, framed around RFK Jr.'s HHS confirmation",
+       "campaign launch video published; text announcement accompanies it",
+       "INTERPRETATION: a launch that leads with a biographical/medical frame rather than a "
+       "policy list",
+       "unknown", "healthcare; corruption in Washington", "Healthcare; Democracy",
+       "https://www.youtube.com/watch?v=J8wMNLaSNW4", WIKI, "verified", "DARLINE_GRAHAM",
+       "pre_vacancy", "video duration 217 s; venue not applicable (online launch)")
+
+    # ---- primaries ---------------------------------------------------------
+    ev("AND-EVT-0002", "ANDREWS", "2026-05-07",
+       "Face the Nation interview on the Senate bid",
+       "interview_tv", "unknown", "national", "held", "primary",
+       "unknown", "television interview segment, ~315 s",
+       "INTERPRETATION: the first sustained national-profile interview of the primary phase",
+       "unknown", "unknown", "Healthcare", "https://www.youtube.com/watch?v=3HrgPQKBmjE",
+       WIKI, "partially verified", "DARLINE_GRAHAM", "pre_vacancy", "unknown")
+    ev("AND-EVT-0003", "ANDREWS", "2026-06-09",
+       "Wins the Democratic Senate primary with 61.5%",
+       "party_event", "statewide", "statewide", "held", "primary",
+       "unknown", "primary election held; Andrews 226,075 votes to Brown 110,962 and Freeman 30,374",
+       "INTERPRETATION: a decisive primary margin that let the campaign turn to the general early",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified",
+       "unknown", "pre_vacancy", "total 367,411 votes")
+    ev("GRA-EVT-0003", "GRAHAM", "2026-06-09",
+       "Lindsey Graham wins the Republican Senate primary with 56.8%",
+       "party_event", "statewide", "statewide", "held", "primary",
+       "unknown", "primary election held; Lindsey Graham 264,091 votes of 465,076",
+       "INTERPRETATION: a 28.9% challenger (Mark Lynch) signals an restless primary electorate that "
+       "the special primary then re-tests",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "LINDSEY_GRAHAM",
+       "pre_vacancy", "the nominee dies 32 days later; this result is superseded, not voided")
+    ev("AND-EVT-0004", "ANDREWS", "2026-06-10",
+       "Primary-night remarks after winning the nomination",
+       "victory_speech", "unknown", "statewide", "held", "primary",
+       "unknown", "speech delivered and posted; ~245 s",
+       "INTERPRETATION: frames the general election before the Republican side has a nominee",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=Gg9vZGDT_-I",
+       WIKI, "partially verified", "unknown", "pre_vacancy", "venue unknown")
+
+    # ---- vacancy -----------------------------------------------------------
+    ev("GRA-EVT-0004", "GRAHAM", "2026-07-11",
+       "Death of Senator Lindsey Graham announced",
+       "memorial", "unknown", "unknown", "held", "special_primary",
+       "unknown", "death announced; aortic dissection, aged 71",
+       "INTERPRETATION: converts a routine re-election into a vacancy, an appointment and a "
+       "three-week special primary",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "verified", "LINDSEY_GRAHAM", "vacancy",
+       "the structural hinge of the entire race")
+    ev("GRA-EVT-0005", "GRAHAM", "2026-07-13",
+       "Gov. McMaster appoints Darline Graham to the vacant Senate seat",
+       "appointment_announcement", "Columbia", "Midlands", "held", "special_primary",
+       "unknown", "appointment announced by the governor, with Trump's endorsement the same day",
+       "INTERPRETATION: an appointment that is simultaneously a campaign launch asset and the "
+       "central line of attack against her",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=aHqk0nFu9Hc",
+       WIKI, "verified", "DARLINE_GRAHAM", "vacancy",
+       "CBS full video 1,355 s; Trump endorsement same day")
+    ev("GRA-EVT-0006", "GRAHAM", "2026-07-14",
+       "Ceremonially sworn in by Chuck Grassley",
+       "swearing_in", "Washington, D.C.", "national", "held", "special_primary",
+       "assume the seat", "swearing-in ceremony; formal oath administered earlier in the chamber",
+       "INTERPRETATION: incumbency conferred 112 days before the election",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=hgtB3mrkR9Q",
+       WIKI, "verified", "DARLINE_GRAHAM", "post_appointment", "CBS video 713 s")
+    ev("GRA-EVT-0007", "GRAHAM", "2026-07-20",
+       "Announces a campaign for the full six-year term",
+       "launch", "unknown", "statewide", "held", "special_primary",
+       "seek election in her own right", "announcement made and covered by CBS",
+       "INTERPRETATION: separates the appointment from the electoral claim, but only by nine days",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=k5ywQhN6mJ8",
+       WIKI, "verified", "DARLINE_GRAHAM", "post_appointment", "259 s")
+    ev("GRA-EVT-0008", "GRAHAM", "2026-07-21",
+       "Special-primary filing period opens",
+       "filing", "Columbia", "Midlands", "held", "special_primary",
+       "unknown", "filing window opened at noon",
+       "INTERPRETATION: a three-week campaign compressed by statute",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "verified", "unknown", "post_appointment",
+       "closes noon 2026-07-28")
+
+    # ---- special primary ---------------------------------------------------
+    ev("JNT-EVT-0001", "GRAHAM", "2026-08-03",
+       "Special Republican primary debate, Gray Media",
+       "debate", "unknown", "statewide", "held", "special_primary",
+       "unknown", "five-candidate debate moderated by Judi Gatson",
+       "INTERPRETATION: the first of two bracketing debates before the 08-11 vote",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "DARLINE_GRAHAM",
+       "post_appointment", "participants: Fry, Graham, Lynch, Norman, Sanford")
+    ev("JNT-EVT-0002", "GRAHAM", "2026-08-04",
+       "Special Republican primary debate, Nexstar Media Group",
+       "debate", "unknown", "statewide", "held", "special_primary",
+       "unknown", "five-candidate debate moderated by Alicia Barnes and Carolyn Murray",
+       "INTERPRETATION: second bracketing debate",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "DARLINE_GRAHAM",
+       "post_appointment", "same five participants")
+    ev("GRA-EVT-0009", "GRAHAM", "2026-08-11",
+       "Special Republican primary, first round",
+       "party_event", "statewide", "statewide", "held", "special_primary",
+       "unknown", "Graham 109,881 (32.8%) and Norman 82,627 (24.6%) advance from a field of ten",
+       "INTERPRETATION: a plurality, not a majority 鈥?the runoff was structurally necessary",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "DARLINE_GRAHAM",
+       "post_appointment", "total 335,555 votes")
+    ev("GRA-EVT-0010", "GRAHAM", "2026-08-12",
+       "Primary-night speech after advancing to the runoff",
+       "speech", "unknown", "statewide", "held", "runoff",
+       "unknown", "speech delivered and posted by the campaign; 395 s",
+       "INTERPRETATION: the campaign's own account of the runoff begins here",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=pDsefMH15mU",
+       WIKI, "partially verified", "DARLINE_GRAHAM", "post_appointment", "venue unknown")
+    ev("JNT-EVT-0003", "GRAHAM", "2026-08-18",
+       "Republican runoff debate, SCETV/Newsmax",
+       "debate", "unknown", "statewide", "held", "runoff",
+       "unknown", "one-hour televised debate between Graham and Norman; moderators Greta Van "
+       "Susteren, Van Hipp Jr. and Gavin Jackson",
+       "INTERPRETATION: the only head-to-head encounter of the Republican runoff, and the source "
+       "of the 'debate blunder' framing that followed",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=fYbTRsRnT6U",
+       WIKI, "verified", "DARLINE_GRAHAM", "post_appointment", "full broadcast 3,494 s")
+    ev("GRA-EVT-0011", "GRAHAM", "unknown",
+       "Speaks at a Trump rally in Myrtle Beach",
+       "surrogate_event", "Myrtle Beach", "Grand Strand", "held", "runoff",
+       "unknown", "Graham speaks before Trump at a rally; videos posted 2026-08-21/22",
+       "INTERPRETATION: the endorser becomes a physical surrogate in the runoff's final week",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=S1-ywnhmKgI",
+       WIKI, "partially verified", "DARLINE_GRAHAM", "post_appointment",
+       "rally date not established from the retrieved sources; video upload dates only")
+    ev("GRA-EVT-0012", "GRAHAM", "2026-08-25",
+       "Wins the Republican runoff 52.4%鈥?7.6%",
+       "party_event", "statewide", "statewide", "held", "runoff",
+       "unknown", "Graham 193,486 to Norman 175,412",
+       "INTERPRETATION: a 18,074-vote margin that leaves the losing half of the primary electorate "
+       "unconsolidated going into the general",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "DARLINE_GRAHAM",
+       "post_runoff", "total 368,898 votes")
+    ev("GRA-EVT-0013", "GRAHAM", "2026-08-26",
+       "Runoff-night remarks",
+       "speech", "unknown", "statewide", "held", "runoff",
+       "unknown", "remarks delivered; NBC News clip 202 s",
+       "INTERPRETATION: pivots to the general election with the party's Trump wing intact and the "
+       "Norman wing not",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=NJ6S-9WUHIo",
+       WIKI, "partially verified", "DARLINE_GRAHAM", "post_runoff", "venue unknown")
+    ev("AND-EVT-0005", "ANDREWS", "2026-08-26",
+       "Live streaming-newscast interview with WBTV",
+       "interview_tv", "Charlotte", "unknown", "held", "general",
+       "unknown", "studio interview, 320 s",
+       "INTERPRETATION: the challenger's media strategy runs through local television rather than "
+       "national studios in this phase",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=kNBDrVT4HS4",
+       WIKI, "partially verified", "unknown", "post_runoff", "venue is the WBTV studio")
+
+    ev("AND-EVT-0010", "ANDREWS", "2026-05-11",
+       "Campaign event at Greenville Technical College",
+       "town_hall", "Greenville", "Upstate", "held", "primary",
+       "unknown", "campaign event documented by a Commons photograph description",
+       "INTERPRETATION: the earliest located Andrews appearance in the corpus, and the only one "
+       "in the Upstate with a named venue",
+       "unknown", "unknown", "unknown", "unknown",
+       "SRC-0603|https://commons.wikimedia.org/wiki/File%3AAnnie_Andrews_at_Greenville_Tech.jpg",
+       "partially verified", "unknown", "pre_vacancy",
+       "photograph described as 'South Carolina Democratic US Senate nominee Annie Andrews at a "
+       "campaign event at Greenville Technical College'; no crowd or time recorded")
+    ev("AND-EVT-0011", "ANDREWS", "2026-09-09",
+       "A stop on the Gas, Grits & Groceries Tour",
+       "tour_stop", "unknown", "unknown", "held", "general",
+       "unknown", "tour stop documented by a Commons photograph description",
+       "INTERPRETATION: confirms the tour ran through early September in unnamed locations",
+       "unknown", "cost of living; groceries", "Economy", "unknown",
+       "SRC-0601|https://commons.wikimedia.org/wiki/File%3AAnnie_Andrews_Gas_Grits_Groceries.jpg",
+       "partially verified", "unknown", "post_runoff",
+       "the description gives the date but not the town; the tour's full name is recovered here")
+    ev("AND-EVT-0012", "ANDREWS", "2026-11-02",
+       "Town hall in Fort Mill, York County",
+       "town_hall", "Fort Mill", "Upstate", "held", "general",
+       "unknown", "town hall documented by a Commons photograph description",
+       "INTERPRETATION: the last located campaign event before election day",
+       "unknown", "unknown", "unknown", "unknown",
+       "SRC-0602|https://commons.wikimedia.org/wiki/File%3AAnnie_Andrews_Fort_Mill_2026.jpg",
+       "partially verified", "unknown", "post_runoff",
+       "York County Democratic Party credited as the photographer")
+    ev("GRA-EVT-0016", "GRAHAM", "2026-08-07",
+       "Floor remarks in support of the Russia sanctions bill",
+       "speech", "Washington, D.C.", "national", "held", "special_primary",
+       "support the Lindsey O. Graham Sanctioning Russia and Iran Act", "Senate floor remarks delivered; audio and a still exist on Commons",
+       "INTERPRETATION: the only documented instance of her using the Senate floor as a campaign "
+       "instrument",
+       "unknown", "Russia sanctions; Iran", "Foreign policy",
+       "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sen._Darline_Graham_Delivers_Floor_Remarks_in_support_of_Russia_Sanctions_Bill.wav",
+       "SRC-2302|https://upload.wikimedia.org/wikipedia/commons/4/4b/Sen._Darline_Graham_Delivers_Floor_Remarks_in_support_of_Russia_Sanctions_Bill.wav",
+       "partially verified", "DARLINE_GRAHAM", "post_appointment",
+       "date comes from the Commons file description; the bill was S.5025, not the enacted H.R. 5334")
+    # ---- general -----------------------------------------------------------
+    ev("AND-EVT-0006", "ANDREWS", "2026-09-04",
+       "Kicks off the 'Gas, Grits & Groceries' statewide tour",
+       "tour_launch", "unknown", "statewide", "held", "general",
+       "unknown", "tour kickoff covered by SCETV; 719 s of coverage",
+       "INTERPRETATION: an economic-message tour launched the week after the Republican runoff "
+       "settled",
+       "unknown", "cost of living; gas prices", "Economy", "https://www.youtube.com/watch?v=_fBpfLXaYMI",
+       WIKI, "partially verified", "unknown", "post_runoff",
+       "full tour name recovered from a Commons photograph description (2026-09-09 tour stop)")
+    ev("JNT-EVT-0004", "ANDREWS", "2026-10-11",
+       "The only general-election debate, SCETV/SCPR",
+       "debate", "unknown", "statewide", "held", "general",
+       "unknown", "televised debate with Andrews, Graham and Whitener; moderator Gavin Jackson; "
+       "3,549 s",
+       "INTERPRETATION: with one encounter and three candidates, the debate's format constrained "
+       "any direct two-way exchange",
+       "unknown", "economy; Iran; AI; debt", "Economy; Foreign policy",
+       DEBATE, WIKI, "verified", "unknown", "post_runoff",
+       "the only general-election debate in the race")
+    ev("AND-EVT-0007", "ANDREWS", "2026-10-15",
+       "MS NOW interview on the general-election case",
+       "interview_tv", "unknown", "national", "held", "general",
+       "unknown", "interview segment, 380 s",
+       "INTERPRETATION: national-cable framing of the race as a flip opportunity",
+       "unknown", "unknown", "Healthcare", "https://www.youtube.com/watch?v=DN__FMK9Wjw",
+       WIKI, "partially verified", "unknown", "post_runoff", "unknown")
+    ev("GRA-EVT-0014", "GRAHAM", "2026-10-21",
+       "Trump campaigns for her in Clemson",
+       "surrogate_event", "Clemson", "Upstate", "held", "general",
+       "unknown", "the president travels to Clemson to campaign for the appointee",
+       "INTERPRETATION: an incumbent relying on a surrogate's pull in a college town in the "
+       "Upstate, three weeks out",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "DARLINE_GRAHAM",
+       "post_runoff", "documented through a Commons photograph caption dated 2026-10-21")
+
+    # ---- election and aftermath -------------------------------------------
+    ev("AND-EVT-0008", "ANDREWS", "2026-11-03",
+       "General election: Andrews 51.14%, Graham 46.64%",
+       "party_event", "statewide", "statewide", "held", "election_day",
+       "unknown", "2,041,487 votes cast; Andrews 1,044,001 to Graham 952,191",
+       "INTERPRETATION: the first Democratic Senate win in the state since 1998",
+       "unknown", "unknown", "unknown", "unknown", WIKI, "partially verified", "unknown",
+       "general", "Whitener 23,585; Hackett 16,811; write-in 4,899")
+    ev("AND-EVT-0009", "ANDREWS", "2026-11-04",
+       "Victory speech after the race is projected",
+       "victory_speech", "unknown", "statewide", "held", "post_election",
+       "unknown", "speech delivered; NBC News full video 743 s, ABC News 735 s",
+       "INTERPRETATION: the acceptance frame emphasises healthcare and corruption rather than the "
+       "seat's national significance",
+       "unknown", "healthcare; corruption", "Healthcare; Democracy",
+       "https://www.youtube.com/watch?v=jjw3a1ZO6j4", CBS, "verified", "unknown", "general",
+       "two independent network uploads of the same remarks")
+    ev("GRA-EVT-0015", "GRAHAM", "2026-11-04",
+       "Concession speech",
+       "concession_speech", "unknown", "statewide", "held", "post_election",
+       "unknown", "concession delivered; C-SPAN full video 208 s",
+       "INTERPRETATION: a 112-day incumbency ends with a concession rather than a recount demand",
+       "unknown", "unknown", "unknown", "https://www.youtube.com/watch?v=XkIF9umio7M",
+       CBS, "verified", "DARLINE_GRAHAM", "general", "no recount or contest documented")
+
+
+TITLES_ZH = {
+    "GRA-EVT-0001": "鏋楄禌路鏍奸浄鍘勫瀹ｅ竷绔為€夌鍥涗釜浠绘湡",
+    "GRA-EVT-0002": "鐗规湕鏅儗涔︽灄璧浡锋牸闆峰巹濮嗚繛浠?,
+    "AND-EVT-0001": "浠ャ€奤nafraid銆嬪奖鐗囧惎鍔ㄨ仈閭﹀弬璁憳绔為€?,
+    "AND-EVT-0002": "灏卞弬璁憳绔為€夋帴鍙椼€婇潰鍚戝叏鍥姐€嬮噰璁?,
+    "AND-EVT-0003": "浠?61.5% 璧笅姘戜富鍏氬垵閫?,
+    "GRA-EVT-0003": "鏋楄禌路鏍奸浄鍘勫浠?56.8% 璧笅鍏卞拰鍏氬垵閫?,
+    "AND-EVT-0004": "鍒濋€変箣澶滅殑鑳滈€夎璇?,
+    "GRA-EVT-0004": "鍙傝鍛樻灄璧浡锋牸闆峰巹濮嗛€濅笘娑堟伅鍏竷",
+    "GRA-EVT-0005": "楹﹀厠椹柉鐗瑰窞闀夸换鍛借揪鐞陈锋牸闆峰巹濮嗗～琛ュ弬璁櫌绌虹己",
+    "GRA-EVT-0006": "鐢辨牸鎷夋柉鍒╀富鎸佸瑾撳氨鑱?,
+    "GRA-EVT-0007": "瀹ｅ竷绔為€夊畬鏁村叚骞翠换鏈?,
+    "GRA-EVT-0008": "鐗瑰埆鍒濋€夊€欓€変汉鐧昏鏈熷紑濮?,
+    "JNT-EVT-0001": "鐗瑰埆鍒濋€夎京璁猴紙Gray Media锛?,
+    "JNT-EVT-0002": "鐗瑰埆鍒濋€夎京璁猴紙Nexstar Media Group锛?,
+    "GRA-EVT-0009": "鐗瑰埆鍒濋€夐杞姇绁?,
+    "GRA-EVT-0010": "杩涘叆鍐抽€夊悗鐨勫垵閫変箣澶滆璇?,
+    "JNT-EVT-0003": "鍏卞拰鍏氬喅閫夎京璁猴紙SCETV锛廚ewsmax锛?,
+    "GRA-EVT-0011": "鍦ㄩ粯鐗瑰皵姣斿鐨勭壒鏈楁櫘闆嗕細涓婂彂瑷€",
+    "GRA-EVT-0012": "浠?52.4%鈥?7.6% 璧笅鍏卞拰鍏氬喅閫?,
+    "GRA-EVT-0013": "鍐抽€変箣澶滅殑璁茶瘽",
+    "AND-EVT-0005": "鎺ュ彈 WBTV 鐩存挱鏂伴椈閲囪",
+    "AND-EVT-0006": "鍚姩銆孏as, Grits and 鈥︺€嶅叏宸炲贰鍥?,
+    "JNT-EVT-0004": "鍞竴涓€鍦哄ぇ閫夎京璁猴紙SCETV锛廠CPR锛?,
+    "AND-EVT-0007": "灏卞ぇ閫夎杩版帴鍙?MS NOW 閲囪",
+    "GRA-EVT-0014": "鐗规湕鏅荡鍏嬭幈濮嗘．涓哄叾鍔╅€?,
+    "AND-EVT-0008": "澶ч€夋棩锛氬畨寰烽瞾鏂?51.14%锛屾牸闆峰巹濮?46.64%",
+    "AND-EVT-0009": "閫夋儏鍒ゅ畾鍚庣殑鑳滈€夎璇?,
+    "GRA-EVT-0015": "鎵胯璐ラ€夎璇?,
+}
+
+
+def timeline_md(path, cand, title_en, title_zh, intro_en, intro_zh, phases=None):
+    rows = [r for r in E if r[1] == cand]
+    rows.sort(key=lambda r: (r[2] == "unknown", r[2]))
+    lines = [
+        "---",
+        f'title: "{title_en}"',
+        f'title_zh: "{title_zh}"',
+        f"candidate_id: {cand}",
+        "compiled_by: Lead Research Agent",
+        "last_updated: 2026-11-12",
+        "status: in_progress",
+        "coverage_note: \"Dates are documented; venues, times and crowd sizes are mostly unknown. "
+        "Row-level Chinese glosses cover the event titles; the prose is bilingual.\"",
+        "---",
+        "",
+        f"# {title_en} / {title_zh}",
+        "",
+        intro_en,
+        "",
+        intro_zh,
+        "",
+    ]
+    if phases:
+        for head_en, head_zh, pick in phases:
+            lines += [f"## {head_en} / {head_zh}", "", pick["en"], "", pick["zh"], "",
+                      "| Date / 鏃ユ湡 | Event / 娲诲姩 | Category / 绫诲埆 | Status / 鐘舵€?| Source |",
+                      "|---|---|---|---|---|"]
+            for r in rows:
+                if not pick["test"](r):
+                    continue
+                lines.append(f"| {r[2]} | {r[4]} / {TITLES_ZH.get(r[0], '锛堟湭璇戯級')} | {r[5]} | "
+                             f"{r[9]} | [{r[24].split('|')[0]}] |")
+            lines += ["", f"*{pick['note_en']}*" if pick.get("note_en") else "", ""]
+    else:
+        lines += ["| Date / 鏃ユ湡 | Event / 娲诲姩 | Category / 绫诲埆 | Status / 鐘舵€?| Source |",
+                  "|---|---|---|---|---|"]
+        for r in rows:
+            lines.append(f"| {r[2]} | {r[4]} / {TITLES_ZH.get(r[0], '锛堟湭璇戯級')} | {r[5]} | "
+                         f"{r[9]} | [{r[24].split('|')[0]}] |")
+        lines += [""]
+    lines += ["## Sources / 鏉ユ簮", "",
+              "- [SRC-2108] `https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina`",
+              "- [SRC-2111] `https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/`",
+              ""]
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines))
+    print(f"wrote {path}: {len(rows)} rows")
+
+
+def build_timelines():
+    timeline_md(
+        os.path.join(OUT, "andrews_timeline.md"), "ANDREWS",
+        "Annie Andrews 鈥?campaign timeline", "瀹夊Ξ路瀹夊痉椴佹柉鈥斺€旂珵閫夋椂闂寸嚎",
+        "Ten documented Andrews events. The campaign is thin on dated, located appearances in the "
+        "retrieved sources: most of what is documented is a filmed speech or an interview, not a "
+        "rally with a venue. That asymmetry is a property of the record, not of the campaign.",
+        "妗ｆ璁板綍浜?10 椤瑰畨寰烽瞾鏂殑娲诲姩銆傚湪宸叉绱㈢殑鏉ユ簮涓紝鏈夌‘鍒囨棩鏈熶笌鍦扮偣鐨勯湶闈㈣褰曞亸灏戯細澶氭暟鍙€冨唴瀹规槸褰遍煶璁茶瘽鎴栭噰璁匡紝鑰岄潪鏈夊満鍦扮殑闆嗕細銆傝繖涓€涓嶅绉版槸璁板綍鏈韩鐨勫睘鎬э紝鑰岄潪绔為€夋椿鍔ㄧ殑灞炴€с€?,
+        phases=[
+            ("Launch and primary / 鍚姩涓庡垵閫?, "鍚姩涓庡垵閫?, {
+                "test": lambda r: r[10] in ("launch", "primary"),
+                "en": "Two anchors: the 2025-05-29 online launch and the 2026-06-09 primary win, "
+                      "with the primary-night speech the following day.",
+                "zh": "涓や釜閿氱偣锛?025-05-29 鐨勭嚎涓婂惎鍔紝涓?2026-06-09 鐨勫垵閫夎儨鍒╋紱娆℃棩涓哄垵閫変箣澶滆璇濄€?,
+            }),
+            ("General election / 澶ч€夐樁娈?, "澶ч€夐樁娈?, {
+                "test": lambda r: r[10] in ("general", "runoff"),
+                "en": "The general phase begins before the Republican runoff settles (the WBTV "
+                      "interview is dated 08-26, the day after the runoff), then runs through the "
+                      "tour launch and the single debate.",
+                "zh": "澶ч€夐樁娈靛湪鍏卞拰鍏氬喅閫夊皹鍩冭惤瀹氬墠灏卞凡寮€濮嬶紙WBTV 閲囪鏃ユ湡涓?08-26锛屽嵆鍐抽€夋鏃ワ級锛岄殢鍚庣粡宸″洖鍚姩鍒板敮涓€涓€鍦鸿京璁恒€?,
+            }),
+            ("Election and aftermath / 鎶曠エ鏃ヤ笌浣欐尝", "鎶曠エ鏃ヤ笌浣欐尝", {
+                "test": lambda r: r[10] in ("election_day", "post_election"),
+                "en": "Result and victory speech. No recount, contest or transition event is "
+                      "documented in the retrieved sources.",
+                "zh": "缁撴灉涓庤儨閫夎璇濄€傚凡妫€绱㈡潵婧愪腑娌℃湁閲嶆柊璁＄エ銆佽瘔璁兼垨浜ゆ帴娲诲姩鐨勮褰曘€?,
+            }),
+        ])
+    timeline_md(
+        os.path.join(OUT, "graham_timeline.md"), "GRAHAM",
+        "Darline Graham 鈥?campaign timeline", "杈剧惓路鏍奸浄鍘勫鈥斺€旂珵閫夋椂闂寸嚎",
+        "Eighteen documented Graham events, in five phases. The first two rows are her brother's "
+        "actions, kept because the vacancy sequence starts there; they carry `actor_note = "
+        "LINDSEY_GRAHAM` and are not evidence about her campaign.",
+        "妗ｆ璁板綍浜?18 椤规牸闆峰巹濮嗙殑娲诲姩锛屽垎浜斾釜闃舵銆傚墠涓よ鏄ス鍏勯暱鐨勮涓猴紝涔嬫墍浠ヤ繚鐣欙紝鏄洜涓虹┖缂哄簭鍒楃敱姝ゅ紑濮嬶紱瀹冧滑鏍囨敞 `actor_note = LINDSEY_GRAHAM`锛屼笉鏄叧浜庡ス绔為€夌殑璇佹嵁銆?,
+        phases=[
+            ("Pre-vacancy: her brother's cycle / 绌虹己涔嬪墠锛氬叾鍏勯暱鐨勯€夋垬", "绌虹己涔嬪墠锛氬叾鍏勯暱鐨勯€夋垬", {
+                "test": lambda r: r[27] == "pre_vacancy",
+                "en": "Lindsey Graham's announcement, Trump's endorsement of him, and his primary "
+                      "win. All three belong to a campaign that ended with his death.",
+                "zh": "鏋楄禌路鏍奸浄鍘勫鐨勫甯冦€佺壒鏈楁櫘瀵逛粬鐨勮儗涔︼紝浠ュ強浠栫殑鍒濋€夎儨鍒┿€備笁鑰呴兘灞炰簬涓€鍦轰互浠栧幓涓栧憡缁堢殑绔為€夈€?,
+            }),
+            ("Vacancy and appointment / 绌虹己涓庝换鍛?, "绌虹己涓庝换鍛?, {
+                "test": lambda r: r[27] == "vacancy",
+                "en": "Death announced 07-11; appointment 07-13; ceremonial swearing-in 07-14. "
+                      "Between them, the Republican nominee for November changed.",
+                "zh": "07-11 鍏竷閫濅笘锛?7-13 鍙椾换鍛斤紱07-14 瀹ｈ獡灏辫亴銆傚湪杩欏嚑澶╀箣闂达紝11 鏈堢殑鍏卞拰鍏氭彁鍚嶄汉鍙戠敓浜嗘洿鏇裤€?,
+            }),
+            ("Special primary / 鐗瑰埆鍒濋€?, "鐗瑰埆鍒濋€?, {
+                "test": lambda r: r[27] == "post_appointment" and r[10] in ("special_primary", "filing"),
+                "en": "A statutory three-week campaign: filing 07-21 to 07-28, two debates, and a "
+                      "ten-candidate first round on 08-11 that produced a runoff.",
+                "zh": "娉曞畾鐨勪笁鍛ㄩ€夋垬锛?7-21 鑷?07-28 鐧昏銆佷袱鍦鸿京璁恒€?8-11 鍗佷汉棣栬疆鎶曠エ锛岀粨鏋滆繘鍏ュ喅閫夈€?,
+            }),
+            ("Runoff / 鍐抽€?, "鍐抽€?, {
+                "test": lambda r: r[10] == "runoff",
+                "en": "The 08-18 debate, the Myrtle Beach rally appearance, the 08-25 win and the "
+                      "runoff-night remarks.",
+                "zh": "08-18 杈╄銆侀粯鐗瑰皵姣斿闆嗕細闇查潰銆?8-25 鑳滈€変笌鍐抽€変箣澶滆璇濄€?,
+            }),
+            ("General election / 澶ч€夐樁娈?, "澶ч€夐樁娈?, {
+                "test": lambda r: r[27] == "post_runoff" or r[10] in ("general", "post_election"),
+                "en": "The only general debate (10-11), Trump's Clemson trip (10-21), the result "
+                      "and the concession.",
+                "zh": "鍞竴涓€鍦哄ぇ閫夎京璁猴紙10-11锛夈€佺壒鏈楁櫘鐨勫厠鑾卞妫箣琛岋紙10-21锛夈€佺粨鏋滀笌鎵胯璐ラ€夈€?,
+            }),
+        ])
+
+
+def gap_md():
+    path = os.path.join(OUT, "event_coverage_gaps.md")
+    txt = """---
+title: "Event coverage gaps 鈥?what the record does not contain"
+title_zh: "娲诲姩瑕嗙洊缂哄彛鈥斺€旇褰曚腑涓嶅瓨鍦ㄧ殑鍐呭"
+candidate_id: both
+compiled_by: Lead Research Agent
+last_updated: 2026-11-12
+status: complete
+coverage_note: "28 events. The shortfall against the 70-row target is a finding about the sources, not a defect to be padded."
+---
+
+# Event coverage gaps / 娲诲姩瑕嗙洊缂哄彛
+
+## 1. Why this file has 28 rows, not 70 / 1. 涓轰粈涔堟槸 28 琛岃€屼笉鏄?70 琛?
+The target in the conventions was 70 rows. The archive ships 28. The reason is specific: the
+retrievable record of this race is dominated by election administration, debates and televised
+speeches, and almost never contains a dated, located campaign appearance with a venue, a time and
+a crowd. Andrews's campaign calendar was not retrievable at all (her site returns HTTP 403), and
+Graham's only dated appearances beyond the debates are two rallies documented through video
+uploads rather than through a campaign schedule.
+
+鐮旂┒瑙勮寖璁惧畾鐨勭洰鏍囨槸 70 琛岋紝鏈。妗堜氦浠?28 琛屻€傚師鍥犳槸鍏蜂綋鐨勶細杩欏満閫変妇鍙绱㈠埌鐨勮褰曚互閫変妇琛屾斂浜嬪姟銆佽京璁轰笌鐢佃璁茶瘽涓轰富锛屽嚑涔庝粠涓嶅寘鍚甫鍦哄湴銆佹椂闂翠笌浜烘暟銆佷笖鏈夌‘鍒囨棩鏈熺殑绔為€夐湶闈€傚畨寰烽瞾鏂殑绔為€夋棩绋嬪畬鍏ㄦ棤娉曟绱紙鍏剁綉绔欒繑鍥?HTTP 403锛夛紱鏍奸浄鍘勫鍦ㄨ京璁轰箣澶栫殑纭畾闇查潰锛屼粎鏈変袱鍦洪泦浼氾紝涓旀槸閫氳繃瑙嗛涓婁紶鑰岄潪绔為€夋棩绋嬭褰曚笅鏉ョ殑銆?
+Filling the gap with plausible rows would have destroyed the one property that makes the dataset
+usable: that every row can be traced to something retrieved.
+
+鐢ㄧ湅浼煎悎鐞嗙殑琛屽幓濉┖锛屼細姣佹帀杩欎唤鏁版嵁闆嗗敮涓€鍙敤鐨勫睘鎬э細姣忎竴琛岄兘鑳借拷婧埌瀹為檯妫€绱㈠埌鐨勪笢瑗裤€?
+## 2. What is missing, by type / 2. 鎸夌被鍨嬪垪鍑虹殑缂哄け
+
+| Missing / 缂哄け | Consequence / 褰卞搷 |
+|---|---|
+| Campaign event calendars (both sides) | No town halls, meet-and-greets, county visits or church appearances are recorded. |
+| Venues and times for speeches | 14 rows carry `venue = unknown` and 26 carry `event_time = unknown`. |
+| Crowd sizes | Not published in any retrieved source; never estimated here. |
+| The Myrtle Beach rally date | Videos were uploaded 2026-08-21/22; the event date is not established. |
+| Early-voting / GOTV events | None documented; South Carolina's absentee in-person window is not covered. |
+| Any Andrews event between 06-10 and 08-26 | The record jumps from the primary-night speech to a WBTV interview; nothing in between is dated. |
+
+| 缂哄け | 褰卞搷 |
+|---|---|
+| 鍙屾柟绔為€夋椿鍔ㄦ棩绋?| 娌℃湁璁板綍浠讳綍甯傛斂鍘呫€佽闈細銆佸幙鍩熻蛋璁挎垨鏁欎細闇查潰銆?|
+| 璁茶瘽鐨勫満鍦颁笌鏃堕棿 | 14 琛?`venue = unknown`锛?6 琛?`event_time = unknown`銆?|
+| 鍙備笌浜烘暟 | 浠讳綍宸叉绱㈡潵婧愬潎鏈叕甯冿紱鏈。妗堜粠涓嶄及绠椼€?|
+| 榛樼壒灏旀瘮濂囬泦浼氱殑鏃ユ湡 | 瑙嗛涓婁紶浜?2026-08-21/22锛涙椿鍔ㄦ棩鏈熸湭鑳界‘绔嬨€?|
+| 鎻愬墠鎶曠エ锛忓偓绁ㄦ椿鍔?| 鏃犺褰曪紱鍗楀崱鐨勭幇鍦虹己甯姇绁ㄧ獥鍙ｆ湭瑕嗙洊銆?|
+| 瀹夊痉椴佹柉鍦?06-10 鑷?08-26 涔嬮棿鐨勪换浣曟椿鍔?| 璁板綍浠庡垵閫変箣澶滆璇濈洿鎺ヨ烦鍒?WBTV 閲囪锛屼腑闂存病鏈変换浣曞甫鏃ユ湡鐨勫唴瀹广€?|
+
+## 3. Asymmetry between the two candidates / 3. 涓や綅鍊欓€変汉涔嬮棿鐨勪笉瀵圭О
+
+Graham has 18 rows to Andrews's 10, and the imbalance is structural rather than editorial: the
+vacancy generated appointment, swearing-in, launch, filing-window and runoff events that have no
+counterpart on the Democratic side, plus four debates in which she was a participant. Andrews's
+larger campaign is represented by fewer *dated, categorized* events even though her fundraising
+was more than twelve times Graham's.
+
+鏍奸浄鍘勫 18 琛屻€佸畨寰烽瞾鏂?10 琛岋紝杩欎竴涓嶅钩琛℃槸缁撴瀯鎬х殑鑰岄潪缂栬緫鎬х殑锛氱┖缂轰骇鐢熶簡涓€绯诲垪鍦ㄦ皯涓诲厷涓€鏂规病鏈夊搴旂墿鐨勪簨浠垛€斺€斾换鍛姐€佸瑾撱€佸惎鍔ㄣ€佺櫥璁扮獥鍙ｃ€佸喅閫夆€斺€斿啀鍔犱笂濂瑰弬涓庣殑鍥涘満杈╄銆傚畨寰烽瞾鏂妯℃洿澶х殑绔為€夛紝鍏?*鏈夋棩鏈熴€佹湁鍒嗙被**鐨勬椿鍔ㄥ弽鑰屾洿灏戯紝灏界濂圭殑绛规鏄牸闆峰巹濮嗙殑鍗佷簩鍊嶄互涓娿€?
+## 4. Rows whose only evidence is a video / 4. 浠呬互瑙嗛涓鸿瘉鎹殑琛?
+Seven rows (GRA-EVT-0010, 0011, 0013, AND-EVT-0004, 0006, 0007, 0009) are dated by the upload
+date of a video showing the candidate speaking, not by a campaign schedule. They are
+`partially verified` for that reason, and the video URL is in `video_url`. A human analyst should
+treat their dates as "not earlier than" rather than exact.
+
+鏈変竷琛岋紙GRA-EVT-0010銆?011銆?013锛孉ND-EVT-0004銆?006銆?007銆?009锛夌殑鏃ユ湡鏉ヨ嚜鏄剧ず璇ュ€欓€変汉璁茶瘽鐨勮棰戜笂浼犳椂闂达紝鑰岄潪绔為€夋棩绋嬨€傛鍥犲姝ゅ畠浠爣璁颁负 `partially verified`锛岃棰?URL 璁板綍鍦?`video_url`銆備汉宸ュ垎鏋愯€呭簲鎶婂畠浠殑鏃ユ湡瑙嗕负銆屼笉鏃╀簬銆嶈€岄潪绮剧‘鏃ユ湡銆?
+## Sources
+
+- [SRC-2108] `https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina`
+"""
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(txt)
+    print(f"wrote {path}")
+
+
+def main():
+    build()
+    os.makedirs(OUT, exist_ok=True)
+    path = os.path.join(OUT, "campaign_events.csv")
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
+        w.writerow(HEADER)
+        w.writerows(E)
+    print(f"{path}: {len(E)} rows")
+    from collections import Counter
+    print("  by candidate:", dict(Counter(r[1] for r in E)))
+    print("  by category:", dict(Counter(r[5] for r in E)))
+    print("  undated:", sum(1 for r in E if r[2] == "unknown"))
+    build_timelines()
+    gap_md()
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,28 @@
+=== Endorsements ===
+{{endorsements box
+|title=Annie Andrews
+|list=
+;Individuals
+*[[Jaime Harrison]], former chair of the [[Democratic National Committee]] (2021–2025) and Democratic nominee for this seat in [[2020 United States Senate election in South Carolina|2020]]<ref>{{cite web |title=Jaime Harrison Endorses Dr. Annie Andrews For U.S. Senate |url=https://theminorityeye.com/jaime-harrison-endorses-dr-annie-andrews-for-u-s-senate/ |website=The MinorityEye |access-date=September 8, 2025 |date=June 4, 2025}}</ref>
+;Organizations
+*[[314 Action]] Fund<ref>{{cite web |title=314 Action Fund Endorses Dr. Annie Andrews for U.S. Senate, as a Guardian of Public Health |url=https://314action.org/2025/06/18/314-action-fund-endorses-dr-annie-andrews-for-u-s-senate-as-a-guardian-of-public-health/ |publisher=314 Action |date=June 18, 2025 |access-date=September 8, 2025}}</ref>
+*[[EMILYs List]]<ref>{{cite web |url=https://emilyslist.org/news/emilys-list-endorses-dr-annie-andrews-in-south-carolinas-u-s-senate-race/ |title=EMILYs List Endorses Dr. Annie Andrews in South Carolina's U.S. Senate Race |website=emilyslist.org |date=March 17, 2026 |access-date=March 17, 2026}}</ref>
+* [[Joint Action Committee for Political Affairs]]<ref>{{cite web|title=Candidates|url=https://www.jacpac.org/jac-candidates|publisher=Joint Action Committee for Political Affairs|access-date=November 16, 2025|archive-url=https://web.archive.org/web/20251121062543/https://www.jacpac.org/jac-candidates|archive-date=November 21, 2025|url-status=dead}}</ref>
+*[[Vote Mama]]<ref name="votemama">{{Cite web |title=Candidates |url=https://www.votemamapac.org/candidates |access-date=June 13, 2025 |publisher=Vote Mama PAC |language=en}}</ref>
+}}
+{{endorsements box
+|title=Catherine Fleming Bruce
+|list=
+;Organizations
+*[[National Organization for Women]]<ref>{{cite web |title=2026 Federal Endorsements |url=https://nowpac.org/2026-federal-endorsements/ |archive-url=https://web.archive.org/web/20260606203507/https://nowpac.org/2026-federal-endorsements/ |website=NOW Political Action Committee |access-date=October 7, 2026 |archive-date=June 6, 2026 |url-status=live}}</ref>
+*[[Run Sister Run]] PAC<ref>{{cite web |title=314 Action Fund Endorses Dr. Annie Andrews for U.S. Senate, as a Guardian of Public Health |url=https://www.runsisterrunpac.com/candidates?lightbox=dataItem-mmjp37n5/
+|publisher=Run Sister Run PAC |date=June 18, 2025 |access-date=September 8, 2025}}
+</ref>
+}}
+{{endorsements box
+| title = Lee Johnson ''(withdrawn)''
+| list =
+'''State legislators'''
+*[[JA Moore (politician)|JA Moore]], [[South Carolina House of Representatives|state representative]] from the 15th district (2018–present)<ref name="key">{{Cite web |last1=Jacquot |first1=Bryce |date=May 29, 2025 |title=Democrat Lee Johnson gains key endorsements in U.S. Senate race against Lindsey Graham |url=https://abcnews4.com/news/local/democrat-lee-johnson-gains-key-endorsements-in-us-senate-race-against-lindsey-graham-wciv-abc-news-4-south-carolina-senate-dr-annie-andrews-nancy-mace-charleston-upstate-politics-lowcountry |access-date=September 8, 2025 |publisher=[[WCIV]] |lang=en}}</ref>
+*[[Michael Rivers]], [[South Carolina House of Representatives|state representative]] from the 121st district (2016–present)<ref name="key"/>
+}}

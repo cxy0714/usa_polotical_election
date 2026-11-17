@@ -1,0 +1,9 @@
+# [4.2.4] Debates
+
+Debates
+{| class="wikitable" style="text-align:center;" | + Republican special primary debates
+scope="col" |  | scope="col" | Date | scope="col" | Host | scope="col" | Moderator | scope="col" | Link | scope="col"| Republican | scope="col"| Republican | scope="col"| Republican | scope="col"| Republican | scope="col"| Republican
+colspan="5" rowspan="2" |Key: Participant&nbsp;  Absent&nbsp; | scope="col" style="background:"| | scope="col" style="background:"| | scope="col" style="background:"| | scope="col" style="background:"| | scope="col" style="background:"|
+scope="col" | Russell Fry | scope="col" | Darline Graham | scope="col" | Mark Lynch | scope="col" | Ralph Norman | scope="col" | Mark Sanford
+1 | style="white-space:nowrap;" | August 3, 2026 | style="white-space:nowrap;" | Gray Media | style="white-space:nowrap;" | Judi Gatson | style="white-space:nowrap;" | YouTube |  |  |  |  | 
+2 | style="white-space:nowrap;" | August 4, 2026 | style="white-space:nowrap;" | Nexstar Media Group | style="white-space:nowrap;" | Alicia BarnesCarolyn Murray | style="white-space:nowrap;" | YouTube |  |  |  |  |

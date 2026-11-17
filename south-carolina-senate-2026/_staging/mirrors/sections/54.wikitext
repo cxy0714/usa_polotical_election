@@ -1,0 +1,31 @@
+===Debates===
+{| class="wikitable" style="text-align:center;"
+|+ 2026 South Carolina U.S. Senate election debates
+|-
+! scope="col" | {{abbr|No.|Number}}
+! scope="col" | Date
+! scope="col" | Host
+! scope="col" | Moderator
+! scope="col" | Link
+! scope="col" | <small>[[Republican Party (United States)|Republican]]</small>
+! scope="col" | <small>[[Democratic Party (US)|Democratic]]</small>
+! scope="col" | <small>[[Libertarian Party (US)|Libertarian]]</small>
+|-
+! colspan="5" rowspan="2" |Key:<br />{{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small>
+! scope="col" style="background:{{party color|Republican Party (US)}}" |
+! scope="col" style="background:{{party color|Democratic Party (US)}}" |
+! scope="col" style="background:{{party color|Libertarian Party (US)}}" |
+|-
+! scope="col" | Graham
+! scope="col" | Andrews
+! scope="col" | Whitener
+|-
+!1<ref>{{Cite news |url=https://www.scetv.org/stories/2026/south-carolina-etv-and-public-radio-host-broadcast-and-livestream-south-carolina |title=South Carolina ETV and Public Radio to host, broadcast and livestream 'South Carolina Election 2026' U.S. Senate debate |last=Masters |first=Landon |work=[[South Carolina ETV]] |date=September 25, 2026 |access-date=October 11, 2026}}</ref>
+| style="white-space:nowrap;" | October 11, 2026
+| style="white-space:nowrap;" | [[South Carolina ETV]]<br />[[South Carolina Public Radio|SCPR]]
+| style="white-space:nowrap;" | Gavin Jackson
+| [https://www.youtube.com/watch?v=cXE2Ik6YxMg YouTube]
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+|}

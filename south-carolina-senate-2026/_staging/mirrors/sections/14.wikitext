@@ -1,0 +1,37 @@
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of March 31, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}|Thomas Dismukes (R)
+|style="text-align:right"|$14,935
+|style="text-align:right"|$13,125
+|style="text-align:right"|$1,810
+|-
+|{{party shading/Republican}}|Lindsey Graham (R)
+|style="text-align:right"|$20,688,173
+|style="text-align:right"|$21,566,021
+|style="text-align:right"|$11,613,609
+|-
+|{{party shading/Republican}}|''Ethan Holliman'' (R)
+|style="text-align:right"|$20,270
+|style="text-align:right"|$20,270
+|style="text-align:right"|$0
+|-
+|{{party shading/Republican}}|Mark Lynch (R)
+|style="text-align:right"|$5,726,191
+|style="text-align:right"|$2,398,855
+|style="text-align:right"|$3,327,336
+|-
+| {{party shading/Republican}} |''Paul Dans'' (R)
+|style="text-align:right"|$1,011,421
+|style="text-align:right"|$565,237
+|style="text-align:right"|$446,184
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC1">{{cite web |title=2026 Election United States Senate - South Carolina |url=https://www.fec.gov/data/elections/senate/SC/2026/ |publisher=[[Federal Election Commission]] |access-date=April 20, 2026}}</ref></small>
+|}

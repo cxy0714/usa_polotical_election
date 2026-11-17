@@ -1,0 +1,161 @@
+====Polling====
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />{{nowrap|of error}}
+! style="width:65px;"| Russell<br />Fry
+! style="width:65px;"| Darline<br />Graham
+! style="width:65px;"| Mark<br />Lynch
+! style="width:65px;"| Ralph<br />Norman
+! style="width:65px;"| Mark<br />Sanford
+! Other
+! Undecided
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{cite tweet|user=RobertCahaly|last=Cahaly|first=Robert|number=2087001134909083906|title= BREAKING: Final @trafalgar_group SC GOP 2026 Special Election for US Senate Tracking Poll (8/8-10)|access-date=August 10, 2026}}</ref>
+|August 8–10, 2026
+|1,027 (LV)
+|±&nbsp;2.9%
+|18%
+|{{party shading/Republican}} |'''26%'''
+|8%
+|{{party shading/Republican}} |'''20%'''
+|18%
+|5%{{efn|Danny Lee Ford with 2%; Duke Buckner, Glenda Gail Parker, Sam Shepherd, and Mark McBride with 1%}}
+|5%
+|-
+|style="text-align:left;"|Quantus Insights (R)<ref name="Quantus87">{{cite web |title=Graham Leads With South Carolina Primary Days Away |url=https://quantusinsights.org/polling/f/graham-leads-with-south-carolina-primary-days-away |website=Quantus Insights |access-date=August 7, 2026 |date=August 7, 2026}}</ref>
+|August 5–6, 2026
+|668 (LV)
+|±&nbsp;4.0%
+|{{party shading/Republican}} |'''20%'''
+|{{party shading/Republican}} |'''33%'''
+|8%
+|{{party shading/Republican}} |'''20%'''
+|17%
+|2%
+|{{sdash}}
+|-
+|style="text-align:left;"|co/efficient (R)<ref name="coefficient730">{{cite web |title=South Carolina 2026 Special Republican Primary |url=https://app.coefficient.org/public/fd093a3b-4ac6-46db-92af-ce57f63ba121 |website=co/efficient |access-date=August 1, 2026 |date=July 29, 2026}}</ref>
+|July 28–30, 2026
+|857 (LV)
+|±&nbsp;3.3%
+|{{party shading/Republican}} |'''16%'''
+|{{party shading/Republican}} |'''30%'''
+|6%
+|15%
+|9%
+|4%{{efn|Duke Buckner with 2%; Mark McBride with 1%; Glenda Gail Parker and Sam Shepherd with 0%}}
+|20%
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{cite tweet|user=RobertCahaly|last=Cahaly|first=Robert|number=2083285530016436317|title=BREAKING: @trafalgar_group SC GOP 2026 Special Election for US Senate Tracking Poll (7/28-30)|access-date=July 30, 2026}}</ref>
+|July 28–30, 2026
+|989 (LV)
+|±&nbsp;2.9%
+|{{party shading/Republican}} |'''17%'''
+|{{party shading/Republican}} |'''27%'''
+|8%
+|{{party shading/Republican}} |'''17%'''
+|15%
+|2%{{efn|Samuel Sam Shepherd and Duke Buckner with 1%; Mark McBride and Clark Nielson with 0%}}
+|12%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{cite web |title=South Carolina 2026: Norman, Graham Lead GOP Special Primary; Runoff Likely |url=https://emersoncollegepolling.com/south-carolina-2026-norman-graham-lead-gop-special-primary-runoff-likely/ |website=Emerson College Polling |date=July 30, 2026 |access-date=July 30, 2026}}</ref>
+|July 28–29, 2026
+|500 (LV)
+|±&nbsp;4.3%
+|12%
+|{{party shading/Republican}} |'''19%'''
+|7%
+|{{party shading/Republican}} |'''22%'''
+|11%
+|3%
+|{{party shading/Undecided}} |'''25%'''
+|}
+<!-- = = = don't edit the line below = = = -->
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />{{nowrap|of error}}
+! style="width:55px;"| Pamela<br />Evette
+! style="width:55px;"| Russell<br />Fry
+! style="width:55px;"| Darline<br />Graham
+! style="width:55px;"| Trey<br />Gowdy
+! style="width:55px;"| Mark<br />Lynch
+! style="width:55px;"| Nancy<br />Mace
+! style="width:55px;"| Henry<br />McMaster
+! style="width:55px;"| Ralph<br />Norman
+! style="width:55px;"| Mark<br />Sanford
+! Other
+! Undecided
+|-
+|style="text-align:left;"|Resonance Media Services (R)<ref name="RMS">{{cite web |title=SC Senate Special Election Primary Toplines |url=https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/07/SC-Senate-Special-Election-Primary-Toplines-Resonance.pdf |website=Resonance Media Services |access-date=July 26, 2026 |date=July 24, 2026}}</ref>
+|July 21, 2026
+|600 (LV)
+|±&nbsp;4.0%
+|10%
+|7%
+|{{party shading/Republican}} |'''21%'''
+|{{sdash}}
+|7%
+|3%
+|{{sdash}}
+|{{party shading/Republican}} |'''17%'''
+|7%
+|1%{{efn|Duke Buckner with 1%}}
+|{{party shading/Undecided}} |'''25%'''
+|-
+|style="text-align:left;"|Innovative Communication Strategies<ref name="ICS">{{cite web |last1=Foley |first1=Elizabeth |title=New poll shows Norman leading crowded South Carolina Senate primary|url=https://wpde.com/news/local/new-poll-shows-norman-leading-crowded-south-carolina-senate-primary-us-rep-ralph-norman-south-carolinas-republican-special-primary-us-senate-ralph-norman-darline-graham-russell-fry |website=ABC15 News |access-date=July 22, 2026 |date=July 22, 2026}}</ref>
+|July 20–21, 2026
+|788 (LV)
+|±&nbsp;3.5%
+|6%
+|12%
+|{{party shading/Republican}} |'''16%'''
+|{{sdash}}
+|9%
+|7%
+|{{sdash}}
+|{{party shading/Republican}} |'''19%'''
+|5%
+|2%{{efn|Duke Buckner with 2%}}
+|{{party shading/Undecided}} |'''26%'''
+|-
+|style="text-align:left;"|Peak Insights (R)<ref>{{Cite web|url=https://static.politico.com/5f/6b/cf6109b8424a9cb382e7bc01435b/peak-insights-ip-memo-july-202669.pdf|title=South Carolina U.S. Senate Special Primary Election Poll|last1=Iverson|first1=Erik|work=Peak Insights|date=July 21, 2026|access-date=July 31, 2026|via=[[Politico]]}}</ref>
+|July 18–20, 2026
+|900 (LV)
+|±&nbsp;3.0%
+|4%
+|9%
+|9%
+|{{party shading/Republican}} |'''38%'''
+|7%
+|6%
+|{{sdash}}
+|{{party shading/Republican}} |'''13%'''
+|4%
+|2%{{efn|"None/other" with 2%}}
+|8%
+|-
+|style="text-align:left;"|[[Emerson College]]<ref>{{cite web |last1=Mumford |first1=Camille |title=South Carolina 2026 Poll: No Clear Leader to Replace Late Sen. Graham on Ballot |url=https://emersoncollegepolling.com/south-carolina-2026-poll-no-clear-leader-to-replace-late-sen-graham-on-ballot |website=Emerson Polling |date=July 16, 2026 |access-date=July 16, 2026}}</ref>
+|July 14–15, 2026
+|500 (LV)
+|±&nbsp;4.3%
+|10%
+|9%
+|6%
+|{{sdash}}
+|{{party shading/Republican}} |'''13%'''
+|10%
+|8%
+|{{party shading/Republican}} |'''16%'''
+|5%
+|5%{{efn|"Someone else" with 5%}}
+|{{party shading/Undecided}} |'''18%'''
+|}
+{{hidden end}}

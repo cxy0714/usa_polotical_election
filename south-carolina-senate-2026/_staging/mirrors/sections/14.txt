@@ -1,0 +1,12 @@
+# [3.3] Fundraising
+
+Fundraising
+{| class="wikitable sortable"
+colspan=4 |Campaign finance reports as of March 31, 2026
+style="text-align:center;" | Candidate | Raised | Spent | Cash on hand
+|Thomas Dismukes (R) | style="text-align:right"|$14,935 | style="text-align:right"|$13,125 | style="text-align:right"|$1,810
+|Lindsey Graham (R) | style="text-align:right"|$20,688,173 | style="text-align:right"|$21,566,021 | style="text-align:right"|$11,613,609
+|Ethan Holliman (R) | style="text-align:right"|$20,270 | style="text-align:right"|$20,270 | style="text-align:right"|$0
+|Mark Lynch (R) | style="text-align:right"|$5,726,191 | style="text-align:right"|$2,398,855 | style="text-align:right"|$3,327,336
+ |Paul Dans (R) | style="text-align:right"|$1,011,421 | style="text-align:right"|$565,237 | style="text-align:right"|$446,184
+colspan="4" |Source: Federal Election Commission

@@ -46,3 +46,11 @@ texas-senate-2026/11_speech_audio/transcripts/*.cues.csv
 # 16 kHz mono WAV cache used while measuring (~4 GB) — deleted after each run.
 texas-senate-2026/_staging/vision/audio_cache/
 texas-senate-2026/_staging/vision/*.log
+
+# South Carolina video pipeline binaries (1.5 GB) and the 16 kHz WAV cache (2 GB).
+# Both are regenerable; nothing in the deliverable depends on them.
+south-carolina-senate-2026/_staging/vision/raw/
+south-carolina-senate-2026/_staging/vision/models/
+south-carolina-senate-2026/11_speech_audio/audio_cache/
+south-carolina-senate-2026/_staging/_tmp_*
+south-carolina-senate-2026/_staging/_tx_style.css

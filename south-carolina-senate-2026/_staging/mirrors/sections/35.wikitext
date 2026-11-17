@@ -1,0 +1,46 @@
+====Results====
+{{switcher
+|[[File:2026 United States Senate Republican special primary runoff election in South Carolina results map by county.svg|thumb|230px|Runoff results by county:
+{{collapsible list
+| title = {{legend|#E27F7F|Graham}}
+| {{legend|#E27F7F|50–60%}}
+| {{legend|#D75D5D|60–70%}}
+| {{legend|#D72F30|70–80%}}
+}}
+{{collapsible list
+| title = {{legend|#FF9A50|Norman}}
+|{{legend|#FF9A50|50–60%}}
+|{{legend|#EE8E50|60–70%}}
+}}
+]]|Runoff results by county
+|[[File:2026 United States Senate special Republican runoff in South Carolina by Congressional District.svg|thumb|230px|Runoff results by congressional district
+{{collapsible list
+| title = {{legend|#E27F7F|Graham}}
+| {{legend|#E27F7F|50–60%}}
+| {{legend|#D75D5D|60–70%}}
+| {{legend|#D72F30|70–80%}}
+}}
+{{collapsible list
+| title = {{legend|#FF9A50|Norman}}
+|{{legend|#FF9A50|50–60%}}
+|{{legend|#EE8E50|60–70%}}
+}}
+]]|Runoff results by congressional district}}
+{{Election box begin no change |title=Republican special primary runoff results}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Darline Graham]] (incumbent)
+  |votes      = 193,486
+  |percentage = 52.4
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Ralph Norman]]
+  |votes      = 175,412
+  |percentage = 47.6
+}}
+{{Election box total no change
+  |votes      = 368,898
+  |percentage = 100.0
+}}
+{{Election box end}}

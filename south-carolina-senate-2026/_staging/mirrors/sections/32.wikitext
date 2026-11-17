@@ -1,0 +1,24 @@
+====Fundraising====
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of August 5, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}|Darline Graham (R)
+|$346,783
+|$95,351
+|$251,431
+|-
+|{{party shading/Republican}}|Ralph Norman (R)
+|$934,892
+|$697,553
+|$237,339
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC1" /></small>
+|}
+[[File:Mark Sanford, Official Portrait, 113th Congress.jpg|thumb|225x225px|Former Governor and Congressman Mark Sanford came in fourth place in the Republican special primary election.]]
+[[File:Ralph Norman official photo (cropped 3).jpg|thumb|200x200px|Congressman [[Ralph Norman]] competed against  [[Darline Graham]] in the Republican special primary runoff.]]

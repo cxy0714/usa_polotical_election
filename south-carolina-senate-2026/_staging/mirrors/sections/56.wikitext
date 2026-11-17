@@ -1,0 +1,248 @@
+=== Polling ===
+;Aggregate polls
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
+!Source of poll<br>aggregation
+! Dates<br />administered
+! Dates<br />updated
+! style="width:100px;"| Darline<br />Graham (R)
+! style="width:100px;"| Annie<br/>Andrews (D)
+! style="width:100px;" |Other/<br />Undecided{{Efn|name=calculated|Calculated by taking the difference of 100% and all other candidates combined.}}
+! Margin
+|-
+|[[270toWin]]<ref>{{cite web|title=2026 Polls: South Carolina Senate|url=https://www.270towin.com/2026-senate-polls/south-carolina|website=[[270toWin]]|access-date=November 3, 2026}}</ref>
+|October 14 – November 1, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
+|November 2, 2026
+|{{party shading/Republican}} |'''47.4%'''
+|45.2%
+|7.4%
+|{{party shading/Republican}} |'''Graham +2.2%'''
+|-
+|[[Decision Desk HQ]]<ref>{{cite web|title=2026 South Carolina Senate Polling|url=https://votes.decisiondeskhq.com/races/2026-11-03/south-carolina-us-senate-general-election/polling|website=[[Decision Desk HQ]]|access-date=November 3, 2026}}</ref>
+|through November 1, 2026
+|November 2, 2026
+|45.9%
+|{{party shading/Democratic}} |'''46.0%'''
+|8.1%
+|{{party shading/Democratic}} |'''Andrews +0.1%'''
+|-
+|[[FiftyPlusOne]]<ref>{{cite web|title=South Carolina General Senate Election|url=https://fiftyplusone.news/polls/senate/general/south-carolina|website=[[FiftyPlusOne]]|access-date=November 3, 2026}}</ref>
+|through November 1, 2026
+|November 3, 2026
+|'''45.8%'''
+|'''45.8%'''
+|8.4%
+|'''Tie'''
+|-
+|[[RealClearPolitics]]<ref>{{cite web|title=2026 South Carolina Senate - Graham Nordone vs. Andrews|url=https://www.realclearpolling.com/polls/senate/general/2026/south-carolina/graham-nordone-vs-andrews|website=[[RealClearPolitics]]|access-date=November 3, 2026}}</ref>
+|October 14 – November 1, 2026
+|November 2, 2026
+|{{party shading/Republican}} |'''48.0%'''
+|45.4%
+|6.6%
+|{{party shading/Republican}} |'''Graham +2.6%'''
+|-
+|''[[Silver Bulletin]]''<ref name="Silver"/>
+|through November 1, 2026
+|November 3, 2026
+|{{party shading/Republican}} |'''47.2%'''
+|46.1%
+|6.7%
+|{{party shading/Republican}} |'''Graham +1.1%'''
+|-
+| colspan="3" |'''Average'''
+|{{party shading/Republican}}|'''46.9%'''
+|45.7%
+|7.4%
+|{{party shading/Republican}}|'''Graham +1.2%'''
+|}
+
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:100px;"| Darline<br />Graham (R)
+! style="width:100px;"| Annie<br />Andrews (D)
+! Other 
+! Undecided
+|-
+|style="text-align: left;"|[[Trafalgar Group]] (R)<ref>{{cite web |title=South Carolina General Election Poll |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/11/SC-Midterms-Survey-Report-1101.pdf |publisher=[[Trafalgar Group]] |access-date=November 3, 2026}}</ref>
+|October 31 – November 1, 2026
+|1,091 (LV)
+|±{{nbsp}}2.9%
+|{{party shading/Republican}}|'''48%'''
+|46%
+|3%{{Efn|Kasie Whitener (L) with 2%; Mark Hackett (C) with 1%}}
+|4%
+|-
+|style="text-align: left;" |[[Rasmussen Reports]] (R)<ref>{{cite web |title=Election 2026: South Carolina Senate |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_south_carolina_senate |work=[[Rasmussen Reports]] |date=November 2, 2026 |access-date=November 3, 2026}}</ref>
+|October 27–31, 2026
+|1,028 (LV)
+|±{{nbsp}}3.0%
+|{{party shading/Republican}}|'''50%'''
+|47%
+|{{sdash}}
+|6%
+|-
+|style="text-align: left;"|Resonance Media Services (R)<ref>{{cite web |title=Wilson Over 50 Percent; Senate Race Comes Down to Tuesday |url=https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/11/Resonance-final-SC-Poll-Memo-11-02-2026.pdf |publisher=Resonance Media Services |access-date=November 3, 2026 |date=November 2, 2026}}</ref>
+|October 30, 2026
+|600 (LV)
+|±{{nbsp}}4.0%
+|45%
+|{{party shading/Democratic}}|'''46%'''
+|3%{{Efn|"Other candidates" with 3%}}
+|7%
+|-
+|style="text-align: left;"|Patinkin Research Strategies (D)<ref>{{cite web |title=New poll shows Dr. Annie Andrews narrowly leading Darline Graham 48 to 43 percent, a new way to understand the electorate shows why |url=https://static1.squarespace.com/static/54512d3ce4b07de69d8320c7/t/6ae4f0f24aec54388059c463/1793388786248/PRS%2BProjectVOTE.SCSW+Poll+Release.103026.pdf |publisher=Patinkin Research Strategies |access-date=November 1, 2026}}</ref>{{Efn-ua|Poll conducted for Project V.O.T.E.}}
+|October 27–29, 2026
+|500 (LV)
+|±{{nbsp}}4.4%
+|43%
+|{{party shading/Democratic}}|'''48%'''
+|8%{{efn|Kasie Whitner (L) with 3%; Mark Hackett (C) with 3%; "Someone else" with 2%}}
+|{{sdash}}
+|-
+|style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: October 2026 Times/Siena Poll of the Likely Electorate in South Carolina |url=https://www.nytimes.com/interactive/2026/10/28/polls/times-siena-sc-poll-toplines.html |website=[[The New York Times]] |date=October 27, 2026 |access-date=October 28, 2026}}</ref>
+|October 19–26, 2026
+|707 (LV)
+|±{{nbsp}}4.3%
+|'''48%'''
+|'''48%'''
+|0%
+|3%
+|-
+|style="text-align:left;"|Targoz Media Research<ref>{{cite web |last1=Snipes |first1=Anisa |title=New poll shows neck-and-neck Senate race, double-digit lead for governor in SC midterms |url=https://www.foxcarolina.com/2026/10/26/new-poll-shows-neck-and-neck-senate-race-double-digit-lead-governor-sc-midterms/ |publisher=[[WHNS]] |access-date=October 27, 2026 |date=October 26, 2026}}</ref>{{Efn-ua|Poll conducted for the [[South Carolina Policy Council]]}}
+|October 16–25, 2026
+|895 (LV)
+|±{{nbsp}}2.8%
+|{{party shading/Republican}}|'''47%'''
+|46%
+|3%{{efn|Kasie Whitner (L) with 2%, Mark Hackett (C) with 1%}}
+|4%
+|-
+|style="text-align:left;"|[[East Carolina University]]<ref>{{cite web |title=ECU Poll Finds Graham Leading Andrews by Four Points |url=https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-finds-graham-leading-andrews-by-four-points |work=[[East Carolina University]] |date=October 29, 2026 |access-date=October 29, 2026}}</ref>
+|October 19–24, 2026
+|955 (LV)
+|±{{nbsp}}3.7%
+|{{party shading/Republican}}|'''51%'''
+|47%
+|2%
+|{{sdash}}
+|-
+| rowspan="2" style="text-align:left;" |[[The Citadel]]<ref>{{Cite web |url=https://poll.citadel.edu/wp-content/uploads/2026/10/The-Citadel-Poll-Oct2026.pdf |title=October 14 – 25, 2026, Toplines in South Carolina |work=[[The Citadel]] |date=October 27, 2026 |access-date=October 28, 2026}}</ref>
+|rowspan="2"|October 14–25, 2026
+|890 (LV)
+|rowspan="2"|±{{nbsp}}3.4%
+|{{party shading/Republican}}|'''43%'''
+|39%
+|2%{{efn|Mark Hackett (C) with 1%; Kasie Whitener (L) 1%}}
+|15%
+|-
+|1,009 (RV)
+|35%
+|{{party shading/Democratic}}|'''40%'''
+|5%{{efn|Mark Hackett (C) with 2%; "Not voting" with 2%; Kasie Whitener (L) 1%}}
+|20%
+|-
+|style="text-align:left;"|Impact Research (D)<ref>{{Cite web |url=https://freshstartpac.org/wp-content/uploads/2026/10/SC-Senate-Track-Public-Memo.pdf |title=New Poll Finds Path to Victory for Annie Andrews |work=Impact Research |date=October 22, 2026 |access-date=October 22, 2026}}</ref>{{efn-ua|Poll commissioned by Fresh Start SC, a [[super PAC]] supporting Annie Andrews}}
+|October 15–21, 2026
+|800 (LV)
+|±{{nbsp}}3.5%
+|44%
+|{{party shading/Democratic}}|'''45%'''
+|5%{{efn|Kasie Whitner with 3%, Mark Hackett with 2%}}
+|5%
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{Cite web |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/SC-Midterms-Survey-Report-1019.pdf |title=South Carolina General Election Poll |work=[[Trafalgar Group]] |date=October 18, 2026 |access-date=October 18, 2026}}</ref>
+|October 16–18, 2026
+|1,095 (LV)
+|±{{nbsp}}2.9%
+|{{party shading/Republican}}|'''49%'''
+|46%
+|5%{{efn|Kasie Whitner (L) with 4%, Mark Hackett (C) with 1%}}
+|1%
+|-
+|style="text-align: left;" |[[Rasmussen Reports]] (R)<ref name="Rasmussen10/9">{{cite web |title=Election 2026: South Carolina Senate |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_south_carolina_senate |website=[[Rasmussen Reports]] |access-date=October 11, 2026 |date=October 9, 2026}}</ref>
+|October 5–8, 2026
+|837 (LV)
+|±{{nbsp}}3.0%
+|{{party shading/Republican}}|'''49%'''
+|45%
+|{{sdash}}
+|6%
+|-
+|style="text-align: left;" |InsiderAdvantage (R)<ref>{{cite web|url=https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/|title=InsiderAdvantage South Carolina Senate: Graham Leads by One Point|date=October 2, 2026|access-date=October 2, 2026}}</ref>
+|September 28–29, 2026
+|1,200 (LV)
+|±{{nbsp}}2.8%
+|{{party shading/Republican}}|'''46%'''
+|45%
+|5%{{efn|Mark Hackett (C) with 3%; Kasie Whitener (L) with 2%}}
+|4%
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{Cite web |url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/SC-Midterms-Survey-Report-0926.pdf |title=South Carolina General Election Survey |work=[[Trafalgar Group]] |date=September 26, 2026 |access-date=September 26, 2026}}</ref>
+|September 23–25, 2026
+|1,087 (LV)
+|±{{nbsp}}2.9%
+|{{party shading/Republican}}|'''43%'''
+|42%
+|6%{{efn|"Other" with 6%}}
+|9%
+|-
+|style="text-align: left;" |[[Rasmussen Reports]] (R)<ref name="Rasmussen9/15">{{cite web |title=South Carolina Senate: Graham Leads by 5 Points |url=https://www.rasmussenreports.com/public_content/archive/election_2026/south_carolina_senate_graham_leads_by_5_points |website=[[Rasmussen Reports]] |access-date=October 11, 2026 |date=September 15, 2026}}</ref>
+|September 14, 2026
+|1,006 (LV)
+|±{{nbsp}}3.0%
+|{{party shading/Republican}}|'''48%'''
+|43%
+|{{sdash}}
+|9%
+|-
+|style="text-align: left;" |InsiderAdvantage (R)<ref>{{Cite web |title=Top Line Tabs SC |url=https://insideradvantage.com/top-line-tabs-sc/ |website=InsiderAdvantage |date=September 10, 2026 |access-date=September 10, 2026}}</ref>
+|September 8–9, 2026
+|1,200 (LV)
+|±{{nbsp}}2.8%
+|{{party shading/Republican}}|'''45%'''
+|43%
+|3%{{efn|name=Another3}}
+|9%
+|-
+|style="text-align:left;" rowspan="2"|[[Abacus Data]]<ref>{{cite web|url=https://abacusdata.ca/the-trade-war-next-door-what-american-voters-think-about-tariffs-canada-and-the-battle-for-the-u-s-senate/|title=The Trade War Next Door: What American Voters Think About Tariffs, Canada and the Battle for the U.S. Senate|last1=Coletto|first1=David|date=September 2, 2026|access-date=September 2, 2026|website=[[Abacus Data]]}}</ref>
+|rowspan="2"|August 26–28, 2026
+|306 (LV)
+|{{sdash}}
+|{{party shading/Republican}}|'''55%'''
+|42%
+|3%{{efn|name=Another3|"Another candidate" with 3%}}
+|{{sdash}}
+|-
+|500 (RV)
+|±&nbsp;4.4%
+|47%
+|{{party shading/Democratic}}|'''48%'''
+|5%{{efn|"Another candidate" with 5%}}
+|{{sdash}}
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | August 25, 2026
+| colspan="16"| Republican special primary runoff
+|-
+| style="text-align: left;" |Impact Research (D)<ref>{{cite web |title=Recent Polling Shows a Tied U.S. Senate Race in South Carolina |url=https://drannieandrews.com/wp-content/uploads/2026/08/IMPACT-SC-SEN-POLL-MEMO-AUG-2026.pdf |publisher=Impact Research |access-date=August 28, 2026 |date=August 26, 2026}}</ref>{{efn-ua|name=Andrews}}
+|August 18–24, 2026
+|700 (LV)
+|±&nbsp;3.7%
+|'''41%'''
+|'''41%'''
+|5%{{efn|Kasie Whitener (L) with 5%}}
+|13%
+|-
+| style="text-align: left;" |Impact Research (D)<ref>{{cite web |last1=Cohen |first1=Max |title=Impact Research poll of #SCSen finds Dem Annie Andrews leading Republican Darline Graham 42-39. Poll of 900 likely voters in the field from 8/14-8/22. MOE +/- 3.3% |url= https://x.com/maxpcohen/status/2094727213044191363 |publisher= [[Twitter]] |access-date= September 1, 2026 |date= September 1, 2026}}</ref>{{efn-ua| name= Andrews}}
+|August 14–22, 2026
+|900 (LV)
+|±&nbsp;3.3%
+|39%
+|{{party shading/Democratic}}|'''42%'''
+|6%{{efn|Kasie Whitener (L) with 6%}}
+|13%
+|}

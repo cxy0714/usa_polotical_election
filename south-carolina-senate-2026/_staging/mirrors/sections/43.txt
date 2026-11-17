@@ -1,0 +1,11 @@
+# [5.3] Fundraising
+
+Fundraising
+{| class="wikitable sortable"
+colspan=4 |Campaign finance reports as of March 31, 2026
+style="text-align:center;" | Candidate | Raised | Spent | Cash on hand
+|Annie Andrews (D) | style="text-align:right"|$6,519,296 | style="text-align:right"|$3,880,008 | style="text-align:right"|$2,639,287
+|Catherine Fleming Bruce (D) | style="text-align:right"|$0 | style="text-align:right"|$0 | style="text-align:right"|$5,030
+|Kyle Freeman (D) | style="text-align:right"|$53,475 | style="text-align:right"|$52,239 | style="text-align:right"|$1,236
+|Brandon Brown (D) | style="text-align:right"|$69,569 | style="text-align:right"|$20,369 | style="text-align:right"|$40,709
+colspan="4" |Source: Federal Election Commission

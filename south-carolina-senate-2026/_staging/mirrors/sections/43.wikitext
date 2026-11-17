@@ -1,0 +1,38 @@
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of March 31, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Democratic}}|Annie Andrews (D)
+|style="text-align:right"|$6,519,296
+|style="text-align:right"|$3,880,008
+|style="text-align:right"|$2,639,287
+|-
+|{{party shading/Democratic}}|Catherine Fleming Bruce (D)<ref name="End3Q25" group=note>As of April 20, 2026, latest FEC report is for the quarter ending September 30, 2025.</ref>
+|style="text-align:right"|$0
+|style="text-align:right"|$0
+|style="text-align:right"|$5,030
+|-
+|{{party shading/Democratic}}|Kyle Freeman (D)
+|style="text-align:right"|$53,475
+|style="text-align:right"|$52,239
+|style="text-align:right"|$1,236
+|-
+|{{party shading/Democratic}}|Brandon Brown (D)
+|style="text-align:right"|$69,569	
+|style="text-align:right"|$20,369
+|style="text-align:right"|$40,709 <!-- this number can be found on the report itself, even if the FEC election summary page has a different figure. -->
+|- <!-- did not file -- 
+|{{party shading/Democratic}}|Christopher Giracello (D)<ref group=note>As of April 20, 2026, candidate has filed no FEC reports for this campaign.</ref>
+|style="text-align:right"|$0
+|style="text-align:right"|$0
+|style="text-align:right"|$0
+|- -- did not file -->
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC1" /></small>
+|}
+{{reflist|group=note}}

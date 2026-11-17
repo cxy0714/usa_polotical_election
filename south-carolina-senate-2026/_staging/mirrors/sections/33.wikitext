@@ -1,0 +1,20 @@
+====Polling====
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />{{nowrap|of error}}
+! style="width:65px;"| Darline<br />Graham
+! style="width:65px;"| Ralph<br />Norman
+! Undecided
+|-
+|style="text-align:left;"|[[Trafalgar Group]] (R)<ref>{{cite tweet|user=RobertCahaly|last=Cahaly|first=Robert|number=2092072107240837128|title= BREAKING: Final @trafalgar_group SC GOP 2026 Special Election Runoff for US Senate Tracking Poll (8/22-24)|access-date=August 25, 2026}}</ref>
+|August 22–24, 2026
+|1,031 (LV)
+|±&nbsp;2.9%
+|'''48%'''
+|'''48%'''
+|4%
+|}
+[[File:Russell Fry 119th Congress.jpg|thumb|187x187px|Congressman [[Russell Fry]] came in third place in the Republican special primary election]]

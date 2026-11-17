@@ -1,0 +1,8 @@
+# [4.3.4] Debate
+
+Debate
+{| class="wikitable" style="text-align:center;" | + Republican special primary runoff debate
+scope="col" |  | scope="col" | Date | scope="col" | Host | scope="col" | Moderator | scope="col" | Link | scope="col"| Republican | scope="col"| Republican
+colspan="5" rowspan="2" |Key: Participant&nbsp; | scope="col" style="background:"| | scope="col" style="background:"|
+scope="col" | Darline Graham | scope="col" | Ralph Norman
+1 | style="white-space:nowrap;" | August 18, 2026 | style="white-space:nowrap;" |SCETVNewsmax | style="white-space:nowrap;" | Greta Van SusterenVan Hipp Jr.Gavin Jackson | style="white-space:nowrap;" | YouTube |  |

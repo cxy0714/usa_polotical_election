@@ -1,0 +1,58 @@
+=== Predictions ===
+{| class="wikitable sortable" style=text-align:center
+!Source
+!Ranking
+!As of
+|-
+|align="left"|[[CBS News]]<ref>{{Cite news |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |title=2026 midterm election races to watch |last1=Hubbard |first1=Kaia |last2=Linton |first2=Caroline |last3=Yilek |first3=Caitlin |last4=Walsh |first4=Joe |work=[[CBS News]] |orig-date=September 13, 2026 |date=November 2, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|October 30, 2026
+|-
+|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 8, 2026|website=[[Cook Political Report]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2026
+|-
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 8, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 8, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 1, 2026
+|-
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 8, 2026 |website=[[Inside Elections]]}}</ref>
+|{{USRaceRating|Tilt|R}}
+|October 29, 2026
+|-
+|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 8, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|October 29, 2026
+|-
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 8, 2026|website=[[RealClearPolitics]]}}</ref>
+|{{USRaceRating|Tossup}}
+|November 2, 2026
+|-
+|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2026
+|-
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 8, 2026 |url-access=subscription}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 3, 2026
+|-
+|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|R}}
+|November 2, 2026
+|}

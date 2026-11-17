@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>关于档案 / About — 案例研究 002 · 双语档案</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../index.html">2026 Senate Archive<span>2026 参议院档案</span></a>
+  <span class="apb-links">
+    <a href="../../index.html">Portal / 门户</a>
+    <a href="../../cases/texas/index.html">Texas / 德州</a>
+    <a href="../../cases/south-carolina/index.html">South Carolina / 南卡</a>
+  </span>
+  <span class="apb-here">South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">案例研究 002 · 双语档案<small>South Carolina Senate 2026 / 2026 南卡罗来纳州联邦参议员选举</small></div>
+  <nav class="main"><a class="" href="index.html">首页<span style="opacity:.6;font-size:.78em"> Home</span></a><a class="" href="events/index.html">事件<span style="opacity:.6;font-size:.78em"> Events</span></a><a class="" href="candidates/index.html">候选人<span style="opacity:.6;font-size:.78em"> Candidates</span></a><a class="" href="speeches/index.html">演讲<span style="opacity:.6;font-size:.78em"> Speeches</span></a><a class="" href="visual/index.html">影像<span style="opacity:.6;font-size:.78em"> Images</span></a><a class="" href="video/index.html">视频帧<span style="opacity:.6;font-size:.78em"> Frames</span></a><a class="" href="audio/index.html">音频<span style="opacity:.6;font-size:.78em"> Audio</span></a><a class="" href="media/index.html">媒体与资金<span style="opacity:.6;font-size:.78em"> Media & money</span></a><a class="" href="context/index.html">选举背景<span style="opacity:.6;font-size:.78em"> Context</span></a><a class="" href="compare/index.html">对比分析<span style="opacity:.6;font-size:.78em"> Comparison</span></a><a class="" href="sources/index.html">来源与缺口<span style="opacity:.6;font-size:.78em"> Sources</span></a><a class="on" href="about.html">关于档案<span style="opacity:.6;font-size:.78em"> About</span></a></nav>
+  <div class="modes" role="group" aria-label="语言模式">
+    <button data-mode="both" class="on">双语</button><button data-mode="en">EN</button><button data-mode="zh">中文</button>
+  </div>
+</div></header>
+<div class="layout">
+  
+  <main>
+<div class="crumb"><a href="index.html">首页</a> / 关于档案</div>
+<h1>这套档案是怎么做的<span class="zh">How this archive was built</span></h1>
+<h2>采集 / Collection</h2>
+<p>The Wikipedia race article supplied the skeleton: 63 sections and 534 cited URLs were mirrored to disk, parsed into
+county, polling and finance tables, then cross-checked against CBS's results reporting and the FEC tables quoted in the
+sources. Video came from yt-dlp searches plus a curated list of 27 uploads, downloaded at 720p (480p for the two
+hour-long debates).</p>
+<p>维基百科的选举条目提供了骨架：63 个章节与 534 条引用 URL 被镜像到本地，解析出县级、民调与财务表，再与 CBS 的
+结果报道以及来源中引用的 FEC 表格交叉核对。视频来自 yt-dlp 搜索与手工筛选的 27 条上传，720p 下载（两场一小时的辩论为 480p）。</p>
+<h2>校验 / Verification</h2>
+<p><code>_staging/_lead_validate.py</code> enforces header conformance, field counts, no blank cells, controlled
+vocabularies, ISO dates, and an <code>SRC-####</code> token plus URL in every row. The archive passes with zero hard
+failures.</p>
+<p><code>_staging/_lead_validate.py</code> 强制表头一致、字段数、无空单元格、受控词表、ISO 日期，以及每行都带
+<code>SRC-####</code> 与 URL。档案目前以零硬失败通过。</p>
+<h2>等级规则 / Tier rules</h2>
+<p><code>T1</code> official records (.gov domains, SCETV debate video); <code>T2</code> established news organisations;
+<code>T3</code> everything else, including Wikipedia, advocacy sites and social posts. Tier is assigned from the domain
+mechanically: it describes the venue, not the accuracy of a claim.</p>
+<p><code>T1</code> 官方记录（.gov 域、SCETV 辩论视频）；<code>T2</code> 既有新闻机构；<code>T3</code> 其余，包括
+维基百科、倡议组织网站与社交帖子。等级按域名机械判定：它描述发表场所，而非某条主张的准确性。</p>
+<h2>与德州案例的关系 / Relation to the Texas case</h2>
+<p>Both cases use the same components and the same stylesheet, so a reader moving between them does not have to learn a
+second interface. The data models differ where the races differ: South Carolina adds <code>actor_note</code> and
+<code>vacancy_context</code> because a death and an appointment sit inside its event sequence.</p>
+<p>两个案例使用同一套组件与同一份样式表，读者在两个案例之间切换时不必重新适应界面。数据模型随选举不同而不同：南卡增加了
+<code>actor_note</code> 与 <code>vacancy_context</code>，因为其事件序列中包含一次死亡与一次任命。</p>
+
+  </main>
+</div>
+<footer><div class="in">
+  <p>Compiled 2026-11-12. Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>2026-11-12 编制。每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+<script src="assets/app.js"></script>
+</body></html>
