@@ -304,7 +304,7 @@ than a reference error — the archive records the score and leaves the question
 Iowa (1 usable Turek reference, a group photograph) attributes 32% and never identifies Turek. This is
 a property of the licensed portrait supply, and is stated in each `10_video_frames/README.md`.
 
-**6.4 News photography is now a caption layer, not an image layer.** 384 credited news-photo rows were
+**6.4 News photography is now a caption layer, not an image layer.** 383 credited news-photo rows were
 added across the six cases from archived article HTML. They are link-and-credit only: no file is
 stored, because the photographs are all rights reserved. 637 image rows now exist across the eight
 cases; 171 files are stored. Captions can name clothing, but none of the harvested captions does.
@@ -320,6 +320,6 @@ cases; 171 files are stored. Captions can name clothing, but none of the harvest
 **6.3 参考质量决定覆盖率。** 俄亥俄（每位候选人 7 张肖像）覆盖 78% 的帧；艾奥瓦（Turek 唯一可用参考是
 一张合影）覆盖 32%，且从未识别出 Turek。这是授权肖像供给的属性，已写入各案 `10_video_frames/README.md`。
 
-**6.4 新闻摄影现在是图注层，不是图像层。** 六案从存档文章 HTML 中新增 384 条带署名的新闻图片记录。
+**6.4 新闻摄影现在是图注层，不是图像层。** 六案从存档文章 HTML 中新增 383 条带署名的新闻图片记录。
 它们仅提供链接与署名：不存文件，因为照片均为版权保留。八案现有 637 条影像记录、171 个已存文件。
 图注可能描述着装，但已采集的图注中没有一条这样做。

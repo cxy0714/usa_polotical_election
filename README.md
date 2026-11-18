@@ -77,13 +77,13 @@ polling), `08_comparative_analysis`, `09_sources` and bilingual `README.md` / `r
 On 2026-11-18 the six new cases also received the visual layer used by the earlier two: credited
 news-photo captions harvested from the archived articles (all link-and-credit only), a downloaded
 video corpus, scene keyframes, and a YuNet+SFace pass that attributes frames to the two nominees
-(`10_video_frames/`). 19 videos, 228 keyframes and 384 news-photo rows were added; the method and its
+(`10_video_frames/`). 19 videos, 228 keyframes and 383 news-photo rows were added; the method and its
 limits are in [2026-image-and-message-notes.md](2026-image-and-message-notes.md) §6 and in each
 case's `10_video_frames/README.md`.
 
 2026-11-18，六个新案例也补上了先前两案使用的视觉层：从存档文章中采集的带署名新闻图注（均仅链接与署名）、
 下载的视频语料、场景关键帧，以及把帧归属到两位提名人的 YuNet+SFace 比对（`10_video_frames/`）。
-新增 19 段视频、228 张关键帧与 384 条新闻图片记录；方法与限制见
+新增 19 段视频、228 张关键帧与 383 条新闻图片记录；方法与限制见
 [2026-image-and-message-notes.md](2026-image-and-message-notes.md) 第 6 节及各案 `10_video_frames/README.md`。
 
 Every case is validated mechanically: header conformance, no blank cells, ISO dates, controlled
