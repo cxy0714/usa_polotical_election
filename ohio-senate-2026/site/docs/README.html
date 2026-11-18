@@ -6,7 +6,7 @@
 </head><body class="wide">
 <header class="top"><div class="top-in">
   <div class="brand">README<small>2026 archive · bilingual</small></div>
-  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="" href="../video/index.html">视频<span style="opacity:.6;font-size:.78em"> Video</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
 </div></header>
 <div class="layout"><main>
 <div class="crumb"><a href="index.html">文档 / Docs</a> / README.md</div><h1>2026 Ohio U.S. Senate special election / 2026年俄亥俄州联邦参议员特别选举</h1>
@@ -61,6 +61,18 @@
 <h2>8. Provenance note / 来源说明</h2>
 <p><code>sources.csv</code> holds 195 entries, all retrieved on 2026-11-18 and mirrored under <code>_staging/</code> with a row in <code>_staging/fetch_log.csv</code> recording status and byte count. Sources that returned 403/402 (AP, Politico, the Ohio Secretary of State, several TV stations) are recorded in the fetch log as failures and are <strong>not</strong> cited as content; where their reporting was needed, a syndicated mirror that did load is cited instead and the substitution is stated in <code>reliability_notes</code>.</p>
 <p><code>sources.csv</code> 收录195条来源，均于2026-11-18抓取并镜像保存，抓取日志记录状态与字节数。 返回403/402的来源仅作为失败记录，绝不作为内容引用；确需其报道时改用可访问的转载版本，并在 <code>reliability_notes</code> 中说明替换关系。</p>
+<h2>Video and news-photo layer (2026-11-18)</h2>
+<ul>
+<li><strong>News photographs:</strong> 25 credited caption rows added to <code>04_visual_archive/image_archive.csv</code> from the archived article HTML. All are <code>all_rights_reserved_link_only</code>: article URL, caption and credit are stored, the image is not.</li>
+<li><strong>Video corpus:</strong> 4 uploaded videos, 54 keyframes, 42/54 frames attributed by SFace against the licensed portraits. Details, method and limits: [<code>10_video_frames/README.md</code>](10_video_frames/README.md).</li>
+<li><strong>Identity distribution:</strong> BROWN 23, HUSTED 19, unknown 12</li>
+<li><strong>Still no clothing evidence:</strong> no keyframe was read by a vision model and no harvested caption names clothing, so <code>clothing_notes</code> remains <code>unknown</code> throughout.</li>
+</ul>
+<ul>
+<li><strong>新闻照片：</strong> 从存档文章 HTML 新增 25 条带署名的图注记录至 <code>04_visual_archive/image_archive.csv</code>。全部为 <code>all_rights_reserved_link_only</code>：保存文章 URL、图注与署名，不保存图片。</li>
+<li><strong>视频语料：</strong> 4 段上传视频、54 张关键帧，SFace 对照授权肖像后归属 42/54 帧。方法、限制与逐视频明细见 [<code>10_video_frames/README.md</code>](10_video_frames/README.md)。</li>
+<li><strong>仍无着装证据：</strong> 没有关键帧被视觉模型读取，已采集图注也没有描述着装，<code>clothing_notes</code> 全部保持 <code>unknown</code>。</li>
+</ul>
 </main></div>
 <footer><div class="in">
   <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>

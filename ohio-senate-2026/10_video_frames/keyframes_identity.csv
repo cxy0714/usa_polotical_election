@@ -1,0 +1,55 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+OH_brown_victory-KF-001,BROWN,0.665,HUSTED,0.199,6,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-002,BROWN,0.622,HUSTED,0.220,5,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-003,BROWN,0.554,HUSTED,0.246,2,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-004,BROWN,0.595,HUSTED,0.274,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-005,BROWN,0.606,HUSTED,0.239,5,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-006,BROWN,0.409,HUSTED,0.137,5,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-007,BROWN,0.600,HUSTED,0.257,4,3,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-008,BROWN,0.595,HUSTED,0.256,4,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-009,BROWN,0.574,HUSTED,0.315,4,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-010,BROWN,0.640,HUSTED,0.313,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-011,BROWN,0.596,HUSTED,0.186,4,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_victory-KF-012,BROWN,0.628,HUSTED,0.284,8,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-001,BROWN,0.670,HUSTED,0.198,9,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-002,BROWN,0.442,HUSTED,0.193,8,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-003,BROWN,0.432,HUSTED,0.216,9,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-004,BROWN,0.503,HUSTED,0.233,9,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-005,BROWN,0.506,HUSTED,0.177,11,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-006,BROWN,0.579,HUSTED,0.221,11,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-007,BROWN,0.476,HUSTED,0.147,10,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-008,BROWN,0.489,HUSTED,0.207,10,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-009,BROWN,0.463,HUSTED,0.158,11,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-010,BROWN,0.426,HUSTED,0.155,11,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-011,HUSTED,0.469,BROWN,0.252,11,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_brown_toledo-KF-012,unknown,0.298,BROWN,0.232,8,0,face present but no candidate reference clears threshold/margin
+OH_husted_concession-KF-001,HUSTED,0.549,BROWN,0.291,5,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-002,HUSTED,0.703,BROWN,0.206,4,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-003,HUSTED,0.610,BROWN,0.206,4,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-004,HUSTED,0.604,BROWN,0.263,4,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-005,HUSTED,0.506,BROWN,0.097,3,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-006,HUSTED,0.558,BROWN,0.108,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-007,HUSTED,0.658,BROWN,0.206,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-008,HUSTED,0.595,BROWN,0.172,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-009,HUSTED,0.670,BROWN,0.203,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-010,HUSTED,0.575,BROWN,0.152,3,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-011,HUSTED,0.696,BROWN,0.226,3,3,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_concession-KF-012,HUSTED,0.704,BROWN,0.218,3,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-001,unknown,0.000,unknown,0.000,0,0,no face detected
+OH_husted_launch-KF-002,unknown,0.330,HUSTED,0.259,1,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-003,HUSTED,0.639,BROWN,0.118,3,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-004,unknown,0.333,HUSTED,0.297,0,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-005,HUSTED,0.415,BROWN,0.339,5,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-006,BROWN,0.416,HUSTED,0.240,1,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-007,HUSTED,0.639,BROWN,0.176,2,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-008,unknown,0.000,unknown,0.000,0,0,no face detected
+OH_husted_launch-KF-009,HUSTED,0.801,BROWN,0.235,4,2,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-010,unknown,0.308,BROWN,0.284,3,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-011,HUSTED,0.677,BROWN,0.190,8,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-012,unknown,0.341,BROWN,0.207,2,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-013,HUSTED,0.401,BROWN,0.127,1,1,best SFace match clears threshold 0.363 and margin 0.05
+OH_husted_launch-KF-014,unknown,0.312,HUSTED,0.198,1,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-015,unknown,0.203,HUSTED,0.203,1,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-016,unknown,0.260,HUSTED,0.240,1,0,face present but no candidate reference clears threshold/margin
+OH_husted_launch-KF-017,unknown,0.000,unknown,0.000,0,0,no face detected
+OH_husted_launch-KF-018,unknown,0.000,unknown,0.000,0,0,no face detected

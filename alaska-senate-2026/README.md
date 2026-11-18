@@ -147,3 +147,14 @@ public source ids (`SRC-####`) that resolve in `09_sources/sources.csv`.
 - Method and honesty rules: `_research_conventions.md`, `research_gaps.md`.
 - 建议阅读顺序：先看 `results_notes.md` 与结果表；再看候选人比较与政策立场表；然后看
   `event_coverage_gaps.md` 中关于同名选票争议的活动记录；最后读方法说明与缺口清单。
+
+## Video and news-photo layer (2026-11-18)
+
+- **News photographs:** 83 credited caption rows added to `04_visual_archive/image_archive.csv` from the archived article HTML. All are `all_rights_reserved_link_only`: article URL, caption and credit are stored, the image is not.
+- **Video corpus:** 3 uploaded videos, 32 keyframes, 17/32 frames attributed by SFace against the licensed portraits. Details, method and limits: [`10_video_frames/README.md`](10_video_frames/README.md).
+- **Identity distribution:** unknown 15, SULLIVAN 12, PELTOLA 5
+- **Still no clothing evidence:** no keyframe was read by a vision model and no harvested caption names clothing, so `clothing_notes` remains `unknown` throughout.
+
+- **新闻照片：** 从存档文章 HTML 新增 83 条带署名的图注记录至 `04_visual_archive/image_archive.csv`。全部为 `all_rights_reserved_link_only`：保存文章 URL、图注与署名，不保存图片。
+- **视频语料：** 3 段上传视频、32 张关键帧，SFace 对照授权肖像后归属 17/32 帧。方法、限制与逐视频明细见 [`10_video_frames/README.md`](10_video_frames/README.md)。
+- **仍无着装证据：** 没有关键帧被视觉模型读取，已采集图注也没有描述着装，`clothing_notes` 全部保持 `unknown`。

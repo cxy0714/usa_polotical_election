@@ -1,0 +1,40 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+LA_bass_concede-KF-001,unknown,0.154,RAMAN,0.002,1,0,face present but no candidate reference clears threshold/margin
+LA_bass_concede-KF-002,RAMAN,0.620,BASS,0.106,1,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_bass_concede-KF-003,unknown,0.117,RAMAN,-0.005,2,0,face present but no candidate reference clears threshold/margin
+LA_bass_concede-KF-004,unknown,0.089,RAMAN,0.001,1,0,face present but no candidate reference clears threshold/margin
+LA_bass_concede-KF-005,unknown,0.027,RAMAN,-0.013,1,0,face present but no candidate reference clears threshold/margin
+LA_bass_concede-KF-006,RAMAN,0.898,BASS,0.029,2,2,best SFace match clears threshold 0.363 and margin 0.05
+LA_bass_concede-KF-007,BASS,0.764,RAMAN,-0.073,2,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_bass_concede-KF-008,unknown,0.099,RAMAN,-0.006,1,0,face present but no candidate reference clears threshold/margin
+LA_bass_concede-KF-009,RAMAN,0.530,BASS,0.159,2,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_bass_concede-KF-010,RAMAN,0.747,BASS,0.054,4,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_bass_concede-KF-011,RAMAN,0.390,BASS,0.091,3,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_bass_concede-KF-012,unknown,0.081,RAMAN,-0.019,1,0,face present but no candidate reference clears threshold/margin
+LA_raman_win-KF-001,RAMAN,0.704,BASS,0.031,4,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_raman_win-KF-002,RAMAN,0.603,BASS,0.056,13,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_raman_win-KF-003,RAMAN,0.651,BASS,0.099,12,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_raman_win-KF-004,RAMAN,0.537,BASS,0.072,12,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_raman_win-KF-005,RAMAN,0.605,BASS,-0.016,14,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_raman_win-KF-006,RAMAN,0.585,BASS,0.163,13,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_raman_win-KF-007,unknown,0.000,unknown,0.000,0,0,no face detected
+LA_raman_win-KF-008,unknown,0.209,RAMAN,-0.099,3,0,face present but no candidate reference clears threshold/margin
+LA_raman_win-KF-009,unknown,0.144,RAMAN,0.046,5,0,face present but no candidate reference clears threshold/margin
+LA_raman_win-KF-010,unknown,0.162,RAMAN,0.029,2,0,face present but no candidate reference clears threshold/margin
+LA_debate_clip-KF-001,unknown,0.252,RAMAN,0.093,3,0,face present but no candidate reference clears threshold/margin
+LA_debate_clip-KF-002,unknown,0.190,RAMAN,0.173,1,0,face present but no candidate reference clears threshold/margin
+LA_debate_clip-KF-003,RAMAN,0.646,BASS,0.156,2,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-004,unknown,0.143,RAMAN,0.036,4,0,face present but no candidate reference clears threshold/margin
+LA_debate_clip-KF-005,RAMAN,0.467,BASS,0.175,3,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-006,RAMAN,0.677,BASS,0.152,1,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-007,RAMAN,0.570,BASS,0.017,3,2,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-008,BASS,0.691,RAMAN,-0.049,2,2,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-009,BASS,0.630,RAMAN,0.008,3,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-010,RAMAN,0.660,BASS,0.123,2,2,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-011,RAMAN,0.723,BASS,0.085,3,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-012,BASS,0.588,RAMAN,-0.058,1,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-013,RAMAN,0.677,BASS,0.063,1,1,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-014,RAMAN,0.726,BASS,0.088,2,2,best SFace match clears threshold 0.363 and margin 0.05
+LA_debate_clip-KF-015,unknown,0.318,BASS,0.200,3,0,face present but no candidate reference clears threshold/margin
+LA_debate_clip-KF-016,unknown,0.000,unknown,0.000,1,0,face present but no candidate reference clears threshold/margin
+LA_debate_clip-KF-017,unknown,0.213,RAMAN,0.143,1,0,face present but no candidate reference clears threshold/margin

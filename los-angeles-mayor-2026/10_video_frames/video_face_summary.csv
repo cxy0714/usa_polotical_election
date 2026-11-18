@@ -1,0 +1,4 @@
+video_id,slug,candidate_source,kind,frames_extracted,frames_with_face,max_faces,mean_largest_face_pct,duration_s,notes
+mulcAF2XEXk,LA_bass_concede,BASS,concession,12,12,4,3.3,112,YuNet detection at confidence 0.6
+UKhyCjIJJjc,LA_raman_win,RAMAN,victory_speech,10,9,14,1.9,832,YuNet detection at confidence 0.6
+dMQfRcycEtQ,LA_debate_clip,JOINT,debate_clip,17,17,4,2.9,158,YuNet detection at confidence 0.6

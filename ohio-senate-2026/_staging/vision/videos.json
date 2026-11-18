@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "OH_brown_victory",
+    "video_id": "g6hGBQO3dZU",
+    "candidate_source": "BROWN",
+    "kind": "victory_speech",
+    "title": "Brown acceptance speech after winning",
+    "file": "OH_brown_victory_g6hGBQO3dZU.mp4",
+    "channel": "unknown",
+    "upload_date": "unknown"
+  },
+  {
+    "slug": "OH_brown_toledo",
+    "video_id": "fGZ-rOjU83A",
+    "candidate_source": "BROWN",
+    "kind": "rally",
+    "title": "Brown kick-off event in Toledo",
+    "file": "OH_brown_toledo_fGZ-rOjU83A.mp4",
+    "channel": "unknown",
+    "upload_date": "unknown"
+  },
+  {
+    "slug": "OH_husted_concession",
+    "video_id": "UVz-YhfQTUA",
+    "candidate_source": "HUSTED",
+    "kind": "concession",
+    "title": "Husted full concession speech",
+    "file": "OH_husted_concession_UVz-YhfQTUA.mp4",
+    "channel": "unknown",
+    "upload_date": "unknown"
+  },
+  {
+    "slug": "OH_husted_launch",
+    "video_id": "zvsDiT_n298",
+    "candidate_source": "HUSTED",
+    "kind": "launch",
+    "title": "Husted launches Senate campaign",
+    "file": "OH_husted_launch_zvsDiT_n298.mp4",
+    "channel": "unknown",
+    "upload_date": "unknown"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "MI_rogers_launch",
+    "video_id": "3t0eJ5AxK6k",
+    "candidate_source": "ROGERS",
+    "kind": "launch",
+    "title": "Mike Rogers announces 2026 Senate campaign",
+    "file": "MI_rogers_launch_3t0eJ5AxK6k.mp4",
+    "channel": "FOX 17 WXMI",
+    "upload_date": "20250414",
+    "duration_s": 117
+  },
+  {
+    "slug": "MI_elsayed_response",
+    "video_id": "oaRGoU6tjcg",
+    "candidate_source": "ELSAYED",
+    "kind": "interview",
+    "title": "Mike Rogers and Abdul El-Sayed speak out on Senate race before 2026 Michigan election results drop",
+    "file": "MI_elsayed_response_oaRGoU6tjcg.mp4",
+    "channel": "USA TODAY",
+    "upload_date": "20261103",
+    "duration_s": 211
+  },
+  {
+    "slug": "MI_debate_clip",
+    "video_id": "GkwwWtkN7Vg",
+    "candidate_source": "JOINT",
+    "kind": "debate_clip",
+    "title": "El-Sayed and Rogers facing off in 2nd Michigan Senate debate",
+    "file": "MI_debate_clip_GkwwWtkN7Vg.mp4",
+    "channel": "CBS News",
+    "upload_date": "20261021",
+    "duration_s": 105
+  }
+]

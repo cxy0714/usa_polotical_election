@@ -1,0 +1,33 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+AK_sullivan_floor-KF-001,SULLIVAN,0.553,PELTOLA,0.070,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-002,SULLIVAN,0.636,PELTOLA,0.087,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-003,SULLIVAN,0.700,PELTOLA,0.119,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-004,SULLIVAN,0.546,PELTOLA,0.086,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-005,SULLIVAN,0.692,PELTOLA,0.140,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-006,SULLIVAN,0.515,PELTOLA,-0.094,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-007,SULLIVAN,0.690,PELTOLA,0.172,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-008,SULLIVAN,0.737,PELTOLA,0.092,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-009,SULLIVAN,0.451,PELTOLA,-0.037,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-010,SULLIVAN,0.443,PELTOLA,-0.026,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-011,SULLIVAN,0.650,PELTOLA,0.056,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_sullivan_floor-KF-012,SULLIVAN,0.717,PELTOLA,0.161,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_peltola_rally_short-KF-001,unknown,0.071,PELTOLA,-0.057,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-002,unknown,0.004,PELTOLA,-0.018,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-003,unknown,0.136,PELTOLA,-0.146,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-004,unknown,0.087,PELTOLA,-0.056,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-005,unknown,0.248,SULLIVAN,0.007,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-006,PELTOLA,0.656,SULLIVAN,0.094,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_peltola_rally_short-KF-007,unknown,0.117,PELTOLA,-0.054,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-008,unknown,0.071,PELTOLA,-0.107,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_rally_short-KF-009,PELTOLA,0.559,SULLIVAN,0.024,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_peltola_rally_short-KF-010,PELTOLA,0.689,SULLIVAN,0.094,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_peltola_rally_short-KF-011,PELTOLA,0.620,SULLIVAN,0.071,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_peltola_rally_short-KF-012,PELTOLA,0.615,SULLIVAN,0.083,1,1,best SFace match clears threshold 0.363 and margin 0.05
+AK_peltola_win-KF-001,unknown,0.176,SULLIVAN,0.145,6,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-002,unknown,0.108,PELTOLA,0.086,2,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-003,unknown,0.256,SULLIVAN,0.191,5,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-004,unknown,0.197,SULLIVAN,0.017,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-005,unknown,0.157,SULLIVAN,0.120,6,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-006,unknown,0.111,SULLIVAN,0.010,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-007,unknown,0.177,SULLIVAN,0.016,1,0,face present but no candidate reference clears threshold/margin
+AK_peltola_win-KF-008,unknown,0.267,SULLIVAN,0.195,6,0,face present but no candidate reference clears threshold/margin

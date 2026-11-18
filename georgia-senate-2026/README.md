@@ -61,3 +61,14 @@ Strong: candidate positions, event chronology, debate content, campaign finance,
 Start with `07_electoral_context/election_context.md` for the race, then `08_comparative_analysis/candidate_comparison.md`, then the two `communication_analysis` files; use `research_gaps.md` before citing any figure.
 
 建议先读 `07_electoral_context/election_context.md` 了解选情，再读 `08_comparative_analysis/candidate_comparison.md`，然后读两份传播分析；引用任何数字前先看 `research_gaps.md`。
+
+## Video and news-photo layer (2026-11-18)
+
+- **News photographs:** 64 credited caption rows added to `04_visual_archive/image_archive.csv` from the archived article HTML. All are `all_rights_reserved_link_only`: article URL, caption and credit are stored, the image is not.
+- **Video corpus:** 3 uploaded videos, 36 keyframes, 29/36 frames attributed by SFace against the licensed portraits. Details, method and limits: [`10_video_frames/README.md`](10_video_frames/README.md).
+- **Identity distribution:** COLLINS 23, unknown 7, OSSOFF 6
+- **Still no clothing evidence:** no keyframe was read by a vision model and no harvested caption names clothing, so `clothing_notes` remains `unknown` throughout.
+
+- **新闻照片：** 从存档文章 HTML 新增 64 条带署名的图注记录至 `04_visual_archive/image_archive.csv`。全部为 `all_rights_reserved_link_only`：保存文章 URL、图注与署名，不保存图片。
+- **视频语料：** 3 段上传视频、36 张关键帧，SFace 对照授权肖像后归属 29/36 帧。方法、限制与逐视频明细见 [`10_video_frames/README.md`](10_video_frames/README.md)。
+- **仍无着装证据：** 没有关键帧被视觉模型读取，已采集图注也没有描述着装，`clothing_notes` 全部保持 `unknown`。

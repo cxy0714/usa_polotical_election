@@ -1,0 +1,37 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+GA_collins_perry-KF-001,COLLINS,0.517,OSSOFF,0.104,26,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-002,COLLINS,0.678,OSSOFF,0.102,23,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-003,COLLINS,0.603,OSSOFF,0.088,23,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-004,COLLINS,0.500,OSSOFF,0.206,23,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-005,COLLINS,0.656,OSSOFF,0.169,26,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-006,COLLINS,0.610,OSSOFF,0.121,20,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-007,COLLINS,0.586,OSSOFF,0.155,20,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-008,COLLINS,0.443,OSSOFF,0.177,15,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-009,COLLINS,0.652,OSSOFF,0.154,24,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-010,COLLINS,0.593,OSSOFF,0.172,18,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-011,COLLINS,0.644,OSSOFF,0.109,26,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_collins_perry-KF-012,COLLINS,0.663,OSSOFF,0.145,22,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_1-KF-001,unknown,0.000,unknown,0.000,0,0,no face detected
+GA_debate_clip_1-KF-002,COLLINS,0.873,OSSOFF,0.193,3,2,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_1-KF-003,unknown,0.265,COLLINS,0.193,4,0,face present but no candidate reference clears threshold/margin
+GA_debate_clip_1-KF-004,unknown,0.000,unknown,0.000,0,0,no face detected
+GA_debate_clip_1-KF-005,COLLINS,0.731,OSSOFF,0.156,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_1-KF-006,unknown,0.257,COLLINS,0.065,1,0,face present but no candidate reference clears threshold/margin
+GA_debate_clip_1-KF-007,unknown,0.000,unknown,0.000,0,0,no face detected
+GA_debate_clip_1-KF-008,COLLINS,0.713,OSSOFF,0.136,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_1-KF-009,COLLINS,0.715,OSSOFF,0.061,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_1-KF-010,unknown,0.180,COLLINS,0.127,1,0,face present but no candidate reference clears threshold/margin
+GA_debate_clip_1-KF-011,COLLINS,0.655,OSSOFF,0.063,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_1-KF-012,COLLINS,0.856,OSSOFF,0.147,3,2,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-001,unknown,0.172,COLLINS,0.124,4,0,face present but no candidate reference clears threshold/margin
+GA_debate_clip_2-KF-002,OSSOFF,0.577,COLLINS,0.144,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-003,OSSOFF,0.480,COLLINS,0.043,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-004,OSSOFF,0.581,COLLINS,0.082,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-005,OSSOFF,0.566,COLLINS,0.003,2,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-006,OSSOFF,0.564,COLLINS,0.051,2,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-007,OSSOFF,0.521,COLLINS,0.120,2,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-008,COLLINS,0.725,OSSOFF,0.107,2,2,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-009,COLLINS,0.728,OSSOFF,0.093,1,1,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-010,COLLINS,0.692,OSSOFF,0.108,2,2,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-011,COLLINS,0.663,OSSOFF,0.092,2,2,best SFace match clears threshold 0.363 and margin 0.05
+GA_debate_clip_2-KF-012,COLLINS,0.722,OSSOFF,0.072,2,2,best SFace match clears threshold 0.363 and margin 0.05

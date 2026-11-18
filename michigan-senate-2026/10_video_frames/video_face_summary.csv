@@ -1,0 +1,4 @@
+video_id,slug,candidate_source,kind,frames_extracted,frames_with_face,max_faces,mean_largest_face_pct,duration_s,notes
+3t0eJ5AxK6k,MI_rogers_launch,ROGERS,launch,6,5,3,1.9,116,YuNet detection at confidence 0.6
+oaRGoU6tjcg,MI_elsayed_response,ELSAYED,interview,12,11,15,2.6,210,YuNet detection at confidence 0.6
+GkwwWtkN7Vg,MI_debate_clip,JOINT,debate_clip,12,12,3,5.0,104,YuNet detection at confidence 0.6

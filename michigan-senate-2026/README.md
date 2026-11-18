@@ -92,3 +92,14 @@ Thin: county-level results (no table existed, so `county_results.csv` is header-
 For the result and its arithmetic, start with `07_electoral_context/results_notes.md`, then `election_context.md`. For why the result happened, read `02_campaign_events/event_coverage_gaps.md` and `08_comparative_analysis/candidate_comparison.md` together — the first establishes what was observable, the second what it implies. For the money story, read `06_campaign_finance/campaign_finance.csv` alongside the outside-spending paragraphs in `results_notes.md` and `candidate_comparison.md`, keeping the two accounting bases separate. For the candidates in their own words, `03_speeches/speech_archive.csv` and the two communication analyses. For provenance, every row's `source_urls` resolves in `09_sources/sources.csv`, and `_staging/fetch_log.csv` records every retrieval attempt including the 66 that failed.
 
 中文：若关注结果与其算术，先读 `07_electoral_context/results_notes.md`，再读 `election_context.md`。若要理解结果成因，请将 `02_campaign_events/event_coverage_gaps.md` 与 `08_comparative_analysis/candidate_comparison.md` 合读——前者确立“可被观察到的内容”，后者说明其含义。若关注资金，请将 `06_campaign_finance/campaign_finance.csv` 与 `results_notes.md`、`candidate_comparison.md` 中的外部支出段落并读，并始终区分两套核算口径。若关注候选人原话，请读 `03_speeches/speech_archive.csv` 与两份传播分析。若关注来源，每行的 `source_urls` 均可在 `09_sources/sources.csv` 中解析，`_staging/fetch_log.csv` 记录了每一次抓取尝试，包括 66 次失败。
+
+## Video and news-photo layer (2026-11-18)
+
+- **News photographs:** 75 credited caption rows added to `04_visual_archive/image_archive.csv` from the archived article HTML. All are `all_rights_reserved_link_only`: article URL, caption and credit are stored, the image is not.
+- **Video corpus:** 3 uploaded videos, 30 keyframes, 14/30 frames attributed by SFace against the licensed portraits. Details, method and limits: [`10_video_frames/README.md`](10_video_frames/README.md).
+- **Identity distribution:** unknown 16, ROGERS 10, ELSAYED 4
+- **Still no clothing evidence:** no keyframe was read by a vision model and no harvested caption names clothing, so `clothing_notes` remains `unknown` throughout.
+
+- **新闻照片：** 从存档文章 HTML 新增 75 条带署名的图注记录至 `04_visual_archive/image_archive.csv`。全部为 `all_rights_reserved_link_only`：保存文章 URL、图注与署名，不保存图片。
+- **视频语料：** 3 段上传视频、30 张关键帧，SFace 对照授权肖像后归属 14/30 帧。方法、限制与逐视频明细见 [`10_video_frames/README.md`](10_video_frames/README.md)。
+- **仍无着装证据：** 没有关键帧被视觉模型读取，已采集图注也没有描述着装，`clothing_notes` 全部保持 `unknown`。

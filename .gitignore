@@ -82,3 +82,18 @@ los-angeles-mayor-2026/_staging/_work/
 
 # Full fetched article text kept for quote verification during collection (third-party publisher text).
 */_staging/text/
+
+# Batch-2 video pipeline binaries: source video (~2-4 GB) and shared ONNX weights.
+# Restore with `python _tools/video_pipeline.py download <case>`; weights live in the Texas case.
+michigan-senate-2026/_staging/vision/raw/
+alaska-senate-2026/_staging/vision/raw/
+iowa-senate-2026/_staging/vision/raw/
+ohio-senate-2026/_staging/vision/raw/
+georgia-senate-2026/_staging/vision/raw/
+los-angeles-mayor-2026/_staging/vision/raw/
+*/_staging/vision/models/
+
+# Local preview server artifacts
+_tools/.server.pid
+_tools/_server.err.log
+_tools/_server.out.log

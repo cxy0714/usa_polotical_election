@@ -1,0 +1,38 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+IA_hinson_trump-KF-001,HINSON,0.624,TUREK,0.051,3,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-002,HINSON,0.627,TUREK,0.056,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-003,HINSON,0.612,TUREK,0.106,6,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-004,HINSON,0.595,TUREK,0.071,3,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-005,HINSON,0.570,TUREK,0.010,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-006,HINSON,0.530,TUREK,0.094,4,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-007,HINSON,0.635,TUREK,0.135,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-008,HINSON,0.628,TUREK,0.069,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-009,HINSON,0.618,TUREK,0.110,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-010,HINSON,0.620,TUREK,0.088,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-011,HINSON,0.608,TUREK,0.112,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_hinson_trump-KF-012,HINSON,0.576,TUREK,0.094,5,1,best SFace match clears threshold 0.363 and margin 0.05
+IA_turek_victory_short-KF-001,unknown,0.166,TUREK,0.077,3,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-002,unknown,0.241,TUREK,0.119,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-003,unknown,0.200,TUREK,0.113,6,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-004,unknown,0.122,TUREK,-0.049,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-005,unknown,0.073,TUREK,-0.039,2,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-006,unknown,0.201,TUREK,0.110,7,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-007,unknown,0.195,TUREK,-0.031,2,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-008,unknown,0.168,TUREK,0.006,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-009,unknown,0.124,TUREK,-0.229,28,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-010,unknown,0.133,TUREK,0.060,2,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-011,unknown,0.134,HINSON,-0.013,3,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-012,unknown,0.159,TUREK,0.093,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-013,unknown,0.134,TUREK,0.030,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-014,unknown,0.206,TUREK,0.123,4,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-015,unknown,0.124,TUREK,0.039,2,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-016,unknown,0.169,TUREK,0.040,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-017,unknown,0.194,TUREK,0.105,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-018,unknown,0.167,HINSON,0.119,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_victory_short-KF-019,unknown,0.245,TUREK,-0.007,1,0,face present but no candidate reference clears threshold/margin
+IA_turek_primary-KF-001,unknown,0.216,TUREK,0.055,5,0,face present but no candidate reference clears threshold/margin
+IA_turek_primary-KF-002,unknown,0.220,TUREK,0.061,3,0,face present but no candidate reference clears threshold/margin
+IA_turek_primary-KF-003,unknown,0.167,TUREK,0.112,4,0,face present but no candidate reference clears threshold/margin
+IA_turek_primary-KF-004,unknown,0.178,TUREK,0.079,5,0,face present but no candidate reference clears threshold/margin
+IA_turek_primary-KF-005,unknown,0.304,TUREK,0.186,2,0,face present but no candidate reference clears threshold/margin
+IA_turek_primary-KF-006,unknown,0.233,TUREK,0.144,1,0,face present but no candidate reference clears threshold/margin

@@ -26,7 +26,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOOLS = os.path.dirname(os.path.abspath(__file__))
 
 NAV = [("index.html", "总览", "Overview"), ("data/index.html", "数据", "Data"),
-       ("docs/index.html", "文档", "Docs"), ("sources/index.html", "来源", "Sources")]
+       ("video/index.html", "视频", "Video"), ("docs/index.html", "文档", "Docs"),
+       ("sources/index.html", "来源", "Sources")]
 
 MAIN_DATASETS = [
     ("07_electoral_context/election_results.csv", "选举结果", "Election results"),
@@ -365,6 +366,60 @@ def main(argv):
                    f'<a href="../../{esc(rel.replace(os.sep, "/"))}">raw CSV</a></p>'
                    f'<div class="table-wrap"><table><thead><tr>{head}</tr></thead><tbody>{body_rows}</tbody></table></div>',
                    1, "data/index.html"))
+
+    # video keyframes + face identity
+    vdir = os.path.join(case_dir, "10_video_frames")
+    _, vids = read_rows(os.path.join(vdir, "video_sources.csv"))
+    _, kfs = read_rows(os.path.join(vdir, "keyframes.csv"))
+    _, kid = read_rows(os.path.join(vdir, "keyframes_identity.csv"))
+    _, fsum = read_rows(os.path.join(vdir, "video_face_summary.csv"))
+    idmap = {r["frame_id"]: r for r in kid}
+    summap = {r["slug"]: r for r in fsum}
+    kf_out = os.path.join(site, "assets", "kf")
+    vcards, kgal = "", ""
+    by_slug = {}
+    for r in kfs:
+        by_slug.setdefault(r["slug"], []).append(r)
+    for v in vids:
+        slug = v["slug"]
+        s = summap.get(slug, {})
+        vcards += (f'<a class="card" href="{esc(v.get("url",""))}" target="_blank" rel="noopener">'
+                   f'<h3>{esc(v.get("title","")[:90])}</h3><p>{esc(v.get("channel",""))} · '
+                   f'{esc(v.get("upload_date",""))} · {esc(v.get("duration_s",""))}s · '
+                   f'{esc(s.get("frames_with_face","unknown"))}/{esc(s.get("frames_extracted","unknown"))} frames with faces</p></a>')
+        frames = by_slug.get(slug, [])[:6]
+        if not frames:
+            continue
+        thumbs = ""
+        for f in frames:
+            src = os.path.join(case_dir, "10_video_frames", f["file"])
+            if not os.path.exists(src):
+                continue
+            outdir = os.path.join(kf_out, slug)
+            os.makedirs(outdir, exist_ok=True)
+            fn = os.path.basename(f["file"])
+            shutil.copyfile(src, os.path.join(outdir, fn))
+            ident = idmap.get(f["frame_id"], {})
+            label = ident.get("identity", "unknown")
+            sim = ident.get("identity_sim", "")
+            thumbs += (f'<figure><img src="../assets/kf/{esc(slug)}/{esc(fn)}" loading="lazy" alt="{esc(label)}">'
+                       f'<figcaption><b>{esc(label)}</b> {esc(sim)} · {esc(f.get("timecode",""))}</figcaption></figure>')
+        kgal += (f'<h2>{esc(slug)}</h2><p class="meta">{esc(v.get("kind",""))} · '
+                 f'{esc(summap.get(slug,{}).get("mean_largest_face_pct","unknown"))}% mean face area · '
+                 f'{esc(summap.get(slug,{}).get("max_faces","unknown"))} max faces</p>'
+                 f'<div class="gal">{thumbs}</div>')
+    if not vids and not kfs:
+        vbody = ("<h1>视频 / Video</h1><p>This case archive has no downloaded video corpus yet. "
+                 "The speech-video index records links only.</p>")
+    else:
+        vbody = (f'<h1>视频 / Video</h1><p class="meta">{len(vids)} videos · {len(kfs)} keyframes · '
+                 f'{len(kid)} identity rows</p>'
+                 f'<h2>视频来源 / Video sources</h2><div class="cards">{vcards}</div>'
+                 f'<h2>关键帧与人脸识别 / Keyframes and face identity</h2>'
+                 f'<p class="meta">SFace cosine similarity against licensed portraits; `unknown` means no '
+                 f'match cleared the threshold (0.363) and margin (0.05).</p>{kgal}')
+    write(os.path.join(site, "video", "index.html"),
+          page("视频 / Video", vbody, 1, "video/index.html"))
 
     # docs
     docs = []

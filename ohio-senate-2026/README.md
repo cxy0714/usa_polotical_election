@@ -146,3 +146,14 @@ syndicated mirror that did load is cited instead and the substitution is stated 
 `sources.csv` 收录195条来源，均于2026-11-18抓取并镜像保存，抓取日志记录状态与字节数。
 返回403/402的来源仅作为失败记录，绝不作为内容引用；确需其报道时改用可访问的转载版本，并在
 `reliability_notes` 中说明替换关系。
+
+## Video and news-photo layer (2026-11-18)
+
+- **News photographs:** 25 credited caption rows added to `04_visual_archive/image_archive.csv` from the archived article HTML. All are `all_rights_reserved_link_only`: article URL, caption and credit are stored, the image is not.
+- **Video corpus:** 4 uploaded videos, 54 keyframes, 42/54 frames attributed by SFace against the licensed portraits. Details, method and limits: [`10_video_frames/README.md`](10_video_frames/README.md).
+- **Identity distribution:** BROWN 23, HUSTED 19, unknown 12
+- **Still no clothing evidence:** no keyframe was read by a vision model and no harvested caption names clothing, so `clothing_notes` remains `unknown` throughout.
+
+- **新闻照片：** 从存档文章 HTML 新增 25 条带署名的图注记录至 `04_visual_archive/image_archive.csv`。全部为 `all_rights_reserved_link_only`：保存文章 URL、图注与署名，不保存图片。
+- **视频语料：** 4 段上传视频、54 张关键帧，SFace 对照授权肖像后归属 42/54 帧。方法、限制与逐视频明细见 [`10_video_frames/README.md`](10_video_frames/README.md)。
+- **仍无着装证据：** 没有关键帧被视觉模型读取，已采集图注也没有描述着装，`clothing_notes` 全部保持 `unknown`。

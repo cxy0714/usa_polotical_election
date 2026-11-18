@@ -190,7 +190,7 @@ inspected)`. The archive can document one outfit; it cannot document a styling o
 
 ## 4. Cross-cutting findings / 4. 跨案发现
 
-**4.1 Staging is documented; clothing is not.** Across the eight archives there are 254 image rows and
+**4.1 Staging is documented; clothing is not.** Across the eight archives there are 637 image rows and
 171 stored files, but only **two** rows carry a clothing statement that a retrieved sentence supports:
 Ossoff's rolled-up sleeves (Georgia Recorder) and Bass's "aquamarine pantsuit" (L.A. Times). Peltola's
 rainbow scarf at Pride is a third documented clothing detail, but it appears in an event row, not an
@@ -215,7 +215,7 @@ use, Peltola's Yup'ik identity and first-Alaska-Native status, and the "first si
 brother" frame for Darline Graham are all sourced statements. No case infers capability, health or
 character from a photograph.
 
-**4.6 No styling operation appears anywhere.** Across 1,274 registered sources in the eight
+**4.6 No styling operation appears anywhere.** Across 1,345 registered sources in the eight
 cases, not one names a stylist, image consultant or campaign wardrobe team. The Los Angeles case states
 this absence explicitly (gap G10). The "campaign styling team" premise is therefore unsupported by the
 retrieved record — a finding about the record, not proof that no such work happens.
@@ -225,7 +225,7 @@ empty in all eight cases: `framing`, `camera_angle` and `clothing_notes` are `un
 source states them. Every clothing claim in this repository is therefore Class A and should be read as
 "a reporter wrote this", not "the archive saw this".
 
-**4.1 舞台有记录，着装没有。** 八案合计 254 条影像记录、171 个已存文件，但只有 **2** 条记录的着装陈述有
+**4.1 舞台有记录，着装没有。** 八案合计 637 条影像记录、171 个已存文件，但只有 **2** 条记录的着装陈述有
 已检索句子支持：奥索夫卷起的袖子（Georgia Recorder）与巴斯的「海蓝绿色长裤套装」（《洛杉矶时报》）。
 佩尔托拉在骄傲游行的彩虹围巾是第三项有记录的服饰细节，但它出现在活动行而非影像行。德州、南卡、艾奥瓦、
 密歇根与俄亥俄的着装陈述均为 **零**。
@@ -245,7 +245,7 @@ source states them. Every clothing claim in this repository is therefore Class A
 原住民参议员地位、达琳·格雷厄姆「首位接替兄长的妹妹」框架，都是有来源的陈述。没有任何案例从照片推断能力、
 健康或品格。
 
-**4.6 任何地方都没有出现造型运作。** 八案共 1,274 个登记来源中，没有一个点名造型师、形象顾问或竞选衣橱团队。
+**4.6 任何地方都没有出现造型运作。** 八案共 1,345 个登记来源中，没有一个点名造型师、形象顾问或竞选衣橱团队。
 洛杉矶案例明确记录了这一缺失（缺口 G10）。因此「竞选造型团队」这一前提不为已检索记录所支持——这是关于记录的
 发现，不是证明此类工作不存在。
 
@@ -268,3 +268,58 @@ source states them. Every clothing claim in this repository is therefore Class A
 2. **通讯社图注。** 美联社／路透／盖蒂的图注常描述着装与场景；即使图像未获授权，图注往往可检索。
 3. **竞选团队自产视频。** 启动与巡游视频直接展示着装与舞台；每段抽 10–20 帧，可使 B 类观察系统化而非轶事化。
 4. **造型师／顾问署名。** 行业媒体有时会点名竞选造型师；八案已检索来源中无一如此。
+
+## 6. What the video layer adds (2026-11-18) / 6. 视频层补充了什么
+
+The six new cases now carry a video corpus built like the earlier two: 19 uploaded videos, 228 scene
+keyframes, and a YuNet+SFace pass that compares every detected face with the licensed portraits in
+`04_visual_archive/`. Attribution is deliberately conservative (cosine ≥ 0.363 and a 0.05 margin over
+the runner-up); 137 of 228 frames (60%) are attributed, the rest stay `unknown`.
+
+六场新案现在与先前两案一样带有视频语料：19 段上传视频、228 张场景关键帧，以及一次 YuNet+SFace 比对，
+把每张检测到的脸与该案 `04_visual_archive/` 中的授权肖像对照。判定刻意保守（余弦 ≥ 0.363 且领先第二名
+0.05）；228 帧中 137 帧（60%）得到归属，其余保持 `unknown`。
+
+| Case | Videos | Frames | Attributed | Notes |
+|---|---:|---:|---:|---|
+| Michigan | 3 | 30 | 14 | Rogers launch + interview + debate clip |
+| Alaska | 3 | 32 | 17 | Sullivan floor speech, Peltola rally, CNN win package |
+| Iowa | 3 | 37 | 12 | **Turek never clears the threshold** — his only licensed reference is a group photo |
+| Ohio | 4 | 54 | 42 | strongest coverage: victory, Toledo rally, concession, launch |
+| Georgia | 3 | 36 | 29 | Collins rally + two debate clips; Ossoff appears in the clips |
+| Los Angeles | 3 | 39 | 23 | Raman-heavy corpus; Bass attributed in 4 frames |
+
+**6.1 The video layer does not produce clothing evidence.** No frame was read by a vision-language
+model and this compiler has no image input, so `clothing_notes` remains `unknown` for every keyframe.
+The value of the layer is narrower: it establishes *who appears, when, in what setting* with a
+measurable confidence, not what they wore.
+
+**6.2 The recogniser is a two-class instrument.** It can only choose between the two nominees. A
+moderator, surrogate or crowd member is assigned to whichever nominee is closer; the margin rule
+reduces but does not remove this. The Los Angeles concession video is the clearest example: its
+frames attribute to Raman more often than to Bass, which may reflect the broadcast's cutaways rather
+than a reference error — the archive records the score and leaves the question open.
+
+**6.3 Reference quality drives coverage.** Ohio (7 portraits per candidate) attributes 78% of frames;
+Iowa (1 usable Turek reference, a group photograph) attributes 32% and never identifies Turek. This is
+a property of the licensed portrait supply, and is stated in each `10_video_frames/README.md`.
+
+**6.4 News photography is now a caption layer, not an image layer.** 384 credited news-photo rows were
+added across the six cases from archived article HTML. They are link-and-credit only: no file is
+stored, because the photographs are all rights reserved. 637 image rows now exist across the eight
+cases; 171 files are stored. Captions can name clothing, but none of the harvested captions does.
+
+**6.1 视频层不产生着装证据。** 没有一帧被视觉语言模型读过，编纂者也没有图像输入，因此每张关键帧的
+`clothing_notes` 仍是 `unknown`。这一层的价值更窄：它以可度量的置信度确认*谁在何时、何种场合出现*，
+而不是他们穿了什么。
+
+**6.2 识别器是二分类工具。** 它只能在两位提名人之间选择。主持人、代理人或观众会被归给较接近的一位；
+边际规则降低但不能消除这一风险。洛杉矶的承认败选视频是最清楚的例子：其帧更多被判为 Raman 而非 Bass，
+这可能反映转播的切换镜头，而非参考错误——档案记录分数，把问题留开。
+
+**6.3 参考质量决定覆盖率。** 俄亥俄（每位候选人 7 张肖像）覆盖 78% 的帧；艾奥瓦（Turek 唯一可用参考是
+一张合影）覆盖 32%，且从未识别出 Turek。这是授权肖像供给的属性，已写入各案 `10_video_frames/README.md`。
+
+**6.4 新闻摄影现在是图注层，不是图像层。** 六案从存档文章 HTML 中新增 384 条带署名的新闻图片记录。
+它们仅提供链接与署名：不存文件，因为照片均为版权保留。八案现有 637 条影像记录、171 个已存文件。
+图注可能描述着装，但已采集的图注中没有一条这样做。

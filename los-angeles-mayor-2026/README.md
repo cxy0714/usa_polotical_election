@@ -204,3 +204,14 @@ out in `_research_conventions.md` and `09_sources/data_dictionary_bilingual.md`.
   `political_positions.md`。
 - **资金：** `06_campaign_finance/campaign_finance.csv`，先看 `report_type` 列。
 - **方法与警示：** `_research_conventions.md`，再看 `research_gaps.md`。
+
+## Video and news-photo layer (2026-11-18)
+
+- **News photographs:** 130 credited caption rows added to `04_visual_archive/image_archive.csv` from the archived article HTML. All are `all_rights_reserved_link_only`: article URL, caption and credit are stored, the image is not.
+- **Video corpus:** 3 uploaded videos, 39 keyframes, 23/39 frames attributed by SFace against the licensed portraits. Details, method and limits: [`10_video_frames/README.md`](10_video_frames/README.md).
+- **Identity distribution:** RAMAN 19, unknown 16, BASS 4
+- **Still no clothing evidence:** no keyframe was read by a vision model and no harvested caption names clothing, so `clothing_notes` remains `unknown` throughout.
+
+- **新闻照片：** 从存档文章 HTML 新增 130 条带署名的图注记录至 `04_visual_archive/image_archive.csv`。全部为 `all_rights_reserved_link_only`：保存文章 URL、图注与署名，不保存图片。
+- **视频语料：** 3 段上传视频、39 张关键帧，SFace 对照授权肖像后归属 23/39 帧。方法、限制与逐视频明细见 [`10_video_frames/README.md`](10_video_frames/README.md)。
+- **仍无着装证据：** 没有关键帧被视觉模型读取，已采集图注也没有描述着装，`clothing_notes` 全部保持 `unknown`。

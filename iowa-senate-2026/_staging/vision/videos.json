@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "IA_hinson_trump",
+    "video_id": "UVIH-V4fwaw",
+    "candidate_source": "HINSON",
+    "kind": "rally",
+    "title": "Ashley Hinson shares Remarks at President Trump’s Rally in Clive, Iowa",
+    "file": "IA_hinson_trump_UVIH-V4fwaw.mp4",
+    "channel": "Ashley Hinson",
+    "upload_date": "20260203",
+    "duration_s": 210
+  },
+  {
+    "slug": "IA_turek_victory_short",
+    "video_id": "1_nOjXLcX1Y",
+    "candidate_source": "TUREK",
+    "kind": "victory_speech",
+    "title": "Josh Turek Victory Speech",
+    "file": "IA_turek_victory_short_1_nOjXLcX1Y.mp4",
+    "channel": "Josh Turek",
+    "upload_date": "20261104",
+    "duration_s": 101
+  },
+  {
+    "slug": "IA_turek_primary",
+    "video_id": "Aro0e7cn1_s",
+    "candidate_source": "TUREK",
+    "kind": "primary_speech",
+    "title": "Josh Turek wins Democratic primary for Iowa senate seat",
+    "file": "IA_turek_primary_Aro0e7cn1_s.mp4",
+    "channel": "NBC News",
+    "upload_date": "20260603",
+    "duration_s": 113
+  }
+]

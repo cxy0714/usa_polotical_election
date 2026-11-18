@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "AK_sullivan_floor",
+    "video_id": "05ym8FZI4ec",
+    "candidate_source": "SULLIVAN",
+    "kind": "senate_floor",
+    "title": "Sen. Dan Sullivan (R-Alaska) Speaks on Voter ID, Insider Trading Legislation - July 29, 2026",
+    "file": "AK_sullivan_floor_05ym8FZI4ec.mp4",
+    "channel": "Senator Dan Sullivan",
+    "upload_date": "20260730",
+    "duration_s": 192
+  },
+  {
+    "slug": "AK_peltola_rally_short",
+    "video_id": "V1hhjF0CS7s",
+    "candidate_source": "PELTOLA",
+    "kind": "rally",
+    "title": "Alaska Democrat Senate candidate Peltola holds rally in Anchorage",
+    "file": "AK_peltola_rally_short_V1hhjF0CS7s.mp4",
+    "channel": "AP Archive",
+    "upload_date": "20261105",
+    "duration_s": 120
+  },
+  {
+    "slug": "AK_peltola_win",
+    "video_id": "paxtTdL6d7w",
+    "candidate_source": "PELTOLA",
+    "kind": "victory_news",
+    "title": "Dem Mary Peltola flips Alaska Senate seat blue, CNN projects",
+    "file": "AK_peltola_win_paxtTdL6d7w.mp4",
+    "channel": "CNN",
+    "upload_date": "20261118",
+    "duration_s": 627
+  }
+]

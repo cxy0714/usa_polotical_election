@@ -1,0 +1,4 @@
+video_id,slug,candidate_source,kind,frames_extracted,frames_with_face,max_faces,mean_largest_face_pct,duration_s,notes
+jpmqt8w2GOM,GA_collins_perry,COLLINS,rally,12,12,26,1.5,522,YuNet detection at confidence 0.6
+IrrH_UizdLE,GA_debate_clip_1,JOINT,debate_clip,12,9,4,1.8,152,YuNet detection at confidence 0.6
+ZyRji58xqwg,GA_debate_clip_2,OSSOFF,debate_clip,12,12,4,1.3,128,YuNet detection at confidence 0.6

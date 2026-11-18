@@ -1,0 +1,4 @@
+video_id,slug,candidate_source,kind,frames_extracted,frames_with_face,max_faces,mean_largest_face_pct,duration_s,notes
+UVIH-V4fwaw,IA_hinson_trump,HINSON,rally,12,12,6,2.9,209,YuNet detection at confidence 0.6
+1_nOjXLcX1Y,IA_turek_victory_short,TUREK,victory_speech,19,19,28,2.7,101,YuNet detection at confidence 0.6
+Aro0e7cn1_s,IA_turek_primary,TUREK,primary_speech,6,6,5,2.2,113,YuNet detection at confidence 0.6

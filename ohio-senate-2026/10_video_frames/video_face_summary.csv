@@ -1,0 +1,5 @@
+video_id,slug,candidate_source,kind,frames_extracted,frames_with_face,max_faces,mean_largest_face_pct,duration_s,notes
+g6hGBQO3dZU,OH_brown_victory,BROWN,victory_speech,12,12,8,2.5,635,YuNet detection at confidence 0.6
+fGZ-rOjU83A,OH_brown_toledo,BROWN,rally,12,12,11,1.5,805,YuNet detection at confidence 0.6
+UVz-YhfQTUA,OH_husted_concession,HUSTED,concession,12,12,5,1.8,283,YuNet detection at confidence 0.6
+zvsDiT_n298,OH_husted_launch,HUSTED,launch,18,13,8,3.1,156,YuNet detection at confidence 0.6

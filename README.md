@@ -64,15 +64,27 @@ polling), `08_comparative_analysis`, `09_sources` and bilingual `README.md` / `r
 
 | Case | CSV rows | Sources | Documented result |
 |---|---:|---:|---|
-| [`michigan-senate-2026/`](michigan-senate-2026/README.md) | 286 | 87 | El-Sayed 52.54% / Rogers 45.46% |
-| [`alaska-senate-2026/`](alaska-senate-2026/README.md) | 305 | 124 | Peltola 50.12% / Sullivan 45.80% |
-| [`iowa-senate-2026/`](iowa-senate-2026/README.md) | 442 | 111 | Turek 50.56% / Hinson 46.35% |
-| [`ohio-senate-2026/`](ohio-senate-2026/README.md) | 418 | 194 | Brown 50.01% / Husted 45.17% |
-| [`georgia-senate-2026/`](georgia-senate-2026/README.md) | 284 | 99 | Ossoff 59.03% / Collins 40.97% |
-| [`los-angeles-mayor-2026/`](los-angeles-mayor-2026/README.md) | 291 | 90 | Raman 54.9% / Bass 45.1% (runoff) |
+| [`michigan-senate-2026/`](michigan-senate-2026/README.md) | 410 | 96 | El-Sayed 52.54% / Rogers 45.46% |
+| [`alaska-senate-2026/`](alaska-senate-2026/README.md) | 437 | 127 | Peltola 50.12% / Sullivan 45.80% |
+| [`iowa-senate-2026/`](iowa-senate-2026/README.md) | 523 | 129 | Turek 50.56% / Hinson 46.35% |
+| [`ohio-senate-2026/`](ohio-senate-2026/README.md) | 533 | 196 | Brown 50.01% / Husted 45.17% |
+| [`georgia-senate-2026/`](georgia-senate-2026/README.md) | 414 | 115 | Ossoff 59.03% / Collins 40.97% |
+| [`los-angeles-mayor-2026/`](los-angeles-mayor-2026/README.md) | 505 | 114 | Raman 54.9% / Bass 45.1% (runoff) |
 
 六个新案例，各含相同核心数据集（候选人、活动、演讲、影像、媒体、财务、选举背景、比较分析、来源），
 上表为各案 CSV 行数、来源数与已记录结果。
+
+On 2026-11-18 the six new cases also received the visual layer used by the earlier two: credited
+news-photo captions harvested from the archived articles (all link-and-credit only), a downloaded
+video corpus, scene keyframes, and a YuNet+SFace pass that attributes frames to the two nominees
+(`10_video_frames/`). 19 videos, 228 keyframes and 384 news-photo rows were added; the method and its
+limits are in [2026-image-and-message-notes.md](2026-image-and-message-notes.md) §6 and in each
+case's `10_video_frames/README.md`.
+
+2026-11-18，六个新案例也补上了先前两案使用的视觉层：从存档文章中采集的带署名新闻图注（均仅链接与署名）、
+下载的视频语料、场景关键帧，以及把帧归属到两位提名人的 YuNet+SFace 比对（`10_video_frames/`）。
+新增 19 段视频、228 张关键帧与 384 条新闻图片记录；方法与限制见
+[2026-image-and-message-notes.md](2026-image-and-message-notes.md) 第 6 节及各案 `10_video_frames/README.md`。
 
 Every case is validated mechanically: header conformance, no blank cells, ISO dates, controlled
 vocabularies, and every `SRC-####` resolving in that case's `sources.csv`

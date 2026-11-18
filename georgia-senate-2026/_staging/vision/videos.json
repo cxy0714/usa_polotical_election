@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "GA_collins_perry",
+    "video_id": "jpmqt8w2GOM",
+    "candidate_source": "COLLINS",
+    "kind": "rally",
+    "title": "Mike Collins Delivers Strong Remarks Supporting Trump & GA Republicans | Perry Rally - 10/24/2026",
+    "file": "GA_collins_perry_jpmqt8w2GOM.mp4",
+    "channel": "Right Side Broadcasting Network",
+    "upload_date": "20261024",
+    "duration_s": 522
+  },
+  {
+    "slug": "GA_debate_clip_1",
+    "video_id": "IrrH_UizdLE",
+    "candidate_source": "JOINT",
+    "kind": "debate_clip",
+    "title": "Ossoff, Collins trade sharp attacks in second Georgia U.S. Senate debate",
+    "file": "GA_debate_clip_1_IrrH_UizdLE.mp4",
+    "channel": "WJCL News",
+    "upload_date": "20261014",
+    "duration_s": 152
+  },
+  {
+    "slug": "GA_debate_clip_2",
+    "video_id": "ZyRji58xqwg",
+    "candidate_source": "OSSOFF",
+    "kind": "debate_clip",
+    "title": "\"If John Lewis were marching today...Mike Collins would be grabbing a Billy club.\"",
+    "file": "GA_debate_clip_2_ZyRji58xqwg.mp4",
+    "channel": "C-SPAN",
+    "upload_date": "20261009",
+    "duration_s": 129
+  }
+]

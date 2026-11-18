@@ -6,7 +6,7 @@
 </head><body class="wide">
 <header class="top"><div class="top-in">
   <div class="brand">README<small>2026 archive · bilingual</small></div>
-  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="" href="../video/index.html">视频<span style="opacity:.6;font-size:.78em"> Video</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
 </div></header>
 <div class="layout"><main>
 <div class="crumb"><a href="index.html">文档 / Docs</a> / README.md</div><h2>What this archive covers / 本档案覆盖范围</h2>
@@ -46,6 +46,18 @@
 <h2>Reading paths / 阅读路径</h2>
 <p>Start with <code>07_electoral_context/election_context.md</code> for the race, then <code>08_comparative_analysis/candidate_comparison.md</code>, then the two <code>communication_analysis</code> files; use <code>research_gaps.md</code> before citing any figure.</p>
 <p>建议先读 <code>07_electoral_context/election_context.md</code> 了解选情，再读 <code>08_comparative_analysis/candidate_comparison.md</code>，然后读两份传播分析；引用任何数字前先看 <code>research_gaps.md</code>。</p>
+<h2>Video and news-photo layer (2026-11-18)</h2>
+<ul>
+<li><strong>News photographs:</strong> 64 credited caption rows added to <code>04_visual_archive/image_archive.csv</code> from the archived article HTML. All are <code>all_rights_reserved_link_only</code>: article URL, caption and credit are stored, the image is not.</li>
+<li><strong>Video corpus:</strong> 3 uploaded videos, 36 keyframes, 29/36 frames attributed by SFace against the licensed portraits. Details, method and limits: [<code>10_video_frames/README.md</code>](10_video_frames/README.md).</li>
+<li><strong>Identity distribution:</strong> COLLINS 23, unknown 7, OSSOFF 6</li>
+<li><strong>Still no clothing evidence:</strong> no keyframe was read by a vision model and no harvested caption names clothing, so <code>clothing_notes</code> remains <code>unknown</code> throughout.</li>
+</ul>
+<ul>
+<li><strong>新闻照片：</strong> 从存档文章 HTML 新增 64 条带署名的图注记录至 <code>04_visual_archive/image_archive.csv</code>。全部为 <code>all_rights_reserved_link_only</code>：保存文章 URL、图注与署名，不保存图片。</li>
+<li><strong>视频语料：</strong> 3 段上传视频、36 张关键帧，SFace 对照授权肖像后归属 29/36 帧。方法、限制与逐视频明细见 [<code>10_video_frames/README.md</code>](10_video_frames/README.md)。</li>
+<li><strong>仍无着装证据：</strong> 没有关键帧被视觉模型读取，已采集图注也没有描述着装，<code>clothing_notes</code> 全部保持 <code>unknown</code>。</li>
+</ul>
 </main></div>
 <footer><div class="in">
   <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>

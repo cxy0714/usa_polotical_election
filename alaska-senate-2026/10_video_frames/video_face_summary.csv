@@ -1,0 +1,4 @@
+video_id,slug,candidate_source,kind,frames_extracted,frames_with_face,max_faces,mean_largest_face_pct,duration_s,notes
+05ym8FZI4ec,AK_sullivan_floor,SULLIVAN,senate_floor,12,12,1,1.7,192,YuNet detection at confidence 0.6
+V1hhjF0CS7s,AK_peltola_rally_short,PELTOLA,rally,12,12,1,4.2,120,YuNet detection at confidence 0.6
+paxtTdL6d7w,AK_peltola_win,PELTOLA,victory_news,8,8,6,2.6,627,YuNet detection at confidence 0.6

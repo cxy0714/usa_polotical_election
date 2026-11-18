@@ -1,0 +1,31 @@
+frame_id,identity,identity_sim,second_identity,second_sim,faces,candidate_faces,identity_note
+MI_rogers_launch-KF-001,ROGERS,0.383,ELSAYED,0.019,3,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_rogers_launch-KF-002,ROGERS,0.481,ELSAYED,0.077,1,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_rogers_launch-KF-003,ROGERS,0.563,ELSAYED,0.084,1,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_rogers_launch-KF-004,unknown,0.000,unknown,0.000,0,0,no face detected
+MI_rogers_launch-KF-005,unknown,0.233,ROGERS,0.224,1,0,face present but no candidate reference clears threshold/margin
+MI_rogers_launch-KF-006,ROGERS,0.493,ELSAYED,-0.017,1,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_elsayed_response-KF-001,ROGERS,0.547,ELSAYED,0.039,7,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_elsayed_response-KF-002,ROGERS,0.468,ELSAYED,0.072,10,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_elsayed_response-KF-003,ROGERS,0.585,ELSAYED,0.014,5,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_elsayed_response-KF-004,unknown,0.278,ELSAYED,0.095,11,0,face present but no candidate reference clears threshold/margin
+MI_elsayed_response-KF-005,unknown,0.298,ROGERS,0.154,4,0,face present but no candidate reference clears threshold/margin
+MI_elsayed_response-KF-006,ROGERS,0.492,ELSAYED,0.152,8,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_elsayed_response-KF-007,ELSAYED,0.539,ROGERS,-0.064,12,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_elsayed_response-KF-008,unknown,0.228,ELSAYED,0.060,15,0,face present but no candidate reference clears threshold/margin
+MI_elsayed_response-KF-009,unknown,0.263,ROGERS,0.043,13,0,face present but no candidate reference clears threshold/margin
+MI_elsayed_response-KF-010,unknown,0.220,ELSAYED,0.151,6,0,face present but no candidate reference clears threshold/margin
+MI_elsayed_response-KF-011,unknown,0.000,unknown,0.000,0,0,no face detected
+MI_elsayed_response-KF-012,ELSAYED,0.629,ROGERS,-0.044,7,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_debate_clip-KF-001,unknown,0.209,ROGERS,0.103,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-002,unknown,0.227,ROGERS,0.107,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-003,unknown,0.108,ELSAYED,0.002,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-004,unknown,0.103,ELSAYED,0.021,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-005,ELSAYED,0.742,ROGERS,0.047,2,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_debate_clip-KF-006,ELSAYED,0.747,ROGERS,0.011,3,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_debate_clip-KF-007,ROGERS,0.655,ELSAYED,0.031,3,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_debate_clip-KF-008,ROGERS,0.567,ELSAYED,-0.023,2,1,best SFace match clears threshold 0.363 and margin 0.05
+MI_debate_clip-KF-009,unknown,0.118,ELSAYED,0.069,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-010,unknown,0.123,ELSAYED,0.035,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-011,unknown,0.186,ELSAYED,0.048,1,0,face present but no candidate reference clears threshold/margin
+MI_debate_clip-KF-012,unknown,0.141,ELSAYED,0.031,1,0,face present but no candidate reference clears threshold/margin

@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "LA_bass_concede",
+    "video_id": "mulcAF2XEXk",
+    "candidate_source": "BASS",
+    "kind": "concession",
+    "title": "Karen Bass concedes LA mayoral race to Nithya Raman",
+    "file": "LA_bass_concede_mulcAF2XEXk.mp4",
+    "channel": "ABC News",
+    "upload_date": "20261105",
+    "duration_s": 112
+  },
+  {
+    "slug": "LA_raman_win",
+    "video_id": "UKhyCjIJJjc",
+    "candidate_source": "RAMAN",
+    "kind": "victory_speech",
+    "title": "Los Angeles Mayor-elect Nithya Raman makes remarks after winning mayoral race",
+    "file": "LA_raman_win_UKhyCjIJJjc.mp4",
+    "channel": "ABC7",
+    "upload_date": "20261106",
+    "duration_s": 833
+  },
+  {
+    "slug": "LA_debate_clip",
+    "video_id": "dMQfRcycEtQ",
+    "candidate_source": "JOINT",
+    "kind": "debate_clip",
+    "title": "Los Angeles Mayor Karen Bass, challenger Nithya Raman face off in mayoral debate",
+    "file": "LA_debate_clip_dMQfRcycEtQ.mp4",
+    "channel": "CBS LA",
+    "upload_date": "20260820",
+    "duration_s": 159
+  }
+]

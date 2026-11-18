@@ -26,7 +26,7 @@ padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,Bl
 
 <header class="top"><div class="top-in">
   <div class="brand">visual_archive_notes<small>2026 archive · bilingual</small></div>
-  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="" href="../video/index.html">视频<span style="opacity:.6;font-size:.78em"> Video</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
 </div></header>
 <div class="layout"><main>
 <div class="crumb"><a href="index.html">文档 / Docs</a> / 04_visual_archive/visual_archive_notes.md</div><h1>Visual archive notes</h1>
@@ -42,6 +42,13 @@ padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,Bl
 <p>Three public-domain portraits satisfy the contract&#x27;s portrait requirement: Brown 2021 (official, 117th Congress), Brown 2009 (earlier official photo) and Husted 2025 (official, 119th Congress). The two 2025 Husted portraits are the fairest pair for side-by-side comparison, taken within weeks of each other and both official.</p>
 <h2>中文摘要</h2>
 <p><code>image_archive.csv</code> 共 18 条记录（布朗 11、赫斯特德 7），已下载 15 个文件，全部小于 2 MB。三条 仅登记未下载：2018 年副州长官方肖像（原始 7.0 MB）、2017 年照片（5.6 MB）、2026 年竖屏竞选视频 （19 MB），均超过体积上限。许可信息取自 Commons API 的 imageinfo，逐字记录。<code>clothing_notes</code>、 <code>camera_angle</code>、<code>face_visibility</code>、<code>body_visibility</code> 四列全部为 unknown：本流程没有任何读图步骤， 也没有任何检索到的图注描述衣着；凭想象填写会造出全档案最自信却最不可辩护的列。三张公有领域肖像 （布朗 2021、布朗 2009、赫斯特德 2025）满足合同要求。</p>
+<h2>News photograph harvest (2026-11-18)</h2>
+<p>On 2026-11-18 the archive added <strong>25 credited news-photograph rows</strong> harvested from the article HTML already stored for fact-checking. 15 rows in this file have a local licensed copy; the news rows do not — the photograph is all rights reserved, so only the article URL, caption and credit line are recorded.</p>
+<p>按候选人 / by candidate: BROWN 18, HUSTED 7</p>
+<p>Top outlets / 主要来源: cleveland.com (4), Los Angeles Daily News (4), NBC News (3), yahoo.com (3), ohiocapitaljournal.com (2), bostonherald.com (2)</p>
+<p>Every row is <code>verification_status = partially verified</code>: the caption was read in the archived page, but <strong>the image itself was neither downloaded nor viewed</strong>. A caption that names both nominees may describe either of them; rows record the candidate named first in the caption and do not assert who is pictured.</p>
+<p>每一行都是 <code>partially verified</code>：说明文字确实在读到的存档页面中出现，但<strong>图片本身既未下载也未查看</strong>。同时提到两位候选人的说明文字可能描述其中任何一位；记录取说明中最先出现的候选人，并不断言画面中是谁。</p>
+<p>Rows whose caption names no candidate are not harvested; gallery pages, logos, maps and charts are excluded. See <code>_tools/news_photos.py</code> for the exact filters.</p>
 </main></div>
 <footer><div class="in">
   <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>

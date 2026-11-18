@@ -125,3 +125,14 @@ every cited URL matches its registered URL.
    headline-level sources and marked `unverified` or `partially verified`.
 3. No image in this archive was inspected visually; framing and clothing fields are metadata-derived.
 4. The archive contains no rankings, scores or grades of the candidates.
+
+## Video and news-photo layer (2026-11-18)
+
+- **News photographs:** 29 credited caption rows added to `04_visual_archive/image_archive.csv` from the archived article HTML. All are `all_rights_reserved_link_only`: article URL, caption and credit are stored, the image is not.
+- **Video corpus:** 3 uploaded videos, 37 keyframes, 12/37 frames attributed by SFace against the licensed portraits. Details, method and limits: [`10_video_frames/README.md`](10_video_frames/README.md).
+- **Identity distribution:** unknown 25, HINSON 12
+- **Still no clothing evidence:** no keyframe was read by a vision model and no harvested caption names clothing, so `clothing_notes` remains `unknown` throughout.
+
+- **新闻照片：** 从存档文章 HTML 新增 29 条带署名的图注记录至 `04_visual_archive/image_archive.csv`。全部为 `all_rights_reserved_link_only`：保存文章 URL、图注与署名，不保存图片。
+- **视频语料：** 3 段上传视频、37 张关键帧，SFace 对照授权肖像后归属 12/37 帧。方法、限制与逐视频明细见 [`10_video_frames/README.md`](10_video_frames/README.md)。
+- **仍无着装证据：** 没有关键帧被视觉模型读取，已采集图注也没有描述着装，`clothing_notes` 全部保持 `unknown`。

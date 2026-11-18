@@ -56,3 +56,17 @@ weeks of each other and both official.
 `camera_angle`、`face_visibility`、`body_visibility` 四列全部为 unknown：本流程没有任何读图步骤，
 也没有任何检索到的图注描述衣着；凭想象填写会造出全档案最自信却最不可辩护的列。三张公有领域肖像
 （布朗 2021、布朗 2009、赫斯特德 2025）满足合同要求。
+
+## News photograph harvest (2026-11-18)
+
+On 2026-11-18 the archive added **25 credited news-photograph rows** harvested from the article HTML already stored for fact-checking. 15 rows in this file have a local licensed copy; the news rows do not — the photograph is all rights reserved, so only the article URL, caption and credit line are recorded.
+
+按候选人 / by candidate: BROWN 18, HUSTED 7
+
+Top outlets / 主要来源: cleveland.com (4), Los Angeles Daily News (4), NBC News (3), yahoo.com (3), ohiocapitaljournal.com (2), bostonherald.com (2)
+
+Every row is `verification_status = partially verified`: the caption was read in the archived page, but **the image itself was neither downloaded nor viewed**. A caption that names both nominees may describe either of them; rows record the candidate named first in the caption and do not assert who is pictured.
+
+每一行都是 `partially verified`：说明文字确实在读到的存档页面中出现，但**图片本身既未下载也未查看**。同时提到两位候选人的说明文字可能描述其中任何一位；记录取说明中最先出现的候选人，并不断言画面中是谁。
+
+Rows whose caption names no candidate are not harvested; gallery pages, logos, maps and charts are excluded. See `_tools/news_photos.py` for the exact filters.
