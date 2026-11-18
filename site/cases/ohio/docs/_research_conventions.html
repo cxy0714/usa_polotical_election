@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>_research_conventions</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Ohio Senate 2026 (special) / 2026 年俄亥俄州联邦参议员特别选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">_research_conventions<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / _research_conventions.md</div><h1>Research conventions / 研究规范</h1>
+<h2>1. Retrieval and logging / 抓取与日志</h2>
+<p>Every URL in <code>09_sources/sources.csv</code> has a row in <code>_staging/fetch_log.csv</code> with its HTTP status, byte count, timestamp and mirror path. Failures (403, 402, 429, 0) stay in the log and are never cited as content. A source that is not in the log may not appear in <code>sources.csv</code>. Retrieval used <code>urllib</code> with an explicit User-Agent (<code>Mozilla/5.0 (research archive)</code>), one request per URL, no retries against a blocking host.</p>
+<p><code>sources.csv</code> 中每个链接在 <code>_staging/fetch_log.csv</code> 均有状态、字节数、时间与镜像路径记录。 失败请求保留在日志中且绝不作为内容引用。未入日志者不得进入 <code>sources.csv</code>。</p>
+<h2>2. Source tiers / 来源分层</h2>
+<ul>
+<li><strong>T1</strong> official: FEC, Senate/Commons official portraits, campaign websites, government records.</li>
+<li><strong>T2</strong> journalism: regional dailies, statehouse bureaus, wire services, pollster releases.</li>
+<li><strong>T3</strong> synthesis: Wikipedia, aggregators, ratings pages, law-firm newsletters.</li>
+</ul>
+<p>T3 is used for the spine (dates, tables) but any T3-only fact is marked <code>partially verified</code>. When T2 and T3 disagree, both values are recorded.</p>
+<p><strong>T1</strong> 官方；<strong>T2</strong> 新闻；<strong>T3</strong> 综合（维基、聚合站、评级页）。仅有T3支撑的事实标注 <code>partially verified</code>； T2与T3冲突时两者并记。</p>
+<h2>3. Dates / 日期</h2>
+<p><code>event_date</code> is the date the event happened, not the publication date; when a report says &quot;Wednesday&quot; or &quot;Monday&quot;, the date is derived from the publication date and the derivation is stated in <code>analyst_notes</code>. Husted&#x27;s incumbency is <strong>always</strong> dated: announcement 2025-01-17, oath 2025-01-21. <code>unknown</code> is written where no record fixes the date.</p>
+<p><code>event_date</code> 记事件发生日而非发稿日；由“周三/周一”推算的日期在 <code>analyst_notes</code> 中说明推算过程。 赫斯特德的在任起点一律标注：2025-01-17 宣布、2025-01-21 宣誓。</p>
+<h2>4. Quoting / 引语</h2>
+<p>Quotation marks mean the words appeared inside quotation marks in the retrieved source. Paraphrase is never placed inside quotation marks. Where a campaign speaks through a spokesperson, the row says so and the quote is attributed to the spokesperson. No quote is reconstructed from memory or from a search-result snippet.</p>
+<p>引号内文字必须是检索到的原文引号内容；转述绝不加引号；由发言人代述时明确标明。不得凭记忆或搜索摘要 重构引语。</p>
+<h2>5. <code>unknown</code> and placeholders / <code>unknown</code> 与占位符</h2>
+<p><code>unknown</code> is a legitimate value and is used whenever the record is silent. <code>TBD</code>, <code>TODO</code>, <code>N/A</code>, <code>NA</code>, <code>null</code>, <code>None</code> and <code>-</code> are forbidden by the validator and do not appear.</p>
+<p>凡记录未载明即填 <code>unknown</code>；禁用占位符。</p>
+<h2>6. Verification vocabulary / 校验语汇</h2>
+<ul>
+<li><code>verified</code> — an official record or two independent T2 sources agree.</li>
+<li><code>partially verified</code> — one T2 source, or T3 corroborated by one T2.</li>
+<li><code>conflicting sources</code> — two retrieved sources disagree; both are reported.</li>
+<li><code>unverified</code> — a single non-independent claim, e.g. a campaign&#x27;s own attendance or jobs figure.</li>
+</ul>
+<h2>7. Analytic writing / 分析写作</h2>
+<p><code>analyst_interpretation</code> and <code>analyst_notes</code> are clearly separated from observed facts. The archive does not infer crowd size, enthusiasm, or venue from a photograph, and it does not treat a headline as a body fact.</p>
+<p><code>analyst_interpretation</code> 与 <code>analyst_notes</code> 与事实严格分离；不从照片推断人数、气氛或场地；不把标题当作正文事实。</p>
+<h2>8. Bilingual structure / 双语结构</h2>
+<p>Every <code>##</code> section carries an English block followed by its Chinese counterpart. English governs where the two differ. Chinese text is written for a Chinese-reading researcher, not machine-translated word for word.</p>
+<p>每个 <code>##</code> 小节先英文后中文；两版不一致时以英文为准。</p>
+<h2>9. What this archive refuses to do / 本档案拒绝做的事</h2>
+<p>No composite quotes, no invented venues, no interpolated crowd sizes, no synthesised &quot;typical&quot; rally description, no imputed policy position from party platform alone. Where a position is inferred from endorsements rather than a statement, the row says so.</p>
+<p>不合成引语、不虚构场地、不插值人数、不臆测立场；仅由 endorsement 推断的立场会明确标注。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

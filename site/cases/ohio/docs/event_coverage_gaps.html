@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>event_coverage_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Ohio Senate 2026 (special) / 2026 年俄亥俄州联邦参议员特别选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">event_coverage_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 02_campaign_events/event_coverage_gaps.md</div><h1>Event coverage gaps</h1>
+<h2>What the table covers well</h2>
+<p>The 35 rows in <code>campaign_events.csv</code> are heavy on endorsement events (17 of 35) and on the final three weeks of rallies. That reflects the sources: union and trade-association releases are dated, published and archived, and late-October rally coverage was abundant.</p>
+<h2>What is thin</h2>
+<p><strong>Routine retail politics is almost absent.</strong> Neither campaign published a public event calendar, and Ohio political coverage does not report every county fair stop or plant walk. The archive therefore records seven <code>community_visit</code>, <code>small_business_visit</code> or <code>workplace_visit</code> rows against what were certainly dozens of such stops. Absence in this table is an artefact of coverage, not evidence that the candidates stayed home.</p>
+<p><strong>Fundraisers are not documented at all.</strong> No closed-press fundraiser in Ohio was reported with a date and venue in a retrievable source. There is no <code>fundraiser</code> row, and none should be inferred from the finance totals.</p>
+<p><strong>Debates are absent, and this is the single largest gap.</strong> No source retrieved for this archive documents a Brown-Husted debate: no date, no venue, no sponsor, no transcript. What the record does contain is evidence of a dispute about debates — a WDTN headline dated 2026-10-30 whose article body could not be retrieved — and a Bowling Green State University/YouGov poll, fielded before debates became an issue, in which 54% of respondents called debates &quot;very important&quot;. No <code>debate</code> or <code>debate_invitation</code> row was created, because a headline is not enough to fix a date and venue.</p>
+<p><strong>Early-voting events are undercounted.</strong> Two <code>early_voting_event</code> rows exist; both campaigns ran turnout operations across all 88 counties for four weeks.</p>
+<h2>What cannot be recovered at all</h2>
+<p>Crowd sizes. Where a source printed an estimate (&quot;hundreds&quot;, &quot;more than 1,000&quot;), the number is recorded in <code>crowd_size_estimate</code> with the source&#x27;s own hedging; where no estimate was printed, the cell says <code>unknown</code>. Do not sum these cells.</p>
+<h2>中文摘要</h2>
+<p>事件表长于 endorsement（35 行中 17 行）与最后三周的集会，因为工会与行业协会的新闻稿有确定日期 且被存档。日常零售式竞选活动（县集市、工厂走访）几乎没有记录：两个竞选团队都没有公布公开活动 日历。募款活动完全没有记录。最大的缺口是辩论：本档案检索到的材料中没有任何一场布朗—赫斯特德 辩论的日期、场地或主办方；只有一条 2026-10-30 的 WDTN 标题（正文无法获取）显示辩论曾成为争议 议题。因此没有创建 debate 行——一条标题不足以确定日期与场地。人群规模只能照抄来源的估计，未 印出估计的一律记为 unknown，且不可加总。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

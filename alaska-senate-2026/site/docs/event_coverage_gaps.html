@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>event_coverage_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">event_coverage_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 02_campaign_events/event_coverage_gaps.md</div><h1>Event coverage gaps / 活动报道缺口</h1>
+<h2>The shape of the evidence</h2>
+<p><code>campaign_events.csv</code> holds 30 rows: 14 for Peltola, 16 for Sullivan. Of these, 16 are documented appearances, 11 are endorsement announcements, and 3 are unverified placeholders (two AFN rows and Peltola&#x27;s written victory statement). Five occasions are recorded once per candidate — the primary day, the AOGA forum, the Kodiak debate, Debate for the State and the AFN convention — so the file describes <strong>25 distinct dated occasions</strong>, not 30.</p>
+<p><code>campaign_events.csv</code> 共 30 行：佩尔托拉 14 行、沙利文 16 行。其中 16 条为有据可查的露面、11 条为 背书公告、3 条为未核实占位（两行 AFN 与佩尔托拉的书面胜选声明）。有五个场合按候选人各记一行—— 初选日、AOGA 论坛、科迪亚克辩论、Debate for the State 与 AFN 大会——因此文件描述的是 <strong>25 个不同日期场合</strong>，而非 30 个。</p>
+<h2>What is missing, by category</h2>
+<div class="table-wrap"><table><thead><tr><th>Category</th><th>Rows</th><th>Why the number is low</th></tr></thead><tbody>
+<tr><td><code>rally</code></td><td>2</td><td>Only the Juneau rally (Peltola) and the Wasilla Trump rally (Sullivan) have enough detail to code; neither has a venue or crowd.</td></tr>
+<tr><td><code>town_hall</code></td><td>0</td><td>Peltola&#x27;s town halls against the Kroger merger are described by AFGE (SRC-0094) but no single event with a date and city was retrieved.</td></tr>
+<tr><td><code>meet_and_greet</code>, <code>small_business_visit</code>, <code>workplace_visit</code></td><td>0</td><td>Standard Alaska campaign stops are not covered event-by-event by the outlets retrieved.</td></tr>
+<tr><td><code>fundraiser</code></td><td>0</td><td>No fundraiser was reported with a date and host.</td></tr>
+<tr><td><code>early_voting_event</code>, <code>gotv_event</code></td><td>0</td><td>Sealaska&#x27;s GOTV campaign is recorded as an endorsement announcement (SRC-0102); no candidate GOTV event was retrieved.</td></tr>
+<tr><td><code>watch_party</code>, <code>election_eve</code></td><td>0</td><td>Not reported in the retrieved corpus.</td></tr>
+<tr><td><code>concession_speech</code></td><td>0</td><td>Sullivan had not conceded by 2026-11-18 (SRC-0056).</td></tr>
+<tr><td><code>victory_speech</code></td><td>1</td><td>Peltola&#x27;s is a written statement, coded <code>unverified</code> as an event.</td></tr>
+<tr><td><code>press_conference</code>, <code>interview_*</code>, <code>podcast</code>, <code>livestream</code></td><td>0</td><td>These were not coded as events; several are better represented in <code>05_campaign_media/media_coverage.csv</code>.</td></tr>
+</tbody></table></div>
+<h2>The AFN hole</h2>
+<p>The Alaska Federation of Natives&#x27; 60th convention began 2026-10-22 (SRC-0077). AFN is the central Alaska Native political gathering of the cycle, and both candidates had obvious reasons to appear: Peltola as the first Alaska Native woman in Congress, Sullivan as the candidate endorsed by the ANCSA Regional Association (SRC-0104). No retrieved report documents either one speaking there. Two rows (PEL-EVT-09, SUL-EVT-16) exist as <code>unverified</code> placeholders with explicitly hedged titles (&quot;candidate appearance not documented&quot;), and this file records why they are placeholders rather than events. Filling this gap is the single highest-value addition to the archive.</p>
+<p>阿拉斯加原住民联合会（AFN）第 60 届大会于 2026-10-22 开幕（SRC-0077）。AFN 是本周期阿拉斯加原住民 政治的核心场合，两位候选人都有明显理由出席：佩尔托拉是国会首位阿拉斯加原住民女性，沙利文则获 ANCSA 区域协会背书（SRC-0104）。但没有任何已取得报道记录其中一人在此发言。两行 （PEL-EVT-09、SUL-EVT-16）作为 <code>unverified</code> 占位存在，标题明确保留（&quot;候选人露面未记载&quot;）， 本文件说明其为何只是占位而非事件。补齐这一缺口是档案中最有价值的增补。</p>
+<h2>Debates: three, all joint, all documented</h2>
+<div class="table-wrap"><table><thead><tr><th>Date</th><th>Venue / host</th><th>Moderator(s)</th><th>Video</th></tr></thead><tbody>
+<tr><td>2026-08-27</td><td>Alaska Oil and Gas Association annual conference, Anchorage</td><td>not reported (the House forum that day was moderated by Tara Sweeney)</td><td>vimeo.com/1225063686 (SRC-0118)</td></tr>
+<tr><td>2026-09-12</td><td>Kodiak Chamber of Commerce fishery debate</td><td>not reported</td><td>youtube.com/watch?v=53yBygyYrlk (SRC-0116)</td></tr>
+<tr><td>2026-10-15</td><td>&quot;Debate for the State&quot;, Alaska Public Media studio, Anchorage</td><td>Lori Townsend (APM news director), with Liz Ruskin and Wil Courtney on the panel (SRC-0024)</td><td>youtube.com/watch?v=1nyBxC-uups (SRC-0117)</td></tr>
+</tbody></table></div>
+<p>The 2026-10-15 panel details come from ADN&#x27;s account, which names Townsend and refutes Sullivan&#x27;s claim that Peltola received questions in advance. The other two debates&#x27; moderator names were not in the retrieved reporting and are left <code>unknown</code> rather than inferred from the host organisation.</p>
+<p>2026-10-15 的主持人信息来自 ADN 报道，报道点名汤森并驳斥沙利文&quot;佩尔托拉提前拿到问题&quot;的说法。 另外两场辩论的主持人姓名未见于已取得报道，故记 <code>unknown</code>，不依据主办机构推断。</p>
+<h2>Documented appearances by phase</h2>
+<div class="table-wrap"><table><thead><tr><th>Phase</th><th>Peltola</th><th>Sullivan</th><th>Note</th></tr></thead><tbody>
+<tr><td>pre_launch / launch</td><td>3</td><td>2</td><td>Peltola&#x27;s Pride parade appearance (date unknown), launch video and the SEIU 775 endorsement; Sullivan&#x27;s Lincoln Day launch and Trump endorsement</td></tr>
+<tr><td>primary</td><td>2</td><td>6</td><td>Endorsement-heavy: five of Sullivan&#x27;s six are releases</td></tr>
+<tr><td>general</td><td>8</td><td>8</td><td>Three debates, two rallies, one surrogate rally, plus endorsement releases</td></tr>
+<tr><td>election_day</td><td>0</td><td>0</td><td>No candidate event on 2026-11-03 was retrieved; the primary-day rows are coded <code>primary</code></td></tr>
+<tr><td>post_election</td><td>1</td><td>0</td><td>Peltola&#x27;s written victory statement; no Sullivan event</td></tr>
+</tbody></table></div>
+<p>The imbalance in the primary phase is a source artifact: Sullivan&#x27;s team pushed endorsement releases steadily through the spring and summer, while Peltola&#x27;s endorsements were announced by the groups themselves on fewer dates.</p>
+<p>初选阶段的不平衡是信息来源差异：沙利文团队春夏持续发布背书稿，而佩尔托拉的背书多由团体自行在 较少日期公布。</p>
+<h2>What would close the remaining gaps</h2>
+<ol>
+<li>Campaign event calendars or press advisories (not retrieved; sites returned 403 or had no calendar).</li>
+<li>Local TV and radio coverage of stops in Bethel, Nome, Utqiagvik, Ketchikan and Sitka — none of</li>
+<p>which appears in the retrieved corpus at all, a geographic bias worth stating plainly.</p>
+<li>AFN&#x27;s convention program and video archive.</li>
+<li>Sullivan&#x27;s post-election remarks, whenever they occur.</li>
+</ol>
+<ol>
+<li>竞选活动日历或媒体通告（未取得；网站 403 或无日历）。</li>
+<li>对贝瑟尔、诺姆、乌特恰维克、凯奇坎、锡特卡等地停留的地方电视与广播报道——这些地点在已取得</li>
+<p>语料中完全缺席，这一地理偏差值得明确说明。</p>
+<li>AFN 大会议程与视频存档。</li>
+<li>沙利文的选后表态（待其发生）。</li>
+</ol>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>election_context</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Los Angeles Mayor 2026 / 2026 年洛杉矶市长选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">election_context<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 07_electoral_context/election_context.md</div><h1>Election context / 选举背景</h1>
+<h2>1. The rules that shaped the race / 决定赛制的规则</h2>
+<p>Los Angeles elects its mayor in a <strong>nonpartisan</strong> contest: no party appears on the ballot, and if no candidate wins a majority in the June primary the top two advance to a November runoff. In 2026 the primary fell on <strong>2026-06-02</strong> and the runoff on <strong>2026-11-03</strong> <span class="src">SRC-0001</span>. Because the office is nonpartisan, this archive records <code>party = Nonpartisan</code> for every candidate and reconstructs ideology only from endorsements, issue positions and coalition behaviour — never from a ballot label.</p>
+<p>洛杉矶以<strong>无党派</strong>方式选举市长：选票上不列党派，若无人在 6 月初选获得多数，前两名进入 11 月决选。 2026 年初选为 <strong>2026-06-02</strong>，决选为 <strong>2026-11-03</strong> <span class="src">SRC-0001</span>。由于该职位无党派，本档案对每位 候选人记 <code>party = Nonpartisan</code>，并只从背书、议题立场与联盟行为重建意识形态——绝不用选票标签。</p>
+<p>The practical consequences are visible in the data. Fourteen candidates appeared on the primary ballot <span class="src">SRC-0021</span> <span class="src">SRC-0002</span>; the top three took 88.8% of the vote between them, so the primary functioned as a three-way contest with a long tail. The winner of the primary (Bass, 34.3%) did not win the runoff. The $1,800 per-donor contribution cap for mayor <span class="src">SRC-0034</span> pushed much of the race&#x27;s money into independent expenditure committees, which is why <code>campaign_finance.csv</code> needs a <code>report_type</code> column.</p>
+<p>这些后果在数据中可见。初选选票上有十四位候选人 <span class="src">SRC-0021</span> <span class="src">SRC-0002</span>；前三名合计得票 88.8%， 故初选实质是三人之争加一条长尾。初选第一名（Bass，34.3%）并未赢得决选。市长选举单人捐款上限 1,800 美元 <span class="src">SRC-0034</span> 把大量资金推向独立支出委员会，这正是 <code>campaign_finance.csv</code> 需要 <code>report_type</code> 列的原因。</p>
+<h2>2. The field / 候选人阵容</h2>
+<p>The field was set on the filing deadline of 2026-02-07, when Raman entered &quot;on the last day&quot; <span class="src">SRC-0013</span> <span class="src">SRC-0039</span> and Austin Beutner withdrew after his daughter&#x27;s death <span class="src">SRC-0031</span>. Beyond the three who mattered, the ballot carried ten candidates with published totals ranging from 30,008 (Adam Miller, 3.5%) down to 881 (Nelson Cheng, 0.1%) <span class="src">SRC-0021</span>. Two write-in candidates were certified separately and have no published totals <span class="src">SRC-0002</span>. Pratt&#x27;s 217,977 votes (25.5%) are the single most consequential number in the primary: they are roughly twice the runoff&#x27;s final margin.</p>
+<p>阵容在 2026-02-07 提交截止日定型：Raman &quot;在最后一天&quot;入场 <span class="src">SRC-0013</span> <span class="src">SRC-0039</span>，Austin Beutner 在 女儿去世后退出 <span class="src">SRC-0031</span>。除三位关键人物外，选票上还有十位候选人，公布票数从 30,008（Adam Miller， 3.5%）到 881（Nelson Cheng，0.1%）<span class="src">SRC-0021</span>。另有两名补写候选人获单独认证，无公布票数 <span class="src">SRC-0002</span>。 Pratt 的 217,977 票（25.5%）是初选中最重要的单一数字：约为决选最终差额的两倍。</p>
+<h2>3. The calendar that mattered / 关键时间节点</h2>
+<div class="table-wrap"><table><thead><tr><th>Date</th><th>Event</th></tr></thead><tbody>
+<tr><td>2024-07-01</td><td>Bass files for reelection <span class="src">SRC-0037</span></td></tr>
+<tr><td>2025-01-07</td><td>Palisades and Eaton fires begin — the incumbency&#x27;s defining vulnerability</td></tr>
+<tr><td>2025-11-15</td><td>First reported left challenge to Bass <span class="src">SRC-0038</span></td></tr>
+<tr><td>2025-12-13</td><td>Bass launch rally <span class="src">SRC-0023</span></td></tr>
+<tr><td>2026-02-07</td><td>Filing deadline; Raman enters, Beutner exits <span class="src">SRC-0039</span> <span class="src">SRC-0031</span></td></tr>
+<tr><td>2026-05-05 / 05-06</td><td>Two primary debates <span class="src">SRC-0040</span> <span class="src">SRC-0001</span></td></tr>
+<tr><td>2026-05-13</td><td>Final pre-primary forum canceled <span class="src">SRC-0041</span></td></tr>
+<tr><td>2026-06-02</td><td>Primary: Bass 34.3%, Raman 29.0%, Pratt 25.5% <span class="src">SRC-0021</span></td></tr>
+<tr><td>2026-08-19</td><td>First runoff debate <span class="src">SRC-0032</span></td></tr>
+<tr><td>2026-09-14 → 09-18</td><td>Ad war opens: Raman&#x27;s Emmy spot, Bass&#x27;s ICE spot, LAPPL&#x27;s attack <span class="src">SRC-0044</span></td></tr>
+<tr><td>2026-09-26 / 09-29</td><td>South L.A. forum; Jewish Federation forum <span class="src">SRC-0035</span> <span class="src">SRC-0033</span></td></tr>
+<tr><td>2026-10-13</td><td>Final runoff debate <span class="src">SRC-0062</span></td></tr>
+<tr><td>2026-11-03</td><td>Runoff: Raman 54.9%, Bass 45.1% <span class="src">SRC-0001</span></td></tr>
+</tbody></table></div>
+<h2>4. The counting environment / 计票环境</h2>
+<p>California counts mail ballots incrementally and releases updates in daily batches, so election-night leads are provisional for days. The Wikipedia account adds that this practice &quot;triggered election conspiracists, including President Donald Trump&quot; in 2026 <span class="src">SRC-0001</span> — a claim that rests on the encyclopedia alone and is therefore <code>partially verified</code>; no wire story retrieved here covers it. This is also why primary-night &quot;Bass leads&quot; reporting is recorded in <code>results_notes.md</code> as a count-order statement rather than a result.</p>
+<p>加州分批计票、按日公布更新，故选举夜的领先数日在数天内都是暂定的。维基百科的叙述补充说，这一做法 在 2026 年&quot;引发电举阴谋论者，包括特朗普总统&quot; <span class="src">SRC-0001</span>——该说法仅依赖百科，故为 <code>partially verified</code>；本档案未取得任何通讯社报道涉及此事。这也是 <code>results_notes.md</code> 把初选夜 &quot;Bass 领先&quot;的报道记为计票顺序陈述而非结果的原因。</p>
+<h2>5. The polling trajectory / 民调轨迹</h2>
+<p>Eight reconcilable runoff polls are in <code>polling.csv</code>. Read as a sequence, they show the incumbent starting ahead, the challenger taking a consistent mid-runoff lead, and the final poll returning to a tie: Tulchin (August) Bass +6; Hart (Sept. 1–9) Raman +5; Berkeley IGS (Sept. 15–20) Raman +11; Manhattan (Sept. 24–Oct. 1) Raman +3 leaned; FM3 and Impact (early October) Raman +2 and +10; McLaughlin (Oct. 15–18) Raman +8; Berkeley IGS (Oct. 19–25) <strong>tie at 40–40</strong> with 19% undecided <span class="src">SRC-0028</span> <span class="src">SRC-0045</span> <span class="src">SRC-0019</span> <span class="src">SRC-0020</span>. The final result (Raman +9.8) landed between the last two readings, which is a reminder that a 19% undecided share is not noise.</p>
+<p><code>polling.csv</code> 收录八项可对账的决选民调。按序阅读可见：现任者起步领先，挑战者在决选中段稳定领先， 最后一项民调回到平手：Tulchin（8 月）Bass +6；Hart（9/1–9）Raman +5；Berkeley IGS（9/15–20） Raman +11；Manhattan（9/24–10/1）含倾向 Raman +3；FM3 与 Impact（10 月初）Raman +2 与 +10； McLaughlin（10/15–18）Raman +8；Berkeley IGS（10/19–25）<strong>40–40 平手</strong>，19% 未决 <span class="src">SRC-0028</span> <span class="src">SRC-0045</span> <span class="src">SRC-0019</span> <span class="src">SRC-0020</span>。最终结果（Raman +9.8）落在最后两次读数之间，提醒我们 19% 的 未决比例不是噪声。</p>
+<h2>6. The fabricated poll / 伪造民调</h2>
+<p>One widely circulated runoff poll showing Bass far ahead was retracted by the company that published it <span class="src">SRC-0047</span>, and two outlets traced the operation behind it <span class="src">SRC-0080</span> <span class="src">SRC-0081</span>. The archive excludes it from <code>polling.csv</code> and mentions it here because its existence is part of the election&#x27;s information environment: in the final month, a number that was never a measurement circulated as one.</p>
+<p>一份广为流传、显示 Bass 大幅领先的决选民调被其发布公司撤回 <span class="src">SRC-0047</span>，两家媒体追查了其背后的 操作 <span class="src">SRC-0080</span> <span class="src">SRC-0081</span>。档案将其排除在 <code>polling.csv</code> 之外，并在此提及，因为它的存在本身是这场 选举信息环境的一部分：在最后一个月，一个从未是测量的数字以测量的身份流通。</p>
+<h2>7. What overlaid the race / 叠加在选举之上的议题</h2>
+<p>Three exogenous frames ran through every retrieved source. The <strong>January 2025 fires</strong> and the slow rebuild <span class="src">SRC-0052</span> <span class="src">SRC-0011</span>; <strong>federal immigration enforcement</strong>, which produced the runoff&#x27;s most contested advertisement <span class="src">SRC-0044</span>; and the <strong>2028 Olympics</strong>, the deadline against which Raman set her encampment target <span class="src">SRC-0008</span> and against which Bass argued the city could not afford a change of management <span class="src">SRC-0062</span>. A fourth, quieter frame — a roughly $1 billion budget gap <span class="src">SRC-0073</span> — supplied the challenger&#x27;s fiscal argument and the city controller&#x27;s endorsement <span class="src">SRC-0072</span>.</p>
+<p>三条外生框架贯穿所有已获取来源。<strong>2025 年 1 月大火</strong>与迟缓的重建 <span class="src">SRC-0052</span> <span class="src">SRC-0011</span>； <strong>联邦移民执法</strong>，催生了决选中最具争议的广告 <span class="src">SRC-0044</span>；以及 <strong>2028 奥运会</strong>——Raman 以它为营地 目标设定时限 <span class="src">SRC-0008</span>，Bass 以它论证城市承受不起管理层更替 <span class="src">SRC-0062</span>。第四条更安静的框架—— 约 10 亿美元的预算缺口 <span class="src">SRC-0073</span>——提供了挑战者的财政论点与市主计长的背书 <span class="src">SRC-0072</span>。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

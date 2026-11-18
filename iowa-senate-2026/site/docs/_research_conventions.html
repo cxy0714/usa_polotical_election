@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>_research_conventions</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">_research_conventions<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / _research_conventions.md</div><h1>Research conventions / 研究规范</h1>
+<h2>1. One source per row / 每行一个来源</h2>
+<p>English: Every CSV row carries exactly one <code>SRC-####|https://…</code> pair in <code>source_urls</code>. Where an assertion rests on two pages, the row cites the page that carries the assertion and the second page appears in <code>reliability_notes</code> or <code>notes</code>. Joining two ids with a semicolon is forbidden because the validator cannot resolve it.</p>
+<p>中文：每个 CSV 行的 <code>source_urls</code> 恰好一组 <code>SRC-####|https://…</code>。若某判断依赖两个页面，该行引用承载该判断的页面， 另一个页面写入 <code>reliability_notes</code> 或 <code>notes</code>。禁止用分号拼接两个编号，因为校验器无法解析。</p>
+<h2>2. <code>unknown</code> is a value / <code>unknown</code> 是一个值</h2>
+<p>English: A cell never goes blank and never gets a plausible guess. <code>unknown</code> means &quot;no retrieved source establishes this&quot;. It appears in 100+ cells, concentrated in crowd sizes, venue detail, ad lengths, image framing and finance sub-totals. <code>None</code>, <code>N/A</code>, <code>-</code> and <code>TBD</code> are banned by the validator and were removed wherever they appeared.</p>
+<p>中文：单元格不得留空，也不得填入看似合理的猜测。<code>unknown</code> 表示&quot;已抓取来源无法确认&quot;。它在 100 多个单元格中出现， 集中于人数、场地细节、广告时长、图片构图与资金分项。<code>None</code>、<code>N/A</code>、<code>-</code>、<code>TBD</code> 被校验器禁止，已全部清除。</p>
+<h2>3. Verification ladder / 核实阶梯</h2>
+<div class="table-wrap"><table><thead><tr><th>Status / 状态</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>verified</code></td><td>At least one T1/T2 source states the fact directly and it is not contradicted / 至少一个 T1/T2 来源直接陈述且无矛盾</td></tr>
+<tr><td><code>partially verified</code></td><td>Stated by a T3 source, or stated at headline level behind a paywall, or the quotation is truncated / 由 T3 来源陈述，或付费墙后的标题级陈述，或引文被截断</td></tr>
+<tr><td><code>unverified</code></td><td>Recorded from a single weak or headline-only source with no corroboration / 仅有单一薄弱或仅标题来源，无旁证</td></tr>
+<tr><td><code>conflicting sources</code></td><td>Two sources state incompatible facts; both are recorded / 两个来源陈述互不相容的事实，二者均记录</td></tr>
+</tbody></table></div>
+<p>English: Wikipedia-only evidence is never upgraded past <code>partially verified</code>. That rule is why the finance rows (reproduced from an FEC table via the article) and the four link-only Turek portraits are marked as they are.</p>
+<p>中文：仅有维基百科支撑的证据绝不升级到 <code>partially verified</code> 以上。资金行（经条目转载的 FEC 表格）与四张仅链接的 Turek 肖像之所以如此标注，正是这条规则的结果。</p>
+<h2>4. Dates and times / 日期与时间</h2>
+<p>English: Dates are ISO <code>YYYY-MM-DD</code> or <code>unknown</code>; year-only or month-only evidence becomes <code>unknown</code> with the raw string in <code>notes</code>. <code>event_time</code> is local <code>HH:MM</code> or <code>unknown</code> — publication timestamps were never copied into <code>event_time</code>, because a story filed at 6:05 pm does not mean the event began then.</p>
+<p>中文：日期一律 ISO 或 <code>unknown</code>；只有年份或月份的証据写 <code>unknown</code>，原始字符串放入 <code>notes</code>。<code>event_time</code> 为当地 <code>HH:MM</code> 或 <code>unknown</code>——绝不把稿件发布时间当作活动开始时间（下午 6:05 发稿不等于活动 6:05 开始）。</p>
+<h2>5. Interpretation is marked / 解读必须标注</h2>
+<p>English: Any sentence that reads the record rather than reports it begins <code>INTERPRETATION:</code>. This applies in <code>analyst_interpretation</code>, in the comparison memo and in the communication analyses. Unmarked text asserts only what a source states.</p>
+<p>中文：凡对记录作出解读而非陈述的句子，一律以 <code>INTERPRETATION:</code> 开头。该规则适用于 <code>analyst_interpretation</code>、 比较报告与传播分析。未标注的文字只陈述来源所述内容。</p>
+<h2>6. No grades, no rankings / 不做评分与排序</h2>
+<p>English: No row scores a candidate, rates a performance or ranks the two. <code>framing_of_candidate</code> describes tone in words (&quot;sympathetic, biography-led&quot;); it does not assign a number. The NRA-PVF ratings page was retrieved but its candidate grades did not render, so no grade is recorded anywhere.</p>
+<p>中文：任何行都不为候选人评分、评级或排序。<code>framing_of_candidate</code> 用文字描述语气（&quot;同情式、传记主导&quot;），不给数字。 NRA-PVF 评分页虽已抓取，但候选人评级未渲染，因此档案中不记录任何评级。</p>
+<h2>7. Disability as fact / 残疾作为事实</h2>
+<p>English: Turek&#x27;s spina bifida, wheelchair use and surgical history are recorded exactly as sources state them — including that he attributes the condition to his father&#x27;s Agent Orange exposure, which is his attribution, not an established cause. The archive never uses the disability as an argument, a metaphor or a proxy for policy positions, and never infers physical capability at any event.</p>
+<p>中文：Turek 的脊柱裂、轮椅使用与手术史严格按来源陈述记录——包括他将病因归于父亲在越南接触橙剂，这是他的自述， 而非已确立的因果。档案绝不把残疾当作论据、隐喻或政策立场的代理，也绝不推断其在任何活动中的体能。</p>
+<h2>8. Images / 图片</h2>
+<p>English: Only public domain, CC0, CC BY or CC BY-SA files are downloaded, and each downloaded file is kept under 2 MB by requesting a scaled thumbnail. Licence, photographer and Commons file page are recorded per row. &quot;Copyrighted free use&quot; is not on the list, which is why Turek&#x27;s Legislature portraits are link-only.</p>
+<p>中文：仅下载公有领域、CC0、CC BY 或 CC BY-SA 文件，并通过请求缩放缩略图把每个文件控制在 2 MB 以下。逐行记录授权、 摄影师与共享资源文件页。&quot;Copyrighted free use&quot; 不在允许清单内，因此 Turek 的州议会肖像仅记录链接。</p>
+<h2>9. Money 口径 / 资金口径</h2>
+<p>English: Campaign receipts (FEC) and outside spending (press-reported) are separate rows and are never summed. The finance rows reproduce an FEC summary table; the outside-spending figures are headline-level and marked <code>unverified</code>.</p>
+<p>中文：竞选收支（FEC）与外部支出（媒体报道）分列不同行，从不相加。资金行转载 FEC 汇总表；外部支出数字为标题级， 标注 <code>unverified</code>。</p>
+<h2>10. Arithmetic / 算术</h2>
+<p>English: Percentages are either published values or recomputed from raw votes, and the row says which. Reconciliation failures are recorded, not repaired: the six-vote statewide difference between the NBC feed and the article&#x27;s election box is written down in <code>results_notes.md</code> and both numbers survive.</p>
+<p>中文：百分比要么是来源公布值，要么由原始票数重算，行内注明属于哪一种。核对失败只记录、不修补：NBC 数据与条目 选举信息框之间六票的全州差异写入 <code>results_notes.md</code>，两个数字都保留。</p>
+<h2>11. Naming and ids / 命名与编号</h2>
+<p>English: Row ids follow contract §5: <code>TUR-</code>, <code>HIN-</code> and <code>JNT-</code> prefixes with a four-digit sequence, and <code>COV-####</code> / <code>SRC-####</code> / <code>POLL-####</code> sequences. <code>candidate_id</code> uses the case_meta ids <code>TUREK</code> and <code>HINSON</code>. Finance ids use three-letter candidate prefixes (<code>TUR-FIN-0001</code>), extended to non-nominee committees (<code>CAR-FIN-0001</code> for Carlin) because those rows document the primary.</p>
+<p>中文：行编号遵循合同第 5 节：<code>TUR-</code>、<code>HIN-</code>、<code>JNT-</code> 前缀加四位序号，以及 <code>COV-####</code>／<code>SRC-####</code>／<code>POLL-####</code> 序列。 <code>candidate_id</code> 使用 case_meta 中的 <code>TUREK</code> 与 <code>HINSON</code>。资金编号用三字母前缀（<code>TUR-FIN-0001</code>），并扩展到非提名人的 委员会（Carlin 用 <code>CAR-FIN-0001</code>），因为这些行记录的是初选。</p>
+<h2>12. Fetch logging / 抓取记录</h2>
+<p>English: Every URL requested — including the ones that failed — is in <code>_staging/fetch_log.csv</code> with status and byte count. 140 of 200 requested URLs returned HTTP 200; the rest are 402/403/429 or JavaScript shells, and each one that mattered is named in <code>research_gaps.md</code>.</p>
+<p>中文：每一个被请求的网址（包括失败的）都记录在 <code>_staging/fetch_log.csv</code>，含状态码与字节数。200 个请求网址中 140 个返回 200，其余为 402/403/429 或 JavaScript 壳；凡重要的失败均已在 <code>research_gaps.md</code> 点名。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

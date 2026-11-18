@@ -1,0 +1,46 @@
+{
+  "slug": "iowa-senate-2026",
+  "race_name": "2026 United States Senate election in Iowa",
+  "race_name_zh": "2026 年艾奥瓦州联邦参议员选举",
+  "case_number": 5,
+  "candidates": [
+    {
+      "id": "TUREK",
+      "name": "Josh Turek",
+      "party": "Democratic",
+      "lower": "turek"
+    },
+    {
+      "id": "HINSON",
+      "name": "Ashley Hinson",
+      "party": "Republican",
+      "lower": "hinson"
+    }
+  ],
+  "county_keys": [
+    "turek",
+    "hinson"
+  ],
+  "poll_keys": [
+    "turek",
+    "hinson"
+  ],
+  "result": {
+    "winner": "TUREK",
+    "margin_pct": 4.21,
+    "source": "SRC-0001"
+  },
+  "state_regions": [
+    "Central",
+    "Eastern",
+    "Western",
+    "Northern",
+    "Southern",
+    "statewide",
+    "national",
+    "unknown"
+  ],
+  "phenomenon_en": "A Paralympic athlete's public identity versus a professional politician's image.",
+  "phenomenon_zh": "残奥运动员的公共身份与职业政治人物形象的对照。",
+  "election_date": "2026-11-03"
+}

@@ -1,0 +1,13 @@
+[
+ {"key":"cbs_win","url":"https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/"},
+ {"key":"ajc_groundwork","url":"https://www.ajc.com/politics/ossoff-lays-the-groundwork-for-2026-reelection-campaign/UCWPQDWKZFATVPVY6TYW5RGPQU/"},
+ {"key":"gr_savannah","url":"https://georgiarecorder.com/2026/06/28/ossoff-bottoms-declare-united-for-georgia-at-joint-campaign-rally-in-savannah/"},
+ {"key":"gpb_collins_kickoff","url":"https://www.gpb.org/news/2025/08/20/mike-collins-kicks-off-us-senate-campaign"},
+ {"key":"sos_primary_dem","url":"https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926?party=DEM"},
+ {"key":"commons_api_ossoff","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&titles=File%3AJon%20Ossoff%20Senate%20Portrait%202021%20(cropped).jpg"},
+ {"key":"anf_debate","url":"https://www.atlantanewsfirst.com/2026/08/05/atlanta-news-first-host-exclusive-georgia-us-senate-debate-between-jon-ossoff-mike-collins/"},
+ {"key":"ap_ossoff_defiance","url":"https://apnews.com/article/jon-ossoff-senate-election-2026-georgia-20dcdc9e7dc10f15b3aa3c23d845220e"},
+ {"key":"politico_money","url":"https://www.politico.com/news/2026/10/19/georgia-money-standoff-ossoff-01125263"},
+ {"key":"x_ossoff","url":"https://x.com/ossoff"},
+ {"key":"nyt_script","url":"https://www.nytimes.com/2026/08/29/us/politics/georgia-senate-ossoff-collins-trump.html"}
+]

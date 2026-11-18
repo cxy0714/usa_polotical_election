@@ -1,4 +1,4 @@
-/* shared width override so both cases read at the same measure */
+/* shared width override so every case reads at the same measure */
 .layout{max-width:1500px}
 body.wide .layout{max-width:1500px}
 @media (min-width:1560px){.layout,body.wide .layout{max-width:1640px}}

@@ -1,0 +1,337 @@
+{
+  "texas-senate-2026": {
+    "label": "Texas",
+    "images": 116,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [
+      {
+        "id": "TAL-EVT-0001",
+        "cand": "TALARICO",
+        "note": "Austin television footage from the period shows a lectern-and-plaza staging; specific clothing not documented in retrieved text"
+      },
+      {
+        "id": "TAL-EVT-0004",
+        "cand": "TALARICO",
+        "note": "Photo described as Talarico after voting early in Austin"
+      },
+      {
+        "id": "TAL-EVT-0010",
+        "cand": "TALARICO",
+        "note": "Photo caption only; no visual detail beyond the location"
+      },
+      {
+        "id": "TAL-EVT-0025",
+        "cand": "TALARICO",
+        "note": "Venue per AFP photo caption; no clothing detail retrieved"
+      },
+      {
+        "id": "PAX-EVT-0002",
+        "cand": "PAXTON",
+        "note": "Photo caption only"
+      },
+      {
+        "id": "PAX-EVT-0008",
+        "cand": "PAXTON",
+        "note": "Photo caption describes him entering the stage"
+      },
+      {
+        "id": "PAX-EVT-0013",
+        "cand": "PAXTON",
+        "note": "Photo caption only"
+      },
+      {
+        "id": "PAX-EVT-0018",
+        "cand": "PAXTON",
+        "note": "Protesters gathered outside including a longtime Republican who said truth and character matter"
+      }
+    ],
+    "results": [
+      {
+        "race": "TX-SEN-D-PRIMARY",
+        "cand": "James Talarico",
+        "votes": "unknown",
+        "pct": "52.4"
+      },
+      {
+        "race": "TX-SEN-D-PRIMARY",
+        "cand": "Jasmine Crockett",
+        "votes": "unknown",
+        "pct": "45.7"
+      },
+      {
+        "race": "TX-SEN-R-PRIMARY",
+        "cand": "John Cornyn",
+        "votes": "unknown",
+        "pct": "41.9"
+      },
+      {
+        "race": "TX-SEN-R-PRIMARY",
+        "cand": "Ken Paxton",
+        "votes": "unknown",
+        "pct": "40.8"
+      },
+      {
+        "race": "TX-SEN-R-PRIMARY",
+        "cand": "Wesley Hunt",
+        "votes": "unknown",
+        "pct": "13.5"
+      },
+      {
+        "race": "TX-SEN-R-RUNOFF",
+        "cand": "Ken Paxton",
+        "votes": "unknown",
+        "pct": "63.8"
+      },
+      {
+        "race": "TX-SEN-R-RUNOFF",
+        "cand": "John Cornyn",
+        "votes": "unknown",
+        "pct": "unknown"
+      },
+      {
+        "race": "TX-SEN-GENERAL",
+        "cand": "James Talarico",
+        "votes": "5447069",
+        "pct": "55.06"
+      },
+      {
+        "race": "TX-SEN-GENERAL",
+        "cand": "Ken Paxton",
+        "votes": "4250664",
+        "pct": "42.97"
+      },
+      {
+        "race": "TX-SEN-GENERAL",
+        "cand": "Other candidates",
+        "votes": "unknown",
+        "pct": "unknown"
+      },
+      {
+        "race": "TX-GOV-GENERAL",
+        "cand": "Gina Hinojosa",
+        "votes": "unknown",
+        "pct": "57.1"
+      },
+      {
+        "race": "TX-GOV-GENERAL",
+        "cand": "Greg Abbott",
+        "votes": "unknown",
+        "pct": "41.6"
+      }
+    ]
+  },
+  "michigan-senate-2026": {
+    "label": "Michigan",
+    "images": 0,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": []
+  },
+  "alaska-senate-2026": {
+    "label": "Alaska",
+    "images": 0,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": []
+  },
+  "south-carolina-senate-2026": {
+    "label": "South Carolina",
+    "images": 55,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": [
+      {
+        "race": "SC-SEN-2026-DEM-PRIMARY",
+        "cand": "Annie Andrews",
+        "votes": "226075",
+        "pct": "61.5"
+      },
+      {
+        "race": "SC-SEN-2026-DEM-PRIMARY",
+        "cand": "Brandon Brown",
+        "votes": "110962",
+        "pct": "30.2"
+      },
+      {
+        "race": "SC-SEN-2026-DEM-PRIMARY",
+        "cand": "Kyle Freeman",
+        "votes": "30374",
+        "pct": "8.3"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-PRIMARY",
+        "cand": "Lindsey Graham",
+        "votes": "264091",
+        "pct": "56.8"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-PRIMARY",
+        "cand": "Mark Lynch",
+        "votes": "134360",
+        "pct": "28.9"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-PRIMARY",
+        "cand": "Thomas Dismukes",
+        "votes": "24164",
+        "pct": "5.2"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-PRIMARY",
+        "cand": "Pat Herrmann",
+        "votes": "17448",
+        "pct": "3.8"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-PRIMARY",
+        "cand": "Calvin Cowen",
+        "votes": "14171",
+        "pct": "3.0"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-PRIMARY",
+        "cand": "Darius Mitchell",
+        "votes": "10842",
+        "pct": "2.3"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Darline Graham",
+        "votes": "109881",
+        "pct": "32.8"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Ralph Norman",
+        "votes": "82627",
+        "pct": "24.6"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Russell Fry",
+        "votes": "65955",
+        "pct": "19.7"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Mark Sanford",
+        "votes": "50136",
+        "pct": "14.9"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Mark Lynch",
+        "votes": "19892",
+        "pct": "5.9"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Danny Ford II",
+        "votes": "2804",
+        "pct": "0.8"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Duke Buckner",
+        "votes": "1583",
+        "pct": "0.5"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Glenda Gail Parker",
+        "votes": "977",
+        "pct": "0.3"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Samuel Shepherd",
+        "votes": "931",
+        "pct": "0.3"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-SPECIAL-PRIMARY",
+        "cand": "Mark Struthers McBride",
+        "votes": "769",
+        "pct": "0.2"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-RUNOFF",
+        "cand": "Darline Graham",
+        "votes": "193486",
+        "pct": "52.4"
+      },
+      {
+        "race": "SC-SEN-2026-GOP-RUNOFF",
+        "cand": "Ralph Norman",
+        "votes": "175412",
+        "pct": "47.6"
+      },
+      {
+        "race": "SC-SEN-2026-GENERAL",
+        "cand": "Annie Andrews",
+        "votes": "1044001",
+        "pct": "51.14"
+      },
+      {
+        "race": "SC-SEN-2026-GENERAL",
+        "cand": "Darline Graham",
+        "votes": "952191",
+        "pct": "46.64"
+      },
+      {
+        "race": "SC-SEN-2026-GENERAL",
+        "cand": "Kasie Whitener",
+        "votes": "23585",
+        "pct": "1.16"
+      },
+      {
+        "race": "SC-SEN-2026-GENERAL",
+        "cand": "Mark Hackett",
+        "votes": "16811",
+        "pct": "0.82"
+      },
+      {
+        "race": "SC-SEN-2026-GENERAL",
+        "cand": "Write-in (Catherine Fleming Bruce)",
+        "votes": "4899",
+        "pct": "0.24"
+      }
+    ]
+  },
+  "iowa-senate-2026": {
+    "label": "Iowa",
+    "images": 0,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": []
+  },
+  "ohio-senate-2026": {
+    "label": "Ohio",
+    "images": 0,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": []
+  },
+  "georgia-senate-2026": {
+    "label": "Georgia",
+    "images": 0,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": []
+  },
+  "los-angeles-mayor-2026": {
+    "label": "Los Angeles",
+    "images": 0,
+    "clothing": [],
+    "style_coverage": [],
+    "visual_events": [],
+    "results": []
+  }
+}

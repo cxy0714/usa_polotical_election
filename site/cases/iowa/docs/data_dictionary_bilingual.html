@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>data_dictionary_bilingual</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Iowa Senate 2026 / 2026 年艾奥瓦州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">data_dictionary_bilingual<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 09_sources/data_dictionary_bilingual.md</div><h1>Data dictionary / 数据字典</h1>
+<h2>How to read a row / 如何读一行</h2>
+<p>English: Each dataset is one CSV with a fixed header, no blank cells, and <code>unknown</code> wherever a fact was not established. A row&#x27;s <code>source_urls</code> cell contains exactly one <code>SRC-####|https://…</code> pair; the id resolves in <code>09_sources/sources.csv</code> and the URL after the pipe must be identical to the URL registered there.</p>
+<p>中文：每个数据集是一个表头固定的 CSV，不允许空单元格；凡未确认的事实一律写 <code>unknown</code>。每行的 <code>source_urls</code> 恰好包含一组 <code>SRC-####|https://…</code>，编号可在 <code>09_sources/sources.csv</code> 中解析，竖线后的网址必须与登记网址完全一致。</p>
+<h2>Column reference / 列说明</h2>
+<h3><code>09_sources/sources.csv</code> — Source register / 来源登记</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>source_id</code></td><td>Case-unique id, SRC-0001 upward / 案件内唯一编号，从 SRC-0001 起</td></tr>
+<tr><td><code>url</code></td><td>URL actually requested, logged in _staging/fetch_log.csv / 实际请求的网址，均记录于抓取日志</td></tr>
+<tr><td><code>title</code></td><td>Page title as published / 页面标题原样</td></tr>
+<tr><td><code>publisher</code></td><td>Outlet or institution / 媒体或机构</td></tr>
+<tr><td><code>publication_date</code></td><td>ISO date the page was published, or unknown / 页面发布日（ISO）或 unknown</td></tr>
+<tr><td><code>event_date</code></td><td>ISO date, or unknown / 活动日期或 unknown</td></tr>
+<tr><td><code>access_date</code></td><td>Date this archive fetched the page; fixed at 2026-11-18 / 抓取日期，本档案固定为 2026-11-18</td></tr>
+<tr><td><code>source_tier</code></td><td>T1 official/primary, T2 established independent media, T3 supplementary (Wikipedia included) / T1 官方一手、T2 established独立媒体、T3 补充材料（含维基百科）</td></tr>
+<tr><td><code>source_type</code></td><td>Controlled type: news_article, poll, press_release, encyclopedia, etc. / 受控类型：新闻、民调、新闻稿、百科等</td></tr>
+<tr><td><code>relevant_quote_or_info</code></td><td>One short factual line that is actually present in the page / 页面中确实存在的一句简短事实</td></tr>
+<tr><td><code>reliability_notes</code></td><td>Known limits: paywall, machine translation, partisan source, blocked fetch / 已知局限：付费墙、机翻、党派来源、抓取被拒</td></tr>
+<tr><td><code>used_by</code></td><td>Files and row ids that cite this source / 引用该来源的文件与行号</td></tr>
+</tbody></table></div>
+<h3><code>01_candidates/policy_positions.csv</code> — Policy positions / 政策立场</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>position_id</code></td><td>TUR-POS-#### or HIN-POS-#### / 候选人立场编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>issue</code></td><td>Controlled issue vocabulary (Economy … Other) / 受控议题词表（经济…其他）</td></tr>
+<tr><td><code>subissue</code></td><td>Free-text narrower topic / 更细的主题（自由文本）</td></tr>
+<tr><td><code>position_summary</code></td><td>One-sentence neutral statement of the position / 一句话中性概括该立场</td></tr>
+<tr><td><code>candidate_statement</code></td><td>Verbatim or paraphrase, marked as such / 原话或转述，并标明</td></tr>
+<tr><td><code>statement_date</code></td><td>ISO date the statement was made, or unknown / 表态日期或 unknown</td></tr>
+<tr><td><code>context</code></td><td>Where and to whom it was said / 在何场合、对谁说的</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>legislative_record</code></td><td>Related vote or bill, where documented / 相关的投票或法案（有据可查者）</td></tr>
+<tr><td><code>position_changed</code></td><td>yes / no / unknown, with the earlier position noted / 是否改变，注明先前立场</td></tr>
+<tr><td><code>change_notes</code></td><td>What changed and when / 改变了什么、何时</td></tr>
+<tr><td><code>opponent_criticism</code></td><td>How the rival attacked this position / 对手如何攻击该立场</td></tr>
+<tr><td><code>fact_check</code></td><td>What could be checked about those claims / 对该主张可核实的内容</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>01_candidates/turek/career_timeline.csv</code> — Turek career timeline / Turek 履历</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>entry_id</code></td><td>TUR-CAR-#### or HIN-CAR-#### / 履历编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>start_date</code></td><td>ISO start, or unknown / 起始日或 unknown</td></tr>
+<tr><td><code>end_date</code></td><td>ISO end, or unknown / 结束日或 unknown</td></tr>
+<tr><td><code>role_or_event</code></td><td>Role held or event that happened / 担任的职务或发生的事件</td></tr>
+<tr><td><code>organization</code></td><td>Institution / 机构</td></tr>
+<tr><td><code>location</code></td><td>Place, or unknown / 地点或 unknown</td></tr>
+<tr><td><code>description</code></td><td>One neutral sentence / 一句中性描述</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>01_candidates/hinson/career_timeline.csv</code> — Hinson career timeline / Hinson 履历</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>entry_id</code></td><td>TUR-CAR-#### or HIN-CAR-#### / 履历编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>start_date</code></td><td>ISO start, or unknown / 起始日或 unknown</td></tr>
+<tr><td><code>end_date</code></td><td>ISO end, or unknown / 结束日或 unknown</td></tr>
+<tr><td><code>role_or_event</code></td><td>Role held or event that happened / 担任的职务或发生的事件</td></tr>
+<tr><td><code>organization</code></td><td>Institution / 机构</td></tr>
+<tr><td><code>location</code></td><td>Place, or unknown / 地点或 unknown</td></tr>
+<tr><td><code>description</code></td><td>One neutral sentence / 一句中性描述</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>02_campaign_events/campaign_events.csv</code> — Campaign events / 竞选活动</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>event_id</code></td><td>TUR-EVT-####, HIN-EVT-#### or JNT-EVT-#### / 活动编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>event_date</code></td><td>ISO date, or unknown / 活动日期或 unknown</td></tr>
+<tr><td><code>event_time</code></td><td>Local start time HH:MM, or unknown / 当地开始时间或 unknown</td></tr>
+<tr><td><code>event_title</code></td><td>Title used by the covering outlet, or a neutral description / 报道所用标题或中性描述</td></tr>
+<tr><td><code>event_category</code></td><td>Controlled category (launch, rally, debate …) / 受控类别（启动、集会、辩论…）</td></tr>
+<tr><td><code>city</code></td><td>City or &#x27;unknown&#x27;; &#x27;online&#x27; for virtual events / 城市或 unknown；线上活动写 online</td></tr>
+<tr><td><code>venue</code></td><td>Named venue, or a description of what the report states / 具名场地，或按报道描述的写法</td></tr>
+<tr><td><code>state_region</code></td><td>Controlled region from case_meta (Central, Eastern … nationwide) / case_meta 的受控区域词</td></tr>
+<tr><td><code>event_status</code></td><td>held</td><td>announced</td><td>cancelled … / 已举行｜已宣布｜取消…</td></tr>
+<tr><td><code>campaign_phase</code></td><td>pre_launch … post_election / 竞选阶段词</td></tr>
+<tr><td><code>stated_purpose</code></td><td>What the campaign said the event was for / 竞选方自称的活动目的</td></tr>
+<tr><td><code>observable_function</code></td><td>What an observer could verify happened / 观察者可核实的内容</td></tr>
+<tr><td><code>analyst_interpretation</code></td><td>Prefixed INTERPRETATION: - clearly separated reading / 以 INTERPRETATION: 开头，明确区分的解读</td></tr>
+<tr><td><code>target_audience</code></td><td>Who the event was built for / 活动面向的受众</td></tr>
+<tr><td><code>main_messages</code></td><td>Messages actually delivered / 实际传达的信息</td></tr>
+<tr><td><code>policy_issues</code></td><td>Pipe-delimited issue vocabulary / 以竖线分隔的议题词表</td></tr>
+<tr><td><code>speech_summary</code></td><td>Short neutral summary of what was said / 简短中性的发言概述</td></tr>
+<tr><td><code>transcript_url</code></td><td>URL or unknown / 逐字稿网址或 unknown</td></tr>
+<tr><td><code>video_url</code></td><td>URL or unknown / 视频网址或 unknown</td></tr>
+<tr><td><code>photo_urls</code></td><td>URLs or a note that none were retrieved / 图片网址，或说明未取得</td></tr>
+<tr><td><code>media_coverage</code></td><td>Outlet names that covered it / 报道该活动的媒体</td></tr>
+<tr><td><code>opponent_reference</code></td><td>How the rival was referenced / 如何提及对手</td></tr>
+<tr><td><code>visual_notes</code></td><td>What the coverage says about staging, crowd, signage / 报道对舞台、人群、标语的描述</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+<tr><td><code>analyst_notes</code></td><td>Caveats: date source, surrogate event, crowd unknown / 说明：日期来源、代理人活动、人数不明</td></tr>
+</tbody></table></div>
+<h3><code>03_speeches/speech_archive.csv</code> — Speech archive / 演说档案</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>speech_id</code></td><td>TUR-SPC-#### or HIN-SPC-#### / 演说编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>event_id</code></td><td>TUR-EVT-####, HIN-EVT-#### or JNT-EVT-#### / 活动编号</td></tr>
+<tr><td><code>date</code></td><td>ISO date of the speech or video, or unknown / 演说或视频日期（ISO）或 unknown</td></tr>
+<tr><td><code>speech_title</code></td><td>Title or neutral description / 标题或中性描述</td></tr>
+<tr><td><code>speech_url</code></td><td>URL or unknown / 网址或 unknown</td></tr>
+<tr><td><code>transcript_url</code></td><td>URL or unknown / 逐字稿网址或 unknown</td></tr>
+<tr><td><code>duration</code></td><td>Length as stated, or unknown / 时长或 unknown</td></tr>
+<tr><td><code>main_topics</code></td><td>Pipe-delimited topics / 竖线分隔的主题</td></tr>
+<tr><td><code>major_quotes</code></td><td>&#x27;verbatim quote&#x27; [timestamp] entries, paraphrase marked / 原话加时间戳，转述需标注</td></tr>
+<tr><td><code>rhetorical_devices</code></td><td>Named devices observed in the text / 文本中可观察到的修辞手法</td></tr>
+<tr><td><code>opponent_references</code></td><td>How rivals were named or attacked / 如何点名或攻击对手</td></tr>
+<tr><td><code>personal_story_elements</code></td><td>Biographical material actually used / 实际使用的传记材料</td></tr>
+<tr><td><code>policy_claims</code></td><td>Policy claims made in the speech / 演说中的政策主张</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>source</code></td><td>Outlet and byline that published the text / 刊出该文本的媒体与署名</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>03_speeches/speech_video_index.csv</code> — Video index / 视频索引</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>video_id</code></td><td>TUR-VID-#### or HIN-VID-#### / 视频编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>video_url</code></td><td>URL or unknown / 视频网址或 unknown</td></tr>
+<tr><td><code>date</code></td><td>ISO date of the speech or video, or unknown / 演说或视频日期（ISO）或 unknown</td></tr>
+<tr><td><code>duration</code></td><td>Length as stated, or unknown / 时长或 unknown</td></tr>
+<tr><td><code>event_type</code></td><td>debate, clip, news package, broadcast interview / 辩论、片段、新闻片、广播专访</td></tr>
+<tr><td><code>main_topics</code></td><td>Pipe-delimited topics / 竖线分隔的主题</td></tr>
+<tr><td><code>relevant_timestamps</code></td><td>Timestamps, or unknown when no timing was retrieved / 时间点；未取得时写 unknown</td></tr>
+<tr><td><code>transcript_available</code></td><td>yes</td><td>no</td><td>unknown / 是否有逐字稿</td></tr>
+<tr><td><code>visual_observations</code></td><td>What was observed; explicitly &#x27;not viewed&#x27; where applicable / 观察内容；未观看时明确写明</td></tr>
+<tr><td><code>completeness</code></td><td>full</td><td>partial</td><td>clip</td><td>unknown / 完整度</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>04_visual_archive/image_archive.csv</code> — Image archive / 图片档案</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>image_id</code></td><td>TUR-IMG-#### or HIN-IMG-#### / 图片编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>image_date</code></td><td>ISO date or unknown / 日期或 unknown</td></tr>
+<tr><td><code>event_id</code></td><td>TUR-EVT-####, HIN-EVT-#### or JNT-EVT-#### / 活动编号</td></tr>
+<tr><td><code>event_category</code></td><td>Controlled category (launch, rally, debate …) / 受控类别（启动、集会、辩论…）</td></tr>
+<tr><td><code>source_name</code></td><td>Holding institution / 收藏或发布机构</td></tr>
+<tr><td><code>source_url</code></td><td>Commons file page / 共享资源文件页</td></tr>
+<tr><td><code>original_image_url</code></td><td>Direct file URL / 文件直链</td></tr>
+<tr><td><code>photographer</code></td><td>Photographer or office credited / 署名摄影师或机构</td></tr>
+<tr><td><code>copyright_status</code></td><td>public_domain</td><td>licensed</td><td>all_rights_reserved_link_only</td><td>unknown / 版权状态</td></tr>
+<tr><td><code>license</code></td><td>Licence name as stated / 授权名称原样</td></tr>
+<tr><td><code>local_filename</code></td><td>Relative path of the downloaded file, or unknown / 已下载文件的相对路径或 unknown</td></tr>
+<tr><td><code>image_resolution</code></td><td>WxH in pixels / 像素宽高</td></tr>
+<tr><td><code>framing</code></td><td>Portrait, group, candid … or unknown / 构图类型或 unknown</td></tr>
+<tr><td><code>camera_angle</code></td><td>Eye level, low, high … or unknown / 机位或 unknown</td></tr>
+<tr><td><code>image_quality</code></td><td>Sharpness/compression judgement or unknown / 画质判断或 unknown</td></tr>
+<tr><td><code>face_visibility</code></td><td>clear</td><td>partial</td><td>obscured</td><td>unknown / 面部可见度</td></tr>
+<tr><td><code>body_visibility</code></td><td>full</td><td>half</td><td>head-only</td><td>unknown / 身体可见范围</td></tr>
+<tr><td><code>clothing_notes</code></td><td>What the image shows the candidate wearing / 图中候选人着装</td></tr>
+<tr><td><code>notes</code></td><td>Free-text caveat for the row / 该行的自由文本说明</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>05_campaign_media/advertisements.csv</code> — Advertisements / 广告</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>ad_id</code></td><td>TUR-AD-####, HIN-AD-#### or EXT-AD-#### / 广告编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>sponsor</code></td><td>Paying sponsor, or unknown / 委托方或 unknown</td></tr>
+<tr><td><code>sponsor_type</code></td><td>candidate_campaign</td><td>outside_pac</td><td>party_committee … / 出资方类型</td></tr>
+<tr><td><code>release_date</code></td><td>ISO date or unknown / 发布日期或 unknown</td></tr>
+<tr><td><code>title</code></td><td>Page title as published / 页面标题原样</td></tr>
+<tr><td><code>platform</code></td><td>television, digital, radio, online video / 投放平台</td></tr>
+<tr><td><code>length_seconds</code></td><td>Seconds as stated, or unknown / 时长秒数或 unknown</td></tr>
+<tr><td><code>issue_or_message</code></td><td>Subject of the ad / 广告主题</td></tr>
+<tr><td><code>main_visual_elements</code></td><td>Visuals as described by coverage, or &#x27;no description retrieved&#x27; / 报道描述的视觉元素</td></tr>
+<tr><td><code>narration_soundtrack</code></td><td>Narration/music details or unknown / 旁白与音乐细节或 unknown</td></tr>
+<tr><td><code>candidate_appearance</code></td><td>Whether and how the candidate appears / 候选人是否出镜及方式</td></tr>
+<tr><td><code>main_claims</code></td><td>Claims the ad makes / 广告中的主张</td></tr>
+<tr><td><code>video_url</code></td><td>URL or unknown / 视频网址或 unknown</td></tr>
+<tr><td><code>transcript_url</code></td><td>URL or unknown / 逐字稿网址或 unknown</td></tr>
+<tr><td><code>fact_check</code></td><td>What could be checked about those claims / 对该主张可核实的内容</td></tr>
+<tr><td><code>media_coverage</code></td><td>Outlet names that covered it / 报道该活动的媒体</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+<tr><td><code>notes</code></td><td>Free-text caveat for the row / 该行的自由文本说明</td></tr>
+</tbody></table></div>
+<h3><code>05_campaign_media/social_media.csv</code> — Social media / 社交媒体</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>post_id</code></td><td>TUR-SOC-#### or HIN-SOC-#### / 社媒帖编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>platform</code></td><td>television, digital, radio, online video / 投放平台</td></tr>
+<tr><td><code>account_handle</code></td><td>Account or domain, or unknown / 账号或域名或 unknown</td></tr>
+<tr><td><code>post_date</code></td><td>ISO date or unknown / 发帖日期或 unknown</td></tr>
+<tr><td><code>post_type</code></td><td>announcement, video link, homepage, press release / 类型</td></tr>
+<tr><td><code>content_summary</code></td><td>What the post says, quoted where possible / 帖子内容，尽量引用原文</td></tr>
+<tr><td><code>media_included</code></td><td>Image, video or link attached / 附加的图片、视频或链接</td></tr>
+<tr><td><code>engagement_notes</code></td><td>Likes/shares if retrieved, else &#x27;no engagement metrics&#x27; / 互动数据或说明未取得</td></tr>
+<tr><td><code>url</code></td><td>URL actually requested, logged in _staging/fetch_log.csv / 实际请求的网址，均记录于抓取日志</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+<tr><td><code>notes</code></td><td>Free-text caveat for the row / 该行的自由文本说明</td></tr>
+</tbody></table></div>
+<h3><code>05_campaign_media/media_coverage.csv</code> — Media coverage / 媒体报道</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>coverage_id</code></td><td>COV-#### / 报道编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>event_id</code></td><td>TUR-EVT-####, HIN-EVT-#### or JNT-EVT-#### / 活动编号</td></tr>
+<tr><td><code>publication_date</code></td><td>ISO date the page was published, or unknown / 页面发布日（ISO）或 unknown</td></tr>
+<tr><td><code>outlet</code></td><td>Publication or broadcaster / 刊播机构</td></tr>
+<tr><td><code>author</code></td><td>Byline, or unknown / 署名或 unknown</td></tr>
+<tr><td><code>title</code></td><td>Page title as published / 页面标题原样</td></tr>
+<tr><td><code>url</code></td><td>URL actually requested, logged in _staging/fetch_log.csv / 实际请求的网址，均记录于抓取日志</td></tr>
+<tr><td><code>source_tier</code></td><td>T1 official/primary, T2 established independent media, T3 supplementary (Wikipedia included) / T1 官方一手、T2 established独立媒体、T3 补充材料（含维基百科）</td></tr>
+<tr><td><code>coverage_type</code></td><td>news_report</td><td>analysis</td><td>op_ed</td><td>news_video … / 报道类型</td></tr>
+<tr><td><code>key_framing</code></td><td>How the outlet framed the story / 该媒体的框架</td></tr>
+<tr><td><code>notable_quotes</code></td><td>Quotes used by the outlet / 报道引用的原话</td></tr>
+<tr><td><code>framing_of_candidate</code></td><td>Tone toward the candidate, described not scored / 对该候选人的语气（描述而非评分）</td></tr>
+<tr><td><code>mentions_opponent</code></td><td>yes</td><td>no / 是否提及对手</td></tr>
+<tr><td><code>reliability_notes</code></td><td>Known limits: paywall, machine translation, partisan source, blocked fetch / 已知局限：付费墙、机翻、党派来源、抓取被拒</td></tr>
+</tbody></table></div>
+<h3><code>06_campaign_finance/campaign_finance.csv</code> — Campaign finance / 竞选资金</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>finance_id</code></td><td>TUR-FIN-#### style ids / 资金编号</td></tr>
+<tr><td><code>candidate_id</code></td><td>TUREK or HINSON (case_meta ids) / case_meta 中的候选人编号</td></tr>
+<tr><td><code>period</code></td><td>Coverage period YYYY-Qn / 覆盖期间</td></tr>
+<tr><td><code>report_type</code></td><td>Report or snapshot type / 报告或快照类型</td></tr>
+<tr><td><code>reporting_deadline</code></td><td>ISO deadline or unknown / 申报截止日或 unknown</td></tr>
+<tr><td><code>receipts</code></td><td>Total receipts, plain integer USD / 总收入（整数美元）</td></tr>
+<tr><td><code>individual_contributions</code></td><td>Itemised individual totals if available / 个人捐款合计（若有）</td></tr>
+<tr><td><code>pac_contributions</code></td><td>PAC totals if available / PAC 捐款合计（若有）</td></tr>
+<tr><td><code>disbursements</code></td><td>Total spent / 总支出</td></tr>
+<tr><td><code>cash_on_hand</code></td><td>Closing cash / 期末现金</td></tr>
+<tr><td><code>debts_owed</code></td><td>Debts outstanding / 未偿债务</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+<tr><td><code>notes</code></td><td>Free-text caveat for the row / 该行的自由文本说明</td></tr>
+</tbody></table></div>
+<h3><code>07_electoral_context/election_results.csv</code> — Election results / 选举结果</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>race_id</code></td><td>IA-SEN-2026-GEN / -D-PRI / -R-PRI / 选举场次编号</td></tr>
+<tr><td><code>race_name</code></td><td>Full race name / 场次全名</td></tr>
+<tr><td><code>election_date</code></td><td>ISO election day / 选举日</td></tr>
+<tr><td><code>candidate</code></td><td>Candidate name as published / 公布的候选人姓名</td></tr>
+<tr><td><code>party</code></td><td>Party as published / 公布的政党</td></tr>
+<tr><td><code>votes</code></td><td>Raw votes, integer / 原始票数</td></tr>
+<tr><td><code>percentage</code></td><td>Share of that race&#x27;s total, two decimals / 该场得票率，两位小数</td></tr>
+<tr><td><code>winner</code></td><td>yes</td><td>no / 是否胜出</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+<tr><td><code>notes</code></td><td>Free-text caveat for the row / 该行的自由文本说明</td></tr>
+</tbody></table></div>
+<h3><code>07_electoral_context/county_results.csv</code> — County results / 县级结果</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>county_id</code></td><td>IA-&lt;COUNTY&gt; / 县级编号</td></tr>
+<tr><td><code>county</code></td><td>County name as published / 县名</td></tr>
+<tr><td><code>turek_votes</code></td><td>Votes for Turek in that county / 该县 Turek 票数</td></tr>
+<tr><td><code>hinson_votes</code></td><td>Votes for Hinson in that county / 该县 Hinson 票数</td></tr>
+<tr><td><code>other_votes</code></td><td>Votes for all non-major candidates / 其他候选人票数合计</td></tr>
+<tr><td><code>turek_pct</code></td><td>Turek share in that poll / 该民调 Turek 支持率</td></tr>
+<tr><td><code>hinson_pct</code></td><td>Hinson share in that poll / 该民调 Hinson 支持率</td></tr>
+<tr><td><code>total_votes</code></td><td>County total / 该县总票数</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+</tbody></table></div>
+<h3><code>07_electoral_context/polling.csv</code> — Polling / 民调</h3>
+<div class="table-wrap"><table><thead><tr><th>Column / 列</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>poll_id</code></td><td>POLL-#### / 民调编号</td></tr>
+<tr><td><code>pollster</code></td><td>Firm that conducted it / 执行机构</td></tr>
+<tr><td><code>sponsor</code></td><td>Paying sponsor, or unknown / 委托方或 unknown</td></tr>
+<tr><td><code>field_start</code></td><td>ISO first day of fielding / 调查起始日</td></tr>
+<tr><td><code>field_end</code></td><td>ISO last day of fielding / 调查结束日</td></tr>
+<tr><td><code>population</code></td><td>likely voters, registered voters, adults / 可能选民、登记选民、成年人</td></tr>
+<tr><td><code>sample_size</code></td><td>N / 样本量</td></tr>
+<tr><td><code>margin_of_error</code></td><td>Percentage points / 误差范围（百分点）</td></tr>
+<tr><td><code>turek_pct</code></td><td>Turek share in that poll / 该民调 Turek 支持率</td></tr>
+<tr><td><code>hinson_pct</code></td><td>Hinson share in that poll / 该民调 Hinson 支持率</td></tr>
+<tr><td><code>other_pct</code></td><td>Third-party share, or unknown when not tested / 第三方得票或 unknown</td></tr>
+<tr><td><code>undecided_pct</code></td><td>Undecided share / 未决定比例</td></tr>
+<tr><td><code>leader</code></td><td>Candidate ahead in that poll / 该民调中领先者</td></tr>
+<tr><td><code>margin</code></td><td>Lead in percentage points / 领先百分点</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one &#x27;SRC-####</td><td>url&#x27; pair per row / 每行恰好一组 SRC-####</td><td>网址</td></tr>
+<tr><td><code>verification_status</code></td><td>verified</td><td>partially verified</td><td>unverified</td><td>conflicting sources / 已核实｜部分核实｜未核实｜来源冲突</td></tr>
+<tr><td><code>notes</code></td><td>Free-text caveat for the row / 该行的自由文本说明</td></tr>
+</tbody></table></div>
+<h2>Controlled vocabularies / 受控词表</h2>
+<div class="table-wrap"><table><thead><tr><th>Field / 字段</th><th>Values / 取值</th></tr></thead><tbody>
+<tr><td><code>issue</code></td><td>Economy, Healthcare, Education, Immigration, Abortion, Gun policy, Energy, Religion, Labor, Democracy, Foreign policy, Other / 经济、医疗、教育、移民、堕胎、枪支政策、能源、宗教、劳工、民主、外交、其他</td></tr>
+<tr><td><code>event_category</code></td><td>launch, announcement, rally, town_hall, meet_and_greet, community_visit, small_business_visit, workplace_visit, university_visit, religious_appearance, labor_event, party_event, county_party_meeting, q_and_a, interview_tv, interview_radio, podcast, newspaper_interview, livestream, debate, debate_invitation, press_conference, video_release, tour_stop, tour_launch, tour_finale, fundraiser, endorsement_event, hq_opening, early_voting_event, gotv_event, surrogate_event, election_eve, watch_party, victory_speech, concession_speech, swearing_in, appointment_announcement, filing, other</td></tr>
+<tr><td><code>event_status</code></td><td>held, cancelled, postponed, rescheduled, virtual, announced, unverified, disputed / 已举行、取消、延期、改期、线上、已宣布、未核实、有争议</td></tr>
+<tr><td><code>campaign_phase</code></td><td>pre_launch, launch, primary, runoff, general, early_voting, gotv, election_day, post_election</td></tr>
+<tr><td><code>coverage_type</code></td><td>news_report, analysis, op_ed, fact_check, interview, live_blog, newsletter, news_video</td></tr>
+<tr><td><code>sponsor_type</code></td><td>candidate_campaign, authorized_committee, outside_pac, party_committee, unknown</td></tr>
+<tr><td><code>copyright_status</code></td><td>public_domain, licensed, all_rights_reserved_link_only, unknown</td></tr>
+<tr><td><code>verification_status</code></td><td>verified, partially verified, unverified, conflicting sources / 已核实、部分核实、未核实、来源冲突</td></tr>
+<tr><td><code>source_tier</code></td><td>T1 official/primary, T2 established independent media, T3 supplementary</td></tr>
+<tr><td><code>completeness</code></td><td>full, partial, clip, unknown</td></tr>
+<tr><td><code>winner</code></td><td>yes, no</td></tr>
+<tr><td><code>state_region</code></td><td>Central, Eastern, Western, Northern, Southern, statewide, national, unknown</td></tr>
+</tbody></table></div>
+<h2>Derived values / 派生值</h2>
+<p>English: Percentages in <code>election_results.csv</code>, <code>county_results.csv</code> and <code>polling.csv</code> are either published figures (marked in <code>notes</code>) or recomputed from raw votes. Recomputation is stated in the row; published figures are never silently recalculated.</p>
+<p>中文：<code>election_results.csv</code>、<code>county_results.csv</code> 与 <code>polling.csv</code> 中的百分比，要么是来源公布的数字（在 <code>notes</code> 中注明），要么由原始票数重算；重算必在行内说明，公布数字绝不悄悄改动。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

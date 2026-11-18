@@ -54,3 +54,31 @@ south-carolina-senate-2026/_staging/vision/models/
 south-carolina-senate-2026/11_speech_audio/audio_cache/
 south-carolina-senate-2026/_staging/_tmp_*
 south-carolina-senate-2026/_staging/_tx_style.css
+
+# Batch 2 (2026-11-18): full HTML copies of news pages are kept locally as the audit trail
+# for quoted facts but are NOT committed — they are third-party publisher text and would add
+# hundreds of MB. `_staging/fetch_log.csv` (committed) records every URL, status and file name.
+michigan-senate-2026/_staging/mirrors/
+alaska-senate-2026/_staging/mirrors/
+iowa-senate-2026/_staging/mirrors/
+ohio-senate-2026/_staging/mirrors/
+georgia-senate-2026/_staging/mirrors/
+los-angeles-mayor-2026/_staging/mirrors/
+
+# One-off collection scratch (URL lists, parse dumps) from the batch-2 agents.
+michigan-senate-2026/_staging/_work/
+alaska-senate-2026/_staging/_work/
+iowa-senate-2026/_staging/_work/
+ohio-senate-2026/_staging/_work/
+georgia-senate-2026/_staging/_work/
+los-angeles-mayor-2026/_staging/_work/
+
+# Raw search-hit dumps and temporary files from the batch-2 collection runs.
+*/_staging/discovery/
+*/_staging/_tmp_*
+*/_staging/*.pyc
+
+
+
+# Full fetched article text kept for quote verification during collection (third-party publisher text).
+*/_staging/text/

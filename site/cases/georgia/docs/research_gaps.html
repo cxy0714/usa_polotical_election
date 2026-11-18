@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>research_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Georgia Senate 2026 / 2026 年佐治亚州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">research_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / research_gaps.md</div><h2>County-level returns / 县级计票</h2>
+<p>Gap: <code>07_electoral_context/county_results.csv</code> has a header and no rows, so no county vote totals, shares or margins exist in the archive. Cause: the Secretary of State results site is an Angular single-page application; two guessed API paths returned 404; NBC&#x27;s county widget renders on the client and its vote cells read &quot;0&quot;. Close it: obtain the certified county canvas from the Secretary of State, or the AP&#x27;s county feed, or a spreadsheet published by a county-level outlet. SRC-0003</p>
+<p>缺口：<code>07_electoral_context/county_results.csv</code> 仅有表头，档案中没有县级票数、得票率或差额。 原因：州务卿结果网站为 Angular 单页应用；两个推测的 API 路径均 404；NBC 县级组件在客户端渲染，票数单元显示&quot;0&quot;。 补足：取得州务卿认证的县级计票、美联社县级数据源，或地方媒体公布的表格。SRC-0003</p>
+<h2>Advertising creatives / 广告素材</h2>
+<p>Gap: <code>advertisements.csv</code> records buys and titles but no ad video, narration or length; two rows describe spending programmes rather than ads. Cause: no ad library (Meta, Google, Snap) was accessible, and the outlets that covered the ads described them only in prose. Close it: pull the Meta and Google political ad libraries for both campaigns, and the Senate Leadership Fund&#x27;s FCC public files. SRC-0022 SRC-0050</p>
+<p>缺口：<code>advertisements.csv</code> 记录了购买与标题，但没有广告视频、旁白或时长；其中两行描述的是投放计划而非具体广告。 原因：无法访问广告库（Meta、Google、Snap），报道广告的媒体仅以文字描述。 补足：调取两阵营的 Meta 与 Google 政治广告库，以及参议院领导基金的 FCC 公开文件。SRC-0022 SRC-0050</p>
+<h2>Event time, venue and crowd / 活动时间、场地与人数</h2>
+<p>Gap: 26 of 32 event rows lack a time of day and 19 lack a named venue; only four carry a crowd estimate, two of them campaign-supplied. Cause: Georgia Recorder and GPB report selectively, and the campaigns&#x27; event calendars were not archived. Close it: local weekly newspapers, pool reports, and archived campaign event pages.</p>
+<p>缺口：32 行活动记录中 26 行没有具体时间、19 行没有明确场地；仅 4 行有人数估计，其中 2 个由竞选团队提供。 原因：Georgia Recorder 与 GPB 为选择性报道，竞选活动日历未被存档。 补足：地方周报、随行记者报道与存档的竞选活动页面。</p>
+<h2>Collins positions on Medicaid, agriculture, tax and education / 柯林斯在医疗补助、农业、税收与教育上的立场</h2>
+<p>Gap: five Collins position rows are <code>unverified</code> because the only retrieved statement is an Ossoff attack. Cause: Collins&#x27;s campaign site was not retrievable and interviews did not cover these issues. Close it: his campaign issues page (archived), House floor statements, and the Atlanta Press Club debate transcript.</p>
+<p>缺口：柯林斯有五条立场记为 <code>unverified</code>，因为唯一可获取的表述来自奥索夫的攻击。 原因：柯林斯竞选网站无法获取，采访未涉及这些议题。 补足：其竞选议题页（存档）、众议院院会发言、亚特兰大新闻俱乐部辩论逐字稿。</p>
+<h2>Social media content / 社交媒体内容</h2>
+<p>Gap: X returned a login shell for <code>@ossoff</code>, so post text, dates and engagement are missing for both accounts. Cause: platform login wall. Close it: the Wayback Machine&#x27;s captures of the profiles, and the candidates&#x27; TikTok and Instagram archives.</p>
+<p>缺口：X 对 <code>@ossoff</code> 仅返回登录外壳，两个账号的帖文文本、日期与互动数据均缺失。 原因：平台登录墙。 补足：Wayback Machine 的账号存档，以及候选人的 TikTok 与 Instagram 存档。</p>
+<h2>Vote-type and precinct data / 投票方式与 precinct 数据</h2>
+<p>Gap: no early/absentee/election-day breakdown and no precinct returns. Cause: not published in any retrieved source; the Secretary of State&#x27;s site would carry both. Close it: the county canvass files and the state&#x27;s absentee voter file.</p>
+<p>缺口：没有提前投票/邮寄/选举日分解，也没有 precinct 计票。 原因：已获取来源均未公布；州务卿网站应载有这两类数据。 补足：县级计票文件与州缺席选民档案。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

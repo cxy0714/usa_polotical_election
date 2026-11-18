@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>_research_conventions</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">_research_conventions<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / _research_conventions.md</div><h2>Sourcing rule / 来源规则</h2>
+<p>Every URL cited anywhere in the archive appears in <code>_staging/fetch_log.csv</code> with its HTTP status, byte count, timestamp and saved mirror. A source that is not in the log is not cited. <code>09_sources/sources.csv</code> holds 99 sources, all with access_date 2026-11-18. SRC-0001</p>
+<p>档案中引用的每个链接都出现在 <code>_staging/fetch_log.csv</code>，并附 HTTP 状态、字节数、时间戳与镜像文件。未记录的来源不予引用。<code>09_sources/sources.csv</code> 共 99 个来源，访问日期均为 2026-11-18。SRC-0001</p>
+<h2>One source per row / 每行一个来源</h2>
+<p>Validator rule: each <code>source_urls</code> cell must be exactly one <code>SRC-####|https://…</code>. Secondary corroboration is therefore described in notes columns, not stacked in the URL cell. This is why many rows look single-sourced even when two outlets agree.</p>
+<p>校验规则：每个 <code>source_urls</code> 单元必须是单独一条 <code>SRC-####|https://…</code>。因此第二来源的印证写在备注列，而非堆叠在链接单元中。这正是许多行看似单一来源、实有两个媒体一致的原因。</p>
+<h2>Never invent / 绝不虚构</h2>
+<p>Venue, crowd size, time of day, quote wording and dates are recorded only when a source states them. When absent, the value is <code>unknown</code>. No row was filled from a party platform, a candidate&#x27;s general reputation, or a neighbouring case. SRC-0097</p>
+<p>场地、人数、时段、引语措辞与日期仅在来源明确时记录；缺失即填 <code>unknown</code>。任何行都未依据党纲、候选人一般声誉或相邻案例填充。SRC-0097</p>
+<h2>Verification tiers / 核验等级</h2>
+<p><code>verified</code> means a dated news report or official record states the fact and a second source was checked where possible. <code>partially verified</code> means a single outlet or an encyclopedia entry. <code>unverified</code> means only an opponent&#x27;s claim exists. <code>conflicting sources</code> is used where two sources disagree on the same fact. SRC-0096</p>
+<p><code>verified</code> 指有日期的报道或官方记录明确记载，且尽可能核对第二来源；<code>partially verified</code> 指仅单一媒体或百科；<code>unverified</code> 指仅有对手主张；<code>conflicting sources</code> 用于两来源对同一事实不一致的情况。SRC-0096</p>
+<h2>Announcement versus event / 公告与活动之分</h2>
+<p>Endorsement announcements and debate announcements are recorded as events with <code>event_status=announced</code>, because a statement is not a rally. Both debate rows are <code>held</code>. SRC-0012 SRC-0043</p>
+<p>背书公告与辩论公告作为活动记录，<code>event_status=announced</code>，因为声明不等于集会。两场辩论均为 <code>held</code>。SRC-0012 SRC-0043</p>
+<h2>Quotation handling / 引语处理</h2>
+<p>AJC body text is deliberately scrambled beyond the opening paragraphs, so AJC items are cited at headline level only and flagged in <code>reliability_notes</code>. Georgia Recorder, GPB, CBS, NBC, Slate and the Guardian were readable and are quoted directly. SRC-0049 SRC-0016</p>
+<p>AJC 正文在开头段落之后被人为打乱，因此 AJC 条目仅按标题层面引用，并在 <code>reliability_notes</code> 中标注。Georgia Recorder、GPB、CBS、NBC、Slate 与《卫报》可读，直接引用。SRC-0049 SRC-0016</p>
+<h2>Interpretation is labelled / 解读须标注</h2>
+<p>Observable staging (teleprompter, coached crowd, rolled-up sleeves) is recorded in the <code>observable_function</code> or <code>visual_notes</code> field; any inference about intent or effect begins with <code>INTERPRETATION:</code> in a separate field. SRC-0018</p>
+<p>可观察的舞台安排（提词器、受指导的观众、卷起的袖子）记入 <code>observable_function</code> 或 <code>visual_notes</code>；关于意图或效果的推断在独立字段中以 <code>INTERPRETATION:</code> 开头。SRC-0018</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

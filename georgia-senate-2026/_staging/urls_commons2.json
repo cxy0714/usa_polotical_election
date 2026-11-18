@@ -1,0 +1,5 @@
+[
+ {"key":"commons_api_peanut","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&titles=File%3A2023%20Peanut%20Leadership%20Academy%20with%20Jon%20Ossoff%2001.jpg"},
+ {"key":"commons_api_ossoff2025","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&titles=File%3ASenator%20Jon%20Ossoff%202025.jpg"},
+ {"key":"commons_api_collins_full","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&titles=File%3ARep.%20Mike%20Collins%20official%20photo%2C%20118th%20Congress.jpg"}
+]

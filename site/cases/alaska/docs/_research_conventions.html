@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>_research_conventions</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Alaska Senate 2026 / 2026 年阿拉斯加州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">_research_conventions<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / _research_conventions.md</div><h1>Research conventions / 研究约定</h1>
+<h2>Sourcing and tiers</h2>
+<p>Every coded claim points to one source in <code>09_sources/sources.csv</code> via <code>SRC-####|url</code>. The contract&#x27;s one-source-per-cell rule is applied literally: when a row rests on several documents, the <code>source_urls</code> cell carries the strongest one, and <code>analyst_notes</code> or <code>notes</code> names the corroborating documents in prose. Sources are tiered as follows.</p>
+<ul>
+<li><strong>T1</strong> — official records: Alaska Division of Elections (SRC-0001 to SRC-0003), FEC (SRC-0004,</li>
+<p>SRC-0005).</p>
+<li><strong>T2</strong> — Alaska and national newsrooms of record: ADN, Alaska Public Media, Alaska Beacon, AP,</li>
+<p>CNN, NBC, PBS, ABC, Roll Call, Alaska&#x27;s News Source, Anchorage Press.</p>
+<li><strong>T3</strong> — party, campaign, advocacy and reference sources: campaign sites, union and trade-association</li>
+<p>releases, AFP Action, NRA-PVF, Wikipedia, pollsters&#x27; own releases, Bluesky.</p>
+</ul>
+<p>Partisan-leaning outlets (Must Read Alaska, Alaska Watchman, The Alaska Story) are used only for statements the campaigns themselves made, and are flagged in <code>reliability_notes</code>.</p>
+<p>每条编码论断都通过 <code>SRC-####|url</code> 指向 <code>09_sources/sources.csv</code> 中的一个来源。合同&quot;每格一个来源&quot;的 规则被严格执行：若一行依赖多份文件，<code>source_urls</code> 放最强的一份，其余佐证在 <code>analyst_notes</code> 或 <code>notes</code> 中以文字说明。T1 为官方记录（选举委员会、FEC）；T2 为阿拉斯加与全国主流新闻机构； T3 为政党、竞选团队、倡议组织、维基百科与民调机构自发布稿件。倾向性媒体仅用于候选人自己的表态， 并在 <code>reliability_notes</code> 标注。</p>
+<h2>Quotes</h2>
+<p>A quotation appears only if it was read in a retrieved document. Paraphrase is labelled as paraphrase. Where two syndications of the same wire story differ, the version that was actually retrieved is cited (usually PBS or ABC carrying AP). On 2026-11-18 one draft position row was rejected because its quotation (&quot;I&#x27;m a life member of the NRA&quot;) could not be found anywhere in the retrieved corpus; it was replaced with the 2026-07-13 NRA-PVF endorsement statement actually on file (SRC-0068).</p>
+<p>只有已在取得的文档中读到的语句才作为引语；转述标注为转述。同一通讯社稿件若有多个转载版本， 引用实际取得的版本（通常是 PBS 或 ABC 转载的 AP 稿）。2026-11-18 有一条政策立场草稿因引语 （&quot;我是 NRA 终身会员&quot;）在全部已取得语料中无法找到而被弃用，改用档案中确有的 2026-07-13 NRA-PVF 背书声明（SRC-0068）。</p>
+<h2><code>unknown</code> is a value</h2>
+<p>Empty cells and placeholder strings are prohibited. Where a fact was not published or not retrieved, the cell says <code>unknown</code>. This is deliberate in three places readers notice first: rally venues, crowd sizes, and paid-ad creative details. Guessing a venue from a city, or a crowd from &quot;packed&quot;, was refused.</p>
+<p>禁止空白单元格与占位字符串。凡未公布或未取得的事实，单元格写 <code>unknown</code>。读者最先注意到的三处是 集会场地、人数与付费广告素材细节——档案拒绝由城市推断场地，或由&quot;挤满&quot;推断人数。</p>
+<h2>Dates</h2>
+<ul>
+<li>Full ISO dates (<code>YYYY-MM-DD</code>) in date columns; <code>unknown</code> when the day is not published.</li>
+<li>Partial dates that a source gives only as a month or year are moved into the prose (a career row</li>
+<p>with <code>start_date=unknown</code> and a description reading &quot;September 2023&quot; or &quot;early 2024&quot;), because the validator requires full ISO dates and inventing a day would be fabrication.</p>
+<li>A story dated the day after an event and saying &quot;on Friday&quot; is dated to that Friday</li>
+<p>(Sullivan&#x27;s launch: story 2025-03-22 → event 2025-03-21).</p>
+<li>Report timestamps in official PDFs are quoted verbatim rather than converted.</li>
+</ul>
+<p>日期列使用完整 ISO 日期，未公布具体日期时写 <code>unknown</code>。来源仅给出月份或年份的部分日期写入正文 （如职业时间线中 <code>start_date=unknown</code>、描述写&quot;2023 年 9 月&quot;），因为校验器要求完整 ISO 日期， 臆造某一天即属虚构。事件次日报道称&quot;周五&quot;的，按该周五计日期。官方 PDF 的时间戳原样引用，不作时区换算。</p>
+<h2>Translation</h2>
+<p>English governs. Chinese text is a working translation written to be read alongside the English, not an independent source. Proper names follow the candidates&#x27; own usage (<code>Mary Peltola</code> 玛丽·佩尔托拉, <code>Dan S. Sullivan</code> 丹·沙利文); the namesake challenger is 小丹尼尔·沙利文 (<code>Daniel J. Sullivan Jr.</code>) and is never merged with the incumbent in either language.</p>
+<p>英文为准。中文是与英文对照阅读的工作译文，不是独立来源。人名为约定译法；同名挑战者始终写作 &quot;小丹尼尔·沙利文&quot;，任何语言版本都不与现任议员混同。</p>
+<h2>Retrieval and evidence trail</h2>
+<ul>
+<li>Starting point: <code>_research/2026/alaska.wikitext</code> (1,514 lines), copied to</li>
+<p><code>_staging/mirrors/wiki_alaska.wikitext</code> and logged.</p>
+<li>Pages fetched with Python <code>urllib</code>, explicit User-Agent, saved under <code>_staging/mirrors/pages/</code>,</li>
+<p>text-extracted to <code>_staging/mirrors/text/</code>, and logged in <code>_staging/fetch_log.csv</code> (url, http_status, bytes, fetched_at, saved_file). 166+ rows, 32 non-200.</p>
+<li><code>elections.alaska.gov</code> presents a self-signed certificate in its chain; two documents were</li>
+<p>retrieved with <code>ssl._create_unverified_context()</code>, recorded in <code>_staging/tls_fallback.json</code>, and disclosed in <code>research_gaps.md</code>.</p>
+<li>No PDF/HTML parsing libraries were available, so mirrors were text-extracted with regex (HTML) and</li>
+<p>zlib + <code>Tj</code> operator scanning (PDF). Extraction artifacts (nav chrome, cookie banners) are ignored when quoting.</p>
+</ul>
+<p>起点为本地维基百科镜像，复制入 <code>_staging/mirrors/</code> 并记录。页面用 Python <code>urllib</code> 抓取、带明确 User-Agent、存入 <code>_staging/mirrors/pages/</code>、抽取文本至 <code>_staging/mirrors/text/</code>，并在 <code>_staging/fetch_log.csv</code> 逐条记录（url、状态码、字节数、时间、保存文件）。共 166+ 行，其中 32 条 非 200。<code>elections.alaska.gov</code> 证书链含自签名证书，两份文件以不校验 SSL 的方式取得，记录于 <code>_staging/tls_fallback.json</code> 并在缺口文档中披露。因无 PDF/HTML 解析库，镜像以正则（HTML）与 zlib + <code>Tj</code> 扫描（PDF）提取文本；引用时忽略导航栏、Cookie 提示等抽取噪声。</p>
+<h2>Images</h2>
+<p>Only PD, CC0, CC BY and CC BY-SA images were downloaded, each under 2 MB, with licence, photographer and Commons file page recorded in <code>image_archive.csv</code> and in <code>sources.csv</code> (SRC-0119 to SRC-0124). News photographs are indexed <code>all_rights_reserved_link_only</code> with the photographer named from the caption; they are not downloaded or redistributed.</p>
+<p>仅下载 PD、CC0、CC BY、CC BY-SA 图像，单文件均小于 2 MB，许可、摄影者与 Commons 文件页记录于 <code>image_archive.csv</code> 与 <code>sources.csv</code>（SRC-0119 至 SRC-0124）。新闻照片以 <code>all_rights_reserved_link_only</code> 索引，摄影者按图片说明记录，不下载、不再分发。</p>
+<h2>Attendance and status</h2>
+<p>An event is <code>held</code> only when a retrieved report places the candidate there. Endorsement releases are <code>announced</code>, not <code>held</code>. AFN convention rows are <code>unverified</code> placeholders because no retrieved report documents attendance. A written statement is recorded under <code>victory_speech</code> only with <code>event_status=unverified</code> and no venue asserted.</p>
+<p>只有已取得报道明确显示候选人到场时，事件才标 <code>held</code>。背书新闻稿标 <code>announced</code> 而非 <code>held</code>。 AFN 大会相关行因无报道证明出席，标 <code>unverified</code> 占位。书面声明仅在 <code>event_status=unverified</code> 且不指认场地的前提下记入 <code>victory_speech</code>。</p>
+<h2>Refusals</h2>
+<ul>
+<li>No mapping of Alaska house districts to &quot;counties&quot;.</li>
+<li>No assignment of the namesake candidate&#x27;s votes to Sullivan in the official table; the transfer is</li>
+<p>computed only as a labelled counterfactual in <code>results_notes.md</code>.</p>
+<li>No claim that ranked-choice tabulation occurred.</li>
+<li>No inference of a concession that did not happen.</li>
+<li>No use of a source that returned 403/401/404 as if it had been read.</li>
+</ul>
+<ul>
+<li>不把阿拉斯加众议院选区映射为&quot;县&quot;。</li>
+<li>官方结果表中不把同名候选人票数并入沙利文；仅在 <code>results_notes.md</code> 中作为标注的反事实计算。</li>
+<li>不声称发生过排序复选计票。</li>
+<li>不推断未曾发生的认输。</li>
+<li>不把返回 403/401/404 的来源当作已读材料使用。</li>
+</ul>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

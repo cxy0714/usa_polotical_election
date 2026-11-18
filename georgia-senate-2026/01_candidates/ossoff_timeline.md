@@ -1,0 +1,55 @@
+---
+title: Jon Ossoff - campaign timeline
+title_zh: 乔恩·奥索夫 — 竞选时间线
+candidate_id: OSSOFF
+compiled_by: Research Agent (batch 2)
+last_updated: 2026-11-18
+status: complete
+coverage_note: Solid on dated public events; thin on internal campaign decisions and exact launch date.
+---
+
+## Pre-campaign / 竞选前
+
+2025-09-10 — J Street PAC fundraising reception in Washington (SRC-0077).
+
+2025 年 9 月 10 日 — 华盛顿 J Street PAC 筹款招待会（SRC-0077）。
+
+## Primary phase / 初选阶段
+
+2026-02-07 — Atlanta rally at the Georgia International Convention Center, third rally of the campaign (SRC-0019).
+2026-05-19 — Democratic primary: unopposed, 1,042,331 votes (SRC-0008).
+2026-05-31 — Atlanta rally with Keisha Lance Bottoms (SRC-0018).
+
+2026 年 2 月 7 日 — 亚特兰大国际会议中心集会，为竞选第三次集会（SRC-0019）。
+2026 年 5 月 19 日 — 民主党初选：无人挑战，1,042,331 票（SRC-0008）。
+2026 年 5 月 31 日 — 与基莎·兰斯·巴顿斯在亚特兰大联合集会（SRC-0018）。
+
+## General election / 大选阶段
+
+2026-06-27 — Savannah joint rally at the Metal Building at Trustees' Garden (SRC-0018).
+2026-07-23 — Press call on Collins and his son-in-law (SRC-0028).
+2026-08-05 — Atlanta News First announces the only televised debate (SRC-0012).
+2026-10-08 — First debate, Doraville studio (SRC-0016).
+2026-10-13 — Second debate, GPB Atlanta studio (SRC-0017); Ossoff votes early at Bessie Branham Recreation Center (SRC-0033).
+2026-10-28 — South Atlanta rally with Barack Obama and Bottoms (SRC-0004).
+2026-10-29 — HBCU visit in Atlanta and earlier stop in Macon with Kamala Harris (SRC-0024).
+
+2026 年 6 月 27 日 — 萨凡纳联合集会（SRC-0018）。
+2026 年 7 月 23 日 — 就柯林斯及其女婿举行新闻电话会（SRC-0028）。
+2026 年 8 月 5 日 — Atlanta News First 宣布唯一一场电视辩论（SRC-0012）。
+2026 年 10 月 8 日 — 首场辩论（多拉维尔演播室，SRC-0016）。
+2026 年 10 月 13 日 — 第二场辩论（亚特兰大 GPB 演播室，SRC-0017）；同日于贝西·布拉纳姆娱乐中心提前投票（SRC-0033）。
+2026 年 10 月 28 日 — 与奥巴马、巴顿斯在南亚特兰大集会（SRC-0004）。
+2026 年 10 月 29 日 — 亚特兰大传统黑人大学走访，同日早间在梅肯与哈里斯同台（SRC-0024）。
+
+## Result / 结果
+
+2026-11-03 — Wins 59.03% to 40.97%; delivers victory speech in Atlanta (SRC-0001 SRC-0004 SRC-0002).
+
+2026 年 11 月 3 日 — 以 59.03% 对 40.97% 获胜，并在亚特兰大发表胜选演讲（SRC-0001 SRC-0004 SRC-0002）。
+
+## Unknowns / 未知项
+
+The formal campaign launch date, the number of rallies held in total, and all internal polling are unknown in the retrieved record.
+
+正式启动日期、集会总场次与内部民调在已获取资料中均属未知。

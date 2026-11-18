@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>event_coverage_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">event_coverage_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 02_campaign_events/event_coverage_gaps.md</div><h1>Event coverage gaps / 活动报道缺口</h1>
+<p><code>campaign_events.csv</code> has 33 rows. They are not equally evidenced, and the difference matters: an event known from a full report, an event known from a headline, and an event known from a photo caption are three different epistemic objects. This file states which is which.</p>
+<p><code>campaign_events.csv</code> 共 33 行，证据强度并不相同，而这一差别很重要：由完整报道得知的活动、仅由标题 得知的活动、仅由图片说明得知的活动，是三种不同的认知对象。本文件说明每行属于哪一种。</p>
+<h2>1. Full reporting, quotes and venue / 完整报道、引语与场地（11 rows）</h2>
+<p>BAS-EVT-0002 (launch rally, <span class="src">SRC-0023</span>); BAS-EVT-0011 / RAM-EVT-0008 (Aug. 19 debate, <span class="src">SRC-0032</span>); BAS-EVT-0012 / RAM-EVT-0013 (South L.A. forum, <span class="src">SRC-0035</span>); BAS-EVT-0013 / RAM-EVT-0014 (Jewish Federation forum, <span class="src">SRC-0033</span>); BAS-EVT-0014 / RAM-EVT-0016 (Oct. 13 debate, <span class="src">SRC-0062</span>); RAM-EVT-0007 (Sylmar carpenters, <span class="src">SRC-0059</span>); RAM-EVT-0018 (victory night, <span class="src">SRC-0064</span>). These carry verbatim quotes, stated venues and a date confirmed by the outlet.</p>
+<p>BAS-EVT-0002、BAS-EVT-0011 / RAM-EVT-0008、BAS-EVT-0012 / RAM-EVT-0013、BAS-EVT-0013 / RAM-EVT-0014、 BAS-EVT-0014 / RAM-EVT-0016、RAM-EVT-0007、RAM-EVT-0018 属此类，均有逐字引语、明确场地与经媒体确认 的日期。</p>
+<h2>2. Headline-only, metered L.A. Times / 仅标题（洛杉矶时报付费墙）（4 rows）</h2>
+<p>BAS-EVT-0001 (filing, <span class="src">SRC-0037</span>), BAS-EVT-0006 / RAM-EVT-0003 (May 5 debate, <span class="src">SRC-0040</span>), BAS-EVT-0008 (canceled forum, <span class="src">SRC-0041</span>), RAM-EVT-0009 (UNITE HERE, <span class="src">SRC-0048</span>), RAM-EVT-0010 (DSA, <span class="src">SRC-0049</span>), RAM-EVT-0017 (Horvath, <span class="src">SRC-0050</span>). The headline states the fact; nothing beyond it is asserted. For the May 5 debate the venue and moderator come from the Wikipedia debate table, which is why the row itself is <code>verified</code> while its <code>venue</code> rests on a <code>T3</code> source.</p>
+<p>此类行的标题即事实本身，不越过标题作任何断言。5 月 5 日辩论的场地与主持来自维基百科辩论表， 故该行整体为 <code>verified</code>，但其 <code>venue</code> 依据的是 <code>T3</code> 来源。</p>
+<h2>3. Caption-only / 仅图片说明（1 row）</h2>
+<p>RAM-EVT-0005 (tenant-protections event, 2026-06-01, <span class="src">SRC-0057</span>). The only evidence is an Associated Press photo caption: &quot;Raman speaks during a campaign event about tenant protections with renters in Los Angeles&quot;. No venue, no crowd, no speech content; the row says so and is <code>partially verified</code>.</p>
+<p>唯一证据是美联社图片说明：&quot;Raman 在洛杉矶一场关于租客保护的竞选活动上发言&quot;。无场地、无人数、 无演讲内容；该行如此注明，为 <code>partially verified</code>。</p>
+<h2>4. Endorsement releases with no event / 无活动的背书发布（10 rows）</h2>
+<p>BAS-EVT-0003, 0004, 0005, 0009, 0010; RAM-EVT-0009, 0010, 0011, 0012, 0017. These are dated public endorsements, not rallies: <code>event_status = announced</code>, <code>venue = unknown</code>. They are in the events table because endorsements are the race&#x27;s real coalition data, not because they looked like events.</p>
+<p>这些是有日期的公开背书，不是集会：<code>event_status = announced</code>、<code>venue = unknown</code>。列入活动表是因为 背书才是这场选举真正的联盟数据，而不是因为它们像活动。</p>
+<h2>5. Format and access problems / 形式与获取问题</h2>
+<p><strong>Date conflict.</strong> BAS-EVT-0012 / RAM-EVT-0013: the LAist body says &quot;Saturday&quot;, the photo caption says Sept. 29 (a Tuesday). 2026-09-26 recorded; both rows <code>conflicting sources</code> <span class="src">SRC-0035</span>.</p>
+<p><strong>日期冲突。</strong> BAS-EVT-0012 / RAM-EVT-0013：LAist 正文称&quot;星期六&quot;，图片说明称 9 月 29 日（星期二）。 记录 2026-09-26；两行标 <code>conflicting sources</code> <span class="src">SRC-0035</span>。</p>
+<p><strong>Attribution slippage.</strong> The line &quot;You want to hear frustrated? I&#x27;m frustrated too&quot; is quoted by LAist as said &quot;at a recent campaign event&quot;, not necessarily at the Aug. 19 debate where the archive files it. The row&#x27;s <code>analyst_notes</code> says so; SPE-BAS-0003 is <code>partially verified</code> <span class="src">SRC-0032</span>.</p>
+<p><strong>归属滑动。</strong> &quot;你想听沮丧的话吗？我也沮丧&quot;被 LAist 引为&quot;在最近一场竞选活动&quot;所说，未必是在档案 归入的 8 月 19 日辩论上。该行 <code>analyst_notes</code> 已注明；SPE-BAS-0003 为 <code>partially verified</code> <span class="src">SRC-0032</span>。</p>
+<p><strong>Cancellation as an event.</strong> BAS-EVT-0008 is a debate that did not happen, kept because the cancellation is itself a campaign decision — Bass withdrew after committing, Pratt declined on scheduling, Raman withdrew on May 11 and the forum collapsed the same day <span class="src">SRC-0041</span> <span class="src">SRC-0078</span>.</p>
+<p><strong>取消也是事件。</strong> BAS-EVT-0008 是一场未发生的辩论，保留它是因为取消本身即竞选决策——Bass 在承诺后 退出、Pratt 因日程冲突婉拒、Raman 于 5 月 11 日退出，论坛当日取消 <span class="src">SRC-0041</span> <span class="src">SRC-0078</span>。</p>
+<p><strong>Venue resting on Wikipedia.</strong> BAS-EVT-0007 / RAM-EVT-0004 (Skirball) and the Oct. 13 NBC4 venue (Universal City) come from the Wikipedia debate table <span class="src">SRC-0001</span>; the NBCLA uploads confirm date and participants but not the address.</p>
+<p><strong>场地依据维基百科。</strong> BAS-EVT-0007 / RAM-EVT-0004（Skirball）与 10 月 13 日 NBC4 场地（Universal City）来自维基辩论表 <span class="src">SRC-0001</span>；NBCLA 上传视频确认日期与参与者，但不含地址。</p>
+<h2>6. What no source reports / 无来源报道的部分</h2>
+<p>No crowd size for any event. No fundraising totals per event. No press pool reports. No event-level security or protest activity. No primary-night watch party for either candidate. Those absences are listed as G20 and G21 in <code>research_gaps.md</code>; the events table does not fill them with estimates.</p>
+<p>任何活动都无人数；无单场募款总额；无联合采访报道；无活动层面的安保或抗议信息；两位候选人都无初选夜 观票会。这些缺失在 <code>research_gaps.md</code> 中列为 G20 与 G21；活动表不以估算填补。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

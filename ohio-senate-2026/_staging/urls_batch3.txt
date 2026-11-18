@@ -1,0 +1,16 @@
+wiki_brown,https://en.wikipedia.org/wiki/Sherrod_Brown
+wiki_husted,https://en.wikipedia.org/wiki/Jon_Husted
+wiki_2024oh,https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Ohio
+wiki_2022oh,https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Ohio
+wiki_eastpal,https://en.wikipedia.org/wiki/East_Palestine_derailment
+wiki_issue1_2023,https://en.wikipedia.org/wiki/2023_Ohio_Issue_1
+wiki_2026ohio,https://en.wikipedia.org/wiki/2026_Ohio_elections
+wiki_vance,https://en.wikipedia.org/wiki/JD_Vance
+wiki_119th,https://en.wikipedia.org/wiki/119th_United_States_Congress
+fec_oh2026,https://www.fec.gov/data/elections/senate/OH/2026/
+sos_results_index,https://www.ohiosos.gov/elections/election-results-and-data/
+sos_vacancies_pdf,https://www.ohiosos.gov/globalassets/elections/eoresources/general/fillingvacancies.pdf
+commons_brown_api,https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ASherrod%20Brown%20117th%20Congress%20(1)%20(cropped).jpg&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&format=json
+commons_husted_api,https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ASen._Jon_Husted_official_portrait%2C_119th_Congress%20(cropped%202).jpg&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&format=json
+commons_search_brown,https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=Sherrod%20Brown&srnamespace=6&srlimit=20&format=json
+commons_search_husted,https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=Jon%20Husted&srnamespace=6&srlimit=20&format=json

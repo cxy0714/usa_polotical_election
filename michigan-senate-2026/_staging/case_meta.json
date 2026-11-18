@@ -1,0 +1,46 @@
+{
+  "slug": "michigan-senate-2026",
+  "race_name": "2026 United States Senate election in Michigan",
+  "race_name_zh": "2026 年密歇根州联邦参议员选举",
+  "case_number": 3,
+  "candidates": [
+    {
+      "id": "ELSAYED",
+      "name": "Abdul El-Sayed",
+      "party": "Democratic",
+      "lower": "elsayed"
+    },
+    {
+      "id": "ROGERS",
+      "name": "Mike Rogers",
+      "party": "Republican",
+      "lower": "rogers"
+    }
+  ],
+  "county_keys": [
+    "elsayed",
+    "rogers"
+  ],
+  "poll_keys": [
+    "elsayed",
+    "rogers"
+  ],
+  "result": {
+    "winner": "ELSAYED",
+    "margin_pct": 7.08,
+    "source": "SRC-0001"
+  },
+  "state_regions": [
+    "Southeast",
+    "West",
+    "Mid",
+    "Northern",
+    "Thumb",
+    "statewide",
+    "national",
+    "unknown"
+  ],
+  "phenomenon_en": "Minimalist personal presentation versus a traditional professional political image.",
+  "phenomenon_zh": "极简个人造型与传统政治职业形象的对照。",
+  "election_date": "2026-11-03"
+}

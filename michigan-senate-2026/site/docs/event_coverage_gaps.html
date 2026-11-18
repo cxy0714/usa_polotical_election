@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>event_coverage_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">event_coverage_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 02_campaign_events/event_coverage_gaps.md</div><h2>What the thirty-two rows contain</h2>
+<p><code>02_campaign_events/campaign_events.csv</code> holds 18 El-Sayed rows (ELS-EVT-0001 to ELS-EVT-0018) and 14 Rogers rows (ROG-EVT-0001 to ROG-EVT-0014). Debates and forums account for twelve of the 32 rows — six in the Democratic primary, two joint general-election debates, two single-candidate broadcasts and two policy forums — because televised events are the only campaign activity that multiple independent outlets reported verbatim <span class="src">SRC-0015</span> <span class="src">SRC-0019</span> <span class="src">SRC-0020</span> <span class="src">SRC-0036</span>.</p>
+<p>中文：<code>02_campaign_events/campaign_events.csv</code> 含 18 条赛义德记录（ELS-EVT-0001 至 ELS-EVT-0018）与 14 条罗杰斯记录（ROG-EVT-0001 至 ROG-EVT-0014）。32 条中有 12 条是辩论与论坛——民主党初选六场、两场联合大选辩论、两场单候选人播出、两场政策论坛——因为电视活动是唯一被多家独立媒体逐字报道的竞选活动 <span class="src">SRC-0015</span> <span class="src">SRC-0019</span> <span class="src">SRC-0020</span> <span class="src">SRC-0036</span>。</p>
+<h2>Event categories represented</h2>
+<div class="table-wrap"><table><thead><tr><th>Category / 类别</th><th>El-Sayed</th><th>Rogers</th><th>Note / 说明</th></tr></thead><tbody>
+<tr><td>launch / 启动</td><td>1</td><td>1</td><td>Venue unknown for both <span class="src">SRC-0070</span></td></tr>
+<tr><td>filing / 提交联署</td><td>1</td><td>1</td><td>Official dates only <span class="src">SRC-0005</span></td></tr>
+<tr><td>debate / 辩论</td><td>7</td><td>2</td><td>Includes one cancellation for Rogers</td></tr>
+<tr><td>q_and_a / 政策问答</td><td>1</td><td>1</td><td>Detroit Economic Club <span class="src">SRC-0020</span></td></tr>
+<tr><td>meet_and_greet / 见面会</td><td>2</td><td>0</td><td>One documented only by a photo caption</td></tr>
+<tr><td>university_visit / 校园访问</td><td>1</td><td>0</td><td>Michigan Tech, Houghton <span class="src">SRC-0085</span></td></tr>
+<tr><td>press_conference / 记者会</td><td>1</td><td>1</td><td>Spirit of Detroit; &quot;Democrats for Mike Rogers&quot;</td></tr>
+<tr><td>rally / 集会</td><td>1</td><td>0</td><td>Obama rally, Detroit <span class="src">SRC-0002</span></td></tr>
+<tr><td>surrogate_event / 代理人活动</td><td>0</td><td>2</td><td>Kennedy barn party; Trump/Port Huron rally</td></tr>
+<tr><td>watch_party / 观票会</td><td>1</td><td>0</td><td>Majestic Theater, Detroit</td></tr>
+<tr><td>victory_speech / 胜选演说</td><td>1</td><td>0</td><td>Detroit, 2026-11-04 <span class="src">SRC-0029</span></td></tr>
+<tr><td>announcement / 政策宣布</td><td>0</td><td>2</td><td>Gas tax; business endorsements</td></tr>
+<tr><td>endorsement_event / 背书活动</td><td>0</td><td>2</td><td>AGC PAC; business slate</td></tr>
+<tr><td>fundraiser / 筹款会</td><td>0</td><td>1</td><td>AIPAC-hosted, no date</td></tr>
+<tr><td>other / 其他</td><td>2</td><td>1</td><td>Disrupted event; post-election statement</td></tr>
+</tbody></table></div>
+<p>中文：上表逐类列出两位候选人的事件条数。启动与提交联署两类仅有日期、无场地；辩论类对罗杰斯含一场取消；见面会与校园访问主要依靠图片说明而非新闻报道；代理人活动只出现在罗杰斯一侧；筹款会一条没有确切日期。</p>
+<h2>The five gaps, stated plainly</h2>
+<ol>
+<li><strong>No rally, town hall or GOTV schedule exists for either candidate.</strong> Neither campaign published a public calendar that was retrievable, and the campaign websites returned HTTP 403 <span class="src">SRC-0082</span> <span class="src">SRC-0083</span>. Every mass-audience event in the file was reconstructed from a news photograph caption or a single report.</li>
+<li><strong>Rogers&#x27; September and October travel is largely missing.</strong> The file has one rally (Port Huron, where his attendance is not even confirmed) and one surrogate event (Highland Township) for the final six weeks of a statewide race <span class="src">SRC-0048</span> <span class="src">SRC-0062</span>.</li>
+<li><strong>El-Sayed&#x27;s primary schedule is under-sampled outside debates.</strong> The Houghton stop is documented by a Commons photograph description, not by a news report <span class="src">SRC-0085</span>, and the October 10 disruption is known only from a headline <span class="src">SRC-0046</span>.</li>
+<li><strong>The AIPAC fundraisers have no date.</strong> Wikipedia says Rogers attended four AIPAC-hosted fundraisers in Los Angeles in August 2026; The American Prospect says three, hosted the day after he met AIPAC&#x27;s board chair <span class="src">SRC-0003</span> <span class="src">SRC-0073</span>. The row is recorded as <code>unverified</code> with the count conflict noted rather than resolved.</li>
+<li><strong>Attendance figures do not exist in any retrieved source.</strong> No row has a crowd count, so none is recorded.</li>
+</ol>
+<p>中文：五处缺口如下。（1）两位候选人均无可取得的大型集会、市政厅或催票日程，竞选网站返回 403 <span class="src">SRC-0082</span> <span class="src">SRC-0083</span>；所有大型活动均由新闻图片说明或单篇报道重建。（2）罗杰斯 9 月至 10 月的行程大量缺失：全州竞选的最后六周里仅有一场集会（其本人是否到场亦未确认）与一场代理人活动 <span class="src">SRC-0048</span> <span class="src">SRC-0062</span>。（3）赛义德初选期间除辩论外的行程取样不足：霍顿一站仅有 Commons 图片说明 <span class="src">SRC-0085</span>，10 月 10 日的干扰事件仅有标题 <span class="src">SRC-0046</span>。（4）AIPAC 筹款会无日期：维基百科称 8 月洛杉矶有四场，The American Prospect 称三场且在其会见 AIPAC 董事会主席次日举办 <span class="src">SRC-0003</span> <span class="src">SRC-0073</span>，该行记为 <code>unverified</code> 并保留分歧。（5）任何已取得材料均无出席人数，故不作记录。</p>
+<h2>Date conflicts kept visible</h2>
+<p>Three rows carry an explicit conflict note rather than a silent choice. El-Sayed&#x27;s launch is dated April 19, 2025 by Wikipedia while the Semafor report describing it is dated April 17, 2025 and refers to Rogers announcing &quot;this week&quot; <span class="src">SRC-0002</span> <span class="src">SRC-0070</span>. The MLive forum story carries an April 2026 URL while describing the April 24 forum <span class="src">SRC-0045</span>. Rogers&#x27; post-election statement is recorded as <code>conflicting sources</code> because it thanks supporters without using the word concede <span class="src">SRC-0003</span>.</p>
+<p>中文：有三行明确保留日期分歧而非默默择一。赛义德启动日：维基百科记为 2025 年 4 月 19 日，而描述该事的 Semafor 报道日期为 2025 年 4 月 17 日，并称罗杰斯“本周”宣布 <span class="src">SRC-0002</span> <span class="src">SRC-0070</span>。MLive 论坛报道的 URL 带 2026 年 4 月日期，却描述 4 月 24 日的论坛 <span class="src">SRC-0045</span>。罗杰斯选后声明记为 <code>conflicting sources</code>，因其感谢支持者但未使用“认输”一词 <span class="src">SRC-0003</span>。</p>
+<h2>Event status conventions used here</h2>
+<p><code>held</code> is used only where a report describes what happened at the event. <code>announced</code> is used for written proposals and endorsement releases with no public venue — Rogers&#x27; gas tax proposal, his business-endorsement slate and the AGC PAC endorsement <span class="src">SRC-0013</span> <span class="src">SRC-0022</span> <span class="src">SRC-0079</span>. <code>cancelled</code> is used for the September 15 Fox 2 debate because Rogers declined that morning and the broadcast proceeded with one candidate <span class="src">SRC-0049</span>. <code>unverified</code> is used for the AIPAC fundraisers.</p>
+<p>中文：<code>held</code> 仅用于有报道描述现场情况的活动。<code>announced</code> 用于没有公开场地的书面提案与背书发布——罗杰斯的汽油税提案、商界背书名单与 AGC PAC 背书 <span class="src">SRC-0013</span> <span class="src">SRC-0022</span> <span class="src">SRC-0079</span>。<code>cancelled</code> 用于 9 月 15 日 Fox 2 辩论，因罗杰斯当日上午拒绝出席、播出仅剩一位候选人 <span class="src">SRC-0049</span>。<code>unverified</code> 用于 AIPAC 筹款会。</p>
+<h2>What would close the gaps</h2>
+<p>The Michigan Bureau of Elections calendar and the FEC independent-expenditure files would not help — they contain no candidate schedule. What would close these gaps is (a) a working snapshot of either campaign website&#x27;s events page, (b) the Detroit News and Free Press archives, which returned HTTP 402, and (c) local television archives for September and October 2026, none of which was retrievable in this pass.</p>
+<p>中文：密歇根州选举局日历与 FEC 独立支出文件无助于补足——它们不含候选人日程。真正能补足这些缺口的是：（a）任一竞选网站活动页的可取快照；（b）返回 HTTP 402 的《底特律新闻》与《自由新闻》档案；（c）2026 年 9 至 10 月的本地电视档案——本轮均无法取得。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

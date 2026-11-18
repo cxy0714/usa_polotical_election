@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>data_dictionary_bilingual</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">data_dictionary_bilingual<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 09_sources/data_dictionary_bilingual.md</div><h1>Data dictionary / 数据字典</h1>
+<h2>How to read these tables</h2>
+<p>Every CSV is UTF-8, comma-separated, RFC 4180 quoting, LF line endings, with a single header row. All files share four conventions: <code>unknown</code> means &quot;not published or not retrieved&quot; and is never a blank; <code>source_urls</code> carries exactly one <code>SRC-####|https://…</code> pair resolving in <code>09_sources/sources.csv</code>; dates are ISO <code>YYYY-MM-DD</code> or <code>unknown</code>; no cell is empty.</p>
+<p>所有 CSV 均为 UTF-8、逗号分隔、RFC 4180 引号规则、LF 换行、单行表头。四个通用约定：<code>unknown</code> 表示 &quot;未公布或未取得&quot;，绝不留空；<code>source_urls</code> 只含一个可在 <code>09_sources/sources.csv</code> 解析的 <code>SRC-####|https://…</code>；日期为 ISO <code>YYYY-MM-DD</code> 或 <code>unknown</code>；任何单元格均不空白。</p>
+<h2>Common columns</h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Meaning (English)</th><th>含义（中文）</th></tr></thead><tbody>
+<tr><td><code>candidate_id</code></td><td><code>PELTOLA</code> or <code>SULLIVAN</code>; matches <code>case_meta.json</code></td><td><code>PELTOLA</code> 或 <code>SULLIVAN</code>；与 <code>case_meta.json</code> 一致</td></tr>
+<tr><td><code>source_urls</code></td><td>One source id and its URL, e.g. `SRC-0001</td><td>https://…`</td><td>一个来源编号及其 URL</td></tr>
+<tr><td><code>verification_status</code></td><td><code>verified</code>, <code>partially verified</code>, <code>unverified</code>, <code>conflicting sources</code></td><td>已核实 / 部分核实 / 未核实 / 来源冲突</td></tr>
+<tr><td><code>notes</code> / <code>analyst_notes</code></td><td>Prose explaining provenance, caveats, or why a cell is <code>unknown</code></td><td>说明来源、告诫，或某格为何为 <code>unknown</code></td></tr>
+<tr><td><code>event_id</code></td><td>Foreign key into <code>02_campaign_events/campaign_events.csv</code>; <code>unknown</code> when no coded event exists</td><td>指向活动表的键；无对应活动时为 <code>unknown</code></td></tr>
+<tr><td><code>issue</code></td><td>Controlled topic vocabulary (see below)</td><td>受控议题词表（见下）</td></tr>
+<tr><td><code>period</code></td><td>Reporting period: ISO date, <code>YYYY-Qn</code>, or <code>unknown</code></td><td>报告期：ISO 日期、<code>YYYY-Qn</code> 或 <code>unknown</code></td></tr>
+</tbody></table></div>
+<h2><code>09_sources/sources.csv</code> (124 rows)</h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Meaning</th><th>含义</th></tr></thead><tbody>
+<tr><td><code>source_id</code></td><td><code>SRC-0001</code> … <code>SRC-0124</code>, unique</td><td>唯一来源编号</td></tr>
+<tr><td><code>url</code></td><td>Canonical URL that was retrieved</td><td>实际抓取的规范 URL</td></tr>
+<tr><td><code>title</code></td><td>Page or article title as published</td><td>页面或文章原标题</td></tr>
+<tr><td><code>publisher</code></td><td>Outlet, agency or platform</td><td>媒体、机构或平台</td></tr>
+<tr><td><code>publication_date</code></td><td>Publication date, ISO or <code>unknown</code></td><td>发布日期</td></tr>
+<tr><td><code>event_date</code></td><td>Date of the event the source describes, if any</td><td>所述事件的日期（如有）</td></tr>
+<tr><td><code>access_date</code></td><td><code>2026-11-18</code> for every row</td><td>全部为 2026-11-18</td></tr>
+<tr><td><code>source_tier</code></td><td><code>T1</code> official, <code>T2</code> newsroom of record, <code>T3</code> campaign/party/advocacy/reference</td><td>一级官方 / 二级主流媒体 / 三级竞选、政党、倡议、参考</td></tr>
+<tr><td><code>source_type</code></td><td>Controlled vocabulary (see below)</td><td>受控类型词表</td></tr>
+<tr><td><code>relevant_quote_or_info</code></td><td>The sentence or fact the source supplies</td><td>该来源提供的语句或事实</td></tr>
+<tr><td><code>reliability_notes</code></td><td>Known bias, paywall, 403, or extraction caveat</td><td>已知倾向、付费墙、403 或抽取告诫</td></tr>
+<tr><td><code>used_by</code></td><td>Which archive files cite it</td><td>被哪些档案文件引用</td></tr>
+</tbody></table></div>
+<h2><code>01_candidates/policy_positions.csv</code> (31 rows: Peltola 15, Sullivan 16)</h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Meaning</th><th>含义</th></tr></thead><tbody>
+<tr><td><code>position_id</code></td><td><code>PEL-POS-nn</code> / <code>SUL-POS-nn</code></td><td>立场编号</td></tr>
+<tr><td><code>issue</code></td><td>One of the contract&#x27;s twelve issue categories</td><td>合同规定的十二个议题类别之一</td></tr>
+<tr><td><code>subissue</code></td><td>Free-text specificity, e.g. &quot;Trawl bycatch&quot;</td><td>自由文本细分议题</td></tr>
+<tr><td><code>position_summary</code></td><td>The coded position in one sentence</td><td>一句话概括的立场</td></tr>
+<tr><td><code>candidate_statement</code></td><td>Verbatim quote, or <code>unknown</code> if none exists</td><td>逐字引语；无则 <code>unknown</code></td></tr>
+<tr><td><code>statement_date</code></td><td>Date of that statement</td><td>该表态的日期</td></tr>
+<tr><td><code>context</code></td><td>Where and to whom it was said</td><td>场合与对象</td></tr>
+<tr><td><code>legislative_record</code></td><td>Votes or bills that support the coding</td><td>支撑编码的表决或法案</td></tr>
+<tr><td><code>position_changed</code></td><td><code>yes</code>/<code>no</code>/<code>unknown</code></td><td>立场是否变化</td></tr>
+<tr><td><code>change_notes</code></td><td>Explanation when it changed</td><td>变化说明</td></tr>
+<tr><td><code>opponent_criticism</code></td><td>How the rival framed it</td><td>对手如何攻击该立场</td></tr>
+<tr><td><code>fact_check</code></td><td>Any fact-check found, else <code>unknown</code></td><td>事实核查结论（如有）</td></tr>
+</tbody></table></div>
+<h2><code>01_candidates/&lt;cand&gt;/career_timeline.csv</code> (10 + 11 rows)</h2>
+<p><code>entry_id</code>, <code>start_date</code>, <code>end_date</code>, <code>role_or_event</code>, <code>organization</code>, <code>location</code>, <code>description</code>. <code>start_date</code>/<code>end_date</code> are full ISO dates or <code>unknown</code>; a month-only precision given by a source is stated in <code>description</code> instead of being invented as a day.</p>
+<p>日期列只写完整 ISO 日期或 <code>unknown</code>；来源仅给出月份的，精度写入 <code>description</code>，不臆造具体日。</p>
+<h2><code>02_campaign_events/campaign_events.csv</code> (30 rows)</h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Meaning</th><th>含义</th></tr></thead><tbody>
+<tr><td><code>event_id</code></td><td><code>PEL-EVT-nn</code> / <code>SUL-EVT-nn</code></td><td>活动编号</td></tr>
+<tr><td><code>event_date</code>, <code>event_time</code></td><td>ISO date; time almost always <code>unknown</code></td><td>日期；时间几乎均为 <code>unknown</code></td></tr>
+<tr><td><code>event_title</code></td><td>Descriptive title, not a campaign slogan</td><td>描述性标题，非竞选口号</td></tr>
+<tr><td><code>event_category</code></td><td>Controlled vocabulary (see below)</td><td>受控类别词表</td></tr>
+<tr><td><code>city</code>, <code>venue</code>, <code>state_region</code></td><td>Location; <code>state_region</code> from the case&#x27;s region list</td><td>地点；区域取自案例区域表</td></tr>
+<tr><td><code>event_status</code></td><td><code>held</code>, <code>announced</code>, <code>unverified</code>, … (see below)</td><td>状态词表</td></tr>
+<tr><td><code>campaign_phase</code></td><td><code>pre_launch</code> … <code>post_election</code></td><td>竞选阶段</td></tr>
+<tr><td><code>stated_purpose</code></td><td>What the campaign said it was for</td><td>竞选方自述目的</td></tr>
+<tr><td><code>observable_function</code></td><td>What actually happened, as reported</td><td>报道所述的实际功能</td></tr>
+<tr><td><code>analyst_interpretation</code></td><td>Archive&#x27;s reading, explicitly labelled</td><td>档案解读，明确标注为解读</td></tr>
+<tr><td><code>target_audience</code></td><td>Reported or inferred audience</td><td>报道或推断的受众</td></tr>
+<tr><td><code>main_messages</code></td><td>Message content, quoted where possible</td><td>信息内容，尽量引用</td></tr>
+<tr><td><code>policy_issues</code></td><td>Semicolon-separated issue tags</td><td>分号分隔的议题标签</td></tr>
+<tr><td><code>speech_summary</code></td><td>What was said</td><td>发言概要</td></tr>
+<tr><td><code>transcript_url</code>, <code>video_url</code>, <code>photo_urls</code></td><td>Media links, <code>unknown</code> when none</td><td>媒体链接；无则 <code>unknown</code></td></tr>
+<tr><td><code>media_coverage</code></td><td>Outlets that covered it</td><td>报道媒体</td></tr>
+<tr><td><code>opponent_reference</code></td><td>Whether and how the rival was mentioned</td><td>是否及如何提及对手</td></tr>
+<tr><td><code>visual_notes</code></td><td>Staging, signage, crowd, only if reported</td><td>仅在有报道时记录布置、标语、人群</td></tr>
+</tbody></table></div>
+<h2><code>03_speeches/speech_archive.csv</code> (12) and <code>speech_video_index.csv</code> (10)</h2>
+<p><code>speech_archive.csv</code>: <code>speech_id</code>, <code>event_id</code>, <code>date</code>, <code>speech_title</code>, <code>speech_url</code>, <code>transcript_url</code>, <code>duration</code>, <code>main_topics</code>, <code>major_quotes</code>, <code>rhetorical_devices</code>, <code>opponent_references</code>, <code>personal_story_elements</code>, <code>policy_claims</code>, <code>source</code>, <code>verification_status</code>. <code>major_quotes</code> holds verbatim text with single-quote delimiters; multiple quotes separated by <code> / </code>.</p>
+<p><code>speech_video_index.csv</code>: <code>video_id</code>, <code>video_url</code>, <code>date</code>, <code>duration</code>, <code>event_type</code>, <code>main_topics</code>, <code>relevant_timestamps</code>, <code>transcript_available</code>, <code>visual_observations</code>, <code>completeness</code>. Rows are <strong>segment-level</strong> entries over three videos; <code>relevant_timestamps</code> is <code>unknown</code> because no timestamps were verified, and <code>completeness</code> is <code>partial</code>.</p>
+<p>视频索引为三个视频上的<strong>片段级</strong>条目；<code>relevant_timestamps</code> 因未核实时间码而为 <code>unknown</code>， <code>completeness</code> 为 <code>partial</code>。</p>
+<h2><code>04_visual_archive/image_archive.csv</code> (12 rows, 6 downloaded)</h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Meaning</th><th>含义</th></tr></thead><tbody>
+<tr><td><code>image_id</code></td><td><code>PEL-IMG-nnnn</code> / <code>SUL-IMG-nnnn</code></td><td>图像编号</td></tr>
+<tr><td><code>image_date</code></td><td>Date the image was taken, ISO or <code>unknown</code></td><td>拍摄日期</td></tr>
+<tr><td><code>event_category</code></td><td>Free text here (portrait, debate, surrogate_event)</td><td>此处为自由文本</td></tr>
+<tr><td><code>source_name</code>, <code>source_url</code></td><td>Commons file page or news article</td><td>Commons 文件页或新闻文章</td></tr>
+<tr><td><code>original_image_url</code></td><td>Direct file URL when known</td><td>已知时的直接文件链接</td></tr>
+<tr><td><code>photographer</code></td><td>Named photographer or uploader credit</td><td>摄影者或上传者署名</td></tr>
+<tr><td><code>copyright_status</code></td><td><code>public_domain</code>, <code>licensed</code>, <code>all_rights_reserved_link_only</code>, <code>unknown</code></td><td>版权状态</td></tr>
+<tr><td><code>license</code></td><td><code>Public domain</code>, <code>CC0</code>, <code>CC BY 2.0</code>, … or &quot;all rights reserved&quot;</td><td>许可类型</td></tr>
+<tr><td><code>local_filename</code></td><td>Path under <code>04_visual_archive/</code>, or <code>unknown</code> if not downloaded</td><td>本地路径；未下载则为 <code>unknown</code></td></tr>
+<tr><td><code>image_resolution</code></td><td><code>WxH</code> of the stored file</td><td>存档文件分辨率</td></tr>
+<tr><td><code>framing</code>, <code>camera_angle</code>, <code>image_quality</code></td><td>Visual coding</td><td>视觉编码</td></tr>
+<tr><td><code>face_visibility</code>, <code>body_visibility</code></td><td><code>clear</code>, <code>partial</code>, <code>unknown</code></td><td>面部/身体可见度</td></tr>
+<tr><td><code>clothing_notes</code></td><td>Attire, only when visible and relevant</td><td>仅在有意义时记录着装</td></tr>
+</tbody></table></div>
+<h2><code>05_campaign_media/*.csv</code> (6 + 7 + 24 rows)</h2>
+<p><code>advertisements.csv</code>: <code>ad_id</code>, <code>sponsor</code>, <code>sponsor_type</code> (<code>candidate_campaign</code>, <code>authorized_committee</code>, <code>outside_pac</code>, <code>party_committee</code>, <code>unknown</code>), <code>release_date</code>, <code>title</code>, <code>platform</code>, <code>length_seconds</code>, <code>issue_or_message</code>, <code>main_visual_elements</code>, <code>narration_soundtrack</code>, <code>candidate_appearance</code>, <code>main_claims</code>, <code>video_url</code>, <code>transcript_url</code>, <code>fact_check</code>, <code>media_coverage</code>. <code>social_media.csv</code>: <code>post_id</code>, <code>platform</code>, <code>account_handle</code>, <code>post_date</code>, <code>post_type</code>, <code>content_summary</code>, <code>media_included</code>, <code>engagement_notes</code>, <code>url</code>. <code>media_coverage.csv</code>: <code>coverage_id</code>, <code>publication_date</code>, <code>outlet</code>, <code>author</code>, <code>title</code>, <code>url</code>, <code>source_tier</code>, <code>coverage_type</code> (<code>news_report</code>, <code>analysis</code>, <code>op_ed</code>, <code>fact_check</code>, <code>interview</code>, <code>live_blog</code>, <code>newsletter</code>, <code>news_video</code>), <code>key_framing</code>, <code>notable_quotes</code>, <code>framing_of_candidate</code>, <code>mentions_opponent</code>, <code>reliability_notes</code>.</p>
+<h2><code>06_campaign_finance/campaign_finance.csv</code> (8 rows)</h2>
+<p><code>finance_id</code>, <code>period</code>, <code>report_type</code> (free text: <code>quarterly</code>, <code>cycle_to_date</code>, <code>account_closure</code>, <code>house_cycle_total</code>, <code>independent_expenditure_context</code>), <code>reporting_deadline</code>, <code>receipts</code>, <code>individual_contributions</code>, <code>pac_contributions</code>, <code>disbursements</code>, <code>cash_on_hand</code>, <code>debts_owed</code>. Amounts are US dollars as whole numbers without separators, exactly as the reporting outlet stated them; <code>unknown</code> where the outlet did not report a figure. No figure was derived by subtraction.</p>
+<p>金额为美元整数、不加千分位，与报道原文一致；报道未给出的记为 <code>unknown</code>。未通过相减推算任何数字。</p>
+<h2><code>07_electoral_context/*.csv</code> (12 + 0 + 8 rows)</h2>
+<ul>
+<li><code>election_results.csv</code>: <code>race_id</code> (<code>AK-SEN-2026-GEN</code>, <code>AK-SEN-2026-PRIMARY</code>), <code>race_name</code>,</li>
+<p><code>election_date</code>, <code>candidate</code>, <code>party</code>, <code>votes</code>, <code>percentage</code>, <code>winner</code> (<code>yes</code>/<code>no</code>), <code>notes</code>. Includes a <code>Total votes cast</code> row for each race; its <code>winner</code> is <code>no</code> by convention because a total is not a candidacy.</p>
+<li><code>county_results.csv</code>: required header, zero rows — Alaska reports by state house district, not</li>
+<p>county (see <code>results_notes.md</code>).</p>
+<li><code>polling.csv</code>: <code>poll_id</code>, <code>pollster</code>, <code>sponsor</code>, <code>field_start</code>, <code>field_end</code>, <code>population</code></li>
+<p>(<code>LV</code>/<code>RV</code>/<code>unknown</code>), <code>sample_size</code>, <code>margin_of_error</code>, <code>peltola_pct</code>, <code>sullivan_pct</code>, <code>other_pct</code>, <code>undecided_pct</code>, <code>leader</code>, <code>margin</code>, <code>notes</code>. Percentages are first-round unless <code>notes</code> says the pollster allocated eliminated candidates.</p>
+</ul>
+<h2>Controlled vocabularies</h2>
+<div class="table-wrap"><table><thead><tr><th>Field</th><th>Allowed values</th></tr></thead><tbody>
+<tr><td><code>event_status</code></td><td><code>held</code>, <code>cancelled</code>, <code>postponed</code>, <code>rescheduled</code>, <code>virtual</code>, <code>announced</code>, <code>unverified</code>, <code>disputed</code></td></tr>
+<tr><td><code>campaign_phase</code></td><td><code>pre_launch</code>, <code>launch</code>, <code>primary</code>, <code>runoff</code>, <code>general</code>, <code>early_voting</code>, <code>gotv</code>, <code>election_day</code>, <code>post_election</code></td></tr>
+<tr><td><code>event_category</code></td><td>launch, announcement, rally, town_hall, meet_and_greet, community_visit, small_business_visit, workplace_visit, university_visit, religious_appearance, labor_event, party_event, county_party_meeting, q_and_a, interview_tv, interview_radio, podcast, newspaper_interview, livestream, debate, debate_invitation, press_conference, video_release, tour_stop, tour_launch, tour_finale, fundraiser, endorsement_event, hq_opening, early_voting_event, gotv_event, surrogate_event, election_eve, watch_party, victory_speech, concession_speech, swearing_in, appointment_announcement, filing, other</td></tr>
+<tr><td><code>issue</code></td><td>Economy, Healthcare, Education, Immigration, Abortion, Gun policy, Energy, Religion, Labor, Democracy, Foreign policy, Other</td></tr>
+<tr><td><code>sponsor_type</code></td><td><code>candidate_campaign</code>, <code>authorized_committee</code>, <code>outside_pac</code>, <code>party_committee</code>, <code>unknown</code></td></tr>
+<tr><td><code>coverage_type</code></td><td><code>news_report</code>, <code>analysis</code>, <code>op_ed</code>, <code>fact_check</code>, <code>interview</code>, <code>live_blog</code>, <code>newsletter</code>, <code>news_video</code></td></tr>
+<tr><td><code>copyright_status</code></td><td><code>public_domain</code>, <code>licensed</code>, <code>all_rights_reserved_link_only</code>, <code>unknown</code></td></tr>
+<tr><td><code>verification_status</code></td><td><code>verified</code>, <code>partially verified</code>, <code>unverified</code>, <code>conflicting sources</code></td></tr>
+<tr><td><code>source_tier</code></td><td><code>T1</code>, <code>T2</code>, <code>T3</code></td></tr>
+<tr><td><code>source_type</code></td><td>official_campaign, official_government, candidate_social, news_article, news_video, transcript, op_ed, fact_check, poll, press_release, event_page, photo, podcast, encyclopedia, other</td></tr>
+<tr><td><code>completeness</code></td><td><code>full</code>, <code>partial</code>, <code>clip</code>, <code>unknown</code></td></tr>
+<tr><td><code>winner</code></td><td><code>yes</code>, <code>no</code></td></tr>
+<tr><td><code>state_region</code></td><td>Anchorage, Matanuska-Susitna, Fairbanks, Southeast, Kenai Peninsula, Northern, Rural, statewide, national, unknown</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>字段</th><th>允许值</th></tr></thead><tbody>
+<tr><td><code>event_status</code></td><td>举行、取消、推迟、改期、线上、宣布、未核实、有争议（对应英文枚举）</td></tr>
+<tr><td><code>campaign_phase</code></td><td>宣布前、宣布、初选、决选、大选、提前投票、催票、选举日、选后</td></tr>
+<tr><td><code>issue</code></td><td>经济、医疗、教育、移民、堕胎、枪支政策、能源、宗教、劳工、民主、外交、其他</td></tr>
+<tr><td><code>verification_status</code></td><td>已核实、部分核实、未核实、来源冲突</td></tr>
+<tr><td><code>winner</code></td><td>是、否</td></tr>
+</tbody></table></div>
+<h2>Integrity summary</h2>
+<div class="table-wrap"><table><thead><tr><th>File</th><th>Rows</th><th>Minimum required</th></tr></thead><tbody>
+<tr><td><code>sources.csv</code></td><td>124</td><td>60</td></tr>
+<tr><td><code>campaign_events.csv</code></td><td>30</td><td>30</td></tr>
+<tr><td><code>policy_positions.csv</code></td><td>31</td><td>30 (≥12 per candidate)</td></tr>
+<tr><td><code>speech_archive.csv</code></td><td>12</td><td>12 (≥5 per candidate)</td></tr>
+<tr><td><code>speech_video_index.csv</code></td><td>10</td><td>10</td></tr>
+<tr><td><code>image_archive.csv</code></td><td>12</td><td>12</td></tr>
+<tr><td><code>advertisements.csv</code></td><td>6</td><td>6</td></tr>
+<tr><td><code>social_media.csv</code></td><td>7</td><td>6</td></tr>
+<tr><td><code>media_coverage.csv</code></td><td>24</td><td>20</td></tr>
+<tr><td><code>campaign_finance.csv</code></td><td>8</td><td>8</td></tr>
+<tr><td><code>election_results.csv</code></td><td>12</td><td>—</td></tr>
+<tr><td><code>county_results.csv</code></td><td>0</td><td>header only, documented</td></tr>
+<tr><td><code>polling.csv</code></td><td>8</td><td>6</td></tr>
+</tbody></table></div>
+<p>Validator: <code>hard failures: 0</code>.</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

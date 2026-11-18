@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>data_dictionary_bilingual</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Los Angeles Mayor 2026 / 2026 年洛杉矶市长选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">data_dictionary_bilingual<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 09_sources/data_dictionary_bilingual.md</div><h1>Data dictionary / 数据字典</h1>
+<h2>1. Inventory / 文件清单</h2>
+<div class="table-wrap"><table><thead><tr><th>File</th><th>Rows</th><th>What it holds / 内容</th></tr></thead><tbody>
+<tr><td><code>09_sources/sources.csv</code></td><td>90</td><td>Every retrieved source: id, url, title, publisher, dates, tier, type, the quote used, reliability notes, which datasets cite it</td></tr>
+<tr><td><code>01_candidates/policy_positions.csv</code></td><td>32</td><td>16 issue positions per candidate, with the candidate&#x27;s own wording and an opponent-criticism field</td></tr>
+<tr><td><code>01_candidates/bass/career_timeline.csv</code></td><td>10</td><td>Bass offices and campaign milestones</td></tr>
+<tr><td><code>01_candidates/raman/career_timeline.csv</code></td><td>7</td><td>Raman offices and campaign milestones</td></tr>
+<tr><td><code>02_campaign_events/campaign_events.csv</code></td><td>33</td><td>15 Bass + 18 Raman event-level rows; joint events appear once per candidate</td></tr>
+<tr><td><code>03_speeches/speech_archive.csv</code></td><td>13</td><td>6 Bass + 7 Raman speeches, with quotes, rhetorical devices and policy claims</td></tr>
+<tr><td><code>03_speeches/speech_video_index.csv</code></td><td>15</td><td>Full debates, campaign videos, issue videos and interviews, with completeness</td></tr>
+<tr><td><code>04_visual_archive/image_archive.csv</code></td><td>15</td><td>Licensed Commons files plus link-only press photography</td></tr>
+<tr><td><code>05_campaign_media/advertisements.csv</code></td><td>6</td><td>Campaign ads and independent-expenditure ads</td></tr>
+<tr><td><code>05_campaign_media/social_media.csv</code></td><td>8</td><td>Campaign video posts with verified titles</td></tr>
+<tr><td><code>05_campaign_media/media_coverage.csv</code></td><td>26</td><td>Press coverage with framing and reliability notes</td></tr>
+<tr><td><code>06_campaign_finance/campaign_finance.csv</code></td><td>12</td><td>7 candidate-committee rows + 5 independent-expenditure rows</td></tr>
+<tr><td><code>07_electoral_context/election_results.csv</code></td><td>16</td><td>14 primary + 2 runoff candidate rows</td></tr>
+<tr><td><code>07_electoral_context/county_results.csv</code></td><td>0</td><td>Header only — see <code>results_notes.md</code> §6</td></tr>
+<tr><td><code>07_electoral_context/polling.csv</code></td><td>8</td><td>Reconcilable runoff polls</td></tr>
+</tbody></table></div>
+<h2>2. The <code>source_urls</code> cell / <code>source_urls</code> 单元格</h2>
+<p>Format: <code>SRC-####|https://…</code> — exactly one pair per cell, no whitespace. The <code>SRC-####</code> must resolve in <code>09_sources/sources.csv</code>, and the URL must be identical to that row&#x27;s <code>url</code> (trailing slashes ignored). Corroboration for a row goes in <code>notes</code>, <code>reliability_notes</code> or <code>verification_status</code>, never in a second pair. Every source row in turn must appear in <code>_staging/fetch_log.csv</code> with <code>http_status = 200</code>; blocked and paywalled pages are logged there and reported in <code>research_gaps.md</code>, never cited.</p>
+<p>格式：<code>SRC-####|https://…</code>——每格恰好一对，不含空白。<code>SRC-####</code> 必须在 <code>09_sources/sources.csv</code> 中可解析，且 URL 与该行 <code>url</code> 完全一致（忽略末尾斜杠）。行内交叉印证写入 <code>notes</code>、<code>reliability_notes</code> 或 <code>verification_status</code>，绝不加第二对。每个来源行又必须出现在 <code>_staging/fetch_log.csv</code> 且 <code>http_status = 200</code>；被封锁与付费墙页面只记录于彼处并在 <code>research_gaps.md</code> 中报告，绝不引用。</p>
+<h2>3. <code>unknown</code> / <code>unknown</code> 的语义</h2>
+<p><code>unknown</code> = &quot;no retrieved source establishes this&quot;. It is a value, never a zero, never &quot;no&quot;. Numeric columns may contain it (e.g. <code>debts_owed</code>, <code>other_pct</code>, <code>individual_contributions</code>). Text columns may contain it (e.g. <code>venue</code>, <code>author</code>, <code>clothing_notes</code>). No row is deleted because a field is unknown.</p>
+<p><code>unknown</code> = &quot;没有已获取来源可确立此项&quot;。它是取值，绝不是零、绝不是&quot;否&quot;。数字列可含之（如 <code>debts_owed</code>、<code>other_pct</code>、<code>individual_contributions</code>），文本列亦可含之（如 <code>venue</code>、<code>author</code>、 <code>clothing_notes</code>）。任何行都不因某字段未知而删除。</p>
+<h2>4. Controlled vocabularies / 受控词表</h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Allowed values and meaning / 允许值与含义</th></tr></thead><tbody>
+<tr><td><code>event_status</code></td><td><code>held</code> (a source reports it occurred), <code>announced</code> (dated public statement/release, no venue), <code>cancelled</code>, <code>postponed</code>, <code>rescheduled</code>, <code>virtual</code>, <code>unverified</code>, <code>disputed</code></td></tr>
+<tr><td><code>campaign_phase</code></td><td><code>pre_launch</code>, <code>launch</code>, <code>primary</code>, <code>runoff</code>, <code>general</code>, <code>early_voting</code>, <code>gotv</code>, <code>election_day</code>, <code>post_election</code></td></tr>
+<tr><td><code>event_category</code></td><td>40 values; used here: <code>filing</code>, <code>launch</code>, <code>announcement</code>, <code>debate</code>, <code>town_hall</code>, <code>q_and_a</code>, <code>community_visit</code>, <code>labor_event</code>, <code>endorsement_event</code>, <code>newspaper_interview</code>, <code>victory_speech</code></td></tr>
+<tr><td><code>issue</code></td><td>Federal vocabulary only: <code>Economy</code>, <code>Healthcare</code>, <code>Education</code>, <code>Immigration</code>, <code>Abortion</code>, <code>Gun policy</code>, <code>Energy</code>, <code>Religion</code>, <code>Labor</code>, <code>Democracy</code>, <code>Foreign policy</code>, <code>Other</code>. Municipal domains (housing, homelessness, public safety, budget, fires, transit) are <code>Other</code>, with the real label in <code>subissue</code></td></tr>
+<tr><td><code>sponsor_type</code></td><td><code>candidate_campaign</code>, <code>authorized_committee</code>, <code>outside_pac</code>, <code>party_committee</code>, <code>unknown</code></td></tr>
+<tr><td><code>coverage_type</code></td><td><code>news_report</code>, <code>analysis</code>, <code>op_ed</code>, <code>fact_check</code>, <code>interview</code>, <code>live_blog</code>, <code>newsletter</code>, <code>news_video</code></td></tr>
+<tr><td><code>copyright_status</code></td><td><code>public_domain</code>, <code>licensed</code>, <code>all_rights_reserved_link_only</code>, <code>unknown</code></td></tr>
+<tr><td><code>verification_status</code></td><td><code>verified</code>, <code>partially verified</code>, <code>unverified</code>, <code>conflicting sources</code> — rules in <code>_research_conventions.md</code> §8</td></tr>
+<tr><td><code>source_tier</code></td><td><code>T1</code> official record/campaign/commission, <code>T2</code> professional newsroom with editorial standards, <code>T3</code> community/trade/aggregator/encyclopedia</td></tr>
+<tr><td><code>source_type</code></td><td><code>official_campaign</code>, <code>official_government</code>, <code>candidate_social</code>, <code>news_article</code>, <code>news_video</code>, <code>transcript</code>, <code>op_ed</code>, <code>fact_check</code>, <code>poll</code>, <code>press_release</code>, <code>event_page</code>, <code>photo</code>, <code>podcast</code>, <code>encyclopedia</code>, <code>analysis</code>, <code>report</code>, <code>data</code>, <code>other</code></td></tr>
+<tr><td><code>completeness</code></td><td><code>full</code>, <code>partial</code>, <code>clip</code>, <code>unknown</code> — for videos: <code>full</code> = complete event, <code>clip</code> = excerpt, <code>unknown</code> = duration unreadable</td></tr>
+<tr><td><code>winner</code></td><td><code>yes</code> (advanced in primary / elected in runoff), <code>no</code></td></tr>
+</tbody></table></div>
+<p><code>issue</code> 的联邦词表不覆盖市政议题，故住房、无家可归、公共安全、预算、火灾、交通均记 <code>Other</code>， 真正的标签在 <code>subissue</code>。<code>verification_status</code> 的判定规则见 <code>_research_conventions.md</code> §8。</p>
+<h2>5. Derived and computed fields / 派生与计算字段</h2>
+<div class="table-wrap"><table><thead><tr><th>Field</th><th>How it was produced / 生成方式</th></tr></thead><tbody>
+<tr><td><code>election_results.percentage</code></td><td>Quoted for Bass/Raman/Pratt; <strong>computed</strong> as votes ÷ 853,894 (primary) or ÷ 1,120,223 (runoff) for all others, rounded to 0.1, and flagged in <code>notes</code></td></tr>
+<tr><td><code>polling.margin</code></td><td>leader&#x27;s share minus second candidate&#x27;s share; <code>0</code> when <code>leader = tie</code>; never negative</td></tr>
+<tr><td><code>polling.leader</code></td><td>the candidate ahead, or <code>tie</code></td></tr>
+<tr><td><code>campaign_finance.receipts</code></td><td>For candidate rows: total raised in the period, including matching funds where the commission aggregates them. For IE rows: money received by the outside committee</td></tr>
+<tr><td><code>sources.used_by</code></td><td>Computed by scanning every CSV&#x27;s <code>source_urls</code> for that id, then every <code>.md</code> for the id as text; <code>narrative_only</code> means cited in documents but no table row</td></tr>
+<tr><td><code>image_archive.local_filename</code></td><td>Relative to <code>04_visual_archive/</code> when a file was downloaded; <code>unknown</code> otherwise</td></tr>
+<tr><td>campaign events <code>event_id</code></td><td><code>BAS-EVT-####</code> / <code>RAM-EVT-####</code>; joint events have one row per candidate, cross-referenced in <code>analyst_notes</code></td></tr>
+</tbody></table></div>
+<h2>6. Dataset-specific notes / 各数据集说明</h2>
+<p><strong><code>02_campaign_events</code>.</strong> <code>stated_purpose</code> and <code>observable_function</code> are descriptive; every evaluative sentence is in <code>analyst_interpretation</code> and begins with <code>INTERPRETATION:</code>. <code>visual_notes</code> is <code>unknown</code> wherever the build could not view imagery. <code>speech_summary</code> paraphrases only what a retrieved text reports.</p>
+<p><strong><code>02_campaign_events</code>。</strong> <code>stated_purpose</code> 与 <code>observable_function</code> 为描述性；所有评价性句子都在 <code>analyst_interpretation</code> 中并以 <code>INTERPRETATION:</code> 开头。凡本次构建无法查看影像，<code>visual_notes</code> 即为 <code>unknown</code>。<code>speech_summary</code> 仅转述已获取文本所述内容。</p>
+<p><strong><code>03_speeches</code>.</strong> <code>major_quotes</code> uses <code>&quot;…&quot;</code> around verbatim text and records the source&#x27;s framing when the quote reached the archive via a columnist. <code>duration</code> is <code>unknown</code> for every row: no player metadata was readable.</p>
+<p><strong><code>03_speeches</code>。</strong> <code>major_quotes</code> 用引号标出逐字文本，并在引语经由专栏作者转述时记录该框架。 所有行的 <code>duration</code> 均为 <code>unknown</code>：未能读取任何播放器元数据。</p>
+<p><strong><code>04_visual_archive</code>.</strong> <code>framing</code>, <code>camera_angle</code>, <code>image_quality</code>, <code>face_visibility</code>, <code>body_visibility</code> and <code>clothing_notes</code> are <code>unknown</code> unless a published caption or report states the detail — this build had no image input. <code>copyright_status = all_rights_reserved_link_only</code> marks press photography that is described and linked but not redistributed.</p>
+<p><strong><code>04_visual_archive</code>。</strong> 除已发表图说或报道明确提及外，<code>framing</code>、<code>camera_angle</code>、<code>image_quality</code>、 <code>face_visibility</code>、<code>body_visibility</code>、<code>clothing_notes</code> 均为 <code>unknown</code>——本次构建无图像输入。 <code>copyright_status = all_rights_reserved_link_only</code> 标记仅描述并链接、不再分发的新闻摄影。</p>
+<p><strong><code>05_campaign_media</code>.</strong> <code>advertisements.length_seconds</code> is <code>unknown</code> except Raman&#x27;s 30-second Emmy spot (as reported). <code>main_visual_elements</code> for the Bass ICE spot and the LAPPL ad is the L.A. Times newsletter&#x27;s description, not the archive&#x27;s viewing. <code>social_media</code> rows are campaign YouTube posts whose titles were verified through oEmbed; engagement counts were not retrievable.</p>
+<p><strong><code>05_campaign_media</code>。</strong> 除 Raman 的 30 秒艾美奖广告（据报）外，<code>advertisements.length_seconds</code> 均为 <code>unknown</code>。Bass 移民执法广告与 LAPPL 广告的 <code>main_visual_elements</code> 来自洛杉矶时报通讯的描述， 而非档案的观看。<code>social_media</code> 各行为竞选 YouTube 发布，标题经 oEmbed 核实；互动数据不可获取。</p>
+<p><strong><code>06_campaign_finance</code>.</strong> <code>period</code> = reported-through date. <code>report_type</code> distinguishes <code>primary_cycle_reported_through</code>, <code>runoff_cycle_reported_through</code>, <code>independent_expenditure_committee_receipt</code> and <code>independent_expenditure_against_candidate</code>. The last two are not candidate money; see <code>_research_conventions.md</code> §5.</p>
+<p><strong><code>06_campaign_finance</code>。</strong> <code>period</code> = 申报截止日。<code>report_type</code> 区分初选周期、决选周期、独立支出 委员会收款、以及针对某候选人的独立支出。后两类不是候选人资金；见 <code>_research_conventions.md</code> §5。</p>
+<p><strong><code>07_electoral_context</code>.</strong> <code>party</code> is <code>Nonpartisan</code> throughout by law. <code>county_results.csv</code> is header-only by design (<code>results_notes.md</code> §6). <code>polling.population</code> is <code>LV</code> (likely voters) for all eight rows; <code>margin_of_error</code> is <code>unknown</code> where the pollster published none.</p>
+<p><strong><code>07_electoral_context</code>。</strong> <code>party</code> 依法一律为 <code>Nonpartisan</code>。<code>county_results.csv</code> 按设计只有表头 （<code>results_notes.md</code> §6）。<code>polling.population</code> 八行全为 <code>LV</code>（可能投票者）；<code>margin_of_error</code> 在 民调机构未公布时为 <code>unknown</code>。</p>
+<h2>7. Identifiers / 编号规则</h2>
+<p><code>SRC-0001</code>–<code>SRC-0090</code> (registry order, stable). <code>BAS-POL-####</code> / <code>RAM-POL-####</code> positions; <code>BAS-EVT-####</code> / <code>RAM-EVT-####</code> events; <code>SPE-BAS-####</code> / <code>SPE-RAM-####</code> speeches; <code>VID-####</code> videos; <code>IMG-####</code> images; <code>AD-####</code> ads; <code>SOC-####</code> social posts; <code>COV-####</code> coverage; <code>FIN-####</code> finance; <code>POLL-####</code> polls; <code>BAS-CAR-####</code> / <code>RAM-CAR-####</code> career entries. Race ids <code>LA-MAYOR-2026-P</code> and <code>LA-MAYOR-2026-R</code>.</p>
+<p><code>SRC-0001</code>–<code>SRC-0090</code>（登记顺序，稳定）。立场 <code>BAS-POL-####</code>/<code>RAM-POL-####</code>；活动 <code>BAS-EVT-####</code>/<code>RAM-EVT-####</code>；演讲 <code>SPE-BAS-####</code>/<code>SPE-RAM-####</code>；视频 <code>VID-####</code>；图像 <code>IMG-####</code>；广告 <code>AD-####</code>；社交发布 <code>SOC-####</code>；报道 <code>COV-####</code>；财务 <code>FIN-####</code>；民调 <code>POLL-####</code>；履历 <code>BAS-CAR-####</code>/<code>RAM-CAR-####</code>。选举编号 <code>LA-MAYOR-2026-P</code> 与 <code>LA-MAYOR-2026-R</code>。</p>
+<h2>8. Joining the tables / 表间连接</h2>
+<p><code>candidate_id</code> joins everything (<code>BASS</code>, <code>RAMAN</code>, plus <code>JOINT</code>, <code>PRATT</code>, <code>MILLER</code>, <code>HUANG</code> as documented in <code>_research_conventions.md</code> §6). <code>event_id</code> joins <code>campaign_events</code> to <code>speech_archive</code>, <code>media_coverage</code> and <code>image_archive</code>. <code>source_urls</code> joins any table to <code>sources.csv</code>. There is no <code>district</code> key anywhere, because no district-level data was retrieved.</p>
+<p><code>candidate_id</code> 连接所有表（<code>BASS</code>、<code>RAMAN</code>，另加 <code>JOINT</code>、<code>PRATT</code>、<code>MILLER</code>、<code>HUANG</code>，见 <code>_research_conventions.md</code> §6）。<code>event_id</code> 连接 <code>campaign_events</code> 与 <code>speech_archive</code>、 <code>media_coverage</code>、<code>image_archive</code>。<code>source_urls</code> 连接任意表与 <code>sources.csv</code>。任何表中都没有 <code>district</code> 键，因为未获取任何分区级数据。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

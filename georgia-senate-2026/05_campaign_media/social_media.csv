@@ -1,0 +1,8 @@
+post_id,candidate_id,platform,account_handle,post_date,post_type,content_summary,media_included,engagement_notes,url,verification_status,notes
+COL-SM-01,COLLINS,X,@MikeCollinsGA,2026-05-28,text post,"Post about Kamala Harris later described as ""Matt Lauer's sloppy seconds""",unknown,unknown,unknown,verified,Post documented by Slate and by the biography; URL not captured.
+COL-SM-02,COLLINS,X,@MikeCollinsGA,2024-02-02,text post,"Suggested a migrant receive ""a ticket on Pinochet Air for a free helicopter ride back""",unknown,unknown,unknown,verified,Post later reported to concern a man who was misidentified.
+COL-SM-03,COLLINS,X,@MikeCollinsGA,2025-11-12,video post,AI-generated video attacking Ossoff over the shutdown,video,unknown,unknown,partially verified,Distributed through the campaign account per Access WDUN.
+OSS-SM-01,OSSOFF,X,@ossoff,2026-11-03,text post,Profile page returned a login shell; contents not retrievable,unknown,unknown,https://x.com/ossoff,unverified,"Access limit recorded, not evidence."
+OSS-SM-02,OSSOFF,TikTok,@jonossoff,unknown,video post,TikTok presence credited with reaching Generation Z voters,video,unknown,unknown,partially verified,Described in the biography; no post-level data retrieved.
+COL-SM-04,COLLINS,X,@MikeCollinsGA,2026-10-16,repost,Amplified Trump rally content from Dalton,unknown,unknown,unknown,unverified,Reported indirectly; no post URL.
+OSS-SM-03,OSSOFF,X,@ossoff,2026-10-08,text post,Campaign promoted debate clips and the tariff-repeal line,video,unknown,unknown,unverified,Inferred from coverage; no post-level capture.

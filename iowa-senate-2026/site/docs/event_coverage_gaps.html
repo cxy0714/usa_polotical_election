@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>event_coverage_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">event_coverage_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 02_campaign_events/event_coverage_gaps.md</div><h1>Event coverage gaps / 活动记录缺口</h1>
+<h2>English</h2>
+<div class="table-wrap"><table><thead><tr><th>Gap</th><th>Why it exists</th><th>What would close it</th></tr></thead><tbody>
+<tr><td>No crowd estimate for 30 of 34 events</td><td>The covering reports describe what was said, not how many attended</td><td>Local TV packages and campaign pool photos; a stringer count</td></tr>
+<tr><td>No venue for the Ankeny roundtable&#x27;s room or the Whiskey River address</td><td>Reports name the host business but not the room</td><td>The venue&#x27;s own event listings</td></tr>
+<tr><td>The &quot;Fighting for Iowa Tour&quot; has no dates</td><td>The campaign website advertises it as a standing feature</td><td>The tour&#x27;s sign-up page or a dated press release</td></tr>
+<tr><td>No county-party meetings for either candidate</td><td>County party sites were not retrieved in this batch</td><td>County central-committee calendars</td></tr>
+<tr><td>No Turek events between 15 October and 3 November</td><td>Only the campaign&#x27;s own release list covers that window</td><td>The campaign&#x27;s public calendar or local paper previews</td></tr>
+<tr><td>Two Hinson items are surrogate events, not her appearances</td><td>Cruz, Barrasso and Kennedy carried them</td><td>Pool reports or video of her own remarks</td></tr>
+</tbody></table></div>
+<h2>中文</h2>
+<div class="table-wrap"><table><thead><tr><th>缺口</th><th>原因</th><th>补足方式</th></tr></thead><tbody>
+<tr><td>34 场活动中 30 场无人数记录</td><td>报道描述发言内容，不报人数</td><td>地方电视台报道、竞选团队公开照片、自由撰稿人计数</td></tr>
+<tr><td>Ankeny 圆桌的场地与 Whiskey River 的具体房间不明</td><td>报道只写主办企业</td><td>场地方自己的活动公告</td></tr>
+<tr><td>&quot;Fighting for Iowa Tour&quot; 无日期</td><td>仅在其官网上作为常设栏目出现</td><td>报名页或有日期的新闻稿</td></tr>
+<tr><td>两位候选人均无县党部会议记录</td><td>本批次未抓取县党部网站</td><td>县党部中委会议程</td></tr>
+<tr><td>Turek 在 10 月 15 日至 11 月 3 日之间无活动</td><td>该时段只有其官网新闻列表</td><td>竞选公开日程或地方报纸预告</td></tr>
+<tr><td>Hinson 有两场属代理人活动</td><td>Cruz、Barrasso、Kennedy 主导</td><td>联合采访记录或其本人发言视频</td></tr>
+</tbody></table></div>
+<h2>Rule applied / 适用规则</h2>
+<p>Where a report says an event happened but gives no crowd, the row&#x27;s <code>observable_function</code> describes what was observable (a press conference, a roundtable with named participants) and <code>analyst_notes</code> says the crowd is unknown. No number is estimated.</p>
+<p>中文：若报道确认活动发生但未给人数，则该行只记录可观察到的形式（记者会、有名有姓的圆桌参与者），并在 <code>analyst_notes</code> 注明人数不明；本档案不做任何人数估算。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

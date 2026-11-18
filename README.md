@@ -1,138 +1,119 @@
-# American Political Image Lab — Case Study 001
+# American Political Image Lab — eight 2026 case studies
 
-**2026 Texas U.S. Senate general election: James Talarico (D) vs. Ken Paxton (R)**
-Research period March 2026 – November 2026. Bilingual (English + 中文) primary-source archive.
+A bilingual (English + 中文) primary-source archive of eight 2026 American races, built to study how
+candidates present themselves: what they say, where they stand, what the staging looks like, how the
+money flows, and what the record does **not** show.
+
+八场 2026 年美国选举的双语原始史料档案，用于研究候选人如何呈现自己：他们说什么、站在哪里、舞台如何布置、资金如何流动，以及记录**没有**显示什么。
 
 ## What this repository is / 这是什么
 
-A reconstruction of *the publicly documented campaign process* — every documented event, speech,
-image, advertisement, finance filing and press item of both candidates, each line traceable to a
-numbered source. It is research material for a human-led analytical blog and documentary-style
-video; it does **not** rank the two campaigns and contains no blog or video script.
+Each case folder reconstructs *the publicly documented campaign process* — documented events,
+speeches, policy positions, advertising, finance filings, results, polling and press coverage — with
+every CSV row traceable to a numbered source (`SRC-####|https://…`). The archive does not rank the
+campaigns, score their branding, or declare a winner of a "communication contest". It is research
+material for human-led analysis; it contains no blog post and no video script.
 
-对两位候选人全部有据可查的竞选过程的档案：事件、演讲、影像、广告、财务申报与媒体报道，每一行都可溯源到编号来源。它是人工分析写作的素材，**不评判两场竞选孰优孰劣**，也不包含博客或视频脚本。
+每个案例重建*有公开记录的竞选过程*——活动、演讲、政策立场、广告、财务申报、结果、民调与媒体报道——每一行都可溯源到编号来源（`SRC-####|https://…`）。档案不评判竞选优劣、不为品牌打分，也不宣布「传播竞赛」的胜者。它是供人工分析使用的素材，不含博客文章或视频脚本。
+
+Two rules travel through all eight cases:
+
+- **`unknown` is a value.** It means "not established", never "probably X".
+- **Description is separated from inference.** `stated_purpose`, `observable_function` and
+  `analyst_interpretation` are distinct columns; interpretation is prefixed `INTERPRETATION:`.
+
+两条规则贯穿八案：**`unknown` 是取值**，意为「未查明」，绝不是「大概是 X」；**描述与推断分离**，三层字段各自独立，推断以 `INTERPRETATION:` 开头。
+
+## The eight cases / 八个案例
+
+| # | Folder / 目录 | Race / 选举 | Nominees / 提名人 | Documented result / 结果 |
+|---|---|---|---|---|
+| 001 | [`texas-senate-2026/`](texas-senate-2026/README.md) | Texas U.S. Senate | James Talarico (D) / Ken Paxton (R) | Talarico 55.06% / 塔拉里科 55.06% |
+| 002 | [`south-carolina-senate-2026/`](south-carolina-senate-2026/README.md) | South Carolina U.S. Senate | Annie Andrews (D) / Darline Graham (R) | Andrews 51.14% / 安德鲁斯 51.14% |
+| 003 | [`michigan-senate-2026/`](michigan-senate-2026/README.md) | Michigan U.S. Senate | Abdul El-Sayed (D) / Mike Rogers (R) | El-Sayed 52.54% / 埃尔-赛义德 52.54% |
+| 004 | [`alaska-senate-2026/`](alaska-senate-2026/README.md) | Alaska U.S. Senate | Mary Peltola (D) / Dan S. Sullivan (R) | Peltola 50.12% / 佩尔托拉 50.12% |
+| 005 | [`iowa-senate-2026/`](iowa-senate-2026/README.md) | Iowa U.S. Senate | Josh Turek (D) / Ashley Hinson (R) | Turek 50.56% / 图雷克 50.56% |
+| 006 | [`ohio-senate-2026/`](ohio-senate-2026/README.md) | Ohio U.S. Senate (special) | Sherrod Brown (D) / Jon Husted (R) | Brown 50.01% / 布朗 50.01% |
+| 007 | [`georgia-senate-2026/`](georgia-senate-2026/README.md) | Georgia U.S. Senate | Jon Ossoff (D) / Mike Collins (R) | Ossoff 59.03% / 奥索夫 59.03% |
+| 008 | [`los-angeles-mayor-2026/`](los-angeles-mayor-2026/README.md) | Los Angeles Mayor | Nithya Raman / Karen Bass (nonpartisan) | Raman 54.9% / 拉曼 54.9% |
+
+Cases 001–002 carry the full video/audio layer built earlier (145 and 27 source videos, curated
+frames, speech-delivery measurements). Cases 003–008 are source-and-document archives: events,
+positions, money, results, image records and bilingual narrative, **with no frame extraction**.
+Each README states that difference rather than implying an equivalence.
+
+案例 001–002 带有早前构建的完整视频／音频层；003–008 是来源与文献档案：活动、立场、资金、结果、影像记录与双语叙述，**不含视频抽帧**。各案 README 明确说明这一差异，而不暗示两者等价。
 
 ## Start here / 从这里开始
 
 | | |
 |---|---|
-| **Full documentation** | [`texas-senate-2026/README.md`](texas-senate-2026/README.md) — directory map, data contract, honest limits |
-| **Read it as a website** | open `texas-senate-2026/site/index.html` (offline, no server, 76 pages, EN/ZH side-by-side, clickable sources) |
-| **Video frames** | [`texas-senate-2026/10_video_frames/`](texas-senate-2026/10_video_frames/README.md) — 145 source videos, 106,295 face crops, 172 face-matched frames, 1,073 scene keyframes |
-| **Know the gaps first** | [`texas-senate-2026/research_gaps.md`](texas-senate-2026/research_gaps.md) |
-| **Rebuild the site** | `python texas-senate-2026/_staging/_lead_build_site.py` |
+| **Browse everything** | open [`site/index.html`](site/index.html) — offline portal over all eight cases, EN/ZH, clickable sources |
+| **The method** | [`texas-senate-2026/_research_conventions.md`](texas-senate-2026/_research_conventions.md) and each case's own `_research_conventions.md` |
+| **The batch-2 contract** | [`_research/2026/CASE_CONTRACT.md`](_research/2026/CASE_CONTRACT.md) — schemas, controlled vocabularies, depth targets |
+| **What the imagery record can and cannot support** | [`2026-image-and-message-notes.md`](2026-image-and-message-notes.md) |
+| **Rebuild everything** | `python _tools/build_all.py` (validates 003–008, rebuilds their sites and the portal) |
 
-## Continue on another machine / 换一台电脑继续
+## What batch 2 collected / 第二批收集了什么
 
-The repository is self-contained for **reading and analysis**: all datasets, the offline
-bilingual site, the 172 curated video frames, 1,073 keyframes, the speech-delivery measurements
-and the 78 timed transcripts (each line paired with a Chinese machine translation) are committed.
-Only two bulky binary sets are excluded, and both restore with one command:
+Six new races, each with the same core datasets: `01_candidates` (biographies, career timelines,
+positions), `02_campaign_events`, `03_speeches` (archive + video index), `04_visual_archive`
+(link-only records plus a small number of licensed portraits), `05_campaign_media` (ads, social,
+coverage), `06_campaign_finance`, `07_electoral_context` (results, county results where published,
+polling), `08_comparative_analysis`, `09_sources` and bilingual `README.md` / `research_gaps.md`.
 
-```bash
-git clone git@github.com:cxy0714/usa_polotical_election.git
-cd usa_polotical_election
+| Case | CSV rows | Sources | Documented result |
+|---|---:|---:|---|
+| [`michigan-senate-2026/`](michigan-senate-2026/README.md) | 286 | 87 | El-Sayed 52.54% / Rogers 45.46% |
+| [`alaska-senate-2026/`](alaska-senate-2026/README.md) | 305 | 124 | Peltola 50.12% / Sullivan 45.80% |
+| [`iowa-senate-2026/`](iowa-senate-2026/README.md) | 442 | 111 | Turek 50.56% / Hinson 46.35% |
+| [`ohio-senate-2026/`](ohio-senate-2026/README.md) | 418 | 194 | Brown 50.01% / Husted 45.17% |
+| [`georgia-senate-2026/`](georgia-senate-2026/README.md) | 284 | 99 | Ossoff 59.03% / Collins 40.97% |
+| [`los-angeles-mayor-2026/`](los-angeles-mayor-2026/README.md) | 291 | 90 | Raman 54.9% / Bass 45.1% (runoff) |
 
-# 1) Optional: restore the model weights (~47 MB) and source video (~490 MB)
-python texas-senate-2026/_staging/vision/fetch_models.py     # YuNet + SFace ONNX
-python texas-senate-2026/_staging/vision/download_all.py     # 145 videos + captions (needs yt-dlp + ffmpeg)
+六个新案例，各含相同核心数据集（候选人、活动、演讲、影像、媒体、财务、选举背景、比较分析、来源），
+上表为各案 CSV 行数、来源数与已记录结果。
 
-# 2) Read the archive — no setup needed
-#    open texas-senate-2026/site/index.html
+Every case is validated mechanically: header conformance, no blank cells, ISO dates, controlled
+vocabularies, and every `SRC-####` resolving in that case's `sources.csv`
+(`python _tools/validate_case.py <case>`). Fetched pages are kept locally under
+`_staging/mirrors/` as the audit trail but are excluded from git (third-party publisher text);
+`_staging/fetch_log.csv` — committed — records every URL, status code and saved file.
 
-# 3) Re-run any stage of the video pipeline
-python texas-senate-2026/_staging/vision/extract_faces.py --jobs 6
-python texas-senate-2026/_staging/vision/recognize_faces.py --jobs 4
-python texas-senate-2026/_staging/vision/curate.py
-python texas-senate-2026/_staging/vision/extract_keyframes.py --jobs 5
-python texas-senate-2026/_staging/vision/analyze_speech.py
-python texas-senate-2026/_staging/vision/gen_readme.py
-python texas-senate-2026/_staging/_lead_build_site.py
-
-# 4) Run the dataset validator
-python texas-senate-2026/_staging/_lead_validate.py
-```
-
-Python side needs `opencv-python`, `numpy`, `pandas`, `yt-dlp`, plus `ffmpeg` on `PATH`.
-Frames are cut from campaign/news videos and are **internal research only** — see the
-rights note in [`texas-senate-2026/10_video_frames/README.md`](texas-senate-2026/10_video_frames/README.md).
-
-### View a remote build over Tailscale / 通过 Tailscale 查看另一台机器生成的站点
-
-The site is static, so the only requirement is a web root that also contains the folders
-the pages link into (`10_video_frames/`, `04_visual_archive/`, `09_sources/`). Serving
-`site/` alone gives 404s on every image — serve `texas-senate-2026/` and open
-`/site/index.html`.
-
-**On the machine that builds** (recommended — no firewall rule, HTTPS certificate included):
-
-```bash
-python texas-senate-2026/_staging/serve_site.py     # binds 127.0.0.1:8000, no-store cache
-tailscale serve --bg 8000                           # exposes it on the tailnet over HTTPS
-```
-
-Then on this laptop open `https://<remote-machine>.<tailnet>.ts.net/site/index.html`.
-The helper answers `/` with a redirect to `/site/index.html`, sends `Cache-Control:
-no-store` so a fresh rebuild is visible without a hard refresh, and refuses to serve
-`_staging/` (raw video, model weights, per-crop cache).
-
-Direct-IP alternative (no `tailscale serve`): bind the tailnet address and open the port
-on the firewall —
-
-```powershell
-python texas-senate-2026/_staging/serve_site.py --bind 100.x.y.z    # this node's Tailscale IP
-New-NetFirewallRule -DisplayName "dsl-site-8000" -Direction Inbound -Protocol TCP -LocalPort 8000 -Action Allow
-```
-
-then `http://100.x.y.z:8000/site/index.html`.
-
-**HTTP-only caveat (bites Edge/Chrome).** If the peer serves the site on plain HTTP
-(port 80 only, no `tailscale serve`), current Edge/Chrome silently upgrade `http://` to
-`https://` first; with nothing listening on 443 the page simply fails and the browser
-reports `ERR_BLOCKED_BY_CLIENT` / timeout — the link looks broken even though HTTP works.
-Three fixes, best first:
-
-1. **Serve over HTTPS** on the peer: `tailscale serve --bg 8000` (as above) and point the
-   node's `.well-known/archive.json` `entry_url` at `https://<machine>.<tailnet>.ts.net/site/index.html`.
-2. Turn off *Automatically switch to more secure connections* (Edge: 设置 → 隐私、搜索和服务 →
-   安全性) for the browser, or allow the site once from the upgrade interstitial.
-3. Launch the browser once with the upgrade disabled:
-   `msedge.exe --disable-features=HttpsUpgrades,HttpsFirstBalancedModeAutoEnable http://…/site/index.html`
-
-Also note: if the peer routes by `Host`, an IP URL (`http://100.x.y.z/site/index.html`)
-returns 404 — always use the MagicDNS name.
-
-**Keep one builder.** The generated `site/*.html` files are committed, so if both machines
-rebuild and push you get conflicts on generated HTML. Either the remote machine runs the
-pipeline + build and the laptop only `git pull`s, or run `git pull --rebase` immediately
-before any build.
-
-## Three cautionary notes / 三条必读前提
-
-1. **No debate took place.** Five records reconstruct the invitations and refusals; the CNN–Jubilee
-   event was a solo town hall that several outlets mislabelled as a debate.
-   没有辩论。CNN–Jubilee 那场是单人问答，被多家媒体误标为辩论。
-2. **Appearance is still unmeasured, but the imagery is now readable.** 172 de-duplicated
-   frames from 145 videos, plus 1,073 scene keyframes and a measured audio layer, document
-   framing, staging, venue and delivery; facial geometry, body proportions and clothing
-   remain `unknown`, with a reproducible measurement protocol waiting for a human to execute.
-   外貌仍未测量，但画面已可读：145 段视频、172 帧精选画面、1,073 个镜头关键帧，外加已测量的音频层，记录取景、舞台与交付方式；面部几何、身体比例与着装仍为未测。
-3. **Money measures cannot be summed.** FEC Schedule E and AdImpact differ by ~10×, and four
-   different Talarico "totals" exist. See the bilingual data dictionary §6.
-   资金口径不可相加，详见双语数据字典第 6 节。
+每个案例都经过机械校验：表头一致、无空单元格、ISO 日期、受控词表，且每个 `SRC-####` 都能在该案 `sources.csv` 中解析。抓取页面保存在本地 `_staging/mirrors/` 作为审计线索，但不纳入 git（第三方出版方文本）；已提交的 `_staging/fetch_log.csv` 记录每个 URL、状态码与保存文件。
 
 ## Data conventions / 数据约定
 
-- 12 CSV datasets stay English for machine-readability: field names, identifier schemes and
-  controlled vocabularies are frozen; Chinese glosses live in
-  [`09_sources/data_dictionary_bilingual.md`](texas-senate-2026/09_sources/data_dictionary_bilingual.md).
-- All 45 Markdown documents are EN+ZH; English always governs where the two renderings diverge,
-  and every quotation keeps its verbatim English original next to the `（译：…）` rendering.
-- `unknown` is a value, not a placeholder: it means "not established", never "probably X".
+- CSVs stay English for machine-readability; Chinese glosses live in each case's
+  `09_sources/data_dictionary_bilingual.md`.
+- Markdown is EN+ZH; English governs where the two diverge; quotations keep the verbatim English
+  original next to the `（译：…）` rendering.
+- Money口径 are never summed across sources: FEC filings, AdImpact/TV spending and outside-group
+  totals sit in separate rows and say which口径 they use.
+- Photographs: only public-domain or CC-licensed files are copied; rights-reserved images are
+  link-only records. Downloaded portraits record photographer, licence and file page.
+
+## Rebuild / 重建
+
+```bash
+# batch-2 data validation + per-case sites + shared portal
+python _tools/build_all.py
+
+# a single case
+python _tools/validate_case.py michigan-senate-2026
+python _tools/build_case_site.py michigan-senate-2026
+
+# the cross-case imagery evidence table
+python _tools/phenomena_report.py
+```
+
+Case 001–002 keep their own build scripts (`texas-senate-2026/_staging/_lead_build_site.py`,
+`south-carolina-senate-2026/_staging/_lead_build_site.py`); the portal copies their `site/` folders
+as-is.
 
 ## Licensing / 授权
 
-Photographs stored under `04_visual_archive/` are licensed copies (CC BY / CC BY-SA / CC0 /
-public domain) with photographer, date and licence recorded per image. Rights-reserved photographs
-are **link-only** records — no unlicensed copy is reproduced. Text and datasets are research
-material; cite the `SRC-####` ids in `09_sources/sources.csv`.
+Text and datasets are research material; cite the `SRC-####` ids. Photographs under
+`04_visual_archive/` are licensed copies (CC BY / CC BY-SA / CC0 / public domain) with photographer,
+date and licence recorded per image. Rights-reserved photographs are link-only records — no
+unlicensed copy is reproduced.

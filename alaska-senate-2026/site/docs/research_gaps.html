@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>research_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">research_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / research_gaps.md</div><h1>Research gaps / 研究缺口</h1>
+<p>Each entry gives the gap, why it exists, and what would close it. Gaps are not papered over in the datasets: the affected cells say <code>unknown</code> and the row&#x27;s <code>verification_status</code> reflects the shortfall.</p>
+<p>每条缺口说明&quot;缺什么、为何缺、如何补&quot;。数据集中不以猜测填补：相关单元格写 <code>unknown</code>， <code>verification_status</code> 标注实际状态。</p>
+<h2>1. No concession speech or concession event</h2>
+<p>Sullivan neither conceded nor gave a public speech on 2026-11-17. NBC reported that his campaign &quot;said the senator would have more to say by the end of this week&quot;; his spokesman&#x27;s only quoted line was that &quot;Alaskans deserve a complete and accurate count&quot; (SRC-0056). No <code>concession_speech</code> row exists in <code>campaign_events.csv</code> or <code>speech_archive.csv</code> — the category is defined in the contract but the event was not documented, and inventing one would violate the honesty rule.</p>
+<p><strong>Cause:</strong> the concession had not happened by the archive&#x27;s compile date (2026-11-18). <strong>Would close it:</strong> post-18 November coverage from ADN, Alaska Public Media, NBC or the campaign&#x27;s video channels; or a certified results statement from the Division of Elections.</p>
+<p>沙利文在 2026-11-17 既未认输，也未发表公开演讲。NBC 报道其团队称&quot;参议员本周晚些时候会有更多表态&quot;， 其发言人唯一被引用的说法是&quot;阿拉斯加人理应得到完整、准确的计票&quot;（SRC-0056）。因此档案中没有 <code>concession_speech</code> 记录——合同定义了该类别，但事件确实未被记录，虚构即违反诚实规则。 原因：截至 2026-11-18 认输尚未发生。补齐：11 月 18 日之后的 ADN、Alaska Public Media、NBC 报道， 或竞选团队视频渠道，或选举委员会的认证声明。</p>
+<h2>2. The Alaska Federation of Natives convention is a hole in the middle of the race</h2>
+<p>The 60th AFN convention is the single most important Alaska Native political venue of the cycle. The archive knows only that it &quot;begins October 22&quot; — from a Data for Progress polling release (SRC-0077) — and that AFN issued a &quot;Calls for Full Participation&quot; statement noted in a Delta Discovery sidebar (SRC-0069). No retrieved report documents either candidate speaking, appearing or being endorsed at the convention. Two placeholder rows (PEL-EVT-09, SUL-EVT-16) are marked <code>event_status=unverified</code> and explicitly labelled &quot;candidate appearance not documented&quot;; they exist to mark the hole, not to claim attendance.</p>
+<p><strong>Cause:</strong> AFN coverage was not among the retrieved article set, and the convention&#x27;s own agenda and livestream pages were not fetched. <strong>Would close it:</strong> AFN&#x27;s convention program and video archive; Alaska Public Media&#x27;s AFN coverage; ADN&#x27;s &quot;AFN convention&quot; tag; the campaigns&#x27; October schedules.</p>
+<p>第 60 届 AFN 大会是本周期最重要的阿拉斯加原住民政治场合，但档案仅从 Data for Progress 民调稿 （SRC-0077）得知其&quot;10 月 22 日开始&quot;，并从 Delta Discovery 边栏（SRC-0069）得知 AFN 发布了 &quot;Calls for Full Participation&quot; 声明。没有任何已取得的报道记载两位候选人在大会上发言、露面或获 背书。两行占位记录（PEL-EVT-09、SUL-EVT-16）标为 <code>unverified</code>，并明确注明&quot;候选人露面未记载&quot;—— 它们的作用是标记缺口，而非声称出席。</p>
+<h2>3. Rally venues, crowd sizes and staging</h2>
+<p>Alaska reporting rarely quantifies crowds. The Vance rally is &quot;several hundred people&quot; in a hangar at Fairbanks International Airport (SRC-0025); the Wasilla Trump rally has a date and city from an AP photo caption but no venue or crowd (SRC-0062); the Peltola Juneau rally has a date and a quote but no venue or crowd (SRC-0062). <code>visual_notes</code> and <code>venue</code> cells are <code>unknown</code> in those rows.</p>
+<p><strong>Cause:</strong> Alaska outlets describe rallies qualitatively; pool reports were not retrieved. <strong>Would close it:</strong> AP pool reports, campaign live-streams, and local TV footage with venue signage.</p>
+<p>阿拉斯加报道很少给出集会人数。Vance 集会是费尔班克斯国际机场机库中的&quot;数百人&quot;（SRC-0025）； Wasilla 特朗普集会的日期与城市来自 AP 图片说明，场地与人数均无（SRC-0062）；佩尔托拉朱诺集会有 日期与引语，但无场地与人数（SRC-0062）。相关行的 <code>venue</code>、<code>visual_notes</code> 均记为 <code>unknown</code>。</p>
+<h2>4. No paid-ad creative was retrieved</h2>
+<p><code>advertisements.csv</code> has six rows, but none is backed by an ad video, script or storyboard. What the archive has is journalism describing the ads: Roll Call on the NRSC digital spot (SRC-0066), AFP Action&#x27;s own release on a &quot;six-figure statewide ad buy&quot; (SRC-0105), NBC quoting one line of a Peltola ad (SRC-0056), and Beacon/ADN reporting on super-PAC spending to promote fringe candidates (SRC-0041, SRC-0017). <code>main_visual_elements</code>, <code>narration_soundtrack</code> and <code>length_seconds</code> are <code>unknown</code> across the file.</p>
+<p><strong>Cause:</strong> ad libraries (Meta, Google, AdImpact) require subscriptions or logins, and the campaigns&#x27; YouTube channels returned no retrievable ad URLs; the campaign sites embed no video players. <strong>Would close it:</strong> Meta Ad Library and Google Ads Transparency queries for the cycle; AdImpact spend data; the campaigns&#x27; YouTube/Vimeo channels.</p>
+<p><code>advertisements.csv</code> 有 6 行，但没有任何一则广告的视频、脚本或分镜为依据。档案掌握的是描述广告的 报道：Roll Call 对 NRSC 数字广告的报道（SRC-0066）、AFP Action 自述&quot;六位数全州投放&quot;（SRC-0105）、 NBC 引用佩尔托拉广告中的一句（SRC-0056），以及 Beacon/ADN 对超级政治行动委员会推举边缘候选人的 报道（SRC-0041、SRC-0017）。全表 <code>main_visual_elements</code>、<code>narration_soundtrack</code>、<code>length_seconds</code> 均为 <code>unknown</code>。原因：广告库需订阅或登录，竞选团队 YouTube 频道未取得可用广告链接，竞选网站未嵌入 视频播放器。补齐：Meta 广告库、Google 广告透明度查询、AdImpact 数据、候选人 YouTube/Vimeo 频道。</p>
+<h2>5. No machine-readable district-level results</h2>
+<p>Alaska reports by state house district, not county. <code>county_results.csv</code> is header-only by design (see <code>results_notes.md</code>). No district table was retrieved for this race; the official summary (SRC-0001) is statewide.</p>
+<p><strong>Cause:</strong> the division publishes district results in a separate file/format that was not located; the primary summary PDF URL returned 404. <strong>Would close it:</strong> the Division of Elections district-results spreadsheet or API; the state&#x27;s precinct-level &quot;cast vote record&quot; for the 2026 general.</p>
+<p>阿拉斯加按州众议院选区而非县公布结果。<code>county_results.csv</code> 按设计仅有表头（见 <code>results_notes.md</code>）。 本次选举未取得选区级表格；官方汇总（SRC-0001）为全州数据。原因：选举委员会另以单独文件/格式公布 选区结果，未能定位；初选汇总 PDF 链接返回 404。补齐：选举委员会选区结果表或 API；2026 年大选的 precinct 级 cast vote record。</p>
+<h2>6. Official primary summary returned HTTP 404</h2>
+<p><code>https://www.elections.alaska.gov/enr26/results/ElectionSummaryReportRPT.pdf</code> returns 404, so primary numbers come from the AP results project page (SRC-0064) and the Wikipedia results table (SRC-0006), both marked <code>partially verified</code>. Cross-checks are consistent (Peltola 82,244 / 49.5; Sullivan 68,726 / 41.4; total 166,004), but no official document confirms them.</p>
+<p><strong>Cause:</strong> the URL pattern used for the general-election summary does not exist for the primary. <strong>Would close it:</strong> the correct primary summary URL from the division&#x27;s results index page.</p>
+<p>该链接返回 404，因此初选数字来自 AP 结果页（SRC-0064）与维基百科结果表（SRC-0006），均标为 <code>partially verified</code>。交叉核对一致（佩尔托拉 82,244 / 49.5；沙利文 68,726 / 41.4；合计 166,004）， 但无官方文件确认。补齐：从选举委员会结果索引页取得正确的初选汇总链接。</p>
+<h2>7. Paywalls and blocks (all recorded in <code>_staging/fetch_log.csv</code>)</h2>
+<div class="table-wrap"><table><thead><tr><th>URL / outlet</th><th>Status</th><th>Consequence</th></tr></thead><tbody>
+<tr><td>Associated Press article pages (6)</td><td>403</td><td>quotes taken from syndicated PBS/ABC/ADN copies</td></tr>
+<tr><td>Reuters</td><td>401</td><td>not used</td></tr>
+<tr><td>The New York Times (Sept 23 staff-allegation story)</td><td>paywall/403</td><td>story known only through ADN&#x27;s analysis (SRC-0022) and the Wikipedia summary</td></tr>
+<tr><td>Politico, Axios, The Hill</td><td>403</td><td>headlines only; not used for coded claims</td></tr>
+<tr><td>Juneau Independent, Native News Online, RealClearPolitics, Trafalgar, NFIB, Center for Politics, Alaska Survey Research site</td><td>403</td><td>excluded from <code>sources.csv</code></td></tr>
+<tr><td>Ballotpedia</td><td>202, 0 bytes</td><td>excluded; no candidate list from it</td></tr>
+<tr><td>elections.alaska.gov</td><td>TLS chain failure (<code>CERTIFICATE_VERIFY_FAILED</code>)</td><td>retrieved only with an unverified SSL context; both documents logged</td></tr>
+</tbody></table></div>
+<p>These are not silent omissions: any claim that depended on them was either dropped or sourced to a retrieved syndication.</p>
+<p>上述阻断均记录在 <code>_staging/fetch_log.csv</code>。依赖这些页面的论断要么放弃，要么改用已取得的转载版本 （如 PBS/ABC/ADN 对 AP 稿的转载）。</p>
+<h2>8. Poll provenance for the Alaska Survey Research series</h2>
+<p>Four ASR polls are in <code>polling.csv</code> with numbers and sample sizes taken from the Wikipedia polling table; the Bluesky post URLs render as JavaScript and returned no post text. They are marked <code>partially verified</code>. Data for Progress (two polls), InsiderAdvantage and the AARP-sponsored Fabrizio/Impact poll were read directly from retrieved pages and are <code>verified</code>.</p>
+<p><strong>Cause:</strong> Bluesky&#x27;s server-rendered HTML carries no post body for logged-out fetches. <strong>Would close it:</strong> the Bluesky API (<code>app.bsky.feed.getPostThread</code>) or ASR&#x27;s own releases.</p>
+<p><code>polling.csv</code> 中四项 ASR 民调的数字与样本量取自维基百科民调表，其 Bluesky 链接为 JS 渲染、未返回 正文，故标为 <code>partially verified</code>。Data for Progress 两项、InsiderAdvantage 与 AARP 委托的 Fabrizio/Impact 民调直接读取自已取得页面，标为 <code>verified</code>。补齐：Bluesky API 或 ASR 自身发布的稿件。</p>
+<h2>9. No direct candidate social-media posts</h2>
+<p><code>social_media.csv</code> therefore uses archived campaign emails (SRC-0110, SRC-0111), campaign websites (SRC-0091, SRC-0092), one union X post (SRC-0112) and one social video known only through ABC&#x27;s reporting (SRC-0062). Candidate X/Facebook/Instagram accounts returned 403 or were not fetched.</p>
+<p><strong>Cause:</strong> <code>x.com</code> blocks logged-out scraping; no API credentials. <strong>Would close it:</strong> platform APIs or an archived-posts service.</p>
+<p>因此 <code>social_media.csv</code> 使用存档竞选邮件、竞选网站、一条工会 X 帖，以及仅通过 ABC 报道得知的 一条社交视频。候选人 X/Facebook/Instagram 账号返回 403 或未抓取。补齐：平台 API 或存档服务。</p>
+<h2>10. Video: three URLs, no transcripts</h2>
+<p>Ten <code>speech_video_index.csv</code> rows cover only three retrieved videos (AOGA forum, Kodiak debate, Debate for the State). Rows are segment-level entries describing exchanges reported by the press, not timestamped transcript segments: <code>relevant_timestamps</code> and <code>transcript_available</code> say so. No captions or transcripts were retrieved for any video.</p>
+<p><strong>Cause:</strong> YouTube/Vimeo caption endpoints require player parameters not available from the watch pages; no ASR tooling. <strong>Would close it:</strong> <code>yt-dlp</code> caption download or manual transcription.</p>
+<p>10 条视频索引仅覆盖三个已取得视频；各行是按媒体报道描述的&quot;片段级&quot;条目，而非带时间码的转写片段， <code>relevant_timestamps</code> 与 <code>transcript_available</code> 已如实标注。未取得任何字幕或转写。补齐：yt-dlp 下载字幕或人工转写。</p>
+<h2>11. Legal documents are second-hand</h2>
+<p>The DOJ suit, the federal judge&#x27;s rejection and the appeal are known from news reports (SRC-0038, SRC-0039, SRC-0052, SRC-0061) — no complaint, order or docket was retrieved. The Alaska Supreme Court ruling that restored Dan J. Sullivan Jr. to the ballot is likewise known from ADN/APM coverage (SRC-0015, SRC-0033).</p>
+<p><strong>Cause:</strong> court PDFs and docket pages were outside the fetch list; PACER requires payment. <strong>Would close it:</strong> the District of Alaska docket and the Alaska Supreme Court opinion PDF.</p>
+<p>司法文件均为二手：DOJ 诉讼、联邦法官驳回与上诉只见于新闻报道（SRC-0038、SRC-0039、SRC-0052、 SRC-0061），未取得起诉书、裁定或案卷；阿拉斯加最高法院恢复小丹尼尔·沙利文参选资格的裁决同样只见于 ADN/APM 报道（SRC-0015、SRC-0033）。补齐：阿拉斯加联邦地区法院案卷与州最高法院判决书 PDF。</p>
+<h2>12. A measure-level discrepancy left unreconciled</h2>
+<p>Ballot Measure 2&#x27;s official margin is 7.62 points (SRC-0001); the Wikipedia article says &quot;six-point margin&quot; (SRC-0006). The measure is outside the case&#x27;s scope, so the archive records both and reconciles neither. See <code>results_notes.md</code>.</p>
+<p>第 2 号公投的官方差距为 7.62 个百分点（SRC-0001），维基百科称&quot;约六个百分点&quot;（SRC-0006）。该公投 不属本案例范围，档案并列记录、不作调和。见 <code>results_notes.md</code>。</p>
+<h2>13. What is deliberately absent</h2>
+<ul>
+<li>No claim about who &quot;really&quot; recruited Dan J. Sullivan Jr.: reporting says &quot;evidence of Peltola&#x27;s</li>
+<p>involvement is unclear&quot; (SRC-0047) and a donor was visited by the FBI (SRC-0023). The archive records the dispute, not a conclusion.</p>
+<li>No crowd-size estimate where none was published.</li>
+<li>No attribution of motive to either campaign beyond what each said on the record.</li>
+</ul>
+<ul>
+<li>不判断究竟是谁招募了小丹尼尔·沙利文：报道称&quot;佩尔托拉是否参与，证据不明&quot;（SRC-0047），</li>
+<p>且有捐款人被 FBI 走访（SRC-0023）。档案记录争议，不给结论。</p>
+<li>无报道处不估算人数。</li>
+<li>除公开表态外，不推断任何一方动机。</li>
+</ul>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

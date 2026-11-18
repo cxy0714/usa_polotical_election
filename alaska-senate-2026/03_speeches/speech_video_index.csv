@@ -1,0 +1,11 @@
+video_id,candidate_id,video_url,date,duration,event_type,main_topics,relevant_timestamps,transcript_available,visual_observations,completeness,source_urls,verification_status
+VID-AOGA-P1,PELTOLA,https://vimeo.com/1225063686,2026-08-27,unknown,debate,Oil development; Lower 48 regulators,unknown,no,unknown,partial,SRC-0118|https://vimeo.com/1225063686,partially verified
+VID-AOGA-P2,PELTOLA,https://vimeo.com/1225063686,2026-08-27,unknown,debate,Fisheries; Chinook salmon ESA listing,unknown,no,unknown,partial,SRC-0118|https://vimeo.com/1225063686,partially verified
+VID-AOGA-S1,SULLIVAN,https://vimeo.com/1225063686,2026-08-27,unknown,debate,'Lower 48 liberal' attack line,unknown,no,unknown,partial,SRC-0118|https://vimeo.com/1225063686,partially verified
+VID-AOGA-S2,SULLIVAN,https://vimeo.com/1225063686,2026-08-27,unknown,debate,ANWR; environmentalist pressure,unknown,no,unknown,partial,SRC-0118|https://vimeo.com/1225063686,partially verified
+VID-KOD-P1,PELTOLA,https://www.youtube.com/watch?v=53yBygyYrlk,2026-09-12,unknown,debate,Trawl bycatch; factory trawlers,unknown,no,unknown,partial,SRC-0116|https://www.youtube.com/watch?v=53yBygyYrlk,partially verified
+VID-KOD-P2,PELTOLA,https://www.youtube.com/watch?v=53yBygyYrlk,2026-09-12,unknown,debate,Iran war; fuel prices,unknown,no,unknown,partial,SRC-0116|https://www.youtube.com/watch?v=53yBygyYrlk,partially verified
+VID-KOD-P3,PELTOLA,https://www.youtube.com/watch?v=53yBygyYrlk,2026-09-12,unknown,debate,Bycatch; fisheries management council,unknown,no,unknown,partial,SRC-0116|https://www.youtube.com/watch?v=53yBygyYrlk,partially verified
+VID-KOD-S1,SULLIVAN,https://www.youtube.com/watch?v=53yBygyYrlk,2026-09-12,unknown,debate,Seafood Policy Office; Bycatch Reduction Act,unknown,no,unknown,partial,SRC-0116|https://www.youtube.com/watch?v=53yBygyYrlk,partially verified
+VID-DS-P1,PELTOLA,https://www.youtube.com/watch?v=1nyBxC-uups,2026-10-15,unknown,debate,Military pay; 'these lies',unknown,no,unknown,partial,SRC-0117|https://www.youtube.com/watch?v=1nyBxC-uups,partially verified
+VID-DS-S1,SULLIVAN,https://www.youtube.com/watch?v=1nyBxC-uups,2026-10-15,unknown,debate,Prepared-questions accusation; economy,unknown,no,unknown,partial,SRC-0117|https://www.youtube.com/watch?v=1nyBxC-uups,partially verified

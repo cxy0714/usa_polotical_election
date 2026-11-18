@@ -1,0 +1,6 @@
+[
+ {"key":"commons_search_ossoff","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srlimit=20&srsearch=Jon%20Ossoff"},
+ {"key":"commons_search_collins","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srlimit=20&srsearch=Mike%20Collins%20Georgia"},
+ {"key":"commons_api_concede","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&titles=File%3AU.S.%20Senate%20Candidate%20Mike%20Collins%20Concedes%20U.S.%20Senate%20Race%20in%20Georgia.jpg"},
+ {"key":"wikipedia_ossoff_commons_link","url":"https://en.wikipedia.org/wiki/Special:Redirect/file/Jon_Ossoff_Senate_Portrait_2021_(cropped).jpg?width=800"}
+]

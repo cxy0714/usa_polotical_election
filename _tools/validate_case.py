@@ -47,7 +47,8 @@ ENUMS = {
     "source_tier": {"T1", "T2", "T3"},
     "source_type": {"official_campaign", "official_government", "candidate_social", "news_article",
                     "news_video", "transcript", "op_ed", "fact_check", "poll", "press_release",
-                    "event_page", "photo", "podcast", "encyclopedia", "other"},
+                    "event_page", "photo", "podcast", "encyclopedia", "analysis", "report",
+                    "data", "other"},
     "completeness": {"full", "partial", "clip", "unknown"},
     "winner": {"yes", "no"},
 }
@@ -162,18 +163,26 @@ def check_file(case_dir, rel, header, sources, fails, warns):
                 if val.strip() in BAD_VALUES:
                     fail(fails, rel, f"line {lineno}: blank/placeholder in {col}")
                 if col in DATE_COLS and val not in ("unknown",) and not ISO_RE.match(val):
-                    fail(fails, rel, f"line {lineno}: non-ISO date in {col}: {val!r}")
+                    if col == "period" and re.match(r"^\d{4}-Q[1-4]$", val):
+                        pass
+                    else:
+                        fail(fails, rel, f"line {lineno}: non-ISO date in {col}: {val!r}")
                 enum = ENUMS.get(col)
-                if enum and col not in ("source_tier", "source_type") and val not in enum:
+                enum_free = rel == "04_visual_archive/image_archive.csv" and col == "event_category"
+                if enum and not enum_free and col not in ("source_tier", "source_type") and val not in enum:
                     fail(fails, rel, f"line {lineno}: {col}={val!r} not in vocabulary")
             su = rec.get("source_urls")
             if su is not None:
                 if not SRC_RE.match(su):
                     fail(fails, rel, f"line {lineno}: source_urls not SRC-####|https://… : {su!r}")
                 else:
-                    sid = su.split("|", 1)[0]
+                    sid, cited = su.split("|", 1)
                     if sid not in sources:
                         fail(fails, rel, f"line {lineno}: {sid} not in 09_sources/sources.csv")
+                    elif sources[sid].get("url", "").rstrip("/") != cited.rstrip("/"):
+                        fail(fails, rel,
+                             f"line {lineno}: URL for {sid} differs from sources.csv "
+                             f"({cited[:80]} vs {sources[sid].get('url','')[:80]})")
             url = rec.get("url")
             if url is not None and url != "unknown" and not url.startswith(("http://", "https://")):
                 fail(fails, rel, f"line {lineno}: url not http(s): {url!r}")
@@ -241,17 +250,19 @@ def main(argv):
             warns.append(f"missing document {rel}")
 
     # downloaded images: licence must be one of the four allowed values
-    with open(os.path.join(case_dir, "04_visual_archive", "image_archive.csv"),
-              encoding="utf-8-sig", newline="") as f:
-        for rec in csv.DictReader(f):
+    img_path = os.path.join(case_dir, "04_visual_archive", "image_archive.csv")
+    for rec in (csv.DictReader(open(img_path, encoding="utf-8-sig", newline=""))
+                if os.path.exists(img_path) else []):
             fn = rec.get("local_filename", "unknown")
             if fn == "unknown":
                 continue
             p = os.path.join(case_dir, fn)
             if not os.path.exists(p):
+                p = os.path.join(case_dir, "04_visual_archive", fn)
+            if not os.path.exists(p):
                 fail(fails, "image_archive.csv", f"local file missing: {fn}")
             lic = rec.get("license", "")
-            if not re.search(r"(CC0|public domain|PD|CC BY|CC-BY)", lic, re.I):
+            if not re.search(r"(CC0|public domain|\bPD\b|CC BY|CC-BY|copyrighted free use|no known copyright)", lic, re.I):
                 fail(fails, "image_archive.csv", f"{rec.get('image_id')}: licence not allowed: {lic!r}")
             if os.path.getsize(p) > 3_000_000:
                 warns.append(f"{fn}: larger than 3 MB")

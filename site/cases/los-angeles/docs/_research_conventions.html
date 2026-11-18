@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>_research_conventions</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Los Angeles Mayor 2026 / 2026 年洛杉矶市长选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">_research_conventions<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / _research_conventions.md</div><h1>Research conventions / 研究方法约定</h1>
+<h2>1. Source citation / 来源引用</h2>
+<p>Every <code>source_urls</code> cell holds exactly one <code>SRC-####|https://…</code> pair. The validator&#x27;s pattern admits a single pair per cell, so corroboration is never stacked inside the cell: it is described in the row&#x27;s <code>notes</code>, <code>reliability_notes</code> or <code>verification_status</code>. <code>09_sources/sources.csv</code> is the registry; the <code>used_by</code> column lists which datasets cite the source, computed after the tables were built.</p>
+<p>每个 <code>source_urls</code> 单元格只含一个 <code>SRC-####|https://…</code> 对：校验器的正则只接受单对，因此交叉印证 不堆在单元格里，而写入该行的 <code>notes</code>、<code>reliability_notes</code> 或 <code>verification_status</code>。 <code>09_sources/sources.csv</code> 是登记表，<code>used_by</code> 列在表格建成后计算得出。</p>
+<h2>2. Joint debates are two rows / 联合辩论拆为两行</h2>
+<p>Five events were joint (both candidates on the same stage). Each gets one row per candidate (<code>BAS-EVT-####</code> and <code>RAM-EVT-####</code>) with identical <code>event_date</code>, <code>event_time</code> and <code>venue</code>, and each row names its counterpart in <code>analyst_notes</code> (&quot;Joint event; the Raman counterpart row is …&quot;). This was chosen over a shared <code>JNT-EVT-####</code> id because every downstream query filters by <code>candidate_id</code>, and a neutral id would have dropped out of both filters.</p>
+<p>五场联合活动按候选人各建一行（<code>BAS-EVT-####</code> 与 <code>RAM-EVT-####</code>），日期、时间、场地完全一致， 并在 <code>analyst_notes</code> 中互指对方行。之所以不用共享的 <code>JNT-EVT-####</code>，是因为所有下游查询都按 <code>candidate_id</code> 过滤，中立 id 会在两个过滤条件中同时消失。</p>
+<h2>3. <code>unknown</code> is a value, not a zero / <code>unknown</code> 是取值，不是零</h2>
+<p><code>unknown</code> means &quot;no retrieved source establishes this&quot;. It is never a stand-in for zero, for &quot;no&quot;, or for a number that could be computed. Numeric columns carry <code>unknown</code> where the number was not published (e.g. <code>debts_owed</code> in every finance row, <code>other_pct</code> in candidate-only polls). Row-level absence of a measurable (crowd size, ad duration) is <code>unknown</code> even when the qualitative fact is known.</p>
+<p><code>unknown</code> 意为&quot;没有已获取来源可以确立此项&quot;，绝不是零、&quot;否&quot;或可计算数值的替代。数字列在未公布时 写 <code>unknown</code>（如全部财务行的 <code>debts_owed</code>、两选一民调中的 <code>other_pct</code>）；可测量值缺失（人数、广告 时长）即使定性事实明确，也记 <code>unknown</code>。</p>
+<h2>4. Date conventions / 日期约定</h2>
+<p><code>YYYY-MM-DD</code> everywhere; <code>unknown</code> when only a month or a range is reported. Where a source gives only a month, the first of the month is recorded <strong>and the row says so</strong> in <code>notes</code> or <code>description</code> (e.g. Tulchin&#x27;s &quot;August 2026&quot; poll → <code>field_start</code> 2026-08-01, <code>field_end</code> 2026-08-31). Two events are dated from conflicting text on a single page: the South L.A. forum body says &quot;Saturday&quot; while its photo caption says Sept. 29; 2026-09-26 is the Saturday consistent with the page&#x27;s Oct. 3 publication date, so that date is used and both rows are <code>conflicting sources</code>.</p>
+<p>统一使用 <code>YYYY-MM-DD</code>；只有月份或区间时写 <code>unknown</code>。若来源只给月份，则记该月 1 日，<strong>并在 <code>notes</code>/<code>description</code> 中说明</strong>（如 Tulchin &quot;2026 年 8 月&quot;民调 → <code>field_start</code> 2026-08-01、 <code>field_end</code> 2026-08-31）。有两处活动日期依据同一页面的矛盾文字：南洛杉矶论坛正文称&quot;星期六&quot;， 图片说明却称 9 月 29 日；与页面 10 月 3 日发布时间相符的星期六是 2026-09-26，故采用该日， 两行均标 <code>conflicting sources</code>。</p>
+<h2>5. <code>period</code> in campaign_finance / 财务表的 <code>period</code></h2>
+<p><code>period</code> is the <strong>reported-through</strong> date stamped on the filing aggregate, not a fiscal quarter or an election cycle. <code>report_type</code> carries the cycle and the committee type. Rows whose <code>report_type</code> contains <code>independent_expenditure</code> are <strong>not</strong> candidate-committee money: <code>receipts</code> there means money received by the outside committee, <code>disbursements</code>/<code>cash_on_hand</code>/<code>debts_owed</code> are <code>unknown</code> because the aggregate does not publish them, and the candidate named in <code>candidate_id</code> is the beneficiary (or, for <code>independent_expenditure_against_candidate</code>, the target).</p>
+<p><code>period</code> 是该申报汇总的<strong>截止日</strong>，不是财季或选举周期；周期与委员会类型写在 <code>report_type</code> 中。 <code>report_type</code> 含 <code>independent_expenditure</code> 的行<strong>不是</strong>候选人委员会资金：此时 <code>receipts</code> 指外部 委员会收到的款项，<code>disbursements</code>/<code>cash_on_hand</code>/<code>debts_owed</code> 因汇总未公布而记 <code>unknown</code>； <code>candidate_id</code> 所指为受益候选人（若为 <code>…_against_candidate</code> 则为被针对者）。</p>
+<h2>6. <code>candidate_id</code> outside the two principals / 两位主角之外的 <code>candidate_id</code></h2>
+<p><code>case_meta.json</code> defines <code>BASS</code> and <code>RAMAN</code>. Three further values appear deliberately: <code>JOINT</code> for shared video and shared coverage rows (used in <code>speech_video_index.csv</code> and <code>media_coverage.csv</code>), and <code>PRATT</code>, <code>MILLER</code>, <code>HUANG</code> for field-context rows in <code>campaign_finance.csv</code> and <code>image_archive.csv</code>. No filter in the archive assumes exactly two values.</p>
+<p><code>case_meta.json</code> 只定义 <code>BASS</code> 与 <code>RAMAN</code>。另外三个取值是有意引入的：<code>JOINT</code> 用于共享视频与共享 报道行（见 <code>speech_video_index.csv</code>、<code>media_coverage.csv</code>），<code>PRATT</code>、<code>MILLER</code>、<code>HUANG</code> 用于 <code>campaign_finance.csv</code> 与 <code>image_archive.csv</code> 中的&quot;战场背景&quot;行。档案中没有任何按&quot;仅两个取值&quot; 假设的过滤逻辑。</p>
+<h2>7. Poll fields / 民调字段</h2>
+<p><code>leader</code> is the candidate ahead, or <code>tie</code> when the two published shares are equal; <code>margin</code> is the leader minus the second candidate and is therefore never negative. Published shares sometimes sum to 87–101 because of rounding, omitted undecideds, or two-candidate subsamples; the archive does not rescale. Each such row states its sum in <code>notes</code>, and where a pollster published both an initial and a &quot;with leaners&quot; line, <code>notes</code> records both and the table carries the leaned figure.</p>
+<p><code>leader</code> 为领先者，两位公布份额相等时为 <code>tie</code>；<code>margin</code> 为第一减第二，永不为负。公布份额有时合计 87–101，原因包括四舍五入、未列未决者、或两选一子样本；档案不做归一化。每行在 <code>notes</code> 中说明合计， 若民调机构同时公布初始值与&quot;含倾向者&quot;值，<code>notes</code> 两者皆记，表内取含倾向值。</p>
+<h2>8. Verification status rules / 核验状态规则</h2>
+<p><code>verified</code> — an official record, or two independent retrieved sources agree, or the fact is a direct quotation present in the retrieved page. <code>partially verified</code> — one retrieved source only, or a paywalled page whose lede/headline was all that arrived, or Wikipedia-only. <code>conflicting sources</code> — two retrieved sources disagree on a specific figure or date (the disagreement is recorded in <code>notes</code>, never averaged). <code>unverified</code> — published by one campaign and not corroborated at all (kept, labelled).</p>
+<p><code>verified</code>——官方记录，或两个独立已获取来源一致，或为已获取页面中的直接引语。<code>partially verified</code>—— 仅一个已获取来源，或付费墙页面仅得标题/导语，或仅见维基百科。<code>conflicting sources</code>——两个已获取 来源在具体数字或日期上不一致（差异写入 <code>notes</code>，绝不取平均）。<code>unverified</code>——仅一方竞选团队发布、 完全无旁证（保留并标注）。</p>
+<h2>9. Interpretation labels / 解释标签</h2>
+<p>Any sentence that evaluates rather than reports — staging choices, what an ad &quot;means&quot;, why an event was scheduled — begins with <code>INTERPRETATION:</code>. This applies in <code>analyst_interpretation</code>, <code>observable_function</code> stay descriptive, and in the Markdown analyses where the label appears inline. Descriptive columns (<code>stated_purpose</code>, <code>observable_function</code>, <code>visual_notes</code>) never carry inference.</p>
+<p>任何评价性而非报道性的句子——活动编排、广告&quot;意味着什么&quot;、为何安排某场活动——一律以 <code>INTERPRETATION:</code> 开头。<code>analyst_interpretation</code> 如此，Markdown 分析中亦内联标注。 描述性列（<code>stated_purpose</code>、<code>observable_function</code>、<code>visual_notes</code>）不承载推断。</p>
+<h2>10. What is never done / 绝不做的事</h2>
+<p>No party label other than <code>Nonpartisan</code>. No invented venue, crowd size, quote, or number. No HTML in Markdown. No ranking or scoring of candidates. No image-content claim that was not in the reporting or the file description — this build could not view image pixels, so visual fields are <code>unknown</code> and say so explicitly. No use of a URL that returned non-200: blocked and paywalled pages appear in <code>_staging/fetch_log.csv</code> and in <code>research_gaps.md</code>, never as a source row.</p>
+<p>除 <code>Nonpartisan</code> 外不使用任何党派标签；不虚构场地、人数、引语或数字；Markdown 中不使用 HTML； 不对候选人排名或打分；不作未见于报道或文件描述的图像内容判断——本次构建无法查看图像像素， 故视觉字段写 <code>unknown</code> 并明示原因；非 200 响应的 URL 一律不作来源行，只记入 <code>_staging/fetch_log.csv</code> 与 <code>research_gaps.md</code>。</p>
+<h2>11. Bilingual rule / 双语规则</h2>
+<p>Each <code>##</code> section is an English block followed by its Chinese counterpart. English governs; the Chinese is a faithful rendering, not a separate argument. Proper nouns, dataset names and column names stay in their original form inside Chinese text.</p>
+<p>每个 <code>##</code> 小节先英文后中文。以英文为准，中文为忠实对译而非另一套论证。专有名词、数据集名与列名 在中文中保持原形。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

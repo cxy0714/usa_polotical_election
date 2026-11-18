@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>visual_archive_notes</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Ohio Senate 2026 (special) / 2026 年俄亥俄州联邦参议员特别选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">visual_archive_notes<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 04_visual_archive/visual_archive_notes.md</div><h1>Visual archive notes</h1>
+<h2>What is here</h2>
+<p><code>image_archive.csv</code> holds 18 records: 11 for Brown, 7 for Husted. Fifteen corresponding files are downloaded into <code>brown/</code> and <code>husted/</code>, each under 2 MB. Three records are catalogue-only and say so: the 2018 lieutenant-governor portrait (7.0 MB original), a 2017 photograph (5.6 MB) and the 2026 vertical campaign video (19 MB), all above the size ceiling.</p>
+<h2>Licensing</h2>
+<p>Every file is public domain, CC0, CC BY or CC BY-SA, read from the Wikimedia Commons API&#x27;s <code>imageinfo</code> response, and the licence string in the CSV is the API&#x27;s own value. Attribution requirements are recorded in <code>photographer</code>; two files (the 2016 DNC photograph under CC BY-SA 3.0 and the 2016 City Club screen capture under CC BY 3.0) require credit when reused.</p>
+<h2>Deliberate unknowns</h2>
+<p><code>clothing_notes</code>, <code>camera_angle</code>, <code>face_visibility</code> and <code>body_visibility</code> are <code>unknown</code> for every row. This build has no image-reading step: nothing in the pipeline opened the pixels, and no retrieved caption describes what either candidate is wearing. Filling those cells from imagination would have produced the most confident-looking and least defensible columns in the archive. <code>framing</code> is limited to what the Commons file title or description states (for example &quot;official portrait&quot; or &quot;screen capture from video&quot;), and <code>image_resolution</code> is either the API&#x27;s pixel size or, for downloaded files, the measured pixel size.</p>
+<h2>What the images can and cannot establish</h2>
+<p>They establish likeness, dates and licensing. They do not establish crowd size, mood or setting. Only two records can be tied to a dated campaign event: the oath photograph (2025-01-21) and the 2026-10-29 video, and in both cases the date comes from the Commons metadata rather than from inspection.</p>
+<h2>Portraits for comparison</h2>
+<p>Three public-domain portraits satisfy the contract&#x27;s portrait requirement: Brown 2021 (official, 117th Congress), Brown 2009 (earlier official photo) and Husted 2025 (official, 119th Congress). The two 2025 Husted portraits are the fairest pair for side-by-side comparison, taken within weeks of each other and both official.</p>
+<h2>中文摘要</h2>
+<p><code>image_archive.csv</code> 共 18 条记录（布朗 11、赫斯特德 7），已下载 15 个文件，全部小于 2 MB。三条 仅登记未下载：2018 年副州长官方肖像（原始 7.0 MB）、2017 年照片（5.6 MB）、2026 年竖屏竞选视频 （19 MB），均超过体积上限。许可信息取自 Commons API 的 imageinfo，逐字记录。<code>clothing_notes</code>、 <code>camera_angle</code>、<code>face_visibility</code>、<code>body_visibility</code> 四列全部为 unknown：本流程没有任何读图步骤， 也没有任何检索到的图注描述衣着；凭想象填写会造出全档案最自信却最不可辩护的列。三张公有领域肖像 （布朗 2021、布朗 2009、赫斯特德 2025）满足合同要求。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

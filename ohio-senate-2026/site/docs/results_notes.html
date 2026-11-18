@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>results_notes</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">results_notes<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 07_electoral_context/results_notes.md</div><h1>Results notes</h1>
+<h2>The result</h2>
+<div class="table-wrap"><table><thead><tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Share</th></tr></thead><tbody>
+<tr><td>Sherrod Brown</td><td>Democratic</td><td>2,302,669</td><td>50.01%</td></tr>
+<tr><td>Jon Husted</td><td>Republican</td><td>2,080,064</td><td>45.17%</td></tr>
+<tr><td>Bill Redpath</td><td>Libertarian</td><td>128,341</td><td>2.79%</td></tr>
+<tr><td>Greg Levy</td><td>Party for Socialism and Liberation</td><td>93,786</td><td>2.04%</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>4,604,860</strong></td><td><strong>100.00%</strong></td></tr>
+</tbody></table></div>
+<p>Brown won by 222,605 votes, a margin of 4.84 percentage points. The four vote counts sum exactly to the reported total, which is the strongest internal check available without the official canvass.</p>
+<h2>Rounding, and one documented conflict</h2>
+<p>The printed percentages sum to 100.01, not 100.00: 50.01 + 45.17 + 2.79 + 2.04. That is ordinary rounding of four shares that each carry two decimals, not an error in the counts.</p>
+<p>Two shares disagree between sources. The Calfee newsletter cited by the race article prints Husted at <strong>45.15%</strong> and Levy at <strong>2.05%</strong>; the article&#x27;s election box prints 45.17% and 2.04%. Recomputed from the vote counts, Husted is 2,080,064 / 4,604,860 = 45.171% and Levy is 93,786 / 4,604,860 = 2.037%. The vote counts are the primary fact and the computed shares match the article&#x27;s box, so 45.17 and 2.04 are retained, with the Calfee figures recorded as <code>conflicting sources</code> in <code>election_results.csv</code>.</p>
+<h2>Turnout and early voting</h2>
+<p>Nearly 4.56 million Ohioans voted. More than 1.7 million voted early, about 17% more than in 2022, and the early electorate split roughly 468,000 Democratic, 432,000 Republican and 807,000 unaffiliated SRC-1182. The unaffiliated share of early votes is the single most interesting number in the file: it is larger than the two party blocs combined.</p>
+<h2>The county picture, and the gap</h2>
+<p><strong>There is no county-results table in this archive.</strong> The race article publishes two county-level <em>map</em> graphics (one for the general election, one for the Democratic primary) but no table of county vote totals, and the Ohio Secretary of State&#x27;s canvass spreadsheets returned HTTP 403 to this archiver. <code>county_results.csv</code> is therefore header-only, with zero rows, and that is a documented gap rather than an omission.</p>
+<p>What the maps do support is a list of seven counties that flipped from Republican to Democratic between the 2024 presidential result and this Senate result: Delaware, Erie, Lake, Mahoning, Portage, Trumbull and Wood. Those seven names are recorded here and in <code>research_gaps.md</code>; the underlying county totals are not.</p>
+<h2>The primary results</h2>
+<p>Brown 712,106 (89.40%) to Kincaid 84,405 (10.60%) on 2026-05-05; Husted unopposed with 736,413. The 796,511 Democratic primary votes are 17% of the general-election turnout, which is a normal drop-off for a non-competitive primary.</p>
+<h2>Dates that are corrected here</h2>
+<p>Husted&#x27;s appointment and oath are dated 2025-01-17 and 2025-01-21 respectively SRC-1016SRC-1178. The brief&#x27;s alternative dates (2025-01-10, 2025-01-14) are rejected; see <code>election_context.md</code>.</p>
+<h2>Contested characterisations</h2>
+<p>The result was read two ways in the coverage. Cleveland.com&#x27;s analysis framed it as a personal rebuke of Husted and of his corporate ties SRC-1076; other coverage framed it as Brown&#x27;s return to a seat he had held for 18 years. Both readings are recorded in <code>media_coverage.csv</code> as framing, not as findings.</p>
+<h2>中文摘要</h2>
+<p>布朗以 2,302,669 票（50.01%）胜出，赫斯特德 2,080,064 票（45.17%），Redpath 128,341 票 （2.79%），Levy 93,786 票（2.04%），合计 4,604,860 票，四人票数精确相加等于总数，这是不使用官方 canvass 时最强的内部校验。印刷的百分比相加为 100.01，属四舍五入，不是错误。Calfee 通讯把赫斯特 德记为 45.15%、Levy 记为 2.05%，与条目选举框的 45.17%／2.04% 不同；按票数重算分别为 45.171% 与 2.037%，故保留条目数值并把 Calfee 记为&quot;来源冲突&quot;。投票率近 456 万，提前投票超过 170 万（比 2022 年高约 17%），其中无党派约 80.7 万，超过两党各自份额。<strong>本档案没有县结果表</strong>：条目只有两张县级 地图、没有表格，州务卿的 canvass 电子表格返回 403；<code>county_results.csv</code> 因此只有表头、零行， 这是已记录的缺口而非遗漏。地图能支持的只是七个由共和党翻向民主党的县：Delaware、Erie、Lake、 Mahoning、Portage、Trumbull、Wood。赫斯特德的任命与宣誓日期分别为 2025-01-17 与 2025-01-21。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

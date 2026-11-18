@@ -1,0 +1,19 @@
+[
+ {"key":"gr_ethics_collins","url":"https://georgiarecorder.com/2026/01/06/more-details-released-about-ethics-investigation-into-congressman-mike-collins-and-former-top-aide/"},
+ {"key":"gr_money_feb","url":"https://georgiarecorder.com/2026/02/03/ossoffs-dominance-in-the-u-s-senate-money-race-continues/"},
+ {"key":"gr_runoff_night","url":"https://georgiarecorder.com/2026/06/16/collins-wins-fight-to-face-ossoff-in-november/"},
+ {"key":"gr_trump_cobb","url":"https://georgiarecorder.com/2026/07/22/trump-highlights-republican-candidates-urges-senate-to-pass-save-act-during-cobb-county-visit/"},
+ {"key":"gr_jan6_pardon","url":"https://georgiarecorder.com/2026/08/12/thats-easy-collins-tells-pardoned-jan-6-defendant-that-government-should-pay-wronged-americans/"},
+ {"key":"gr_kemp_collins","url":"https://georgiarecorder.com/2026/09/14/kemp-backs-mike-collins-in-georgias-u-s-senate-race-with-election-less-than-two-months-away/"},
+ {"key":"gr_trump_oct","url":"https://georgiarecorder.com/2026/10/16/trump-urges-supporters-to-pretend-hes-on-the-ballot-as-he-campaigns-with-georgia-republicans/"},
+ {"key":"gr_harris","url":"https://georgiarecorder.com/2026/10/29/kamala-harris-drops-into-georgia-to-stump-for-ossoff-down-ballot-democrats/"},
+ {"key":"gr_early_voting","url":"https://georgiarecorder.com/2026/10/13/georgia-voters-kick-off-early-voting-with-over-185000-ballots-cast/"},
+ {"key":"gr_runoff_preview","url":"https://georgiarecorder.com/2026/05/22/take-two-these-democratic-republican-statewide-races-are-headed-to-june-runoffs/"},
+ {"key":"gr_five_watch","url":"https://georgiarecorder.com/2026/11/03/here-are-five-things-to-watch-as-georgia-voters-head-to-the-polls-on-election-day/"},
+ {"key":"gr_dhs_minnesota","url":"https://georgiarecorder.com/2026/01/26/ossoff-warnock-say-they-will-not-support-dhs-funding-in-wake-of-second-fatal-shooting-in-minnesota/"},
+ {"key":"gr_gop_outraise","url":"https://georgiarecorder.com/2026/08/12/gop-candidates-outraise-democrats-so-far-in-most-but-not-all-of-georgias-statewide-contests/"},
+ {"key":"gr_medicaid_nov12","url":"https://georgiarecorder.com/2026/11/12/democratic-wins-revive-medicaid-expansion-push-in-georgia-but-new-hurdles-await/"},
+ {"key":"gr_register_deadline","url":"https://georgiarecorder.com/2026/04/17/time-is-running-short-to-register-to-vote-in-georgias-may-19-primary-election/"},
+ {"key":"sos_api_test1","url":"https://results.sos.ga.gov/results/public/api/elections/06162026GeneralPrimaryRunoff"},
+ {"key":"sos_api_test2","url":"https://results.sos.ga.gov/api/results/public/Georgia/elections/06162026GeneralPrimaryRunoff"}
+]

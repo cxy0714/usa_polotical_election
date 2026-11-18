@@ -1,0 +1,11 @@
+[
+ {"key":"wiki_ossoff","url":"https://en.wikipedia.org/wiki/Jon_Ossoff"},
+ {"key":"wiki_collins","url":"https://en.wikipedia.org/wiki/Mike_Collins_(politician)"},
+ {"key":"wiki_2026sen","url":"https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"},
+ {"key":"gr_search_ossoff","url":"https://georgiarecorder.com/?s=Ossoff"},
+ {"key":"gr_cat_election2026","url":"https://georgiarecorder.com/category/election-2026/"},
+ {"key":"nbc_results","url":"https://www.nbcnews.com/politics/2026-elections/georgia-senate-results"},
+ {"key":"ajc_politics","url":"https://www.ajc.com/politics/"},
+ {"key":"gpb_news","url":"https://www.gpb.org/news"},
+ {"key":"commons_api_collins","url":"https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize&titles=File%3ARep.%20Mike%20Collins%20official%20photo%2C%20118th%20Congress%20(cropped).jpg"}
+]

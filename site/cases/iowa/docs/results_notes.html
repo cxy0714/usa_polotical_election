@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>results_notes</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Iowa Senate 2026 / 2026 年艾奥瓦州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">results_notes<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 07_electoral_context/results_notes.md</div><h1>Results notes — reconciliation and variance / 结果说明</h1>
+<h2>1. General election / 大选</h2>
+<p>English: The figures used in <code>election_results.csv</code> and <code>county_results.csv</code> are the NBC News results feed: Turek 688,746 (50.56%), Hinson 631,482 (46.35%), Laehn 42,109 (3.09%), total 1,362,337. The three candidate figures sum exactly to the published total, and each percentage recomputes from the votes to two decimals (50.558, 46.353, 3.091). <strong>County check:</strong> the 99 rows of <code>county_results.csv</code> sum to 688,746 / 631,482 / 42,109 and to 1,362,337 — an exact match to the statewide totals, which is the strongest internal check in this case.</p>
+<p>中文：<code>election_results.csv</code> 与 <code>county_results.csv</code> 采用 NBC 新闻的计票数据：Turek 688,746（50.56%）、Hinson 631,482（46.35%）、Laehn 42,109（3.09%），合计 1,362,337。三名候选人票数精确相加等于公布总数，各百分比按票数重算到两位小数亦一致（50.558、46.353、3.091）。<strong>县级核对</strong>：<code>county_results.csv</code> 的 99 行合计为 688,746 / 631,482 / 42,109，总计 1,362,337，与全州总数完全一致——这是本案最强的内部一致性检验。</p>
+<h2>2. Documented variance: six votes / 已记录的差异：六票</h2>
+<p>English: The race article&#x27;s election box gives Turek 688,741, Hinson 631,481, Laehn 42,109 and a total of 1,362,331 — six votes fewer than the NBC feed, and internally consistent on its own terms. The archive uses the NBC figures because they are the county-level source, and records the six-vote difference here rather than adjusting either figure. A six-vote gap does not change the winner or the margin at two decimals (4.21 points).</p>
+<p>中文：竞赛条目的选举信息框给出 Turek 688,741、Hinson 631,481、Laehn 42,109，总计 1,362,331——比 NBC 数据少六票，但其自身内部自洽。档案采用 NBC 数据（因其为县级数据来源），并在此记录六票差异，不改动任何一方数字。六票之差不会改变胜者，也不会改变保留两位小数的差距（4.21 个百分点）。</p>
+<h2>3. Primary percentages / 初选百分比</h2>
+<p>English: The Republican primary election box gives 74.2 / 25.8 (153,059 / 53,196, total 206,255) and the Democratic box 62.7 / 37.3 (120,287 / 71,663, total 191,950). Night-of reporting used slightly different numbers: 74% to 26% for Hinson (<code>SRC-0040</code>) and 62.6% to 37.4% for Turek with 99% of precincts counted (<code>SRC-0054</code>). Both sets are recorded; the archive keeps the election-box versions in <code>election_results.csv</code> and notes the night-of versions in <code>notes</code> on each row. Recomputation from the votes gives 74.21 / 25.79 and 62.66 / 37.34, which is why the rounded pairs differ by a tenth.</p>
+<p>中文：共和党初选信息框为 74.2 / 25.8（153,059 / 53,196，合计 206,255），民主党为 62.7 / 37.3（120,287 / 71,663，合计 191,950）。当晚报道用的是略有不同的数字：Hinson 74% 对 26%（<code>SRC-0040</code>），Turek 在 99% 选区计票时为 62.6% 对 37.4%（<code>SRC-0054</code>）。两套数字均予记录：<code>election_results.csv</code> 采用信息框版本，并在每行 <code>notes</code> 注明当晚版本。按票数重算得 74.21 / 25.79 与 62.66 / 37.34，这正是四舍五入后相差零点一个百分点的原因。</p>
+<h2>4. The Libertarian column / 自由意志党一栏</h2>
+<p>English: Thomas Laehn qualified by petition after submitting nearly 10,000 signatures on 2 June 2026 against a 3,500 requirement. His 3.09% is smaller than the 4.21-point margin, so he did not decide the outcome arithmetically; the archive states that as arithmetic, not as a claim about his voters.</p>
+<p>中文：Thomas Laehn 于 2026 年 6 月 2 日提交近 1 万份签名（门槛 3,500 份）后以请愿方式取得资格。其 3.09% 小于 4.21 个百分点的差距，因此从算术上并未决定结果；档案只陈述这一算术事实，不对其选民做任何推断。</p>
+<h2>5. What could not be reconciled / 无法核对的部分</h2>
+<ul>
+<li>No official county canvass from the Iowa Secretary of State could be read: <code>sos.iowa.gov</code> returned HTTP 403</li>
+<p>and the results application served a JavaScript shell only. The NBC feed is therefore the county authority here, not the state.</p>
+<li>No precinct-level file was retrieved, so the county rows cannot be checked against a second county source.</li>
+<li>The FEC&#x27;s own pages returned HTTP 403; finance figures come from the summary table reproduced by the race</li>
+<p>article and are marked <code>partially verified</code>.</p>
+</ul>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

@@ -1,0 +1,186 @@
+200	cbs_win_76c19657.html	Jon Ossoff wins Georgia 2026 Senate election, keeping seat for Democrats - CBS News	https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/
+200	ajc_groundwork_6c083cb9.html	Jon Ossoff lays the groundwork for Georgia 2026 reelection campaign	https://www.ajc.com/politics/ossoff-lays-the-groundwork-for-2026-reelection-campaign/UCWPQDWKZF
+200	gr_savannah_8b7b097c.html	Ossoff, Bottoms declare ‘United for Georgia’ at joint campaign rally in Savannah &#8226; Georgia Recorder	https://georgiarecorder.com/2026/06/28/ossoff-bottoms-declare-united-for-georgia-at-joint-campa
+200	gpb_collins_kickoff_11415de7.html	Mike Collins kicks off U.S. Senate campaign | Georgia Public Broadcasting	https://www.gpb.org/news/2025/08/20/mike-collins-kicks-off-us-senate-campaign
+200	sos_primary_dem_3f05e2f8.html	Election Results	https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926?party=DEM
+200	commons_api_ossoff_a6ddb091.json		https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cex
+200	anf_debate_d4df03c3.html	Atlanta News First to host Georgia US Senate debate between Jon Ossoff, Mike Collins	https://www.atlantanewsfirst.com/2026/08/05/atlanta-news-first-host-exclusive-georgia-us-senate
+403	unknown		https://apnews.com/article/jon-ossoff-senate-election-2026-georgia-20dcdc9e7dc10f15b3aa3c23d845
+403	unknown		https://www.politico.com/news/2026/10/19/georgia-money-standoff-ossoff-01125263
+200	x_ossoff_85877ee8.html	Jon Ossoff (@ossoff) / X	https://x.com/ossoff
+error	unknown		https://www.nytimes.com/2026/08/29/us/politics/georgia-senate-ossoff-collins-trump.html
+200	wiki_ossoff_c5b6a487.html	Jon Ossoff - Wikipedia	https://en.wikipedia.org/wiki/Jon_Ossoff
+error	unknown		https://en.wikipedia.org/wiki/Mike_Collins_(politician)
+200	wiki_2026sen_86b1e6fd.html	2026 United States Senate elections - Wikipedia	https://en.wikipedia.org/wiki/2026_United_States_Senate_elections
+200	gr_search_ossoff_ea626fab.html	You searched for Ossoff &#8226; Georgia Recorder	https://georgiarecorder.com/?s=Ossoff
+200	gr_cat_election2026_41d1a2b3.html	Election 2026 Archives &#8226; Georgia Recorder	https://georgiarecorder.com/category/election-2026/
+200	nbc_results_d7d1bfd2.html	Georgia U.S. Senate Election 2026 Live Results: Jon Ossoff Wins	https://www.nbcnews.com/politics/2026-elections/georgia-senate-results
+200	ajc_politics_ec1a3483.html	AJC Politics Georgia News, Elections, State and Washington	https://www.ajc.com/politics/
+200	gpb_news_c23d946e.html	News | Georgia Public Broadcasting	https://www.gpb.org/news
+200	commons_api_collins_5e80ce54.json		https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Cex
+200	gr_s_ossoff_p2_fc39fd8c.html	You searched for Ossoff &#8226; Page 2 of 50 &#8226; Georgia Recorder	https://georgiarecorder.com/page/2/?s=Ossoff
+200	gr_s_collins_cffa1f21.html	You searched for Collins &#8226; Georgia Recorder	https://georgiarecorder.com/?s=Collins
+200	gr_s_collins_p2_8c5ec39d.html	You searched for Collins &#8226; Page 2 of 380 &#8226; Georgia Recorder	https://georgiarecorder.com/page/2/?s=Collins
+200	gr_s_debate_e97fb56b.html	You searched for Senate debate &#8226; Georgia Recorder	https://georgiarecorder.com/?s=Senate+debate
+200	gr_s_rally_95523aae.html	You searched for Ossoff rally &#8226; Georgia Recorder	https://georgiarecorder.com/?s=Ossoff+rally
+200	gr_s_senate_b5dfa46c.html	You searched for U.S. Senate &#8226; Georgia Recorder	https://georgiarecorder.com/?s=U.S.+Senate
+404	unknown		https://en.wikipedia.org/wiki/Mike_Collins_(American_politician)
+200	wiki_ossoff_2026_e3e78919.html	2026 United States Senate election in Georgia - Wikipedia	https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia
+200	associated_press_republicans_shift_foc	GOP shifts focus away from Georgia in fight for U.S. Senate - WJCL	https://www.wjcl.com/article/georgia-senate-republicans-shift-focus/73939214
+403	unknown		https://www.politico.com/news/2020/07/23/georgia-2020-democrats-bottoms-stacey-abrams-biden-379
+403	unknown		https://apnews.com/article/georgia-house-senate-legislature-democrats-republicans-296a4233e0b36
+200	endcitizensunited_org_end_citizens_uni	ECU Endorses Sen. Jon Ossoff For Reelection — End Citizens United	https://www.endcitizensunited.org/ecu-endorses-sen-jon-ossoff-for-reelection
+200	giffords_giffords_pac_endorses_sen_jon	GIFFORDS PAC endorses Sen. Jon Ossoff for reelection in Georgia | GIFFORDS	https://giffords.org/press-release/2025/07/giffords-pac-endorses-sen-jon-ossoff-for-reelection-
+200	hrc_human_rights_campaign_pac_endorses	HRC | Human Rights Campaign PAC Endorses Georgia Sen.‌ Jon Ossoff for…	https://www.hrc.org/press-releases/human-rights-campaign-pac-endorses-georgia-sen-jon-ossoff-fo
+200	jstreetpac_reception_in_support_of_jon	Reception In Support of Jon Ossoff - JStreetPAC	https://jstreetpac.org/event/event-ossoff-dc-09102025/
+200	lcv_org_lcv_action_fund_endorses_jon_o	LCV Action Fund Endorses Jon Ossoff for U.S. Senate - League of Conservation Voters	https://www.lcv.org/media-center/lcv-action-fund-endorses-jon-ossoff-for-u-s-senate/
+403	unknown		https://thehill.com/homenews/campaign/5700069-planned-parenthood-action-fund/
+200	reproductive_freedom_for_all_reproduct	Reproductive Freedom for All Endorses Georgia Senator Jon Ossoff for Reelection - Reproductive Freedom for All	https://reproductivefreedomforall.org/news/reproductive-freedom-for-all-endorses-georgia-senato
+200	action_fund_splc_action_fund_endorses_	SPLC Action Fund Endorses Sen. Jon Ossoff For Reelection - Action Fund	https://www.splcactionfund.org/news/jon-ossoff-endorsement-sentate-reelection/
+200	fec_gov_2026_election_united_states_se	2026 Election United States Senate - Georgia | FEC	https://www.fec.gov/data/elections/senate/GA/2026/
+200	the_atlanta_journal_constitution_u_s_r	U.S. Rep. Mike Collins prepares Senate run in Georgia, aiming to grab MAGA lane	https://www.ajc.com/politics/2025/07/us-rep-mike-collins-prepares-senate-run-in-georgia-aiming-
+200	politico_former_college_football_coach	Former college football coach Derek Dooley enters Georgia Senate race - POLITICO	https://www.politico.com/news/2025/08/04/georgia-gop-primary-00491575
+200	the_atlanta_journal_constitution_maga_	Rep. Buddy Carter -- &#x27;MAGA warrior&#x27; -- jumps into Georgia Senate race against Ossoff	https://www.ajc.com/politics/maga-warrior-buddy-carter-jumps-into-georgia-senate-race-against-o
+403	unknown		https://www.wdef.com/reagan-box-ends-us-senate-run-in-hopes-of-obtaining-greenes-seat/
+200	the_atlanta_journal_constitution_john_	Georgia Insurance Commissioner John King ends his bid for U.S. Senate	https://www.ajc.com/politics/2025/07/kemp-pushing-dooley-senate-bid-in-a-behind-the-scene-attem
+404	unknown		https://accesswdun.com/article/2025/2/1285055/amid-primary-challenge-andrew-clyde-talks-2026-re
+403	unknown		https://apnews.com/article/mtg-greene-ossoff-georgia-senate-6df53b2ef8bf9d49272a4b4359abad21
+200	politico_georgia_gov_brian_kemp_passes	Georgia Gov. Brian Kemp passes on running for Senate - POLITICO	https://www.politico.com/news/2025/05/05/georgia-gov-brian-kemp-passes-on-running-for-senate-00
+200	the_atlanta_journal_constitution_rich_	Rich McCormick rules out US Senate run in Georgia as GOP field takes shape	https://www.ajc.com/politics/2025/07/rich-mccormick-rules-out-us-senate-run-in-georgia-as-gop-f
+200	wtvc_northwest_georgia_state_senator_a	Northwest Georgia state senator announces run for Marjorie Taylor Greene&#x27;s seat	https://newschannel9.com/news/local/northwest-georgia-state-senator-announces-run-for-marjorie-
+403	unknown		https://www.politico.com/news/2025/09/17/brad-raffensperger-governor-georgia-00567991
+200	fox_news_trump_backs_maga_champion_mik	Trump endorses Rep. Mike Collins in Georgia Senate runoff against Dooley | Fox News	https://www.foxnews.com/politics/trump-backs-maga-champion-mike-collins-georgias-republican-sen
+404	unknown		https://accesswdun.com/article/2025/7/1295563/as-georgia-senate-race-heats-up-endorsements-and-
+200	the_atlanta_journal_constitution_some_	Some GOP allies are bucking Brian Kemp to back Mike Collins for Senate	https://www.ajc.com/politics/2025/08/some-gop-allies-are-bucking-brian-kemp-to-back-mike-collin
+200	washington_reporter_scoop_house_republ	SCOOP: House Republicans back Rep. Mike Collins in Senate runoff &#8211; Washington Reporter	https://washingtonreporter.news/scoop-house-republicans-back-rep-mike-collins-pre-senate-runoff
+404	unknown		https://washingtonreporter.news/p/scoop-jon-ossoffs-stolen-valor-roils
+200	atlantanewsfirst_ahead_of_campaign_kic	Ahead of campaign kickoff event, Laken Riley’s family endorses Mike Collins’ US Senate bid	https://www.atlantanewsfirst.com/2025/08/18/ahead-campaign-kickoff-event-laken-rileys-family-en
+200	unknown_thank_you_for_supporting_pro_i	AIPAC PAC | Good policy and good politics.	https://candidates.aipacpac.org/page/featured/
+403	unknown		https://thehill.com/homenews/5767287-club-for-growth-mike-collins-georgia-senate/
+200	the_atlanta_journal_constitution_kemp_	Brian Kemp backs Derek Dooley for U.S. Senate at UGA football opener	https://www.ajc.com/politics/2025/08/kemp-cements-his-senate-choice-backs-dooley-at-uga-game/
+403	unknown		https://apnews.com/article/georgia-senate-republican-buddy-carter-9d645cdcbaa029b7671eb6594f408
+403	unknown		https://thehill.com/homenews/campaign/5133772-georgia-governor-brian-kemp-senate-race/
+403	unknown		https://www.realclearpolling.com/polls/senate/republican-primary/2026/georgia
+200	insideradvantage_insideradvantage_geor	InsiderAdvantage Georgia GOP Survey: Jackson and Jones Likely Headed to Runoff; Dooley Moves Into Second Place	https://insideradvantage.com/insideradvantage-georgia-gop-survey-jackson-and-jones-likely-heade
+200	quantus_insights_quantus_insights_geor	Quantus Insights: Georgia GOP Primaries Enter the Final Stretch	https://quantusinsights.org/f/quantus-insights-georgia-gop-primaries-enter-the-final-stretch#dd
+200	the_atlanta_journal_constitution_ajc_p	AJC Poll: Collins leads in Senate GOP primary, but most voters undecided	https://www.ajc.com/politics/2026/05/ajc-poll-collins-leads-in-senate-gop-primary-but-most-vote
+200	insideradvantage_insideradvantage_geor	InsiderAdvantage Georgia Survey: GOP Race For Governor Remains a Two Man Contest; Senate Contest Could Become 	https://insideradvantage.com/insideradvantage-georgia-survey-gop-governors-race-remain-a-two-ma
+200	jmc_analytics_georgia_statewide_poll_r		https://winwithjmc.com/wp-content/uploads/2026/03/Georgia-Executive-Summary.pdf
+200	emerson_college_polling_georgia_2026_p	Georgia 2026 Poll: Senator Ossoff Starts Re-Election Near 50% and Outpaces GOP Field - Emerson Polling	https://emersoncollegepolling.com/georgia-2026-poll-senator-ossoff-starts-re-election-near-50-a
+200	quantus_insights_georgia_2026_republic	Quantus Insights | Data-Driven Political Intelligence	https://polls.quantusinsights.org/polls/georgia-pri-2026-1400-csv-7jxj0s7p?tab=toplines
+200	rasmussen_reports_georgia_gop_primary_	Georgia GOP Primary: Rick Jackson Zooms Ahead - Rasmussen Reports&reg;	https://www.rasmussenreports.com/public_content/politics/partner_surveys/georgia_gop_primary_ri
+200	plymouth_union_public_research_georgia	Georgia Statewide Survey Findings - PUP Research	https://pup-research.com/polling-memo/georgia-statewide-survey-findings/
+200	insideradvantage_insideradvantage_rose	InsiderAdvantage/Rosetta Stone Georgia GOP Governor and Senate Survey: Jones Leads for GOP Gubernatorial Nomin	https://insideradvantage.com/insideradvantage-rosetta-stone-georgia-gop-governor-and-senate-sur
+200	ajc_politics_senate_poll_ossoff_riding	Senate poll: Ossoff riding high in Georgia; MAGA firebrand leads GOP field.	https://www.ajc.com/politics/2025/10/senate-poll-ossoff-riding-high-in-georgia-maga-firebrand-l
+200	quantus_insights_georgia_s_2026_senate	Georgia&#x2019;s 2026 Senate Race Is Wide Open	https://quantusinsights.org/f/georgia%E2%80%99s-2026-senate-race-is-wide-open#ddfaccf9-bede-412
+200	tipp_insights_league_of_american_worke	League Of American Workers Georgia Survey — July 2025	https://tippinsights.com/league-of-american-workers-georgia-survey-july-2025/#google_vignette
+200	secretary_of_state_of_georgia_state_el	Election Results	https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926?party=REP
+200	insideradvantage_final_insideradvantag	Final InsiderAdvantage Georgia GOP Runoff Survey; Both Races Within Margin of Error &#8211; InsiderAdvantage	https://insideradvantage.com/final-insideradvantage-georgia-gop-runoff-survey-both-races-within
+200	insideradvantage_note_due_to_brian_kem	(NOTE: DUE TO BRIAN KEMP&#8217;S ENDORSEMENT IN THE GOVERNOR&#8217;S RACE AND DONALD TRUMP&#8217;S ENDORSEMENT	https://insideradvantage.com/note-due-to-brian-kemps-endorsement-in-the-governors-race-and-dona
+200	jmc_analytics_georgia_statewide_runoff		https://winwithjmc.com/wp-content/uploads/2026/05/Toplines-Georgia-GOP-Runoff-May-26-27-2026.pd
+200	insideradvantage_insideradvantage_geor	InsiderAdvantage Georgia Runoff Survey: Jones and Collins Lead Respective Races &#8211; InsiderAdvantage	https://insideradvantage.com/insideradvantage-georgia-runoff-survey-jones-and-collins-lead-resp
+200	quantus_insights_georgia_gop_runoffs_b	Georgia GOP Runoffs Begin: Collins Opens Strong, Jones Leads	https://quantusinsights.org/f/georgia-gop-runoffs-begin-collins-opens-strong-jones-leads-1
+200	georgia_secretary_of_state_hypothetica	Election Results	https://results.sos.ga.gov/results/public/Georgia/elections/06162026GeneralPrimaryRunoff
+200	cbs_news_2026_midterm_election_races_t	2026 midterm election races to watch - CBS News	https://www.cbsnews.com/news/2026-midterm-election-races/
+error	unknown		https://votes.decisiondeskhq.com/forecast/2026/senate
+200	fiftyplusone_2026_congressional_foreca		https://fiftyplusone.news/forecast/senate
+200	fox_news_fox_news_power_rankings_kansa	Senate control remains toss-up as Kansas, Ohio shift in 2026 polls | Fox News	https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-le
+200	ms_now_2026_senate_ratings_ms_now_s_ra	2026 Senate ratings: MS NOW’s races to watch	https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch
+200	nbc_news_the_race_for_congress_2026_mi	Midterm Elections 2026: Congress Polls, Charts and More	https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section
+403	unknown		https://www.realclearpolling.com/maps/senate/2026/toss-up
+200	the_atlanta_journal_constitution_forme	Former GOP Sen. Jeff Flake backs Jon Ossoff, saying ‘character matters’	https://www.ajc.com/politics/2026/08/former-gop-sen-jeff-flake-backs-jon-ossoff-saying-characte
+error	unknown		https://www.nytimes.com/2026/10/14/us/politics/kamala-harris-midterms-democrats-campaign.html
+200	cbs_news_obama_heads_to_atlanta_to_ral	Obama heads to Atlanta to rally voters for Jon Ossoff and Keisha Lance Bottoms - CBS Atlanta	https://www.cbsnews.com/atlanta/news/obama-heads-to-atlanta-to-rally-voters-for-jon-ossoff-and-
+200	the_atlanta_journal_constitution_jon_o	Jon Ossoff targets Mike Collins over Epstein files in new ad	https://www.ajc.com/politics/2026/07/jon-ossoff-targets-mike-collins-over-epstein-files-in-new-
+200	new_jersey_globe_sherrill_headed_to_ge	Sherrill headed to Georgia to stump for Ossoff - New Jersey Globe	https://newjerseyglobe.com/governor/sherrill-headed-to-georgia-to-stump-for-ossoff/
+error	unknown		https://www.nytimes.com/2026/09/05/us/politics/ossoff-talarico-rhimes-fundraiser.html
+200	www_cbsnews_com_3_republicans_endorse_	3 Republicans endorse Jon Ossoff in Georgia Senate race as Mike Collins faces scrutiny - CBS Atlanta	https://www.cbsnews.com/atlanta/news/3-republicans-endorse-jon-ossoff-in-georgia-senate-race-as
+200	broadway_world_actors_equity_associati	Actors' Equity Association Endorses Jon Ossoff for United States Senate | BroadwayWorld	https://www.broadwayworld.com/industry/article/Actors-Equity-Association-Endorses-Jon-Ossoff-fo
+error	unknown		https://educationvotes.nea.org/2026-election/our-recommended-candidates/
+200	uaw_power_georgia_2488a581.html	Browse by state | UAW Power	https://uawpower.org/states/georgia
+200	dome_politics_rick_scott_tyler_j_harpe	Rick Scott, Tyler J Harper Endorse Mike Collins for U.S. Senate &#183; Dome Politics	https://domepolitics.com/2026/08/rick-scott-tyler-j-harper-endorse-mike-collins/
+200	georgia_public_broadcasting_senate_maj	Senate Majority Leader John Thune campaigns for Mike Collins | Georgia Public Broadcasting	https://www.gpb.org/news/2026/09/25/senate-majority-leader-john-thune-campaigns-for-mike-collin
+200	the_atlanta_journal_constitution_burt_	Burt Jones undecided on backing Rick Jackson for Georgia governor	https://www.ajc.com/politics/2026/07/burt-jones-on-backing-rick-jackson-well-see/
+200	cbs_news_gov_brian_kemp_endorses_colli	Gov. Brian Kemp endorses Collins in U.S. Senate bid to unseat Ossoff: "A different direction" - CBS Atlanta	https://www.cbsnews.com/atlanta/news/gov-brian-kemp-endorses-collins-in-u-s-senate-bid-to-unsea
+200	the_atlanta_journal_constitution_what_	&#x27;Politically Georgia&#x27;: What Georgia Republicans’ Tillman Rally revealed	https://www.ajc.com/politics/2026/08/what-georgia-republicans-tillman-rally-revealed-ahead-of-n
+200	the_atlanta_journal_constitution_josh_	Opinion: Georgia GOP Chair Josh McKoon is betting on the Republican base	https://www.ajc.com/politics/2026/09/opinion-georgia-gop-chair-josh-mckoon-is-betting-on-the-re
+200	the_atlanta_journal_constitution_with_	Jon Ossoff’s general election campaign roars to life	https://www.ajc.com/politics/2026/06/with-millions-banked-jon-ossoffs-general-election-campaign
+200	national_republican_senatorial_committ	Mike Collins (R) Georgia &#8211; NRSC	https://www.nrsc.org/mike-collins/
+200	nra_political_victory_fund_georgia_a34	NRA-PVF | Grades | Georgia	https://www.nrapvf.org/grades/georgia/
+200	ajc_jon_ossoff_wants_more_than_a_win_a	Jon Ossoff wants more than a win against Mike Collins	https://www.ajc.com/politics/2026/08/jon-ossoff-wants-more-than-a-win-against-mike-collins/
+200	270towin_2026_polls_georgia_senate_d0b	2026 Polls: Georgia Senate - 270toWin	https://www.270towin.com/2026-senate-polls/georgia
+error	unknown		https://votes.decisiondeskhq.com/races/2026-11-03/georgia-us-senate-general-election/polling
+200	fiftyplusone_georgia_general_senate_el	FiftyPlusOne - Georgia General Senate Election Polls and Average for the 2026 General Election	https://fiftyplusone.news/polls/senate/general/georgia
+403	unknown		https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins
+200	research_co_florida_stays_red_texas_co	Florida Stays Red, Texas Could See Senate Swing in U.S. Election &#8211; Research Co.	https://researchco.ca/2026/11/02/midterms-2026-two/
+200	insideradvantage_it_figures_in_matt_to	It Figures&#8230;In Matt Towery and InsiderAdvantage&#8217;s Final Public Poll at the End of a 26 Year Career,	https://insideradvantage.com/it-figures-in-matt-towery-and-insideradvantages-final-public-poll-
+200	netchoice_netchoice_echelon_insights_p	NetChoice/Echelon Insights Poll: Voters Rank AI Regulation Far Behind Cost of Living, Want One National AI Sta	https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost
+error	unknown		https://www.activote.net/polls/2026/ga-u-s-senate/
+200	the_atlanta_journal_constitution_ajc_p	AJC poll: Jon Ossoff leads Mike Collins in Georgia’s U.S. Senate race	https://www.ajc.com/politics/2026/10/ajc-poll-ossoff-leads-collins-in-georgias-us-senate-race/
+200	trafalgar_group_georgia_statewide_gene		https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/GA-General-Report-1010.pdf
+200	insideradvantage_insideradvantage_geor	InsiderAdvantage Georgia Survey: Jackson Leads by Two in Race for Governor; Ossoff Leads by Eight in Senate Co	https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-g
+200	big_data_poll_peach_state_poll_jon_oss	Peach State Poll: Jon Ossoff Opens Up Lead Over Mike Collins in Georgia | BIG DATA POLL	https://www.bigdatapoll.com/blog/peach-state-poll-jon-ossoff-opens-up-lead-over-mike-collins-in
+200	rasmussen_reports_election_2026_georgi	Election 2026: Georgia Senate - Rasmussen Reports&reg;	https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_
+200	the_trafalgar_group_georgia_general_st		https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/GA-General-Full-Report-0912.pdf
+200	james_magazine_georgia_survey_of_likel		https://jamesmagazinega.com/wp-content/uploads/2026/08/InsiderAdvantage-Poll-8.18.26-Crosstabs.
+200	aarp_georgia_voter_survey_e9a71527.pdf		https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midt
+200	wick_what_1_175_likely_georgia_voters_	Georgia governor's race is tied as Ossoff leads Senate contest | Wick Research	https://wick.io/research-georgia-election-survey-june-2026
+200	fox_news_georgia_senate_and_governor_1		https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_june-23-27-2026_complete_geo
+200	tipp_insights_mike_collins_takes_early	Mike Collins Takes Early Lead In Georgia Senate Showdown — But Plurality Of Voters Are Undecided	https://tippinsights.com/mike-collins-takes-early-lead-in-georgia-senate-showdown-but-plurality
+200	the_trafalgar_group_georgia_us_senate_		https://www.thetrafalgargroup.org/wp-content/uploads/2025/04/GA-26-US-Senate-0428_Full-Report.p
+403	unknown		https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-dooley
+200	race_to_the_wh_2026_senate_polling_ave	2026 Senate Polling Average - Track All the Latest Polls &mdash; Race to the WH	https://www.racetothewh.com/senate/26polls
+403	unknown		https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-carter
+200	echelon_insights_netchoice_april_2026_		https://netchoice.org/wp-content/uploads/2026/04/NetChoice-Apr-2026-National-Antitrust-Survey-T
+200	atlanta_journal_constitution_ajc_poll_	Georgia Senate seat would be toss-up between Kemp and Ossoff	https://www.ajc.com/politics/georgia-senate-seat-would-be-toss-up-between-kemp-and-ossoff/ODLMO
+403	unknown		https://www.politico.com/news/2025/01/16/kemp-ossoff-poll-georgia-senate-00198719
+200	the_atlanta_journal_constitution_vote_	Vote to block transgender bill could hurt Jon Ossoff, new poll finds	https://www.ajc.com/politics/politically-georgia/vote-to-block-transgender-bill-could-hurt-jon-
+200	mediaite_2026_united_states_senate_ele	Jon Ossoff Gets an Almost Instant Victory Call	https://www.mediaite.com/media/news/jon-ossoff-gets-an-almost-instant-victory-call-in-purple-st
+200	npr_these_two_voter_turnout_trends_exp	A tale of 2 midterm election voter turnout trends in the South : NPR	https://www.npr.org/2026/11/13/nx-s1-6038701/midterm-election-voter-turnout-south
+200	cnn_voter_polls_for_election_results_2	Voter polls: Election 2026 | CNN Politics	https://www.cnn.com/elections/2026/voter-polls/georgia/general/us-senate/0
+200	gr_ossoff_wins_1fb5d7c6.html	U.S. Sen. Jon Ossoff wins reelection in Georgia and coasts to a second term &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/03/u-s-sen-jon-ossoff-wins-reelection-in-georgia-and-coasts
+200	gr_debate1_2757d92c.html	Collins, Ossoff trade personal insults during Georgia’s first U.S. Senate debate &#8226; Georgia Recorder	https://georgiarecorder.com/2026/10/08/collins-ossoff-trade-personal-insults-during-georgias-fi
+200	gr_debate2_51956ed7.html	Collins, Ossoff clash in a second heated debate as early voting begins in Georgia &#8226; Georgia Recorder	https://georgiarecorder.com/2026/10/13/collins-ossoff-clash-in-a-second-heated-debate-as-early-
+200	gr_five_things_d84b5d52.html	Five things to know about the upcoming Senate election in Georgia &#8226; Georgia Recorder	https://georgiarecorder.com/2026/05/13/five-things-to-know-about-the-upcoming-senate-election-i
+200	gr_fbi_raid_813887fe.html	Ossoff tells voters ‘we will overcome this together’ &#8226; Georgia Recorder	https://georgiarecorder.com/2026/02/07/ossoff-tells-supporters-we-will-overcome-this-together-a
+200	gr_save_voting_ac817b63.html	US Senate displays sharp divisions over SAVE voting bill demanded by Trump &#8226; Georgia Recorder	https://georgiarecorder.com/2026/03/18/repub/us-senate-displays-sharp-divisions-over-save-votin
+200	gr_soninlaw_7d24c7fe.html	Ossoff slams Collins over silence on reports of white nationalist ties &#8226; Georgia Recorder	https://georgiarecorder.com/2026/07/23/ossoff-slams-senate-gop-challenger-over-silence-on-repor
+200	gr_black_lawmakers_f0cd515d.html	Four dozen Black Georgia lawmakers press Collins on alleged ‘white nationalist’ ties &#8226; Georgia Recorder	https://georgiarecorder.com/2026/08/11/four-dozen-black-georgia-lawmakers-press-collins-on-alle
+200	gr_thune_da053aa3.html	Top U.S. Senate Republican stumps with Collins in Georgia as seat appears to slip out of reach &#8226; Georgia	https://georgiarecorder.com/2026/09/25/top-u-s-senate-republican-stumps-with-collins-in-georgia
+200	gr_20m_61351873.html	Ossoff rakes in another $20M, building on fundraising advantage in race for Georgia Senate seat &#8226; Georgi	https://georgiarecorder.com/2026/07/15/ossoff-rakes-in-another-20m-building-on-fundraising-adva
+200	gr_33m_b7058358.html	Ossoff reports raising another $33 million for homestretch of U.S. Senate reelection bid &#8226; Georgia Recor	https://georgiarecorder.com/2026/10/15/ossoff-reports-raising-another-33-million-for-homestretc
+200	gr_medicaid_ae346bac.html	Democratic wins put Medicaid expansion back in play in holdout states &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/09/repub/democratic-wins-put-medicaid-expansion-back-in-pla
+200	gr_latinos_85b113a9.html	Georgia’s Latinos shift toward Democratic candidates, for now &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/11/georgias-latinos-shift-toward-democratic-candidates-for-
+200	gr_black_turnout_0c60483c.html	Rise in Black voter turnout helps drive historic change in Georgia &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/16/rise-in-black-voter-turnout-helps-drive-historic-change-
+200	gr_blue_wave_b229a7ff.html	Georgia Democrats ride national blue wave into power in history-making election &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/06/georgia-democrats-ride-national-blue-wave-into-power-in-
+200	commons_ossoff_portrait_06d1198f.html	File:Jon Ossoff Senate Portrait 2021 (cropped).jpg - Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jon_Ossoff_Senate_Portrait_2021_(cropped).jpg
+200	commons_collins_portrait_7bd68135.html	File:Rep. Mike Collins official photo, 118th Congress (cropped).jpg - Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rep._Mike_Collins_official_photo,_118th_Congress_(cropp
+200	gr_s_runoff_09ba7078.html	You searched for runoff &#8226; Georgia Recorder	https://georgiarecorder.com/?s=runoff
+200	gr_s_primary_1fbf0e47.html	You searched for primary election &#8226; Georgia Recorder	https://georgiarecorder.com/?s=primary+election
+200	gr_s_collins2_1ba7fcbe.html	You searched for Collins &#8226; Page 3 of 380 &#8226; Georgia Recorder	https://georgiarecorder.com/page/3/?s=Collins
+200	gr_s_ossoff3_2dd42042.html	You searched for Ossoff &#8226; Page 3 of 50 &#8226; Georgia Recorder	https://georgiarecorder.com/page/3/?s=Ossoff
+200	gr_s_health_daaec357.html	You searched for Medicaid expansion &#8226; Georgia Recorder	https://georgiarecorder.com/?s=Medicaid+expansion
+200	gr_s_abortion_69254c09.html	You searched for abortion &#8226; Georgia Recorder	https://georgiarecorder.com/?s=abortion
+200	gr_s_guns_28f8d0d0.html	You searched for gun policy &#8226; Georgia Recorder	https://georgiarecorder.com/?s=gun+policy
+200	gr_s_israel_5bc5e0d9.html	You searched for Israel &#8226; Georgia Recorder	https://georgiarecorder.com/?s=Israel
+200	gr_s_immigration_1031a601.html	You searched for immigration &#8226; Georgia Recorder	https://georgiarecorder.com/?s=immigration
+200	gr_s_farm_0a1ac779.html	You searched for farmers &#8226; Georgia Recorder	https://georgiarecorder.com/?s=farmers
+200	gr_s_townhall_b99ddcf7.html	You searched for town hall &#8226; Georgia Recorder	https://georgiarecorder.com/?s=town+hall
+200	wiki_collins_talk_67fc64e8.html		https://en.wikipedia.org/w/index.php?title=Mike_Collins_(politician)&action=raw
+200	gr_ethics_collins_f03885d9.html	More details released about ethics investigation into Congressman Mike Collins and former top aide &#8226; Geo	https://georgiarecorder.com/2026/01/06/more-details-released-about-ethics-investigation-into-co
+200	gr_money_feb_ec6cd6cd.html	Ossoff’s dominance in the U.S. Senate money race continues &#8226; Georgia Recorder	https://georgiarecorder.com/2026/02/03/ossoffs-dominance-in-the-u-s-senate-money-race-continues
+200	gr_runoff_night_802d6464.html	Collins, who received last-minute Trump endorsement, wins fight to face Ossoff in November &#8226; Georgia Rec	https://georgiarecorder.com/2026/06/16/collins-wins-fight-to-face-ossoff-in-november/
+200	gr_trump_cobb_92577449.html	Trump&#039;s Cobb County visit boosts Republican candidates &#8226; Georgia Recorder	https://georgiarecorder.com/2026/07/22/trump-highlights-republican-candidates-urges-senate-to-p
+200	gr_jan6_pardon_de403904.html	‘That’s easy’: Collins tells pardoned Jan. 6 defendant that government should pay wronged Americans &#8226; Ge	https://georgiarecorder.com/2026/08/12/thats-easy-collins-tells-pardoned-jan-6-defendant-that-g
+200	gr_kemp_collins_b5aeff0c.html	Kemp backs Mike Collins in Georgia’s U.S. Senate race with election less than two months away &#8226; Georgia 	https://georgiarecorder.com/2026/09/14/kemp-backs-mike-collins-in-georgias-u-s-senate-race-with
+200	gr_trump_oct_d5207b19.html	Trump urges supporters to ‘pretend’ he’s on the ballot as he campaigns with Georgia Republicans &#8226; Georgi	https://georgiarecorder.com/2026/10/16/trump-urges-supporters-to-pretend-hes-on-the-ballot-as-h
+200	gr_harris_fc92b14d.html	Kamala Harris drops into Georgia to stump for Ossoff, down-ballot Democrats &#8226; Georgia Recorder	https://georgiarecorder.com/2026/10/29/kamala-harris-drops-into-georgia-to-stump-for-ossoff-dow
+200	gr_early_voting_16fe460b.html	Georgia voters kick off early voting with nearly 189,000 ballots cast &#8226; Georgia Recorder	https://georgiarecorder.com/2026/10/13/georgia-voters-kick-off-early-voting-with-over-185000-ba
+200	gr_runoff_preview_f4755e45.html	These statewide candidates are headed to June runoffs &#8226; Georgia Recorder	https://georgiarecorder.com/2026/05/22/take-two-these-democratic-republican-statewide-races-are
+200	gr_five_watch_9f91c988.html	Five things to watch in Georgia on Election Day &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/03/here-are-five-things-to-watch-as-georgia-voters-head-to-
+200	gr_dhs_minnesota_22e756dc.html	Ossoff, Warnock say they will not support DHS funding in wake of second fatal shooting in Minnesota &#8226; Ge	https://georgiarecorder.com/2026/01/26/ossoff-warnock-say-they-will-not-support-dhs-funding-in-
+200	gr_gop_outraise_ddba6be5.html	Republicans outraise Democrats in most — but not all — statewide races &#8226; Georgia Recorder	https://georgiarecorder.com/2026/08/12/gop-candidates-outraise-democrats-so-far-in-most-but-not
+200	gr_medicaid_nov12_4ddbbd71.html	Democratic wins revive Medicaid expansion push in Georgia, but new hurdles await &#8226; Georgia Recorder	https://georgiarecorder.com/2026/11/12/democratic-wins-revive-medicaid-expansion-push-in-georgi
+200	gr_register_deadline_b47c3fad.html	Time is running short to register to vote in Georgia’s May 19 primary election &#8226; Georgia Recorder	https://georgiarecorder.com/2026/04/17/time-is-running-short-to-register-to-vote-in-georgias-ma
+404	unknown		https://results.sos.ga.gov/results/public/api/elections/06162026GeneralPrimaryRunoff
+404	unknown		https://results.sos.ga.gov/api/results/public/Georgia/elections/06162026GeneralPrimaryRunoff

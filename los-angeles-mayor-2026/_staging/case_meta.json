@@ -1,0 +1,47 @@
+{
+  "slug": "los-angeles-mayor-2026",
+  "race_name": "2026 Los Angeles mayoral election",
+  "race_name_zh": "2026 年洛杉矶市长选举",
+  "case_number": 8,
+  "candidates": [
+    {
+      "id": "RAMAN",
+      "name": "Nithya Raman",
+      "party": "Nonpartisan",
+      "lower": "raman"
+    },
+    {
+      "id": "BASS",
+      "name": "Karen Bass",
+      "party": "Nonpartisan",
+      "lower": "bass"
+    }
+  ],
+  "county_keys": [
+    "raman",
+    "bass"
+  ],
+  "poll_keys": [
+    "raman",
+    "bass"
+  ],
+  "result": {
+    "winner": "RAMAN",
+    "margin_pct": 9.8,
+    "source": "SRC-0001"
+  },
+  "state_regions": [
+    "Central LA",
+    "San Fernando Valley",
+    "Westside",
+    "South LA",
+    "Harbor",
+    "Eastside",
+    "statewide",
+    "national",
+    "unknown"
+  ],
+  "phenomenon_en": "Campaign styling, a woman politician's personal style and incumbency.",
+  "phenomenon_zh": "竞选造型、女性政治人物个人风格与现任者身份。",
+  "election_date": "2026-11-03"
+}

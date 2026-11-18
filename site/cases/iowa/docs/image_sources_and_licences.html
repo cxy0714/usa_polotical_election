@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>image_sources_and_licences</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Iowa Senate 2026 / 2026 年艾奥瓦州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">image_sources_and_licences<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 04_visual_archive/image_sources_and_licences.md</div><h1>Image sources and licences / 图片来源与授权</h1>
+<h2>What was downloaded / 已下载文件</h2>
+<div class="table-wrap"><table><thead><tr><th>File / 文件</th><th>Candidate / 候选人</th><th>Licence / 授权</th><th>Resolution / 分辨率</th><th>Bytes</th></tr></thead><tbody>
+<tr><td><code>hinson_2024_official_portrait.jpg</code></td><td>Hinson</td><td>Public domain (U.S. House official portrait)</td><td>1365x2048 (kept at 1100 px)</td><td>188,680</td></tr>
+<tr><td><code>hinson_official_portrait_cropped2.jpg</code></td><td>Hinson</td><td>Public domain (U.S. House official portrait)</td><td>1004x1362 (kept at 800 px)</td><td>208,800</td></tr>
+<tr><td><code>hinson_ia02_district_portrait.jpg</code></td><td>Hinson</td><td>Public domain (U.S. House)</td><td>335x410 (kept at 320 px)</td><td>21,930</td></tr>
+<tr><td><code>senators_elect_schumer_2026_11_09.jpg</code></td><td>Turek (in group)</td><td>Public domain (U.S. Senate)</td><td>4096x2731 (kept at 1600 px)</td><td>793,443</td></tr>
+</tbody></table></div>
+<p>中文：实际下载四张，均为公有领域（美国众议院官方肖像、参议院官方合影），全部小于 1 MB。Hinson 的三张为其国会官方肖像的不同版本；Turek 唯一可下载的图像是 2026 年 11 月 9 日当选参议员与参议院少数党领袖舒默的合影，图注明确列出 &quot;Josh Turek (IA)&quot;。</p>
+<h2>What was deliberately not downloaded / 有意未下载</h2>
+<p>Turek&#x27;s four Iowa Legislature portraits (<code>Joshua Turek.jpg</code> and three crops) carry the licence <strong>&quot;Copyrighted free use&quot;</strong>, which is not one of the four licences this project permits for download (PD, CC0, CC BY, CC BY-SA). They are recorded in <code>image_archive.csv</code> with <code>local_filename = unknown</code> and remain link-only.</p>
+<p>中文：Turek 的四张州议会官方肖像授权为 &quot;Copyrighted free use&quot;，不属于本项目允许下载的四种授权，因此仅记录链接，不下载文件。</p>
+<h2>Operational note / 操作说明</h2>
+<p>The Wikimedia thumbnail service returned HTTP 429 (rate limited) for several later requests, so <code>Ashley Hinson 119th Congress.jpg</code>, <code>Ashley Hinson (IA-01).jpg</code> and the IA-02 portrait were not all retrieved; the two that mattered most for licensing coverage were downloaded first. No image was inspected visually — this archive was compiled without image input — so every framing, lens and clothing field is <code>unknown</code> unless the Commons description states it.</p>
+<p>中文：维基共享资源的缩略图服务在后续请求中返回 429 限流，部分可下载文件未能取得；本档案在无图像输入的环境下编制，除共享资源说明文字外，构图、镜头与着装字段一律记为 unknown，不作推测。</p>
+<h2>Reuse rule / 复用规则</h2>
+<p>Each row in <code>image_archive.csv</code> carries <code>source_url</code> (the Commons file page), <code>original_image_url</code>, <code>photographer</code>, <code>license</code> and <code>copyright_status</code>. Re-users must check the Commons file page before republication; a public-domain U.S. House portrait still carries a courtesy expectation of credit to the photographer/office named there.</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

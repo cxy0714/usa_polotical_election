@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>data_dictionary_bilingual</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Ohio Senate 2026 (special) / 2026 年俄亥俄州联邦参议员特别选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">data_dictionary_bilingual<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 09_sources/data_dictionary_bilingual.md</div><h1>Data dictionary / 数据字典</h1>
+<h2>1. Shared conventions / 通用约定</h2>
+<div class="table-wrap"><table><thead><tr><th>Field pattern</th><th>Meaning / 含义</th></tr></thead><tbody>
+<tr><td><code>*_id</code></td><td>Stable identifier; never reused. <code>SRC-####</code> for sources, <code>EV-###</code> events, <code>POS-###</code> positions.</td></tr>
+<tr><td><code>source_urls</code></td><td>Exactly one `SRC-####</td><td>https://…<code> pair; the id must exist in </code>sources.csv` and the URL must match it.</td></tr>
+<tr><td><code>verification_status</code></td><td><code>verified</code>, <code>partially verified</code>, <code>unverified</code>, <code>conflicting sources</code>.</td></tr>
+<tr><td>dates</td><td>ISO <code>YYYY-MM-DD</code>; <code>unknown</code> when no record fixes the date.</td></tr>
+<tr><td><code>unknown</code></td><td>A value, not a placeholder.</td></tr>
+</tbody></table></div>
+<p><code>source_urls</code> 单元格只允许一个 <code>SRC-####|https://…</code> 组合，且必须与 <code>sources.csv</code> 对应行一致。</p>
+<h2>2. <code>09_sources/sources.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>source_id</code></td><td><code>SRC-####</code>, assigned in retrieval order.</td></tr>
+<tr><td><code>url</code></td><td>The exact URL retrieved and mirrored.</td></tr>
+<tr><td><code>title</code></td><td>Page title as served, or a descriptive title where the page is a PDF/API response.</td></tr>
+<tr><td><code>publisher</code></td><td>Domain owner, mapped from the host.</td></tr>
+<tr><td><code>publication_date</code></td><td>Date the page states it was published (<code>unknown</code> if absent).</td></tr>
+<tr><td><code>event_date</code></td><td>Date of the event the source documents (may equal <code>publication_date</code>).</td></tr>
+<tr><td><code>access_date</code></td><td>Always <code>2026-11-18</code> for this case.</td></tr>
+<tr><td><code>source_tier</code></td><td><code>T1</code> official, <code>T2</code> journalism, <code>T3</code> synthesis.</td></tr>
+<tr><td><code>source_type</code></td><td><code>official_government</code>, <code>official_campaign</code>, <code>news_article</code>, <code>poll</code>, <code>press_release</code>, <code>photo</code>, <code>encyclopedia</code>, <code>analysis</code>, <code>op_ed</code>, <code>fact_check</code>, <code>other</code>.</td></tr>
+<tr><td><code>relevant_quote_or_info</code></td><td>The specific fact or quote this source supplies.</td></tr>
+<tr><td><code>reliability_notes</code></td><td>Provenance caveats: paywall, syndication, JS shell, 403 mirror substitution.</td></tr>
+<tr><td><code>used_by</code></td><td>Which dataset or document relies on it.</td></tr>
+</tbody></table></div>
+<h2>3. <code>01_candidates/policy_positions.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>position_id</code></td><td><code>POS-###</code>.</td></tr>
+<tr><td><code>candidate_id</code></td><td><code>BROWN</code> or <code>HUSTED</code>.</td></tr>
+<tr><td><code>issue</code></td><td>Controlled: <code>Economy</code>, <code>Healthcare</code>, <code>Education</code>, <code>Immigration</code>, <code>Abortion</code>, <code>Gun policy</code>, <code>Energy</code>, <code>Religion</code>, <code>Labor</code>, <code>Democracy</code>, <code>Foreign policy</code>, <code>Other</code>.</td></tr>
+<tr><td><code>subissue</code></td><td>Free text narrowing the issue (e.g. &quot;data centers and electricity bills&quot;).</td></tr>
+<tr><td><code>position_summary</code></td><td>One-sentence analytic summary.</td></tr>
+<tr><td><code>candidate_statement</code></td><td>Verbatim quote with attribution, or &quot;no verbatim statement retrieved in this archive&quot;.</td></tr>
+<tr><td><code>statement_date</code></td><td>Date of the statement (<code>unknown</code> if the source does not date it).</td></tr>
+<tr><td><code>context</code></td><td>Where and how the statement was made (interview, survey, hearing, rally).</td></tr>
+<tr><td><code>legislative_record</code></td><td>Votes, bills, sponsorships relevant to the position.</td></tr>
+<tr><td><code>position_changed</code></td><td><code>yes</code>, <code>no</code>, <code>partial</code>, <code>unknown</code>.</td></tr>
+<tr><td><code>change_notes</code></td><td>What changed and when, where documented.</td></tr>
+<tr><td><code>opponent_criticism</code></td><td>The other campaign&#x27;s attack on this position.</td></tr>
+<tr><td><code>fact_check</code></td><td>Independent check of a numeric or factual claim, or <code>not applicable</code>.</td></tr>
+</tbody></table></div>
+<h2>4. <code>02_campaign_events/campaign_events.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>event_id</code></td><td><code>EV-###</code>.</td></tr>
+<tr><td><code>event_time</code></td><td>Clock time if reported, else <code>unknown</code>.</td></tr>
+<tr><td><code>event_category</code></td><td>Controlled vocabulary (<code>rally</code>, <code>endorsement_event</code>, <code>press_conference</code>, <code>swearing_in</code>, <code>appointment_announcement</code>, <code>victory_speech</code>, <code>concession_speech</code>, <code>watch_party</code>, <code>small_business_visit</code>, <code>workplace_visit</code>, <code>labor_event</code>, <code>party_event</code>, <code>other</code>).</td></tr>
+<tr><td><code>state_region</code></td><td><code>Northeast</code>, <code>Northwest</code>, <code>Central</code>, <code>Southwest</code>, <code>Southeast</code>, <code>statewide</code>, <code>national</code>, <code>unknown</code>.</td></tr>
+<tr><td><code>event_status</code></td><td><code>held</code>, <code>announced</code>, <code>cancelled</code>, <code>postponed</code>, <code>rescheduled</code>, <code>virtual</code>, <code>unverified</code>, <code>disputed</code>.</td></tr>
+<tr><td><code>campaign_phase</code></td><td><code>pre_launch</code>, <code>launch</code>, <code>primary</code>, <code>runoff</code>, <code>general</code>, <code>early_voting</code>, <code>gotv</code>, <code>election_day</code>, <code>post_election</code>.</td></tr>
+<tr><td><code>stated_purpose</code></td><td>What the campaign said the event was for.</td></tr>
+<tr><td><code>observable_function</code></td><td>What the event actually does mechanically (mobilisation, coalition signalling, result-claiming).</td></tr>
+<tr><td><code>analyst_interpretation</code></td><td>Clearly-labelled inference.</td></tr>
+<tr><td><code>target_audience</code></td><td>Whom the event addressed.</td></tr>
+<tr><td><code>main_messages</code></td><td>Reported message content.</td></tr>
+<tr><td><code>policy_issues</code></td><td>Issues raised at the event.</td></tr>
+<tr><td><code>speech_summary</code></td><td>Summary of what was said, or <code>unknown</code>.</td></tr>
+<tr><td><code>transcript_url</code>, <code>video_url</code>, <code>photo_urls</code></td><td>Direct media URLs or <code>unknown</code>.</td></tr>
+<tr><td><code>media_coverage</code></td><td>Which retrieved reports covered the event.</td></tr>
+<tr><td><code>opponent_reference</code></td><td>Whether and how the opponent was named.</td></tr>
+<tr><td><code>visual_notes</code></td><td>What a retrieved photograph shows.</td></tr>
+</tbody></table></div>
+<h2>5. <code>07_electoral_context/election_results.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>race_id</code></td><td><code>OH-SEN-2026-SPECIAL</code>, or a per-candidate row id.</td></tr>
+<tr><td><code>candidate</code></td><td>Candidate name as printed.</td></tr>
+<tr><td><code>party</code></td><td><code>Democratic</code>, <code>Republican</code>, <code>Libertarian</code>, <code>Party for Socialism and Liberation</code>.</td></tr>
+<tr><td><code>votes</code></td><td>Integer vote count.</td></tr>
+<tr><td><code>percentage</code></td><td>Printed share, two decimals, with <code>%</code> omitted.</td></tr>
+<tr><td><code>winner</code></td><td><code>yes</code> / <code>no</code>.</td></tr>
+</tbody></table></div>
+<h2>6. <code>07_electoral_context/polling.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>pollster</code> / <code>sponsor</code></td><td>Field house and paying client (separate columns).</td></tr>
+<tr><td><code>field_start</code> / <code>field_end</code></td><td>Fieldwork window, ISO.</td></tr>
+<tr><td><code>population</code></td><td><code>likely voters</code>, <code>registered voters</code>, <code>adults</code>.</td></tr>
+<tr><td><code>sample_size</code></td><td>Integer.</td></tr>
+<tr><td><code>margin_of_error</code></td><td>As printed (e.g. <code>3.1</code>).</td></tr>
+<tr><td><code>brown_pct</code> / <code>husted_pct</code></td><td>Two-way shares as printed.</td></tr>
+<tr><td><code>other_pct</code> / <code>undecided_pct</code></td><td>Remainder, split where the release splits it.</td></tr>
+<tr><td><code>leader</code></td><td>Candidate leading in that poll.</td></tr>
+<tr><td><code>margin</code></td><td>Leader&#x27;s lead in points.</td></tr>
+</tbody></table></div>
+<h2>7. <code>06_campaign_finance/campaign_finance.csv</code></h2>
+<p><code>period</code> is ISO (<code>2026-09-30</code>) or <code>YYYY-Qn</code>; <code>report_type</code> names the filing; <code>receipts</code>, <code>disbursements</code>, <code>cash_on_hand</code> are integers as printed; <code>individual_contributions</code>, <code>pac_contributions</code>, <code>debts_owed</code> are <code>unknown</code> when the source table omits them.</p>
+<h2>8. <code>03_speeches/speech_archive.csv</code> and <code>speech_video_index.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>speech_id</code></td><td><code>SP-###</code>.</td></tr>
+<tr><td><code>event_id</code></td><td>The <code>EV-###</code> this speech belongs to, or <code>unknown</code> where the speech was an interview or a statement with no archived event.</td></tr>
+<tr><td><code>speech_url</code> / <code>transcript_url</code></td><td>Direct audio/video or transcript URL; <code>unknown</code> where only reporting exists.</td></tr>
+<tr><td><code>duration</code></td><td>Seconds, as stated in the file metadata; <code>unknown</code> where no recording exists.</td></tr>
+<tr><td><code>major_quotes</code></td><td>Verbatim quotes only. Where the source paraphrases, this cell says so instead of inventing a quote.</td></tr>
+<tr><td><code>rhetorical_devices</code></td><td>Named devices observed in the quoted passage; <code>unknown</code> where nothing is quoted.</td></tr>
+<tr><td><code>source</code></td><td>What kind of document the quotes come from (report, release, floor record).</td></tr>
+</tbody></table></div>
+<p><code>speech_video_index.csv</code> uses <code>video_id</code> (<code>VID-###</code>), <code>video_url</code>, <code>completeness</code> (<code>full</code>, <code>partial</code>, <code>clip</code>, <code>unknown</code>) and <code>visual_observations</code>, which is <code>unknown</code> whenever the archiver did not inspect the file.</p>
+<h2>9. <code>04_visual_archive/image_archive.csv</code></h2>
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+<tr><td><code>image_id</code></td><td><code>IMG-###</code>.</td></tr>
+<tr><td><code>event_id</code></td><td>Dated event the image documents, or <code>unknown</code>.</td></tr>
+<tr><td><code>source_url</code></td><td>The Wikimedia Commons <strong>file page</strong> (not the binary URL); the binary is in <code>original_image_url</code>.</td></tr>
+<tr><td><code>photographer</code></td><td>Credit string from the Commons API, required for CC BY / CC BY-SA reuse.</td></tr>
+<tr><td><code>copyright_status</code></td><td><code>public_domain</code>, <code>licensed</code>, <code>all_rights_reserved_link_only</code>, <code>unknown</code>.</td></tr>
+<tr><td><code>license</code></td><td>The licence string exactly as the API returns it.</td></tr>
+<tr><td><code>local_filename</code></td><td>Path under <code>04_visual_archive/</code>, or <code>unknown</code> for catalogue-only rows.</td></tr>
+<tr><td><code>image_resolution</code></td><td><code>WxH</code> in pixels, from the API or measured from the downloaded file.</td></tr>
+<tr><td><code>framing</code></td><td>Read from the Commons title/description only.</td></tr>
+<tr><td><code>clothing_notes</code>, <code>camera_angle</code>, <code>face_visibility</code>, <code>body_visibility</code></td><td><code>unknown</code> throughout: this build has no image-reading step, and no retrieved caption describes them.</td></tr>
+</tbody></table></div>
+<h2>10. <code>05_campaign_media/</code> — three tables</h2>
+<p><code>advertisements.csv</code>: <code>ad_id</code> (<code>AD-###</code>), <code>sponsor_type</code> (controlled: <code>candidate_campaign</code>, <code>authorized_committee</code>, <code>outside_pac</code>, <code>party_committee</code>, <code>unknown</code>), <code>main_claims</code> (transcript excerpt or a statement that no script was retrieved), <code>fact_check</code>, <code>video_url</code> (often <code>unknown</code> because ad libraries were unreachable).</p>
+<p><code>social_media.csv</code>: <code>post_id</code> (<code>SOC-###</code>), <code>platform</code>, <code>account_handle</code>, <code>post_date</code>, <code>post_type</code>, <code>url</code>. Where a post could not be retrieved directly, <code>notes</code> says how it was documented — quoted in reporting, quoted in a Commons description, or a post later deleted.</p>
+<p><code>media_coverage.csv</code>: <code>coverage_id</code> (<code>MC-###</code>), <code>coverage_type</code> (controlled), and a plain <code>url</code> column (not <code>source_urls</code>) holding the article URL; <code>key_framing</code> is the analyst&#x27;s reading of the article&#x27;s angle, while <code>notable_quotes</code> holds only text the article actually prints.</p>
+<h2>11. <code>07_electoral_context/county_results.csv</code></h2>
+<p><code>county_id</code>, <code>county</code>, <code>brown_votes</code>, <code>husted_votes</code>, <code>other_votes</code>, <code>brown_pct</code>, <code>husted_pct</code>, <code>total_votes</code>, <code>source_urls</code>, <code>verification_status</code>. <strong>This file holds a header and zero rows</strong> in this build: no county vote table was retrievable. See <code>results_notes.md</code>, &quot;The county picture&quot;.</p>
+<h2>12. <code>01_candidates/&lt;candidate&gt;/career_timeline.csv</code></h2>
+<p><code>entry_id</code>, <code>candidate_id</code>, <code>start_date</code> / <code>end_date</code> (ISO or <code>unknown</code>), <code>role_or_event</code>, <code>organization</code>, <code>location</code>, <code>description</code>, <code>source_urls</code>, <code>verification_status</code>. Dates for Husted&#x27;s Senate service start at 2025-01-21 (the oath), not at the appointment.</p>
+<h2>13. Vocabularies enforced by the validator / 校验器强制词表</h2>
+<p><code>event_status</code>, <code>campaign_phase</code>, <code>event_category</code>, <code>issue</code>, <code>sponsor_type</code>, <code>coverage_type</code>, <code>copyright_status</code>, <code>verification_status</code>, <code>source_tier</code>, <code>source_type</code>, <code>completeness</code>, <code>winner</code>. <code>04_visual_archive/image_archive.csv</code> is the one place where <code>event_category</code> is free text, because images can document things that are not campaign events.</p>
+<p><code>image_archive.csv</code> 的 <code>event_category</code> 是唯一允许自由文本的枚举列（图片可记录非竞选活动的内容）。</p>
+<h2>14. Bilingual field labels for the main tables / 主要表双语字段</h2>
+<div class="table-wrap"><table><thead><tr><th>English</th><th>中文</th></tr></thead><tbody>
+<tr><td>votes</td><td>得票数</td></tr>
+<tr><td>percentage</td><td>得票率</td></tr>
+<tr><td>winner</td><td>是否当选</td></tr>
+<tr><td>receipts</td><td>收入</td></tr>
+<tr><td>disbursements</td><td>支出</td></tr>
+<tr><td>cash_on_hand</td><td>期末现金</td></tr>
+<tr><td>pollster</td><td>民调机构</td></tr>
+<tr><td>sponsor</td><td>委托方</td></tr>
+<tr><td>margin_of_error</td><td>误差范围</td></tr>
+<tr><td>sample_size</td><td>样本量</td></tr>
+<tr><td>field_start / field_end</td><td>实地调查起止日</td></tr>
+<tr><td>county</td><td>县</td></tr>
+<tr><td>event_category</td><td>活动类型</td></tr>
+<tr><td>campaign_phase</td><td>竞选阶段</td></tr>
+<tr><td>verification_status</td><td>核实状态</td></tr>
+<tr><td>source_tier</td><td>来源层级</td></tr>
+</tbody></table></div>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

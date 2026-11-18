@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>_research_conventions</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Michigan Senate 2026 / 2026 年密歇根州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">_research_conventions<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / _research_conventions.md</div><h2>Scope of work</h2>
+<p>This archive was built inside <code>michigan-senate-2026/</code> only. Shared files under <code>_research/2026/</code> were read; no other case folder, no <code>site/</code> file and no <code>_tools/</code> file was modified. No HTML was produced, and no website build was run.</p>
+<p>中文：本档案仅在 <code>michigan-senate-2026/</code> 内构建。仅读取了 <code>_research/2026/</code> 下的共享文件；未修改任何其他案例目录、<code>site/</code> 文件或 <code>_tools/</code> 文件。未生成任何 HTML，也未运行网站构建。</p>
+<h2>Identifiers</h2>
+<p>Events use <code>ELS-EVT-####</code> and <code>ROG-EVT-####</code>; speeches <code>ELS-SPC-####</code> / <code>ROG-SPC-####</code>; ads <code>ELS-AD-####</code> / <code>ROG-AD-####</code> with outside spending taking <code>EXT-AD-####</code>; images <code>ELS-IMG-####</code> / <code>ROG-IMG-####</code>; social posts <code>ELS-SOC-####</code> / <code>ROG-SOC-####</code>; coverage <code>COV-####</code>; finance <code>ELS-FIN-####</code> / <code>ROG-FIN-####</code>; positions <code>ELS-POS-####</code> / <code>ROG-POS-####</code>; career entries <code>ELS-CAR-####</code> / <code>ROG-CAR-####</code>; video <code>ELS-VID-####</code> / <code>ROG-VID-####</code>. Sources use a single <code>SRC-####</code> sequence across the case, assigned in registry order and never reused. The three-letter candidate code is <code>ELS</code> and <code>ROG</code>; no collision occurred, so no four-letter variant was needed.</p>
+<p>中文：事件使用 <code>ELS-EVT-####</code> 与 <code>ROG-EVT-####</code>；演说 <code>ELS-SPC-####</code> / <code>ROG-SPC-####</code>；广告 <code>ELS-AD-####</code> / <code>ROG-AD-####</code>，外部支出用 <code>EXT-AD-####</code>；影像 <code>ELS-IMG-####</code> / <code>ROG-IMG-####</code>；社交帖文 <code>ELS-SOC-####</code> / <code>ROG-SOC-####</code>；报道 <code>COV-####</code>；财务 <code>ELS-FIN-####</code> / <code>ROG-FIN-####</code>；立场 <code>ELS-POS-####</code> / <code>ROG-POS-####</code>；年表 <code>ELS-CAR-####</code> / <code>ROG-CAR-####</code>；视频 <code>ELS-VID-####</code> / <code>ROG-VID-####</code>。来源使用全案例唯一的 <code>SRC-####</code> 序列，按登记表顺序分配，绝不重复使用。三位候选人代号为 <code>ELS</code> 与 <code>ROG</code>，无冲突，故无需四字母变体。</p>
+<h2>One source per cell, corroboration in the notes</h2>
+<p>Contract §1 allows exactly one <code>SRC-####|https://…</code> pair in a <code>source_urls</code> cell, and the validator compares that URL against the registry, so every CSV cell carries its single primary source. Where a row rests on more than one source, the corroborating material is named in a prose column (<code>analyst_notes</code>, <code>notes</code>, <code>reliability_notes</code> or <code>fact_check</code>) and both sources appear in that source&#x27;s <code>used_by</code> list. This is why a row can be <code>verified</code> while its <code>source_urls</code> cell names only one outlet: the second outlet is in the note.</p>
+<p>中文：合同 §1 规定 <code>source_urls</code> 单元格只能有一个 <code>SRC-####|https://…</code> 对，且校验脚本会将该 URL 与登记表比对，因此每个 CSV 单元格只携带其唯一主来源。若某行依赖多个来源，佐证材料在文字列（<code>analyst_notes</code>、<code>notes</code>、<code>reliability_notes</code> 或 <code>fact_check</code>）中指名，且两个来源都会出现在各自来源的 <code>used_by</code> 列表中。这就是为何某行可以标为 <code>verified</code>，而其 <code>source_urls</code> 只写一家媒体：第二家写在注释里。</p>
+<h2>Tier assignment is mechanical</h2>
+<p><code>T1</code> — government domains (<code>michigan.gov</code>, <code>miboecfr</code>, <code>fec.gov</code>, <code>senate.gov</code>, <code>congress.gov</code>), a campaign&#x27;s own site, and a trade association announcing its own endorsement. <code>T2</code> — established outlets with editorial standards, including specialised ones (Jewish Insider, Bridge Michigan, MLive, Michigan Advance, Crain&#x27;s). <code>T3</code> — Wikipedia, without exception, even where the content is correct. A tier was never raised because a source happened to agree with another source.</p>
+<p>中文：<code>T1</code>——政府域名（<code>michigan.gov</code>、<code>miboecfr</code>、<code>fec.gov</code>、<code>senate.gov</code>、<code>congress.gov</code>）、竞选方自身网站、以及行业协会宣布自身背书。<code>T2</code>——具备编辑标准的成熟媒体，包括专业媒体（Jewish Insider、Bridge Michigan、MLive、Michigan Advance、Crain&#x27;s）。<code>T3</code>——维基百科，无一例外，即便其内容正确。绝不因某来源恰好与其他来源一致而提升其层级。</p>
+<h2>The verification ladder as used here</h2>
+<p><code>verified</code> requires the fact to be readable first-hand in the primary source: a debate passage printed by the outlet that covered the debate, an official candidate listing, a file&#x27;s own metadata. <code>partially verified</code> is used whenever the fact arrived through an intermediary — most finance figures (Wikipedia citing the FEC, whose own page is JavaScript-rendered), most polls (the Wikipedia table), and every election result (state pages returned 403). <code>conflicting sources</code> is used where two retained sources disagree and neither is preferred: the Mitchell Research poll of October 1, and Rogers&#x27; post-election statement. <code>unverified</code> is used where a fact is asserted without a retrievable account: the AIPAC fundraisers&#x27; date, the candidate advertising rows.</p>
+<p>中文：<code>verified</code> 要求该事实可在一手来源中直接读到：报道该辩论的媒体刊出的段落、官方候选人名录、文件自身元数据。凡经中间环节取得，即用 <code>partially verified</code>——多数财务数字（维基百科转引 FEC，而 FEC 自身页面为 JavaScript 渲染）、多数民调（维基百科表格）、以及全部选举结果（州级页面返回 403）。两份保留来源互相矛盾且均不优先时用 <code>conflicting sources</code>：10 月 1 日的 Mitchell Research 民调，以及罗杰斯的选后声明。仅被主张而无可取得记述时用 <code>unverified</code>：AIPAC 筹款会的日期、候选人广告相关行。</p>
+<h2>Dates, <code>unknown</code>, and refusing to round</h2>
+<p>Dates are ISO. Where a source gives only a year, the cell holds the year&#x27;s first day and the uncertainty is stated in a note — the alternative, <code>unknown</code>, is used only when no date at all is available. Birth dates and event dates are never inferred from context. <code>unknown</code> is a legal value in every text column and is used instead of <code>0</code>, <code>N/A</code> or <code>TBD</code>; a percentage is never written as <code>0</code> to mean &quot;not tested&quot;.</p>
+<p>中文：日期一律 ISO。若来源仅给出年份，单元格写该年第一天，并在注释中说明不确定性——只有在完全没有任何日期时才用 <code>unknown</code>。出生日期与事件日期绝不依据上下文推断。<code>unknown</code> 在所有文本列中均为合法值，用以替代 <code>0</code>、<code>N/A</code> 或 <code>TBD</code>；绝不以 <code>0</code> 表示“未测试”的百分比。</p>
+<h2>The <code>local</code> row in the fetch log</h2>
+<p><code>_staging/fetch_log.csv</code> records HTTP retrievals with <code>url,http_status,bytes,fetched_at,saved_file</code>. One row has <code>http_status</code> = <code>local</code>: the Wikipedia wikitext mirror copied from <code>_research/2026/michigan.wikitext</code> into <code>_staging/mirrors/wiki_michigan.wikitext</code>. It is marked <code>local</code> rather than given a fake 200 so the log stays truthful about what was fetched over the network and what was copied from the repository.</p>
+<p>中文：<code>_staging/fetch_log.csv</code> 以 <code>url,http_status,bytes,fetched_at,saved_file</code> 记录 HTTP 抓取。其中一行 <code>http_status</code> 为 <code>local</code>：从 <code>_research/2026/michigan.wikitext</code> 复制到 <code>_staging/mirrors/wiki_michigan.wikitext</code> 的维基百科维基文本镜像。标为 <code>local</code> 而非伪造 200，以使日志如实区分“通过网络抓取”与“从仓库复制”。</p>
+<h2>Outside money is never summed with committee money</h2>
+<p><code>06_campaign_finance/campaign_finance.csv</code> keeps two accounting families in separate rows: candidate-committee receipts and disbursements (FEC basis) and independent expenditures (AdImpact, FEC IE filings or press tallies). No row, note or markdown document adds them together. Where a total is quoted — the $243 million race total — the source and its basis are named and the figure is explicitly excluded from the FEC totals <span class="src">SRC-0073</span>.</p>
+<p>中文：<code>06_campaign_finance/campaign_finance.csv</code> 将两类核算分开存放：候选人委员会的收支（FEC 口径）与独立支出（AdImpact、FEC 独立支出申报或媒体统计）。任何行、注释或 Markdown 文档都不将二者相加。引用总额时——如 2.43 亿美元的选举总额——均注明来源与口径，并明确将其排除在 FEC 总额之外 <span class="src">SRC-0073</span>。</p>
+<h2>Inference is always labelled</h2>
+<p><code>analyst_interpretation</code> cells begin with the literal token <code>INTERPRETATION:</code> and nothing else in the event file is allowed to read as inference. In markdown, interpretive passages are bounded by the paragraph that states the underlying fact, and any sentence beginning &quot;INTERPRETATION&quot; or &quot;This suggests&quot; is followed by the evidence it rests on. No crowd size, venue, quote, dollar figure or date was invented to fill a gap; where a gap existed it was left as <code>unknown</code> and written up in <code>research_gaps.md</code>.</p>
+<p>中文：<code>analyst_interpretation</code> 单元格恒以字面标记 <code>INTERPRETATION:</code> 开头，事件文件中其他任何内容都不得读作推断。在 Markdown 中，解释性段落由其陈述事实的段落界定；任何以“INTERPRETATION”或“这表明”开头的句子后均附其所依据的证据。绝不为填补缺口而虚构人数、场地、引语、金额或日期；存在缺口时一律留为 <code>unknown</code>，并写入 <code>research_gaps.md</code>。</p>
+<h2>Chinese text and file encoding</h2>
+<p>Every file in this case is UTF-8 without BOM, written through Python with an explicit <code>encoding=&quot;utf-8&quot;</code>. PowerShell string cmdlets were avoided for content work because they mangle Chinese text on this machine. Percentages and dates inside Chinese sentences are kept in the same form as the English so that the two can be diffed mechanically.</p>
+<p>中文：本案例所有文件均为无 BOM 的 UTF-8，通过 Python 以显式 <code>encoding=&quot;utf-8&quot;</code> 写入。内容处理中避免使用 PowerShell 的字符串命令，因为其在本机上会破坏中文文本。中文句子中的百分比与日期保持与英文相同的写法，以便二者可被机械比对。</p>
+<h2>Build scripts</h2>
+<p>The data was emitted by scripts in <code>_staging/_work/</code>: <code>b_common.py</code> holds the 87-source registry and the CSV writer that enforces header order, fills <code>unknown</code> and reconstructs each source&#x27;s <code>used_by</code>; <code>b1.py</code> writes positions, careers and events; <code>b2.py</code> writes speeches, video index and images; <code>b3.py</code> writes media, finance, results and polling; <code>b4_sources.py</code> regenerates <code>09_sources/sources.csv</code> by scanning every file in the case for <code>SRC-####</code> citations. Scripts are not part of the deliverable but are retained so the archive can be rebuilt.</p>
+<p>中文：数据由 <code>_staging/_work/</code> 中的脚本生成：<code>b_common.py</code> 保存 87 个来源的登记表，以及强制表头顺序、填充 <code>unknown</code> 并重建每个来源 <code>used_by</code> 的写入函数；<code>b1.py</code> 写入立场、年表与事件；<code>b2.py</code> 写入演说、视频索引与影像；<code>b3.py</code> 写入媒体、财务、结果与民调；<code>b4_sources.py</code> 通过扫描案例内所有文件中的 <code>SRC-####</code> 引用来重新生成 <code>09_sources/sources.csv</code>。脚本不属交付物，但予保留以便档案可重建。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

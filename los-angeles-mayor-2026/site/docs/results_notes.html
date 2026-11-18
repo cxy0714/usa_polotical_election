@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>results_notes</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body class="wide">
+<header class="top"><div class="top-in">
+  <div class="brand">results_notes<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="../docs/index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 07_electoral_context/results_notes.md</div><h1>Results notes / 结果说明</h1>
+<h2>1. What the numbers rest on / 数字的依据</h2>
+<p><strong>Primary.</strong> Every candidate row comes from the NBC News live-results page <span class="src">SRC-0021</span>, whose saved HTML embeds a results JSON with each candidate&#x27;s vote total. The fourteen rows sum to <strong>853,894</strong>, which is the total that page publishes; no row was adjusted to make the sum work.</p>
+<p><strong>初选。</strong> 每位候选人的数据来自 NBC News 实时结果页 <span class="src">SRC-0021</span>，其保存的 HTML 内嵌含各候选人票数的 结果 JSON。十四行合计 <strong>853,894</strong>，正是该页公布的总数；没有任何一行被调整以凑总数。</p>
+<p><strong>Runoff.</strong> Every runoff figure in this environment comes from the Wikipedia results table <span class="src">SRC-0001</span>. The AP live-results project page <span class="src">SRC-0022</span> served no static figures (its data loads client-side), and every lateral attempt to confirm the runoff totals failed: the county registrar returned <code>URLError</code>, the NBC runoff-result URLs returned 404, and a CNN election page that returned 200 (4.7 MB) contained none of the runoff totals. The two runoff rows are therefore <code>partially verified</code>, and the archive says so in <code>election_results.csv</code> rather than upgrading them.</p>
+<p><strong>决选。</strong> 本环境中所有决选数字均来自维基百科结果表 <span class="src">SRC-0001</span>。AP 实时结果项目页 <span class="src">SRC-0022</span> 未提供 静态数字（数据由前端加载），而所有横向核实决选总数的尝试均失败：县选务处返回 <code>URLError</code>，NBC 的 决选结果 URL 返回 404，一份返回 200（4.7 MB）的 CNN 选举页不含任何决选总数。因此两行决选数据为 <code>partially verified</code>，档案在 <code>election_results.csv</code> 中如实标注，而不升级其状态。</p>
+<h2>2. Arithmetic checks performed / 已执行的算术校验</h2>
+<div class="table-wrap"><table><thead><tr><th>Check</th><th>Result</th></tr></thead><tbody>
+<tr><td>Primary candidate votes sum to published total (853,894)</td><td>passes exactly</td></tr>
+<tr><td>Primary shares recomputed from votes ÷ 853,894, rounded to 0.1</td><td>pass; published top-three shares (34.3 / 29.0 / 25.5) match exactly</td></tr>
+<tr><td>Runoff votes sum to published total (1,120,223)</td><td>passes exactly</td></tr>
+<tr><td>Runoff shares recomputed (615,264 ÷ 1,120,223 = 54.92%; 504,959 ÷ 1,120,223 = 45.08%)</td><td>pass, round to 54.9 / 45.1</td></tr>
+<tr><td>Runoff margin vs. primary margin</td><td>110,305 vs. 44,812 (opposite signs)</td></tr>
+</tbody></table></div>
+<p><strong>Percentages for candidates outside the published top three are computed</strong>, not quoted: the NBC page prints shares only for Bass, Raman and Pratt. Each such row&#x27;s <code>notes</code> says the percentage is computed from votes ÷ total. This is arithmetic on two published numbers, not an estimate.</p>
+<p><strong>前三名之外的候选人百分比是计算值</strong>，不是引用值：NBC 页面只公布 Bass、Raman 与 Pratt 的份额。 每一此类行的 <code>notes</code> 均注明百分比由&quot;票数 ÷ 总数&quot;计算。这是对两个公布数字的算术，不是估算。</p>
+<h2>3. The two one-vote discrepancies / 两处一票差异</h2>
+<div class="table-wrap"><table><thead><tr><th>Candidate</th><th>NBC News <span class="src">SRC-0021</span></th><th>Wikipedia <span class="src">SRC-0001</span></th><th>Archive records</th></tr></thead><tbody>
+<tr><td>Juanita Lopez</td><td>13,033</td><td>13,032</td><td>13,033, <code>conflicting sources</code></td></tr>
+<tr><td>Bryant Acosta</td><td>3,471</td><td>3,470</td><td>3,471, <code>conflicting sources</code></td></tr>
+<tr><td>Total</td><td>853,894</td><td>853,892</td><td>853,894</td></tr>
+</tbody></table></div>
+<p>Both tables are internally consistent: the Wikipedia candidate list sums to its own 853,892 total, and the NBC list sums to 853,894. The difference is therefore not a dropped candidate but a two-vote divergence in totals, most plausibly a late batch or a transcription difference. The archive does <strong>not</strong> average, adjust or choose a &quot;likely&quot; figure; it records the news-service numbers, flags the two rows, and leaves resolution to the official canvass (<code>research_gaps.md</code> G1, G2).</p>
+<p>两表各自自洽：维基候选人名单加总等于其 853,892，NBC 名单加总等于 853,894。因此差异不是漏掉某位 候选人，而是总数上两票的分歧，最可能是晚间批次或转录差异。档案<strong>不</strong>取平均、不调整、也不选一个 &quot;更可能&quot;的数字；它记录通讯社数字、标注两行，把裁决留给官方计票（<code>research_gaps.md</code> G1、G2）。</p>
+<h2>4. Write-in candidates / 补写候选人</h2>
+<p>The city clerk certified two write-in candidates for the primary (griselda diaz, misael ortega) <span class="src">SRC-0002</span>. Their votes appear in no retrieved results table, so the published 853,894 excludes them and the archive cannot state their share. The fourteen named candidates are therefore all candidates with published totals, not all candidates on the ballot.</p>
+<p>市书记官为初选认证了两名补写候选人（griselda diaz、misael ortega）<span class="src">SRC-0002</span>。其票数不见于任何 已获取结果表，故公布的 853,894 不含其票，档案也无法给出其份额。因此十四位具名候选人是&quot;有公布票数 的候选人&quot;，而非&quot;选票上的全部候选人&quot;。</p>
+<h2>5. Missing denominators / 缺失的分母</h2>
+<p>Turnout, ballots cast and registered voters are not published in any retrieved source for either round (the Wikipedia infobox carries <code>volume = 0</code>). The archive records turnout as <code>unknown</code> and does not divide the vote totals by an assumed electorate. Consequently no claim in this archive compares 2026 turnout with 2022 or 2020.</p>
+<p>两轮的投票率、投票数与登记选民数在任何已获取来源中均未公布（维基信息框为 <code>volume = 0</code>）。档案将 投票率记为 <code>unknown</code>，不以假设的选民基数去除总票数。因此本档案中没有任何论断把 2026 年投票率与 2022 或 2020 年相比。</p>
+<h2>6. Why county_results.csv is header-only / 为什么 county_results.csv 只有表头</h2>
+<p>The Los Angeles mayor is elected citywide, by voters inside the city boundary, not by county voters. A county-level table would aggregate a jurisdiction that does not decide this race, and every plausible county-level number (countywide registration, countywide turnout) would be a category error. The file is therefore present with its full header and zero rows, and this note is its explanation. The correct sub-city unit — council district or precinct — could not be retrieved (<code>research_gaps.md</code> G5), which is why no district table replaces it.</p>
+<p>洛杉矶市长由全市选民选出，选民范围为市界之内，而非全县选民。县级表会汇总一个并不决定本选举的 辖区，任何看似合理的县级数字（全县登记数、全县投票率）都属范畴错误。因此该文件保留完整表头、 零行数据，本说明即为其解释。正确的市域以下单位——市议会分区或选区——无法获取 （<code>research_gaps.md</code> G5），因此也没有分区表替代它。</p>
+<h2>7. Reading the winner column / 如何读 <code>winner</code> 列</h2>
+<p><code>winner = yes</code> marks advancement in the primary (two rows) and election in the runoff (one row). It does not mark a plurality lead. Where a source described Bass as &quot;leading&quot; on primary night before counting finished, that is a count-order statement, not a result; the archive records the final table only.</p>
+<p><code>winner = yes</code> 在初选中表示晋级（两行），在决选中表示当选（一行），不表示得票领先。若有来源在 初选夜计票未完成时称 Bass &quot;领先&quot;，那是计票顺序的陈述而非结果；档案只记录最终表。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

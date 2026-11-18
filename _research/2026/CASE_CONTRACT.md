@@ -22,8 +22,9 @@ Read it completely before writing anything. It adapts the Case Study 002 contrac
 6. **Announcement ≠ event.** `event_status=announced` unless there is evidence it happened.
 7. **No rankings, no scores, no "who ran a better campaign".** Descriptive record only.
 8. **Do not write blog copy or video scripts.**
-9. **Copyright:** download only Wikimedia Commons files whose licence is public domain, CC0, CC BY
-   or CC BY-SA, and record photographer + licence + file page. Everything else is link-only
+9. **Copyright:** download only Wikimedia Commons files whose licence is public domain, CC0, CC BY,
+   CC BY-SA, "copyrighted free use" or "no known copyright restrictions", and record photographer +
+   licence + file page. Everything else is link-only
    (`copyright_status=all_rights_reserved_link_only`).
 10. **Every fetched URL is logged** in `_staging/fetch_log.csv` with `url,http_status,bytes,fetched_at,saved_file`.
     Save the retrieved HTML/wikitext under `_staging/mirrors/`. A source that is not in the fetch log
@@ -121,7 +122,7 @@ source_id,url,title,publisher,publication_date,event_date,access_date,source_tie
 ```
 - `source_tier`: `T1` official/primary, `T2` established independent media, `T3` supplementary
   (Wikipedia is `T3`; assign tiers mechanically by domain, not by agreement).
-- `source_type`: `official_campaign|official_government|candidate_social|news_article|news_video|transcript|op_ed|fact_check|poll|press_release|event_page|photo|podcast|encyclopedia|other`
+- `source_type`: `official_campaign|official_government|candidate_social|news_article|news_video|transcript|op_ed|fact_check|poll|press_release|event_page|photo|podcast|encyclopedia|analysis|report|data|other`
 - `publication_date`/`event_date`: `unknown` when not stated. `access_date` = `2026-11-18`.
 - `used_by`: file path(s) or row ids citing it.
 - `relevant_quote_or_info`: one short factual line actually present in the page (≤200 chars).

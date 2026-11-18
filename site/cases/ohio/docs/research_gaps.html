@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>research_gaps</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Ohio Senate 2026 (special) / 2026 年俄亥俄州联邦参议员特别选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">research_gaps<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / research_gaps.md</div><h1>Research gaps / 研究缺口</h1>
+<h2>1. County-level results do not exist in retrievable form / 县级结果不可得</h2>
+<p><strong>Gap.</strong> <code>07_electoral_context/county_results.csv</code> has the required header and <strong>zero rows</strong>. <strong>Cause.</strong> The Wikipedia article renders county results only as two SVG maps (<code>2026 United States Senate special election in Ohio results map by county.svg</code> and the Democratic-primary equivalent). It gives a list of seven counties that flipped Republican to Democratic (Delaware, Erie, Lake, Mahoning, Portage, Trumbull, Wood) but no table of votes by county. The Ohio Secretary of State results portal returned HTTP 403 on every attempt, and so did the two official canvass spreadsheets on <code>publicfiles.ohiosos.gov</code> (the May primary and the November general election files, including a Senate-specific extract); the AP, Politico and Columbus Dispatch results pages returned 403/402. <strong>What would close it.</strong> The Ohio Secretary of State&#x27;s official canvass by county (<code>ohiosos.gov</code>), or the AP county file; either would supply 88 county rows.</p>
+<p><strong>缺口。</strong> <code>county_results.csv</code> 只有表头，零行数据。<strong>原因。</strong> 条目仅以两张SVG地图呈现县级结果， 另列出7个由共和党翻转为民主党的县（特拉华、伊利、莱克、马霍宁、波蒂奇、特朗布尔、伍德）， 但无逐县票数表；俄亥俄州务卿结果门户每次均返回403，美联社、Politico、哥伦布快报的结果页返回403/402。 <strong>如何补齐。</strong> 州务卿官方逐县计票文件。</p>
+<h2>2. No joint debate is documented / 未见联合辩论记载</h2>
+<p><strong>Gap.</strong> The brief asked to check whether Ohio had at least one general-election debate. This archive found <strong>none</strong>. There is no <code>debate</code> row in <code>campaign_events.csv</code>. <strong>Cause.</strong> The Wikipedia article contains no occurrence of &quot;debate&quot;. The only traces are a WDTN headline dated 2026-10-30 (&quot;Ohio&#x27;s Senate candidates debate rising costs ahead of midterms&quot;, body unretrievable) and a BGSU/YouGov poll whose write-up says fieldwork went into the field &quot;before the question of debates became a campaign issue&quot; while 54% of Ohioans said it was very important that the Senate candidates debate (SRC-1148). That phrasing implies a dispute about debates, not that one occurred. <strong>What would close it.</strong> A debate sponsorship page (league, TV station, or university), or the C-SPAN/Ohio Channel schedule for October 2026.</p>
+<p><strong>缺口。</strong> 简报要求核查俄亥俄是否至少举行过一场大选辩论；本档案未发现任何一场，因此事件表中无 <code>debate</code> 行。<strong>原因。</strong> 条目中无“debate”字样；仅有两条线索：2026-10-30 WDTN 标题（正文不可得）， 以及鲍林格林州立大学/YouGov 民调提到实地调查在“辩论是否成为竞选议题之前”已完成，而54%的俄亥俄人 认为参议员候选人辩论“非常重要”。这只说明存在关于辩论的争议，并不证明辩论发生。 <strong>如何补齐。</strong> 辩论主办方页面，或2026年10月 C-SPAN/Ohio Channel 节目表。</p>
+<h2>3. Television advertising creative was not retrievable / 电视广告素材不可得</h2>
+<p><strong>Gap.</strong> <code>05_campaign_media/advertisements.csv</code> documents 8 ads, but only one has a video URL that loaded (a Commons-hosted campaign video, PD). The rest are documented from reporting, FEC/outside-group releases and OCJ fact-checks, with <code>video_url</code> = <code>unknown</code>. <strong>Cause.</strong> Ad libraries (Meta, Google) and YouTube require JavaScript or block the archiver; the campaign sites are JS shells; the 10TV video page returned 403. <strong>What would close it.</strong> Meta Ad Library and Google Political Ads Transparency Report exports for the two committees, plus a working YouTube download of the NRSC and AFP Action spots.</p>
+<p><strong>缺口。</strong> 广告表记录8条，但仅1条含可访问视频链接。<strong>原因。</strong> 广告库需JavaScript或被屏蔽； 竞选网站为JS外壳；电视台视频页403。<strong>如何补齐。</strong> Meta 广告库与 Google 政治广告透明度报告导出。</p>
+<h2>4. AP and Politico originals are paywalled or blocked / 美联社与Politico原文不可达</h2>
+<p><strong>Gap.</strong> The AP story on the result and Politico&#x27;s coverage are cited only through mirrors (Boston Herald for AP; none for Politico). <strong>Cause.</strong> apnews.com and politico.com return 403 to the archiver; the Internet Archive captures of Politico render an interstitial. <strong>What would close it.</strong> Institutional access, or an AP member-paper mirror for each specific story.</p>
+<p><strong>缺口。</strong> 美联社与Politico报道仅通过转载（波士顿先驱报载美联社稿）引用。<strong>原因。</strong> 两家站点 均返回403，Politico的存档页只显示插入页。<strong>如何补齐。</strong> 机构订阅或成员报转载。</p>
+<h2>5. Finance figures are the article&#x27;s table, not scraped FEC totals / 财务数字来自条目表格</h2>
+<p><strong>Gap.</strong> <code>06_campaign_finance/campaign_finance.csv</code> reproduces the article&#x27;s FEC-cited tables (two periods per candidate). Individual contributions, PAC contributions and debts owed are <code>unknown</code> because the article&#x27;s tables have only raised / spent / cash on hand. <strong>Cause.</strong> The FEC candidate pages render totals by JavaScript; the retrieved HTML carries no numbers. <code>docquery.fec.gov</code> filing PDFs were reachable for a minor candidate only. <strong>What would close it.</strong> The FEC bulk <code>committee</code>/<code>candidate</code> files or the F2/F3 filings themselves.</p>
+<p><strong>缺口。</strong> 财务表复现条目所引 FEC 表格（每人两个期间），但个人捐款、PAC捐款、债务均为 <code>unknown</code>。 <strong>原因。</strong> FEC 页面由 JavaScript 渲染，抓取的 HTML 无数字。<strong>如何补齐。</strong> FEC 批量数据文件或原始 F3 报表。</p>
+<h2>6. Crowd sizes and rally attendance are almost never reported / 现场人数几乎无报道</h2>
+<p><strong>Gap.</strong> Of 35 event rows, only one has a size description (&quot;hundreds&quot;, &quot;capacity&quot; room at the Dayton rally). The rest are <code>unknown</code>. <strong>Cause.</strong> Ohio outlets describe rallies qualitatively; no campaign released attendance counts. <strong>What would close it.</strong> Pool reports or fire-marshal estimates; neither is published in Ohio.</p>
+<p><strong>缺口。</strong> 35条事件中仅1条有人数描述（代顿集会“数百人”“满场”）。<strong>原因。</strong> 地方媒体报道多为定性描述， 竞选方未发布人数。<strong>如何补齐。</strong> 记者团联合报道或消防部门估算。</p>
+<h2>7. Speech transcripts are absent / 演讲全文缺失</h2>
+<p><strong>Gap.</strong> <code>03_speeches/speech_archive.csv</code> has 14 rows, but only a handful carry verbatim quotations and none carries a full transcript; <code>transcript_url</code> is <code>unknown</code> throughout. <strong>Cause.</strong> Neither campaign publishes transcripts. C-SPAN catalogued at least one Husted event (2026-09-25) but the page returned HTTP 202 with no body. The one full recording retrieved is a 62-second Senate floor clip from 2026-07-27 (public domain, Commons). <strong>What would close it.</strong> C-SPAN closed-captioning exports or the Congressional Record for floor speeches.</p>
+<p><strong>缺口。</strong> 演讲表14行，仅少数含逐字引语，无完整文字稿。<strong>原因。</strong> 两阵营均不发布文字稿；C-SPAN 页面返回202无正文。 <strong>如何补齐。</strong> C-SPAN 字幕导出或《国会记录》。</p>
+<h2>8. Two decimal disagreements in the published result / 公布结果存在两处小数分歧</h2>
+<p><strong>Gap.</strong> Husted is 45.17% in the article&#x27;s table and 45.15% in the Calfee newsletter the article cites as its results source; Levy is 2.04% versus 2.05%. <strong>Cause.</strong> Rounding of the same vote counts at different precisions, or a typo in one table. <strong>Resolution in this archive.</strong> Vote counts are treated as primary (they sum exactly to 4,604,860 and reproduce 45.17%); the alternative percentages are recorded in <code>results_notes.md</code> rather than silently replaced.</p>
+<p><strong>缺口。</strong> 赫斯特德在条目表格中为45.17%，在条目所引律所通讯中为45.15%；利维2.04%对2.05%。 <strong>本档案处理。</strong> 以票数为准（合计精确等于4,604,860，反算得45.17%），替代百分比在 <code>results_notes.md</code> 中记录。</p>
+<h2>9. Minor candidates are thinly covered / 小党候选人资料稀薄</h2>
+<p><strong>Gap.</strong> Redpath and Levy appear in <code>election_results.csv</code> and in a few rows, but there is no biography file for either. <strong>Cause.</strong> The contract scopes candidate folders to the two major-party nominees. <strong>What would close it.</strong> Optional third-candidate appendix if the repository later wants one.</p>
+<p><strong>缺口。</strong> 雷德帕斯与利维仅出现在结果表与少量行中，无传记文件。<strong>原因。</strong> 合同将候选人目录限定为两大党提名人。</p>
+<h2>10. Date discrepancies inherited from the task brief / 简报中的日期错误</h2>
+<p><strong>Gap.</strong> The brief states Husted was &quot;appointed 2025-01-10&quot; and &quot;sworn in 2025-01-14&quot;. <strong>Cause.</strong> 2025-01-10 is the date Vance&#x27;s resignation took effect; 2025-01-14 is the date DeWine and Husted were inaugurated as governor and lieutenant governor in 2019, not a Senate oath. <strong>Resolution.</strong> The archive uses 2025-01-17 (announcement) and 2025-01-21 (oath) and states the correction in <code>results_notes.md</code>, <code>01_candidates/husted/career_timeline.csv</code> and <code>08_comparative_analysis/candidate_comparison.md</code>.</p>
+<p><strong>缺口。</strong> 简报称赫斯特德“2025-01-10获任命、2025-01-14宣誓”。<strong>原因。</strong> 1月10日是范斯辞职生效日， 1月14日是2019年德万与赫斯特德就任州长/副州长的日期。<strong>处理。</strong> 本档案采用1月17日（宣布）与1月21日（宣誓）。</p>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>

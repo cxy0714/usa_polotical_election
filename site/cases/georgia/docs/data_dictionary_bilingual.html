@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>data_dictionary_bilingual</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../../assets/overrides.css">
+</head><body class="wide">
+<div class="archive-portal-bar" id="archive-portal-bar">
+  <a class="apb-brand" href="../../../index.html">2026 Race Archive<span>2026 选举档案</span></a>
+  <span class="apb-links">
+    <a href="../../../index.html">Portal / 门户</a>
+    <a href="../../../cases/texas/index.html">Texas</a><a href="../../../cases/michigan/index.html">Michigan</a><a href="../../../cases/alaska/index.html">Alaska</a><a href="../../../cases/iowa/index.html">Iowa</a><a href="../../../cases/ohio/index.html">Ohio</a><a href="../../../cases/georgia/index.html">Georgia</a><a href="../../../cases/south-carolina/index.html">South Carolina</a><a href="../../../cases/los-angeles/index.html">Los Angeles</a>
+  </span>
+  <span class="apb-here">Georgia Senate 2026 / 2026 年佐治亚州联邦参议员选举</span>
+</div>
+<style>
+.archive-portal-bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;justify-content:space-between;
+padding:8px 16px;background:#101216;color:#e9eaee;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
+.archive-portal-bar a{color:#cfd6e4;text-decoration:none}
+.archive-portal-bar a:hover{color:#fff;text-decoration:underline}
+.apb-brand{font-weight:700;color:#fff}
+.apb-brand span{display:block;font-size:11px;color:#98a1b2;font-weight:400}
+.apb-links{display:flex;gap:14px;flex-wrap:wrap}
+.apb-here{color:#98a1b2}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand">data_dictionary_bilingual<small>2026 archive · bilingual</small></div>
+  <nav class="main"><a class="" href="../index.html">总览<span style="opacity:.6;font-size:.78em"> Overview</span></a><a class="" href="../data/index.html">数据<span style="opacity:.6;font-size:.78em"> Data</span></a><a class="on" href="index.html">文档<span style="opacity:.6;font-size:.78em"> Docs</span></a><a class="" href="../sources/index.html">来源<span style="opacity:.6;font-size:.78em"> Sources</span></a></nav>
+</div></header>
+<div class="layout"><main>
+<div class="crumb"><a href="index.html">文档 / Docs</a> / 09_sources/data_dictionary_bilingual.md</div><h2>Citation format / 引用格式</h2>
+<p>Every row carries <code>source_urls</code> in the form <code>SRC-####|https://…</code>. The id resolves in <code>09_sources/sources.csv</code>, and the URL must match that record byte-for-byte after trimming a trailing slash. One row, one source. SRC-0001</p>
+<p>每行 <code>source_urls</code> 采用 <code>SRC-####|https://…</code> 形式。编号可在 <code>09_sources/sources.csv</code> 中解析，链接须与记录逐字符一致（去除末尾斜杠后）。一行一个来源。SRC-0001</p>
+<h2>Controlled vocabularies / 受控词表</h2>
+<p><code>event_status</code>: held, cancelled, postponed, rescheduled, virtual, announced, unverified, disputed. <code>campaign_phase</code>: pre_launch, launch, primary, runoff, general, early_voting, gotv, election_day, post_election. <code>issue</code>: Economy, Healthcare, Education, Immigration, Abortion, Gun policy, Energy, Religion, Labor, Democracy, Foreign policy, Other. <code>sponsor_type</code>: candidate_campaign, authorized_committee, outside_pac, party_committee, unknown. <code>verification_status</code>: verified, partially verified, unverified, conflicting sources. <code>copyright_status</code>: public_domain, licensed, all_rights_reserved_link_only, unknown.</p>
+<p><code>event_status</code>：held、cancelled、postponed、rescheduled、virtual、announced、unverified、disputed。 <code>campaign_phase</code>：pre_launch、launch、primary、runoff、general、early_voting、gotv、election_day、post_election。 <code>issue</code>：经济、医疗、教育、移民、堕胎、枪支、能源、宗教、劳工、民主、外交、其他。 <code>sponsor_type</code>：候选人竞选、授权委员会、外部 PAC、政党委员会、未知。 <code>verification_status</code>：已核实、部分核实、未核实、来源冲突。 <code>copyright_status</code>：公有领域、授权使用、保留权利仅链接、未知。</p>
+<h2>Key files / 关键文件</h2>
+<p><code>02_campaign_events/campaign_events.csv</code> — 32 rows; <code>stated_purpose</code> is the campaign&#x27;s framing, <code>observable_function</code> what a reporter saw, <code>analyst_interpretation</code> starts with <code>INTERPRETATION:</code>. <code>01_candidates/policy_positions.csv</code> — 33 rows; <code>candidate_statement</code> holds a quote or <code>unknown</code>; <code>fact_check</code> records whether the claim was independently checked. <code>07_electoral_context/polling.csv</code> — 6 polls; <code>leader</code> and <code>margin</code> are as published, not computed; <code>notes</code> flags the Wikipedia table disagreement. <code>04_visual_archive/image_archive.csv</code> — 13 rows; <code>local_filename</code> is a path relative to the case root or <code>unknown</code>; <code>license</code> must be one of the four open licences.</p>
+<p><code>02_campaign_events/campaign_events.csv</code> — 32 行；<code>stated_purpose</code> 为竞选方框定，<code>observable_function</code> 为记者所见，<code>analyst_interpretation</code> 以 <code>INTERPRETATION:</code> 开头。 <code>01_candidates/policy_positions.csv</code> — 33 行；<code>candidate_statement</code> 为引语或 <code>unknown</code>；<code>fact_check</code> 记录主张是否经独立核查。 <code>07_electoral_context/polling.csv</code> — 6 项民调；<code>leader</code> 与 <code>margin</code> 按原文，不作计算；<code>notes</code> 标注与维基表格的分歧。 <code>04_visual_archive/image_archive.csv</code> — 12 行；<code>local_filename</code> 为相对案例根目录的路径或 <code>unknown</code>；<code>license</code> 须为四种开放许可之一。</p>
+<h2>Numeric conventions / 数字约定</h2>
+<p>Votes are integers as published, without separators. Percentages are as published to the stated decimals (59.03, 40.97, 55.5). Margins are percentage points. Money is US dollars as reported, unadjusted for inflation. <code>unknown</code> is a value, never an empty cell. SRC-0001 SRC-0007</p>
+<p>票数为公布的整数，不加千分位。百分比按公布精度（59.03、40.97、55.5）。差额为百分点。金额为报道的美元数值，不作通胀调整。<code>unknown</code> 是取值，绝非空单元。SRC-0001 SRC-0007</p>
+<h2>File-by-file summary / 逐文件摘要</h2>
+<div class="table-wrap"><table><thead><tr><th>File</th><th>Rows</th><th>中文说明</th></tr></thead><tbody>
+<tr><td><code>01_candidates/ossoff/career_timeline.csv</code></td><td>10</td><td>奥索夫履历年表</td></tr>
+<tr><td><code>01_candidates/collins/career_timeline.csv</code></td><td>10</td><td>柯林斯履历年表</td></tr>
+<tr><td><code>01_candidates/policy_positions.csv</code></td><td>33</td><td>双方立场，共 33 条</td></tr>
+<tr><td><code>02_campaign_events/campaign_events.csv</code></td><td>32</td><td>有日期的竞选活动</td></tr>
+<tr><td><code>03_speeches/speech_archive.csv</code></td><td>13</td><td>演讲与辩论引语档案</td></tr>
+<tr><td><code>03_speeches/speech_video_index.csv</code></td><td>10</td><td>视频索引，多为未取得链接</td></tr>
+<tr><td><code>04_visual_archive/image_archive.csv</code></td><td>13</td><td>图像档案，5 张已本地保存</td></tr>
+<tr><td><code>05_campaign_media/advertisements.csv</code></td><td>6</td><td>广告与投放记录</td></tr>
+<tr><td><code>05_campaign_media/social_media.csv</code></td><td>7</td><td>社交帖文记录</td></tr>
+<tr><td><code>05_campaign_media/media_coverage.csv</code></td><td>27</td><td>媒体报道清单</td></tr>
+<tr><td><code>06_campaign_finance/campaign_finance.csv</code></td><td>8</td><td>竞选财务</td></tr>
+<tr><td><code>07_electoral_context/election_results.csv</code></td><td>10</td><td>初选、第二轮与大选结果</td></tr>
+<tr><td><code>07_electoral_context/county_results.csv</code></td><td>0</td><td>仅表头，县级数据缺失</td></tr>
+<tr><td><code>07_electoral_context/polling.csv</code></td><td>6</td><td>选前民调</td></tr>
+<tr><td><code>09_sources/sources.csv</code></td><td>99</td><td>全部来源</td></tr>
+</tbody></table></div>
+</main></div>
+<footer><div class="in">
+  <p>Every CSV row carries <code>SRC-####|https://...</code>; <code>unknown</code> is a value, not a gap.</p>
+  <p>每个 CSV 行均带 <code>SRC-####|https://...</code>；<code>unknown</code> 是取值，不是缺失。</p>
+</div></footer>
+</body></html>
