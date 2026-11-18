@@ -1,0 +1,22 @@
+Add seven verified news photographs, and record why the pool is this small
+
+The visual layer had run out of places to look, so this pass probed the channels beyond Wikimedia
+Commons and kept only what a licence actually allows.
+
+- Seven photographs from SC Daily Gazette articles (States Newsroom, CC BY-ND 4.0): five of Darline
+  Graham, two of Annie Andrews. Stored unmodified because CC BY-ND forbids derivatives.
+- Two gates before storage: the article must be about the candidate, and the face must clear a 0.55
+  SFace cosine with a 0.05 margin. The first harvest accepted a photograph of Lindsey Graham beside
+  Tim Scott as "Annie Andrews" at 0.367, so the floor was raised and every appended row re-checked.
+- 04_visual_archive/image_sources_and_licences.md documents what was probed and why it failed:
+  Commons exhausted (20 files each, all archived), Openverse zero, senate.gov exposes no portrait
+  files, graham.senate.gov unreachable, congress.gov 403, the campaign site is JavaScript and all
+  rights reserved, and AP/Reuters/Post and Courier/The State are link-and-credit only.
+- The visual hub now states the split (48 Commons + 7 news) and links to that note.
+- _staging/_lead_sources_images.csv holds the new source registrations, because
+  _lead_merge_sources.py rebuilds sources.csv from the staging files and would otherwise drop them.
+- _research_conventions.md and the data dictionary no longer write a real SRC id when describing the
+  numbering blocks, which the validator had counted as a dangling citation.
+
+Counts: image_archive.csv grows from 48 to 55 rows; sources.csv from 372 to 379; validation back to
+0 hard failures.

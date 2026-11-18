@@ -1,0 +1,45 @@
+{
+  "slug": "alaska-senate-2026",
+  "race_name": "2026 United States Senate election in Alaska",
+  "race_name_zh": "2026 年阿拉斯加州联邦参议员选举",
+  "case_number": 4,
+  "candidates": [
+    {
+      "id": "PELTOLA",
+      "name": "Mary Peltola",
+      "party": "Democratic",
+      "lower": "peltola"
+    },
+    {
+      "id": "SULLIVAN",
+      "name": "Dan S. Sullivan",
+      "party": "Republican",
+      "lower": "sullivan"
+    }
+  ],
+  "county_keys": [
+    "peltola",
+    "sullivan"
+  ],
+  "poll_keys": [
+    "peltola",
+    "sullivan"
+  ],
+  "result": {
+    "winner": "PELTOLA",
+    "margin_pct": 4.3,
+    "source": "SRC-0001"
+  },
+  "state_regions": [
+    "Anchorage",
+    "Matanuska-Susitna",
+    "Fairbanks",
+    "Southeast",
+    "Kenai Peninsula",
+    "Northern",
+    "Rural",
+    "statewide",
+    "national",
+    "unknown"
+  ]
+}

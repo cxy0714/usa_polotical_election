@@ -1,0 +1,186 @@
+{
+ "graham.senate.gov": {
+  "url": "https://www.graham.senate.gov/",
+  "status": "ERR",
+  "final": "https://www.graham.senate.gov/",
+  "licence_hits": [],
+  "images": []
+ },
+ "graham.senate.gov/about": {
+  "url": "https://www.graham.senate.gov/about",
+  "status": "ERR",
+  "final": "https://www.graham.senate.gov/about",
+  "licence_hits": [],
+  "images": []
+ },
+ "senate.gov SC delegation": {
+  "url": "https://www.senate.gov/states/SC/senators.htm",
+  "status": 200,
+  "final": "https://www.senate.gov/states/SC/senators.htm",
+  "licence_hits": [],
+  "images": [
+   [
+    "img?",
+    "https://www.senate.gov/resources/assets/usFlag.png"
+   ]
+  ]
+ },
+ "congress.gov search": {
+  "url": "https://www.congress.gov/search?q=%7B%22search%22%3A%22Darline+Graham%22%7D",
+  "status": 403,
+  "final": "https://www.congress.gov/search?q=%7B%22search%22%3A%22Darline+Graham%22%7D",
+  "licence_hits": [],
+  "images": []
+ },
+ "enwiki Annie Andrews": {
+  "url": "https://en.wikipedia.org/wiki/Annie_Andrews",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Annie_Andrews",
+  "licence_hits": [
+   "Creative Commons Attribution-ShareAlike 4.0 International License\">Creative"
+  ],
+  "images": [
+   [
+    "og",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Jim_Clyburn_and_Annie_Andrews_in_November_2026_%28cropped_2%29.jpg/960px-Jim_Clyburn_and_Annie_Andrews_in_November_2026_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail"
+   ],
+   [
+    "img1024",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Jim_Clyburn_and_Annie_Andrews_in_November_2026_%28cropped_2%29.jpg/250px-Jim_Clyburn_and_Annie_Andrews_in_November_2026_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img461",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Signature_of_Dr._Annie_Andrews.svg/250px-Signature_of_Dr._Annie_Andrews.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img1032",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/South_Carolina%27s_1st_congressional_district_%28since_2023%29.svg/250px-South_Carolina%27s_1st_congressional_district_%28since_2023%29.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img4284",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Annie_Andrews_Senate_Campaign_Building.jpg/250px-Annie_Andrews_Senate_Campaign_Building.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ]
+  ]
+ },
+ "enwiki Darline Graham": {
+  "url": "https://en.wikipedia.org/wiki/Darline_Graham",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Darline_Graham",
+  "licence_hits": [
+   "Creative Commons Attribution-ShareAlike 4.0 International License\">Creative"
+  ],
+  "images": [
+   [
+    "og",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Official_portrait_of_Darline_Graham%2C_member_of_the_United_States_Senate_from_South_Carolina_%282026%29.jpg/960px-Official_portrait_of_Darline_Graham%2C_member_of_the_United_States_Senate_from_South_Carolina_%282026%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail"
+   ],
+   [
+    "img4312",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Official_portrait_of_Darline_Graham%2C_member_of_the_United_States_Senate_from_South_Carolina_%282026%29.jpg/250px-Official_portrait_of_Darline_Graham%2C_member_of_the_United_States_Senate_from_South_Carolina_%282026%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img302",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Signature_of_Darline_Graham.svg/250px-Signature_of_Darline_Graham.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img1200",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Darline_Graham_Nordone_butter_cow.jpg/330px-Darline_Graham_Nordone_butter_cow.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img2048",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Senator_Chuck_Grassley_Swears_In_Darline_Graham_As_Senator_Of_South_Carolina.jpg/250px-Senator_Chuck_Grassley_Swears_In_Darline_Graham_As_Senator_Of_South_Carolina.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img3500",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/P20260918JB-1120_%2855542038343%29.jpg/250px-P20260918JB-1120_%2855542038343%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img715",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Seal_of_South_Carolina.svg/120px-Seal_of_South_Carolina.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ],
+   [
+    "img1030",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Seal_of_the_United_States_Senate.svg/120px-Seal_of_the_United_States_Senate.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail"
+   ]
+  ]
+ },
+ "annieandrews.com": {
+  "url": "https://www.annieandrews.com/",
+  "status": 200,
+  "final": "https://www.annieandrews.com/",
+  "licence_hits": [],
+  "images": []
+ },
+ "annieandrews.com press": {
+  "url": "https://www.annieandrews.com/press",
+  "status": 404,
+  "final": "https://www.annieandrews.com/press",
+  "licence_hits": [],
+  "images": []
+ },
+ "scdailygazette search graham": {
+  "url": "https://scdailygazette.com/?s=Darline+Graham",
+  "status": 200,
+  "final": "https://scdailygazette.com/?s=Darline+Graham",
+  "licence_hits": [
+   "Creative Commons License\" />",
+   "Creative Commons license",
+   "States Newsroom"
+  ],
+  "images": [
+   [
+    "og",
+    "https://scdailygazette.com/wp-content/uploads/2023/12/defaultImage.png"
+   ]
+  ]
+ },
+ "scdailygazette search andrews": {
+  "url": "https://scdailygazette.com/?s=Annie+Andrews",
+  "status": 200,
+  "final": "https://scdailygazette.com/?s=Annie+Andrews",
+  "licence_hits": [
+   "Creative Commons License\" />",
+   "Creative Commons license",
+   "States Newsroom"
+  ],
+  "images": [
+   [
+    "og",
+    "https://scdailygazette.com/wp-content/uploads/2023/12/defaultImage.png"
+   ]
+  ]
+ },
+ "scdailygazette about": {
+  "url": "https://scdailygazette.com/about/",
+  "status": 200,
+  "final": "https://scdailygazette.com/about/",
+  "licence_hits": [
+   "Creative Commons License\" />",
+   "Creative Commons license",
+   "Creative Commons license.",
+   "States Newsroom"
+  ],
+  "images": [
+   [
+    "og",
+    "https://scdailygazette.com/wp-content/uploads/2023/12/defaultImage.png"
+   ],
+   [
+    "img?",
+    "https://scdailygazette.com/wp-content/uploads/2023/10/SC-Seanna-Adcox-300x300.jpg"
+   ],
+   [
+    "img?",
+    "https://scdailygazette.com/wp-content/uploads/2023/10/JessicaHeadshot2-scaled-e1698163360479-300x300.jpg"
+   ],
+   [
+    "img?",
+    "https://scdailygazette.com/wp-content/uploads/2023/10/SkylarHeadshot2-scaled-e1698163231546-300x300.jpg"
+   ],
+   [
+    "img?",
+    "https://scdailygazette.com/wp-content/uploads/2026/10/SC-Katharine-Wilson-300x300.jpg"
+   ]
+  ]
+ }
+}

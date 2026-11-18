@@ -1,0 +1,1514 @@
+{{Short description|none}}
+{{For|related races|2026 United States Senate elections}}
+{{Use American English|date=January 2026}}
+{{Use mdy dates|date=November 2026}}
+{{Infobox election
+| election_name = 2026 United States Senate election in Alaska
+| country = Alaska
+| previous_election = 2020 United States Senate election in Alaska
+| previous_year = 2020
+| next_election = 2032 United States Senate election in Alaska
+| next_year = 2032
+| election_date = November 3, 2026
+| image1 = Mary Peltola Congressional Member Portrait (2) (cropped).jpeg
+| candidate1 = '''[[Mary Peltola]]'''
+| party1 = Democratic Party (United States)
+| popular_vote1 = '''144,302'''
+| percentage1 = '''50.1%'''
+<!--| first_round1 = '''144,302'''<br />'''50.12%'''-->
+| image2 = Senator Sullivan Memorial Day 2024 (cropped).jpg
+| candidate2 = [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]]
+| party2 = Republican Party (United States)
+| popular_vote2 = 131,844
+| percentage2 = 45.8%
+<!--| first_round2 = 131,944 <br /> 45.80%-->
+| turnout = 47.9% {{loss}} 12.8%<ref name= "Unoff3">{{Cite web |date=November 16, 2026 |title=State of Alaska 2026 GENERAL ELECTION Election Summary Report November 3 2026 UNOFFICIAL RESULTS |url=https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf |access-date=November 18, 2026 }}</ref>
+| map_image = 2026 United States Senate election in Alaska by State House District.svg
+| map_size = 
+| map_caption = Results by [[Alaska House of Representatives|State House]] District<br />'''Peltola:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}}<br />'''D. S. Sullivan:''' {{legend0|#FFB2B2|40–50%}} {{legend0|#E27F7F|50–60%}} {{legend0|#d75d5d|60–70%}} {{legend0|#d72f30|70–80%}}
+| title = U.S. senator
+| before_election = [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]]
+| before_party = Republican Party (United States)
+| after_election = [[Mary Peltola]]
+| after_party = Democratic Party (United States)
+}}
+{{ElectionsAK}}
+
+The '''2026 United States Senate election in Alaska''' was held on November 3, 2026, to elect a member of the [[United States Senate]] to represent the state of [[Alaska]]. [[Republican Party (United States)|Republican]] incumbent [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]] ran for a third term, but lost to [[Democratic Party (United States)|Democratic]] former U.S. representative [[Mary Peltola]]. The election was scheduled to be completed under [[instant-runoff voting]] on November 18 if no candidate had received more than 50 percent of the vote in the first round, but no tabulation was required due to Peltola receiving an outright majority of the votes, and the election was called for Peltola officially on November 17.
+
+A [[nonpartisan primary]] election was held on August 18 to determine the four candidates in the general election. Peltola and Sullivan advanced with 49.5% and 41.4% of the vote respectively, followed by Republican former teacher Dan J. Sullivan and Republican [[perennial candidate]] Gerald Heikes.
+
+Dan J. Sullivan's candidacy drew allegations of being a [[Spoiler effect|spoiler]] due to having the same first and last name as the incumbent, but he was allowed to remain on the ballot by the state Supreme Court and was listed as unaffiliated (although he had originally filed for candidacy as a Republican). The Trump administration subsequently filed a lawsuit to block the election results if Dan S. Sullivan lost by a small margin. The lawsuit was rejected but is under appeal in the [[United States Court of Appeals for the Ninth Circuit]].<ref>{{Cite web|url=https://alaskabeacon.com/2026/11/01/federal-judge-rejects-trump-administration-attempt-to-pause-alaskas-us-senate-election/ |title=Federal judge rejects Trump administration attempt to pause Alaska's US Senate election |first=James |last=Brooks |date=November 1, 2026 |work=Alaska Beacon}}</ref><ref>{{Cite web |last=Brooks |first=James |date=October 23, 2026 |title=Trump administration sues to block Alaska's US Senate election result if Peltola wins |url=https://alaskabeacon.com/2026/10/23/trump-administration-sues-to-block-alaskas-us-senate-election-result-if-peltola-wins/ |access-date=November 15, 2026 |website=Alaska Beacon |language=en-US}}</ref> Peltola will be the first Democrat to win a U.S. Senate election in Alaska since [[Mark Begich]] in [[2008 United States Senate election in Alaska|2008]], the second Native American woman elected to the U.S. Senate alongside [[Peggy Flanagan]] and the first [[Alaska Natives|Alaska Native]] senator.
+
+This was one of eight seats Democrats flipped in a state carried by [[Donald Trump]] in the [[2024 United States presidential election|2024 presidential election]].
+
+== Candidates ==
+=== Republican Party ===
+==== Advanced to general ====
+*[[Dan Sullivan (U.S. senator)|Dan S. Sullivan]], incumbent [[U.S. senator]]<ref name=":0">{{cite news |last1=Downing |first1=Suzanne |title=Breaking: Sen. Dan Sullivan formally announces his campaign for reelection |url=https://mustreadalaska.com/breaking-sen-dan-sullivan-formally-announces-his-campaign-for-reelection/ |access-date=June 4, 2025 |work=Must Read Alaska |date=March 22, 2025 |archive-date=April 18, 2025 |archive-url=https://web.archive.org/web/20250418130030/https://mustreadalaska.com/breaking-sen-dan-sullivan-formally-announces-his-campaign-for-reelection/ |url-status=live}}</ref><ref name=":2" />{{efn|Explicitly identified as "Incumbent" on the primary and general election ballots, per a decision by the Alaska Division of Elections.}}
+*Daniel J. Sullivan Jr.,{{efn|Name shown as displayed on the primary and general election ballots, per a decision by the Alaska Division of Elections.}} retired educator<ref>{{cite web |last1=DeMarban |first1=Alex |last2=Samuels |first2=Iris |title=U.S. Sen. Dan Sullivan get a namesake challenger in Alaska — but is it a 'trick'? |url=https://www.adn.com/politics/2026/05/29/us-sen-dan-sullivan-get-a-namesake-challenger-in-alaska-but-is-it-a-trick/ |website=Anchorage Daily News |access-date=May 30, 2026}}</ref><ref name=":2" /> ''(no relation to the incumbent)''<ref>{{cite web |last1=DeMarban |first1=Alex |title=In preliminary decision, state says namesake challenger to Sen. Dan Sullivan is not eligible to run |url=https://www.adn.com/politics/2026/06/11/in-preliminary-decision-state-says-namesake-challenger-to-sen-dan-sullivan-is-not-eligible-to-run/ |website=Anchorage Daily News |access-date=June 12, 2026}}</ref><ref>{{Cite web |last=Bohrer |first=Becky |date=June 15, 2026 |title=Challenger with same name as US Sen. Dan Sullivan is ineligible for Alaska ballot, official says |url=https://apnews.com/article/alaska-senate-dan-sullivan-primary-ad88336170d376a646911609cf3a51e0 |access-date=June 15, 2026 |website=Associated Press |language=en}}</ref>{{efn|Listed without a party affiliation on the ballot, per a decision by the Alaska Division of Elections, although he had filed for candidacy as a Republican.}}
+*Gerald L. Heikes, sheetrocker and perennial candidate<ref name=":1" /><ref name=":2" /><ref name="Trump"/>{{efn|Advanced after David Leslie withdrew.}}
+
+==== Eliminated in primary ====
+*Dustin Darden, [[perennial candidate]]<ref>{{Cite web |last=Darden |first=Dustin |title=A Healthy Alaska with Liberty and Justice for All |url=https://lawhelpak.com/?i=1}}</ref><ref name=":2">{{Cite web |last1=Samuels |first1=Iris |last2=Kanagy |first2=Mari |title=Candidate slate finalized for Alaska's statewide elections |url=https://www.adn.com/politics/2026/06/01/early-shakeup-as-alaska-candidates-have-until-5-pm-monday-to-file-for-office/ |access-date=June 2, 2026 |website=Anchorage Daily News}}</ref>
+*Fred C. Grauberger, retired motor vehicle operator<ref name=":1">{{Cite news |date= |title=Candidates - Division of Elections |url=https://www.elections.alaska.gov/candidates/ |archive-url= |archive-date= |access-date=June 2, 2026 |work=Division of Elections - State of Alaska |language=en-US}}</ref><ref name=":2" />
+*Richard Benedict Mayers, white supremacist and perennial candidate<ref name=":1" /><ref>{{Cite web |last=Kaufman |first=Elyssa |date=January 17, 2026 |title=Lake County Republican Party in Indiana says candidate used Nazi salute in ballot name |url=https://www.cbsnews.com/chicago/news/republican-party-indiana-candidate-nazi-salute/ |access-date=June 5, 2026 |website=CBS Chicago |language=en-US}}</ref><ref>{{Cite web |last=Kukulka |first=Alexandra |date=March 19, 2026 |title=Candidate with Nazi salute in name removed from ballot |url=https://www.chicagotribune.com/2026/03/19/candidate-with-nazi-salute-in-name-removed-from-ballot/ |access-date=June 5, 2026 |website=Chicago Tribune |language=en-US}}</ref>
+*Heather McElwain, editor<ref name=":1" /><ref name=":2" />
+
+==== Withdrawn ====
+* Christopher Miklos, businessman<ref>{{cite web |date=January 1, 2019 |title=MIKLOS, CHRISTOPHER – Candidate overview |url=https://www.fec.gov/data/candidate/S6AK00243/ |access-date=May 18, 2025 |website=[[Federal Election Commission]] |language=en}}{{dead link |date=November 2026}}</ref>
+
+=== Democratic Party ===
+==== Advanced to general ====
+*[[Mary Peltola]], former [[U.S. representative]] from [[Alaska's at-large congressional district]] (2022–2025)<ref name="PeltolaSen">{{Cite web |last=Nichols |first=Hans |date=January 12, 2026 |title=Mary Peltola plunges into Alaska Senate race |url=https://www.axios.com/2026/01/12/peltola-alaska-senate-race |access-date=January 12, 2026 |website=Axios |language=en |archive-date=January 13, 2026 |archive-url=https://web.archive.org/web/20260113041109/https://www.axios.com/2026/01/12/peltola-alaska-senate-race |url-status=live }}</ref><ref name=":2" />
+
+====Withdrew after advancing to general====
+* David Leslie, [[LGBTQ people|LGBTQ+]] activist<ref name=":1" /><ref name=":2" /><ref>{{Cite web |date=September 1, 2026 |title=Alaska Division of Elections (@ak_elections) on X |url=https://x.com/ak_elections/status/2094603547157664228 |access-date=September 1, 2026 |work=X&nbsp;(formerly Twitter) |language=en-US}}</ref>
+
+==== Eliminated in primary ====
+* [[Carol Hafner]], former flight attendant and [[perennial candidate]]<ref name=":2" /><ref name=":1" />
+
+==== Withdrawn ====
+* Ann Diener, sales executive at the ''[[Fairbanks Daily News-Miner]]''<ref>{{cite web |last1=Downing |first1=Suzanne |title=Democrats have their challenger for Sen. Dan Sullivan – and she works for an Alaska newspaper |url=https://mustreadalaska.com/democrats-have-their-challenger-for-sen-dan-sullivan-and-she-works-for-an-alaska-newspaper/ |website=Must Read Alaska |date=July 21, 2025 |access-date=September 19, 2025 |archive-date=October 7, 2025 |archive-url=https://web.archive.org/web/20251007021919/https://mustreadalaska.com/democrats-have-their-challenger-for-sen-dan-sullivan-and-she-works-for-an-alaska-newspaper/ |url-status=live }}</ref>
+* William Lee Hunt, former Fairbanks District Attorney's Office administrative clerk and [[Third-party and independent candidates for the 2008 United States presidential election|independent candidate]] for president in [[2024 United States presidential election|2024]] and [[2028 United States presidential election|2028]]<ref name=":3">{{Cite news |date=December 7, 2021 |title=Candidates – Division of Elections |url=https://www.elections.alaska.gov/candidates/?election=26prim |archive-url=https://web.archive.org/web/20260201153748/https://www.elections.alaska.gov/candidates/?election=26prim |archive-date=February 1, 2026 |access-date=February 16, 2026 |work=Division of Elections – State of Alaska |language=en-US}}</ref> ''(running for [[2026 Alaska Senate election#District Q|Alaska state senate]])''<ref>{{Cite web |last=Stone |first=Eric |date=June 1, 2026 |title=Election updates: Dahlstrom drops out, Kreiss-Tomkins picks running mate, Myers retires |url=https://alaskapublic.org/news/politics/elections/2026-06-01/election-updates-dahlstrom-drops-out-kreiss-tomkins-picks-running-mate-myers-retires |access-date=June 2, 2026 |website=Alaska Public Media |language=en}}</ref>
+
+=== Libertarian Party ===
+==== Eliminated in primary ====
+*Scott Kohlhaas, consultant<ref name=":1" /><ref name=":2" />
+
+=== Green Party ===
+==== Eliminated in primary ====
+*[[Richard Grayson (writer)|Richard Grayson]], author and [[perennial candidate]]<ref>{{Cite news|last1=Samuels|first1=Iris|title=Begich and Sullivan maintain fundraising efforts ahead of 2026 elections|url=https://www.adn.com/politics/2025/10/16/begich-and-sullivan-maintain-fundraising-efforts-ahead-of-2026-elections/|work=Anchorage Daily News|date=October 16, 2025|access-date=October 25, 2025|archive-date=October 26, 2025|archive-url=https://web.archive.org/web/20251026091441/https://www.adn.com/politics/2025/10/16/begich-and-sullivan-maintain-fundraising-efforts-ahead-of-2026-elections/|url-status=live}}</ref><ref name=":2" />
+
+=== Alaskan Party ===
+==== Eliminated in primary ====
+*Earl D. "Skip" Southworth, former [[Unalaska, Alaska|Unalaska]] city councilor<ref name=":1" /><ref name=":2" />
+
+=== Independents ===
+==== Eliminated in primary ====
+*Sidney "Sid" Hill, political [[Social gadfly|gadfly]] and candidate for U.S. Senate in [[2014 United States Senate election in Alaska|2014]] and [[2022 United States Senate election in Alaska|2022]]<ref name=":1" /><ref name=":2" />
+*Reece J. Roberts, paramedic<ref name=":2" /><ref name=":1" />
+*Shirley Saucerman, medical doctor<ref name=":2" /><ref name=":1" />
+
+==Primary election==
+Under Alaska's voting system, all candidates, regardless of party, run on the same primary ballot. The top four candidates in the primary advance to the general election.<ref>{{cite web |title=Top-four primary |url=https://ballotpedia.org/Top-four_primary |website=Ballotpedia |access-date=May 19, 2026 |language=en}}</ref> There is no ranked choice in the primary election: each voter selects a single candidate.
+=== Background ===
+Incumbent Republican [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]] announced his run for re-election in early 2025. He was first elected in [[2014 United States Senate election in Alaska|2014]], defeating [[Mark Begich]], the most recent Democrat to represent Alaska in the [[U.S. Senate]]. He was last re-elected in [[2020 United States Senate election in Alaska|2020]], prior to the implementation of Alaska's ranked-choice voting system.<ref name=":0" /> Facing few obvious swing state targets to regain the Senate majority in [[2026 United States Senate elections|2026]], Democrats began looking towards more Republican-leaning states, such as [[2026 United States Senate special election in Ohio|Ohio]] and [[2026 United States Senate election in Texas|Texas]], as potential targets.<ref>{{Cite web |last=Neukam |first=Stephen |date=August 6, 2025 |title=Senate Democrats' top remaining targets for the 2026 midterms |url=https://www.axios.com/2025/08/06/senate-democrats-2026-elections-candidates |access-date=February 5, 2026 |website=Axios |language=en}}</ref> Among these states was Alaska, where Senate Democratic leader [[Chuck Schumer]] heavily courted former U.S. Representative [[Mary Peltola]], the last Democrat to win any statewide election in Alaska, to run for Senate.<ref>{{Cite web |last1=Nichols |first1=Hans |last2=Neukam |first2=Stephen |date=August 13, 2025 |title=Scoop: Schumer courts Peltola for Alaska Senate race |url=https://www.axios.com/2025/08/13/alaska-senate-peltola-schumer-sullivan |access-date=February 5, 2026 |website=Axios |language=en}}</ref> Peltola narrowly lost her congressional seat in 2024, and had considered running for either Senate or [[2026 Alaska gubernatorial election|governor]], but she ultimately decided to enter the Senate race in early 2026, setting up the race between her and Sullivan.<ref>{{Cite web |last=Herz |first=Nathaniel |date=July 15, 2025 |title=Dems are 'salivating' over a Peltola bid for Senate, but Alaska governor race could be 'wide open' |url=https://alaskabeacon.com/2025/07/15/dems-are-salivating-over-a-peltola-bid-for-senate-but-alaska-governor-race-could-be-wide-open/ |access-date=February 5, 2026 |website=Alaska Beacon |language=en-US}}</ref><ref>{{Cite web |last=Thiessen |first=Mark |date=January 12, 2026 |title=Democrat Mary Peltola, barrier-breaking ex-Alaska congresswoman, is challenging Republican Dan Sullivan in Senate race |url=https://www.pbs.org/newshour/politics/democrat-mary-peltola-barrier-breaking-ex-alaska-congresswoman-is-challenging-republican-dan-sullivan-in-senate-race |access-date=February 5, 2026 |website=PBS News |language=en-us}}</ref>
+
+In July 2026, the Alaska Division of Elections moved 3,048 voters to "inactive" on its voter rolls based in part on flawed and outdated federal data indicating they might not be citizens. The Alaska Division of Motor Vehicles often includes citizens who do not reach back out to update their citizenship status to the DMV after [[naturalization]]. Historically, the Alaska DMV provided 300 names every three months for verification. Voters can still vote with a 'Question ballot' attesting that they are citizens but have to fill out additional paperwork for their vote to count.<ref>{{Cite web|url=https://alaskapublic.org/news/2026-07-23/state-removes-3-500-alaskans-from-voter-rolls-based-in-part-on-old-data|title=State removes 3,000 Alaskans from voter rolls, based in part on 'old data'|first=Liz|last=Ruskin|website=[[Alaska Public Media]]|date=July 23, 2026|access-date=October 6, 2026}}</ref> 700 Alaskans were able to restore their status on the active list as of August 12, 2026.<ref name="Ruskin2026-1">{{Cite web |last=Ruskin |first=Liz |date=August 12, 2026 |title=Alaska's delisting of voters may violate federal law, Legislature's legal advisor says |url=https://alaskapublic.org/news/politics/2026-08-12/alaskas-delisting-of-voters-may-violate-federal-law-legislatures-legal-advisor-says |access-date=November 9, 2026 |website=Alaska Public Media |language=en}}</ref> The department said it was able to deregister 100 voters who were not citizens and who wished to be taken off the list. They may have been some of the noncitizens added by mistake by DMV employees. The state was accused of violating federal law by some state legislators and the state chapter of the ACLU by conducting a "systematic purge" of active voter rolls within 90 days of an election.<ref name="Ruskin2026-1" />
+
+====Candidacy of Dan J. Sullivan and controversy of names====
+'''Daniel James Sullivan Jr.''' (born June 1957)<ref name="Bohrer2026a">{{Cite web |last=Bohrer |first=Becky |date=June 9, 2026 |title=The other Dan Sullivan in Alaska's US Senate race says candidacy was 'my choice,' not a sham |url=https://apnews.com/article/alaska-senate-dan-sullivan-peltola-68ca38749253c6bf52d13051fda01251 |access-date=June 27, 2026 |website=AP News |language=en|quote=}}</ref> is a retired teacher and [[United States Forest Service]] employee from [[Petersburg, Alaska]], who filed to run as a Republican three days before the filing deadline.<ref name="SullivanPressRelease">{{Cite press release |title=Dan Sullivan Challenges Dan Sullivan for U.S. Senate Seat: Urges Alaskans to defeat incumbent, elect a Sullivan who Stands up for Alaska |date=May 29, 2026 |publisher=Sullivan for Senate |url=https://www.sullivanforsenate.com/press |url-status=dead |archive-url=https://web.archive.org/web/20260529204149/https://www.sullivanforsenate.com/press |archive-date=May 29, 2026}}</ref> Daniel James Sullivan and Daniel Scott Sullivan are unrelated to each other and are both unrelated to former [[List of mayors of Anchorage, Alaska|Anchorage mayor]] [[Dan Sullivan (Anchorage mayor)|Daniel Albert Sullivan]] (in office 2009–2015).<ref>{{Cite web |last=DeMarban |first=Alex |title=Namesake challenger to Sen. Dan Sullivan remains defiant despite state investigation |url=https://www.adn.com/politics/2026/06/10/namesake-challenger-to-sen-dan-sullivan-remains-defiant-despite-state-investigation/ |access-date=June 27, 2026 |website=Anchorage Daily News |date=June 10, 2026 |quote=}}</ref>
+
+In an interview with the ''[[Petersburg Pilot]]'', Dan J. Sullivan stated that he had been considering running against the incumbent U.S. senator for 12 years, and remarked that he finally decided to run after the Senator's lack of opposition to the [[Anti-Weaponization Fund]].<ref name="Morrow2026a"/> Senator Sullivan said this was "an effort to confuse Alaskans" and "dirty politics" by Democrats, calling Dan J. Sullivan a "sham candidate". This was denied by Dan J. Sullivan, who called himself a "pragmatic Republican centrist". It was also denied by Mary Peltola's campaign, the Alaska Democratic Party, and the Democratic Senatorial Campaign Committee. Senator Sullivan threatened legal action if the [[Lieutenant Governor of Alaska]] did not remove Dan J. Sullivan from the ballot.<ref name="cnn dan sullivan">{{Cite web |last1=Raju |first1=Ranu |last2=Fayez |first2=Aleena |date=June 7, 2026 |title=GOP Sen. Dan Sullivan is raising alarms about an eleventh-hour challenger: Dan J. Sullivan |url=https://www.cnn.com/2026/06/07/politics/dan-sullivan-alaska-senate-ballot |access-date=June 7, 2026 |website=CNN |language=en-us}}</ref>
+
+Dan J. Sullivan grew up in the [[Chicago metropolitan area]], and has lived in [[Southeast Alaska]] since 1980. He worked for the [[United States Forest Service]] in his early career before beginning a career as an elementary school teacher.<ref name="Bohrer2026a" /> He taught in elementary schools for over 20 years before retiring.<ref name="Heckart2026a">{{Cite web |last=Heckart |first=Taylor |date=June 4, 2026 |title=It's no joke: A second Dan Sullivan says he really does want to be Alaska's next senator |url=https://alaskapublic.org/news/politics/elections/2026-06-04/its-no-joke-a-second-dan-sullivan-says-he-really-does-want-to-be-alaskas-next-senator |access-date=June 27, 2026 |work=Alaska Public Media}}</ref> He was appointed to the city of Petersburg's Public Safety Advisory Board in December 2021,<ref name="Heckart2026a"/> and he served in that position until October 2022, and he is listed on the Petersburg government website as "Dan Sullivan".<ref>{{Cite web |title=Dan Sullivan |url=https://www.petersburgak.gov/directory-listing/dan-sullivan |access-date=June 27, 2026 |website=Petersburg, Alaska |language=en}}</ref> He stated that he was a member of the [[Alaskan Independence Party]] from when he moved to Alaska in 1980 until the party's dissolution in late 2025.<ref name="Heckart2026a" /><ref name="Morrow2026a">{{Cite web |last=Morrow |first=Caleb |date=June 4, 2026 |title=Petersburg's Dan Sullivan challenges Senator Dan Sullivan |url=HTTPS://www.petersburgpilot.com/story/2026/06/04/news/petersburgs-dan-sullivan-challenges-senator-dan-sullivan/15854.html |access-date=June 27, 2026 |work=Petersburg Pilot}}</ref> 
+
+Dan J. Sullivan's initial campaign announcement stated that he was "focused on unseating the incumbent, putting Alaska first, and restoring accountability, common sense, and public service to Washington, D.C."<ref name="SullivanPressRelease"/> He later described his political philosophy as "a pragmatic Republican centrist" similar to [[Lisa Murkowski]], with influence from [[Rand Paul]].<ref name="Bohrer2026a" /> Incumbent U.S. Senator Daniel Scott Sullivan argued in an early June 2026 interview with [[CNN]] that "[Daniel James Sullivan's] whole purpose of running is to confuse Alaskans, to make him, make them think – Alaskan voters – that somehow he's me, so they could rig the vote in favor of [[Mary Peltola]]."<ref name="cnn dan sullivan"/> An analysis of [[Federal Election Commission]] records by [[KTUU-TV]] showed that he had donated to Peltola's previous campaigns, including $100 in 2022 and $30 in 2024. KTUU reported, "That financial history is the extent of the documented link between the Petersburg Sullivan and the Peltola campaign."<ref name="CourtneySimon2026">{{Cite web |last1=Courtney |first1=Wil |last2=Simon |first2=Matthew |date=June 13, 2026 |title=Two Dan Sullivans: Petersburg candidate poised for removal from ballot by state |url=https://www.alaskasnewssource.com/2026/06/13/two-dan-sullivans-petersburg-candidate-poised-removal-ballot-by-state/ |access-date=June 27, 2026 |work=KTUU-TV}}</ref> His initial press release and website design were supported by political strategist Amber Lee, who has previously worked with Democratic campaigns in Alaska.<ref name="Courtney2026a">{{Cite web |last=Courtney |first=Wil |date=June 4, 2026 |title=Sullivan vs. Sullivan: Senator accuses Peltola of 'rigging' election — but evidence of her involvement is unclear |url=https://www.alaskasnewssource.com/2026/06/04/sullivan-vs-sullivan-senator-accuses-peltola-rigging-election-evidence-her-involvement-is-unclear/ |access-date=June 29, 2026 |work=KTUU-TV}}</ref> Lee has publicly spoken in favor of Peltola's candidacy, including in a January 2026 interview with [[The Hill (newspaper)|''The Hill'']].<ref name="Courtney2026a" /><ref name="ElissaSlotkin">{{Cite web |last=Mueller |first=Julia |date=January 15, 2026 |title=Peltola's entrance in Alaska Senate race gives Democrats hope |url=https://thehill.com/homenews/campaign/5689076-alaska-senate-race-democrats/ |access-date=June 29, 2026 |work=The Hill}}</ref>
+
+''[[The Wall Street Journal]]'' reported that weeks before the election, polls showed that approximately one third of voters likely to vote in the primary election could not distinguish the two candidates.<ref>{{Cite news |last=Epstein |first=Reid J. |date=August 13, 2014 |title=Alaska Election Offers Two Chances to Vote for Dan Sullivan |url=http://online.wsj.com/articles/alaska-election-offers-two-chances-to-vote-for-dan-sullivan-1407897002 |access-date=June 27, 2026 |work=Wall Street Journal |issn=0099-9660}}</ref> Dan J. Sullivan's candidacy was the subject of legal debate, which {{As of|2026|6|27|df=US|lc=y}} advanced to the [[Alaska Supreme Court]].<ref name="Ruskin2026a">{{Cite web |last=Ruskin |first=Liz |date=June 27, 2026 |title=Judge puts 2nd Dan Sullivan back on ballot in Alaska's U.S. Senate race |url=https://alaskapublic.org/news/politics/2026-06-26/judge-puts-2nd-dan-sullivan-back-on-ballot-in-alaskas-u-s-senate-race |access-date=June 27, 2026 |work=Alaska Public Media}}</ref> In its initial response to Sullivan's candidacy filing, the Alaska Division of Elections stated that Sullivan's name would appear on the ballot as "Sullivan, Dan J. (Registered Republican)".<ref name="Hanson2026a">{{Cite web |last=Hanson |first=Lars |date=June 27, 2026 |title=Judge orders Petersburg's Dan J. Sullivan onto Alaska U.S. Senate primary ballot |url=https://www.alaskasnewssource.com/2026/06/27/judge-orders-petersburgs-dan-j-sullivan-onto-alaska-us-senate-primary-ballot/ |access-date=June 27, 2026 |work=[[KTUU-TV]]}}</ref>
+
+The Alaska Director of Elections ordered Sullivan's name removed from the ballot, saying his candidacy "was not filed in order to declare an actual good-faith candidacy for the office of United States Senator, but was instead filed with a purpose to confuse or mislead and to thereby compromise the ballot's fairness or neutrality",<ref>{{Cite web |last=Ruskin |first=Liz |date=June 15, 2026 |title=Alaska Elections Division makes it official, says Dan J. Sullivan can't run against Sen. Dan S. Sullivan |url=https://alaskapublic.org/news/politics/2026-06-15/alaska-elections-division-makes-it-official-says-dan-j-sullivan-cant-run-against-sen-dan-s-sullivan |access-date=June 29, 2026 |work=Alaska Public Media}}</ref> a decision he appealed.<ref>{{cite web|url=https://thehill.com/homenews/campaign/5936869-dan-sullivan-ballot-challenge|title=Alaska Senate candidate with same name as Sullivan sues to stay on primary ballot |last=Rego|first=Max|date=June 23, 2026|access-date=November 7, 2026|work=The Hill}}</ref> On June 26, Anchorage Superior Court judge Thomas A. Matthews reversed the Division of Elections' decision to exclude Sullivan from the primary ballot. Matthews' decision ruled that the "good-faith" standard for ballot access was not supported by Alaska law, the Division of Elections' regulations, or [[Article One of the United States Constitution#Section 3: Senate|Article One, Section 3 of the United States Constitution]].<ref name="Hanson2026a"/><ref name="Ruskin2026a" /><ref name="DeMarban2026a">{{Cite web |last=DeMarban |first=Alex |date=June 27, 2026 |title=Judge allows namesake challenger to Sen. Dan Sullivan to appear on Alaska ballot |url=https://www.adn.com/politics/2026/06/26/superior-court-judge-rules-in-favor-of-namesake-challenger-to-sen-dan-sullivan/ |access-date=June 29, 2026 |work=Anchorage Daily News}}</ref> On July 2, the [[Alaska Supreme Court]] affirmed the decision, ordering Sullivan's name to be listed on the August 18 primary ballot.<ref name="adn supreme court">{{Cite web |last=DeMarban |first=Alex |title=Alaska Supreme Court allows namesake challenger to U.S. Sen. Dan Sullivan to appear on the ballot |url=https://www.adn.com/politics/2026/06/29/alaska-supreme-court-rules-that-dan-j-sullivan-can-appear-on-the-ballot-against-sen-dan-sullivan/ |access-date=July 2, 2026 |website=Anchorage Daily News}}</ref> On June 29,<!-- The ADN article says the sample ballot was released "on Monday", which would have been the 29th --> the Division of Elections released a sample ballot{{clarify |date=November 2026 |reason=Is this what was used on the final ballot, or was the June sample ballot release just something that happened before the final ballot format was established? How were these candidates identified on the final ballot? }} that distinguished between the two Sullivans by listing Dan J. Sullivan as "Sullivan, Daniel J. Jr.", with no party affiliation listed (despite Sullivan filing as a Republican) and using "Daniel" rather than "Dan" for him and adding "Jr."<!-- there was no "Jr." in the initial announced listing -->, and identifying Dan S. Sullivan as "Dan S. Sullivan (Registered Republican) Incumbent", specifically identifying him as the incumbent, which they had not done for any other incumbent for at least 10 years.<ref>{{cite web |url=https://www.adn.com/politics/2026/06/30/election-officials-sample-ballot-shows-how-they-seek-to-distinguish-two-dan-sullivans-in-us-senate-race/ |title=Election officials' sample ballot shows how they seek to distinguish two Dan Sullivans in U.S. Senate race |first=Alex |last=DeMarban |date=June 30, 2026 |work=[[Anchorage Daily News]] }}</ref><ref>{{Cite web |url=https://www.pbs.org/newshour/politics/trump-administration-files-lawsuit-to-block-possible-democratic-win-in-alaska-senate-race |title=WATCH: Trump says he ordered DOJ lawsuit over Alaska Senate race |first1=Nicholas |last1=Riccardi |date=October 23, 2026 |via=PBS News |agency=Associated Press |access-date=November 6, 2026}}<!-- How is this citation relevant? It does not mention the sample ballot and appears to have been published before the sample ballot was released. --></ref><ref>{{Cite news |last1=Balk |first1=Tim |last2=Browning |first2=Kellen |date=October 23, 2026 |title=Justice Dept. Suit Reignites a Legal Fight in Alaska |url=https://www.nytimes.com/2026/10/23/us/alaska-courts-ruled-months-ago-on-the-two-dan-sullivans-in-the-senate-race.html |access-date=October 24, 2026 |work=The New York Times |language=en-US |issn=0362-4331 |url-access=subscription }}<!-- How is this citation relevant to this sentence about the sample ballot --></ref>
+
+=== Campaign ===
+According to most predictors, Peltola's January entry into the race immediately made the race competitive.<ref>{{Cite web |last=Kondik |first=Kyle |date=January 13, 2026 |title=Alaska Senate Race Comes Onto the Competitive Board with Peltola's Entry |url=https://centerforpolitics.org/crystalball/alaska-senate-race-comes-onto-the-competitive-board-with-peltolas-entry/ |access-date=February 5, 2026 |website=Sabato's Crystal Ball |language=en-US}}</ref> She still faced significant hurdles, such as Sullivan's incumbency, the lack of a prominent Republican challenger, the unpopularity of the national Democratic Party in Alaska, and a reduction in cross-party support. [[Lisa Murkowski]], Alaska's other U.S. Senator and a noted [[moderate]] Republican, had endorsed Peltola in her [[2022 United States House of Representatives election in Alaska|2022]] and [[2024 United States House of Representatives election in Alaska|2024]] bids for U.S. House, but she endorsed Dan S. Sullivan in this race instead.<ref>{{Cite web |date=January 12, 2026 |title=Former Rep. Mary Peltola jumps into Alaska Senate race |url=https://www.politico.com/news/2026/01/12/peltola-alaska-senate-2026-midterms-00721596 |access-date=February 5, 2026 |website=Politico |language=en}}</ref> However, as Trump's unpopularity grew, especially as the [[2026 Iran war]] began and continued, Peltola's chances of flipping the Senate seat grew.<ref>{{Cite web |last1=Fischler |first1=Jacob|last2=Shorman|first2=Jonathan |date=June 18, 2026 |title=Alaska among 9 states to decide if Dems flip US Senate |url=https://www.juneauindependent.com/post/alaska-among-9-states-to-decide-if-dems-flip-us-senate |access-date=November 13, 2026 |work=Juneau Independent|agency=Alaska Beacon |language=en}}</ref>
+
+Over the course of the primary campaign, a [[super PAC]] called Fair Deal Alaska, registered to a [[virtual office]] address in [[Wasilla, Alaska|Wasilla]], spent around $770,000 promoting Green Party candidate [[Richard Grayson (writer)|Richard Grayson]] and Democrat [[Carol Hafner]] in what the ''[[Alaska Beacon]]'' and the ''[[Anchorage Daily News]]'' described as an apparent attempt to dilute support for Peltola in the general election.<ref name=":4" /><ref name=":5">{{Cite news |last=Samuels |first=Iris |date=August 13, 2026 |title=Millions pour into Alaska to boost fringe U.S. Senate candidates |url=https://www.adn.com/politics/2026/08/13/millions-pour-into-alaska-to-boost-fringe-us-senate-candidates/ |url-status=live |archive-url=https://web.archive.org/web/20260814003724/https://www.adn.com/politics/2026/08/13/millions-pour-into-alaska-to-boost-fringe-us-senate-candidates/ |archive-date=August 14, 2026 |access-date=August 13, 2026 |work=[[Anchorage Daily News]]}}</ref> Another PAC called American Democracy Project spent over $240,000 to promote Democrat David Leslie.<ref name=":5" /> A similar group called Right for Alaska spent $1.2 million promoting Republican Gerald Heikes and [[Alaskan Party]] candidate Earl "Skip" Southworth, who were considered more likely to draw support from Dan S. Sullivan.<ref name=":4">{{Cite news |last=Herz |first=Nathaniel |date=August 3, 2026 |title=As Alaska's U.S. Senate campaign heats up, super PACs boost out-of-state candidates |url=https://alaskabeacon.com/2026/08/03/as-alaskas-u-s-senate-campaign-heats-up-super-pacs-boost-out-of-state-candidates/ |work=[[Alaska Beacon]]}}</ref><ref name=":5" /> Both Grayson and Leslie expressed concern about the outside spending on their behalf to the ''Anchorage Daily News''. Grayson—a [[satirical candidate]] living in Arizona—said that he supported Peltola and pledged to withdraw if he advanced to the general election.<ref name=":5" />
+
+=== Endorsements ===
+{{Endorsements box
+|title=Scott Kohlhaas (L)
+|list=
+;Political parties
+*[[Alaska Libertarian Party]]<ref>{{cite web |title=2026 Libertarian Party Candidates |url=https://aklp.org/candidates-2026/ |website=[[Alaska Libertarian Party]] |access-date=September 4, 2026 |archive-url=https://web.archive.org/web/20260904092824/https://aklp.org/candidates-2026/ |archive-date=September 4, 2026 |date=2026 |url-status=live}}</ref>
+}}
+
+{{Endorsements box
+|title=Mary Peltola (D)
+|colwidth=60
+|list=
+<!-- PLEASE READ [[WP:ENDORSE]] – Endorsements by individuals need to have '''reliable, independent''' sources. Not the candidate or endorser's social media or website. -->
+;Executive branch officials
+* [[Pete Buttigieg]], former [[United States Secretary of Transportation|secretary of transportation]] (2021–2025)<ref name="Peltola">{{cite web |last1=Courtney |first1=Wil |title=Peltola Senate challenge draws national battle lines as Murkowski backs Sullivan |url=https://www.alaskasnewssource.com/2026/01/12/murkowski-backs-sullivan-hours-after-peltola-announces-senate-challenge/ |website=Alaska News Source |access-date=January 13, 2026 |language=en |date=January 12, 2026 |archive-date=January 12, 2026 |archive-url=https://web.archive.org/web/20260112222416/https://www.alaskasnewssource.com/2026/01/12/murkowski-backs-sullivan-hours-after-peltola-announces-senate-challenge/ |url-status=live }}</ref>
+* <s>[[Kamala Harris]], former [[vice president of the United States]] (2021–2025)</s> ''(endorsement rejected by candidate)''<ref>{{cite web |last1=Balk |first1=Tim |title=Senate Hopeful in Alaska Says 'No Thanks' to Kamala Harris's Support |url=https://www.nytimes.com/2026/08/14/us/politics/kamala-harris-mary-peltola-endorsement.html |website=New York Times |date=August 14, 2026 |access-date=August 14, 2026}}</ref>
+
+;U.S. senators
+*[[Elissa Slotkin]], [[List of United States senators from Michigan|Michigan]] (2025–present)<ref name="ElissaSlotkin"/>
+;U.S. representatives
+*[[Adam Kinzinger]], former [[Illinois's 16th congressional district|IL-16]] (2013–2023){{efn|Previously represented the [[Illinois's 11th congressional district|11th district]] from 2011 to 2013}} ''(Republican)''<ref>{{cite web |title=Not about politics |url=https://politicalemails.org/messages/2189035 |website=Archive of Political Emails |date=March 28, 2026|access-date=August 19, 2026}}</ref>
+
+;State legislators
+*[[Tom Begich]], former [[Alaska State Senate|senate minority leader]] (2019–2023) from [[Alaska Senate district J|district J]] (2017–2023) and [[2026 Alaska gubernatorial election|2026 gubernatorial candidate]]<ref name="Peltola" />
+
+;Party officials
+*[[Eric Croft]], chair of the [[Alaska Democratic Party]] (2025–present)<ref>{{Cite web|url=https://www.petersburgpilot.com/story/2026/01/15/news/mary-peltola-announces-run-for-alaska-us-senate-challenging-incumbent-dan-sullivan/15524.html|title=Mary Peltola announces run for U.S. Senate, challenging incumbent Dan Sullivan|access-date=February 6, 2026}}</ref>
+*[[David Hogg]], former vice chair of the [[Democratic National Committee]] (2025)<ref name="GunControl"/>
+
+;Individuals
+*[[Richard Grayson (writer)|Richard Grayson]], writer and candidate for this seat ''(Green)''<ref name=":5" />
+*[[Martin Sheen]], actor<ref>{{Cite web |title=From The West Wing to The Last Frontier |url=https://politicalemails.org/messages/2164542 |website=Archive of Political Emails |date=March 10, 2026 |access-date=August 19, 2026}}</ref>
+*[[Shannon Watts]], founder of [[Moms Demand Action]]<ref name="GunControl">{{Cite web |title=Peltola gets endorsement of the darling of gun control David Hogg |url=https://thealaskastory.com/peltola-gets-endorsement-of-the-darling-of-gun-control-david-hogg |last=Downing |first=Suzanne |date=April 22, 2026 |access-date=August 6, 2026 |website=The Alaska Story}}</ref>
+
+;Labor unions
+*Alaska [[AFL-CIO]]<ref>{{cite web |title=Today, during a meeting of the Alaska AFL-CIO, Vice Presidents voted to endorse @MaryPeltola for U.S. Senate and @BillHillAK for U.S. House. |url=https://x.com/AKAFLCIO/status/2067410507368407285 |website=X&nbsp;(formerly Twitter) |date=June 18, 2026 |publisher=AKAFLCIO |access-date=June 19, 2026}}</ref>
+*[[American Federation of Government Employees]]<ref>{{Cite web |date=August 11, 2026 |title=Largest Federal Employee Union Endorses Alaska's Mary Peltola and Bill Hill for Election to Congress |url=https://www.afge.org/publication/largest-federal-employee-union-endorses-alaskas-mary-peltola-and-bill-hill-for-election-to-congress |access-date=August 21, 2026 |website=American Federation of Government Employees |language=en}}</ref>
+*[[Association of Flight Attendants]]<ref>{{cite web |title=Endorsements |url=https://afacwa.org/endorsements/ |website=Association of Flight Attendants-CWA |access-date=April 16, 2026}}</ref>
+*[[National Education Association]]<ref>{{cite web |title=Our Recommended Candidates |url=https://educationvotes.nea.org/2026-election/our-recommended-candidates/ |website=Education Votes |access-date=June 4, 2026}}</ref>
+*[[SEIU 775]]<ref name="Unions1">{{cite web |last1=Brooks |first1=James |last2=Smith |first2=Corinne |title=Mary Peltola announces run for Alaska U.S. Senate, challenging incumbent Dan Sullivan |url=https://alaskabeacon.com/2026/01/12/mary-peltola-announces-run-for-alaska-u-s-senate-challenging-incumbent-dan-sullivan/ |website=Alaska Beacon |access-date=January 13, 2026 |date=January 12, 2026 |archive-date=January 13, 2026 |archive-url=https://web.archive.org/web/20260113210659/https://alaskabeacon.com/2026/01/12/mary-peltola-announces-run-for-alaska-u-s-senate-challenging-incumbent-dan-sullivan/ |url-status=live }}</ref>
+
+;Organizations
+*[[Elect Democratic Women]]<ref>{{cite web |title=Candidates |url=https://electdemocraticwomen.org/candidates/ |website=Elect Democratic Women}}</ref>
+*[[EMILY's List]]<ref>{{cite news |last1=Altimari |first1=Daniela |title=Former Rep. Mary Peltola enters Alaska Senate race in boost to Democrats |url=https://rollcall.com/2026/01/12/mary-peltola-alaska-senate-election-sullivan/ |access-date=January 12, 2026 |work=[[Roll Call]] |date=January 12, 2026 |archive-date=January 12, 2026 |archive-url=https://web.archive.org/web/20260112180740/https://rollcall.com/2026/01/12/mary-peltola-alaska-senate-election-sullivan/ |url-status=live }}</ref>
+*[[End Citizens United]]<ref>{{cite web |title=End Citizens United Endorses Mary Peltola for Alaska Senate |url=https://www.endcitizensunited.org/end-citizens-united-endorses-mary-peltola-for-alaska-senate |website=endcitizensunited.org |date=April 1, 2026 |access-date=April 2, 2026}}</ref>
+*[[J Street]]<ref>{{Cite web |title=Mary Peltola |url=https://jstreetpac.org/candidate/mary-peltola/ |access-date=May 1, 2026 |website=JStreetPAC |language=en-US}}</ref>
+*[[Jewish Democratic Council of America]]<ref>{{cite web |title=Jewish Dems Endorsed Candidates |url=https://jewishdems.org/endorsements/ |website=Jewish Democratic Council of America}}</ref>
+*[[National Organization for Women]] PAC<ref>{{cite web |title=Leading the Charge: NOW PAC Endorses Feminist Powerhouses |url=https://nowpac.org/news/leading-the-charge-now-pac-endorses-feminist-powerhouses-2/ |website=NOW Political Action Committee |access-date=September 15, 2026 |date=April 27, 2026}}</ref>
+*[[Progressive Victory]]<ref>{{cite tweet|user=ProgressiveVic|number=2012955213066359212|title=ENDORSEMENT ALERT! Here is our first 18 endorsements for this year's 2026 midterms.|access-date=January 18, 2026}}</ref>
+*[[Reproductive Freedom for All]]<ref>{{cite web |title=Who We're Endorsing |website=Reproductive Freedom for All |url=https://reproductivefreedomforall.org/elections |archive-url=https://web.archive.org/web/20260806222338/https://reproductivefreedomforall.org/elections |archive-date=August 6, 2026 |access-date=October 24, 2026}}</ref>
+*[[Sealaska Corporation]]<ref name="sealaska">{{cite web |last1=Rickert |first1=Levi |title=Sealaska Endorses Mary Peltola for U.S. Senate |url=https://nativenewsonline.net/currents/sealaska-endorses-mary-peltola-for-u-s-senate/ |website=Native News Online |access-date=August 19, 2026 |date=August 19, 2026}}</ref> ''(previously endorsed Dan S. Sullivan)''<ref name="Brooks"/><ref name="Twelve"/>
+}}
+{{Endorsements box
+|title=Dan S. Sullivan (R)
+|list=
+;Executive branch officials
+*[[Tara Sweeney]], former [[United States Department of the Interior|assistant secretary of the interior for Native American affairs]] (2018–2021)<ref name="Lyman"/>
+*[[Donald Trump]], [[president of the United States]] (2017–2021, 2025–present)<ref>{{Cite web|title= Trump endorses Alaska US Senator Dan Sullivan|url= https://www.adn.com/politics/2025/07/21/trump-endorses-alaska-us-sen-dan-sullivan/|access-date= September 13, 2025|archive-date= October 2, 2025|archive-url= https://web.archive.org/web/20251002003001/https://www.adn.com/politics/2025/07/21/trump-endorses-alaska-us-sen-dan-sullivan/|url-status= live}}</ref>
+
+;U.S. senators
+*[[Lisa Murkowski]], [[List of United States senators from Alaska|Alaska]] (2002–present)<ref>{{cite web |last1=Ruskin |first1=Liz |title=Mary Peltola enters Alaska U.S. Senate race |url=https://alaskapublic.org/news/politics/washington-d-c/2026-01-12/mary-peltola-enters-alaska-u-s-senate-race |website=Alaska Public Media |access-date=January 12, 2026 |language=en |date=January 12, 2026 |archive-date=January 12, 2026 |archive-url=https://web.archive.org/web/20260112165100/https://alaskapublic.org/news/politics/washington-d-c/2026-01-12/mary-peltola-enters-alaska-u-s-senate-race |url-status=live }}</ref>
+
+;U.S. representatives
+*[[Nick Begich III]], [[Alaska's at-large congressional district|AK-AL]] (2025–present)<ref>{{cite web |title=Begich exchanges endorsements with Sullivan who faces a familiar foe |url=https://alaskawatchman.com/2026/01/15/begich-exchanges-endorsements-with-sullivan-who-faces-a-familiar-foe/ |website=Alaska Watchman |access-date=January 16, 2026 |language=en |date=January 15, 2026}}</ref>
+
+;State legislators
+*[[Lyman Hoffman]], [[Alaska State Senate|state senator]] from [[Alaska Senate district S|district S]] (1991–1993, 1995–present) ''(Democratic)''<ref name="Lyman">{{cite web |title=Alaska Native Leaders endorse Senator Dan Sullivan's Re-Election |url=https://deltadiscovery.com/alaska-native-leaders-endorse-senator-dan-sullivans-re-election/ |website=The Delta Discovery |access-date=March 27, 2026 |date=March 27, 2026}}</ref>
+*[[John Lincoln (politician)|John Lincoln]], former [[Alaska House of Representatives|state representative]] from the 40th district (2018–2021) ''(Independent)''<ref name="Lyman"/>{{efn|Lincoln was elected as a Democrat before leaving the party in 2019 and registering as an independent. He continued to caucus with the Democrats for the remainder of his term.}}
+*[[Gary Stevens (politician)|Gary Stevens]], Senate president (2009–2013, 2023–present) from [[Alaska Senate district C|district C]] (2003–present)<ref>{{cite web |last1=Balk |first1=Tim |title=Senator Dan Sullivan Has a New Challenger in Alaska: Dan Sullivan |url=https://www.nytimes.com/2026/05/30/us/politics/dan-sullivan-election-senate-alaska.html |website=The New York Times |access-date=June 4, 2026 |date=May 30, 2026}}</ref>
+*[[Bill Thomas (Alaska politician)|Bill Thomas]], former [[Alaska House of Representatives|state representative]] from the 5th district (2005–2013)<ref name="Lyman"/>
+
+;Party officials
+*Brian Hove, [[Republican National Committeeman|Republican national committeeman]] for Alaska<ref>{{cite news |last1=Hove |first1=Brian |title=Opinion: The duality of Alaska's U.S. Senate race |url=https://www.adn.com/opinions/2026/08/14/opinion-the-duality-of-alaskas-us-senate-race/ |access-date=August 14, 2026 |work=[[Anchorage Daily News]] |date=August 14, 2026}}</ref>
+
+;Labor unions
+*[[International Brotherhood of Teamsters]] Local 959<ref name="Unions1" />
+
+;Organizations
+*[[Americans for Prosperity]]<ref>{{cite web |title=AFP Action Endorses Dan Sullivan for U.S. Senate, Launches Ad Buy |url=https://afpaction.com/afp-action-endorses-dan-sullivan-for-u-s-senate-launches-ad-buy/ |website=AFP Action |access-date=July 6, 2026 |date=June 25, 2026}}</ref>
+*[[Log Cabin Republicans]]<ref name="LCRs">{{cite web |title=22 Republicans endorsed by LGBT organization: Full list of names |url=https://www.newsweek.com/22-republicans-endorsed-by-lgbt-organization-full-list-of-names-11460976 |website=Newsweek |access-date=February 4, 2026 |language=en |date=February 3, 2026}}</ref>
+*[[NRA Political Victory Fund]]<ref>{{cite web |title=NRA backs Sen. Dan Sullivan's re-election bid |url=https://alaskawatchman.com/2026/07/13/nra-backs-sen-dan-sullivans-re-election-bid/ |website=Alaska Watchman |access-date=September 1, 2026 |language=en |date=July 14, 2026}}</ref>
+*<s>[[Sealaska Corporation]]</s> ''(later endorsed Peltola)''<ref name="sealaska"/>
+*[[United States Chamber of Commerce]]<ref name="chamcom">{{cite web |title=U.S. Chamber Endorses Sen. Dan Sullivan for U.S. Senate in Alaska |url=https://www.uschamber.com/improving-government/u-s-chamber-endorses-sen-dan-sullivan-for-u-s-senate-in-alaska |website=U.S. Chamber of Commerce |access-date=September 1, 2026 |language=en |date=August 14, 2026}}</ref>
+*11 [[Alaska Native corporation]]s<ref name="Brooks">{{cite web |last1=Brooks |first1=James |title=Peltola unveils 'affordability' campaign as she challenges incumbent U.S. Sen. Dan Sullivan |url=https://alaskabeacon.com/2026/05/11/peltola-unveils-affordability-campaign-as-she-challenges-incumbent-u-s-sen-dan-sullivan/ |website=Alaska Beacon |access-date=May 26, 2026 |date=May 11, 2026}}</ref><ref name="Twelve">{{cite web |title=ANCSA Regional Association Endorses Senator Dan Sullivan for Re-Election |url=https://ancsaregional.com/ancsa-regional-association-endorses-senator-dan-sullivan-for-re-election/ |website=ANCSA Regional Association |access-date=May 26, 2026 |date=May 7, 2026}}</ref>{{efn|
+*[[Ahtna, Incorporated]]
+*[[The Aleut Corporation|Aleut]]
+*[[Arctic Slope Regional Corporation]]
+*[[Bering Straits Native Corporation]]
+*[[Bristol Bay Native Corporation]]
+*[[Calista Corporation]]
+*[[Chugach Alaska Corporation]]
+*[[Cook Inlet Region, Inc.]]
+*[[Doyon, Limited]]
+*[[Koniag, Incorporated]]
+*[[NANA Regional Corporation]]}}
+}}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of September 30, 2026{{efn|Names and party affiliations shown in this table are as given by the cited source (the [[Federal Election Commission]]).}}
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Democratic}}|Mary Peltola (D)
+|$32,623,721
+|$29,463,904
+|$3,159,817
+|-
+|{{party shading/Republican}}|Dan Sullivan (R)<!-- Dan (with no middle initial) in the cited source -->
+|$13,760,054
+|$9,388,080
+|$5,103,717
+|-
+|{{party shading/Republican}}|Daniel J. Sullivan (R)<!-- Daniel J. and Republican in the cited source -->
+|$30,230
+|$26,754
+|$3,476
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC">{{cite web |title=2026 Election United States Senate – Alaska |url=https://www.fec.gov/data/elections/senate/AK/2026/ |website=[[Federal Election Commission]] |access-date=October 16, 2026 |archive-date=May 15, 2025 |archive-url=https://web.archive.org/web/20250515170059/https://www.fec.gov/data/elections/senate/AK/2026/ |url-status=live }}</ref></small>
+|}
+
+===Polling===
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />of error
+! style="width:60px;"| Ann<br />Diener<br />(D)
+! style="width:60px;"| Fred<br />Grauberger<br />(R)
+! style="width:60px;"| Richard<br />Grayson<br />(G)
+! style="width:60px;"| Sid<br />Hill<br />(I)
+! style="width:60px;"| William<br />Hunt<br />(D)
+! style="width:60px;"| Christopher<br />Miklos<br />(R)
+! style="width:60px;"| Mary<br />Peltola<br />(D)
+! style="width:60px;"| James<br />Ryan<br />(R){{efn|name=|Candidate not running in this election }}
+! style="width:60px;"| Dan S.<br />Sullivan<br />(R)
+! Undecided
+|-
+| style="background:lightyellow; border-right-style:hidden;" |
+| style="border-right-style:hidden; background:lightyellow;" | June 1, 2026
+| style="background:lightyellow;" colspan="12" | Hunt withdraws from the race
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | April 21, 2026
+| colspan="12" | Diener withdraws from the race
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | April 10, 2026
+| colspan="12" | Miklos withdraws from the race
+|-
+|style="text-align:left;|Alaska Survey Research<ref name="ASRMarch2026"/>
+|March 19–22, 2026
+|1,283 (LV)
+|±&nbsp;3.0%
+|2%
+|1%
+|1%
+|{{party shading/Independent}}|'''3%'''
+|1%
+|2%
+|{{party shading/Democratic}}|'''46%'''
+|{{party shading/Republican}}|'''3%'''
+|{{party shading/Republican}}|'''41%'''
+|{{sdash}}
+|}
+
+===Primary results===
+[[Mary Peltola]], [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]], Dan J. Sullivan, and Gerald Heikes advanced to the general election.<ref name="AP-primary">{{cite news |title=Alaska U.S. Senate all-party primary results |url=https://apnews.com/projects/elections-2026/alaska-primary-results-us-senate/ |access-date=August 20, 2026 |work=[[Associated Press]] |date=August 20, 2026 |archive-url=https://web.archive.org/web/20260820223802/https://apnews.com/projects/elections-2026/alaska-primary-results-us-senate/ |archive-date=August 20, 2026 |url-status=live}}</ref>
+{{Switcher
+|[[File:2026 United States Senate primary election in Alaska results map by state house district.svg|350px|thumb|Results by state house district:
+{{collapsible list
+| title = {{legend|#7996E2|Peltola}}
+| {{legend|#7996E2|50–60%}}
+| {{legend|#6674DE|60–70%}}
+| {{legend|#584CDE|70–80%}}
+}}
+{{collapsible list
+| title = {{legend|#E27F7F|D. S. Sullivan}}
+| {{legend|#E27F7F|50–60%}}
+| {{legend|#D75D5D|60–70%}}
+}}]]
+|Results by state house district
+|[[File:2026 United States Senate primary election in Alaska by precinct.svg|350px|thumb|Results by precinct:
+{{collapsible list
+| title = {{legend|#8da9e2|Peltola}}
+|{{legend|#eef3fd|20–30%}}
+|{{legend|#dee8fb|30–40%}}
+|{{legend|#b4c7ec|40–50%}}
+|{{legend|#8da9e2|50–60%}}
+|{{legend|#678cd7|60–70%}}
+|{{legend|#4170cd|70–80%}}
+|{{legend|#3358a2|80–90%}}
+|{{legend|#244079|90–100%}}
+}}
+{{collapsible list
+| title = {{legend|#ed8783|D. S. Sullivan}}
+|{{legend|#fbdedd|30–40%}}
+|{{legend|#f1b4b2|40–50%}}
+|{{legend|#ed8783|50–60%}}
+|{{legend|#e55651|60–70%}}
+|{{legend|#d02923|70–80%}}
+|{{legend|#b00600|80–90%}}
+}}
+{{collapsible list
+| title = {{legend|#d79346|Darden}}
+|{{legend|#6e3b00|90–100%}}
+}}
+{{collapsible list
+| title = {{legend|#c88fe4|Tie}}
+|{{legend|#f2dffc|30–40%}}
+|{{legend|#dcb7ef|40–50%}}
+|{{legend|#c88fe4|50%}}
+}}]]
+|Results by precinct}}
+{{Election box begin no change |title=Top-four primary results<ref>{{Cite web |date=August 16, 2026 |title=2026 Primary Election – August 18, 2026 |url=https://www.elections.alaska.gov/enr26/results/ElectionSummaryReportRPT.pdf |access-date=August 19, 2026 |website=Division of Elections {{!}} State of Alaska}}</ref>}}
+{{Election box winning candidate with party link no change  
+  |party      = Democratic Party (United States)
+  |candidate  = [[Mary Peltola]]
+  |votes      = 82,244
+  |percentage = 49.5
+}}
+{{Election box winning candidate with party link no change  
+  |party      = Republican Party (United States)
+  |candidate  = [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]] (incumbent)
+  |votes      = 68,726
+  |percentage = 41.4
+}}
+{{Election box winning candidate no change  
+  |party      = No party listed{{efn|name="J Sullivan Party"}}
+  |candidate  = Daniel J. Sullivan Jr.
+  |votes      = 4,107
+  |percentage = 2.5
+}}
+{{Election box candidate with party link no change  
+  |party      = Democratic Party (United States)
+  |candidate  = David Leslie ''(withdrew)''
+  |votes      = 1,850
+  |percentage = 1.1
+}}
+{{Election box winning candidate with party link no change  
+  |party      = Republican Party (United States)
+  |candidate  = Gerald L. Heikes
+  |votes      = 1,741
+  |percentage = 1.1
+}}
+{{Election box candidate with party link no change  
+  |party      = Democratic Party (United States)
+  |candidate  = [[Carol Hafner]]
+  |votes      = 1,009
+  |percentage = 0.6
+}}
+{{Election box candidate with party link no change  
+  |party      = Republican Party (United States)
+  |candidate  = Heather McElwain
+  |votes      = 972
+  |percentage = 0.6
+}}
+{{Election box candidate with party link no change  
+  |party      = Republican Party (United States)
+  |candidate  = Dustin Darden
+  |votes      = 808
+  |percentage = 0.5
+}}
+{{Election box candidate with party link no change 
+  |party      = Alaskan Party
+  |color      = #000099
+  |candidate  = Earl D. "Skip" Southworth
+  |votes      = 803
+  |percentage = 0.5
+}}
+{{Election box candidate with party link no change  
+  |party      = Libertarian Party (United States)
+  |candidate  = Scott Kohlhaas
+  |votes      = 794
+  |percentage = 0.5
+}}
+{{Election box candidate with party link no change  
+  |party      = Republican Party (United States)
+  |candidate  = Richard Benedict Mayers
+  |votes      = 609
+  |percentage = 0.4
+}}
+{{Election box candidate with party link no change  
+  |party      = Independent politician
+  |candidate  = Reece Roberts
+  |votes      = 602
+  |percentage = 0.4
+}}
+{{Election box candidate with party link no change  
+  |party      = Independent politician
+  |candidate  = Sid Hill
+  |votes      = 522
+  |percentage = 0.3
+}}
+{{Election box candidate with party link no change  
+  |party      = Republican Party (United States)
+  |candidate  = Fred C. Grauberger
+  |votes      = 479
+  |percentage = 0.3
+}}
+{{Election box candidate with party link no change  
+  |party      = Green Party (United States)
+  |candidate  = [[Richard Grayson (writer)|Richard Grayson]]
+  |votes      = 432
+  |percentage = 0.3
+}}
+{{Election box candidate with party link no change  
+  |party      = Independent politician
+  |candidate  = Shirley Saucerman
+  |votes      = 306
+  |percentage = 0.2
+}}
+{{Election box total no change
+  |votes      = 166,004
+  |percentage = 100.0
+}}
+{{Election box end}}
+
+== General election ==
+===Campaign===
+Democratic candidate David Leslie placed fourth in the primary. Leslie, a [[democratic socialist]] who had criticized Peltola's stances on the [[Gaza genocide]], environmental protection, and actions by [[U.S. Immigration and Customs Enforcement]] (ICE), initially said he would not withdraw but later reversed course, citing "pressure from not just the Alaska Democratic leadership, but many different institutions of power".<ref>{{cite news |last1=Herz |first1=Nathaniel |title=This Democratic Socialist could cost Mary Peltola votes in November. But he says he'd actually boost her. |url=https://anchoragepress.com/this-democratic-socialist-could-cost-mary-peltola-votes-in-november-but-he-says-hed-actually-boost-her/ |access-date=September 27, 2026 |work=[[Anchorage Press]] |date=August 21, 2026 |archive-url=https://web.archive.org/web/20260903140950/https://anchoragepress.com/this-democratic-socialist-could-cost-mary-peltola-votes-in-november-but-he-says-hed-actually-boost-her/ |archive-date=September 3, 2026 |url-status=live}}</ref><ref name="DropsOut">{{cite news |last1=DeMarban |first1=Alex |title=Alaska's 4th-place U.S. Senate finisher drops out, elevating GOP candidate to ballot |url=https://www.adn.com/politics/2026/09/01/alaskas-4th-place-us-senate-finisher-drops-out-elevating-gop-candidate-to-ballot/ |access-date=September 27, 2026 |work=[[Anchorage Daily News]] |date=September 1, 2026 |archive-url=https://web.archive.org/web/20260922113331/https://www.adn.com/politics/2026/09/01/alaskas-4th-place-us-senate-finisher-drops-out-elevating-gop-candidate-to-ballot/ |archive-date=September 22, 2026 |url-status=live}}</ref> Leslie's withdrawal allowed Republican [[perennial candidate]] Gerald Heikes to advance to the general election.<ref name="DropsOut" /> Democratic-aligned groups spent over $2 million on ads promoting Heikes during the campaign. Heikes said that the ads used [[AI-generated imagery]], but otherwise accurately presented his political views. Heikes had initially planned to run for US House in 2026, but said he decided to enter the Senate race after being promised support by a political operative from the [[Midwestern United States|Midwest]].<ref name="Trump">{{cite news |last1=DeMarban |first1=Alex |title=Trump weighs in on Alaska's tight U.S. Senate race as thousands of ballots are yet to be tallied |url=https://www.adn.com/politics/2026/11/05/trump-weighs-in-on-alaskas-tight-us-senate-race-as-thousands-of-ballots-are-yet-to-be-tallied/ |access-date=November 9, 2026 |work=[[Anchorage Daily News]] |date=November 5, 2026}}</ref>
+
+On September 23, ''[[The New York Times]]'' published allegations from anonymous aides who had worked for Peltola's congressional office and Senate campaign. The report included text messages showing that Peltola had used an ableist slur and expressed hope that a board member of a local [[Planned Parenthood]] chapter "dies of a botched abortion". The anonymous aides also claimed that Peltola had used a homophobic slur, shoved a congressional aide, and ordered congressional aides to feed crickets to her family's pet chameleon. The Peltola campaign claimed that some of the allegations were false or exaggerated, and said that many of the alleged outbursts could be attributed to stress from the death of Peltola's husband and mother while she was serving in Congress.<ref>{{cite news |last1=Browning |first1=Kellen |title=Angry Outbursts, Slurs, and Firings: Tumult Rocks a Key Senate Campaign |url=https://www.nytimes.com/2026/09/23/us/politics/mary-peltola-alaska-senate-race.html |access-date=September 27, 2026 |work=[[The New York Times]] |date=September 23, 2026}}</ref> The [[Alaska Democratic Party]] and Republican senator [[Lisa Murkowski]] also defended Peltola, while Senator Sullivan and the [[Alaska Republican Party]] condemned her. Alaskan political analysts and operatives interviewed by the ''[[Anchorage Daily News]]'' did not believe the allegations would have a major impact on the election.<ref>{{cite news |last1=Kanagy |first1=Mary |title=How ex-staffers' allegations of hostile behavior by Peltola might affect Alaska's key U.S. Senate race |url=https://www.adn.com/politics/2026/09/26/how-ex-staffers-allegations-of-hostile-behavior-by-peltola-might-affect-alaskas-key-us-senate-race/ |access-date=September 27, 2026 |work=[[Anchorage Daily News]] |date=September 26, 2026 |archive-url=https://web.archive.org/web/20260926191309/https://www.adn.com/politics/2026/09/26/how-ex-staffers-allegations-of-hostile-behavior-by-peltola-might-affect-alaskas-key-us-senate-race/ |archive-date=September 26, 2026 |url-status=live}}</ref>
+
+In late October, the [[U.S. Department of Justice]] filed a {{va|lawsuit}} seeking to block the election results if Dan S. Sullivan loses by a small margin, arguing this outcome could result from him sharing a name with another candidate.<ref>{{cite news |url=https://www.nytimes.com/2026/10/23/us/politics/justice-dept-alaska-senate-race-sullivan.html |title=On Trump's Order, Justice Dept. Seeks to Block Alaska Vote if Republican Loses |last1=Barrett |first1=Devlin |last2=Browning |first2=Kellen |newspaper=[[The New York Times]] |date=October 23, 2026 |access-date=October 24, 2026}}</ref><ref>{{cite news |url=https://www.wsj.com/politics/elections/justice-department-sues-to-block-alaska-senate-results-if-gop-candidate-loses-c2597f6c |title=Trump Says He Directed Justice Department to Sue Alaska Over Senate Race |last1=Timms |first1=Mariah |last2=Radnofsky |first2=Louise |last3=Wise |first3=Lindsay |newspaper=[[The Wall Street Journal]] |date=October 23, 2026 |access-date=October 24, 2026}}</ref><ref>{{Cite news |last=Wolfe |first=Jan |date=October 23, 2026 |title=US Justice Dept sues to block possible Alaska election of Democrat to Senate |url=https://www.reuters.com/world/trump-administration-sues-block-senate-race-certification-alaska-if-republican-2026-10-23/ |access-date=October 24, 2026 |work=Reuters |language=en}}</ref><ref>{{Cite news |last=Blake |first=Aaron |date=October 23, 2026 |title=Analysis: Why Trump's dubious election lawsuits in Alaska and California should raise eyebrows |url=https://www.cnn.com/2026/10/23/politics/trump-election-lawsuits-alaska-california |access-date=October 24, 2026 |work=CNN |language=en}}</ref> A professor of law has suggested that the suit seems to lack merit and stated that the "statute simply doesn't let the Department of Justice enjoin certification" and that the "lawsuit could well be mooted by a wide Democratic victory or a narrow Republican one, and if not, the court will likely dismiss it next month".<ref>{{cite web|last=Riccardi|first=Nicholas|url=https://apnews.com/article/alaska-senate-race-sullivan-name-lawsuit-certification-d8f4a3c7b5247cc427a05f796d7c0d82|title=Trump administration sues to block possible Democratic win in Alaska Senate race|work=Associated Press|date=October 23, 2026}}</ref><ref>{{Cite news |last=Barrett |first=Devlin |date=October 23, 2026 |title=The Justice Department argues that confusion over the Alaska race's two Dan Sullivans could taint a narrow result. |url=https://www.nytimes.com/live/2026/10/23/us/midterm-elections-trump |access-date=October 23, 2026 |work=The New York Times |language=en-US |issn=0362-4331}}</ref> [[Vanita Gupta]], a former [[U.S. Associate Attorney General]], had similar views on the lack of merit, basing it on the power granted to states to determine their own elections.<ref>{{Cite news |last1=Sneed|first1=Tierney|last2=Cohen|first2=Ethan|date=October 23, 2026 |title=Trump DOJ sues to block Alaska US Senate results if Republican incumbent loses |url=https://www.cnn.com/2026/10/23/politics/doj-sues-alaska-dan-sullivan-us-senate |access-date=November 7, 2026 |work=CNN |language=en}}</ref> It was dismissed by U.S. District Court Judge [[Sharon L. Gleason|Sharon Gleason]] on November 1.<ref>{{Cite web |last1=Riccardi |first1=Nicholas |last2=Bohrer |first2=Becky |date=November 1, 2026 |title=Judge dismisses lawsuit seeking to block certification of Alaska Senate race if GOP incumbent loses |website=[[AP News]] |url=https://apnews.com/article/alaska-senate-dan-sullivan-peltola-investigation-b35acffc8b55ef58679d9b8395760f98 }}</ref> On October 26, the ''[[Alaska Beacon]]'' reported that Dan J. Sullivan had switched his registered party affiliation from Republican to "[[Independent politician|Undeclared]]" when requesting an absentee ballot for the August primary.<ref name="Undeclared">{{cite news |last1=Brooks |first1=James |title=Dan J. Sullivan switches from Republican to 'undeclared' ahead of general election |url=https://alaskabeacon.com/2026/10/26/dan-j-sullivan-switches-from-republican-to-undeclared-ahead-of-general-election/ |access-date=October 31, 2026 |work=[[Alaska Beacon]] |date=October 26, 2026 |archive-url=https://web.archive.org/web/20261101035726/https://alaskabeacon.com/2026/10/26/dan-j-sullivan-switches-from-republican-to-undeclared-ahead-of-general-election/ |archive-date=November 1, 2026 |url-status=live}}</ref>
+
+On October 28, it was reported by ''The New York Times'' that, according to Peltola's former campaign manager and longtime aide Elisa Rios, Peltola's campaign, the [[Democratic Senatorial Campaign Committee]], and Democratic political operative Jerid Kurtz spent months on a "ballot composition project" to recruit [[Spoiler effect|spoiler]] candidates. This included finding a person with the same name as Senator Dan S. Sullivan, with that person ultimately being Dan J. Sullivan. Kurtz also allegedly traveled Alaska attempting to recruit other candidates. The project also included ultimately abandoned efforts to create a "[[MAGA]] party" that would further dilute Republican support. Rios also claimed Peltola was not involved but she was "definitely aware" of the project. A week before the article was published, "Ms. Rios ... contacted ''The Times''", trying to retract "all statements made regarding the 2026 Alaska Senate Race".<!-- who is being quoted here? --> ''The Times'' ran the article anyway, disclosing that "''The Times''{{'}}s standards do not obligate reporters to comply with such requests." ''The Times'' said that her "interviews were consistent with ''The Times''{{'}}s other reporting."<ref>{{cite news |url=https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html |title=Inside Democrats' Secret Effort to Stack Alaska's Ballot |newspaper=[[The New York Times]] |last=Browning |first=Kellen |date=October 28, 2026 |access-date=October 28, 2026 |url-access=subscription}}</ref> Later that night Alaska Governor [[Mike Dunleavy (politician)|Mike Dunleavy]] announced a state criminal investigation into Peltola's campaign.<ref>{{Cite news |last1=Browning |first1=Kellen |last2=Griffin |first2=Anna |date=October 29, 2026 |title=Alaska Governor Orders Criminal Investigation Into Peltola Campaign |url=https://www.nytimes.com/2026/10/28/us/politics/trump-peltola-sullivan-alaska-senate.html |access-date=October 29, 2026 |work=The New York Times |language=en-US |issn=0362-4331}}</ref> On October 30, Alaska U.S. Attorney Michael Heyman told reporters in Anchorage that a federal investigation had already been underway "for several months".<ref>{{Cite web |last1=Bohrer |first1=Becky |last2=Goodman |first2=Joshua |last3=Richer |first3=Alanna |date=October 30, 2026 |title=Top federal prosecutor in Alaska says criminal probe underway over would-be spoiler Senate candidate |work=AP News |url=https://apnews.com/article/alaska-sullivan-peltola-senate-election-88259e40d70a7e4f535e01a2b88489aa|access-date=November 7, 2026}}</ref> Peltola denied any knowledge of an effort to recruit another Dan Sullivan.<ref>{{Cite web |last1=Chang |first1=Emily|last2=Mallin|first2=Alexander |title=Peltola denies knowledge of 'any other candidate' on Alaska Senate ballot besides herself and incumbent Dan Sullivan |url=https://abcnews.com/Politics/peltola-denies-knowledge-candidate-alaska-senate-ballot-incumbent/story?id=137705982 |access-date=November 7, 2026 |website=ABC News |language=en}}</ref> Several donors who had given money to Dan J. Sullivan's campaign reported being visited by [[FBI]] agents.<ref>{{cite news |last1=Goodman |first1=Joshua |last2=Mustian |first2=Jim |title=FBI visits Dan J. Sullivan donor in Petersburg as Alaska Senate race inquiry widens |url=https://www.adn.com/politics/2026/10/31/fbi-visits-dan-j-sullivan-donor-in-petersburg-as-alaska-senate-race-inquiry-widens/ |work=[[Anchorage Daily News]] |agency=[[Associated Press]] |date=October 31, 2026 |archive-url=https://web.archive.org/web/20261101040311/https://www.adn.com/politics/2026/10/31/fbi-visits-dan-j-sullivan-donor-in-petersburg-as-alaska-senate-race-inquiry-widens/ |archive-date=November 1, 2026 |url-status=live}}</ref> Heikes, the fourth candidate in the race, also reported being visited by FBI agents who served him with a [[subpoena]] to appear in federal court.<ref name="Trump" />
+
+The controversy over Dan J. Sullivan's candidacy entered the debate over [[2026 Alaska Measure 2]], to be voted on the same day as the Senate election, which proposed to change the system for future Alaska elections. Supporters of the measure said that abolishing the open primary would make it harder to add same-name spoiler candidates to the ballot, while opponents of the measure said the ranked-choice vote reduces the spoiler effect (in this case, by allowing voters to rank both Sullivans ahead of Peltola).<ref>{{cite news |newspaper=The New York Times |title=Did the Peltola Campaign Seal the Fate of Alaska's Ranked Choice Vote? |url=https://www.nytimes.com/2026/11/01/us/alaska-ranked-choice-voting-peltola.html |date=November 1, 2026 |first=Anna |last=Griffin }}</ref> Measure 2 ultimately failed; Alaskans chose to retain ranked-choice voting by a six-point margin.{{cn|date=November 2026}}
+
+=== Predictions ===
+{| class="wikitable" style=text-align:center
+!Source
+!Ranking
+!As of
+|-
+|align="left"|[[ABC News (United States)|ABC News]]<ref>{{Cite news |url=https://abcnews.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095 |title=These key Senate races will determine which party controls the body next year |last=Pecorin |first=Allison |work=[[ABC News (United States)|ABC News]] |date=November 3, 2026 |orig-date=October 26, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|align="left"|[[CBS News]]<ref>{{Cite news |url=https://www.cbsnews.com/news/2026-midterm-election-races/ |title=2026 midterm election races to watch |last1=Hubbard |first1=Kaia |last2=Linton |first2=Caroline |last3=Yilek |first3=Caitlin |last4=Walsh |first4=Joe |work=[[CBS News]] |orig-date=September 13, 2026 |date=November 2, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|October 30, 2026
+|-
+|align="left"|''[[The Cook Political Report]]''<ref>{{Cite web|title=2026 CPR Senate Race Ratings|url=https://www.cookpolitical.com/ratings/senate-race-ratings|access-date=November 8, 2026|website=[[Cook Political Report]]}}</ref>
+|{{USRaceRating|Tossup}}
+|November 2, 2026
+|-
+|align="left"|[[Decision Desk HQ]]<ref>{{cite web|title=2026 Senate Ratings|url=https://votes.decisiondeskhq.com/forecast/2026/senate|url-access=registration|publisher=[[Decision Desk HQ]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|align="left"|''[[The Economist]]''<ref>{{Cite news|title=2026 Senate Forecast|url=https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/|access-date=November 8, 2026|newspaper=[[The Economist]]}}</ref>{{efn|''The Economist''{{'}}s prediction model uses unconventional terminology. For the purpose of equivalency, their "Very Likely" ratings are formatted as a "Likely" rating while "Likely" ratings are formatted as a "Lean" rating.}}
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|align="left"|[[FiftyPlusOne]]<ref>{{Cite web |title=2026 Congressional Forecast |url=https://fiftyplusone.news/forecast/senate |access-date=November 8, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|{{USRaceRating|Lean|D|Flip}}
+|November 3, 2026
+|-
+|align="left"|[[Fox News]]<ref>{{Cite news |last=Numa |first=Rémy |title=Fox News Power Rankings: Kansas moves to Toss-up, Nebraska moves to Lean R |url=https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r |work=[[Fox News]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 1, 2026
+|-
+|align="left"|''[[Inside Elections]]''<ref>{{Cite web|title=Senate Ratings|url=https://www.insideelections.com/ratings/senate|access-date=November 8, 2026 |website=[[Inside Elections]]}}</ref>
+|{{USRaceRating|Tossup}}
+|October 29, 2026
+|-
+|align="left"|[[MS NOW]]<ref>{{Cite news |url=https://www.ms.now/news/2026-senate-ratings-ms-nows-races-to-watch |title=2026 Senate ratings: MS NOW's races to watch |last1=Khanna |first1=Kabir |last2=Thomas |first2=Shawna |work=[[MS NOW]] |orig-date=August 19, 2026 |date=October 29, 2026 |access-date=November 8, 2026}}</ref><ref>{{Cite AV media |url=https://www.youtube.com/shorts/vYHnweLgo4M |title=MS NOW shifts Senate races in SC, MS |website=[[MS NOW]] |via=[[YouTube]] |date=October 29, 2026 |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|October 29, 2026
+|-
+|align="left"|[[NBC News]]<ref>{{Cite news |title=The race for Congress: 2026 midterms |url=https://www.nbcnews.com/politics/2026-elections/midterms#battle-for-control-section |work=[[NBC News]] |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Tossup}}
+|November 3, 2026
+|-
+|align="left"|[[RealClearPolitics]]<ref>{{Cite web|url=https://www.realclearpolling.com/maps/senate/2026/toss-up|title=Battle for the Senate 2026|access-date=November 8, 2026|website=[[RealClearPolitics]]}}</ref>
+|{{USRaceRating|Tossup}}
+|November 2, 2026
+|-
+|align="left"|''[[Sabato's Crystal Ball]]''<ref>{{cite web|title=2026 Senate ratings|url=https://centerforpolitics.org/crystalball/2026-senate/|website=[[Sabato's Crystal Ball]]|access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|D|Flip}}
+|November 2, 2026
+|-
+|align="left"|''[[Silver Bulletin]]''<ref name="Silver">{{Cite web |url=https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model |title=FLIPR 2026 midterm election forecast |last1=Silver |first1=Nate |author1-link=Nate Silver |last2=McKown-Dawson |first2=Eli |website=[[Silver Bulletin]] |via=[[Substack]] |date=November 3, 2026 |orig-date=August 11, 2026 |access-date=November 8, 2026 |url-access=subscription}}</ref>
+|{{USRaceRating|Tossup||}}
+|November 3, 2026
+|-
+|align="left"|[[Split Ticket (website)|Split Ticket]]<ref>{{Cite magazine |title=Split Ticket 2026 Midterms Model |url=https://www.theargumentmag.com/p/split-ticket-2026-midterms-model |magazine=[[The Argument (magazine)|The Argument]] |via=[[Substack]] |access-date=November 8, 2026}}</ref>
+|{{USRaceRating|Lean|D|flip}}
+|November 2, 2026
+|}
+
+===Debates and forums===
+{| class="wikitable" style="text-align:center;"
+|+ 2026 United States Senate election in Alaska debates
+|-
+! scope="col" | {{abbr|No.|Number}}
+! scope="col" | Date
+! scope="col" | Host
+! scope="col" | Moderator
+! scope="col" | Link
+! scope="col"| <small>[[Democratic Party (US)|Democratic]]</small>
+! scope="col"| <small>[[Republican Party (US)|Republican]]</small>
+|-
+! colspan="5" rowspan="2" |Key:<br />{{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small>
+! scope="col" style="background:{{party color|Democratic Party (US)}}"|
+! scope="col" style="background:{{party color|Republican Party (US)}}"|
+|-
+! scope="col" | [[Mary Peltola]]
+! scope="col" | [[Dan S. Sullivan]]
+|-
+!1<ref>{{cite news |last1=Rosen |first1=Yereth |title=Sullivan goes on attack in first post-primary faceoff for Alaska's U.S. Senate race |url=https://alaskabeacon.com/2026/08/28/sullivan-goes-on-attack-in-first-post-primary-faceoff-for-alaskas-u-s-senate-race/ |access-date=August 31, 2026 |work=[[Alaska Beacon]] |date=August 28, 2026 |archive-url=https://web.archive.org/web/20260831010556/https://alaskabeacon.com/2026/08/28/sullivan-goes-on-attack-in-first-post-primary-faceoff-for-alaskas-u-s-senate-race/ |archive-date=August 31, 2026 |url-status=live}}</ref>
+| style="white-space:nowrap;" | August 27, 2026
+| style="white-space:nowrap;" | Alaska Oil and Gas Association
+| style="white-space:nowrap;" | Michelle Egan
+| style="white-space:nowrap;" | [https://vimeo.com/1225063686 Vimeo]
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+|-
+!2<ref>{{cite news |last1=Ruskin |first1=Liz |title=Peltola and Sullivan confront trawl bycatch, and each other, at Kodiak fisheries debate |url=https://alaskapublic.org/news/politics/2026-09-14/peltola-and-sullivan-confront-trawl-bycatch-and-each-other-at-kodiak-fisheries-debate |access-date=September 15, 2026 |work=[[Alaska Public Media]] |date=September 14, 2026 |archive-url=https://web.archive.org/web/20260914215425/https://alaskapublic.org/news/politics/2026-09-14/peltola-and-sullivan-confront-trawl-bycatch-and-each-other-at-kodiak-fisheries-debate |archive-date=September 14, 2026 |url-status=live}}</ref>
+| style="white-space:nowrap;" | September 12, 2026
+| style="white-space:nowrap;" | Kodiak Chamber of Commerce<br />[[KMXT (FM)]]
+| style="white-space:nowrap;" | [[Gary Stevens (politician)|Gary Stevens]]<br />Sara Fraser
+| style="white-space:nowrap;" | [https://www.youtube.com/watch?v=53yBygyYrlk YouTube]
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+|-
+!3<ref>{{cite news |last1=DeMarban |first1=Alex |title=Sullivan and Peltola lob personal attacks as they clash over Iran war and the economy |url=https://www.adn.com/politics/2026/10/16/sullivan-and-peltola-lob-personal-attacks-as-they-clash-over-iran-war-and-the-economy/ |access-date=October 20, 2026 |work=[[Anchorage Daily News]] |date=October 16, 2026 |archive-url=https://web.archive.org/web/20261017011201/https://www.adn.com/politics/2026/10/16/sullivan-and-peltola-lob-personal-attacks-as-they-clash-over-iran-war-and-the-economy/ |archive-date=October 17, 2026 |url-status=live}}</ref>
+| style="white-space:nowrap;" | October 15, 2026
+| style="white-space:nowrap;" | [[Alaska Public Media]]<br />[[KTOO (FM)|KTOO]]<br />[[Alaska's News Source]]
+| style="white-space:nowrap;" | Lori Townsend<br />Liz Ruskin<br />Wil Courtney
+| style="white-space:nowrap;" | [https://www.youtube.com/watch?v=1nyBxC-uups YouTube]
+| {{D-P|'''P'''}}
+| {{D-P|'''P'''}}
+|}
+
+=== Post-primary endorsements ===
+{{Endorsements box
+|title=Dan S. Sullivan (R)
+|list=
+;Executive branch officials
+*[[George W. Bush]], former [[president of the United States]] (2001–2009)<ref name="Bush">{{Cite web|url=https://www.nytimes.com/2026/09/21/us/politics/bush-cornyn-paxton-senate-fund-raiser.html|title=Bush and Cornyn Leave Out Paxton as They Raise Cash for Senate Candidates|last1=Schleifer|first1=Theodore|last2=Wagner|first2=Bayliss|date=September 21, 2026|access-date=September 21, 2026|website=[[The New York Times]]}}</ref>
+*[[JD Vance]], [[vice president of the United States]] (2025–present)<ref>{{cite news |last1=DeMarban |first1=Alex |title=Vice President JD Vance stumps for Republican candidates at Fairbanks rally |url=https://www.adn.com/politics/2026/10/06/vice-president-jd-vance-holds-fairbanks-rally-to-boost-republican-candidates/ |access-date=October 8, 2026 |work=[[Anchorage Daily News]] |date=October 6, 2026 |archive-url=https://web.archive.org/web/20261006211030/https://www.adn.com/politics/2026/10/06/vice-president-jd-vance-holds-fairbanks-rally-to-boost-republican-candidates/ |archive-date=October 6, 2026 |url-status=live}}</ref>
+
+;U.S. senators
+* [[John Cornyn]], [[Texas]] (2002–present)<ref name="Bush"/>
+
+;Local officials
+* [[Dan Sullivan (Anchorage mayor)|Dan A. Sullivan]], former [[List of mayors of Anchorage, Alaska|mayor of Anchorage]] (2009–2015)<ref>{{cite web |last= Coronell Uribe |first= Raquel |title=Dan Sullivan endorses Dan Sullivan to beat Dan Sullivan in perplexing Alaska Senate race |url=https://www.nbcnews.com/politics/2026-election/dan-sullivan-endorses-dan-sullivan-beat-dan-sullivan-perplexing-alaska-rcna594063 |website=[[NBC News]] |date=August 23, 2026 |access-date=September 29, 2026}}</ref> ''(unrelated to either Sullivan candidate)''
+
+;Individuals
+*[[Al Gross (politician)|Al Gross]], orthopedic surgeon and candidate for this seat in [[2020 United States Senate election in Alaska|2020]] ''(co-endorsement with Daniel J. Sullivan Jr.)'' ''(Independent)''<ref name="Gross">{{cite web|url=https://www.adn.com/opinions/2026/10/15/opinion-why-im-crossing-the-aisle-for-either-dan-sullivan/|title=Opinion: Why I'm crossing the aisle for either Dan Sullivan|last=Gross|first=Al|date=October 15, 2026|access-date=October 15, 2026|website=[[Anchorage Daily News]]}}</ref>
+
+;Labor unions
+* Public Safety Employees Association [[American Federation of State, County and Municipal Employees|AFSCME]] Local 803<ref>{{cite news |last1=Sorrell |first1=Nick |title=Alaska Public Safety Union Endorses Dan Sullivan for U.S. Senate |url=https://radiokenai.com/alaska-public-safety-union-endorses-dan-sullivan-for-u-s-senate/ |access-date=September 2, 2026 |work=[[KSRM]] |date=September 1, 2026}}</ref>
+
+;Organizations
+* [[Citizens for Responsible Energy Solutions]]<ref>{{cite web |title=Citizens for Responsible Energy Solutions Announces Second Round of Congressional Endorsements for the 2026 Election Cycle |url=https://cresenergy.com/press-releases/citizens-for-responsible-energy-solutions-announces-second-round-of-congressional-endorsements-for-the-2026-election-cycle/ |website=[[Citizens for Responsible Energy Solutions]] |date=September 22, 2026 |access-date=September 29, 2026}}</ref>
+* [[National Federation of Independent Business]]<ref>{{cite web |title=Alaska Small Businesses Endorse Senator Dan S. Sullivan and Congressman Nick Begich for Reelection |url=https://www.nfib.com/news/press-release/alaska-small-businesses-endorse-senator-dan-s-sullivan-and-congressman-nick-begich-for-reelection/ |website=[[National Federation of Independent Business]] |date=September 10, 2026 |access-date=September 29, 2026}}</ref>
+* [[Safari Club International]]<ref>{{cite web |title=SCI-PAC Endorses Sen. Dan Sullivan for Reelection in Alaska|url=https://safariclub.org/sci-pac-endorses-sen-dan-sullivan-for-reelection-in-alaska/ |website=[[Safari Club International]] |date=September 29, 2026 |access-date=September 29, 2026}}</ref>
+* [[Sealaska Corporation]] (''co-endorsement with Peltola'')<ref>{{cite web |title=Sealaska Board Announces Get Out the Native Vote Campaign and 2026 General Election Endorsements |url=https://www.mysealaska.com/news/item/local/Sealaska-Board-Announces-Get-Out-the-Native-Vote-Campaign-and-2026-General-Election-Endorsements/ |website=[[Sealaska Corporation]] |date=August 28, 2026 |access-date=September 29, 2026}}</ref>
+}}
+{{Endorsements box
+|title=Mary Peltola (D)
+|list=
+;Statewide officials
+*[[Tony Knowles (politician)|Tony Knowles]], former [[List of governors of Alaska|governor of Alaska]] (1994–2002)<ref>{{Cite web|url=https://www.adn.com/opinions/2026/09/24/opinion-we-can-trust-mary-peltola-to-fight-for-alaska-families/|title=We can trust Mary Peltola to fight for Alaska families|last=Knowles|first=Tony|date=September 23, 2026|access-date=October 5, 2026|website=[[Anchorage Daily News]]}}</ref>
+*[[Fran Ulmer]], former [[Lieutenant Governor of Alaska|lieutenant governor of Alaska]] (1994–2002)<ref>{{cite news |last1=Ulmer |first1=Fran |title=Letter: A different vote for a different direction |url=https://www.adn.com/opinions/letters/2026/10/03/letter-a-different-vote-for-a-different-direction/ |work=[[Anchorage Daily News]] |date=October 3, 2026}}</ref>
+
+;Individuals
+*[[Julia Louis-Dreyfus]], actress<ref>{{Cite web|url=https://www.politico.com/news/2026/09/02/democrats-fundraising-emails-analysis-01061550|title=Elon Musk and Donald Trump are all over Dems' fundraising emails. Their opponents aren't.|date=October 5, 2026|access-date=October 12, 2026|last=Ibarguen|first=Emilio|website=Politico}}</ref>
+*[[Matthew Yglesias]], journalist<ref>{{Cite web|url=https://www.slowboring.com/p/the-midterm-candidates-who-deserve|title=The midterm candidates who deserve your money|date=July 13, 2026|access-date=September 22, 2026|last=Yglesias|first=Matthew|website=Slow Boring}}</ref>
+
+;Labor unions
+*[[Communications Workers of America]]<ref>{{Cite web |title=Endorsements for Mary Peltola - Alaska Democratic Party Candidate |url=https://bluevoterguide.org/AK/candidate_Mary_Peltola/352697 |access-date=October 2, 2026 |website=bluevoterguide.org |language=en}}</ref>
+*[[United Auto Workers]]<ref name="UAW">{{cite web|url=https://uawpower.org/states/alaska|title=Alaska|publisher=UAW Power|access-date=November 3, 2026}}</ref>
+}}
+{{Endorsements box
+|title=Dan J. Sullivan (I)
+|list=
+;Individuals
+*[[Al Gross (politician)|Al Gross]], orthopedic surgeon and candidate for this seat in [[2020 United States Senate election in Alaska|2020]] ''(co-endorsement with Dan S. Sullivan)'' ''(Independent)''<ref name="Gross"/>
+}}
+{{Endorsements box
+|title=Declined to endorse
+|list=
+;Organizations
+*[[Planned Parenthood Action Fund|Planned Parenthood Alliance Advocates]] Alaska ''(endorsed against Dan S. Sullivan)''<ref>{{cite web |title=Alaska Candidate Endorsements |url=https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-alaska |website=Planned Parenthood Alliance Advocates |access-date=October 25, 2026 |archive-url=https://web.archive.org/web/20261005182151/https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-alaska |archive-date=October 5, 2026 |url-status=live}}</ref>
+}}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan=4 |Campaign finance reports as of October 14, 2026
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Spent
+!Cash on hand
+|-
+|{{party shading/Republican}}|Dan S. Sullivan (R)
+|$14,107,205
+|$11,999,191
+|$2,839,758
+|-
+|{{party shading/Democratic}}|Mary Peltola (D)
+|$36,887,509
+|$32,785,383
+|$4,102,126
+|-
+|{{party shading/Independent}}|Dan J. Sullivan (I)
+|$30,556
+|$28,654
+|$1,902
+|-
+! colspan="4" |<small>Source: [[Federal Election Commission]]<ref name="FEC"/></small>
+|}
+
+===Polling===
+'''Aggregate polls'''<br />
+{| class="wikitable sortable" style="text-align:center;font-size:90%;line-height:17px"
+!Source of poll<br />aggregation
+!Dates<br />administered
+!Dates<br />updated
+! style="width:100px;"| Dan S.<br />Sullivan (R)
+! style="width:100px;"| Mary<br />Peltola (D)
+! style="width:100px;"| Other/<br />Undecided{{Efn|name=combined|Calculated by taking the difference of 100% and all other candidates combined.}}
+!Margin
+|-
+|[[270toWin]]<ref>{{cite web |title=2026 Polls: Alaska Senate |url=https://www.270towin.com/2026-senate-polls/alaska |access-date=November 3, 2026 |website=[[270toWin]]}}</ref>
+|October 31 – November 1, 2026<!--Remember that dates listed on 270toWin are poll *publication dates*, not the dates when the polls were *administered*-->
+|November 2, 2026
+|45.5%
+|{{party shading/Democratic}}|'''49.0%'''
+|5.5%
+|{{party shading/Democratic}}|'''Peltola +3.5%'''
+|-
+|[[Decision Desk HQ]]<ref>{{Cite web |title=2026 Alaska Senate Polling |url=https://votes.decisiondeskhq.com/races/2026-11-03/alaska-us-senate-general-election/polling |access-date=November 3, 2026 |website=[[Decision Desk HQ]]}}</ref>
+|through November 1, 2026
+|November 2, 2026
+|47.8%
+|{{party shading/Democratic}}|'''49.2%'''
+|3.0%
+|{{party shading/Democratic}}|'''Peltola +1.4%'''
+|-
+|[[FiftyPlusOne]]<ref>{{Cite web |title=Alaska General Senate Election |url=https://fiftyplusone.news/polls/senate/general/alaska |access-date=November 3, 2026 |website=[[FiftyPlusOne]]}}</ref>
+|through November 1, 2026
+|November 3, 2026
+|47.4%
+|{{party shading/Democratic}}|'''49.7%'''
+|2.9%
+|{{party shading/Democratic}}|'''Peltola +2.3%'''
+|-
+|[[RealClearPolitics]]<ref name="RCPGeneral">{{cite web |title=2026 Alaska Senate - Sullivan vs. Peltola |url=https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan |website=[[RealClearPolitics]] |access-date=November 3, 2026}}</ref>
+|October 8 – November 1, 2026
+|November 2, 2026
+|48.2%
+|{{party shading/Democratic}}|'''49.2%'''
+|2.6%
+|{{party shading/Democratic}}|'''Peltola +1.0%'''
+|-
+|''[[Silver Bulletin]]''<ref name="Silver"/>
+|through November 1, 2026
+|November 3, 2026
+|45.9%
+|{{party shading/Democratic}} |'''48.3%'''
+|5.8%
+|{{party shading/Democratic}} |'''Peltola +2.4%'''
+|-
+|colspan="3" |Average
+|47.7%
+|{{party shading/Democratic}} |'''49.1%'''
+|3.2%
+|{{party shading/Democratic}} |'''Peltola +2.1%'''
+|}
+
+====Ranked-choice polls====
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! RCV<br />round
+! style="width:60px;"| Dan S.<br />Sullivan (R)
+! style="width:60px;"| Mary<br />Peltola (D)
+! style="width:60px;"| Dan J.<br />Sullivan (I)
+! style="width:60px;"| Gerald<br />Heikes (R)
+! Undecided /<br /> Not Ranked
+|-
+|rowspan=4 style="text-align:left;"|Alaska Survey Research<ref name="ASRlateOct2026">{{cite tweet|user=The_Real_ASR|number=2116291676176331181|title=Mary Peltola continues to lead in the US Senate race, according to ASR's latest survey, fielded in the last 3 days.|access-date=October 30, 2026}}</ref>
+|rowspan=4|October 26–29, 2026
+|rowspan=4|1,326 (LV)
+|rowspan=4|±&nbsp;3.0%
+|-
+|1
+|46%
+|style="background:#cce0ff"|'''48%'''
+|3%
+|3%
+|–
+|-
+|2
+|47%
+|style="background:#cce0ff"|'''48%'''
+|5%
+|–
+|–
+|-
+|3
+|49%
+|{{party shading/Democratic}}|'''51%'''
+|–
+|–
+|–
+|-
+|rowspan="5" style="text-align:left;"|[[Data for Progress]] (D)<ref name="DFPOct2026">{{cite web|url=https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food|title=Every Statewide Race in Alaska Is Close, as 7 in 10 Voters Worry About Affording Gas and Food
+|date=October 20, 2026}}</ref>
+|rowspan=5|October 8–16, 2026
+|694 (LV)
+|rowspan=5|±&nbsp;4.0%
+|{{abbr|BA|Before allocation}}
+|44%
+|style="background:#cce0ff"|'''47%'''
+|4%
+|1%
+|3% {{small|U}}
+|-
+|rowspan=2|675 (LV)
+|1
+|46%
+|style="background:#cce0ff"|'''49%'''
+|4%
+|1%
+|3% {{small|NR}}
+|-
+|2
+|46%
+|style="background:#cce0ff"|'''49%'''
+|5%
+|–
+|3% {{small|NR}}
+|-
+|671 (LV)
+|3
+|49%
+|{{party shading/Democratic}}|'''51%'''
+|–
+|–
+|3% {{small|NR}}
+|-
+|660 (LV)
+|3{{efn|name="Sullivan Hypothetical"|Hypothetical scenario where voters who ranked Dan J. Sullivan and whose vote is exhausted when that candidate is eliminated are instead distributed to Dan S. Sullivan}}
+|'''50%'''
+|'''50%'''
+|–
+|–
+|3% {{small|NR}}
+|-
+|rowspan=2 style="text-align: left;" |InsiderAdvantage (R)<ref name="IAOct2026">{{cite web|url=https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/|title=InsiderAdvantage U.S. Senate Surveys: Alaska (Ranks Choice) Peltola 50%, Sullivan 48%; Kansas Hamilton 48%, Marshall, 47%; Michigan El-Sayed 48%, Rogers 46%|date=October 11, 2026|access-date=October 11, 2026}}</ref>
+|rowspan=2|October 9–10, 2026
+|rowspan=2|1,200 (LV)
+|rowspan=2|±&nbsp;2.8%
+|{{abbr|BA|Before allocation}}
+|43%
+|style="background:#cce0ff"|'''48%'''
+|2%
+|2%
+|5% {{small|U}}
+|-
+|1{{efn|Gerald Heikes and Dan J. Sullivan were eliminated and their votes were distributed simultaneously}}
+|48%
+|{{party shading/Democratic}}|'''50%'''
+|–
+|–
+|2% {{small|U}}
+|-
+|rowspan=4 style="text-align:left;"|Alaska Survey Research<ref name="ASROct2026">{{cite tweet|user=The_Real_ASR|number=2107851752464884167|title=Mary Peltola continues to lead Alaska's pivotal Senate race.
+|access-date=October 9, 2026}}</ref>
+|rowspan=4|October 1–3, 2026
+|rowspan=4|1,512 (LV)
+|rowspan=4|±&nbsp;3.0%
+|-
+|1
+|45%
+|style="background:#cce0ff"|'''47%'''
+|5%
+|3%
+|–
+|-
+|2
+|47%
+|style="background:#cce0ff"|'''48%'''
+|5%
+|–
+|–
+|-
+|3
+|49%
+|{{party shading/Democratic}}|'''51%'''
+|–
+|–
+|–
+|-
+|rowspan=4 style="text-align:left;"|Alaska Survey Research<ref name="ASRSept2026">{{cite tweet|user=The_Real_ASR|number=2102418467635011721|title=LATEST: Mary Peltola continues to lead incumbent Senator Dan Sullivan in pivotal Alaska Senate contest.|access-date=September 22, 2026}}</ref>
+|rowspan=4|September 10–12, 2026
+|rowspan=4|1,352 (LV)
+|rowspan=4|±&nbsp;3.0%
+|-
+|1
+|44%
+|style="background:#cce0ff"|'''48%'''
+|4%
+|4%
+|–
+|-
+|2
+|45%
+|{{party shading/Democratic}}|'''50%'''
+|–
+|5%
+|–
+|-
+|3{{efn|name="Continue"|Hypothetical continuation of elimination/distribution even though a candidate already exceeded 50%}}
+|48%
+|{{party shading/Democratic}}|'''52%'''
+|–
+|–
+|–
+|-
+|rowspan=4 style="text-align:left;"|Fabrizio Ward (R)/<br/>Impact Research (D)<ref name="AARP">{{cite journal |last1=Bridges |first1=Kate |title=Alaska Voters 50+ Could Help Decide Key 2026 Races |url=https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-alaska/?CMP=RDRCT-PRI-POLT |website=[[AARP]] |date=September 17, 2026 |doi=10.26419/res.01065.016 }}</ref>{{efn-ua|name=AARP|Poll sponsored by [[AARP]]}}
+|rowspan=4|September 8–11, 2026
+|rowspan=4|800 (LV)
+|rowspan=4|±&nbsp;3.5%
+|{{abbr|BA|Before allocation}}
+|41%
+|style="background:#cce0ff"|'''45%'''
+|4%
+|3%
+|7% {{small|U}}
+|-
+|1
+|43%
+|{{party shading/Democratic}}|'''50%'''
+|4%
+|3%
+|7% {{small|NR}}
+|-
+|2{{efn|name="Continue"}}
+|45%
+|{{party shading/Democratic}}|'''51%'''
+|4%
+|–
+|8% {{small|NR}}
+|-
+|3{{efn|name="Continue"}}
+|47%
+|{{party shading/Democratic}}|'''53%'''
+|–
+|–
+|11% {{small|NR}}
+|-
+|rowspan="6" style="text-align:left;|[[Data for Progress]] (D)<ref name="DFP817">{{cite web |title=As Alaska's Affordability Crisis Deepens, Peltola Leads in Senate Race |url=https://www.dataforprogress.org/blog/2026/8/17/as-alaskas-affordability-crisis-deepens-peltola-leads-in-senate-race |website=Data For Progress |access-date=August 17, 2026 |date=August 17, 2026}}</ref>
+|rowspan="6" |July 28 – August 4, 2026
+|605 (LV)
+|rowspan="6" |±&nbsp;4.0%
+|{{abbr|BA|Before allocation}}
+|41%
+|style="background:#cce0ff"|'''45%'''
+|4%
+|3%
+|5% {{small|U}}
+|-
+|578 (LV)
+|1
+|43%
+|style="background:#cce0ff"|'''49%'''
+|5%
+|3%
+|4% {{small|NR}}
+|-
+|575 (LV)
+|2
+|45%
+|{{party shading/Democratic}}|'''50%'''
+|5%
+|–
+|5% {{small|NR}}
+|-
+|567 (LV)
+|3{{efn|name="Continue"}}
+|47%
+|{{party shading/Democratic}}|'''53%'''
+|5%
+|–
+|6% {{small|NR}}
+|-
+|575 (LV)
+|3{{efn|name="Sullivan Hypothetical"}}
+|48%
+|{{party shading/Democratic}}|'''52%'''
+|–
+|–
+|5% {{small|NR}}
+|-
+|578 (LV)
+|3{{efn|Hypothetical scenario where voters who ranked Dan J. Sullivan or Gerald Heikes and whose vote is exhausted when those candidates are eliminated are instead distributed to Dan S. Sullivan}}
+|48%
+|{{party shading/Democratic}}|'''52%'''
+|–
+|–
+|4% {{small|NR}}
+|}
+
+====First-past-the-post polls====
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- style="vertical-align:bottom"
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear}}
+! Margin<br />of error
+! style="width:100px;"| Dan S.<br />Sullivan (R)
+! style="width:100px;"| Mary<br />Peltola (D)
+! style="width:100px;"| Dan J.<br />Sullivan (I)
+! style="width:100px;"| Gerald<br />Heikes (R)
+! Other
+! Undecided
+|-
+|rowspan="2" style="text-align:left;"|InsiderAdvantage (R)<ref>{{cite web |title=InsiderAdvantage Final Alaska Survey: Race Tied in First Round 48 Peltola, 48 Sullivan; Tied in Ranked Choice Round 50 Peltola, 50 Sullivan |url=https://insideradvantage.com/insideradvantage-final-alaska-survey-race-tied-in-first-round-48-peltola-48-sullivan-tied-in-ranked-choice-round/ |website=InsiderAdvantage |date=November 1, 2026 |access-date=November 2, 2026}}</ref><ref>{{Cite tweet |user=InsiderPolling |number=2117293566951395511 |title=Latest InsiderAdvantage survey Matt Towery |date=November 2, 2026 |access-date=November 2, 2026}}</ref>
+|rowspan="2"|October 31 – November 1, 2026
+|rowspan="2"|1,200 (LV)
+|rowspan="2"|±{{nbsp}}2.8%
+|'''48%'''
+|'''48%'''
+|2%
+|1%
+|{{sdash}}
+|1%
+|-
+|'''50%'''
+|'''50%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|-
+| style="text-align: left;"|[[AtlasIntel]]<ref>{{cite web |title=USA: Alaska Atlas/Pollstergraph Poll |url=https://atlasintel.org/poll/usa-alaska-atlaspollstergraph-poll-2026-11-02 |website=[[AtlasIntel]] |date=November 2, 2026}}</ref>
+|October 28 – November 1, 2026
+|522 (LV)
+|±{{nbsp}}4.0%
+|45%
+|{{party shading/Democratic}}|'''50%'''
+|1%
+|2%
+|2%
+|{{sdash}}
+|-
+| style="text-align: left;"|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web |title=Toplines: October 2026 Times/Siena Poll of the Likely Electorate in Alaska |url=https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ak-poll-toplines.html |website=[[The New York Times]] |date=November 1, 2026 |access-date=November 1, 2026}}</ref>
+|October 23–30, 2026
+|610 (LV)
+|±{{nbsp}}5.0%
+|46%
+|{{party shading/Democratic}}|'''48%'''
+|{{sdash}}
+|{{sdash}}
+|0%
+|6%
+|-
+| style="text-align:left;"|Alaska Survey Research<ref name="ASRlateOct2026"/>
+|October 26–29, 2026
+|1,326 (LV)
+|±&nbsp;3.0%
+|46%
+|{{party shading/Democratic}}|'''48%'''
+|3%
+|3%
+|{{sdash}}
+|{{sdash}}
+|-
+| style="text-align:left;"|[[Data for Progress]] (D)<ref name="DFPOct2026"/>{{efn|name="First"}}
+|October 8–16, 2026
+|694 (LV)
+|±{{nbsp}}4.0%
+|44%
+|{{party shading/Democratic}}|'''47%'''
+|4%
+|1%
+|{{sdash}}
+|3%
+|-
+|style="text-align:left;|[[Public Policy Polling]] (D)<ref>{{cite tweet|user=AndrewSolender|number=2110867168892014803|title=Dem-aligned PPP poll of Alaska circulating among groups and seen by me|access-date=October 16, 2026}}</ref>
+|October 14–15, 2026
+|578 (RV)
+|–
+|47%
+|{{Party shading/Democratic}} | '''48%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|5%
+|-
+|style="text-align:left;"|[[Rasmussen Reports]] (R)<ref name="RasmussenOct">{{Cite web |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate |title=Election 2026: Alaska Senate |work=[[Rasmussen Reports]] |date=October 19, 2026 |access-date=October 28, 2026}}</ref>
+|October 12–15, 2026
+|775 (LV)
+|±{{nbsp}}3.0%
+|42%
+|{{party shading/Democratic}}|'''44%'''
+|3%
+|4%
+|{{sdash}}
+|6%
+|-
+|style="text-align: left;" |InsiderAdvantage (R)<ref name="IAOct2026"/>{{efn|name="First"|First-choice results from a ranked-choice poll}}
+|October 9–10, 2026
+|1,200 (LV)
+|±{{nbsp}}2.8%
+|43%
+|{{Party shading/Democratic}} | '''48%'''
+|2%
+|2%
+|{{sdash}}
+|5%
+|-
+| style="text-align:left;"|Alaska Survey Research<ref name="ASROct2026"/>{{efn|name="First"}}
+|October 1–3, 2026
+|1,512 (LV)
+|±&nbsp;3.0%
+|45%
+|{{Party shading/Democratic}} | '''47%'''
+|5%
+|3%
+|{{sdash}}
+|{{sdash}}
+|-
+| style="text-align:left;|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web|title=Toplines: September 2026 Times/Siena Poll of the Likely Electorate in Alaska|work=The New York Times |url=https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-alaska-poll-toplines.html |date=October 3, 2026 |access-date=October 3, 2026}}</ref>
+|September 24 – October 1, 2026
+|504 (LV)
+|±&nbsp;5.1%
+|43%
+|{{party shading/Democratic}}|'''50%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|6%
+|-
+|rowspan=3 style="text-align:left;"|Quantus Insights (R)<ref>{{cite web |title=Quantus Insights Survey: Sullivan, Peltola Deadlocked in Alaska|url=https://quantusinsights.org/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska |website=Quantus Insights |access-date=October 2, 2026}}</ref>
+|rowspan="3"|September 28–30, 2026
+|rowspan="3"|758 (LV)
+|rowspan="3"|±&nbsp;4.0%
+|'''46%'''
+|'''46%'''
+|2%
+|1%
+|–
+|5%
+|-
+|'''47%'''{{efn|Leaners pushed}}
+|'''47%'''
+|2%
+|2%
+|–
+|3%
+|-
+|'''50%'''{{efn|Two-way}}
+|'''50%'''
+|–
+|–
+|–
+|–
+|-
+| style="text-align:left;|[[Trafalgar Group]] (R)<ref>{{cite web|url=https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/AK-Midterms-Survey-Report-0925.pdf|title=Alaska General Statewide Survey|date=September 25, 2026|access-date=September 26, 2026}}</ref>
+|September 22–24, 2026
+|1,079 (LV)
+|±&nbsp;2.9%
+|{{party shading/Republican}}|'''47%'''
+|46%
+|3%
+|1%
+|{{sdash}}
+|4%
+|-
+|rowspan="2"style="text-align:left;"|co/efficient (R)<ref name="co917">{{cite web |title=Alaska · U.S. Senate |url=https://battlegrounds.coefficient.org/ak/ |website=co/efficient |date=September 17, 2026}}</ref>
+|rowspan="2"|September 14–17, 2026
+|rowspan="2"|799 (LV)
+|rowspan="2"|±&nbsp;3.5%
+|{{party shading/Republican}}|'''48%'''{{efn|Full ballot}}
+|46%
+|1%
+|1%
+|{{sdash}}
+|4%
+|-
+|{{party shading/Republican}}|'''49%'''{{efn|Only top two candidates}}
+|46%
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|5%
+|-
+| style="text-align:left;|[[Rasmussen Reports]] (R)<ref>{{cite web |title=Election 2026: Alaska Senate |url=https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate |website=[[Rasmussen Reports]] |date=September 15, 2026}}</ref>
+|September 13–14, 2026
+|1,188 (LV)
+|±&nbsp;3.0%
+|'''39%'''
+|'''39%'''
+|7%
+|6%
+|{{sdash}}
+|9%
+|-
+| style="text-align:left;|Alaska Survey Research<ref name="ASRSept2026"/>{{efn|name="First"}}
+|September 10–12, 2026
+|1,352 (LV)
+|±&nbsp;3.0%
+|44%
+|{{party shading/Democratic}}|'''48%'''
+|4%
+|4%
+|{{sdash}}
+|{{sdash}}
+|-
+| style="text-align:left;"|Fabrizio Ward (R)/<br/>Impact Research (D)<ref name="AARP"/>{{efn-ua|name=AARP}}{{efn|name="First"}}
+|September 8–11, 2026
+|800 (LV)
+|±&nbsp;3.5%
+|41%
+|{{party shading/Democratic}}|'''46%'''
+|4%
+|3%
+|{{sdash}}
+|7%
+|-
+| style="text-align:left;|Alaska Survey Research<ref>{{cite web|title=BREAKING: New Alaska US Senate poll results!|url=https://bsky.app/profile/did:plc:qmuhdnevjtwbhbbhw4cah367/post/3mukcv6iqjk2d |publisher=Alaska Survey Research |date=September 2, 2026|access-date=September 3, 2026}}</ref>
+|August 20–23, 2026
+|1,495 (LV)
+|±&nbsp;3.0%
+|49%
+|{{party shading/Democratic}}|'''51%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|-
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | August 18, 2026
+| colspan="14" | Primary election held
+|-
+| style="text-align:left;|Alaska Survey Research<ref name="ASRAugust2026">{{cite web|title=BREAKING: Mary Peltola continues to lead in the Alaska US Senate race.|url=https://bsky.app/profile/alaskasurvey.bsky.social/post/3mstcarsnc32q |publisher=Alaska Survey Research |date=August 11, 2026|access-date=August 11, 2026}}</ref>
+|August 2–5, 2026
+|1,371 (LV)
+|±&nbsp;3.0%
+|49%
+|{{party shading/Democratic}}|'''51%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|-
+| style="text-align:left;|[[Data for Progress]] (D)<ref name="DFP817"/>{{efn|name="First"}}
+|July 28 – August 4, 2026
+|605 (LV)
+|±&nbsp;4.0%
+|41%
+|{{party shading/Democratic}}|'''45%'''
+|4%
+|3%
+|5%
+|–
+|-
+| style="text-align:left;|[[New York Times]]/[[Siena University (New York)|Siena University]]<ref>{{cite web|title=Toplines: June 2026 Times/Siena Polls of Likely Voters in Battleground Senate Races|work=The New York Times |url=https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-battleground-poll-toplines.html |date=June 30, 2026 |access-date=July 1, 2026}}</ref>
+|June 15–29, 2026
+|593 (LV)
+|±&nbsp;4.9%
+|{{party shading/Republican}}|'''47%'''
+|45%
+|{{sdash}}
+|{{sdash}}
+|2%
+|5%
+|-
+| style="text-align:left;|Alaska Survey Research<ref name="ASRJune2026">{{cite web|title=BREAKING: NEW ALASKA SENATE NUMBERS! |url=https://bsky.app/profile/alaskasurvey.bsky.social/post/3mo4ifkz3tc25 |publisher=Alaska Survey Research |date=June 12, 2026 |access-date=June 12, 2026}}</ref>
+|June 4–7, 2026
+|1,393 (LV)
+|±&nbsp;3.0%
+|44%
+|{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
+|4%
+|3%{{efn|Dustin Darden (R) with 3%}}
+|{{sdash}}
+|-
+| style="text-align:left;|Alaska Survey Research<ref name="ASRMay2026">{{cite web|title=NEW RELEASE: Peltola continues to lead Sullivan in US Senate race |url=https://bsky.app/profile/alaskasurvey.bsky.social/post/3mmrlwfjug22l |publisher=Alaska Survey Research |date=May 26, 2026 |access-date=May 26, 2026}}</ref>
+|May 14–17, 2026
+|1,401 (LV)
+|±&nbsp;3.0%
+|44%
+|{{party shading/Democratic}}|'''48%'''
+|{{sdash}}
+|3%
+|5%{{efn|Dustin Darden (R) with 5%}}
+|{{sdash}}
+|-
+| style="text-align:left;|Alaska Survey Research<ref name="ASRApril2026">{{cite web|title=Peltola Continues to Lead in Newest US Senate Polling |url=https://alaskasurveyresearch.com/peltola-vs-sullivan-april-2026/ |publisher=Alaska Survey Research |date=April 23, 2026 |access-date=May 26, 2026}}</ref>{{efn|name="First"}}
+|April 16–19, 2026
+|1,946 (LV)
+|±&nbsp;2.5%
+|43%
+|{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
+|{{sdash}}
+|8%{{efn|James Ryan (R, undeclared) with 5%; Sid Hill (I) with 3%}}
+|{{sdash}}
+|-
+| style="text-align:left;|Alaska Survey Research<ref name="ASRMarch2026">{{cite web|title=2026 US Senate Political Tracking Survey |url=https://alaskasurveyresearch.com/wp-content/uploads/FULL-REPORT-March-Senate-Political-Tracking-Survey.pdf |publisher=Alaska Survey Research |date=March 29, 2026 |access-date=March 30, 2026}}</ref>{{efn|name="First"}}
+|March 19–22, 2026
+|1,590 (LV)
+|±&nbsp;2.7%
+|44%
+|{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
+|{{sdash}}
+|7%{{efn|Christopher Miklos (R) with 5%; Ann Diener (D) with 2%}}
+|{{sdash}}
+|-
+|style="text-align:left;|[[Public Policy Polling]] (D)<ref>{{Cite web |title=Alaska DSCC Jan 26 1 – Questionnaire |url=https://www.politico.com/f/?id=0000019b-dec9-d6ec-a99b-dfe9e6750000 |publisher=[[Public Policy Polling]] |via=[[Politico]]| date=January 21, 2026 |access-date=January 22, 2026}}</ref>{{Efn-ua|text=Poll sponsored by the [[Democratic Senatorial Campaign Committee]].<ref>{{cite web |title=Mary Peltola chances of beating Dan Sullivan to flip Alaska from GOP—Polls |url=https://www.newsweek.com/mary-peltola-chances-of-beating-dan-sullivan-to-flip-alaska-from-gop-polls-11395819 |website=Newsweek |first1=Andrew |last1=Stanton |access-date=January 21, 2026 |language=en |date=January 21, 2026 |quote=The poll surveyed 611 Alaska voters from January 16–17, 2026. Politico reported it was commissioned by the Democratic Senatorial Campaign Committee (DSCC), an organization that supports Democratic Senate candidates across the country.}}</ref>}}
+|January 16–17, 2026
+|611 (V)
+|{{sdash}}
+|47%
+|{{party shading/Democratic}}|'''49%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|4%
+|-
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden; " | January 12, 2026
+| colspan="14" | Peltola enters the race
+|-
+|style="text-align:left;|Alaska Survey Research<ref>{{cite web |last1=Moore |first1=Ivan |title=2025/26 Winter Alaska Survey Report |url=https://alaskasurveyresearch.com/wp-content/uploads/202526-Winter-Alaska-Survey-Report.pdf |publisher=Alaska Survey Research |access-date=January 14, 2026|archive-url=https://web.archive.org/web/20260114161835/https://alaskasurveyresearch.com/wp-content/uploads/202526-Winter-Alaska-Survey-Report.pdf |archive-date=January 14, 2026 |url-status=live}}</ref>
+|January 8–11, 2026
+|1,988 (LV)
+|±&nbsp;2.2%
+|46%
+|{{party shading/Democratic}}|'''48%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|6%
+|-
+|style="text-align:left;|[[Data for Progress]] (D)<ref>{{cite web|last1=Ruskin|first1=Liz|url=https://alaskapublic.org/news/politics/2025-10-31/new-poll-shows-peltola-neck-and-neck-with-sullivan-if-she-were-to-run-for-u-s-senate|title=New poll shows Peltola neck-and-neck with Sullivan, if she were to run for U.S. Senate|website=[[Alaska Public Media]]|date=October 31, 2025|access-date=November 1, 2025|archive-date=November 1, 2025|archive-url=https://web.archive.org/web/20251101020903/https://alaskapublic.org/news/politics/2025-10-31/new-poll-shows-peltola-neck-and-neck-with-sullivan-if-she-were-to-run-for-u-s-senate|url-status=live}}</ref>
+|October 17–23, 2025
+|823 (LV)
+|±&nbsp;3.0%
+|45%
+|{{party shading/Democratic}}|'''46%'''
+|{{sdash}}
+|{{sdash}}
+|5%{{efn|name=neither5|"I would rank neither" with 5%}}
+|4%
+|-
+|style="text-align:left;|Alaska Survey Research<ref>{{cite web |last1=Sabbatini |first1=Mark |title=Poll: Peltola ahead of Sullivan in race that could decide control of US Senate |url=https://www.juneauindependent.com/post/poll-peltola-ahead-of-sullivan-in-race-that-could-decide-control-of-us-senate |website=Juneau Independent |access-date=October 23, 2025 |language=en |date=October 22, 2025 |archive-date=November 13, 2025 |archive-url=https://web.archive.org/web/20251113170340/https://www.juneauindependent.com/post/poll-peltola-ahead-of-sullivan-in-race-that-could-decide-control-of-us-senate |url-status=live }}</ref>
+|October 10–15, 2025
+|1,708 (LV)
+|{{sdash}}
+|46%
+|{{party shading/Democratic}}|'''48%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|6%
+|-
+|style="text-align:left;|Alaska Survey Research<ref>{{Cite web|url=https://www.documentcloud.org/documents/26071481-ak-sen-alaska-survey-research-d/|title=2025 Summer Alaska Survey Report|work=Alaska Survey Research|date=August 22, 2025|access-date=August 25, 2025|archive-date=December 9, 2025|archive-url=https://web.archive.org/web/20251209050045/https://www.documentcloud.org/documents/26071481-ak-sen-alaska-survey-research-d/|url-status=live}}</ref>
+|July 29 – August 1, 2025
+|1,623 (LV)
+|±&nbsp;2.5%
+|{{party shading/Republican}}|'''47%'''
+|42%
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|11%
+|-
+|style="text-align:left;|[[Data for Progress]] (D)<ref>{{cite web|url=https://www.dataforprogress.org/blog/2025/8/8/mary-peltola-would-be-front-runner-for-alaska-governor|title=Mary Peltola Would Be Front-Runner for Alaska Governor|website=[[Data for Progress]]|date=August 8, 2025|access-date=August 8, 2025|archive-date=August 8, 2025|archive-url=https://web.archive.org/web/20250808151738/https://www.dataforprogress.org/blog/2025/8/8/mary-peltola-would-be-front-runner-for-alaska-governor|url-status=live}}</ref>
+|July 21–27, 2025
+|678 (LV)
+|±&nbsp;4.0%
+|{{party shading/Republican}}|'''46%'''
+|45%
+|{{sdash}}
+|{{sdash}}
+|5%{{efn|name=neither5}}
+|4%
+|-
+|style="text-align:left;|Alaska Survey Research<ref>{{Cite web|url=https://mustreadalaska.com/new-poll-says-rep-mary-peltola-could-take-sen-dan-sullivan-in-2026/|title=New poll says Rep. Mary Peltola could take Sen. Dan Sullivan in 2026|first=Suzanne|last=Downing|website=Must Read Alaska|date=May 2, 2023|access-date=May 8, 2025|archive-date=June 28, 2025|archive-url=https://web.archive.org/web/20250628185132/https://mustreadalaska.com/new-poll-says-rep-mary-peltola-could-take-sen-dan-sullivan-in-2026/|url-status=live}}</ref>
+|April 21–25, 2023
+|1,261 (LV)
+|{{sdash}}
+|41%
+|{{party shading/Democratic}}|'''44%'''
+|{{sdash}}
+|{{sdash}}
+|{{sdash}}
+|15%
+|}
+
+<!-- = = = don't edit the line below = = = -->
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+'''Dan S. Sullivan vs. Mary Peltola vs. Christopher Miklos vs. Ann Diener'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! RCV<br />round
+! style="width:100px;"| Dan S.<br />Sullivan (R)
+! style="width:100px;"| Mary<br />Peltola (D)
+! style="width:100px;"| Christopher<br />Miklos (R)
+! style="width:100px;"| Ann<br />Diener (D)
+|-
+|rowspan="3" style="text-align:left;|Alaska Survey Research<ref name="ASRMarch2026"/>
+|rowspan="3"|March 19–22, 2026
+|961 (LV)
+|rowspan="3"|±&nbsp;2.7%
+|1
+|44%
+|style="background:#cce0ff"|'''49%'''
+|5%
+|2%
+|-
+|959 (LV)
+|2
+|44%
+|{{party shading/Democratic}}|'''50%'''
+|6%
+|–
+|-
+|951 (LV)
+|3{{efn|name="Continue"}}
+|48%
+|{{party shading/Democratic}}|'''52%'''
+|–
+|–
+|}
+
+'''Dan S. Sullivan vs. Mary Peltola vs. James Ryan vs. Sid Hill'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! RCV<br />round
+! style="width:100px;"| Dan S.<br />Sullivan (R)
+! style="width:100px;"| Mary<br />Peltola (D)
+! style="width:100px;"| James <br />Ryan (R)
+! style="width:100px;"| Sid<br />Hill (I)
+|-
+|rowspan="2" style="text-align:left;|Alaska Survey Research<ref name="ASRApril2026"/>
+|rowspan="2"|April 16–19, 2026
+|rowspan="2"|1,946 (LV)
+|rowspan="2"|±&nbsp;2.5%
+|1
+|43%
+|style="background:#cce0ff"|'''49%'''
+|5%
+|3%
+|-
+|2
+|44%
+|{{party shading/Democratic}}|'''50%'''
+|6%
+|–
+|}
+
+'''Generic Republican vs. generic Democrat'''<br />
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| Generic<br />Republican
+! style="width:100px;"| Generic<br />Democrat
+! Undecided
+|-
+|style="text-align:left;|co/efficient (R)<ref name="co917"/>
+|September 14–17, 2026
+|799 (LV)
+|±&nbsp;3.5%
+|{{party shading/Republican}}|'''49%'''
+|44%
+|8%
+|}
+{{hidden end}}
+
+=== Results ===
+Mail-in absentee ballots, if postmarked by election day, may arrive at the election office at most 15 days afterward and still be counted.<ref>{{cite web|access-date=November 9, 2026 |title=Absentee Ballot Deadlines - Vote.org |url=https://www.vote.org/absentee-ballot-deadlines |website=vote.org}}<!-- auto-translated from German by Module:CS1 translator --></ref> Within the first week, the Alaskan government had tabulated first-choice results from about 74% of the ballots. Additionally, they released the full rankings of about 200,000 ballots. To scrutinize claims that Daniel{{nbsp}}J. Sullivan{{nbsp}}Jr. functioned as a [[spoiler candidate]], ''The New York Times'' examined the ballots that had ranked him first, and found that the most frequent second-choice rank among those ballots was Peltola, not Dan{{nbsp}}S. Sullivan. In addition, only half (50.3%) of Heikes' ballots went on to name either of the Sullivans second, and some Heikes supporters named Peltola second. The ''Times'' noted that president [[Donald Trump]] desired to [[Election interference|interfere in the election]] by having the ballots that ranked either Heikes or Daniel{{nbsp}}J. Sullivan{{nbsp}}Jr. first "be immediately given to the REAL Dan{{nbsp}}[S.] Sullivan",<ref name="BrowningNYT">{{cite web|url=https://www.nytimes.com/2026/11/05/us/politics/alaska-senate-peltola-sullivan-what-to-know.html|title=Trump Takes Fresh Aim at Alaska, Still Counting Its Senate Results|last=Browning|work=The New York Times |quote=Mr. Trump’s call to interfere with the results of Alaska’s election stood in contrast to his relatively muted response to Democratic dominance in other elections this week.}}</ref> but even so, such an attempt would likely still result in Peltola prevailing numerically.<ref name="ZhangNYT">{{cite news|url=https://www.nytimes.com/2026/11/05/us/alaska-ranked-choice-data-sullivan-peltola.html|last1=Zhang|first1=Christine|last2=Vrotsos|first2=Luke|title=In Alaska, Ranked-Choice Ballots Are Unlikely to Be Enough for the Republican|work=The New York Times |date=November 5, 2026|access-date=November 7, 2026}}</ref> On November 14, ''[[NBC News]]'' projected that Peltola was likely to win the race, a characterization which the organization announces if they have at least 95% certainty that a candidate will win their race. Their projection was based on Daniel S. Sullivan's underwhelming first-choice ranking performance, combined with his "effectively closed" path to win through the ranked choice tabulation.<ref>{{cite news |last1=Lapinski |first1=John |last2=Pettigrew |first2=Stephen |last3=Trussler |first3=Marc |title=Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play |url=https://www.nbcnews.com/politics/2026-election/mary-peltola-track-win-alaska-even-ranked-choice-ballots-come-play-rcna609299 |access-date=November 16, 2026 |work=NBC News |date=November 14, 2026 |language=en}}</ref> On November 17, after three further days of counting during which Peltola exceeded 50% of the total votes cast, NBC<ref name="nbcnov17">{{cite web|url=https://www.nbcnews.com/politics/2026-election/mary-peltola-democrat-wins-alaska-senate-dan-sullivan-gop-rcna603307|title=Democrat Mary Peltola flips Alaska Senate seat, defeating GOP Sen. Dan Sullivan|publisher=[[NBC News]]|last=Allen|first=Jonathan|date=November 17, 2026|access-date=November 18, 2026}}</ref> was joined by the [[Associated Press]]<ref>{{Cite news|date=November 18, 2026|title=Why AP called the Alaska Senate race for Democrat Mary Peltola |url=https://apnews.com/article/alaska-senate-peltola-sullivan-a2aa5e50cd22783b6f539a576c75aeb3 |access-date=November 18, 2026 |work=Associated Press |language=en}}</ref> and [[CNN]] in calling the race for Peltola.<ref>{{Cite news |last=Svitek |first=Patrick |date=November 18, 2026 |title=Democrat Mary Peltola will oust GOP Sen. Dan Sullivan in Alaska Senate race, CNN projects |url=https://www.cnn.com/2026/11/17/politics/mary-peltola-wins-alaska-senate |access-date=November 18, 2026 |work=CNN |language=en}}</ref>
+
+{{Election box begin |title=2026 United States Senate election in Alaska<ref>https://www.elections.alaska.gov/enr/26GENR/</ref><ref>{{Cite web |date=November 16, 2026 |title=State of Alaska 2026 GENERAL ELECTION Election Summary Report November 3 2026 UNOFFICIAL RESULTS |url=https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf|access-date=November 16, 2026|format=pdf}}</ref>}}
+{{Election box winning candidate with party link|party=Democratic Party (United States)|candidate=[[Mary Peltola]]|votes=144,302|percentage=50.12%|change=+8.93}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=[[Dan Sullivan (U.S. senator)|Dan S. Sullivan]] (incumbent)|votes=131,844|percentage=45.80%|change=−8.10}}
+{{Election box candidate with party link|party=Republican Party (United States)|candidate=Gerald L. Heikes|votes=6,105|percentage=2.12%|change=N/A}}
+{{Election box candidate minor party|party=No party listed{{efn|name="J Sullivan Party"|Registered [[Independent politician|Undeclared]]<ref name=Undeclared/>}}|candidate=Daniel J. Sullivan Jr.|votes=4,760|percentage=1.65%|change=N/A}}
+{{Election box write-in with party link|votes=885|percentage=0.31%|change=+0.14}}
+{{Election box total|votes=287,896|percentage=100.0%}}
+{{Election box turnout|votes=290,003|percentage=47.90%|change=−12.76}}
+{{Election box registered electors|reg. electors=605,433}}
+{{Election box gain with party link no swing|winner=Democratic Party (United States)|loser=Republican Party (United States)}}
+{{Election box end}}
+<!--
+{| class="wikitable sortable" style="text-align:right"
+|+ colspan=6 | 2026 United States Senate election in Alaska<ref>https://www.elections.alaska.gov/enr/26GENR/</ref><ref>{{Cite web |date=November 16, 2026 |title=State of Alaska 2026 GENERAL ELECTION Election Summary Report November 3 2026 UNOFFICIAL RESULTS |url=https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf|access-date=November 16, 2026|format=pdf}}</ref>
+|-
+! colspan=2 rowspan=2 | Party
+! rowspan=2 | Candidate
+! colspan=2 | First choice
+|-
+! Votes
+! %
+|-
+! style="background-color:{{party color|Democratic Party (US)}}" |
+| style="text-align:left" | '''[[Democratic Party (United States)|Democratic]]'''
+| style="text-align:left" scope="row" | '''[[Mary Peltola]]'''
+| 144,302
+| 50.12
+|-
+! style="background-color:{{party color|Republican Party (US)}}" |
+|style="text-align:left" | [[Republican Party (United States)|Republican]]
+| style="text-align:left" scope="row" | [[Dan Sullivan (U.S. senator)|Dan S. Sullivan]] (incumbent)
+| 131,844
+| 45.80
+|-
+! style="background-color:{{party color|Republican Party (US)}}" |
+|style="text-align:left" | [[Republican Party (United States)|Republican]]
+| style="text-align:left" scope="row" | Gerald L. Heikes
+| 6,105
+| 2.12
+|-
+! 
+| style="text-align:left" | No party listed{{efn|name="J Sullivan Party"|Registered [[Independent politician|Undeclared]]<ref name=Undeclared/>}}
+| style="text-align:left" scope="row" | Daniel J. Sullivan Jr.
+| 4,760
+| 1.65
+|-
+|
+| style="text-align: left;" colspan=2 |Write-in
+|885
+|0.31
+|- 
+! colspan="5" style="text-align: right;" |Valid votes
+|287,896
+|99.28
+|-
+! colspan="5" style="text-align: right;" |Invalid votes
+|2,107
+|0.73
+|- class="sortbottom" style="background-color:#F6F6F6"
+! colspan="5" scope="row" style="text-align:right;" | Total votes 
+| 290,003
+|100.00
+|- class="sortbottom" style="background-color:#F6F6F6"
+!colspan="5" scope="row" style="text-align:right;" | Registered voters/Turnout
+| 605,433 
+|47.90
+|}
+-->
+
+== Notes ==
+{{notelist}}
+'''Partisan clients'''<br/>
+{{notelist-ua}}
+
+==References==
+{{reflist}}
+
+==External links==
+;Official campaign websites
+*[https://marypeltola.com/ Mary Peltola (D)]
+*[https://www.sullivanforsenate.com/ Dan J. Sullivan (I)]
+*[https://dansullivanforalaska.com/ Dan S. Sullivan (R)]
+
+{{2026 United States elections}}
+
+[[Category:2026 United States Senate elections|Alaska]]
+[[Category:United States Senate elections in Alaska]]
+[[Category:2026 elections in Alaska|United States Senate]]

@@ -1,0 +1,43 @@
+{
+  "slug": "georgia-senate-2026",
+  "race_name": "2026 United States Senate election in Georgia",
+  "race_name_zh": "2026 年佐治亚州联邦参议员选举",
+  "case_number": 7,
+  "candidates": [
+    {
+      "id": "OSSOFF",
+      "name": "Jon Ossoff",
+      "party": "Democratic",
+      "lower": "ossoff"
+    },
+    {
+      "id": "COLLINS",
+      "name": "Mike Collins",
+      "party": "Republican",
+      "lower": "collins"
+    }
+  ],
+  "county_keys": [
+    "ossoff",
+    "collins"
+  ],
+  "poll_keys": [
+    "ossoff",
+    "collins"
+  ],
+  "result": {
+    "winner": "OSSOFF",
+    "margin_pct": 18.06,
+    "source": "SRC-0001"
+  },
+  "state_regions": [
+    "Metro Atlanta",
+    "North Georgia",
+    "Middle Georgia",
+    "South Georgia",
+    "Coastal Georgia",
+    "statewide",
+    "national",
+    "unknown"
+  ]
+}

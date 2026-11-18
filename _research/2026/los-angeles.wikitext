@@ -1,0 +1,929 @@
+{{Short description|Municipal election in California}}
+{{For|related races|2026 United States local elections}}
+{{Use American English|date=January 2025}}
+{{Use mdy dates|date=January 2025}}
+{{Infobox election
+| election_name = 2026 Los Angeles mayoral election
+| country = Los Angeles
+| type = presidential
+| ongoing = no
+| registered = 
+| turnout = 
+| votes_counted = 99
+| last_update = November 13, 7:53 PM
+| time_zone = [[Pacific Time Zone|PST]]<ref>{{Cite web |url=https://apnews.com/projects/elections-2026/california-los-angeles-mayor-results/|title=Los Angeles Mayor Election Results |work=[[Associated Press]] |via= |access-date=November 9, 2026}}</ref>
+| previous_election = 2022 Los Angeles mayoral election
+| previous_year = 2022
+| next_election = 2030 Los Angeles mayoral election
+| next_year = 2030
+| image_size = 
+| election_date = June 2, 2026 (first round)<br/>November 3, 2026 (runoff)
+| 1blank = First round
+| 2blank = [[Two-round system|Runoff]]
+| image2 = Karen Bass, 20232 (cropped).jpg
+| candidate2 = [[Karen Bass]]
+| color2 = c0c0c0
+| 1data2 = '''292,593'''<br>'''34.3%'''
+| 2data2 = 504,959<br>45.1%
+| image1 = Nithya Raman, 2022.jpg
+| candidate1 = '''[[Nithya Raman]]'''
+| color1 = c0c0c0
+| 1data1 = 247,781<br>29.0%
+| 2data1 = '''615,264'''<br>'''54.9%'''
+| image3 = Spencer Pratt at Sen Rick Scott Press Conference on Congressional Investigation into Palisades Wildfire (3x4 crop).jpg
+| candidate3 = [[Spencer Pratt]]
+| color3 = c0c0c0
+| 1data3 = 217,977<br>25.5%
+| 2data3 = ''Eliminated''
+| map = 
+| map_caption = 
+| title = [[Mayor of Los Angeles|Mayor]]
+| before_election = [[Karen Bass]]
+| after_election = [[Nithya Raman]]
+}}
+{{ElectionsCA}}
+
+The '''2026 Los Angeles mayoral election''' was held on November 3, 2026, to elect the [[mayor of Los Angeles]], California.<ref>{{Cite web|title=Dates and Deadlines |website=Close the Gap California |url=https://closethegapca.org/dates-and-deadlines/ |access-date=May 22, 2024}}</ref> A nonpartisan [[top-two primary]] was held on June 2, 2026. Incumbent mayor [[Karen Bass]] announced her re-election bid in July 2024.<ref name=BassLaunch /> In the June 8 primary, Bass and city councilmember [[Nithya Raman]] advanced to the general election. Raman defeated Bass in the November general election.<ref name="defeats">{{Cite web |date=2026-11-05 |title=Nithya Raman defeats Bass to become next L.A. mayor |url=https://www.latimes.com/california/story/2026-11-05/nithya-raman-defeats-bass-to-become-next-la-mayor |access-date=2026-11-05 |website=[[Los Angeles Times]]|language=en}}</ref>
+
+== Candidates ==
+=== Advanced to runoff ===
+*[[Karen Bass]], incumbent mayor (2022–present)<ref name=BassLaunch>{{cite news |title=L.A. Mayor Karen Bass launches her reelection bid, saying, 'We cannot afford to stop our momentum' |first=David |last=Zahniser |work=[[Los Angeles Times]] |date=July 1, 2024 |access-date=July 25, 2024 |url=https://www.latimes.com/california/story/2024-07-01/mayor-karen-bass-files-paperwork-to-run-for-reelection}}</ref>
+*[[Nithya Raman]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 4th City Council district|4th district]] (2020–present) and assistant council president pro tempore (2025–2026)<ref>{{cite web |url=https://www.nytimes.com/2026/02/07/us/nithya-raman-los-angeles-mayor.html |title=Rising Progressive Star Shakes Up Race for Los Angeles Mayor |last1=Cowan |first1=Jill |last2=Hubler |first2=Shawn |date=February 7, 2026 |work=[[New York Times]] |access-date=February 7, 2026}}</ref> ''(previously endorsed Bass)''<ref name=Raman1>{{cite web |last1=Cowan |first1=Jill |last2=Hubler |first2=Shawn |title=Rising Progressive Star Shakes Up Race for Los Angeles Mayor |url=https://www.nytimes.com/2026/02/07/us/nithya-raman-los-angeles-mayor.html |website=The New York Times |access-date=10 February 2026 |date=7 February 2026 |quote=Less than two weeks ago, Ms. Raman endorsed Ms. Bass’s re-election campaign.}}</ref>
+
+=== Eliminated in primary ===
+*Bryant Acosta, chief creative officer<ref name = plb/>
+*Asaad Alnajjar, [[Porter Ranch]] [[Neighborhood councils of Los Angeles|neighborhood councilor]] and candidate for [[Los Angeles's 12th City Council district]] in [[2020 Los Angeles elections#District 12|2020]]<ref name=Vulnerable />
+*Nelson Cheng, streamer and behavioral interventionist<ref name = plb/>
+*Rae Huang, community organizer<ref>{{Cite web|title=Housing advocate Rae Huang announces candidacy for LA mayor|url=https://abc7.com/post/rae-huang-deputy-director-housing-now-california-announces-candidacy-los-angeles-mayor/18165383/|website=ABC7 Los Angeles|date=2025-11-17|access-date=2026-01-30|language=en}}</ref>
+*[[Tish Hyman]], singer-songwriter<ref>{{cite news |title=Viral Gold's Gym women's locker room whistleblower announces run for LA Mayor |url=https://abc3340.com/news/nation-world/viral-golds-gym-womens-locker-room-whistleblower-tish-hyman-announces-run-for-la-mayor |website=ABC3340 |date=January 16, 2026 |access-date=February 6, 2026}}</ref>
+*Andrew Kim, attorney and candidate for mayor in [[2022 Los Angeles mayoral election|2022]]<ref name="LATimesList"/><ref name = plb/>
+*Suzy Kim, mental health professional<ref name = plb/>
+*John Logsdon, [[Westchester, Los Angeles|Westchester]]/[[Playa Vista, Los Angeles|Playa]] neighborhood councilor<ref>{{Cite web |date=2026-05-04 |title=John Logsdon, Los Angeles mayor candidate, 2026 primary election questionnaire |url=https://www.dailynews.com/2026/05/04/john-logsdon-los-angeles-mayor-candidate-2026-primary-election-questionnaire/ |access-date=2026-06-16 |website=Daily News |language=en-US}}</ref>
+*Juanita Lopez, political scientist<ref name = plb/>
+*Adam Miller, former tech executive<ref>{{cite web |url=https://www.latimes.com/california/story/2026-02-05/tech-entrepreneur-enters-la-mayors-race-as-deadline-nears |title=Tech entrepreneur enters L.A. mayor’s race, becoming the latest to take on Karen Bass |last1=Zahniser |first1=David |last2=Smith |first2=Doug |date=February 5, 2026 |work=[[Los Angeles Times]] |access-date=February 6, 2026}}</ref>
+*[[Spencer Pratt]], reality television personality<ref>{{Cite web |date=January 7, 2025 |title=Spencer Pratt, ex-reality star turned wildfire critic, is running for mayor of Los Angeles |url=https://www.politico.com/news/2026/01/07/spencer-pratt-running-for-mayor-of-los-angeles-00714859 |access-date=January 7, 2026 |website=[[Politico]] |language=en-US |last=Dillon |first=Liam}}</ref>
+*Andrej Selivra, enterprise technical architect<ref name="LATimesList"/><ref name = plb/>
+
+=== Write-in candidates ===
+
+* Griselda Diaz, administrative manager<ref name="plb" /><ref name="Website-1">{{Cite web |last=LAist |date=2026-02-17 |title=Your quick guide to the LA mayor's race |url=https://thelalocal.org/los-angeles-city/your-quick-guide-to-the-la-mayors-race/ |access-date=2026-10-22 |website=LA Local |language=en-US}}</ref><ref name="Website-2">{{Cite web |date=June 26, 2026 |title=Certificate of the Canvass - Write-in Votes, Los Angeles County |url=https://content.lavote.gov/docs/rrcc/documents/certificate-of-write-in-june-2-2026-statewide-direct-primary.pdf}}</ref>
+* Misael Ortega, painting contractor<ref name="Website-1" /><ref name="Website-2" />
+
+=== Disqualified ===
+*Adam Carmichael, software systems architect<ref>{{Cite web |last=Stolze |first=Frank |date=2026-02-17 |title=Your quick guide to the LA mayor's race |url=https://laist.com/news/politics/your-quick-guide-to-the-la-mayors-race |access-date=2026-03-05 |website=LAist |language=en}}</ref>
+*Alyxandria-Jamil Carter, artist<ref name="plb" /><ref name="CityClerk">{{Cite web|title=Nominating Petition Filing Status |publisher=[[Los Angeles City Clerk]] |language=en-US |date=March 4, 2026 |url=https://cityclerk.lacity.org/election/2026_Nominating_Petition_Filing_Status.pdf |url-status=live |access-date=March 4, 2026}}</ref>
+*Cassandra Faye Floyd, minister<ref name="plb" /><ref name="CityClerk" />
+*Joseph Garcia, gardener and advocate<ref name="LATimesList">{{Cite web |last=Los Angeles Times staff |date=February 7, 2026 |title=Who is running for L.A. mayor? Here’s the list |url=https://www.latimes.com/california/story/2026-02-07/who-is-running-for-la-mayor |access-date=February 9, 2026 |website=Los Angeles Times}}</ref><ref name="plb" /><ref name="CityClerk" />
+*Laura Garza, rail worker and perennial candidate<ref>{{Cite web|last=Stoltze |first=Frank |title=Your quick guide to the LA mayor's race |work=[[KPCC (FM)|LAist]] |language=en-US |date=February 17, 2026 |url=https://laist.com/news/politics/your-quick-guide-to-the-la-mayors-race |access-date=February 17, 2026}}</ref><ref name="CityClerk" />
+*Robert Goodman, entrepreneur and financial advisor<ref name="plb" /><ref name="CityClerk" />
+*Keeldar Shawn Hamilton, transportation coordinator<ref name="plb" /><ref name="CityClerk" />
+*Nick Harron, writer<ref name="plb" />
+*Stevie Maceo Milan, sales representative<ref name="plb" /><ref name="CityClerk" />
+*Vincent Wali, musician and nurse<ref name="plb" /><ref name="Vulnerable" /><ref name="CityClerk" />
+
+=== Withdrawn ===
+*[[Austin Beutner]], former [[superintendent of the Los Angeles Unified School District]] and <br>1st [[Mayor of Los Angeles|Deputy Mayor of Los Angeles]]<ref>{{Cite web |url=https://laist.com/news/politics/austin-beutner-drops-out-of-la-mayoral-race-after-daughters-death |title=Austin Beutner drops out of LA mayoral race after daughter's death |last=Chrise |first=Kyle |date=February 5, 2026 |work=[[KPCC (FM)|LAist]] |access-date=February 5, 2026}}</ref>
+*Jeanne Moller Fontana, mental health activist<ref name = plb/><ref name="CityClerk" />
+*Franziska Von Fischer, real estate investor<ref name="LATimesList"/><ref name = plb>{{cite web|url=https://beverlypress.com/2026/02/filing-opens-for-l-a-municipal-election/|title=Filing opens for L.A. Municipal Election|date=February 4, 2026|website=Beverly Press and Park LaBrea News|author=Folven, Edwin}}</ref><ref name="CityClerk" />
+
+=== Declined ===
+*[[Rick Caruso]], founder of [[Caruso (company)|Caruso]] and runner-up for [[mayor of Los Angeles|mayor]] in [[2022 Los Angeles mayoral election|2022]]<ref>{{Cite web |last=Goldberg |first=Noah |date=2026-02-05 |title=Rick Caruso confirms he will not run for L.A. mayor |url=https://www.latimes.com/california/story/2026-02-05/rick-caruso-confirms-he-will-not-run-for-mayor |access-date=2026-02-05 |website=Los Angeles Times |language=en-US}}</ref>
+*[[Lindsey Horvath]], [[Los Angeles County Board of Supervisors|Los Angeles County supervisor]] (2022–present) ''([[2026 Los Angeles County Board of Supervisors election#District 3|ran for re-election]])''<ref>{{Cite web|last1=Zahniser |first1=David |last2=Goldberg |first2=Noah |title=County Supervisor Lindsey Horvath won’t run for L.A. mayor, ending weeks of speculation |work=[[Los Angeles Times]] |language=en-US |date=February 6, 2026 |url=https://www.latimes.com/california/story/2026-02-06/county-supervisor-lindsey-horvath-will-not-run-for-los-angeles-mayor |access-date=February 7, 2026}}</ref>
+*[[Kenneth Mejia]], [[Los Angeles City Controller|Los Angeles City controller]] (2022–present) ''([[2026 Los Angeles elections#City controller|ran for re-election]])''<ref name="Vulnerable" /><ref name="la-times-six-political-stories">{{Cite news|url=https://www.latimes.com/california/newsletter/2026-01-03/la-on-the-record-six-political-stories-in-2026|title=Here are six L.A. political stories we’re tracking in 2026|last=Zahniser|first=David|date=January 3, 2026|url-status=live|work=[[Los Angeles Times]]|access-date=February 1, 2026}}</ref>
+*[[Traci Park]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 11th City Council district|11th district]] (2022–present) ''([[2026 Los Angeles elections#District 11|ran for re-election]])''<ref name=Vulnerable /><ref>{{cite web|url=https://www.westsidecurrent.com/elections/column-the-649-000-reasons-traci-park-is-treating-the-2026-election-seriously-and-other/article_2acab222-2301-473a-aa44-333e44906eaf.html|title= COLUMN: The 649,000 Reasons Traci Park Is Treating the 2026 Election Seriously, and Other Campaign Finance Takeaways |date=September 3, 2025|author=Regardie, Jon|website=Westside Current}}</ref>
+*[[Monica Rodriguez]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 7th City Council district|7th district]] (2017–present)<ref>{{cite web |url=https://www.latimes.com/california/newsletter/2025-09-13/is-monica-rodriguez-running-a-marathon-or-running-for-mayor |title=What is Monica Rodriguez running for? |last=Goldberg |first=Noah |date=September 13, 2025 |work=[[Los Angeles Times]] |access-date=February 4, 2026}}</ref> ''([[2026 Los Angeles elections#District 7|ran for re-election]])''<ref name = filed>{{cite web|url=https://www.latimes.com/california/story/2026-02-08/heres-who-filed-to-run-in-la-city-elections|title=Here’s who filed to run in L.A.’s city election|website=[[Los Angeles Times]]|author=Vincent, Roger|date=February 8, 2026}}</ref>
+*Maryam Zar, founder of the Palisades Recovery Coalition<ref>{{cite web |url=https://www.politico.com/newsletters/california-playbook/2026/02/04/dumpster-diving-and-dna-how-newsom-writes-about-local-media-00763915 |title=Dumpster diving and DNA: How Newsom writes about local media |last1=Mason |first1=Melanie |last2=Gardiner |first2=Dustin |last3=Jones |first3=Blake |date=February 4, 2026 |work=[[Politico]] |access-date=February 4, 2026}}</ref>
+
+== Primary ==
+Most attention in the non-partisan primary was focused on Bass, the incumbent Democratic mayor; Pratt, a Republican [[reality television]] personality; and Raman, a Democratic city councilmember.<ref name="auto">{{Cite web|url=https://www.nytimes.com/2026/06/08/us/elections/nithya-raman-la-mayor-karen-bass.html|title=Democrat Secures Second L.A. Mayor Spot and Ends Spencer Pratt’s Run|first=Shawn|last=Hubler|date=June 8, 2026|via=NYTimes.com}}</ref> Pratt had come to renewed prominence by channeling popular resentment against city government for its handling of the [[Palisades Fire]], in which he had lost his home the previous year; he became a focal point of Republican support.<ref name="auto"/> Raman, a [[Democratic Socialists of America]] member, entered the race only hours before the filing deadline in order to provide an alternate challenger to Pratt; she positioned herself as more progressive than Bass, focusing on the city's [[Housing crisis in the United States|housing crisis]] and other policy areas where she charged that Bass's establishment politics had failed.<ref>{{Cite news |last=Zhang |first=Christine |last2=Lemonides |first2=Alex |last3=Soler |first3=Caroline |last4=Bloch |first4=Matthew |last5=Hubler |first5=Shawn |date=2026-06-05 |title=See the Areas Where the L.A. Mayoral Candidates Built Their Coalitions |url=https://www.nytimes.com/interactive/2026/06/05/us/elections/los-angeles-mayor-primary-results-precinct-map.html |access-date=2026-06-10 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
+
+=== Debates ===
+{| class="wikitable"  style="text-align:center;"
+|+ class="nowrap" | 2026 Los Angeles mayoral election debates
+|- style="font-size:small;"
+!scope="col"| Date
+!scope="col"| Host
+!scope="col"| Moderators
+!scope="col"| Location
+!scope="col"| Link
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+|-
+! colspan="5" rowspan="2" |Key: {{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small><br> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small>
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+|-
+! scope="col" | [[Karen Bass]]
+! scope="col" | [[Spencer Pratt]]
+! scope="col" | [[Nithya Raman]]
+|-
+| May 5, 2026<ref>{{cite news|last1=Zahniser|first1=David|last2=Goldberg|first2=Noah|title=Mayor Karen Bass and challenger Nithya Raman tussle in first head-to-head debate|url=https://www.latimes.com/california/story/2026-05-05/karen-bass-nithya-raman-head-to-head-mayoral-debate|work=Los Angeles Times|date=5 May 2026}}</ref>
+| Sherman Oaks Homeowners Association
+| Phil Sherman
+| Sherman Oaks East Valley Adult Center
+| [https://www.youtube.com/watch?v=AkuJMniInXQ YouTube] 
+| {{YS|'''P'''}}
+| {{No|'''N'''}}
+| {{YS|'''P'''}}
+|-
+| May 6, 2026<ref>{{cite news|last=Lloyd|first=Jonathan|url=https://www.nbclosangeles.com/news/politics/nbc4-debate-california-governor-la-mayor-election/3885376/|title=Candidates for LA mayor, California governor to meet in debate doubleheader|work=NBC Los Angeles|date=5 May 2026}}</ref>
+| [[KNBC|NBC4]]<br>[[Telemundo 52]]
+| Enrique Chiabra<br>[[Conan Nolan]]<br>[[Colleen Williams]]
+| [[Skirball Cultural Center]]
+| [https://www.youtube.com/watch?v=8rI3A6alVHM YouTube]
+| {{YS|'''P'''}}
+| {{YS|'''P'''}}
+| {{YS|'''P'''}}
+|-
+|}
+
+====Canceled debate====
+A third debate was scheduled to occur on May 13, hosted by the [[League of Women Voters]], with five candidates invited. Bass withdrew from the debate a week before, after originally committing to attending. Pratt was also invited to the debate, but declined due to a scheduling conflict. On May 11, Raman withdrew from the debate, leading to its cancellation later that day.<ref>{{cite news|url=https://www.latimes.com/california/story/2026-05-11/la-mayoral-forum-canceled-after-leading-candidates-pull-out|title=L.A. mayoral forum canceled after leading candidates pull out|work=Los Angeles Times|date=11 May 2026}}</ref>
+
+{| class="wikitable"  style="text-align:center;"
+|+ class="nowrap" | Cancelled 2026 Los Angeles mayoral election debate
+|- style="font-size:small;"
+!scope="col"| Planned date
+!scope="col"| Host
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+|-
+! colspan="2" rowspan="2" |Key: {{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small><br> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small>
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+|-
+! scope="col" | [[Karen Bass]]
+! scope="col" | Rae Huang
+! scope="col" | Adam Miller
+! scope="col" | [[Spencer Pratt]]
+! scope="col" | [[Nithya Raman]]
+|-
+| May 13, 2026<ref>{{cite news|last=McPhee|first=Michele|title=Karen Bass Re-Election Campaign Makes Stunning Announcement|url=https://lamag.com/news-and-politics/karen-bass-re-election-campaign-makes-stunning-announcement/|work=Los Angeles Magazine|date=10 May 2026}}</ref>
+| [[League of Women Voters]]<br>Pat Brown Institute 
+| style="background:#f0e68c;"|'''W'''
+| {{YS|'''I'''}}
+| {{YS|'''I'''}}
+| {{YS|'''I'''}}
+| style="background:#f0e68c;"|'''W'''
+|-
+|}
+
+=== Endorsements ===
+{{Endorsements box
+| title = Karen Bass
+|colwidth=60
+| list =
+;Executive branch officials
+*[[Kamala Harris]], former [[vice president of the United States]] (2021–2025)<ref>{{cite web |last=Turner |first=Austin|title=Kamala Harris endorses Los Angeles Mayor Karen Bass as race for reelection heats up |url=https://www.cbsnews.com/losangeles/news/kamala-harris-endorses-los-angeles-mayor-karen-bass/ |website=[[CBS News]] |access-date=May 4, 2026 |date=May 4, 2026}}</ref>
+
+;U.S. senators
+*[[Alex Padilla]], [[California]] (2021–present)<ref>{{cite web |title=Sen. Padilla endorses Los Angeles Mayor Karen Bass for re-election |url=https://abc7.com/post/sen-padilla-endorses-los-angeles-mayor-karen-bass-election/19087020/ |website=ABC 7 |access-date=May 12, 2026 |date=May 12, 2026}}</ref>
+*[[Adam Schiff]], [[California]] (2024–present)<ref name="Hiltn">{{cite web |last1=Jones |first1=Blake |last2=Gardiner |first2=Dustin |last3=Mason |first3=Melanie |title=What Trump can’t give Hilton |url=https://www.politico.com/newsletters/california-playbook/2026/04/10/what-trump-cant-give-hilton-00866639 |website=POLITICO |access-date=11 April 2026 |language=en |date=10 April 2026}}</ref>
+
+;U.S. representatives
+*[[Nancy Pelosi]], former [[Speaker of the United States House of Representatives|speaker of the House]] (2007–2011, 2019–2023) from [[California's 11th congressional district|CA-11]] (1987–present)<ref name="LAS1"/>
+*[[Maxine Waters]], [[California's 43rd congressional district|CA-43]] (1991–present)<ref>{{cite web |last1=Marlee |first1=Sierra |title=Karen Bass treats Maxine Waters endorsement like a political Super Bowl win |url=https://www.bizpacreview.com/2026/05/27/karen-bass-treats-maxine-waters-endorsement-like-a-political-super-bowl-win-1642606/ |website=BizPac Review |access-date=29 May 2026 |date=27 May 2026}}</ref>
+
+;Statewide officials
+*[[Rob Bonta]], [[attorney general of California]] (2021–present)<ref name="Bonta">{{cite web |last1=Mason |first1=Melanie |last2=Gardiner |first2=Dustin |last3=Jones |first3=Blake |title=Tom Steyer’s two-front attack |url=https://www.politico.com/newsletters/california-playbook/2026/04/03/tom-steyers-two-front-attack-00857119 |website=POLITICO |access-date=18 April 2026 |language=en |date=3 April 2026}}</ref>
+*[[Gavin Newsom]], [[governor of California]] (2019–present)<ref name="Gov123">{{cite web |title=Gov. Newsom endorses LA Mayor Karen Bass as new poll gauges candidates' support |url=https://www.dailynews.com/2026/05/28/gov-newsom-endorses-la-mayor-karen-bass-as-new-poll-gauges-candidates-support/ |website=Daily News |access-date=29 May 2026 |date=28 May 2026}}</ref>
+
+;State legislators
+*[[María Elena Durazo]], [[California's 26th senatorial district|SD-26]] (2018–present)<ref name="angel"/>
+*[[Sade Elhawary]], [[California's 57th State Assembly district|AD-57]] (2024–present)<ref name=launches>{{Cite news |url=https://abc7.com/post/mayor-karen-bass-appear-reelection-campaign-rally-downtown-la-today/18283470/ |title=LA Mayor Karen Bass launches re-election campaign with rally in downtown |last=Herrera |first=Josh |language=en-US |date=December 14, 2025 |access-date=December 19, 2025 |website=[[KABC-TV]]}}</ref>
+*[[Fabian Nunez]], former [[speaker of the California State Assembly]] (2004–2008) from [[California's 46th State Assembly district|AD-46]] (2002–2008)<ref>{{Cite web |url=https://www.politico.com/newsletters/california-playbook/2025/12/15/california-democrats-have-a-big-math-problem-00690387 |title=California Democrats have a big math problem |last1=Gardiner |first1=Dustin |last2=Jones |first2=Blake |language=en-US |work=[[Politico]] |date=December 15, 2025 |access-date=December 19, 2025}}</ref>
+
+;County officials<!-- COUNTYWIDE -->
+*[[Kathryn Barger]], [[Los Angeles County Board of Supervisors|Los Angeles County supervisor]] from the [[Los Angeles County Board of Supervisors#Supervisorial districts|5th district]] (2016–present) ''(Republican)''<ref name="FourOf"/>
+*[[Janice Hahn]], [[Los Angeles County Board of Supervisors|Los Angeles County supervisor]] from the [[Los Angeles County Board of Supervisors#Supervisorial districts|4th district]] (2018–present)<ref name=ynb>{{cite news |title=In a win for Palisades fire victims, L.A. overhauls plan for permit relief |first=David |last=Zahniser |work=[[LA Times]] |date=January 17, 2026 |access-date=January 17, 2026 |url=https://www.latimes.com/california/newsletter/2026-01-17/palisades-fire-victim-rebuilding-permits-la-on-the-record}}</ref>
+*[[Robert Luna]], [[List of Los Angeles County sheriffs|sheriff of Los Angeles County]] (2022–present)<ref name="Reckoning">{{cite web |title=The California reckoning after Cesar Chavez’s fall |url=https://www.politico.com/news/2026/03/23/assessing-the-wreckage-after-cesar-chavezs-fall-00839648 |website=POLITICO |access-date=24 March 2026 |language=en |date=23 March 2026}}</ref>
+*[[Holly Mitchell]], [[Los Angeles County Board of Supervisors|Los Angeles County supervisor]] from the [[Los Angeles County Board of Supervisors#Supervisorial districts|2nd district]] (2020–present)<ref name="FourOf"/>
+*[[Hilda Solis]], [[Los Angeles County Board of Supervisors|Los Angeles County supervisor]] from the [[Los Angeles County Board of Supervisors#Supervisorial districts|1st district]] (2014–present) and former [[United States Secretary of Labor|U.S. secretary of labor]] (2009–2013)<ref name="FourOf">{{cite web |title=Four of the five LA County supervisors endorsed Karen Bass for mayor |url=https://www.dailynews.com/2026/03/20/four-of-the-five-la-county-supervisors-endorsed-karen-bass-for-mayor/ |website=Daily News |access-date=21 March 2026 |date=20 March 2026}}</ref>
+
+;Local officials<!-- CITYWIDE -->
+*[[Marqueece Harris-Dawson]], [[Los Angeles City Council|city council president]] (2024–present) from the [[Los Angeles's 8th City Council district|8th district]] (2015–present)<ref name=launches/>
+*[[Eunisses Hernandez]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 1st City Council district|1st district]] (2022–present)<ref name="Snub3">{{cite web |title=City Council progressives snub Raman, endorse Bass in L.A. mayor's race |url=https://www.latimes.com/california/story/2026-05-19/city-council-progressives-snub-raman-endorse-bass-in-la-mayors-race |website=Los Angeles Times |access-date=20 May 2026 |date=19 May 2026}}</ref>
+*[[Heather Hutt]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 10th City Council district|10th district]] (2022–present)<ref name=launches/>
+*[[Ysabel Jurado]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 1st City Council district|14th district]] (2024–present)<ref name="Snub3"/>
+*[[Tim McOsker]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 15th City Council district|15th district]] (2022–present)<ref name=ynb/>
+*[[Adrin Nazarian]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 2nd City Council district|2nd district]] (2024–present)<ref name=launches/>
+*[[Curren Price]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 9th City Council district|9th district]] (2013–present)<ref name=launches/>
+*<s>[[Nithya Raman]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 4th City Council district|4th district]] (2020–present)</s><ref name=Raman1/> ''(entered the race in February 2026)''
+*[[Hugo Soto-Martinez]], [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 13th City Council district|13th district]] (2022–present)<ref name=left>{{Cite web|last1=Goldberg |first1=Noah |last2=Zahniser |first2=David |title=She's challenging Bass from the left. Could she become L.A.'s Mamdani? |work=[[Los Angeles Times]] |date=November 15, 2025 |url=https://www.latimes.com/california/newsletter/2025-11-15/la-on-the-record-an-activist-is-challenging-bass-from-the-left |url-status=live |access-date=November 15, 2025}}</ref>
+
+;Individuals
+*[[J.J. Abrams]], filmmaker<ref name="Fonda"/>
+*[[Jasmyne Cannick]], political strategist<ref name="plottwist">{{cite web |title=The plot twist shaking Los Angeles |url=https://www.politico.com/news/2026/02/14/the-plot-twist-shaking-los-angeles-00780697 |website=POLITICO |access-date=15 February 2026 |language=en |date=14 February 2026}}</ref>
+*[[Don Cheadle]], actor<ref name="Fonda"/>
+*[[Jane Fonda]], actress and climate activist<ref name="Fonda">{{cite web |last1=Patton |first1=Tess |title=Jane Fonda Endorses LA Mayor Karen Bass for Reelection |url=https://www.thewrap.com/media-platforms/politics/jane-fonda-endorses-mayor-karen-bass-reelection-exclusive/ |website=The Wrap |access-date=29 May 2026 |date=28 May 2026}}</ref>
+*[[David Huerta (trade unionist)|David Huerta]], president of [[SEIU|SEIU United Service Workers West]]<ref name="angel"/>
+*[[Dolores Huerta]], labor leader<ref name="LAS1"/>
+*[[Samuel L. Jackson]], actor<ref>{{cite web |last1=Hazard |first1=Charlotte |title=Actor Samuel L. Jackson endorses Karen Bass for Los Angeles mayor |url=https://ktul.com/news/nation-world/actor-samuel-l-jackson-endorses-karen-bass-for-los-angeles-mayor-spencer-pratt |website=KTUL |access-date=May 27, 2026 |language=en |date=May 27, 2026}}</ref>
+*[[Magic Johnson]], businessman and former basketball player<ref name="Magic">{{cite web |last1=Rego |first1=Max |title=Magic Johnson endorses Karen Bass in LA mayoral race |url=https://thehill.com/homenews/campaign/5872955-magic-johnson-endorses-mayor-bass/ |website=The Hill |access-date=12 May 2026 |date=11 May 2026}}</ref>
+*[[Jenifer Lewis]], actress and singer<ref name="Fonda"/>
+*[[Angelica Salas]], immigration activist<ref name="angel">{{cite web |title=Arellano: Spencer Pratt is sharing a Miami sound machine ad. It won't play in L.A. |url=https://www.yahoo.com/news/articles/arellano-spencer-pratt-sharing-miami-100000476.html |website=Yahoo News |access-date=3 April 2026 |date=2 April 2026}}</ref>
+
+;Labor unions
+*[[American Federation of Musicians]] Local 47<ref>{{cite web |title=AFM 47 Endorses Karen Bass for Mayor of Los Angeles |url=https://afm47.org/press/afm-47-endorses-karen-bass-for-mayor-of-los-angeles/ |website=AFM Local 47 |access-date=11 March 2026 |date=5 March 2026}}</ref>
+*[[California Nurses Association/National Nurses Organizing Committee|California Nurses Association]]<ref name="CANURSES1">{{cite web |title=California endorsements |url=https://www.nationalnursesunited.org/california-endorsements |website=National Nurses United |access-date=16 February 2026 |language=en |date=22 March 2018}}</ref>
+*[[IATSE]] California<ref>{{cite web |last1=Johnson |first1=Ted |title=IATSE Endorses Karen Bass' Bid For Re-election In Los Angeles Mayor Race |url=https://deadline.com/2026/05/karen-bass-iatse-los-angeles-mayor-race-1236916610/ |website=Deadline |access-date=21 May 2026 |date=20 May 2026}}</ref>
+*[[International Longshore and Warehouse Union|ILWU]] Southern California District Council<!--<ref name="UNITE"/>--><ref name="ILWU1">{{cite web |title=ILWU Southern California District Council endorses Mayor Karen Bass for reelection |url=https://www.facebook.com/ILWUSoCalDistrictCouncil/posts/brothers-and-sisterson-behalf-of-the-ilwu-southern-california-district-council-r/1596362975825752/ |website=Facebook |publisher=ILWU Southern California District Council |access-date=2 September 2026}}</ref>
+*LA/OC [[National Building Trades Council|Building & Construction Trades Council]]<ref name="LAOC1">{{cite web |title=LA/OC Building & Construction Trades Council Endorses Karen Bass for Mayor of Los Angeles |url=https://finance.yahoo.com/news/la-oc-building-construction-trades-175600465.html |website=Yahoo Finance |access-date=3 March 2026}}</ref>
+*[[Los Angeles County Federation of Labor]]<ref name="plottwist"/>
+*[[Los Angeles Police Protective League]]<ref name=Vulnerable>{{cite news |title=Mayor Karen Bass is looking vulnerable. But will anyone challenge her in 2026? |first1=Julia |last1=Wick |first2=David |last2=Zahniser |work=[[Los Angeles Times]] |date=April 9, 2025 |access-date=June 6, 2025 |url=https://www.latimes.com/california/story/2025-04-09/mayor-karen-bass-vulnerable-election-2026-caruso-fires-challengers}}</ref>
+*[[SEIU]] Local 721<ref name="SEIU1">{{cite web |title=Mayor Karen Bass Launches Reelection Campaign with Broad Coalition Rally at LATTC |url=https://lasentinel.net/mayor-karen-bass-launches-reelection-campaign-with-broad-coalition-rally-at-lattc.html |website=Los Angeles Sentinel |access-date=19 March 2026 |date=17 December 2025}}</ref>
+
+;Organizations
+*[[Building Owners and Managers Association]] Greater Los Angeles<ref name="Holly2"/>
+*[[Coalition for Humane Immigrant Rights of Los Angeles]]<ref>{{cite web |title=LA deserves a bold leader, and that’s why CHIRLA Action Fund is proud to endorse Karen Bass for Mayor of the City of Los Angeles! |url=https://www.facebook.com/chirlaactionfund/posts/pfbid02t98nM2bJeDxyHC5QXNh5e1RHbty7NHvxCEokptHi1LA52oeNDadrJeri5HciyFyrl |website=Facebook |publisher=Chirla Action Fund |access-date=31 July 2026}}</ref>
+*[[Democratic Mayors Association]]<ref>{{cite web |title=Democratic Mayors Association Endorses Results-Driven Slate of Leaders Focused on Delivering for Working Families |url=https://democraticmayors.org/news/democratic-mayors-association-endorses-results-driven-slate-of-leaders-focused-on-delivering-for-working-families/ |website=Democratic Mayors |access-date=21 May 2026}}</ref>
+*[[Elect Democratic Women]]<ref>{{cite web |title=Elect Democratic Women Congratulates 10 Endorsed Candidates and Frontline Members on their Victories in the California, Iowa, New Jersey, and New Mexico Primaries |url=https://electdemocraticwomen.org/elect-democratic-women-congratulates-10-endorsed-candidates-and-frontline-members-on-their-victories-in-the-california-iowa-new-jersey-and-new-mexico-primaries/ |website=Elect Democratic Women |access-date=10 June 2026 |date=3 June 2026}}</ref>
+*[[EMILYs List]]<ref name="LAS1">{{cite web |title=Mayor Bass Secures Major Women's Endorsements as Reelection Effort Accelerates |url=https://lasentinel.net/mayor-bass-secures-major-womens-endorsements-as-reelection-effort-accelerates.html |website=Los Angeles Sentinel |access-date=15 March 2026 |date=12 March 2026}}</ref>
+*[[Hollywood Chamber of Commerce]]<ref name="Holly2">{{cite web |title=LA business groups unite behind Bass and switch up their playbook |url=https://www.politico.com/news/2026/04/07/la-business-groups-back-karen-bass-00861275 |website=POLITICO |access-date=9 April 2026 |language=en |date=7 April 2026}}</ref>
+*[[Los Angeles Area Chamber of Commerce]]<ref name="TheValley"/>
+*[[Los Angeles County Young Democrats]]<ref>{{cite web |title=Endorsements |url=https://lacyd.nationbuilder.com/endorsements |website=Los Angeles County Young Democrats |access-date=5 May 2026 |language=en}}</ref>
+*[[Planned Parenthood]] Los Angeles<ref name="LAS1"/>
+*[[Stonewall Democratic Club]]<ref>{{Cite web |url=https://www.stonewalldems.org/endorsed_candidates |title=2026 November Stonewall Endorsed Candidates |work=[[Stonewall Democratic Club]] |access-date=January 26, 2026 |language=en-US |archive-date=January 26, 2026 |url-status=live |archive-url=https://web.archive.org/web/20260126125609/https://www.stonewalldems.org/endorsed_candidates}}</ref>
+*[[Valley Industry & Commerce Association]]<ref name="TheValley">{{cite web |last1=Jones |first1=Blake |last2=Mason |first2=Melanie |last3=Gardiner |first3=Dustin |title=California Dems are thankful to Trump, for once |url=https://www.politico.com/newsletters/california-playbook/2026/04/07/california-dems-are-thankful-to-trump-for-once-00861279 |website=POLITICO |access-date=9 April 2026 |language=en |date=7 April 2026}}</ref>
+
+;Political parties
+*[[Los Angeles County]] [[Democratic Party (United States)|Democratic Party]]<ref name="CEV">{{cite web |last1=Gardiner |first1=Dustin |last2=Mason |first2=Melanie |last3=Jones |first3=Blake |title=Chavez allegations jolt California’s labor movement |url=https://www.politico.com/newsletters/california-playbook/2026/03/18/chavez-allegations-jolt-californias-labor-movement-00833546 |website=POLITICO |access-date=19 March 2026 |language=en |date=18 March 2026}}</ref>
+
+;Newspapers
+*''[[La Opinión]]''<ref>{{cite web |title=Editorial: Por Karen Bass a la alcaldía de Los Ángeles |url=https://laopinion.com/2026/05/29/editorial-por-karen-bass-a-la-alcaldia-de-los-angeles/ |website=La Opinión |access-date=31 May 2026 |language=es-us |date=29 May 2026}}</ref>
+*''[[Los Angeles Sentinel]]''<ref name="Slate1">{{cite web |title=L.A. Sentinel 2026 Endorsement Slate |url=https://lasentinel.net/l-a-sentinel-2026-endorsement-slate.html |website=Los Angeles Sentinel |access-date=5 April 2026 |date=2 April 2026}}</ref>
+}}
+{{Endorsements box
+| title = Rae Huang
+| list =
+;Local officials
+*[[Konstantine Anthony]], [[Burbank, California|Burbank city councilmember]] (2020–present)<ref>{{cite web |title=Inside Democratic Socialists of America's decision on whether to endorse for L.A. mayor |url=https://www.latimes.com/california/story/2026-03-21/will-dsa-endorse-for-la-mayor-everyone-has-different-opinions |website=Los Angeles Times |access-date=22 March 2026 |date=21 March 2026 |quote=Konstantine Anthony, a DSA member and Burbank City Council member who gathered signatures to reopen the endorsement window, is supporting Huang.}}</ref>
+;Labor unions
+*[[Communication Workers of America|United Videogame Workers-CWA]]<ref name="UVW-CWA">{{cite web |title=UVW-CWA endorses Rae Huang for Los Angeles mayor |url=https://uvw-cwa.org/news/uvw-cwa-endorses-rae-huang-los-angeles-mayor |website=UVW-CWA |access-date=15 May 2026 |date=12 May 2026}}</ref>
+}}
+{{Endorsements box
+| title = Adam Miller
+| list =
+;Newspapers and media
+*''[[Mass media in Los Angeles#Weekly, biweekly and monthly newspapers|Beverly Press]]''<ref name="BeverlyPress">{{cite web |last1=Folven |first1=Edwin |title=Beverly Press endorsements for June 2 primary election |url=https://beverlypress.com/2026/05/beverly-press-endorsements-for-june-2-primary-election/ |website=Beverly Press & Park Labrea News |access-date=29 May 2026 |date=28 May 2026}}</ref>
+*''[[Daily Breeze]]''<ref>{{cite web |title=Endorsement: Adam Miller for mayor of Los Angeles |url=https://www.dailybreeze.com/2026/05/10/endorsement-adam-miller-for-mayor-of-los-angeles/ |website=Daily Breeze |access-date=2 June 2026 |date=10 May 2026}}</ref>
+*''[[Los Angeles Daily News]]''<ref name="DailyNews">{{Cite web|author=The Editorial Board |title=Endorsement: Adam Miller for mayor of Los Angeles |work=[[Los Angeles Daily News]] |language=en-US |date=May 10, 2026 |url=https://www.dailynews.com/2026/05/10/endorsement-adam-miller-for-mayor-of-los-angeles/ |url-status=live |archive-url=https://web.archive.org/web/20260510181620/https://www.dailynews.com/2026/05/10/endorsement-adam-miller-for-mayor-of-los-angeles/ |archive-date=May 10, 2026 |access-date=May 10, 2026}}</ref>
+*''[[Mass media in Los Angeles#Weekly, biweekly and monthly newspapers|Park La Brea News]]''<ref name="BeverlyPress"/>
+*[[Southern California News Group]]<ref name="SCNG">{{cite web |title=Southern California News Group's endorsement guide to California's June 2 primary |url=https://www.ocregister.com/2026/05/26/southern-california-news-groups-endorsement-guide-to-californias-june-2-primary/ |website=Orange County Register |access-date=31 May 2026 |date=27 May 2026}}</ref>
+*''[[The Orange County Register]]''<ref name="SCNG"/>
+}}
+{{Endorsements box
+| title = Spencer Pratt
+| colwidth = 60
+| list =
+;Executive branch officials
+*[[Richard Grenell]], [[Ambassadors of the United States#Special envoys, representatives, and coordinators|special presidential envoy for special missions]] (2025–present)<ref name="Grenell" />
+;U.S. senators
+*[[Rick Scott]], [[Florida]] (2019–present)<ref name=rscott>{{Cite web |url=https://www.politico.com/news/2026/01/08/yes-spencer-pratt-is-a-republican-00716927 |title=Spencer Pratt's GOP registration poses early test in LA mayor's race |language=en-US |work=[[Politico]] |date=January 8, 2026 |access-date=January 12, 2026 |last=Dillon |first=Liam}}</ref>
+;Local officials
+*[[Chad Bianco]], [[Riverside County Sheriff's Department|sheriff-coroner of Riverside County]] (2019–present)<ref name=rscott/>
+;Individuals
+*[[Adam Carolla]], comedian<ref name="exam">{{cite web |last1=Chakraborty |first1=Barnini |title=Reality star Spencer Pratt racks up endorsements, cash in LA mayor bid |url=https://www.washingtonexaminer.com/news/campaigns/state/4550120/spencer-pratt-endorsements-cash-los-angeles-mayor/ |website=Washington Examiner |access-date=1 May 2026 |date=30 April 2026}}</ref>
+*[[Kristin Cavallari]], TV personality<ref>{{cite web |title=Kristin Cavallari Says 'Everyone Is Corrupt' While Co-Signing Spencer Pratt's Mayor Run |url=https://www.yahoo.com/entertainment/celebrity/articles/kristin-cavallari-says-everyone-corrupt-214500574.html |website=Yahoo Entertainment |access-date=22 April 2026 |date=21 April 2026}}</ref>
+*[[Jonathan Cheban]], reality TV personality<ref>{{cite web |last1=Stivale |first1=Shelby |title=Jonathan 'FoodGod' Cheban Explains Why He's 'Desperate' for Spencer Pratt to Become L.A. Mayor |url=https://www.usmagazine.com/celebrity-news/news/jonathan-foodgod-cheban-wants-spencer-pratt-as-l-a-mayor/ |website=Us Weekly |access-date=16 May 2026 |date=8 May 2026}}</ref>
+*[[Olivia Culpo]], model<ref name="Donate">{{cite news|url=https://www.newsweek.com/spencer-pratt-los-angeles-mayor-campaign-donations-celebrities-support-11947729|title=Spencer Pratt's Celebrity Supporters Aren't Donating to His Campaign|last=Fink|first=Jenny|work=Newsweek|date=13 May 2026}}</ref>
+*[[Johnny Devenanzio]], TV personality<ref>{{cite web |title= Johnny Bananas Throws Support Behind The Hills' Spencer Pratt as He Campaigns to Become L.A. Mayor |url= https://www.usmagazine.com/celebrity-news/news/johnny-bananas-supports-spencer-pratt-in-l-a-mayor-race/ |website=Us Weekly |access-date=3 May 2026 |date=1 May 2026}}</ref>
+*[[Doug Ellin]], screenwriter and director<ref name="Ellin">{{cite web |title='Entourage' creator backs Spencer Pratt for LA mayor, says city 'has collapsed' under current leadership |url=https://www.wwbl.com/2026/06/01/entourage-creator-backs-spencer-pratt-for-la-mayor-says-city-has-collapsed-under-current-leadership/ |website=The Bullet |access-date=1 June 2026 |language=en}}</ref>
+*[[David Foster]], music producer<ref name="davidfoster">{{cite web |last1=Adler |first1=Maxwell |title=David Foster's Latest Production: Spencer Pratt For Mayor |url=https://www.vanityfair.com/news/story/spencer-pratt-david-foster-fundraiser |website=Vanity Fair |date=14 May 2026}}</ref>
+*[[Kelsey Grammer]], actor<ref>{{cite news|last=Alston|first=Trey|url=https://www.complex.com/pop-culture/a/treyalston/kelsey-grammer-nickname-karen-bass|title=Kelsey Grammer Takes Aim at LA Mayor Karen Bass With Wild Nickname|work=[[Complex Networks|Complex]]|date=30 May 2026}}</ref>
+*[[Paris Hilton]], media personality<ref name="Donate"/>
+*[[Perez Hilton]], media personality<ref name="Donate"/>
+*[[Steve Hilton]], former director of strategy to the [[prime minister of the United Kingdom]] (2010–2012) and [[2026 California gubernatorial election|Republican nominee for governor of California]] in 2026<ref name="Grenell">{{cite web |last1=Landrum |first1=Jonathan |title=After losing home in wildfire, reality TV personality Spencer Pratt says he will run for LA mayor |url=https://apnews.com/article/los-angeles-mayor-spencer-pratt-wildfire-karen-bass-abd94ee1a9fd9c2b41efa2008bcc5ea9 |website=[[AP News]] |access-date=January 7, 2026 |date=January 7, 2026}}</ref>
+*[[Brody Jenner]], reality TV personality and model<ref name=celebs4pratt>{{Cite web |url=https://www.newsweek.com/celebrities-supporting-spencer-pratt-los-angeles-mayor-campaign-11331236 |title=Celebrities Supporting Spencer Pratt in Los Angeles Mayor Campaign |last=Fink |first=Jenni |language=en-US |date=January 8, 2026 |access-date=January 12, 2026 |website=[[Newsweek]]}}</ref>
+*[[Benny Johnson (columnist)|Benny Johnson]], conservative commentator<ref name=rscott/>
+*[[Kaskade]], DJ and music producer<ref name=celebs4pratt/>
+*[[Erika Kirk]], chairwoman and CEO of [[Turning Point USA]]<ref>{{cite web |title=Erika Kirk bashed for endorsing Spencer Pratt |url=https://www.yahoo.com/entertainment/celebrity/articles/erika-kirk-bashed-endorsing-spencer-192606886.html |website=Wonderwall |publisher=Yahoo |access-date=23 May 2026}}</ref>
+*[[Heather McDonald]], actress, comedian and author<ref>{{cite web |title=Heather McDonald Endorses Spencer Pratt's Race For L.A. Mayor |url=https://www.tmz.com/watch/heather-mc-donald-spencer-pratt-la-mayor-02-05-2026/ |website=TMZ |access-date=1 March 2026 |language=en}}</ref>
+*[[Katharine McPhee]], actress<ref>{{cite news | date = May 21, 2026 | title = Chrishell Stause Says Katharine McPhee Backs 'Problematic Men' ... After Spencer Pratt Endorsement | url = https://www.tmz.com/2026/05/21/chrishell-stause-tiktok-diss-to-katharine-mcphee-over-la-mayor/ | work = TMZ}}</ref><ref>{{cite news | date = May 21, 2026 | title = Katharine McPhee Responds To Chrishell Stause's Comments About Her Spencer Pratt Endorsement | url = https://www.yahoo.com/entertainment/videos/katharine-mcphee-responds-chrishell-stauses-013000074.html | work = NBC}}</ref>
+*[[Wendy Moniz]], actress<ref name=celebs4pratt/>
+*[[Heidi Montag]], TV personality and singer ''(candidate's wife)''<ref>{{Cite web |url=https://www.rte.ie/entertainment/2026/0108/1552046-reality-star-spencer-pratt-running-for-los-angel-mayor/ |title=Reality star Spencer Pratt running for Los Angeles mayor |date=January 8, 2026 |access-date=January 12, 2025 |work=[[RTÉ News]] |language=en-IE}}</ref>
+*[[Dennis Quaid]], actor<ref>{{cite web |title=Dennis Quaid backs Spencer Pratt for Los Angeles mayor |url=https://www.washingtontimes.com/news/2026/may/27/dennis-quaid-backs-spencer-pratt-los-angeles-mayor/ |website=The Washington Times |access-date=28 May 2026 |date=27 May 2026}}</ref>
+*[[Joe Rogan]], podcaster and comedian<ref name="joerogan">{{cite web |last1=Thomas |first1=Carly |title=Joe Rogan Backs Spencer Pratt's L.A. Mayor Campaign |url=https://www.hollywoodreporter.com/news/politics-news/joe-rogan-spencer-pratt-mayor-campaign-1236566113/ |website=The Hollywood Reporter |access-date=17 April 2026 |date=16 April 2026}}</ref>
+*[[Rob Schneider]], actor and comedian<ref>{{cite web |title=Rob Schneider endorses Spencer Pratt's mayoral run |url=https://www.yahoo.com/entertainment/celebrity/articles/rob-schneider-endorses-spencer-pratt-003106100.html |website=Yahoo Entertainment |access-date=2 June 2026 |date=2 June 2026}}</ref>
+*[[Tom Schwartz]], TV personality<ref name="Donate"/>
+*[[Patti Stanger]], matchmaker, businesswoman, and TV personality<ref>{{cite web |title= Spencer Pratt Runs for Los Angeles Mayor: Stars Reveal If They'd Vote for the Reality Star |url= https://www.usmagazine.com/celebrity-news/news/stars-reveal-if-theyd-vote-spencer-pratt-for-la-mayor/ |website=Us Weekly |access-date=3 May 2026 |date=30 April 2026}}</ref>
+*[[Jax Taylor]], model and actor<ref name="Donate"/>
+*[[Nick Viall]], actor<ref name=celebs4pratt/>
+*[[Torrie Wilson]], professional wrestler<ref>{{cite web |title=Torrie Wilson Endorses Spencer Pratt (Republican) For Mayor Of Los Angeles|url= https://www.ewrestlingnews.com/news/wwe/torrie-wilson-endorses-spencer-pratt-republican-for-mayor-of-los-angeles|website=EWRESTLINGNEWS|date=6 May 2026}}</ref>
+*[[James Woods]], actor<ref>{{cite news | last = Hazard | first = Charlotte | date = May 13, 2026 | title = Celebrities including Paris Hilton, Joe Rogan back Spencer Pratt in his bid for LA mayor | url = https://komonews.com/news/nation-world/celebrities-including-paris-hilton-joe-rogan-back-spencer-pratt-in-his-bid-for-la-mayor-selma-blair-los-angeles-lakers-palisades-fire | work = KOMO|archive-url=https://web.archive.org/web/20260519080429/https://komonews.com/news/nation-world/celebrities-including-paris-hilton-joe-rogan-back-spencer-pratt-in-his-bid-for-la-mayor-selma-blair-los-angeles-lakers-palisades-fire|archive-date=2026-05-19}}</ref>
+
+;Newspapers
+*''[[California Post]]''<ref>{{cite web |title=The California Post endorses Spencer Pratt for Los Angeles mayor |url=https://nypost.com/2026/05/22/opinion/the-california-post-endorses-spencer-pratt-for-los-angeles-mayor/ |website=California Post |access-date=22 May 2026 |date=22 May 2026}}</ref>
+*''[[Las Vegas Review-Journal]]''<ref>{{cite web |title=EDITORIAL: L.A. confidential: Better leadership is possible |url=https://www.reviewjournal.com/opinion/editorials/editorial-l-a-confidential-better-leadership-is-possible-3829104/ |website=Las Vegas Review-Journal |access-date=2 June 2026 |date=26 May 2026}}</ref>
+*''[[The Santa Clarita Valley Signal]]''<ref>{{cite web |title=Our View: Why You Should Care About LA Mayor Race, and Support Pratt |url=https://signalscv.com/2026/05/our-view-why-you-should-care-about-la-mayor-race-and-support-pratt/ |website=Santa Clarita Valley Signal |access-date=31 May 2026 |date=23 May 2026}}</ref>
+*''[[The Washington Times]]''<ref>{{cite web |title=L.A. needs an 'inexperienced' mayor like Spencer Pratt |url=https://www.washingtontimes.com/news/2026/jun/1/editorial-los-angeles-needs-inexperienced-mayor-like-spencer-pratt/ |website=The Washington Times |access-date=2 June 2026 |date=1 June 2026}}</ref>
+}}
+{{Endorsements box
+| title = Nithya Raman
+| list =
+;Executive branch officials
+*[[Jon Favreau (speechwriter)|Jon Favreau]], [[White House Director of Speechwriting]] (2009–2013)<ref name="Nithya">{{Cite web|url=https://nypost.com/2026/05/03/us-news/the-celebrities-backing-which-candidates-in-the-la-mayors-race/|title=Celebrities inject thousands into the LA Mayor’s race — here’s who’s backing whom|last=Kahn|first=Zain|date=May 3, 2026|access-date=September 11, 2026|website=[[New York Post]]}}</ref>
+;Individuals
+*[[Hannah Einbinder]], actress<ref>{{cite web |last1=Malkin |first1=Marc |title=Hannah Einbinder Speaks Out Against Spencer Pratt's Mayoral Campaign |url=https://au.variety.com/2026/biz/global/hannah-einbinder-speaks-out-spencer-pratt-mayor-37102/ |website=Variety Australia |access-date=31 May 2026 |date=29 May 2026 |quote=Einbinder says she was "pragmatic" in her thought process, leading her to endorse Nithya Raman over Rae Huang: "It’s very complicated. No one is perfect, there are no perfect candidates".}}</ref>
+*[[Christopher Lloyd (TV producer)|Christopher Lloyd]], producer<ref name="Nithya"/>
+*[[Paul Scheer]], actor<ref name="Nithya"/>
+*[[Michael Schur]], producer and director<ref name="Schur">{{cite web |last1=Patton |first1=Tess |title='The Good Place' Creator Mike Schur Endorses Nithya Raman for LA Mayor: 'Our Best Chance to Keep Hollywood' |url=https://www.thewrap.com/media-platforms/politics/mike-schur-endorses-nithya-raman-la-mayor-video/ |website=The Wrap |access-date=31 May 2026 |date=30 May 2026}}</ref>
+;Labor unions
+*[[United Auto Workers]] Region 6<ref>{{cite web |title=California |url=https://www.uawregion6.org/california |website=UAW Region 6 |access-date=1 June 2026 |quote=LA Mayor - Nithya Raman}}</ref>
+;Organizations
+*[[Abundant Housing LA]]<ref name="abundant">{{cite web |last1=Parise |first1=Taylor |title=L.A. Mayoral Candidates Clash Over Housing Crisis Debate |url=https://lamag.com/politics/mayoral-hopefuls-to-face-off-as-l-a-housing-crisis-deepens/ |website=LAmag |access-date=5 April 2026 |date=23 March 2026}}</ref>
+*[[New American Leaders|New American Leaders Action Fund]]<ref name="NALAF">{{cite web |title=2026 Endorsed Candidates |url=https://www.nalaf.org/2026-endorsed-candidates |website=New American Leaders Action Fund |access-date=1 May 2026}}</ref>
+*[[YIMBY#United States|YIMBY Los Angeles]]<ref>{{cite web |title=Primary Endorsements June 2026 |url=https://yimby.la/voter-guide/june-2026/ |website=YIMBY Los Angeles |access-date=31 July 2026}}</ref>
+}}
+
+===Fundraising===
+{| class="wikitable sortable"
+|-
+! colspan="6" |Campaign finance reports for the primary election
+|- style="text-align:center;"
+!Candidate
+!Raised
+!Matching funds
+!Spent
+!Cash on hand
+!Reported through
+|-
+|{{party shading/Nonpartisan}}|Karen Bass
+|$3,252,743
+|$1,257,000
+|$4,509,228
+|$24,800
+|October 17, 2026
+|-
+|{{party shading/Nonpartisan}}|Rae Huang
+|$322,120
+|$612,956
+|$767,778
+|$24,509
+|June 30, 2026
+|-
+|{{party shading/Nonpartisan}}|Adam Miller
+|$4,285,242
+|—
+|$4,163,870
+|$175,918
+|June 30, 2026
+|-
+|{{party shading/Nonpartisan}}|Spencer Pratt
+|$3,996,187
+|—
+|$3,737,543
+|$98,818
+|June 30, 2026
+|-
+|{{party shading/Nonpartisan}}|Nithya Raman
+|$1,015,075
+|$1,257,000
+|$2,355,691
+|$3,306
+|October 17, 2026
+|-
+! colspan="6" |<small>Source:<ref name="LAEthics">{{cite web|url=https://ethics.lacity.gov/elections#S276|title=2026 City and LAUSD Elections Totals By Seat: Mayor|publisher=[[Los Angeles City Ethics Commission]]|work=lacity.gov|access-date=30 October 2026}}</ref></small>
+|}
+
+=== Polling ===
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|Key:<br />A – all adults<br />RV – registered voters<br />LV – likely voters<br />V – unclear|name="Key"}}
+! Margin<br />{{nowrap|of error}}
+! style="width:60px;"| Karen<br />Bass
+! style="width:60px;"| Spencer<br />Pratt
+! style="width:60px;"| Nithya<br />Raman
+! style="width:60px;"| Adam<br />Miller
+! style="width:60px;"| Rae<br />Huang
+! Other
+! Undecided
+|-
+| style="text-align: left;" |[[Institute of Governmental Studies|Berkeley IGS]]<ref name="igsmay2026">{{Cite web |date=2026-05-28 |title=Poll shows Bass, Raman and Pratt locked in tight race ahead of Tuesday's mayoral primary |url=https://www.latimes.com/california/story/2026-05-28/poll-shows-bass-raman-pratt-in-tight-race-for-mayor |access-date=2026-05-28 |website=Los Angeles Times |language=en-US}}</ref>{{efn-ua|name="LA Times"|Poll sponsored by the ''[[Los Angeles Times]]''}}
+|May 19–24, 2026
+|1,351 (LV)
+|±&nbsp;3.0%
+|{{party shading/Nonpartisan}}|'''26%'''
+|22%
+|{{party shading/Nonpartisan}}|'''25%'''
+|5%
+|9%
+|–
+|10%
+|-
+|style="text-align:left;"|Cygnal (R)<ref>{{cite web |title=Survey of Likely Nonpartisan Primary Voters |url=https://www.cygn.al/wp-content/uploads/2026/05/Cygnal-LA-Mayor-Poll-1.pdf |publisher=Cygnal |access-date=May 21, 2026}}</ref>
+|May 15–18, 2026
+|500 (LV)
+|±&nbsp;4.4%
+|{{party shading/Nonpartisan}}|'''25%'''
+|{{party shading/Nonpartisan}}|'''22%'''
+|18%
+|5%
+|5%
+|–
+|25%
+|-
+|style="text-align: left;" |David Binder Research (D)<ref>{{cite tweet|user=PollTracker2024|number=2060398029304107044|title=David Binder Research poll|access-date=September 23, 2026}}</ref>{{efn-ua|name="Bass"|Poll sponsored by Bass's campaign}}
+|May 2026
+|–
+|–
+|{{party shading/Nonpartisan}}|'''38%'''
+|22%
+|{{party shading/Nonpartisan}}|'''24%'''
+|–
+|–
+|–
+|16%
+|-
+|style="text-align:left;" rowspan="2"|[[Emerson College]]<ref>{{cite web|url=https://emersoncollegepolling.com/california-2026-poll-becerra-continues-to-surge-steyer-and-hilton-compete-for-second-spot/|title= California 2026 Poll: Becerra Continues to Surge, Steyer and Hilton Compete for Second Spot|website=Emerson College Polling|date=May 13, 2026|access-date=May 13, 2026}}</ref>{{efn-ua|name="ICP"|Poll sponsored by Inside California Politics}}
+|rowspan="2"|May 9–10, 2026
+|rowspan="2"|1,000 (LV)
+|rowspan="2"|±&nbsp;3.0%
+|{{party shading/Nonpartisan}}|'''35%'''{{efn|name=lean|With voters who lean towards a given candidate}}
+|{{party shading/Nonpartisan}}|'''23%'''
+|{{party shading/Nonpartisan}}|'''23%'''
+|12%
+|5%
+|3%{{efn|"Someone else" with 3%}}
+|–
+|-
+|{{party shading/Nonpartisan}}|'''30%'''
+|{{party shading/Nonpartisan}}|'''22%'''
+|19%
+|7%
+|4%
+|0%{{efn|"Someone else" with 0%}}
+|16%
+|-
+|style="text-align:left;"|[[UCLA_Luskin_School_of_Public_Affairs|UCLA]]<ref>{{cite web |title=Volatility Ahead in LA Mayor’s Race; UCLA Luskin Poll Finds 40% of Voters Undecided |url=https://luskin.ucla.edu/volatility-ahead-in-la-mayors-race-ucla-luskin-poll-finds-40-of-voters-undecided | website= [[UCLA Luskin School of Public Affairs]] |access-date=6 April 2026 |date=3 April 2026}}</ref>
+|March 15–29, 2026
+|813 (LV)
+|±&nbsp;4.0%
+|{{party shading/Nonpartisan}}|'''25%'''
+|{{party shading/Nonpartisan}}|'''11%'''
+|9%
+|3%
+|3%
+|9%
+|{{party shading/Undecided}}|'''40%'''
+|-
+|style="text-align:left;"|[[Institute of Governmental Studies|Berkeley IGS]]<ref>{{cite web |last1=Goldberg |first1=Noah |title=Bass leads the field for L.A. mayor, but many voters view her unfavorably, poll finds |url=https://www.latimes.com/california/story/2026-03-22/bass-leads-field-for-la-mayor-but-many-voters-view-her-unfavorably-poll-finds |publisher=[[Los Angeles Times]] |access-date=24 March 2026 |date=22 March 2026}}</ref>{{efn-ua|name="LA Times"}}
+|March 9–15, 2026
+|840 (LV)
+|–
+|{{party shading/Nonpartisan}}|'''25%'''
+|14%
+|{{party shading/Nonpartisan}}|'''17%'''
+|6%
+|8%
+|4%
+|{{party shading/Undecided}}|'''26%'''
+|-
+|style="text-align:left;"|[[Emerson College]]<ref name="Poll1111">{{cite web |title=Poll shows majority of L.A. voters undecided about reelecting Mayor Karen Bass |url=https://ktla.com/news/politics/inside-california-politics/poll-shows-majority-of-l-a-voters-undecided-about-reelecting-mayor-karen-bass/ |website=KTLA |access-date=15 March 2026}}</ref>{{efn-ua|name="ICP"}}
+|March 7–9, 2026
+|1,000 (RV)
+|±&nbsp;5.2%
+|{{party shading/Nonpartisan}}|'''20%'''
+|{{party shading/Nonpartisan}}|'''10%'''
+|9%
+|4%
+|3%
+|3%{{efn|"Someone else" with 3%}}
+|{{party shading/Undecided}}|'''51%'''
+|}
+
+=== Results ===
+At the end of election night, Bass led with a plurality of votes, followed by Pratt with Raman in third, with only a fraction of ballots tabulated.<ref name=FayazCNN /> Over the next week, the additional tabulation of ballots narrowed the gap between Raman and Pratt, and the former eventually overtook the latter in vote totals.<ref name=FayazCNN /> With 93% of the vote tabulated on 8 June, election observers concluded that Bass and Raman advanced to a runoff election, with Pratt and all other candidates eliminated.<ref name=APResults>{{cite news|title=Los Angeles, CA Mayor election results|url=https://apnews.com/projects/elections-2026/los-angeles-california-general-results-mayor/|work=Associated Press|access-date=2026-06-08}}</ref><ref>{{cite news|url=https://www.nbcnews.com/politics/2026-election/nithya-raman-advances-spencer-pratt-face-l-mayor-karen-bass-runoff-rcna347483|title=Nithya Raman advances over Spencer Pratt to face L.A. Mayor Karen Bass in a runoff|work=NBC News|access-date=2026-06-08}}</ref><ref name=FayazCNN>{{cite news|url=https://www.cnn.com/2026/06/08/politics/nithya-raman-spencer-pratt-karen-bass-los-angeles-mayor-election|title=Nithya Raman will advance over Spencer Pratt to face Los Angeles Mayor Karen Bass in November, CNN projects|work=CNN|access-date=2026-06-08}}</ref>
+
+California's practice of incrementally counting ballots and broadcasting updates in daily batches triggered election conspiracists, including [[President of the United States|President]] [[Donald Trump]].<ref name=RectorTimes>{{Cite web|url=https://www.latimes.com/politics/story/2026-06-05/how-simple-mix-up-fueled-false-conspiracies-about-la-vote-count|title=How a misreading of data fueled false claims about L.A. mayoral vote count|date=June 6, 2026|website=Los Angeles Times}}</ref> In one batch update, a 41-second delay in the electronic broadcast of Pratt's vote totals relative to Bass's and Raman's led to claims of election fraud.<ref name=RectorTimes /> The LA County registrar's office confirmed to the ''Los Angeles Times'' that Pratt had received additional votes in every batch of updates during the count,<ref name=RectorTimes /> a fact with which the Trump-appointed US attorney [[Bill Essayli]] concurred.<ref name="IyerCNN">{{Cite web |last=Iyer |first=Kaanita |date=2026-06-06 |title=DOJ debunks social media claim of discrepancy in LA mayor vote count while Trump sows doubt in California’s elections {{!}} CNN Politics |url=https://www.cnn.com/2026/06/06/politics/los-angeles-mayor-race-social-media-claims |access-date=2026-06-10 |website=CNN |language=en}}</ref> The Sunday after the election, Pratt suggested that 43,000 [[Homelessness in Los Angeles|homeless people]] had inappropriately cast ballots for Raman.<ref>{{Cite news |last=Gorman |first=Steve |date=2026-06-08 |title=Trump steps up attacks on California's election system |url=https://www.reuters.com/world/us/trump-steps-up-attacks-californias-election-system-2026-06-09/ |access-date=2026-06-10 |work=[[Reuters]]}}</ref><ref name=HublerNYT /><ref name="AnguianoGuardian">{{cite news|last1=Anguiano|url=https://www.theguardian.com/us-news/2026/jun/09/spencer-pratt-la-mayor-election|title=How Spencer Pratt’s 'patently absurd' bid for Los Angeles mayor fell flat|first=Dani|date=2026-06-09|access-date=2026-06-10|work=[[The Guardian]]|last2=Ede-Osifo|first2=Uwa}}</ref> On the same day, Trump shut down an interview with [[Kristen Welker]] when she asked him to substantiate his claims of election fraud.<ref>{{Cite news |last=Tchekmediyan |first=Alene |date=2026-06-07 |title=Trump, after baselessly alleging fraud in California vote again, storms out of NBC interview |url=https://www.latimes.com/california/story/2026-06-07/president-trump-storms-off-meet-the-press |access-date=2026-06-10 |work=[[Los Angeles Times]]}}</ref> Federal House Speaker [[Mike Johnson]] also made insinuations of electoral fraud that he was unwilling to substantiate, saying that fraud was "impossible to prove" but could be detected "instinctively".<ref>{{Cite web|url=https://newrepublic.com/post/211544/mike-johnson-california-election-fraud-no-proof|title=Johnson Says California Election Fraud Is So Bad It Can’t Be Proven|via=The New Republic}}</ref>
+
+{{As of|2026|6|9|df=US}}, Pratt had yet to concede the race or fulfill his vow to leave Los Angeles if not elected.<ref name=AnguianoGuardian /> On June 11, Pratt asked online, "Are they done counting yet?"; the Associated Press estimated that by that point, 99% of the ballots had been counted and Pratt had received 25.5% of the votes compared to Raman's 29%.<ref name=BourisBeast>{{cite news|url=https://www.thedailybeast.com/maga-reality-candidate-spencer-pratt-speaks-out-after-shocker-loss/|title=MAGA Reality Candidate Speaks Out After Shock Loss|work=Daily Beast|last=Bouris|first=Catherine|date=2026-06-12}}</ref> On his syndicated television program, Los Angeles comedian [[Jimmy Kimmel]] announced that he had rented a [[moving truck]] on behalf of Pratt.<ref name=BourisBeast /> On June 12, Pratt released a video announcing that he was no longer encumbered by a campaign, and that "Angelenos are now stuck with two morons responsible for all their problems and now have to choose between dumb and dumber", apparently referring to Bass and Raman; independent observers interpreted the video as a concession.<ref name=KABC>{{Cite web |date=2026-06-12 |title=Spencer Pratt responds to L.A. mayoral race loss, says 'it's war' in new video |url=https://abc7.com/post/spencer-pratt-responds-los-angeles-mayoral-race-loss-video/19283238/ |access-date=2026-06-13 |website=ABC7 Los Angeles |language=en}}</ref><ref name=KarlamanglaNYT>{{Cite news |last=Karlamangla |first=Soumya |date=2026-06-12 |title=Despite Trump Claims, Spencer Pratt Seems to Accept L.A. Mayor Results |url=https://www.nytimes.com/2026/06/12/us/elections/spencer-pratt-la-mayor.html |access-date=2026-06-13 |work=The New York Times |language=en-US |issn=0362-4331}}</ref> Pratt also indicated he would not fulfill his vow to leave Los Angeles.<ref name=KABC />
+
+{{Election box begin no party no change|title=2026 Los Angeles mayoral election<ref name=NBCprimary>{{cite web |title=Los Angeles Mayor Primary Results 2026 |website=NBC News |date=June 2, 2026 |access-date=June 2, 2026 |url=https://www.nbcnews.com/politics/2026-primary-elections/los-angeles-mayor-results}}</ref><ref>{{cite web |last=Logan |first=Dean C. |title=Los Angeles County Election Results: June 2, 2026 Primary Certification |url=https://results.lavote.gov/#year=2026&election=4338:~:text=LOS%20ANGELES%20CITY%20PRIMARY%20NOMINATING%20ELECTION%20Mayor |website=Los Angeles County Registrar-Recorder/County Clerk |date=2026-06-26 |access-date=2026-06-29}}</ref>}}
+{{Election box winning candidate no party no change|candidate=[[Karen Bass]] (incumbent)|votes=292,593|percentage=34.3}}
+{{Election box winning candidate no party no change|candidate=[[Nithya Raman]]|votes=247,781|percentage=29.0}}
+{{Election box candidate no party no change|candidate=[[Spencer Pratt]]|votes=217,977|percentage=25.5}}
+{{Election box candidate no party no change|candidate=Adam Miller|votes=30,008|percentage=3.5}}
+{{Election box candidate no party no change|candidate=Rae Chen Huang|votes=25,220|percentage=3.0}}
+{{Election box candidate no party no change|candidate=Juanita Lopez|votes=13,032|percentage=1.5}}
+{{Election box candidate no party no change|candidate=Andrew Kim|votes=6,988|percentage=0.8}}
+{{Election box candidate no party no change|candidate=Suzy Kim|votes=6,051|percentage=0.7}}
+{{Election box candidate no party no change|candidate=Assad Alnajjar|votes=4,063|percentage=0.5}}
+{{Election box candidate no party no change|candidate=Bryant Acosta|votes=3,470|percentage=0.4}}
+{{Election box candidate no party no change|candidate=John Logsdon|votes=3,029|percentage=0.4}}
+{{Election box candidate no party no change|candidate=[[Tish Hyman]]|votes=1,640|percentage=0.2}}
+{{Election box candidate no party no change|candidate=Andrej Selivra|votes=1,159|percentage=0.1}}
+{{Election box candidate no party no change|candidate=Nelson Cheng|votes=881|percentage=0.1}}
+{{Election box total no party no change|votes=853,892|percentage=100.0}}
+
+[[File:Lamayorprimary.svg|200px|thumb|Primary results by precinct:
+{{collapsible list
+| title = {{legend|#9955FF|Bass}}|{{legend|#EEDCFF|20–30%}}|{{legend|#E6CDFF|30–40%}}|{{legend|#CCAAFF|40–50%}}|{{legend|#B380FF|50–60%}}|{{legend|#9955FF|60–70%}}|{{legend|#7A44CC|70–80%}}|{{legend|#5C3399|80–90%}}|{{legend|#3D2266|>90%}}|}}
+
+{{collapsible list
+| title = {{legend|#37C837|Raman}}|{{legend|#C0F0C0|20–30%}}|{{legend|#AAE5AA|30–40%}}|{{legend|#87DE87|40–50%}}|{{legend|#5FD35F|50–60%}}|{{legend|#37C837|60–70%}}|{{legend|#2CA02C|70–80%}}|{{legend|#217821|80–90%}}|{{legend|#165016|>90%}}|}}
+
+{{collapsible list
+| title = {{legend|#DEB02A|Pratt}}|{{legend|#FFEEAA|30–40%}}|{{legend|#FFDD55|40–50%}}|{{legend|#F1C92A|50–60%}}|{{legend|#DEB02A|60–70%}}|{{legend|#CE9B1E|70–80%}}|{{legend|#B98A35|80–90%}}|{{legend|#A58100|>90%}}|
+}}
+]]
+{{Election box end}}
+
+== Runoff ==
+The elimination of Pratt and other candidates set up a runoff election in which Raman challenged the incumbent Bass from the left.<ref name="HublerNYT">{{Cite news |last=Hubler |first=Shawn |date=2026-06-08 |title=Nithya Raman Secures Second LA Mayor Spot, Ending Spencer Pratt's Run |url=https://www.nytimes.com/2026/06/08/us/elections/nithya-raman-la-mayor-karen-bass.html |access-date=2026-06-10 |work=The New York Times |language=en-US |issn=0362-4331}}</ref><ref name=HublerNYT2>{{cite news|url=https://www.nytimes.com/2026/09/30/us/politics/los-angeles-mayor-bass-raman.html|title=Los Angeles Mayoral Candidates Vie for Undecided Voters|last=Hubler|work=New York Times}}</ref> While both candidates are [[Democratic Party (United States)|Democrats]], Raman is also a member of the [[Democratic Socialists of America]], and its Los Angeles chapter endorsed her on September{{nbsp}}2.<ref>{{Cite web |date=2026-06-08 |title=Nithya Raman advances over Spencer Pratt to face L.A. Mayor Karen Bass in a runoff |url=https://www.nbcnews.com/politics/2026-election/nithya-raman-advances-spencer-pratt-face-l-mayor-karen-bass-runoff-rcna347483 |access-date=2026-06-10 |website=NBC News |language=en}}</ref> Interviewed at the end of September, Bass continued to be haunted by the Palisades Fire and the [[2026 Boyle Heights warehouse fire]], while Raman was criticized for a previous appearance with left-wing commentator [[Hasan Piker]].<ref name="BloodAP">{{cite news|last=Blood|first=Michael|url=https://apnews.com/article/los-angeles-mayor-karen-bass-nithya-raman-8c9a5b5538d90719924c59b324f2fd0c|title=Raman stresses independence as rivals for LA mayor duel over homelessness, Israel|work=Associated Press|date=September 29, 2026}}</ref> At a forum in [[South Los Angeles|South LA]], the two agreed that the [[Los Angeles Homeless Services Authority]] had failed in its mission and should be jettisoned.<ref name=StoltzeLAist>{{cite news|work=LAist|url=https://laist.com/brief/news/politics/los-angeles-mayor-race-city-council-district-nine-forum-bass-raman-2026-november-election|title= Bass, Raman discuss cops, housing and homelessness|last=Stoltze}}</ref> Raman criticized Bass for being insufficiently aggressive in supporting [[Housing density|housing densification]]; Bass did not support [[SB 79]], which mandates multifamily housing construction near [[rail transit]].<ref name=StoltzeLAist />
+
+Mandated financing disclosures at the end of September, which included some contributions from before the primary election, revealed that Raman's campaign had received $3{{nbsp}}million from a [[hedge fund]] manager who wants more [[bicycle lanes]], and $3{{nbsp}}million from the Western States Regional Council of Carpenters, who felt spurned by the wage terms in one of Bass's previous housing directives.<ref name="GerdaLAist">{{cite news|url=https://laist.com/news/politics/la-mayor-race-bass-raman-donors-campaign-finance-sosnick-airbnb|last=Gerda|title=Donors pour millions more into LA mayor’s race, narrowing gap between Bass and Raman|first=Nick|work=Laist|date=September 25, 2026|last2=Moore|first2=Maloy}}</ref> Bass's campaign had received part of a $4{{nbsp}}million contribution from [[Airbnb]], which was currently in litigation with the city over alleged price gouging after the Palisades and Eaton Fires.<ref name=GerdaLAist /> The [[Los Angeles Police Department]] union spent $3{{nbsp}}million to oppose Raman and several other candidates.<ref name=GerdaLAist />
+
+=== Post-primary endorsements ===
+<!-- Endorsements that are already in the primary section should not be included here. This is for endorsements made after Bass and Raman advanced to the runoff. -->
+{{Endorsements box
+|title=Karen Bass
+|list=
+;Statewide officials
+*[[Fiona Ma]], [[California State Treasurer|treasurer of California]] (2019–present)<ref name="FMa">{{cite web |last1=Jones |first1=Blake |last2=White |first2=Jeremy B. |last3=Gardiner |first3=Dustin |last4=Mason |first4=Melanie |title=How SEIU-UHW scored big |url=https://www.politico.com/newsletters/california-playbook/2026/08/04/how-seiu-uhw-scored-big-01023500 |website=POLITICO |access-date=6 August 2026 |language=en |date=4 August 2026}}</ref>
+
+;Individuals
+*[[Anthony Anderson]], actor and television host<ref name="USATodaycelebs">{{cite web |last1=Barraza |first1=Paris |title=Jane Fonda, Anthony Anderson and more celebs wade into LA mayor race |url=https://www.usatoday.com/story/news/state/california/los-angeles/2026/10/23/celebrity-endorsements-nithya-raman-karen-bass-la-election/92395866007/ |website=[[USA Today]] |access-date=October 23, 2026 |date=October 23, 2026}}</ref>
+*[[Cedric the Entertainer]], actor and comedian<ref name="USATodaycelebs"/>
+*[[Yvette Nicole Brown]], actress<ref name="USATodaycelebs"/>
+
+;Individuals
+*[[Rick Caruso]], founder of [[Caruso (company)|Caruso]]<ref>{{cite web|url=https://www.latimes.com/california/story/2026-10-20/rick-caruso-has-extreme-concern-over-raman-but-declines-to-endorse-in-mayors-race|title=Rick Caruso has ‘extreme concern’ over Raman, but declines to endorse in mayor’s race|last=Luna|first=Itzel|date=October 20, 2026|access-date=October 22, 2026|website=[[Los Angeles Times]]}}</ref><ref name="BassCaruso">{{cite web|url=https://abc7.com/post/abc7-exclusive-rick-caruso-says-hes-voting-karen-bass-los-angeles-mayoral-race-la-mayor/19982383/|title=In ABC7 exclusive, Rick Caruso says he's voting for Karen Bass in Los Angeles mayoral race|last=Haskell|first=Josh|date=October 26, 2026|access-date=October 26, 2026|website=[[KABC-TV]]}}</ref>
+
+;Organizations
+*[[Black Economic Alliance]] PAC<ref>{{cite press release |title=BEA PAC Endorses Eight Candidates to Win Key Seats as Voters Head to the Polls |url=https://pac.blackeconomicalliance.org/press-release/bea-pac-endorses-eight-candidates-to-win-key-seats-as-voters-head-to-the-polls/ |publisher=[[Black Economic Alliance]] |access-date=October 23, 2026 |date=October 20, 2026}}</ref>
+
+;Newspapers
+*''[[JoongAng Ilbo#English and international issues|The Korea Daily]]''<ref>{{cite web |title=The Korea Daily's 2026 California Election Endorsements and Candidate Guide |url=https://en.koreadaily.com/2026-california-election-endorsements-korean-american-candidates/ |website=The Korea Daily |access-date=26 September 2026 |date=24 September 2026}}</ref>
+}}
+{{Endorsements box
+|title=Nithya Raman
+|list=
+;County officials
+*[[Lindsey Horvath]], [[Los Angeles County Board of Supervisors|Los Angeles County supervisor]] from the [[Los Angeles County Board of Supervisors#Supervisorial districts|3rd district]] (2022–present)<ref>{{cite web |last1=Zahniser |first1=David |title=Horvath backs Raman in mayor’s race, giving her a strong ally in the Valley and Westside |url=https://www.latimes.com/california/story/2026-10-20/lindsey-horvath-endorses-nithya-raman-for-mayor |website=Los Angeles Times |access-date=October 20, 2026 |date=October 20, 2026}}</ref>
+
+;Local officials
+*[[Rick Cole]], member of the [[Pasadena City Council]] (2024–present) and former deputy [[mayor of Los Angeles]] (2013–2015)<ref>{{cite web |last1=Goldberg |first1=Noah |title=Mayor Bass outpaces challenger Raman in fundraising, new campaign finance reports show |url=https://www.latimes.com/california/story/2026-08-01/campaign-finance-reports-mayor |website=[[Los Angeles Times]] |access-date=October 10, 2026 |date=August 1, 2026 |quote=She took in the maximum from Rick Cole, a former aide to City Controller Kenneth Mejia who serves as a council member in Pasadena and has been actively supporting Raman's campaign.}}</ref>
+*[[Laura Chick]], former [[City Controller of Los Angeles|city controller of Los Angeles]] (2001–2009)<ref name="LChick">{{cite web |title=Nithya Raman announces new endorsement |url=https://www.ourweekly.com/2026/09/11/nithya-raman-announces-new-endorsement/ |website=Our Weekly |access-date=16 September 2026 |date=11 September 2026}}</ref>
+*[[Kenneth Mejia]], [[City Controller of Los Angeles|city controller of Los Angeles]] (2022–present)<ref>{{cite web |title=LA city controller Kenneth Mejia endorses Nithya Raman for LA mayor |url=https://www.foxla.com/news/kenneth-mejia-endorses-nithya-raman-la-mayor |access-date=16 July 2026 |date=16 July 2026}}</ref>
+*[[Bernard C. Parks]], former [[Los Angeles City Council|city councilmember]] from the [[Los Angeles's 8th City Council district|8th district]] (2003–2015) and chief of the [[Los Angeles Police Department]] (1997–2002)<ref>{{cite web |last1=Jeong |first1=Helen |title=Rick Caruso criticizes Nithya Raman, stops short of endorsing Karen Bass |url=https://www.nbclosangeles.com/news/local/karen-bass-rick-caruso-pacific-palisades/3958521/ |website=[[KNBC]] |access-date=October 20, 2026 |date=October 20, 2026}}</ref>
+
+;Individuals
+*[[David Hogg]], co-founder of [[March for Our Lives]] and former vice chair of the [[Democratic National Committee]]<ref>{{cite web |author=David Hogg |title=Instagram post |url=https://www.instagram.com/p/DexavKXvIzQ/ |website=[[Instagram]] |date=October 21, 2026 |access-date=October 30, 2026 |quote=It's going to take a wave of youth voter turnout to elect Nithya.}}</ref>
+*[[Mindy Kaling]], actress<ref name="KalingScott">{{cite web |last1=Zeitchik |first1=Steven |title=Nithya Raman Promises She’ll Be a "Relentless Advocate" for Hollywood |url=https://www.hollywoodreporter.com/news/politics-news/nithya-raman-hollywood-position-karen-bass-polls-1236720525/ |website=[[The Hollywood Reporter]] |access-date=October 20, 2026 |date=October 1, 2026}}</ref>
+*[[Adam Scott]], actor<ref name="KalingScott" />
+
+;Labor unions
+*[[Committee of Interns and Residents]]<ref>{{cite web |title=Political Endorsements |url=https://www.cirseiu.org/vote/ |website=Committee of Interns and Residents |access-date=5 September 2026}}</ref>
+*[[International Brotherhood of Electrical Workers|Engineers and Architects Association]]<ref>{{cite web |title=EAA Union proudly endorses... |url=https://www.eaaunion.org/?pgid=mme7rvrr-c1b7b5d3-932f-4d80-a94f-816b9c0395ed |website=EAA Union |access-date=October 20, 2026}}</ref>
+*[[Transport Workers Union of America]]<ref name="NithyaEndorse">{{cite web |title=Endorsements |url=https://www.nithyaforthecity.com/endorsements |website=Nithya for the City |publisher=Nithya Raman for Mayor 2026 |access-date=October 30, 2026}}</ref>
+*[[Transportation Communications International Union|Transportation Communications Union/IAM]]<ref name="NithyaEndorse" />
+*[[UNITE HERE]] Local 11<ref name="UNITE">{{cite web |title=Raman gets key labor endorsement in mayor's race, although most unions are backing Bass |url=https://www.latimes.com/california/story/2026-09-01/raman-gets-key-labor-endorsement-in-mayors-race-although-most-unions-are-backing-bass |website=Los Angeles Times |access-date=2 September 2026 |date=1 September 2026}}</ref>
+*[[United Brotherhood of Carpenters and Joiners of America|Western States Regional Council of Carpenters]]<ref name="FMa"/>
+*[[Writers Guild of America West]]<ref>{{cite web |last1=Johnson |first1=Ted |title=Writers Guild Of America West Endorses Nithya Raman For L.A. Mayor |url=https://deadline.com/2026/09/wgaw-endorses-nithya-raman-1237112825/ |website=Deadline |access-date=25 September 2026 |date=24 September 2026}}</ref>
+
+;Organizations
+*[[California Environmental Voters]]<ref>{{cite web |title=Los Angeles Election 2026: Who to Vote For on Climate |url=https://envirovoters.org/los-angeles-election-2026/ |website=California Environmental Voters |date=October 8, 2026 |access-date=October 16, 2026}}</ref>
+*[[Council on American-Islamic Relations]]<ref>{{cite web |title=2026 California General |url=https://cairaction.org/wp-json/cair/v1/state-guide/CA-2026 |website=[[Council on American-Islamic Relations|CAIR]] Action |access-date=October 20, 2026 |format=PDF}}</ref>
+*[[Food and Water Watch|Food and Water Action]]<ref>{{cite press release |title=Food & Water Action Endorses Nithya Raman for Los Angeles Mayor |url=https://www.foodandwateraction.org/press/food-water-action-endorses-nithya-raman-for-los-angeles-mayor/ |publisher=[[Food and Water Watch|Food and Water Action]] |access-date=October 10, 2026 |date=September 30, 2026}}</ref>
+*[[Gen-Z for Change]]<ref>{{cite web |author=Gen-Z for Change |title=Instagram post |url=https://www.instagram.com/p/DfGdXd4J3D9/ |website=[[Instagram]] |date=October 30, 2026 |access-date=November 1, 2026 |quote=proud to endorse @nithyaforthecity to be the next mayor of Los Angeles}}</ref>
+*[[Los Angeles Democratic Socialists of America]]<ref>{{cite web |last1=Goldberg |first1=Noah |title=Democratic Socialists endorse Raman in L.A. mayoral race |url=https://www.latimes.com/california/story/2026-09-02/democratic-socialists-endorse-raman-in-la-mayoral-race |website=latimes.com |publisher=Los Angeles Times |access-date=2 September 2026}}</ref>
+*Los Angeles [[League of Conservation Voters]]<ref>{{cite press release |author=<!-- not stated --> |date=21 September 2026 |title=LALCV Endorses Nithya Raman for Mayor of Los Angeles |url=https://lalcv.org/lalcv-endorses-nithya-raman-for-mayor-of-los-angeles/ |publisher=Los Angeles [[League of Conservation Voters]] | access-date=27 September 2026 }}</ref>
+*[[Our Revolution]]<ref>{{cite web |title=Nithya Raman for Mayor of Los Angeles |url=https://ourrevolution.com/nithya-raman-for-mayor-of-los-angeles/ |website=Our Revolution |access-date=9 July 2026 |date=8 July 2026}}</ref>
+*[[Sierra Club]] Angeles Chapter<ref>{{cite web |title=Endorsements |url=https://www.sierraclub.org/angeles/endorsements |website=Sierra Club Angeles Chapter |publisher=[[Sierra Club]] |access-date=October 30, 2026}}</ref>
+*[[Sunrise Movement]]<ref name="NithyaEndorse" />
+
+;Political parties
+*California [[Working Families Party]]<ref>{{cite web |title=Our 2026 Candidates|url=https://workingfamilies.org/candidates/|access-date=September 2, 2026|website=Working Families Party}}</ref>
+}}
+
+=== Fundraising ===
+{| class="wikitable sortable" style="text-align:right;"
+|+ Campaign finance reports for the runoff election as of October 17, 2026
+! Candidate !! Raised !! Matching funds !! Spent !! Cash on hand
+|-
+| style="text-align:left;" | [[Karen Bass]] || $1,991,461 || $1,446,697 || $2,786,034 || $632,333
+|-
+| style="text-align:left;" | [[Nithya Raman]] || $1,505,815 || $1,507,000 || $1,692,227 || $1,378,319
+|-
+| colspan="5" style="text-align:left; font-size:90%;" | Source: <ref name="LAEthics" />
+|}
+
+
+=== Polling ===
+{| class="wikitable" style="font-size:90%; text-align:center;"
+|- style="vertical-align:bottom;"
+! scope="col" | Poll source
+! scope="col" | Date(s)<br />administered
+! scope="col" | Sample<br />size{{efn|name="Key"}}
+! scope="col" | Margin<br />of error
+! scope="col" style="width:100px;" | Karen<br />Bass
+! scope="col" style="width:100px;" | Nithya<br />Raman
+! scope="col" | Other
+! scope="col" | Undecided
+|-
+| style="text-align:left;" | [[Institute of Governmental Studies|Berkeley IGS]]<ref name="igsoct2026">{{cite news|url=https://www.nbclosangeles.com/elections/karen-bass-nithya-raman-la-mayor-election-poll/3962255/|title=Karen Bass, Nithya Raman in dead heat in race for LA mayor, poll says|last=Lloyd|first=Jonathan|date=October 28, 2026|access-date=October 30, 2026|website=[[NBC Los Angeles]]}}</ref>{{efn-ua|name="LA Times"}}
+| October 19–25, 2026
+| 2,197 (LV)
+| ±{{nbsp}}3%
+| {{party shading/Nonpartisan}} | '''40%'''
+| {{party shading/Nonpartisan}} | '''40%'''
+| {{sdash}}
+| 19%
+|-
+| style="text-align:left;" | [[John McLaughlin (pollster)|McLaughlin & Associates]] (R)<ref>{{cite web|url=https://nypost.com/2026/10/22/us-news/karen-bass-trails-nithya-raman-in-la-mayoral-poll-with-high-disapproval-rating/|title=LA voters scorch state of the city, huge number seriously considering leaving California: shock poll|last=Paige|first=Jamie|date=October 22, 2026|access-date=October 22, 2026|website=[[California Post]]}}</ref>{{efn-ua|Poll sponsored by the [[California Post]]}}
+| October 15–18, 2026
+| 400 (LV)
+| {{sdash}}
+| 39%
+| {{party shading/Nonpartisan}} | '''47%'''
+| {{sdash}}
+| 14%
+|-
+| style="text-align:left;" | Impact Research (D)<ref>{{cite news|url=https://www.politico.com/newsletters/california-playbook/2026/10/09/how-to-win-the-central-valley-01113264|title=How to win the Central Valley|date=October 9, 2026|work=California Playbook|publisher=[[Politico]]|access-date=October 16, 2026}}</ref>{{efn-ua|Poll sponsored by Estamos con Nithya for Mayor of LA 2026, which supports Raman}}
+| October 2–7, 2026
+| 773 (LV)
+| {{sdash}}
+| 33%
+| {{party shading/Nonpartisan}} | '''43%'''
+| {{sdash}}
+| 23%
+|-
+| style="text-align:left;" | FM3 Research (D)<ref>{{cite news|url=https://www.politico.com/newsletters/california-playbook/2026/10/08/kevin-kileys-survival-strategy-01111351|title=Kevin Kiley's survival strategy|date=October 8, 2026|work=California Playbook|publisher=[[Politico]]|access-date=October 16, 2026}}</ref>{{efn-ua|Poll sponsored by United Firefighters of Los Angeles City Local 112}}
+| September 25 – October 5, 2026
+| 594 (LV)
+| {{sdash}}
+| 33%
+| {{party shading/Nonpartisan}} | '''35%'''
+| {{sdash}}
+| 19%
+|-
+| style="text-align:left;" rowspan="2" | [[Manhattan Institute]]<ref>{{cite web|url=https://manhattan.institute/article/californias-contradictions-survey-analysis-of-2026-voter-preferences-statewide-and-in-los-angeles|title=California's Contradictions: Survey Analysis of 2026 Voter Preferences Statewide and in Los Angeles|last1=Arm|first1=Jesse|last2=Shor|first2=Matthew|last3=Abramson|first3=Karl|date=October 9, 2026|website=[[Manhattan Institute]]|access-date=October 16, 2026}}</ref>
+| rowspan="2" | September 24 – October 1, 2026
+| rowspan="2" | 449 (LV)
+| rowspan="2" | ±{{nbsp}}4.6%
+| 36%{{efn|name="Lean"|With voters who lean towards a given candidate}}
+| {{party shading/Nonpartisan}} | '''39%'''
+| 15%{{efn|"Neither/would not vote" with 15%}}
+| 10%
+|-
+| 32%
+| {{party shading/Nonpartisan}} | '''38%'''
+| {{sdash}}
+| {{sdash}}
+|-
+| style="text-align:left;" | FM3 Research (D){{citation needed|date=October 2026}}{{efn-ua|Poll sponsored by the Central City Association, which supports Bass}}
+| September 21–28, 2026
+| 809 (LV)
+| {{sdash}}
+| 35%
+| {{party shading/Nonpartisan}} | '''39%'''
+| {{sdash}}
+| 25%
+|-
+| style="text-align:left;" | [[Institute of Governmental Studies|Berkeley IGS]]<ref>{{cite web|url=https://www.latimes.com/california/story/2026-09-23/raman-takes-big-lead-over-bass-in-latest-poll-for-la-mayors-race|title=Raman takes big lead over Bass in latest poll for L.A. mayor’s race|last=Goldberg|first=Noah|date=September 23, 2026|access-date=September 23, 2026|website=[[Los Angeles Times]]}}</ref>{{efn-ua|name="LA Times"}}
+| September 15–20, 2026
+| 2,150 (LV)
+| ±{{nbsp}}3%
+| 28%
+| {{party shading/Nonpartisan}} | '''39%'''
+| {{sdash}}
+| 33%
+|-
+| style="text-align:left;" | Hart Research Associates (D)<ref>{{cite web|url=https://www.politico.com/f/?id=000001a0-bfe9-d2df-a1f4-ffefd9ac0000|title=Recent survey of Los Angeles voters shows Nithya Raman with lead at decisive point in campaign; large majorities of Angelenos reject Mayor Bass|publisher=Hart Research Associates|via=[[Politico]]|access-date=September 22, 2026}}</ref>{{efn-ua|Poll sponsored by Raman's campaign}}
+| September 1–9, 2026
+| 600 (LV)
+| ±{{nbsp}}4.1%
+| 39%
+| {{party shading/Nonpartisan}} | '''44%'''
+| {{sdash}}
+| 17%
+|-
+| style="text-align:left;" | Impact Research (D)<ref>{{cite web|url=https://www.politico.com/f/?id=000001a0-b235-da53-afe0-fbf557e80000|title=New Poll in LA Mayor's Race Shows Tied Race and Path to Victory for Raman|website=[[Politico]]|access-date=September 18, 2026}}</ref>{{efn-ua|Poll sponsored by Estamos con Nithya for Mayor of LA 2026 and the [[United Brotherhood of Carpenters and Joiners of America|Western States Regional Council of Carpenters]], which support Raman}}
+| August 28 – September 3, 2026
+| 700 (LV)
+| ±{{nbsp}}3.7%
+| {{party shading/Nonpartisan}} | '''38%'''
+| 37%
+| {{sdash}}
+| 26%
+|-
+| style="text-align:left;" rowspan="2" | Tavern Research (D)<ref>{{cite web|url=https://drive.google.com/file/d/1QVDxRxC0v8ZuoJuC3g_Z6xfI6J19PopY/view|title=Los Angeles Mayoral — State of the Race|date=September 21, 2026|access-date=September 23, 2026}}</ref>{{efn-ua|Poll was sponsored by Streets for All PAC, which supports Raman}}
+| rowspan="2" | August 20–25, 2026
+| rowspan="2" | 2,258 (LV)
+| rowspan="2" | ±{{nbsp}}3%
+| 47%{{efn|name="Lean"}}
+| {{party shading/Nonpartisan}} | '''53%'''
+| {{sdash}}
+| {{sdash}}
+|-
+| 32%
+| {{party shading/Nonpartisan}} | '''38%'''
+| {{sdash}}
+| 30%
+|-
+| style="text-align:left;" | David Binder Research (D)<ref>{{cite tweet|user=KarenBassLA|number=2102814537057763361|title=One outlier poll which got the June primary wrong, means very little with 40 days to go. This is going to be a close race, and we're in it to win. Let's get to work!|access-date=September 23, 2026}}</ref>{{efn-ua|name="Bass"}}
+| August 2026
+| {{sdash}}
+| {{sdash}}
+| {{party shading/Nonpartisan}} | '''35%'''
+| 33%
+| {{sdash}}
+| 24%
+|-
+| style="text-align:left;" | Tulchin Research (D)<ref>{{cite web|url=https://www.latimes.com/california/newsletter/2026-09-19/los-angeles-mayoral-ad-blitz-hollywood-ice-homelessness|title=L.A.’s mayoral ad blitz is here: Hollywood, ICE raids and homeless encampments|last1=Zahniser|last2=Goldberg|first1=David|first2=Noah|date=September 19, 2026|access-date=September 23, 2026|website=[[Los Angeles Times]]}}</ref>{{efn-ua|Poll sponsored by Neighborhoods for a Better L.A., which supports Bass}}
+| August 2026
+| 1,200 (LV)
+| ±{{nbsp}}2.8%
+| {{party shading/Nonpartisan}} | '''41%'''
+| 35%
+| {{sdash}}
+| 24%
+|- style="background:lightyellow;"
+| style="border-right-style:hidden;" |
+| style="border-right-style:hidden;" | June 2, 2026
+| colspan="6" | Bass and Raman advance to runoff
+|-
+| style="text-align:left;" | [[Institute of Governmental Studies|Berkeley IGS]]<ref name="igsmay2026"/>{{efn-ua|name="LA Times"}}
+| May 19–24, 2026
+| 1,913 (RV)
+| ±{{nbsp}}3%
+| 28%
+| {{party shading/Nonpartisan}} | '''32%'''
+| 25%{{efn|"Neither" with 25%}}
+| 15%
+|}
+<!-- = = = don't edit the line below = = = -->
+{{hidden begin|titlestyle=background:#cff|title=Hypothetical runoff polling|contentstyle=border:solid 1px silver; padding:8px; background:var(--background-color-base); color:var(--color-base);}}
+<!-- = = = don't edit the line above = = = -->
+'''Karen Bass vs. Spencer Pratt'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| Karen<br />Bass
+! style="width:100px;"| Spencer<br />Pratt 
+! Other
+! Undecided
+|-
+| style="text-align: left;" |[[Institute of Governmental Studies|Berkeley IGS]]<ref name="igsmay2026"/>{{efn-ua|name="LA Times"}}
+|May 19–24, 2026
+|1,913 (RV)
+|±{{nbsp}}3%
+|{{party shading/Nonpartisan}}|'''47%'''
+|22%
+|12%{{efn|"Neither" with 12%}}
+|12%
+|}
+'''Spencer Pratt vs. Nithya Raman'''
+{| class="wikitable" style="font-size:90%;text-align:center;"
+|- valign=bottom
+! Poll source
+! Date(s)<br />administered
+! Sample<br />size{{efn|name="Key"}}
+! Margin<br />of error
+! style="width:100px;"| Spencer<br />Pratt
+! style="width:100px;"| Nithya<br />Raman 
+! Other
+! Undecided
+|-
+| style="text-align: left;" |[[Institute of Governmental Studies|Berkeley IGS]]<ref name="igsmay2026"/>{{efn-ua|name="LA Times"}}
+|May 19–24, 2026
+|1,913 (RV)
+|±{{nbsp}}3%
+|28%
+|{{party shading/Nonpartisan}}| '''45%'''
+|11%{{efn|"Neither" with 11%}}
+|16%
+|}
+{{Hidden end}}
+
+==== False polling from Median Strategies ====
+Median Strategies was a company that initially described itself as a [[pollster]], and then as a "short term social experiment" after repeated media inquiries.<ref name="LATimes1">{{cite news |author1-last=Goldberg|author1-first=Noah|title=Poll showing Bass leading Raman by double digits was bogus, company says|date=2026-08-17 <!--12:22 PT-->|website=[[Los Angeles Times]] |url=https://www.latimes.com/california/story/2026-08-17/poll-showing-bass-leading-raman-by-double-digits-was-bogus-company-says|archive-url=https://web.archive.org/web/20260817202901/https://www.latimes.com/california/story/2026-08-17/poll-showing-bass-leading-raman-by-double-digits-was-bogus-company-says|archive-date=2026-08-17|access-date=2026-08-18|quote=A poll claiming Los Angeles Mayor Karen Bass was leading Councilmember Nithya Raman by a wide margin — and picking up support from most voters who backed Spencer Pratt in the mayoral primary — was bogus, the company behind the poll acknowledged Monday.}}</ref><ref name="TheHill1">{{cite news |author1-last=Mancini|author1-first=Ryan|title=Polling firm closes down after it faked Hong, Bass polls|date=2026-08-18 <!--13:29 ET-->|website=[[The Hill (newspaper)|The Hill]] |url=https://thehill.com/homenews/campaign/6035570-median-strategies-closes-fake-polls/|access-date=2026-08-18|quote=Median Strategies, the company that released polls showing Los Angeles Mayor Karen Bass (D) and former Wisconsin gubernatorial candidate Francesca Hong ahead with wide margins in their respective races, announced Monday it has closed.}}</ref> In August 2026, it released the purported results of a public opinion poll for the Los Angeles mayoral runoff election, before retracting its release days later, stating that "[a]ll previously published polling releases have been withdrawn and should not be cited or treated as genuine polling data". The false polling data stated that [[Karen Bass]] led [[Nithya Raman]] by 12 percentage points, and for the [[2026 Wisconsin gubernatorial election#Democratic primary|Democratic primary]] of the [[2026 Wisconsin gubernatorial election|Wisconsin gubernatorial election]], it stated that [[Francesca Hong]] led by 20 percentage points.<ref name="LATimes1"/><ref name="TheHill1"/><ref name="APNews1">{{cite news |author1-last=Peoples|author1-first=Steve|author2-last=Thomson-Deveaux|author2-first=Amelia|author3-last=Sweet|author3-first=Ken|title=Fake polling from mysterious company highlights danger of unvetted election surveys<!--|date=((c. 2026-08-18))-->|publisher=[[Associated Press]] |url=https://apnews.com/article/polling-poll-fake-median-karen-bass-los-angeles-669c90cc77664546791185625d43ffda|access-date=2026-08-18|quote=Median's 'findings' were shared by polling aggregation accounts on social media. They were not, however, included in the databases of major independent aggregators, including The New York Times, Real Clear Politics or FiftyPlusOne.}}</ref>
+
+The company acknowledged to reporters that the data was false, and following its admission, declared on August 17, 2026, that it was shutting down.<ref name="LATimes1"/><ref name="TheHill1"/> In a written statement, the company said "Median Strategies was created as a short term social experiment to examine how purported polling information could enter and spread through the political information ecosystem without independent verification",<ref name="LATimes1"/><ref name="TheHill1"/> but contemporaneous reporting did not indicate whether this sequence of events was the company's plan all along, or whether any [[survey research]] had ever been conducted by the company.
+
+Median Strategies released a statement on its website claiming "no individual involved held or traded any position in an election prediction market, betting market, or other financial instrument tied to the races covered by Median Strategies".<ref name="APNews1"/><ref>{{Cite web |last=Dayen |first=David |author-link=David Dayen |date=2026-08-19 |title=Fake Poll Scandal Has All the Earmarks of a Pump-and-Dump Scheme |url=https://prospect.org/2026/08/19/fake-poll-scandal-pump-and-dump-scheme-prediction-markets-los-angeles-mayor/ |access-date=2026-08-19 |website=The American Prospect |language=en-US}}</ref> The [[Associated Press]] evaluated the effect of the company's statements on betting markets and found that prediction markets saw small changes in price and significant numbers of trades in the 15 minutes immediately following the release of false polling data for the mayoral runoff election.<ref name="APNews1"/>
+
+Bass's campaign had initially celebrated the poll results, but after the revelation Bass called for prosecutions.<ref name="LATimes1"/><ref name="TheHill1"/> Raman's campaign criticized Bass's outfit for having initially promoted the so-called poll without vetting it.<ref name="LATimes1"/><ref name="TheHill1"/>
+
+It was later revealed that Median Strategies was created by 21-year-old Rahil Prakash, who was inspired to create it when [[Abdul El-Sayed]] won the [[2026 United States Senate election in Michigan#Democratic primary|Democratic primary]] for the [[2026 United States Senate election in Michigan|Michigan Senate election]] by a smaller margin than expected. Prakash wanted to test the pervasiveness of fake polls, and used [[Generative AI|artificial intelligence]] to create the website of Median Strategies. Prakash subsequently apologized to the campaigns of Bass, Raman, and [[Francesca Hong|Hong]].<ref>{{Cite news |last=Sullivan |first=Sophie |last2=Betts |first2=Anna |last3=Levine |first3=Sam |date=August 20, 2026 |title=Website behind widely shared fake election polls run by 21-year-old |url=https://www.theguardian.com/us-news/2026/aug/20/fake-polling-website-median-strategies |access-date=October 11, 2026 |work=[[The Guardian]] |language=en-GB |issn=0261-3077}}</ref>
+
+=== Debates ===
+{| class="wikitable"  style="text-align:center;"
+|+ class="nowrap" | 2026 Los Angeles mayoral election runoff debates
+|- style="font-size:small;"
+!scope="col"| Date
+!scope="col"| Host
+!scope="col"| Moderators
+!scope="col"| Location
+!scope="col"| Link
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+|-
+! colspan="5" rowspan="2" |Key: {{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small><br> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small>
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+|-
+! scope="col" | [[Karen Bass]]
+! scope="col" | [[Nithya Raman]]
+|-
+| Aug. 19, 2026<ref>{{Cite news |last=Stoltze |first=Frank |date=August 18, 2026 |title=Bass and Raman face off in first mayoral debate ahead of the general election |url=https://laist.com/news/politics/bass-and-raman-face-off-in-first-mayoral-debate-ahead-of-the-general-election |access-date=October 13, 2026 |website=[[LAist]]}}</ref>
+| Sherman Oaks Homeowners Association
+| Phil Shuman
+| Sherman Oaks East Valley Adult Center
+| [https://www.youtube.com/watch?v=fVzKUvSstY4&ra=m YouTube] 
+| {{YS|'''P'''}}
+| {{YS|'''P'''}}
+|-
+| Oct. 13, 2026<ref>{{Cite news |last=Lloyd |first=Jonathan |date=October 12, 2026 |title=Mayor Karen Bass, challenger Nithya Raman to meet in high-stakes election debate |url=https://www.nbclosangeles.com/news/local/karen-bass-nithya-raman-la-mayor-debate/3951691/ |access-date=October 13, 2026 |website=[[NBC Los Angeles]]}}</ref>
+| [[KNBC|NBC4]]<br />[[Telemundo 52]]
+| [[Colleen Williams]]<br />[[Conan Nolan]]<br />Alejandra Ortiz
+| [[Universal City, California|Universal City]]
+| [https://www.youtube.com/watch?v=mg8EOrjyMRk&pp=0gcJCY8Co7VqN5tD&ra=m YouTube]
+| {{YS|'''P'''}}
+| {{YS|'''P'''}}
+|}
+
+==== Forums ====
+{| class="wikitable"  style="text-align:center;"
+|+ class="nowrap" | 2026 Los Angeles mayoral election runoff forums
+|- style="font-size:small;"
+!scope="col"| Date
+!scope="col"| Host
+!scope="col"| Moderators
+!scope="col"| Location
+!scope="col"| Link
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+!scope="col"| <small>[[Non-partisan democracy|Nonpartisan]]</small>
+|-
+! colspan="5" rowspan="2" |Key: {{Colors|black|#90ff90|&nbsp;P&nbsp;}} <small>Participant&nbsp;</small> {{Colors|black|#CCFFCC|&nbsp;I&nbsp;}} <small>Invited {{color box|#f0e68c|W}} Withdrawn</small><br> {{Colors|black|#FFFFDD|&nbsp;A&nbsp;}} <small>Absent&nbsp;</small> {{Colors|black|#ff9090|&nbsp;N&nbsp;}} <small>Not invited&nbsp;</small>
+! scope="col" style="background:#CCCCCC;"|
+! scope="col" style="background:#CCCCCC;"|
+|-
+! scope="col" | [[Karen Bass]]
+! scope="col" | [[Nithya Raman]]
+|-
+| Sep. 29, 2026<ref>{{Cite news |last=Stoltze |first=Frank |date=September 30, 2026 |title=Bass and Raman differ over Gaza at Jewish Federation forum |url=https://laist.com/news/politics/karen-bass-nithya-raman-gaza-jewish-federation-forum |access-date=October 13, 2026 |website=[[LAist]]}}</ref>
+| [[Jewish Federations of North America|Jewish Federation Los Angeles]]
+| [[Alex Cohen]]
+| [[Skirball Cultural Center]]
+| [https://www.youtube.com/watch?v=6I7yezAbueM YouTube] 
+| {{YS|'''P'''}}
+| {{YS|'''P'''}}
+|}
+
+=== Results ===
+{{Election box begin no party no change|title=2026 Los Angeles mayoral election runoff<ref>{{Cite web |date=2026-11-01 |title=Los Angeles, CA Mayor Nonpartisan Runoff Election Election Live Results 2026 |url=https://apnews.com/projects/elections-2026/california-los-angeles-mayor-results/ |access-date=2026-11-04 |website=AP News |language=en}}</ref>}}
+{{Election box winning candidate no party no change|candidate=[[Nithya Raman]]|votes=615,264|percentage=54.9}}
+{{Election box candidate no party no change|candidate=[[Karen Bass]] (incumbent)|votes=504,959|percentage=45.1}}
+{{Election box total no party no change|votes=1,120,223|percentage=100.0}}
+{{Election box end}}
+
+== See also ==
+{{Portal|Greater Los Angeles}}
+*[[2026 Los Angeles elections]]
+*[[2026 Los Angeles County elections]]
+**[[2026 Los Angeles County Board of Supervisors election]]
+*[[2026 California elections]]
+**[[2026 California gubernatorial election]]
+*[[2026 United States local elections]]
+
+== Notes ==
+{{notelist}}
+'''Partisan clients'''<br />
+{{notelist-ua}}
+
+== References ==
+{{reflist}}
+
+==External links==
+*[https://www.latimes.com/politics/story/2026-06-04/primary-election-2026-map-mayor-neighborhood-results-precincts/ Los Angeles Times precinct level primary results map]
+'''Official campaign websites'''
+*[https://karenbass.com/ Karen Bass for Mayor]
+*[https://www.mayorpratt.com/ Spencer Pratt for Mayor]
+*[https://www.nithyaforthecity.com/ Nithya Raman for Mayor]
+
+{{2026 United States elections}}
+{{Elections in California footer}}
+
+{{DEFAULTSORT:Los Angeles mayoral election, 2026}}
+[[Category:2026 in Los Angeles|Mayoral election]]
+[[Category:2026 elections in California]]
+[[Category:Mayoral elections in Los Angeles|2026]]
+[[Category:2026 United States mayoral elections]]
+[[Category:June 2026 in the United States]]
+[[Category:November 2026 elections in the United States]]
+[[Category:Conspiracy theories promoted by Donald Trump]]

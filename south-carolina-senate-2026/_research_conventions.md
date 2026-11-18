@@ -134,14 +134,14 @@ every timeline, comparison table and coverage register. It has no counterpart in
 | Coverage item / 报道 | `COV-0001` |
 | Finance row / 财务行 | `AND-FIN-0001` / `GRA-FIN-0001` |
 | Speech analysis doc / 演讲分析文档 | `AND-SPC-####` matching its `speech_id` |
-| Source / 来源 | `SRC-0001` (single global sequence) |
+| Source / 来源 | `SRC-####` (single global sequence) |
 
 **SRC blocks (to avoid collisions, this replaces Case Study 001's staging-file reconciliation):**
 **SRC 号段（用于避免冲突；本档案以此取代案例研究 001 的过渡文件归并流程）：**
 
 | Stream / 线索 | Reserved `SRC-` block / 预留号段 |
 |---|---|
-| A — events / 事件 | `SRC-0001`–`SRC-0399` |
+| A — events / 事件 | `SRC-0001`–`SRC-0399` (block range; not a citation) |
 | B — candidates / 候选人 | `SRC-0400`–`SRC-0599` |
 | C — visual / 影像 | `SRC-0600`–`SRC-0799` |
 | D — speeches / 演讲 | `SRC-0800`–`SRC-1099` |

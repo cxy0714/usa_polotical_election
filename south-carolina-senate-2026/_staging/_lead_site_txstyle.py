@@ -104,6 +104,7 @@ DATASETS = [
 
 # path, section, en title, zh title
 DOCS = [
+    ("04_visual_archive/image_sources_and_licences.md", "visual", "Image sources and licences", "影像来源与许可"),
     ("08_comparative_analysis/candidate_comparison.md", "compare", "Candidate comparison", "候选人对比"),
     ("02_campaign_events/event_coverage_gaps.md", "sources", "Event coverage gaps", "活动覆盖缺口"),
     ("09_sources/data_dictionary_bilingual.md", "sources", "Data dictionary", "数据字典"),
@@ -445,8 +446,14 @@ def build():
         page_dir = os.path.join(SITE, sec)
         if sec == "visual":
             items = gallery_items()
+            news = [r for r in image_rows() if r["source_name"].startswith("SC Daily Gazette")]
             body += (f'<h2>照片 / Photographs</h2><p class="meta">{len(items)} files on disk, '
-                     f'shown at full size when clicked.</p>' + gallery_html(items, page_dir))
+                     f'shown at full size when clicked. '
+                     f'{len(items) - len(news)} from Wikimedia Commons (public domain or CC BY), '
+                     f'{len(news)} from the SC Daily Gazette (CC BY-ND, stored unmodified). '
+                     f'The remaining public sources were probed and are exhausted or copyrighted — '
+                     f'see the <a href="../docs/image_sources_and_licences.html">'
+                     f'sources note</a>.</p>' + gallery_html(items, page_dir))
             shown = {r["image_id"] for r, _ in items}
             absent = [r for r in image_rows() if r["image_id"] not in shown]
             if absent:

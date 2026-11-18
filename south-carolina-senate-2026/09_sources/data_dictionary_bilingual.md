@@ -180,7 +180,7 @@ conventions, not an accident.
 | `EXIT-####` | exit-poll subgroups |
 | `AND-SOC-####` | social entries created by the Lead |
 
-Source blocks: `SRC-0001–0399` candidate research, `0400–0599` candidate/positions stream,
+Source blocks (ranges, not citations): `0001–0399` candidate research, `0400–0599` candidate/positions stream,
 `0600–0799` visual stream, `0800–1099` speeches stream, `1100–1499` media/finance stream,
 `1500–1699` electoral stream, `1700–1899` video stream, `1900+` Lead research and the video
 corpus registered at `2200+`. Blocks are not contiguous: a stream that produced fewer sources than
