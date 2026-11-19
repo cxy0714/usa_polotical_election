@@ -6,6 +6,10 @@ money flows, and what the record does **not** show.
 
 八场 2026 年美国选举的双语原始史料档案，用于研究候选人如何呈现自己：他们说什么、站在哪里、舞台如何布置、资金如何流动，以及记录**没有**显示什么。
 
+**Live demo / 在线演示：<https://cxy0714.github.io/usa_polotical_election/>** ·
+[method and limits](https://cxy0714.github.io/usa_polotical_election/site/method.html) ·
+[eight-case portal](https://cxy0714.github.io/usa_polotical_election/site/index.html)
+
 ## What this repository is / 这是什么
 
 Each case folder reconstructs *the publicly documented campaign process* — documented events,
