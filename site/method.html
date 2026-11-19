@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方法与限制 · Method and limits — 2026 美国选举档案</title>
+<meta name="description" content="How the eight 2026 race archives were compiled: source tiers, citation rule, unknown policy, image and video layers, and what they cannot establish.">
+<style>
+  :root { color-scheme: dark; --bg:#12100e; --fg:#efe9df; --muted:#a89f92; --line:#332e28; --accent:#e8b96a; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family:"Source Serif 4", Georgia, "Songti SC", "Noto Serif CJK SC", serif; line-height:1.65; }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.4rem 4rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1 { font-size: 1.9rem; line-height:1.25; margin:0 0 .4rem; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; padding-bottom:.35rem; border-bottom:1px solid var(--line); }
+  p, li { color:#ded6c9; }
+  .lede { color:var(--muted); font-size:1.02rem; }
+  .en { color:var(--muted); }
+  code { background:#1d1a16; border:1px solid var(--line); border-radius:4px; padding:.05em .35em; font-size:.88em; }
+  .note { border-left:3px solid var(--accent); padding:.6rem .9rem; background:#191613; margin:1rem 0; }
+  table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.92rem; }
+  th, td { text-align:left; padding:.45rem .5rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  .back { display:inline-block; margin-bottom:1.6rem; font-size:.9rem; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="index.html">← 返回门户 / Portal</a>
+<h1>方法与限制<span class="en"> Method and limits</span></h1>
+<p class="lede">这八份档案只记录能被公开来源支持的陈述。每张表、每一行都可以追溯到一条
+<code>SRC-####</code> 编号；来源没有说的，字段写 <code>unknown</code>，不写猜测。</p>
+<p class="en">These eight archives record only what a public source supports. Every row carries a
+<code>SRC-####</code> citation to a URL in that case's <code>09_sources/sources.csv</code>. Where the
+source is silent the field reads <code>unknown</code> — never a guess.</p>
+
+<h2>1. 来源分层 / Source tiers</h2>
+<table>
+  <tr><th>Tier</th><th>是什么 / What</th><th>例子 / Examples</th></tr>
+  <tr><td><b>T1</b></td><td>官方记录：选举机构、国会、法院、财务申报</td>
+      <td>FEC filings, state canvasses, Senate roll calls, FEC candidate pages</td></tr>
+  <tr><td><b>T2</b></td><td>有编辑责任的新闻与专业媒体</td>
+      <td>AP, Reuters, statehouse bureaus, local television, trade press</td></tr>
+  <tr><td><b>T3</b></td><td>参考性与一手影像来源</td>
+      <td>Wikimedia Commons, Wikipedia (used only for pointer facts), campaign uploads</td></tr>
+</table>
+<p class="en">Tier is recorded per source; it is not a truth score. A T3 upload can be the only record
+of what a candidate said, while a T2 article can repeat a campaign claim without checking it.</p>
+
+<h2>2. 三类视觉证据 / Three classes of visual evidence</h2>
+<table>
+  <tr><th>Class</th><th>是什么 / What it is</th><th>如何标注 / How it is labelled</th></tr>
+  <tr><td><b>A</b></td><td>文本描述的舞台：文章或图注描述场景、背景、人群、着装</td>
+      <td>cited to the outlet; <code>unknown</code> where silent</td></tr>
+  <tr><td><b>B</b></td><td>对授权图像的直接观察</td>
+      <td>“observed in [IMG-id]” — one image, one date, not a general claim</td></tr>
+  <tr><td><b>C</b></td><td>品牌与图像符号：巡游名称、口号、广告创意</td>
+      <td>cited; interpretation prefixed <code>INTERPRETATION:</code></td></tr>
+</table>
+<p class="en">A sentence like “candidate X dresses minimally” is supportable only as a Class A
+statement from a retrieved source or a Class B observation tied to a named image. Otherwise the
+clothing field stays <code>unknown</code> — that is why most rows in this archive say exactly that.</p>
+
+<h2>3. 图像与视频层 / The image and video layers</h2>
+<p>新闻照片只记录文章 URL、图注与署名：照片本身多为版权保留，档案不复制文件，字段标为
+<code>all_rights_reserved_link_only</code>。只有公有领域或知识共享的肖像才真正下载保存。</p>
+<p class="en">Credited news photographs are stored as link and credit only
+(<code>all_rights_reserved_link_only</code>); the file is not copied. Only public-domain or
+Creative-Commons portraits are downloaded.</p>
+<p>视频层使用 YuNet 做人脸检测、SFace 与已授权肖像比对，判定门槛为余弦 ≥ 0.363 且领先第二名 ≥ 0.05，
+否则记 <code>unknown</code>。它回答的是“这一帧里更可能是谁”，不是“他穿了什么”。</p>
+<p class="en">The video layer runs YuNet face detection and SFace comparison against licensed
+portraits, with a cosine threshold of 0.363 and a 0.05 margin over the runner-up; anything below
+stays <code>unknown</code>. It answers “who is more likely in this frame”, not “what are they wearing”.</p>
+<div class="note">
+  <b>已知偏差 / Known bias.</b> 识别器只能在两位提名人之间二选一，主持人、代理人或观众会被归给较接近的一位；
+  参考肖像不足时覆盖率会明显下降（艾奥瓦的 Turek 只有一张合影作参考，一帧都未识别出）。
+  <span class="en">The recogniser is a two-class instrument: moderators, surrogates and crowd members are
+  assigned to whichever nominee is closer. Thin portrait supply lowers coverage sharply — Iowa's Turek
+  has one group photograph as reference and is never identified.</span>
+</div>
+
+<h2>4. 复现 / Reproduce</h2>
+<p>仓库自带校验与重建脚本，克隆后可直接跑：</p>
+<pre><code>python _tools/validate_case.py ohio-senate-2026   # header, vocab, SRC resolution
+python _tools/build_case_site.py ohio-senate-2026 # rebuild one case site
+python _tools/build_portal.py                     # rebuild the eight-case portal
+python _tools/live_check.py &lt;pages-url&gt;           # crawl the deployed demo</code></pre>
+<p class="en">Every published page is generated from the CSVs; nothing on the site is hand-edited.
+The audit trail of fetched pages lives under each case's <code>_staging/mirrors/</code> and is
+excluded from git (third-party publisher text), while <code>_staging/fetch_log.csv</code> records
+every URL, status code and saved file.</p>
+
+<h2>5. 这不是什么 / What this is not</h2>
+<ul>
+  <li>不是民调或预测模型；结果栏只记录已公布的计票。</li>
+  <li>不是“候选人形象”的论证；着装与舞台大多只能记 <code>unknown</code>。</li>
+  <li>不是完整新闻剪报库；每天新增的来源会改变计数，但不会改写已引用的行。</li>
+</ul>
+<p class="en">Not a poll or a forecast; not an argument about candidate image; not a complete press
+clipping library. Counts move as sources are added, but cited rows are not silently rewritten.</p>
+
+<footer>
+  <p>档案编译于 2026-11 · 数据截至最后一次提交 · 每一行都指向公开 URL</p>
+  <p class="en">Compiled 2026-11 · data as of the last commit · every row points to a public URL</p>
+  <p><a href="index.html">门户 / Portal</a> · <a href="https://github.com/cxy0714/usa_polotical_election">GitHub</a></p>
+</footer>
+</main>
+</body>
+</html>

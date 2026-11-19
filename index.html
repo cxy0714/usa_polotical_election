@@ -3,30 +3,87 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>2026 美国选举 · 原始资料档案 / 2026 US Races: Primary-Source Archive</title>
-<meta http-equiv="refresh" content="0; url=site/index.html">
-<link rel="canonical" href="site/index.html">
+<title>2026 美国选举 · 八场选战的影像与讯息档案 / 2026 US Races Archive</title>
+<meta name="description" content="八场 2026 美国选举的双语一手资料档案：候选人、活动、演讲、影像与视频关键帧、媒体、财务和结果，每一行都引用公开来源。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2026 美国选举 · 八场选战的影像与讯息档案">
+<meta property="og:description" content="Bilingual primary-source archives for eight 2026 US races. Every row cited; unsupported fields read unknown.">
 <style>
-  :root { color-scheme: dark; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
-         background: #12100e; color: #efe9df;
-         font-family: "Source Serif 4", Georgia, "Songti SC", serif; }
-  main { max-width: 34rem; padding: 2rem; line-height: 1.6; }
-  h1 { font-size: 1.5rem; margin: 0 0 .6rem; }
-  p { margin: 0 0 .8rem; color: #cfc6b8; }
-  a { color: #e8b96a; }
-  code { color: #cfc6b8; }
+  :root { color-scheme: dark; --bg:#12100e; --fg:#efe9df; --muted:#a89f92; --line:#332e28; --accent:#e8b96a; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family:"Source Serif 4", Georgia, "Songti SC", "Noto Serif CJK SC", serif; line-height:1.65; }
+  main { max-width: 52rem; margin:0 auto; padding: 4rem 1.4rem 3rem; }
+  .eyebrow { color:var(--accent); letter-spacing:.14em; text-transform:uppercase; font-size:.75rem; margin-bottom:1rem; }
+  h1 { font-size: clamp(1.9rem, 4vw, 2.9rem); line-height:1.18; margin:0 0 .7rem; font-weight:600; }
+  .zh { display:block; font-size:.58em; color:var(--muted); margin-top:.5rem; font-weight:400; }
+  .lede { font-size:1.06rem; color:#ded6c9; max-width:42rem; }
+  .lede.en { color:var(--muted); font-size:.98rem; }
+  .stats { display:flex; flex-wrap:wrap; gap:1.6rem; margin:2.2rem 0 1.6rem; }
+  .stat b { display:block; font-size:1.5rem; color:var(--accent); font-weight:600; }
+  .stat span { font-size:.8rem; color:var(--muted); letter-spacing:.03em; }
+  .cta { display:flex; flex-wrap:wrap; gap:.7rem; margin:0 0 2.6rem; }
+  .cta a { display:inline-block; padding:.62rem 1.05rem; border:1px solid var(--line); border-radius:6px;
+           color:var(--fg); text-decoration:none; font-size:.95rem; }
+  .cta a.primary { background:var(--accent); color:#1a1510; border-color:var(--accent); font-weight:600; }
+  .cta a:hover { border-color:var(--accent); }
+  h2 { font-size:1rem; color:var(--muted); font-weight:600; letter-spacing:.02em; margin:0 0 .8rem; }
+  .cases { display:grid; grid-template-columns:repeat(auto-fill, minmax(15rem, 1fr)); gap:.7rem; }
+  .case { border:1px solid var(--line); border-radius:8px; padding:.85rem 1rem; text-decoration:none; color:var(--fg); }
+  .case:hover { border-color:var(--accent); }
+  .case b { display:block; font-size:.98rem; }
+  .case small { color:var(--muted); font-size:.8rem; }
+  .rule { border:0; border-top:1px solid var(--line); margin:3rem 0 1.4rem; }
+  footer { color:var(--muted); font-size:.85rem; }
+  footer a { color:var(--accent); text-decoration:none; }
 </style>
 </head>
 <body>
 <main>
-  <h1>2026 美国选举 · 原始资料档案</h1>
-  <p>八场选举的双语一手资料：候选人、活动、演讲、影像、媒体、财务与结果，逐行可溯源到公开来源。</p>
-  <p lang="en">Primary-source archives for eight 2026 US races — candidates, events, speeches, visual
-     evidence, media, finance and results, with every row traceable to a public source.</p>
-  <p>正在进入 <a href="site/index.html">门户 / portal</a>…</p>
-  <p style="font-size:.85rem">打不开时请直接访问 <code>site/index.html</code>；
-     仓库见 <a href="https://github.com/cxy0714/usa_polotical_election">GitHub</a>。</p>
+  <p class="eyebrow">Public demo · 公开演示</p>
+  <h1>2026 美国选举：八场选战的影像与讯息档案
+    <span class="zh">Eight 2026 US races, one method: every row traces to a public source.</span>
+  </h1>
+  <p class="lede">德州参院、南卡参院、密歇根参院、阿拉斯加参院、艾奥瓦参院、俄亥俄参院、佐治亚参院、洛杉矶市长——
+  八份双语一手资料档案，记录候选人、活动、演讲、影像与视频关键帧、媒体、财务和已公布的计票结果。</p>
+  <p class="lede en">Eight bilingual primary-source archives built the same way: a <code>SRC-####</code>
+  citation on every row, a tier for every source, and <code>unknown</code> wherever the record is
+  silent. Includes credited news-photo captions and machine-identified video keyframes with stated
+  error limits.</p>
+
+  <div class="stats">
+    <div class="stat"><b>8</b><span>RACES / 场选举</span></div>
+    <div class="stat"><b>9,316</b><span>CSV ROWS / 数据行</span></div>
+    <div class="stat"><b>1,345</b><span>SOURCES / 来源</span></div>
+    <div class="stat"><b>228</b><span>VIDEO KEYFRAMES / 视频关键帧</span></div>
+    <div class="stat"><b>0</b><span>UNCITED ROWS / 无引证行</span></div>
+  </div>
+
+  <div class="cta">
+    <a class="primary" href="site/index.html">进入八案门户 / Open the portal</a>
+    <a href="site/method.html">方法与限制 / Method &amp; limits</a>
+    <a href="https://github.com/cxy0714/usa_polotical_election/blob/main/2026-image-and-message-notes.md">跨案研究笔记 / Research notes</a>
+    <a href="https://github.com/cxy0714/usa_polotical_election">GitHub 仓库 / Repository</a>
+  </div>
+
+  <h2>案件 / Cases</h2>
+  <div class="cases">
+    <a class="case" href="site/cases/texas/index.html"><b>Texas Senate</b><small>2026 德州联邦参议员</small></a>
+    <a class="case" href="site/cases/south-carolina/index.html"><b>South Carolina Senate</b><small>2026 南卡联邦参议员</small></a>
+    <a class="case" href="site/cases/michigan/index.html"><b>Michigan Senate</b><small>2026 密歇根联邦参议员</small></a>
+    <a class="case" href="site/cases/alaska/index.html"><b>Alaska Senate</b><small>2026 阿拉斯加联邦参议员</small></a>
+    <a class="case" href="site/cases/iowa/index.html"><b>Iowa Senate</b><small>2026 艾奥瓦联邦参议员</small></a>
+    <a class="case" href="site/cases/ohio/index.html"><b>Ohio Senate</b><small>2026 俄亥俄联邦参议员</small></a>
+    <a class="case" href="site/cases/georgia/index.html"><b>Georgia Senate</b><small>2026 佐治亚联邦参议员</small></a>
+    <a class="case" href="site/cases/los-angeles-mayor/index.html"><b>Los Angeles Mayor</b><small>2026 洛杉矶市长（复选）</small></a>
+  </div>
+
+  <hr class="rule">
+  <footer>
+    <p>编译于 2026-11 · 数据截至最后一次提交 · 新闻照片仅存链接与署名 · 未支持字段一律 <code>unknown</code></p>
+    <p>Compiled 2026-11 · data as of the latest commit · news photos are link-and-credit only ·
+       unsupported fields read <code>unknown</code> · <a href="site/method.html">method</a></p>
+  </footer>
 </main>
 </body>
 </html>
